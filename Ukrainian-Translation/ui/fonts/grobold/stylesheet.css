@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'groboldregular';
+    src: url('grobold-uk.woff') format('woff'),
+         url('grobold-uk.ttf') format('truetype'),
+         url('grobold-uk.svg#groboldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

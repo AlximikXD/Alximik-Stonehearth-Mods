@@ -1,0 +1,347 @@
+{
+  "data": {
+    "gm": {
+      "campaigns": {
+        "hunting": {
+          "wild_game_spawn": "🏹 Wild game has been tracked! 🏹",
+          "weekly_hunt": {
+            "common": {
+              "bulletin_title": "🏹 An opportunity for poaching! 🏹",
+              "accept": "✔️ Accept",
+              "reject": "❌ Decline",
+              "accept_reward": "Welcome back!",
+              "bulletin_title_return": "🏹 The Hunter returns! 🏹",
+              "return": "The Hunter returns bringing the spoils of their victories in distant lands:<font size=-4>",
+              "quest_text_level_2": "Select a Hunter (Level 2+) to go on this expedition.",
+              "quest_text_level_3": "Select a Hunter (Level 3+) to go on this expedition.",
+              "quest_text_level_4": "Select a Hunter (Level 4+) to go on this expedition.",
+              "quest_text_level_5": "Select a Hunter (Level 5+) to go on this expedition.",
+              "quest_text_level_6": "Select a Hunter (Level 6) to go on this expedition.",
+              "quest_bulletin_title": "🏹 Select a Hunter 🏹",
+              "large_reward": "...and some more!"
+            },
+            "small": {
+              "title": "Short Hunting Expedition",
+              "message": {
+                "01": "Some fresh tracks leading to a nearby river indicate that there might be a group of animals passing by the area, not far from our town. If they're heading to the river, it's likely that they might spend some time there. Nothing impressive but definitely good enough to get some additional pelts and food.<p>This expedition requires at least an apprentice Hunter (Level 2+) and should last a day or so.",
+                "02": "A passing traveler has hinted at a small band of animals not far into the wilderness. They were heading our way but it's likely that the animals will prefer to avoid getting close to the town - we could try going to them instead, even if not a big group it might still be worth it for the easy resources.<p>This expedition requires at least an apprentice Hunter (Level 2+) and should last a day or so.",
+                "03": "Some roots and plants were touched during the night, which probably indicates that some animals passed by the area. It's not a large group and can't really feed a town but there's a chance they're still around and perhaps this would be a good opportunity to get some extra resources.<p>This expedition requires at least an apprentice Hunter (Level 2+) and should last a day or so.",
+                "04": "Farmers from a nearby settlement have been complaining about their crops being attacked by small critters during the night. It seems like a small group of animals found a desirable place to stay and getting to them should be simple enough. A good chance to help both our town and their settlement.<p>This expedition requires at least an apprentice Hunter (Level 2+) and should last a day or so.",
+                "05": "There are lots of small animal tracks and droppings near the edges of our region, that's probably indication for a good hunting opportunity. Nothing too special, but probably worth it for the low effort it would need to find them and for how close they probably are.<p>This expedition requires at least an apprentice Hunter (Level 2+) and should last a day or so.",
+                "06": "There's good shade and a good source of water not far from our area, and it is possible that animals will appreciate that place around this time of the year. Going there shouldn't take long and is probably an interesting opportunity for some extra pelts and food.<p>This expedition requires at least an apprentice Hunter (Level 2+) and should last a day or so."
+              }
+            },
+            "medium": {
+              "title": "Hunting Expedition",
+              "message": {
+                "01": "A river not far from our town has plenty of vegetation around it and must be a very attractive place for small or medium animals. Going up the river for a couple of days might prove itself a profitable endeavor for acquiring pelts and meat - and the journey back can be shortened by rafting down its currents. <p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
+                "02": "There's a small woodland a day or so from our town that must be teeming with wildlife at this time of the year. It's possible that on a single afternoon a good amount of game can be hunted and then returned in the following morning. <p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
+                "03": "A traveling merchant has informed our town that they've spotted many animals down the road towards the capital, just a couple of days from us. Maybe this is a good opportunity to go on a hunting trip and possibly even get a ride back home with a caravan.<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
+                "04": "Neighbors from a nearby village have informed us that there seems to be a pack of animals roaming through their territory and they do not really possess the means to deal with them now. Maybe we could take this opportunity and share some of the trophies with them. We'd bring most of the goods home, of course.<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
+                "05": "Some tracks leading into the wild indicate that a sizable group of animals has passed through our lands recently. They're not so fresh, however, and chasing them might require a short trip - the benefits will probably compensate the effort, though.<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
+                "06": "Poachers from different towns have been exploiting a generous shrub land not so far from here. There's plenty for everyone and we could probably get some resources, pelts and meat for ourselves if we spend a couple of days on it as well.<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
+                "07": "There is a wild, untamed island nearby with lots of potential for hunting and fishing. Settling a small camp for trapping these animals might be a lot of work, however a single hunter could easily sail there and back with some game. Shouldn't take so long and is basically free of risks.<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
+                "08": "Migrants heading for another town have mentioned the presence of many animals grazing on a sea of hills not so far from us. Traveling there alone might take a day or so, but it shouldn't be difficult to locate them and bring home some extra supplies.<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days."
+              }
+            },
+            "large": {
+              "title": "Long Hunting Expedition",
+              "message": {
+                "01": "There is a very famous woodland inside the borders of the realm, known for its generous bounty and easy prey. A skilled and willing hunter could definitely invest some time into the journey but bring back resources, furs and meat pieces from big game. It can be worth it, even if a bit distant.<p>This expedition requires a master Hunter (Level 4+) and should last three days or more.",
+                "02": "The grazelands down by the river valleys are a popular and profitable hunting ground around this time of the year. They're not really close but the travel can be shortened by boat and roads. A hunter would enjoy this good opportunity to bring big game back to our town.<p>This expedition requires a master Hunter (Level 4+) and should last three days or more.",
+                "03": "There is plenty of wildlife and big game waiting for an arrow to fly true inside the forests down south. It's not an easy nor short trip, but a capable hunter would come back home loaded with meat and furs of the best quality.<p>This expedition requires a master Hunter (Level 4+) and should last three days or more.",
+                "04": "Since their own hunter and trapper re-embarked into new adventures, a relatively distant town known for their fruitful woods has stopped providing animal resources and goods. They might be waiting but nature won't, so it would be very profitable for our hunter to enter their territory and acquire some game while they're not at it.<p>This expedition requires a master Hunter (Level 4+) and should last three days or more.",
+                "05": "Not many animals roam the bogs that exist a day or so from our town - but when they do, they come in packs of large animals. It is believed that this weather is perfect for an expedition there, and it should have good returns for our town, even if a bit distant.<p>This expedition requires a master Hunter (Level 4+) and should last three days or more.",
+                "06": "There are lots of opportunities to be seized by following the river valleys up into the mountains. The whole circuit might take a few days to be completed, but a skilled hunter is bound to run into multiple big animal groups. A good opportunity for pelts and meat.<p>This expedition requires a master Hunter (Level 4+) and should last three days or more."
+              }
+            },
+            "huge": {
+              "title": "Great Hunting Expedition",
+              "message": {
+                "01": "Large groups of migrating animals march across the edges of the Darkmoor Forest around this time of the year. Many hunters from different lands will join the chase for big animals and great opportunities. It would be very wise to send our own.<p>This expedition requires a master Hunter (Level 5+) and should last several days.",
+                "02": "This season is famous for the great poaching opportunities deep inside the Valkyrie Woods. If they beat the cold and the wilderness, our hunter would return home loaded with resources like pelts and meat.<p>This expedition requires a master Hunter (Level 5+) and should last several days.",
+                "03": "As rare as it might be, hunting opportunities do exist in the vast deserts of Pal'Mum and this is such a time. Hunters from all the lands gather to tackle the migratory groups - and we should send our own as well.<p>This expedition requires a master Hunter (Level 5+) and should last several days.",
+                "04": "There's always game to be hunted on the tricky cliffs of the Whiterock Plateau, but there is a particular hunting season that calls out to all hunters due to its very profitable and thrilling adventure. They would come home full of loot!<p>This expedition requires a master Hunter (Level 5+) and should last several days."
+              }
+            },
+            "wolves": {
+              "title": "Keeping Wolves at Bay",
+              "message": {
+                "01": "Farmers from a small village are desperate over a pack of wolves that seems to be roaming their area, attacking at night and chasing down poyos and pets. Time to play the hero and do a good thing - while also bringing home some valuable furs!<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
+                "02": "Shepherds from the nearby mountains are having trouble to count their sheep... It seems their numbers go down every night, wolves howl across the valleys. Let's help these poor hermits by sending our hunter to do the right thing - and bring us some goods.<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
+                "03": "Travelers have reported a pack of wolves moving into our region in the last few nights. They're not a problem yet, but might be in the future. It would be wise to cull their numbers now. Wise and profitable.<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so."
+              }
+            },
+            "cougars": {
+              "title": "Chasing Big Cats",
+              "message": {
+                "01": "Large felines have been scaring the fisherfolk from the small settlements near the river. Chasing these big predators might require a lot of cunning and several days - but the rewards would be definitely worth it.<p>This expedition requires a master Hunter (Level 5+) and should last five days or so.",
+                "02": "Folk has been talking about huge cats tackling down people and animals near the edges of the warmer woods down south. These animals can be treacherous and a lot of skill is required, but a hunter could probably help them deal with the problem and bring us some resources all at once.<p>This expedition requires a master Hunter (Level 5+) and should last five days or so.",
+                "03": "The giant 'ball of yarn monument' that used to be the pride and joy of a neighboring market tall has disappeared! No one has any evidence, but our hunter is confident that such a disappearance could only be the work of cats. Very big cats. Hunting them down could provide us with many resources.<p>This expedition requires a master Hunter (Level 5+) and should last five days or so."
+              }
+            },
+            "alligators": {
+              "title": "Predators of the Wetlands",
+              "message": {
+                "01": "Living by the swamps is enough trouble already without varani crawling into your homes, but the friendly people from a nearby swamp village has a new concern in their heads. Let us help them get rid of this threat while also providing some valuable scaled skins and exotic meats.<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
+                "02": "Folks have been going around the major road that goes through the nearby wetlands only to avoid a big pack of varani that seem to have nested near the passage. Let's do the realm a favor and clean the roads for everyone's sake - and our own profits.<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
+                "03": "There's a tribe of friendly goblins in the swamps that calls themselves the Firefly clan. They're mostly wary of us but are having trouble with pesky varani. We could send out a hunter to practice a good deed, help them and get some resources for our town.<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so."
+              }
+            },
+            "zilla": {
+              "title": "The King of All Lizards",
+              "message": {
+                "01": "A terrible and fiery lizard is striking fear in the hearts of villagers from nearby towns. They're gathering a small militia to try to attack this 'Zilla' creature, but our hunter believes that a skilled shot when they least expect could do the work of an army. An opportunity for epic loot!<p>This expedition requires a grandmaster Hunter (Level 6) and will definitely last anything between four to six days.",
+                "02": "A great varanus surrounded in flames is spreading terror throughout the region. A 'Zilla' like this would usually require a small army to be defeated... or a stealth, true arrow to the heart. This can be a chance for valuable, epic loot!<p>This expedition requires a grandmaster Hunter (Level 6) and will definitely last anything between four to six days.",
+                "03": "A powerful beast known as a 'Zilla' has been sighted nearby and is causing panic and fires. Soldiers have been chasing it but it is likely that a single hunter with a strong enough arrow could save everyone the trouble. There's potential for epic loot in this trip.<p>This expedition requires a grandmaster Hunter (Level 6) and will definitely last anything between four to six days."
+              }
+            },
+            "legendary": {
+              "title": "Tracking the White Stag",
+              "message": {
+                "01": "Rumors are spreading about a mythical, beautiful stag white as snow roaming the nearby woods. Hunters from all over the world will try to chase this legendary prize, and it's up to us to try and fetch it for our town. The great hunt begins.<p>This expedition requires a grandmaster Hunter (Level 6) and it's impossible to predict how long it will take.",
+                "02": "Legend says that a gorgeous white stag will bathe under the moonlight by the tallest peak across the river valley at this time of the year. This would be a legendary trophy to immortalize our town in the history of big game hunting.<p>This expedition requires a grandmaster Hunter (Level 6) and it's impossible to predict how long it will take.",
+                "03": "A legendary stag with silver fur and deep-blue eyes was sighted near our town. If the tales are true, the hunter that brings home this trophy will become a living legend. We must chase this trail, no matter how costly it is!<p>This expedition requires a grandmaster Hunter (Level 6) and it's impossible to predict how long it will take."
+              }
+            }
+          }
+        }
+      }
+    },
+    "buffs": {
+      "hunting": {
+        "display_name": "Call of the Hunter",
+        "description": "Increases Speed, Courage and Stamina"
+      },
+      "clean_shot_1": {
+        "display_name": "Clean Kill (Rank 1)",
+        "description": "Slightly increases Damage and Attack Range"
+      },
+      "clean_shot_2": {
+        "display_name": "Clean Kill (Rank 2)",
+        "description": "Greatly increases Damage and Attack Range"
+      },
+      "dog_companion": {
+        "display_name": "Dog Companion",
+        "description": "This Hunter enjoys the company of a best friend"
+      },
+      "journeyman_hat": {
+        "display_name": "Journeyman's Knowledge",
+        "description": "Speed and Diligence are slightly improved."
+      },
+      "master_hat": {
+        "display_name": "Master's Knowledge",
+        "description": "Speed, Willpower and Diligence are increased."
+      },
+      "legendary_hat": {
+        "display_name": "Legendary Hunter",
+        "description": "Damage, Speed, Willpower and Diligence are greatly increased."
+      },
+      "sicd": {
+        "display_name": "Sic'd!",
+        "description": "Immobilized by the precise bite of a hunting dog."
+      },
+      "hunt_tired": {
+        "display_name": "Traveling Weariness",
+        "description": "This hearthling is tired after a successful hunting expedition. Speed and Diligence are reduced. Sleepiness will increase faster."
+      }
+    },
+    "happiness": {
+      "thoughts": {
+        "hunt": {
+          "values": {
+            "regular": {
+              "display_name": "Successful Hunt",
+              "tooltip": "Nothing like coming back home with a lot of loot!"
+            },
+            "wolves": {
+              "display_name": "In Defense of Others",
+              "tooltip": "We really handled those pesky wolves - and I got some loot for our town!"
+            },
+            "cougars": {
+              "display_name": "Big Game Hunter",
+              "tooltip": "We chased down and slaughtered those big cats! What a triumphant hunt!"
+            },
+            "alligators": {
+              "display_name": "Saving the Wetlands",
+              "tooltip": "It was a difficult hunt... But we succeeded and those varani will never bother anyone else!"
+            },
+            "zilla": {
+              "display_name": "Reptile Kingslayer",
+              "tooltip": "What a dangerous pursuit! But the terrible reign of the Zilla is now over..."
+            },
+            "legendary": {
+              "display_name": "Legendary Hunter",
+              "tooltip": "I've pursued, trapped and defeated a great, glorious beast. I am become legend, the greatest hunter of the land."
+            }
+          }
+        }
+      }
+    }
+  },
+  "ui": {
+    "game": {
+      "menu": {
+        "harvest_menu": {
+          "items": {
+            "box_hunt": {
+              "display_name": "Hunt",
+              "description": "Mark specific animals for hunting",
+              "na_description": "Mark specific animals for hunting. Northern Alliance Archers are also able to hunt the animals marked with this tool",
+              "tip_title": "Click and drag to mark them",
+              "tip_description": "Right click to exit this mode",
+              "required_job_text": "Requires a Hunter"
+            }
+          }
+        }
+      }
+    }
+  },
+  "jobs": {
+    "hunter": {
+      "hunter_description": {
+        "display_name": "Hunter",
+        "description": "Armed with bow and arrow, the Hunter provides your town with game, pelts and other resources by tracking and killing wild animals.",
+        "requirements": "Crafted by Carpenter",
+        "level_1_data": {
+          "hunting_perk": {
+            "name": "Call of the Hunter",
+            "description": "While still able to place and check traps in trapping zones, the Hunter will also go after designated targets and actively track down wildlife, providing occasional game to be spotted.<br><br>Targets can be designated with the Hunt command under the Harvest menu."
+          },
+          "tracking_1_perk": {
+            "name": "Apprentice Tracker",
+            "description": "The Hunter is able to track down small animals like squirrels or rabbits."
+          }
+        },
+        "level_3_data": {
+          "tracking_2_perk": {
+            "name": "Journeyman Tracker",
+            "description": "The Hunter is able to track down medium animals like foxes or deer."
+          },
+          "camping_perk": {
+            "name": "Camping",
+            "description": "Hunting Camps can be crafted by the Weaver and placed anywhere on the world.<br><br>Whenever wild animals spawn near a Hunting Camp, they will be automatically marked for hunting."
+          }
+        },
+        "level_5_data": {
+          "tracking_3_perk": {
+            "name": "Master Tracker & Poaching",
+            "description": "The Hunter is able to track down - and hunt - pretty much any kind of animal, even large predators.<br><br>Their exceptional tracking skills also allow them to occasionally go on special hunting trips outside of your own territory."
+          }
+        },
+        "level_2_data": {
+          "clean_shot_1_perk": {
+            "name": "Clean Kill (Rank 1)",
+            "description": "The Hunter has increased damage and range, making sure that the animal can be killed with less effort."
+          }
+        },
+        "level_4_data": {
+          "clean_shot_2_perk": {
+            "name": "Clean Kill (Rank 2)",
+            "description": "The Hunter has the best damage and range, swiftly finishing off most animals with no suffering or effort."
+          }
+        },
+        "level_6_data": {
+          "dog_companion_perk": {
+            "name": "Dog Companion",
+            "description": "The Hunter acquires a loyal companion that will assist them during their hunts.<br><br>Dog companions will chase prey and - although they have no damage output - they are very fast and will slow down their targets.<br><br>While hunting alongside their dog companion, all the resources dropped by the killed animals will be automatically moved to a Hunting Camp if available."
+          }
+        }
+      },
+      "freezing_hunter_outfit": {
+        "display_name": "Hunter Fur Cape",
+        "description": "A heavy and thick layer of protection for the Hunter to do their job during the winter!",
+        "flavor": "Bears are a terrible camouflage for the winter... No one expects to see them out and about!"
+      }
+    },
+    "carpenter": {
+      "recipes": {
+        "hunting_bow_recipe": {
+          "recipe_name": "Hunter's Bow",
+          "description": "Required to promote a hearthling into a Hunter.",
+          "flavor": "A simpler bow that can be more easily handled. Good enough for wild animals"
+        },
+        "hunting_bow_2_recipe": {
+          "recipe_name": "Improved Hunting Bow",
+          "description": "A better and more reliable tool for the Hunter.",
+          "flavor": "Very effective against animals but not really reliable for combat."
+        }
+      }
+    },
+    "weaver": {
+      "recipes": {
+        "hunting_camp_recipe": {
+          "recipe_name": "Hunting Camp",
+          "description": "While placed, recently tracked animals inside its range will be automatically marked to be hunted.",
+          "flavor": "A Level 6 Hunter can also utilize a Hunting Camp's storage capabilities"
+        },
+        "journeyman_hat_recipe": {
+          "recipe_name": "Journeyman Hunter's Hat",
+          "description": "Can be worn by a Journeyman Hunter to slightly increase Diligence and Speed.",
+          "flavor": ""
+        },
+        "master_hat_recipe": {
+          "recipe_name": "Master Hunter's Hat",
+          "description": "Can be worn by a Master Hunter to increase Diligence, Willpower and Speed.",
+          "flavor": "Hunt or be hunted"
+        }
+      }
+    },
+    "trapper": {
+      "recipes": {
+        "hunting_bow_recipe": {
+          "recipe_name": "Hunter's Bow",
+          "description": "Required to promote the Trapper into a Hunter.",
+          "flavor": "A simpler bow that can be more easily handled. Good enough for wild animals"
+        }
+      }
+    }
+  },
+  "entities": {
+    "weapons": {
+      "hunting_bow": {
+        "display_name": "Hunting Bow",
+        "description": "Simpler bow used for hunting wildlife.",
+        "talisman": {
+          "display_name": "Hunter's Bow",
+          "description": "Required to promote a Trapper to a Hunter."
+        }
+      },
+      "hunting_bow_2": {
+        "display_name": "Improved Hunting Bow",
+        "description": "A better bow for hunting wildlife."
+      },
+      "hunting_arrow": {
+        "display_name": "Hunting Arrow",
+        "description": "Providing for the town."
+      }
+    },
+    "containers": {
+      "hunting_camp": {
+        "display_name": "Hunting Camp",
+        "description": "Automatically marks nearby tracked animals to be hunted."
+      }
+    },
+    "dog_companion": {
+      "display_name": "Hunting Dog",
+      "description": "A Hunter's former best friend."
+    }
+  },
+  "hunter": {
+    "journeyman_hat": {
+      "display_name": "Journeyman Hunter's Hat",
+      "description": "Provides the Hunter with some extra attributes when worn.",
+      "worn_description": "Slightly increasing Diligence and Speed."
+    },
+    "master_hat": {
+      "display_name": "Master Hunter's Hat",
+      "description": "Provides the Hunter with extra attributes when worn.",
+      "worn_description": "Increasing Diligence, Willpower and Speed."
+    },
+    "legendary_hat": {
+      "display_name": "Legendary Hunter's Hat",
+      "description": "The most epic trophy for the greatest hunter.",
+      "worn_description": "Greatly increasing Damage, Diligence, Willpower and Speed."
+    }
+  }
+}

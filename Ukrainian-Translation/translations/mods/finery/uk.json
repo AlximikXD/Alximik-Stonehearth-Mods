@@ -1,0 +1,1210 @@
+{
+  "ui": {},
+  "entities": {
+    "containers": {
+      "bar_corner_acacia": {
+        "description": "Висока барна кутова шафа з дерева акації.",
+        "display_name": "Acacia Bar Corner",
+        "recipe_name": "Acacia Bar Corner",
+        "flavor": "Зберігає 24 предмети."
+      },
+      "bar_corner_cactus": {
+        "description": "Висока барна кутова шафа з кактусового дерева.",
+        "display_name": "Cactus Bar Corner",
+        "recipe_name": "Cactus Bar Corner",
+        "flavor": "Зберігає 24 предмети."
+      },
+      "bar_corner_juniper": {
+        "description": "Висока барна кутова шафа з деревини ялівцю.",
+        "display_name": "Ялівець Бар Корнер",
+        "recipe_name": "Ялівець Бар Корнер",
+        "flavor": "Зберігає 24 предмети."
+      },
+      "bar_corner_oak": {
+        "description": "Висока барна кутова шафа з дуба.",
+        "display_name": "Дубовий барний куточок",
+        "recipe_name": "Дубовий барний куточок",
+        "flavor": "Зберігає 24 предмети."
+      },
+      "bar_corner_palm": {
+        "description": "Висока барна кутова шафа з пальмового дерева.",
+        "display_name": "Palm Bar Corner",
+        "recipe_name": "Palm Bar Corner",
+        "flavor": "Зберігає 24 предмети."
+      },
+      "bar_corner_pine": {
+        "description": "Висока барна кутова шафа з сосни.",
+        "display_name": "Сосновий барний куточок",
+        "recipe_name": "Сосновий барний куточок",
+        "flavor": "Зберігає 24 предмети."
+      },
+      "bar_corner_short_acacia": {
+        "description": "Поясна кутова шафа з деревини акації.",
+        "display_name": "Acacia Bar Short Corner",
+        "recipe_name": "Acacia Bar Short Corner",
+        "flavor": "Зберігає 16 речей."
+      },
+      "bar_corner_short_cactus": {
+        "description": "Поясна кутова шафа з кактусового дерева.",
+        "display_name": "Короткий кутовий бар «Кактус».",
+        "recipe_name": "Короткий кутовий бар «Кактус».",
+        "flavor": "Зберігає 16 речей."
+      },
+      "bar_corner_short_juniper": {
+        "description": "Поясна барна кутова шафа з деревини ялівцю.",
+        "display_name": "Juniper Bar Short Corner",
+        "recipe_name": "Juniper Bar Short Corner",
+        "flavor": "Зберігає 16 речей."
+      },
+      "bar_corner_short_oak": {
+        "description": "Поясна кутова шафа з дуба.",
+        "display_name": "Короткий кутовий дубовий бар",
+        "recipe_name": "Короткий кутовий дубовий бар",
+        "flavor": "Зберігає 16 речей."
+      },
+      "bar_corner_short_palm": {
+        "description": "Поясна кутова шафа з пальмового дерева.",
+        "display_name": "Palm Bar Короткий кут",
+        "recipe_name": "Palm Bar Короткий кут",
+        "flavor": "Зберігає 16 речей."
+      },
+      "bar_corner_short_pine": {
+        "description": "Поясна барна кутова шафа з сосни.",
+        "display_name": "Pine Bar Short Corner",
+        "recipe_name": "Pine Bar Short Corner",
+        "flavor": "Зберігає 16 речей."
+      },
+      "bar_storage_acacia": {
+        "description": "Висока барна шафа з дерева акації.",
+        "display_name": "Барна шафа Акація",
+        "recipe_name": "Барна шафа Акація",
+        "flavor": "Зберігає 24 предмети."
+      },
+      "bar_storage_cactus": {
+        "description": "Висока барна шафа з кактусового дерева.",
+        "display_name": "Барна шафа «Кактус».",
+        "recipe_name": "Барна шафа «Кактус».",
+        "flavor": "Зберігає 24 предмети."
+      },
+      "bar_storage_juniper": {
+        "description": "Висока барна шафа з деревини ялівцю.",
+        "display_name": "Барна шафа Ялівець",
+        "recipe_name": "Барна шафа Ялівець",
+        "flavor": "Зберігає 24 предмети."
+      },
+      "bar_storage_oak": {
+        "description": "Висока барна шафа з дуба.",
+        "display_name": "Дубова барна шафа",
+        "recipe_name": "Дубова барна шафа",
+        "flavor": "Зберігає 24 предмети."
+      },
+      "bar_storage_palm": {
+        "description": "Висока барна шафа з пальмового дерева.",
+        "display_name": "Шафа Palm Bar",
+        "recipe_name": "Шафа Palm Bar",
+        "flavor": "Зберігає 24 предмети."
+      },
+      "bar_storage_pine": {
+        "description": "Висока барна шафа з сосни.",
+        "display_name": "Барна шафа з сосни",
+        "recipe_name": "Барна шафа з сосни",
+        "flavor": "Зберігає 24 предмети."
+      },
+      "bar_storage_short_acacia": {
+        "description": "Поясна барна шафа з деревини акації.",
+        "display_name": "Acacia Bar Коротка шафа",
+        "recipe_name": "Acacia Bar Коротка шафа",
+        "flavor": "Зберігає 16 речей."
+      },
+      "bar_storage_short_cactus": {
+        "description": "Поясна барна шафа з кактусового дерева.",
+        "display_name": "Коротка шафа Cactus Bar",
+        "recipe_name": "Коротка шафа Cactus Bar",
+        "flavor": "Зберігає 16 речей."
+      },
+      "bar_storage_short_juniper": {
+        "description": "Поясна барна шафа з деревини ялівцю.",
+        "display_name": "Juniper Bar Коротка шафа",
+        "recipe_name": "Juniper Bar Коротка шафа",
+        "flavor": "Зберігає 16 речей."
+      },
+      "bar_storage_short_oak": {
+        "description": "Поясна барна шафа з дуба.",
+        "display_name": "Дубовий бар Коротка шафа",
+        "recipe_name": "Дубовий бар Коротка шафа",
+        "flavor": "Зберігає 16 речей."
+      },
+      "bar_storage_short_palm": {
+        "description": "Поясна барна шафа з пальмового дерева.",
+        "display_name": "Коротка шафа Palm Bar",
+        "recipe_name": "Коротка шафа Palm Bar",
+        "flavor": "Зберігає 16 речей."
+      },
+      "bar_storage_short_pine": {
+        "description": "Поясна барна шафа з сосни.",
+        "display_name": "Коротка шафа Pine Bar",
+        "recipe_name": "Коротка шафа Pine Bar",
+        "flavor": "Зберігає 16 речей."
+      },
+      "bronze_ingot_pile": {
+        "description": "Купа з 18 бронзових злитків.",
+        "display_name": "Запас бронзових зливків",
+        "recipe_name": "Запас бронзових зливків",
+        "flavor": "Загартований сплав."
+      },
+      "copper_ingot_pile": {
+        "description": "Стос із 18 мідних зливків.",
+        "display_name": "Запас мідного зливка",
+        "recipe_name": "Запас мідного зливка",
+        "flavor": "Високопровідний."
+      },
+      "gold_ingot_pile": {
+        "description": "Купа з 18 золотих злитків.",
+        "display_name": "Запас золотих зливків",
+        "recipe_name": "Запас золотих зливків",
+        "flavor": "Такий блискучий... і важкий."
+      },
+      "iron_ingot_pile": {
+        "description": "Купа з 18 залізних злитків.",
+        "display_name": "Запас залізних зливків",
+        "recipe_name": "Запас залізних зливків",
+        "flavor": "Не плутати з іронією."
+      },
+      "silver_ingot_pile": {
+        "description": "Стос із 18 срібних зливків.",
+        "display_name": "Запас срібних зливків",
+        "recipe_name": "Запас срібних зливків",
+        "flavor": "Навіть більш провідний, ніж мідь, і навіть красивіший."
+      },
+      "steel_ingot_pile": {
+        "description": "Купа з 18 сталевих злитків.",
+        "display_name": "Запас сталевого зливка",
+        "recipe_name": "Запас сталевого зливка",
+        "flavor": "Високо загартований сплав."
+      },
+      "tin_ingot_pile": {
+        "description": "Купа з 18 злитків олова.",
+        "display_name": "Запас зливків олова",
+        "recipe_name": "Запас зливків олова",
+        "flavor": "Дуже м'який метал... якби ми тільки могли його з чимось поєднати."
+      },
+      "hopechest_acacia": {
+        "description": "Скриня надії з дерева акації.",
+        "display_name": "Акація Хопечест",
+        "recipe_name": "Акація Хопечест",
+        "flavor": "Зручне місце для зберігання 16 речей."
+      },
+      "hopechest_cactus": {
+        "description": "Скриня надій з кактусового дерева.",
+        "display_name": "Кактус Hopechest",
+        "recipe_name": "Кактус Hopechest",
+        "flavor": "Зручне місце для зберігання 16 речей."
+      },
+      "hopechest_juniper": {
+        "description": "Скриня надії з дерева ялівцю.",
+        "display_name": "Ялівець Hopechest",
+        "recipe_name": "Ялівець Hopechest",
+        "flavor": "Він більший всередині і може вмістити 16 предметів."
+      },
+      "hopechest_oak": {
+        "description": "Скриня надій з дуба.",
+        "display_name": "Дуб Хопечест",
+        "recipe_name": "Дуб Хопечест",
+        "flavor": "Коротке та міцне місце, де можна сховати 16 речей."
+      },
+      "hopechest_palm": {
+        "description": "Скриня надії з пальмового дерева.",
+        "display_name": "Palm Hopechest",
+        "recipe_name": "Palm Hopechest",
+        "flavor": "Наповнений кольорами і здатний вмістити 16 дрібничок."
+      },
+      "hopechest_pine": {
+        "description": "Скриня надій із соснового дерева.",
+        "display_name": "Сосна Hopechest",
+        "recipe_name": "Сосна Hopechest",
+        "flavor": "Пахне зимою і вміщує 16 предметів."
+      },
+      "log_pile_acacia": {
+        "description": "Купа колод акації.",
+        "display_name": "Купа колод акації",
+        "recipe_name": "Купа колод акації",
+        "flavor": "Сорт викликає у вас бажання плестися."
+      },
+      "log_pile_cactus": {
+        "description": "Купа колод кактусів.",
+        "display_name": "Cactus Log Pile",
+        "recipe_name": "Cactus Log Pile",
+        "flavor": "Колючий по всьому тілу... тобі варто взяти рукавички."
+      },
+      "log_pile_juniper": {
+        "description": "Купа колод ялівцю.",
+        "display_name": "Купа колод ялівцю",
+        "recipe_name": "Купа колод ялівцю",
+        "flavor": "Так добре пахне."
+      },
+      "log_pile_oak": {
+        "description": "Купа дубових колод.",
+        "display_name": "Дубова колода",
+        "recipe_name": "Дубова колода",
+        "flavor": "Велика кількість твердої деревини."
+      },
+      "log_pile_palm": {
+        "description": "Купа пальмових колод.",
+        "display_name": "Palm Log Pile",
+        "recipe_name": "Palm Log Pile",
+        "flavor": "Дурне ім'я... воно зовсім не схоже на твою руку."
+      },
+      "log_pile_pine": {
+        "description": "Купа соснових колод.",
+        "display_name": "Купа колод сосни",
+        "recipe_name": "Купа колод сосни",
+        "flavor": "Повний товстої кори."
+      },
+      "wardrobe_acacia": {
+        "description": "Шафа з дерева акації.",
+        "display_name": "Шафа Акація",
+        "recipe_name": "Шафа Акація",
+        "flavor": "Зручне місце для зберігання 32 речей."
+      },
+      "wardrobe_cactus": {
+        "description": "Шафа з кактусового дерева.",
+        "display_name": "Гардероб кактус",
+        "recipe_name": "Гардероб кактус",
+        "flavor": "Зручне місце для зберігання 32 речей."
+      },
+      "wardrobe_juniper": {
+        "description": "Шафа з дерева ялівцю.",
+        "display_name": "Шафа Ялівець",
+        "recipe_name": "Шафа Ялівець",
+        "flavor": "Він більший всередині і вміщує 32 предмети."
+      },
+      "wardrobe_oak": {
+        "description": "Шафа виготовлена ​​з дуба.",
+        "display_name": "Шафа дубова",
+        "recipe_name": "Шафа дубова",
+        "flavor": "Високе та міцне місце, де можна сховати 32 речі."
+      },
+      "wardrobe_palm": {
+        "description": "Шафа з пальмового дерева.",
+        "display_name": "Palm Гардероб",
+        "recipe_name": "Palm Гардероб",
+        "flavor": "Наповнений кольорами і здатний вмістити 32 дрібнички."
+      },
+      "wardrobe_pine": {
+        "description": "Шафа виготовлена ​​з сосни.",
+        "display_name": "Шафа з сосни",
+        "recipe_name": "Шафа з сосни",
+        "flavor": "Пахне зимою і вміщує 32 предмети."
+      }
+    },
+    "decoration": {
+      "clay_edger": {
+        "description": "Глиняні кромки з новим світовим шармом.",
+        "display_name": "Обрізка глини",
+        "recipe_name": "Обрізка глини x9",
+        "flavor": "Вони тримають речі на межі."
+      },
+      "clay_edger_full": {
+        "description": "Глиняні кромки без зазорів із новим світовим шармом.",
+        "display_name": "Глиняний кромкоріз без зазорів",
+        "recipe_name": "Глиняний обріз без щілин x9",
+        "flavor": "Вони тримають речі на межі."
+      },
+      "clay_old_edger": {
+        "description": "Глиняні кромки з шармом старого світу.",
+        "display_name": "Clay Old Edger",
+        "recipe_name": "Clay Old Edger x9",
+        "flavor": "Вони тримають старі речі напоготові."
+      },
+      "clay_old_edger_full": {
+        "description": "Глиняні кромки без зазорів із шармом старого світу.",
+        "display_name": "Безщілинна глина Old Edger",
+        "recipe_name": "Gapless Clay Old Edger x9",
+        "flavor": "Вони тримають старі речі напоготові."
+      },
+      "clay_old_paver": {
+        "description": "Глиняна бруківка з шармом старого світу.",
+        "display_name": "Глиняна стара бруківка",
+        "recipe_name": "Глиняна стара бруківка",
+        "flavor": "Як килимок на дорогу."
+      },
+      "clay_old_paver_one": {
+        "description": "Глиняна бруківка з шармом старого світу.",
+        "display_name": "Глиняна стара бруківка",
+        "recipe_name": "Глиняна стара бруківка x9",
+        "flavor": "Як килимок на дорогу."
+      },
+      "clay_paver": {
+        "description": "Глиняна бруківка з новим світовим шармом.",
+        "display_name": "Глиняна бруківка",
+        "recipe_name": "Глиняна бруківка",
+        "flavor": "Як килимок на дорогу."
+      },
+      "clay_paver_one": {
+        "description": "Глиняна бруківка з новим світовим шармом.",
+        "display_name": "Глиняна бруківка",
+        "recipe_name": "Глиняна бруківка x9",
+        "flavor": "Як килимок на дорогу."
+      },
+      "clay_tan_edger": {
+        "description": "Глиняно-коричневі кромки зі світовим шармом засмаги.",
+        "display_name": "Clay Tan Edger",
+        "recipe_name": "Clay Tan Edger x9",
+        "flavor": "Вони тримають темні речі на межі."
+      },
+      "clay_tan_edger_full": {
+        "description": "Глиняні кромки без просвітів із шармом світло-коричневого кольору.",
+        "display_name": "Глиняний кромкоріз без щілин",
+        "recipe_name": "Глиняний бордюр без щілин x9",
+        "flavor": "Вони тримають темні речі на межі."
+      },
+      "clay_tan_paver": {
+        "description": "Глиняна бруківка зі світлим шармом.",
+        "display_name": "Бруківка Clay Tan",
+        "recipe_name": "Бруківка Clay Tan",
+        "flavor": "Як килимок на дорогу."
+      },
+      "clay_tan_paver_one": {
+        "description": "Глиняна бруківка коричневого кольору з шармом коричневого світу.",
+        "display_name": "Clay Tan Paver",
+        "recipe_name": "Глиняна бруківка x9",
+        "flavor": "Як килимок на дорогу."
+      },
+      "clock_great": {
+        "description": "Чудовий годинник, що стоїть.",
+        "display_name": "Великий годинник",
+        "recipe_name": "Великий годинник",
+        "flavor": "Річ, яка показує час."
+      },
+      "clock_great_fine": {
+        "description": "Ошатний стоячий чудовий годинник.",
+        "display_name": "Великий багато прикрашений годинник",
+        "recipe_name": "Великий багато прикрашений годинник",
+        "flavor": "Річ, яка показує час і є вишуканою."
+      },
+      "clock_wall": {
+        "description": "Підвісний настінний годинник.",
+        "display_name": "Настінні годинники",
+        "recipe_name": "Настінні годинники",
+        "flavor": "Тільки час покаже."
+      },
+      "clock_wall_fine": {
+        "description": "Підвісний вишуканий настінний годинник.",
+        "display_name": "Багато прикрашений настінний годинник",
+        "recipe_name": "Багато прикрашений настінний годинник",
+        "flavor": "Тільки час покаже."
+      },
+      "iron_lamppost": {
+        "description": "Великий залізний ліхтарний стовп.",
+        "display_name": "Залізний ліхтарний стовп",
+        "recipe_name": "Залізний ліхтарний стовп",
+        "flavor": "Він проливає стильне світло."
+      },
+      "edger_brownstone": {
+        "description": "Обрізки з коричневого каменю.",
+        "display_name": "Обрізки Brownstone",
+        "recipe_name": "Обрізки Brownstone x9",
+        "flavor": "Грубо і стильно."
+      },
+      "edger_sandstone": {
+        "description": "Кромки з пісковику.",
+        "display_name": "Обрізки пісковику",
+        "recipe_name": "Обрізки пісковику",
+        "flavor": "Грубо і стильно."
+      },
+      "edger_stone": {
+        "description": "Обрізки для каменю.",
+        "display_name": "Обрізки каменю",
+        "recipe_name": "Обрізки каменю",
+        "flavor": "Грубо і стильно."
+      },
+      "edger_stone_solid": {
+        "description": "Обрізки для каменю.",
+        "display_name": "Кам'яні кромки без зазорів",
+        "recipe_name": "Кам'яні кромки без зазорів",
+        "flavor": "Грубо і стильно."
+      },
+      "paver_brownstone": {
+        "description": "Бруківка з коричневого каменю.",
+        "display_name": "Бруківка з коричневого каменю",
+        "recipe_name": "Бруківка з коричневого каменю",
+        "flavor": "Гладкий і стильний."
+      },
+      "paver_brownstone_one": {
+        "description": "Бруківка з коричневого каменю.",
+        "display_name": "Браунстоун бруківка",
+        "recipe_name": "Браунстоун бруківка x9",
+        "flavor": "Гладкий і стильний."
+      },
+      "paver_sandstone": {
+        "description": "Бруківка з піщанику.",
+        "display_name": "Бруківка з пісковика",
+        "recipe_name": "Бруківка з пісковика",
+        "flavor": "Гладкий і стильний."
+      },
+      "paver_sandstone_one": {
+        "description": "Бруківка з піщанику.",
+        "display_name": "Бруківка з пісковика",
+        "recipe_name": "Бруківка з пісковика x9",
+        "flavor": "Гладкий і стильний."
+      },
+      "paver_stone": {
+        "description": "Кам'яна бруківка.",
+        "display_name": "Кам'яна бруківка",
+        "recipe_name": "Кам'яна бруківка",
+        "flavor": "Гладкий і стильний."
+      },
+      "paver_stone_one": {
+        "description": "Кам'яна бруківка.",
+        "display_name": "Кам'яна бруківка",
+        "recipe_name": "Кам'яна бруківка x9",
+        "flavor": "Гладкий і стильний."
+      },
+      "step_brownstone": {
+        "description": "Коричневі сходинки.",
+        "display_name": "Ступінь Brownstones",
+        "recipe_name": "Ступінь Brownstones",
+        "flavor": "Гладкий і стильний."
+      },
+      "step_brownstone_one": {
+        "description": "Коричневий кроковий камінь.",
+        "display_name": "Крок Браунстоун",
+        "recipe_name": "Крок Brownstones x9",
+        "flavor": "Гладкий і стильний."
+      },
+      "step_darkstone": {
+        "description": "Темні крокові камені.",
+        "display_name": "Крок Темні камені",
+        "recipe_name": "Крок Темні камені",
+        "flavor": "Гладкий і стильний."
+      },
+      "step_darkstone_one": {
+        "description": "Темний кроковий камінь.",
+        "display_name": "Крок Темний камінь",
+        "recipe_name": "Крок Dark Stones x9",
+        "flavor": "Гладкий і стильний."
+      },
+      "step_redstone": {
+        "description": "Червоні крокові камені.",
+        "display_name": "Степні камені",
+        "recipe_name": "Степні камені",
+        "flavor": "Гладкий і стильний."
+      },
+      "step_redstone_one": {
+        "description": "Червоний кроковий камінь.",
+        "display_name": "Крок Редстоун",
+        "recipe_name": "Крок Redstones x9",
+        "flavor": "Гладкий і стильний."
+      },
+      "step_stone": {
+        "description": "Ступінчасті редстоуни.",
+        "display_name": "Крок Redstones",
+        "recipe_name": "Крок Redstones",
+        "flavor": "Гладкий і стильний."
+      },
+      "step_stone_one": {
+        "description": "Східний камінь.",
+        "display_name": "Східний камінь",
+        "recipe_name": "Step Stones x9",
+        "flavor": "Гладкий і стильний."
+      },
+      "trophy_bow_wall": {
+        "description": "Показаний вигнутий лук.",
+        "display_name": "Дисплей із загнутим луком",
+        "recipe_name": "Дисплей із загнутим луком",
+        "flavor": "Хороший колекційний експонат."
+      },
+      "trophy_bronzehelm_stand": {
+        "description": "Бронзовий шолом.",
+        "display_name": "Бронзова підставка для шолома",
+        "recipe_name": "Бронзова підставка для шолома",
+        "flavor": "Бронзовий різновид мозкового відра на виставці."
+      },
+      "trophy_bronzemail_stand": {
+        "description": "Бронзовий набір кольчуг.",
+        "display_name": "Бронзова підставка для нагрудного знака",
+        "recipe_name": "Бронзова нагрудна підставка",
+        "flavor": "Добре відшліфована."
+      },
+      "trophy_bronzemail_stand_full": {
+        "description": "Повний бронзовий набір кольчуг.",
+        "display_name": "Повна бронзова підставка для нагрудника",
+        "recipe_name": "Повністю бронзова нагрудна підставка",
+        "flavor": "Добре відполірований і покритий шоломом."
+      },
+      "trophy_claymore_stand": {
+        "description": "Показаний дворучний меч.",
+        "display_name": "Трофей «Дворучний меч».",
+        "recipe_name": "Трофей «Дворучний меч».",
+        "flavor": "Хороший колекційний експонат."
+      },
+      "trophy_crude_axe": {
+        "description": "Виставлена ​​трофейна сокира.",
+        "display_name": "Необроблений трофей сокири",
+        "recipe_name": "Необроблений трофей сокири",
+        "flavor": "Хороший колекційний експонат."
+      },
+      "trophy_crude_mace": {
+        "description": "Показана трофейна булава.",
+        "display_name": "Трофей грубої булави",
+        "recipe_name": "Трофей грубої булави",
+        "flavor": "Гарний і важкий колекційний експонат."
+      },
+      "trophy_ironhelm_stand": {
+        "description": "Залізний шолом.",
+        "display_name": "Підставка для залізного шолома",
+        "recipe_name": "Підставка для залізного шолома",
+        "flavor": "Зберігаючи черепа в цілості."
+      },
+      "trophy_ironmail_stand": {
+        "description": "Залізний набір пошти.",
+        "display_name": "Залізна підставка для кираси",
+        "recipe_name": "Залізна нагрудна підставка",
+        "flavor": "Вражаючий дисплей."
+      },
+      "trophy_ironmail_stand_full": {
+        "description": "Повний комплект заліза пошти.",
+        "display_name": "Повна залізна підставка для кираси",
+        "recipe_name": "Повний залізний нагрудник",
+        "flavor": "Дуже вражаючий дисплей, увінчаний шоломом."
+      },
+      "trophy_jagged_stand": {
+        "description": "Показаний гоблінський тесак.",
+        "display_name": "Трофей гоблінського тесака",
+        "recipe_name": "Трофей гоблінського тесака",
+        "flavor": "Тут безпечніше."
+      },
+      "trophy_knighthelm_stand": {
+        "description": "Добре відполірований лицарський шолом.",
+        "display_name": "Підставка для срібного шолома лицаря",
+        "recipe_name": "Підставка для срібного шолома лицаря",
+        "flavor": "Впав лише один раз."
+      },
+      "trophy_knightmail_stand": {
+        "description": "Срібний почтовий набір.",
+        "display_name": "Срібна підставка для кираси",
+        "recipe_name": "Срібна нагрудна підставка",
+        "flavor": "Воно сяє."
+      },
+      "trophy_knightmail_stand_full": {
+        "description": "Повний срібний комплект почту.",
+        "display_name": "Повна срібна підставка для кираси",
+        "recipe_name": "Повна срібна підставка під нагрудний знак",
+        "flavor": "Воно майже світиться."
+      },
+      "trophy_lamp_elite": {
+        "description": "Світильник з елітного колбольдського шолома.",
+        "display_name": "Елітна лампа Kolbold",
+        "recipe_name": "Елітна лампа Kolbold",
+        "flavor": "Липкий, але що ще ти збирався з цим робити?"
+      },
+      "trophy_lamp_general": {
+        "description": "Лампа з колбольдського генеральського шолома.",
+        "display_name": "Лампа генерала Кольбольда",
+        "recipe_name": "Лампа генерала Кольбольда",
+        "flavor": "Липкий, але що ще ти збирався з цим робити?"
+      },
+      "trophy_lamp_master": {
+        "description": "Лампа з колбольдського шолома майстра.",
+        "display_name": "Лампа Майстра Колбольда",
+        "recipe_name": "Лампа Майстра Колбольда",
+        "flavor": "Липкий, але що ще ти збирався з цим робити?"
+      },
+      "trophy_lamp_scout": {
+        "description": "Лампа з шолома розвідника колбольда.",
+        "display_name": "Скаутська лампа Кольбольда",
+        "recipe_name": "Скаутська лампа Кольбольда",
+        "flavor": "Липкий, але що ще ти збирався з цим робити?"
+      },
+      "trophy_longsword_stand": {
+        "description": "Показаний довгий меч.",
+        "display_name": "Трофей довгого меча",
+        "recipe_name": "Трофей довгого меча",
+        "flavor": "Хороший колекційний експонат."
+      },
+      "trophy_ogos_bone_mace": {
+        "description": "Виставка кістяної булави Ого.",
+        "display_name": "Трофей «Кістяна булава» Ого",
+        "recipe_name": "Трофей «Кістяна булава» Ого",
+        "flavor": "Булава Ого. Він цього не пропустить."
+      },
+      "trophy_twosword_long_stand": {
+        "description": "Вражаючий дисплей меча.",
+        "display_name": "Трофей «Могутній меч».",
+        "recipe_name": "Трофей «Могутній меч».",
+        "flavor": "Надзвичайно гарний колекційний експонат."
+      },
+      "trophy_twosword_stand": {
+        "description": "Набір показаних мечів.",
+        "display_name": "Трофей подвійного меча",
+        "recipe_name": "Трофей подвійного меча",
+        "flavor": "Дуже гарний колекційний експонат."
+      },
+      "trophy_wall_elite": {
+        "description": "Демонстрований шолом елітного колбольда.",
+        "display_name": "Елітний дисплей Kolbold",
+        "recipe_name": "Елітний дисплей Kolbold",
+        "flavor": "Будь ласка, не чіпайте."
+      },
+      "trophy_wall_general": {
+        "description": "Демонстрований генеральський шолом колбольда.",
+        "display_name": "Генеральний дисплей Колбольда",
+        "recipe_name": "Генеральний дисплей Колбольда",
+        "flavor": "Не на дотик."
+      },
+      "trophy_wall_master": {
+        "description": "Виставлений шолом майстра колбольда.",
+        "display_name": "Master Kolbold Display",
+        "recipe_name": "Master Kolbold Display",
+        "flavor": "Не для метання."
+      },
+      "trophy_wall_scout": {
+        "description": "Демонстрований шолом розвідника Колбольда.",
+        "display_name": "Дисплей Scout Kolbold",
+        "recipe_name": "Дисплей Scout Kolbold",
+        "flavor": "Виглядає важким."
+      },
+      "wooden_dummy": {
+        "description": "Грубий манекен для тренувань.",
+        "display_name": "Дерев'яний манекен",
+        "recipe_name": "Дерев'яний манекен",
+        "flavor": "Одного разу ви зможете потренуватися на цьому."
+      }
+    },
+    "furniture": {
+      "arch_backed_chair_acacia": {
+        "description": "Гарне важливе на вигляд крісло.",
+        "display_name": "Соборно-аркова акацієва кафедра",
+        "recipe_name": "Соборно-аркова акацієва кафедра",
+        "flavor": "Важливий вигляд крісла з акації."
+      },
+      "arch_backed_chair_cactus": {
+        "description": "Гарне важливе на вигляд крісло.",
+        "display_name": "Собор-Арка Cactus Chair",
+        "recipe_name": "Собор-Арка Cactus Chair",
+        "flavor": "Важливий вигляд кактусового крісла."
+      },
+      "arch_backed_chair_juniper": {
+        "description": "Гарне важливе на вигляд крісло.",
+        "display_name": "Соборно-арковий крісло з ялівцю",
+        "recipe_name": "Соборно-арковий крісло з ялівцю",
+        "flavor": "Важливо виглядає крісло з ялівцю."
+      },
+      "arch_backed_chair_palm": {
+        "description": "Гарне важливе на вигляд крісло.",
+        "display_name": "Собор-арка пальмовий стілець",
+        "recipe_name": "Собор-арка пальмовий стілець",
+        "flavor": "Важливе пальмове крісло."
+      },
+      "arch_backed_chair_pine": {
+        "description": "Гарне важливе на вигляд крісло.",
+        "display_name": "Соборно-арковий сосновий стілець",
+        "recipe_name": "Соборно-арковий сосновий стілець",
+        "flavor": "Важливе крісло з сосни."
+      },
+      "comfy_bed_acacia": {
+        "description": "Зручне ліжко з акації.",
+        "display_name": "Зручне ліжко з акації",
+        "recipe_name": "Зручне ліжко з акації",
+        "flavor": "Гарно зроблене ліжко з дерева акації."
+      },
+      "comfy_bed_cactus": {
+        "description": "Зручна клумба з кактусом.",
+        "display_name": "Зручне ліжко з кактусом",
+        "recipe_name": "Зручне ліжко з кактусом",
+        "flavor": "Добре зроблене ліжко з кактусового дерева."
+      },
+      "comfy_bed_juniper": {
+        "description": "Зручне ліжко з ялівцю.",
+        "display_name": "Зручне ліжко з ялівцю",
+        "recipe_name": "Зручне ліжко з ялівцю",
+        "flavor": "Добре зроблене ліжко з деревини ялівцю."
+      },
+      "comfy_bed_palm": {
+        "description": "Зручне пальмове ліжко.",
+        "display_name": "Зручне ліжко Palm",
+        "recipe_name": "Зручне ліжко Palm",
+        "flavor": "Добре зроблене ліжко з пальмового дерева."
+      },
+      "comfy_bed_pine": {
+        "description": "Зручне ліжко з сосни.",
+        "display_name": "Зручне ліжко з сосни",
+        "recipe_name": "Зручне ліжко з сосни",
+        "flavor": "Гарно зроблене ліжко з сосни."
+      },
+      "comfy_chair_acacia": {
+        "description": "Зручне крісло з акації.",
+        "display_name": "Зручне крісло з акації",
+        "recipe_name": "Зручне крісло з акації",
+        "flavor": "Міцне крісло з деревини акації."
+      },
+      "comfy_chair_cactus": {
+        "description": "Зручне крісло кактус.",
+        "display_name": "Зручне крісло Cactus",
+        "recipe_name": "Зручне крісло Cactus",
+        "flavor": "Міцне крісло з кактусового дерева."
+      },
+      "comfy_chair_juniper": {
+        "description": "Зручне крісло з ялівцю.",
+        "display_name": "Зручне крісло Juniper",
+        "recipe_name": "Зручне крісло Juniper",
+        "flavor": "Міцне крісло з дерева ялівцю."
+      },
+      "comfy_chair_palm": {
+        "description": "Зручне крісло-пальмо.",
+        "display_name": "Зручне крісло Palm",
+        "recipe_name": "Зручне крісло Palm",
+        "flavor": "Міцне крісло з пальмового дерева."
+      },
+      "comfy_chair_pine": {
+        "description": "Зручне крісло з сосни.",
+        "display_name": "Зручне крісло з сосни",
+        "recipe_name": "Зручне крісло з сосни",
+        "flavor": "Міцне крісло з сосни."
+      },
+      "crude_bed_acacia": {
+        "description": "Грядка з акації.",
+        "display_name": "Сира акація ліжко",
+        "recipe_name": "Сира акація ліжко",
+        "flavor": "Краще, ніж спати на землі."
+      },
+      "crude_bed_cactus": {
+        "description": "Груба кактусова грядка.",
+        "display_name": "Необроблена кактусова грядка",
+        "recipe_name": "Необроблена кактусова грядка",
+        "flavor": "Краще, ніж спати на землі."
+      },
+      "crude_bed_juniper": {
+        "description": "Сира ялівцева грядка.",
+        "display_name": "Грядка з ялівцю",
+        "recipe_name": "Грядка з ялівцю",
+        "flavor": "Краще, ніж спати на землі."
+      },
+      "crude_bed_palm": {
+        "description": "Сира пальмова грядка.",
+        "display_name": "Ліжко Crude Palm",
+        "recipe_name": "Ліжко Crude Palm",
+        "flavor": "Краще, ніж спати на землі."
+      },
+      "crude_bed_pine": {
+        "description": "Сира соснова грядка.",
+        "display_name": "Ліжко з сосни",
+        "recipe_name": "Ліжко з сосни",
+        "flavor": "Краще, ніж спати на землі, і це приємно пахне."
+      },
+      "crude_chair_acacia": {
+        "description": "Стілець з сирої акації.",
+        "display_name": "Стілець з необробленої акації",
+        "recipe_name": "Стілець з необробленої акації",
+        "flavor": "Ну принаймні він міцний."
+      },
+      "crude_chair_cactus": {
+        "description": "Грубий кактусовий стілець.",
+        "display_name": "Крісло Crude Cactus",
+        "recipe_name": "Крісло Crude Cactus",
+        "flavor": "Ну принаймні він міцний."
+      },
+      "crude_chair_juniper": {
+        "description": "Сирий ялівцевий стілець.",
+        "display_name": "Крісло Crude Juniper",
+        "recipe_name": "Крісло Crude Juniper",
+        "flavor": "Ну принаймні він міцний."
+      },
+      "crude_chair_oak": {
+        "description": "Крісло з грубого дуба.",
+        "display_name": "Стілець із сирого дуба",
+        "recipe_name": "Стілець із сирого дуба",
+        "flavor": "Ну принаймні він міцний."
+      },
+      "crude_chair_palm": {
+        "description": "Сире пальмове крісло.",
+        "display_name": "Крісло Crude Palm",
+        "recipe_name": "Крісло Crude Palm",
+        "flavor": "Ну принаймні він міцний."
+      },
+      "crude_chair_pine": {
+        "description": "Стілець з сирої сосни.",
+        "display_name": "Стілець із сосни",
+        "recipe_name": "Стілець із сосни",
+        "flavor": "Ну принаймні він міцний."
+      },
+      "crude_stool_acacia": {
+        "description": "Грубий акацієвий стілець.",
+        "display_name": "Сирий стілець акації",
+        "recipe_name": "Сирий стілець акації",
+        "flavor": "Краще, ніж сидіти на землі. Але лише трохи."
+      },
+      "crude_stool_cactus": {
+        "description": "Грубий кактусовий стілець.",
+        "display_name": "Необроблений кактусовий стілець",
+        "recipe_name": "Необроблений кактусовий стілець",
+        "flavor": "Краще, ніж сидіти на землі. Але лише трохи."
+      },
+      "crude_stool_juniper": {
+        "description": "Грубий ялівцевий стілець.",
+        "display_name": "Необроблений стілець з ялівцю",
+        "recipe_name": "Необроблений стілець з ялівцю",
+        "flavor": "Краще, ніж сидіти на землі. Але лише трохи."
+      },
+      "crude_stool_oak": {
+        "description": "Сирий дубовий табурет.",
+        "display_name": "Необроблений дубовий табурет",
+        "recipe_name": "Необроблений дубовий табурет",
+        "flavor": "Краще, ніж сидіти на землі. Але лише трохи."
+      },
+      "crude_stool_palm": {
+        "description": "Грубий пальмовий стілець.",
+        "display_name": "Сирий пальмовий стілець",
+        "recipe_name": "Сирий пальмовий стілець",
+        "flavor": "Краще, ніж сидіти на землі. Але лише трохи."
+      },
+      "crude_stool_pine": {
+        "description": "Сирий сосновий стілець.",
+        "display_name": "Сирий сосновий стілець",
+        "recipe_name": "Сирий сосновий стілець",
+        "flavor": "Краще, ніж сидіти на землі. Але лише трохи."
+      },
+      "dining_table_acacia": {
+        "description": "Масивний стіл з акації.",
+        "display_name": "Обідній стіл з акації",
+        "recipe_name": "Обідній стіл з акації",
+        "flavor": "Обідній стіл з деревини акації."
+      },
+      "dining_table_cactus": {
+        "description": "Міцний кактусовий стіл.",
+        "display_name": "Обідній стіл «Кактус».",
+        "recipe_name": "Обідній стіл «Кактус».",
+        "flavor": "Обідній стіл з кактусового дерева."
+      },
+      "dining_table_juniper": {
+        "description": "Стіл з масиву ялівцю.",
+        "display_name": "Обідній стіл з ялівцю",
+        "recipe_name": "Обідній стіл з ялівцю",
+        "flavor": "Обідній стіл з деревини ялівцю."
+      },
+      "dining_table_palm": {
+        "description": "Твердий пальмовий стіл.",
+        "display_name": "Palm Обідній стіл",
+        "recipe_name": "Palm Обідній стіл",
+        "flavor": "Обідній стіл з пальмового дерева."
+      },
+      "dining_table_pine": {
+        "description": "Стіл з масиву сосни.",
+        "display_name": "Обідній стіл з сосни",
+        "recipe_name": "Обідній стіл з сосни",
+        "flavor": "Обідній стіл з сосни."
+      },
+      "dresser_acacia": {
+        "description": "Комод з акації.",
+        "display_name": "Комод з акації",
+        "recipe_name": "Комод з акації",
+        "flavor": "Комод з дерева акації."
+      },
+      "dresser_cactus": {
+        "description": "Комод для кактусів.",
+        "display_name": "Комод для кактусів",
+        "recipe_name": "Комод для кактусів",
+        "flavor": "Комод з кактусового дерева."
+      },
+      "dresser_juniper": {
+        "description": "Комод з ялівцю.",
+        "display_name": "Комод з ялівцю",
+        "recipe_name": "Комод з ялівцю",
+        "flavor": "Комод з дерева ялівцю."
+      },
+      "dresser_palm": {
+        "description": "Пальмовий комод.",
+        "display_name": "Palm Dresser",
+        "recipe_name": "Palm Dresser",
+        "flavor": "Комод з пальмового дерева."
+      },
+      "dresser_pine": {
+        "description": "Комод з сосни.",
+        "display_name": "Комод з сосни",
+        "recipe_name": "Комод з сосни",
+        "flavor": "Комод з сосни."
+      },
+      "fancy_bed_acacia": {
+        "description": "Шикарна грядка з акації.",
+        "display_name": "Шикарне ліжко з акації",
+        "recipe_name": "Шикарне ліжко з акації",
+        "flavor": "Унікально виготовлене ліжко з деревини акації."
+      },
+      "fancy_bed_cactus": {
+        "description": "Шикарна клумба з кактусом.",
+        "display_name": "Шикарна грядка з кактусом",
+        "recipe_name": "Шикарна грядка з кактусом",
+        "flavor": "Унікально виготовлене ліжко з кактусового дерева."
+      },
+      "fancy_bed_juniper": {
+        "description": "Шикарна грядка з ялівцю.",
+        "display_name": "Шикарне ліжко з ялівцю",
+        "recipe_name": "Шикарне ліжко з ялівцю",
+        "flavor": "Унікально виготовлене ліжко з деревини ялівцю."
+      },
+      "fancy_bed_palm": {
+        "description": "Шикарне пальмове ліжко.",
+        "display_name": "Шикарне ліжко з пальмами",
+        "recipe_name": "Шикарне ліжко з пальмами",
+        "flavor": "Унікально виготовлене ліжко з пальмового дерева."
+      },
+      "fancy_bed_pine": {
+        "description": "Шикарне ліжко з сосни.",
+        "display_name": "Шикарне ліжко з сосни",
+        "recipe_name": "Шикарне ліжко з сосни",
+        "flavor": "Унікально виготовлене ліжко із соснового дерева."
+      },
+      "fancy_chair_acacia": {
+        "description": "Шикарне крісло з акації.",
+        "display_name": "Стильне крісло з акації",
+        "recipe_name": "Стильне крісло з акації",
+        "flavor": "Стілець унікального дизайну з деревини акації."
+      },
+      "fancy_chair_cactus": {
+        "description": "Шикарне крісло-кактус.",
+        "display_name": "Стильне крісло Cactus",
+        "recipe_name": "Стильне крісло Cactus",
+        "flavor": "Унікальний дизайн крісла з кактусового дерева."
+      },
+      "fancy_chair_juniper": {
+        "description": "Шикарне крісло з ялівцю.",
+        "display_name": "Стильне крісло з ялівцю",
+        "recipe_name": "Стильне крісло з ялівцю",
+        "flavor": "Стілець унікального дизайну з дерева ялівцю."
+      },
+      "fancy_chair_palm": {
+        "description": "Шикарне пальмове крісло.",
+        "display_name": "Стильне крісло Palm",
+        "recipe_name": "Стильне крісло Palm",
+        "flavor": "Стілець унікального дизайну з пальмового дерева."
+      },
+      "fancy_chair_pine": {
+        "description": "Шикарне крісло з сосни.",
+        "display_name": "Стильне крісло з сосни",
+        "recipe_name": "Стильне крісло з сосни",
+        "flavor": "Унікальний дизайн крісла з сосни."
+      },
+      "fancy_table_acacia": {
+        "description": "Масивний стіл з акації.",
+        "display_name": "Стіл Acacia Fancy",
+        "recipe_name": "Стіл Acacia Fancy",
+        "flavor": "Виразний стіл з деревини акації."
+      },
+      "fancy_table_cactus": {
+        "description": "Міцний кактусовий стіл.",
+        "display_name": "Cactus Fancy Table",
+        "recipe_name": "Cactus Fancy Table",
+        "flavor": "Виразний стіл з кактусового дерева."
+      },
+      "fancy_table_juniper": {
+        "description": "Стіл з масиву ялівцю.",
+        "display_name": "Ялівець Fancy Table",
+        "recipe_name": "Ялівець Fancy Table",
+        "flavor": "Виразний стіл з деревини ялівцю."
+      },
+      "fancy_table_palm": {
+        "description": "Твердий пальмовий стіл.",
+        "display_name": "Palm Fancy Table",
+        "recipe_name": "Palm Fancy Table",
+        "flavor": "Виразний стіл з пальмового дерева."
+      },
+      "fancy_table_pine": {
+        "description": "Стіл з масиву сосни.",
+        "display_name": "Сосновий стильний стіл",
+        "recipe_name": "Сосновий стильний стіл",
+        "flavor": "Виразний столик із сосни."
+      },
+      "park_bench_acacia": {
+        "description": "Химерна паркова лавка з акацій.",
+        "display_name": "Лавка в парку Акація",
+        "recipe_name": "Лавка в парку Акація",
+        "flavor": "Паркова лавка з деревини акації."
+      },
+      "park_bench_cactus": {
+        "description": "Химерна лавка в парку з кактусами.",
+        "display_name": "Лавка в кактусовому парку",
+        "recipe_name": "Лавка в кактусовому парку",
+        "flavor": "Паркова лавка з кактусового дерева."
+      },
+      "park_bench_juniper": {
+        "description": "Химерна паркова лавка з ялівцю.",
+        "display_name": "Лавка Juniper Park",
+        "recipe_name": "Лавка Juniper Park",
+        "flavor": "Паркова лавка з дерева ялівцю."
+      },
+      "park_bench_palm": {
+        "description": "Химерна пальмова лавка в парку.",
+        "display_name": "Palm Park Bench",
+        "recipe_name": "Palm Park Bench",
+        "flavor": "Паркова лавка з пальмового дерева."
+      },
+      "park_bench_pine": {
+        "description": "Химерна соснова лавка в парку.",
+        "display_name": "Лавка в сосновому парку",
+        "recipe_name": "Лавка в сосновому парку",
+        "flavor": "Паркова лавка з сосни."
+      },
+      "simple_acacia_chair": {
+        "description": "Добре виготовлене крісло з акації.",
+        "display_name": "Просте крісло з акації",
+        "recipe_name": "Просте крісло з акації",
+        "flavor": "Стильне та зручне крісло.."
+      },
+      "simple_cactus_chair": {
+        "description": "Добре виготовлений кактусовий стілець.",
+        "display_name": "Просте крісло Cactus",
+        "recipe_name": "Просте крісло Cactus",
+        "flavor": "Стильне та зручне крісло.."
+      },
+      "simple_juniper_chair": {
+        "description": "Добре виготовлене крісло з ялівцю.",
+        "display_name": "Просте крісло з ялівцю",
+        "recipe_name": "Просте крісло з ялівцю",
+        "flavor": "Стильне та зручне крісло.."
+      },
+      "simple_palm_chair": {
+        "description": "Добре виготовлене пальмове крісло.",
+        "display_name": "Просте крісло Palm",
+        "recipe_name": "Просте крісло Palm",
+        "flavor": "Стильне та зручне крісло.."
+      },
+      "simple_pine_chair": {
+        "description": "Добре виготовлене крісло з сосни.",
+        "display_name": "Простий сосновий стілець",
+        "recipe_name": "Простий сосновий стілець",
+        "flavor": "Стильне та зручне крісло.."
+      },
+      "stone_bench_nice": {
+        "description": "Важка кам'яна лавка гарної якості.",
+        "display_name": "Лава з тонкого каменю",
+        "recipe_name": "Лава з тонкого каменю",
+        "flavor": "Хороший ліфт для двох осіб."
+      },
+      "stone_chair_nice": {
+        "description": "Важкий кам'яний стілець гарної якості.",
+        "display_name": "Стілець з тонкого каменю",
+        "recipe_name": "Стілець з тонкого каменю",
+        "flavor": "Чудове крісло для двох осіб."
+      },
+      "stone_table_nice": {
+        "description": "Важкий кам'яний стіл гарної якості.",
+        "display_name": "Стіл з тонкого каменю",
+        "recipe_name": "Стіл з тонкого каменю",
+        "flavor": "Чудовий підйомний стіл для чотирьох осіб або одного Хе Мо."
+      },
+      "table_for_one_acacia": {
+        "description": "Маленький столик з акації.",
+        "display_name": "Маленький стіл з акації",
+        "recipe_name": "Маленький стіл з акації",
+        "flavor": "Маленький столик з акації."
+      },
+      "table_for_one_cactus": {
+        "description": "Столик маленький кактус.",
+        "display_name": "Маленький кактусовий столик",
+        "recipe_name": "Маленький кактусовий столик",
+        "flavor": "Столик маленький кактус."
+      },
+      "table_for_one_juniper": {
+        "description": "Невеликий столик з ялівцю.",
+        "display_name": "Маленький ялівцевий стіл",
+        "recipe_name": "Маленький ялівцевий стіл",
+        "flavor": "Невеликий столик з ялівцю."
+      },
+      "table_for_one_palm": {
+        "description": "Маленький пальмовий столик.",
+        "display_name": "Маленький пальмовий стіл",
+        "recipe_name": "Маленький пальмовий стіл",
+        "flavor": "Маленький пальмовий столик."
+      },
+      "table_for_one_pine": {
+        "description": "Невеликий сосновий столик.",
+        "display_name": "Маленький сосновий стіл",
+        "recipe_name": "Маленький сосновий стіл",
+        "flavor": "Невеликий сосновий столик."
+      },
+      "trophy_stand_oak": {
+        "description": "Невелика дубова підставка для трофеїв.",
+        "display_name": "Трофейна підставка з дуба",
+        "recipe_name": "Трофейна підставка з дуба",
+        "flavor": "Місце для демонстрації приємних речей."
+      },
+      "trophy_stand_oak_fine": {
+        "description": "Добре виготовлена ​​невелика дубова підставка для трофеїв.",
+        "display_name": "Вишукана дубова підставка для трофеїв",
+        "recipe_name": "Вишукана дубова підставка для трофеїв",
+        "flavor": "Добре продумане місце для демонстрації приємніших речей."
+      },
+      "trophy_stand_oak_wide": {
+        "description": "Широка дубова підставка для трофеїв.",
+        "display_name": "Широка дубова підставка для трофеїв",
+        "recipe_name": "Широка дубова підставка для трофеїв",
+        "flavor": "Більше місця для демонстрації приємних речей."
+      },
+      "trophy_stand_oak_wide_fine": {
+        "description": "Добре виготовлена ​​дубова підставка для трофеїв.",
+        "display_name": "Шикарна широка дубова підставка для трофеїв",
+        "recipe_name": "Шикарна широка дубова підставка для трофеїв",
+        "flavor": "Більше місця для показу кращих речей."
+      },
+      "writing_desk_acacia": {
+        "description": "Важкий письмовий стіл з акації.",
+        "display_name": "Письмовий стіл з акації",
+        "recipe_name": "Письмовий стіл з акації",
+        "flavor": "Письмовий стіл з акації."
+      },
+      "writing_desk_cactus": {
+        "description": "Важкий письмовий стіл із кактусів.",
+        "display_name": "Письмовий стіл Cactus",
+        "recipe_name": "Письмовий стіл Cactus",
+        "flavor": "Письмовий стіл з кактусів."
+      },
+      "writing_desk_juniper": {
+        "description": "Важкий письмовий стіл з ялівцю.",
+        "display_name": "Ялівець письмовий стіл",
+        "recipe_name": "Ялівець письмовий стіл",
+        "flavor": "Письмовий стіл з ялівцю."
+      },
+      "writing_desk_palm": {
+        "description": "Письмовий стіл з важкої долоні.",
+        "display_name": "Письмовий стіл Palm",
+        "recipe_name": "Письмовий стіл Palm",
+        "flavor": "Письмовий стіл на долоні."
+      },
+      "writing_desk_pine": {
+        "description": "Важкий письмовий стіл з сосни.",
+        "display_name": "Письмовий стіл з сосни",
+        "recipe_name": "Письмовий стіл з сосни",
+        "flavor": "Письмовий стіл з сосни."
+      }
+    }
+  },
+  "jobs": {
+    "blacksmith": {},
+    "carpenter": {
+      "recipes": {
+        "storage_cabinet_name": "Шафи для зберігання",
+        "trophy_name": "Trophies",
+        "acacia_furniture_name": "Меблі з акації",
+        "cactus_furniture_name": "Меблі з кактусів",
+        "juniper_furniture_name": "Меблі з ялівцю",
+        "oak_furniture_name": "Дубові меблі",
+        "palm_furniture_name": "Palm Меблі",
+        "pine_furniture_name": "Меблі з сосни"
+      }
+    },
+    "cook": {},
+    "engineer": {},
+    "herbalist": {},
+    "mason": {
+      "recipes": {
+        "landscaping_name": "Landscaping"
+      }
+    },
+    "potter": {
+      "recipes": {
+        "landscaping_name": "Landscaping"
+      }
+    },
+    "weaver": {}
+  }
+}

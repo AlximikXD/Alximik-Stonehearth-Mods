@@ -1,0 +1,447 @@
+{
+  "TRANSLATOR": "Hamnisu",
+  "recipes": {
+    "mason": {
+      "tombstones": {
+        "ambiguous": {
+          "recipe_name": "Tombstone",
+          "description": "The tombstone of a fallen",
+          "flavor": "Forever dead"
+        },
+        "archer": {
+          "recipe_name": "Archer Tombstone",
+          "description": "The tombstone of a fallen archer",
+          "flavor": "Forever dead"
+        },
+        "artificer": {
+          "recipe_name": "Artificer Tombstone",
+          "description": "The tombstone of a fallen artificer",
+          "flavor": "Forever dead"
+        },
+        "battle_priest": {
+          "recipe_name": "Battle Priest Tombstone",
+          "description": "The tombstone of a fallen battle priest",
+          "flavor": "Forever dead"
+        },
+        "beast_tamer": {
+          "recipe_name": "Beast Tamer Tombstone",
+          "description": "The tombstone of a fallen beast tamer",
+          "flavor": "Forever dead"
+        },
+        "blacksmith": {
+          "recipe_name": "Blacksmith Tombstone",
+          "description": "The tombstone of a fallen blacksmith",
+          "flavor": "Forever dead"
+        },
+        "blade": {
+          "recipe_name": "Blade Tombstone",
+          "description": "The tombstone of a fallen blade",
+          "flavor": "Forever dead"
+        },
+        "bonesmith": {
+          "recipe_name": "Bonesmith Tombstone",
+          "description": "The tombstone of a fallen bonesmith",
+          "flavor": "Forever dead"
+        },
+        "brewer": {
+          "recipe_name": "Brewer Tombstone",
+          "description": "The tombstone of a fallen brewer",
+          "flavor": "Forever dead"
+        },
+        "carpenter": {
+          "recipe_name": "Carpenter Tombstone",
+          "description": "The tombstone of a fallen carpenter",
+          "flavor": "Forever dead"
+        },
+        "church_ruler": {
+          "recipe_name": "Church Ruler Tombstone",
+          "description": "The tombstone of a fallen church ruler",
+          "flavor": "Forever dead"
+        },
+        "cleric": {
+          "recipe_name": "Cleric Tombstone",
+          "description": "The tombstone of a fallen cleric",
+          "flavor": "Forever dead"
+        },
+        "cook": {
+          "recipe_name": "Cook Tombstone",
+          "description": "The tombstone of a fallen cook",
+          "flavor": "Forever dead"
+        },
+        "druid": {
+          "recipe_name": "Druid Tombstone",
+          "description": "The tombstone of a fallen druid",
+          "flavor": "Forever dead"
+        },
+        "earthmaster": {
+          "recipe_name": "Earthmaster Tombstone",
+          "description": "The tombstone of a fallen earthmaster",
+          "flavor": "Forever dead"
+        },
+        "engineer": {
+          "recipe_name": "Engineer Tombstone",
+          "description": "The tombstone of a fallen engineer",
+          "flavor": "Forever dead"
+        },
+        "farmer": {
+          "recipe_name": "Farmer Tombstone",
+          "description": "The tombstone of a fallen farmer",
+          "flavor": "Forever dead"
+        },
+        "fisher": {
+          "recipe_name": "Fisher Tombstone",
+          "description": "The tombstone of a fallen fisher",
+          "flavor": "Forever dead"
+        },
+        "footman": {
+          "recipe_name": "Footman Tombstone",
+          "description": "The tombstone of a fallen footman",
+          "flavor": "Forever dead"
+        },
+        "geomancer": {
+          "recipe_name": "Geomancer Tombstone",
+          "description": "The tombstone of a fallen geomancer",
+          "flavor": "Forever dead"
+        },
+        "glassmith": {
+          "recipe_name": "Glassmith Tombstone",
+          "description": "The tombstone of a fallen glassmith",
+          "flavor": "Forever dead"
+        },
+        "grower": {
+          "recipe_name": "Grower Tombstone",
+          "description": "The tombstone of a fallen grower",
+          "flavor": "Forever dead"
+        },
+        "herbalist": {
+          "recipe_name": "Herbalist Tombstone",
+          "description": "The tombstone of a fallen herbalist",
+          "flavor": "Forever dead"
+        },
+        "hunter": {
+          "recipe_name": "Hunter Tombstone",
+          "description": "The tombstone of a fallen hunter",
+          "flavor": "Forever dead"
+        },
+        "knight": {
+          "recipe_name": "Knight Tombstone",
+          "description": "The tombstone of a fallen knight",
+          "flavor": "Forever dead"
+        },
+        "magmasmith": {
+          "recipe_name": "Magmasmith Tombstone",
+          "description": "The tombstone of a fallen magmasmith",
+          "flavor": "Forever dead"
+        },
+        "mason": {
+          "recipe_name": "Mason Tombstone",
+          "description": "The tombstone of a fallen mason",
+          "flavor": "Forever dead"
+        },
+        "miner": {
+          "recipe_name": "Miner Tombstone",
+          "description": "The tombstone of a fallen miner",
+          "flavor": "Forever dead"
+        },
+        "monk": {
+          "recipe_name": "Monk Tombstone",
+          "description": "The tombstone of a fallen monk",
+          "flavor": "Forever dead"
+        },
+        "moonmage": {
+          "recipe_name": "Moon Mage Tombstone",
+          "description": "The tombstone of a fallen moon mage",
+          "flavor": "Forever dead"
+        },
+        "paladin": {
+          "recipe_name": "Paladin Tombstone",
+          "description": "The tombstone of a fallen paladin",
+          "flavor": "Forever dead"
+        },
+        "potter": {
+          "recipe_name": "Potter Tombstone",
+          "description": "The tombstone of a fallen potter",
+          "flavor": "Forever dead"
+        },
+        "ruler": {
+          "recipe_name": "Ruler Tombstone",
+          "description": "The tombstone of a fallen ruler",
+          "flavor": "Forever dead"
+        },
+        "scavenger": {
+          "recipe_name": "Scavenger Tombstone",
+          "description": "The tombstone of a fallen scavenger",
+          "flavor": "Forever dead"
+        },
+        "shaman": {
+          "recipe_name": "Shaman Tombstone",
+          "description": "The tombstone of a fallen shaman",
+          "flavor": "Forever dead"
+        },
+        "shepherd": {
+          "recipe_name": "Shepherd Tombstone",
+          "description": "The tombstone of a fallen shepherd",
+          "flavor": "Forever dead"
+        },
+        "spirit_walker": {
+          "recipe_name": "Spirit Walker Tombstone",
+          "description": "The tombstone of a fallen spirit walker",
+          "flavor": "Forever dead"
+        },
+        "sunmage": {
+          "recipe_name": "Sun Mage Tombstone",
+          "description": "The tombstone of a fallen sun mage",
+          "flavor": "Forever dead"
+        },
+        "timewizard": {
+          "recipe_name": "Time Wizard Tombstone",
+          "description": "The tombstone of a fallen time wizard",
+          "flavor": "Forever dead"
+        },
+        "trapper": {
+          "recipe_name": "Trapper Tombstone",
+          "description": "The tombstone of a fallen trapper",
+          "flavor": "Forever dead"
+        },
+        "weaver": {
+          "recipe_name": "Weaver Tombstone",
+          "description": "The tombstone of a fallen weaver",
+          "flavor": "Forever dead"
+        },
+        "wizard": {
+          "recipe_name": "Wizard Tombstone",
+          "description": "The tombstone of a fallen wizard",
+          "flavor": "Forever dead"
+        },
+        "worker": {
+          "recipe_name": "Worker Tombstone",
+          "description": "The tombstone of a fallen worker",
+          "flavor": "Forever dead"
+        },
+        "warrior": {
+          "recipe_name": "Warrior Tombstone",
+          "description": "The tombstone of a fallen warrior",
+          "flavor": "Forever dead"
+        },
+        "skirmisher": {
+          "recipe_name": "Skirmisher Tombstone",
+          "description": "The tombstone of a fallen skirmisher",
+          "flavor": "Forever dead"
+        },
+        "skald": {
+          "recipe_name": "Skald Tombstone",
+          "description": "The tombstone of a fallen skald",
+          "flavor": "Forever dead"
+        },
+        "huskarl": {
+          "recipe_name": "Huskarl Tombstone",
+          "description": "The tombstone of a fallen huskarl",
+          "flavor": "Forever dead"
+        },
+        "hersir": {
+          "recipe_name": "Hersir Tombstone",
+          "description": "The tombstone of a fallen hersir",
+          "flavor": "Forever dead"
+        },
+        "villager": {
+          "recipe_name": "Villager Tombstone",
+          "description": "The tombstone of a fallen villager",
+          "flavor": "Forever dead"
+        },
+        "abbot": {
+          "recipe_name": "Abbot Tombstone",
+          "description": "The tombstone of a fallen abbot",
+          "flavor": "Forever dead"
+        },
+        "king": {
+          "recipe_name": "King Tombstone",
+          "description": "The tombstone of a fallen king",
+          "flavor": "Forever dead"
+        },
+        "sultan": {
+          "recipe_name": "Sultan Tombstone",
+          "description": "The tombstone of a fallen sultan",
+          "flavor": "Forever dead"
+        },
+        "chieftain": {
+          "recipe_name": "Chieftain Tombstone",
+          "description": "The tombstone of a fallen chieftain",
+          "flavor": "Forever dead"
+        },
+        "jarl": {
+          "recipe_name": "Jarl Tombstone",
+          "description": "The tombstone of a fallen jarl",
+          "flavor": "Forever dead"
+        },
+        "lord": {
+          "recipe_name": "Lord Tombstone",
+          "description": "The tombstone of a fallen lord",
+          "flavor": "Forever dead"
+        },
+        "demolisher": {
+          "recipe_name": "Demolisher Tombstone",
+          "description": "The tombstone of a fallen demolisher",
+          "flavor": "Forever dead"
+        },
+        "slopgoblin": {
+          "recipe_name": "Slopgoblin Tombstone",
+          "description": "The tombstone of a fallen slopgoblin",
+          "flavor": "Forever dead"
+        },
+        "stockgoblin": {
+          "recipe_name": "Stockgoblin Tombstone",
+          "description": "The tombstone of a fallen stockgoblin",
+          "flavor": "Forever dead"
+        },
+        "warlock": {
+          "recipe_name": "Warlock Tombstone",
+          "description": "The tombstone of a fallen warlock",
+          "flavor": "Forever dead"
+        },
+        "warmaster": {
+          "recipe_name": "Warmaster Tombstone",
+          "description": "The tombstone of a fallen warmaster",
+          "flavor": "Forever dead"
+        },
+        "oresmith": {
+          "recipe_name": "Oresmith Tombstone",
+          "description": "The tombstone of a fallen oresmith",
+          "flavor": "Forever dead"
+        }
+      }
+    }
+  },
+  "entities": {
+    "furniture": {
+      "tombstones": {
+        "tombstone_ghost": {
+          "display_name_abbot": "Abbot Tombstone",
+          "display_name_ambiguous": "Tombstone",
+          "display_name_archer": "Archer Tombstone",
+          "display_name_artificer": "Artificer Tombstone",
+          "display_name_battle_priest": "Battle Priest Tombstone",
+          "display_name_beast_tamer": "Beast Tamer Tombstone",
+          "display_name_blacksmith": "Blacksmith Tombstone",
+          "display_name_blade": "Blade Tombstone",
+          "display_name_bonesmith": "Bonesmith Tombstone",
+          "display_name_brewer": "Brewer Tombstone",
+          "display_name_carpenter": "Carpenter Tombstone",
+          "display_name_church_ruler": "Church Ruler Tombstone",
+          "display_name_cleric": "Cleric Tombstone",
+          "display_name_cook": "Cook Tombstone",
+          "display_name_druid": "Druid Tombstone",
+          "display_name_earthmaster": "Earthmaster Tombstone",
+          "display_name_engineer": "Engineer Tombstone",
+          "display_name_farmer": "Farmer Tombstone",
+          "display_name_fisher": "Fisher Tombstone",
+          "display_name_footman": "Footman Tombstone",
+          "display_name_geomancer": "Geomancer Tombstone",
+          "display_name_glassmith": "Glassmith Tombstone",
+          "display_name_grower": "Grower Tombstone",
+          "display_name_herbalist": "Herbalist Tombstone",
+          "display_name_hunter": "Hunter Tombstone",
+          "display_name_knight": "Knight Tombstone",
+          "display_name_magmasmith": "Magmasmith Tombstone",
+          "display_name_mason": "Mason Tombstone",
+          "display_name_miner": "Miner Tombstone",
+          "display_name_monk": "Monk Tombstone",
+          "display_name_moonmage": "Moonmage Tombstone",
+          "display_name_paladin": "Paladin Tombstone",
+          "display_name_potter": "Potter Tombstone",
+          "display_name_ruler": "Ruler Tombstone",
+          "display_name_scavenger": "Scavenger Tombstone",
+          "display_name_shaman": "Shaman Tombstone",
+          "display_name_shepherd": "Shepherd Tombstone",
+          "display_name_spirit_walker": "Spirit Walker Tombstone",
+          "display_name_sunmage": "Sunmage Tombstone",
+          "display_name_timewizard": "Timewizard Tombstone",
+          "display_name_trapper": "Trapper Tombstone",
+          "display_name_weaver": "Weaver Tombstone",
+          "display_name_wizard": "Wizard Tombstone",
+          "display_name_worker": "Worker Tombstone",
+          "display_name_warrior": "Warrior Tombstone",
+          "display_name_skirmisher": "Skirmisher Tombstone",
+          "display_name_skald": "Skald Tombstone",
+          "display_name_huskarl": "Huskarl Tombstone",
+          "display_name_hersir": "Hersir Tombstone",
+          "display_name_villager": "Villager Tombstone",
+          "display_name_king": "King Tombstone",
+          "display_name_sultan": "Sultan Tombstone",
+          "display_name_chieftain": "Chieftain Tombstone",
+          "display_name_jarl": "Jarl Tombstone",
+          "display_name_lord": "Lord Tombstone",
+          "display_name_demolisher": "Demolisher Tombstone",
+          "display_name_stockgoblin": "Stockgoblin Tombstone",
+          "display_name_slopgoblin": "Slopgoblin Tombstone",
+          "display_name_warlock": "Warlock Tombstone",
+          "display_name_warmaster": "Warmaster Tombstone",
+          "display_name_oresmith": "Oresmith Tombstone",
+          "display_name_firemaster": "Slopgoblin Tombstone",
+          "description_abbot": "[str(self.stonehearth:unit_info.custom_name)] the Abbot.",
+          "description_ambiguous": "[str(self.stonehearth:unit_info.custom_name)] the Ambiguous.",
+          "description_archer": "[str(self.stonehearth:unit_info.custom_name)] the Archer.",
+          "description_artificer": "[str(self.stonehearth:unit_info.custom_name)] the Artificer.",
+          "description_battle_priest": "[str(self.stonehearth:unit_info.custom_name)] the Battle Priest.",
+          "description_beast_tamer": "[str(self.stonehearth:unit_info.custom_name)] the Beast Tamer.",
+          "description_blacksmith": "[str(self.stonehearth:unit_info.custom_name)] the Blacksmith.",
+          "description_blade": "[str(self.stonehearth:unit_info.custom_name)] the Blade.",
+          "description_bonesmith": "[str(self.stonehearth:unit_info.custom_name)] the Bonesmith.",
+          "description_brewer": "[str(self.stonehearth:unit_info.custom_name)] the Brewer.",
+          "description_carpenter": "[str(self.stonehearth:unit_info.custom_name)] the Carpenter.",
+          "description_church_ruler": "[str(self.stonehearth:unit_info.custom_name)] the Church Ruler.",
+          "description_cleric": "[str(self.stonehearth:unit_info.custom_name)] the Cleric.",
+          "description_cook": "[str(self.stonehearth:unit_info.custom_name)] the Cook.",
+          "description_druid": "[str(self.stonehearth:unit_info.custom_name)] the Druid.",
+          "description_earthmaster": "[str(self.stonehearth:unit_info.custom_name)] the Earthmaster.",
+          "description_engineer": "[str(self.stonehearth:unit_info.custom_name)] the Engineer.",
+          "description_farmer": "[str(self.stonehearth:unit_info.custom_name)] the Farmer.",
+          "description_fisher": "[str(self.stonehearth:unit_info.custom_name)] the Fisher.",
+          "description_footman": "[str(self.stonehearth:unit_info.custom_name)] the Footman.",
+          "description_geomancer": "[str(self.stonehearth:unit_info.custom_name)] the Geomancer.",
+          "description_glassmith": "[str(self.stonehearth:unit_info.custom_name)] the Glassmith.",
+          "description_grower": "[str(self.stonehearth:unit_info.custom_name)] the Grower.",
+          "description_herbalist": "[str(self.stonehearth:unit_info.custom_name)] the Herbalist.",
+          "description_hunter": "[str(self.stonehearth:unit_info.custom_name)] the Hunter.",
+          "description_knight": "[str(self.stonehearth:unit_info.custom_name)] the Knight.",
+          "description_magmasmith": "[str(self.stonehearth:unit_info.custom_name)] the Magmasmith.",
+          "description_mason": "[str(self.stonehearth:unit_info.custom_name)] the Mason.",
+          "description_miner": "[str(self.stonehearth:unit_info.custom_name)] the Miner.",
+          "description_monk": "[str(self.stonehearth:unit_info.custom_name)] the Monk.",
+          "description_moonmage": "[str(self.stonehearth:unit_info.custom_name)] the Moonmage.",
+          "description_paladin": "[str(self.stonehearth:unit_info.custom_name)] the Paladin.",
+          "description_potter": "[str(self.stonehearth:unit_info.custom_name)] the Potter.",
+          "description_ruler": "[str(self.stonehearth:unit_info.custom_name)] the Ruler.",
+          "description_scavenger": "[str(self.stonehearth:unit_info.custom_name)] the Scavenger.",
+          "description_shaman": "[str(self.stonehearth:unit_info.custom_name)] the Shaman.",
+          "description_shepherd": "[str(self.stonehearth:unit_info.custom_name)] the Shepherd.",
+          "description_spirit_walker": "[str(self.stonehearth:unit_info.custom_name)] the Spirit Walker.",
+          "description_sunmage": "[str(self.stonehearth:unit_info.custom_name)] the Sunmage.",
+          "description_timewizard": "[str(self.stonehearth:unit_info.custom_name)] the Timewizard.",
+          "description_trapper": "[str(self.stonehearth:unit_info.custom_name)] the Trapper.",
+          "description_weaver": "[str(self.stonehearth:unit_info.custom_name)] the Weaver.",
+          "description_wizard": "[str(self.stonehearth:unit_info.custom_name)] the Wizard.",
+          "description_worker": "[str(self.stonehearth:unit_info.custom_name)] the Worker.",
+          "description_warrior": "[str(self.stonehearth:unit_info.custom_name)] the Warrior.",
+          "description_skirmisher": "[str(self.stonehearth:unit_info.custom_name)] the Skirmisher.",
+          "description_skald": "[str(self.stonehearth:unit_info.custom_name)] the Skald.",
+          "description_huskarl": "[str(self.stonehearth:unit_info.custom_name)] the Huskarl.",
+          "description_hersir": "[str(self.stonehearth:unit_info.custom_name)] the Hersir.",
+          "description_villager": "[str(self.stonehearth:unit_info.custom_name)] the Villager.",
+          "description_king": "[str(self.stonehearth:unit_info.custom_name)] the King.",
+          "description_sultan": "[str(self.stonehearth:unit_info.custom_name)] the Sultan.",
+          "description_chieftain": "[str(self.stonehearth:unit_info.custom_name)] the Chieftain.",
+          "description_jarl": "[str(self.stonehearth:unit_info.custom_name)] the Jarl.",
+          "description_lord": "[str(self.stonehearth:unit_info.custom_name)] the Lord.",
+          "description_demolisher": "[str(self.stonehearth:unit_info.custom_name)] the Demolisher.",
+          "description_stockgoblin": "[str(self.stonehearth:unit_info.custom_name)] the Stockgoblin.",
+          "description_slopgoblin": "[str(self.stonehearth:unit_info.custom_name)] the Slopgoblin.",
+          "description_warlock": "[str(self.stonehearth:unit_info.custom_name)] the Warlock.",
+          "description_warmaster": "[str(self.stonehearth:unit_info.custom_name)] the Warmaster.",
+          "description_oresmith": "[str(self.stonehearth:unit_info.custom_name)] the Oresmith.",
+          "description_firemaster": "[str(self.stonehearth:unit_info.custom_name)] the Slopgoblin.",
+          "description": "A memorial for the fallen."
+        }
+      }
+    }
+  }
+}

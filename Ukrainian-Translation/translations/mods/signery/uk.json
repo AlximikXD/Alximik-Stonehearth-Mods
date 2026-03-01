@@ -1,0 +1,813 @@
+{
+  "ui": {},
+  "entities": {
+    "decoration": {
+      "banner_blank": {
+        "description": "Порожній банер.",
+        "display_name": "Порожній банер",
+        "recipe_name": "Порожній банер",
+        "flavor": "Порожнє полотно, на якому можна творити."
+      },
+      "banner_hanging_large_black": {
+        "description": "Великий чорний банер.",
+        "display_name": "Великий чорний висячий банер",
+        "recipe_name": "Великий чорний висячий банер",
+        "flavor": "Великий чорний висячий банер."
+      },
+      "banner_hanging_large_blue": {
+        "description": "Великий блакитний банер.",
+        "display_name": "Великий синій висить банер",
+        "recipe_name": "Великий синій висить банер",
+        "flavor": "Великий синій висячий банер."
+      },
+      "banner_hanging_large_green": {
+        "description": "Великий зелений банер.",
+        "display_name": "Великий зелений висить банер",
+        "recipe_name": "Великий зелений висить банер",
+        "flavor": "Великий зелений висить банер."
+      },
+      "banner_hanging_large_red": {
+        "description": "Великий червоний прапор.",
+        "display_name": "Великий червоний висячий прапор",
+        "recipe_name": "Великий червоний висячий прапор",
+        "flavor": "Великий червоний висить банер."
+      },
+      "banner_hanging_large_white": {
+        "description": "Великий білий банер.",
+        "display_name": "Великий білий висячий банер",
+        "recipe_name": "Великий білий висячий банер",
+        "flavor": "Великий білий висить банер."
+      },
+      "banner_hanging_large_yellow": {
+        "description": "Великий жовтий банер.",
+        "display_name": "Великий жовтий висить банер",
+        "recipe_name": "Великий жовтий висить банер",
+        "flavor": "Великий жовтий висячий банер."
+      },
+      "banner_hanging_small_black": {
+        "description": "Маленький чорний банер.",
+        "display_name": "Малий чорний висячий банер",
+        "recipe_name": "Малий чорний висячий банер",
+        "flavor": "Маленький чорний висить банер."
+      },
+      "banner_hanging_small_blue": {
+        "description": "Маленький синій банер.",
+        "display_name": "Маленький синій висячий банер",
+        "recipe_name": "Маленький синій висячий банер",
+        "flavor": "Маленький синій висить банер."
+      },
+      "banner_hanging_small_green": {
+        "description": "Маленький зелений банер.",
+        "display_name": "Малий зелений висить банер",
+        "recipe_name": "Малий зелений висить банер",
+        "flavor": "Невеликий зелений висить банер."
+      },
+      "banner_hanging_small_red": {
+        "description": "Маленький червоний прапор.",
+        "display_name": "Малий червоний висячий прапор",
+        "recipe_name": "Малий червоний висячий прапор",
+        "flavor": "Маленький червоний висить банер."
+      },
+      "banner_hanging_small_white": {
+        "description": "Маленький білий банер.",
+        "display_name": "Малий білий висить банер",
+        "recipe_name": "Малий білий висить банер",
+        "flavor": "Маленький білий висить банер."
+      },
+      "banner_hanging_small_yellow": {
+        "description": "Маленький жовтий банер.",
+        "display_name": "Невеликий жовтий висить банер",
+        "recipe_name": "Невеликий жовтий висить банер",
+        "flavor": "Невеликий жовтий висить банер."
+      },
+      "banner_pennant_large_black": {
+        "description": "Великий чорний вимпел.",
+        "display_name": "Великий чорний настінний вимпел",
+        "recipe_name": "Великий чорний настінний вимпел",
+        "flavor": "Великий чорний настінний вимпел."
+      },
+      "banner_pennant_large_blue": {
+        "description": "Великий синій вимпел.",
+        "display_name": "Великий синій настінний вимпел",
+        "recipe_name": "Великий синій настінний вимпел",
+        "flavor": "Великий синій настінний вимпел."
+      },
+      "banner_pennant_large_green": {
+        "description": "Великий зелений вимпел.",
+        "display_name": "Великий зелений настінний вимпел",
+        "recipe_name": "Великий зелений настінний вимпел",
+        "flavor": "Великий зелений настінний вимпел."
+      },
+      "banner_pennant_large_red": {
+        "description": "Великий червоний вимпел.",
+        "display_name": "Великий червоний настінний вимпел",
+        "recipe_name": "Великий червоний настінний вимпел",
+        "flavor": "Великий червоний настінний вимпел."
+      },
+      "banner_pennant_large_white": {
+        "description": "Великий білий вимпел.",
+        "display_name": "Великий білий настінний вимпел",
+        "recipe_name": "Великий білий настінний вимпел",
+        "flavor": "Великий білий настінний вимпел."
+      },
+      "banner_pennant_large_yellow": {
+        "description": "Великий жовтий вимпел.",
+        "display_name": "Великий жовтий настінний вимпел",
+        "recipe_name": "Великий жовтий настінний вимпел",
+        "flavor": "Великий жовтий настінний вимпел."
+      },
+      "banner_pennant_small_black": {
+        "description": "Маленький чорний вимпел.",
+        "display_name": "Малий чорний настінний вимпел",
+        "recipe_name": "Малий чорний настінний вимпел",
+        "flavor": "Маленький чорний настінний вимпел."
+      },
+      "banner_pennant_small_blue": {
+        "description": "Маленький синій вимпел.",
+        "display_name": "Маленький синій настінний вимпел",
+        "recipe_name": "Маленький синій настінний вимпел",
+        "flavor": "Маленький синій настінний вимпел."
+      },
+      "banner_pennant_small_green": {
+        "description": "Маленький зелений вимпел.",
+        "display_name": "Малий зелений настінний вимпел",
+        "recipe_name": "Малий зелений настінний вимпел",
+        "flavor": "Маленький зелений настінний вимпел."
+      },
+      "banner_pennant_small_red": {
+        "description": "Маленький червоний вимпел.",
+        "display_name": "Малий червоний настінний вимпел",
+        "recipe_name": "Малий червоний настінний вимпел",
+        "flavor": "Маленький червоний настінний вимпел."
+      },
+      "banner_pennant_small_white": {
+        "description": "Маленький білий вимпел.",
+        "display_name": "Малий білий настінний вимпел",
+        "recipe_name": "Малий білий настінний вимпел",
+        "flavor": "Маленький білий настінний вимпел."
+      },
+      "banner_pennant_small_yellow": {
+        "description": "Маленький жовтий вимпел.",
+        "display_name": "Маленький жовтий настінний вимпел",
+        "recipe_name": "Маленький жовтий настінний вимпел",
+        "flavor": "Маленький жовтий настінний вимпел."
+      },
+      "banner_simple_blacksmith": {
+        "description": "Просте ковальське знамено.",
+        "display_name": "Простий ковальський банер",
+        "recipe_name": "Простий ковальський банер",
+        "flavor": "Звичайне ковальське знамено."
+      },
+      "banner_simple_carpenter": {
+        "description": "Просте теслярське знамено.",
+        "display_name": "Карпентер простий банер",
+        "recipe_name": "Карпентер простий банер",
+        "flavor": "Звичайне теслярське знамено."
+      },
+      "banner_simple_cook": {
+        "description": "Простий кухарський банер.",
+        "display_name": "Кук Простий банер",
+        "recipe_name": "Кук Простий банер",
+        "flavor": "Простий кухарський банер."
+      },
+      "banner_simple_engineer": {
+        "description": "Простий інженерний банер.",
+        "display_name": "Інженер простий банер",
+        "recipe_name": "Інженер простий банер",
+        "flavor": "Простий інженерний банер."
+      },
+      "banner_simple_herbalist": {
+        "description": "Простий банер травника.",
+        "display_name": "Травник простий банер",
+        "recipe_name": "Травник простий банер",
+        "flavor": "Простий банер травника."
+      },
+      "banner_simple_mason": {
+        "description": "Просте мулярське знамено.",
+        "display_name": "Mason Simple Banner",
+        "recipe_name": "Mason Simple Banner",
+        "flavor": "Простий мулярський прапор."
+      },
+      "banner_simple_potter": {
+        "description": "Просте гончарне знамено.",
+        "display_name": "Поттер простий банер",
+        "recipe_name": "Поттер простий банер",
+        "flavor": "Звичайне гончарне знамено."
+      },
+      "banner_simple_weaver": {
+        "description": "Просте ткацьке знамено.",
+        "display_name": "Простий банер Weaver",
+        "recipe_name": "Простий банер Weaver",
+        "flavor": "Прапор гладдю."
+      },
+      "banner_wall_blacksmith": {
+        "description": "Ковальський прапор.",
+        "display_name": "Ковальський стіновий банер",
+        "recipe_name": "Ковальський стіновий банер",
+        "flavor": "Чудове ковальське знамено."
+      },
+      "banner_wall_carpenter": {
+        "description": "Теслярський прапор.",
+        "display_name": "Карпентер стіна банер",
+        "recipe_name": "Карпентер стіна банер",
+        "flavor": "Чудове теслярське знамено."
+      },
+      "banner_wall_cook": {
+        "description": "Прапор кухаря.",
+        "display_name": "Банер Cook Wall",
+        "recipe_name": "Банер Cook Wall",
+        "flavor": "Чудовий кухарський банер."
+      },
+      "banner_wall_engineer": {
+        "description": "Прапор інженера.",
+        "display_name": "Банер стіни інженера",
+        "recipe_name": "Банер стіни інженера",
+        "flavor": "Чудовий інженерний прапор."
+      },
+      "banner_wall_herbalist": {
+        "description": "Банер травника.",
+        "display_name": "Настінний банер травника",
+        "recipe_name": "Настінний банер травника",
+        "flavor": "Чудовий знамен травника."
+      },
+      "banner_wall_inn": {
+        "description": "Прапор корчми.",
+        "display_name": "Банер на стіні корчми",
+        "recipe_name": "Банер на стіні корчми",
+        "flavor": "Банер корчми."
+      },
+      "banner_wall_large_black": {
+        "description": "Великий чорний банер.",
+        "display_name": "Великий чорний стіновий банер",
+        "recipe_name": "Великий чорний стіновий банер",
+        "flavor": "Великий чорний настінний банер."
+      },
+      "banner_wall_large_green": {
+        "description": "Великий зелений банер.",
+        "display_name": "Великий банер зеленої стіни",
+        "recipe_name": "Великий банер зеленої стіни",
+        "flavor": "Великий зелений банер на стіні."
+      },
+      "banner_wall_large_red": {
+        "description": "Великий червоний прапор.",
+        "display_name": "Великий банер на червоній стіні",
+        "recipe_name": "Великий банер на червоній стіні",
+        "flavor": "Великий банер на червоній стіні."
+      },
+      "banner_wall_large_white": {
+        "description": "Великий білий банер.",
+        "display_name": "Велика біла стіна банер",
+        "recipe_name": "Велика біла стіна банер",
+        "flavor": "Великий білий настінний банер."
+      },
+      "banner_wall_large_yellow": {
+        "description": "Великий жовтий банер.",
+        "display_name": "Великий жовтий настінний банер",
+        "recipe_name": "Великий жовтий настінний банер",
+        "flavor": "Великий жовтий настінний банер."
+      },
+      "banner_wall_mason": {
+        "description": "Прапор муляра.",
+        "display_name": "Стіновий банер Мейсона",
+        "recipe_name": "Стіновий банер Мейсона",
+        "flavor": "Чудовий мулярський прапор."
+      },
+      "banner_wall_potion": {
+        "description": "Банер із зіллям.",
+        "display_name": "Зілля стіни банер",
+        "recipe_name": "Зілля стіни банер",
+        "flavor": "Банер із зображенням зілля."
+      },
+      "banner_wall_potter": {
+        "description": "Гончарний прапор.",
+        "display_name": "Поттер стіна банер",
+        "recipe_name": "Поттер стіна банер",
+        "flavor": "Чудове гончарне знамено."
+      },
+      "banner_wall_pub": {
+        "description": "Банер пабу.",
+        "display_name": "Настінний банер пабу",
+        "recipe_name": "Настінний банер пабу",
+        "flavor": "Банер із зображенням пінти."
+      },
+      "banner_wall_small_black": {
+        "description": "Маленький чорний банер.",
+        "display_name": "Малий чорний стіновий банер",
+        "recipe_name": "Малий чорний стіновий банер",
+        "flavor": "Маленький чорний настінний банер."
+      },
+      "banner_wall_small_green": {
+        "description": "Маленький зелений банер.",
+        "display_name": "Малий банер зеленої стіни",
+        "recipe_name": "Малий банер зеленої стіни",
+        "flavor": "Маленький зелений банер на стіні."
+      },
+      "banner_wall_small_red": {
+        "description": "Маленький червоний прапор.",
+        "display_name": "Маленький банер Червоної стіни",
+        "recipe_name": "Маленький банер Червоної стіни",
+        "flavor": "Маленький банер червоної стіни."
+      },
+      "banner_wall_small_white": {
+        "description": "Маленький білий банер.",
+        "display_name": "Малий білий настінний банер",
+        "recipe_name": "Малий білий настінний банер",
+        "flavor": "Маленький білий настінний банер."
+      },
+      "banner_wall_small_yellow": {
+        "description": "Маленький жовтий банер.",
+        "display_name": "Маленький жовтий настінний банер",
+        "recipe_name": "Маленький жовтий настінний банер",
+        "flavor": "Маленький жовтий настінний банер."
+      },
+      "banner_wall_storage": {
+        "description": "Банер запасу.",
+        "display_name": "Запас стіни банер",
+        "recipe_name": "Запас стіни банер",
+        "flavor": "Банер запасу."
+      },
+      "banner_wall_weaver": {
+        "description": "Прапор ткача.",
+        "display_name": "Weaver Wall Banner",
+        "recipe_name": "Weaver Wall Banner",
+        "flavor": "Чудове ткацьке знамено."
+      },
+      "sign_clay_blacksmith": {
+        "description": "Глиняний ковальський знак.",
+        "display_name": "Глиняний знак коваля",
+        "recipe_name": "Глиняний знак коваля",
+        "flavor": "Простий ковальський знак із глини."
+      },
+      "sign_clay_blank": {
+        "description": "Порожній глиняний знак.",
+        "display_name": "Пустий глиняний знак",
+        "recipe_name": "Пустий глиняний знак",
+        "flavor": "Порожній глиняний знак, готовий до збагачення."
+      },
+      "sign_clay_carpenter": {
+        "description": "Глиняний теслярський знак.",
+        "display_name": "Теслярський глиняний знак",
+        "recipe_name": "Теслярський глиняний знак",
+        "flavor": "Простий теслярський знак з глини."
+      },
+      "sign_clay_cook": {
+        "description": "Глиняний кухарський знак.",
+        "display_name": "Глиняний знак Кука",
+        "recipe_name": "Глиняний знак Кука",
+        "flavor": "Простий кухарський знак з глини."
+      },
+      "sign_clay_engineer": {
+        "description": "Глиняний інженерний знак.",
+        "display_name": "Знак інженерної глини",
+        "recipe_name": "Знак інженерної глини",
+        "flavor": "Простий інженерний знак з глини."
+      },
+      "sign_clay_herbalist": {
+        "description": "Прикмета глиняного травника.",
+        "display_name": "Глиняний знак травника",
+        "recipe_name": "Глиняний знак травника",
+        "flavor": "Простий фітотерапевтичний знак із глини."
+      },
+      "sign_clay_inn": {
+        "description": "Вивіска глиняної корчми.",
+        "display_name": "Вивіска Clay Inn",
+        "recipe_name": "Вивіска Clay Inn",
+        "flavor": "Проста табличка з глини."
+      },
+      "sign_clay_mason": {
+        "description": "Знак глиняного муляра.",
+        "display_name": "Глиняний знак Мейсона",
+        "recipe_name": "Глиняний знак Мейсона",
+        "flavor": "Простий мулярський знак із глини."
+      },
+      "sign_clay_potter": {
+        "description": "Знак глиняного гончаря.",
+        "display_name": "Гончарний глиняний знак",
+        "recipe_name": "Гончарний глиняний знак",
+        "flavor": "Простий гончарний знак із глини."
+      },
+      "sign_clay_pub": {
+        "description": "Вивіска глиняного пабу.",
+        "display_name": "Глиняний знак пабу",
+        "recipe_name": "Глиняний знак пабу",
+        "flavor": "Проста табличка з глини."
+      },
+      "sign_clay_storage": {
+        "description": "Знак запасу глини.",
+        "display_name": "Знак запасу глини",
+        "recipe_name": "Знак запасу глини",
+        "flavor": "Знак запасу з глини."
+      },
+      "sign_clay_weaver": {
+        "description": "Знак ткача з глини.",
+        "display_name": "Глиняний знак Вівера",
+        "recipe_name": "Глиняний знак Вівера",
+        "flavor": "Простий ткацький знак із глини."
+      },
+      "sign_fancy_clay_bed": {
+        "description": "Прикрасьте глиняне ліжко.",
+        "display_name": "Незвичайний глиняний знак із ліжком",
+        "recipe_name": "Незвичайний глиняний знак із ліжком",
+        "flavor": "Чудовий глиняний знак із зображенням ліжка."
+      },
+      "sign_fancy_clay_blacksmith": {
+        "description": "Прикрашають глиняний ковальський знак.",
+        "display_name": "Витончений глиняний знак коваля",
+        "recipe_name": "Витончений глиняний знак коваля",
+        "flavor": "Чудовий глиняний знак із зображенням меча."
+      },
+      "sign_fancy_clay_carpenter": {
+        "description": "Прикрасити глиняний столярний знак.",
+        "display_name": "Витончений глиняний знак теслі",
+        "recipe_name": "Витончений глиняний знак теслі",
+        "flavor": "Чудовий глиняний знак із зображенням пилки."
+      },
+      "sign_fancy_clay_castle": {
+        "description": "Прикрасити глиняний знак замку.",
+        "display_name": "Витончений глиняний знак із замком",
+        "recipe_name": "Витончений глиняний знак із замком",
+        "flavor": "Чудовий глиняний знак із зображенням замку."
+      },
+      "sign_fancy_clay_cook": {
+        "description": "Прикрасити глиняний знак кухаря.",
+        "display_name": "Витончений глиняний знак Кука",
+        "recipe_name": "Витончений глиняний знак Кука",
+        "flavor": "Витончений глиняний знак із зображенням гарбуза."
+      },
+      "sign_fancy_clay_desert_inn": {
+        "description": "Прикрасити глиняну табличку.",
+        "display_name": "Вивіска Fancy Clay Desert Inn",
+        "recipe_name": "Вивіска Fancy Clay Desert Inn",
+        "flavor": "Витончений глиняний знак із зображенням масляної лампи."
+      },
+      "sign_fancy_clay_engineer": {
+        "description": "Декоративний глиняний знак інженера.",
+        "display_name": "Витончений глиняний знак інженера",
+        "recipe_name": "Витончений глиняний знак інженера",
+        "flavor": "Чудовий глиняний знак, на якому зображені шестерні."
+      },
+      "sign_fancy_clay_herbalist": {
+        "description": "Прикрасити глиняний знак травника.",
+        "display_name": "Витончений глиняний знак травника",
+        "recipe_name": "Витончений глиняний знак травника",
+        "flavor": "Чудовий глиняний знак із зображенням зілля."
+      },
+      "sign_fancy_clay_inn": {
+        "description": "Прикрасити глиняну табличку.",
+        "display_name": "Незвичайна глиняна табличка",
+        "recipe_name": "Незвичайна глиняна табличка",
+        "flavor": "Витончений глиняний знак із зображенням свічки."
+      },
+      "sign_fancy_clay_mason": {
+        "description": "Прикрасити глиняний знак муляра.",
+        "display_name": "Незвичайний знак глиняного муляра",
+        "recipe_name": "Незвичайний знак глиняного муляра",
+        "flavor": "Витончений глиняний знак, на якому зображені каменярські інструменти."
+      },
+      "sign_fancy_clay_mason_bench": {
+        "description": "Прикрасити глиняний знак муляра.",
+        "display_name": "Незвичайний знак лавки каменяра з глини",
+        "recipe_name": "Незвичайний знак лавки каменяра з глини",
+        "flavor": "Витончений глиняний знак із зображенням лави муляра."
+      },
+      "sign_fancy_clay_ol_saw": {
+        "description": "Прикрасити глиняний столярний знак.",
+        "display_name": "Витончений глиняний знак старого теслі",
+        "recipe_name": "Витончений глиняний знак старого теслі",
+        "flavor": "Чудовий глиняний знак із зображенням старої пилки."
+      },
+      "sign_fancy_clay_potter": {
+        "description": "Прикрасити глиняний гончарний знак.",
+        "display_name": "Витончений глиняний гончарний знак",
+        "recipe_name": "Витончений глиняний гончарний знак",
+        "flavor": "Витончений глиняний знак із зображенням чайника."
+      },
+      "sign_fancy_clay_pub": {
+        "description": "Декоративна глиняна вивіска пабу.",
+        "display_name": "Вивіска Fancy Clay Pub",
+        "recipe_name": "Вивіска Fancy Clay Pub",
+        "flavor": "Чудовий глиняний знак із зображенням пінти... мммммм."
+      },
+      "sign_fancy_clay_storage": {
+        "description": "Прикрасьте знак запасу глини.",
+        "display_name": "Незвичайний знак запасів глини",
+        "recipe_name": "Незвичайний знак запасів глини",
+        "flavor": "Витончений знак запасу глини."
+      },
+      "sign_fancy_clay_weaver": {
+        "description": "Прикрасити глиняний знак ткача.",
+        "display_name": "Витончений знак ткача з глини",
+        "recipe_name": "Витончений знак ткача з глини",
+        "flavor": "Чудовий глиняний знак із зображенням ножиць."
+      },
+      "sign_metal_blacksmith": {
+        "description": "Металевий ковальський знак.",
+        "display_name": "Металевий ковальський знак",
+        "recipe_name": "Металевий ковальський знак",
+        "flavor": "Шикарний, не кажучи вже про важкий металевий знак."
+      },
+      "sign_metal_blacksmith_hammer": {
+        "description": "Знак металевого ковальського молота.",
+        "display_name": "Металевий молоток знак",
+        "recipe_name": "Металевий молоток знак",
+        "flavor": "Десь у когось не вистачає молотка."
+      },
+      "sign_metal_carpenter": {
+        "description": "Металевий теслярський знак.",
+        "display_name": "Металевий теслярський знак",
+        "recipe_name": "Металевий теслярський знак",
+        "flavor": "Дурний металевий знак."
+      },
+      "sign_metal_cook": {
+        "description": "Кухарський металевий знак.",
+        "display_name": "Металевий знак кухаря",
+        "recipe_name": "Металевий знак кухаря",
+        "flavor": "Ну не можна їсти."
+      },
+      "sign_metal_engineer": {
+        "description": "Знак інженера-металіста.",
+        "display_name": "Знак інженера-металіста",
+        "recipe_name": "Знак інженера-металіста",
+        "flavor": "Я можу краще - Інженер."
+      },
+      "sign_metal_flowers": {
+        "description": "Металевий квітковий знак.",
+        "display_name": "Металевий квітковий знак",
+        "recipe_name": "Металевий квітковий знак",
+        "flavor": "Де Залізний Метелик?!"
+      },
+      "sign_metal_fork": {
+        "description": "Металевий срібний знак.",
+        "display_name": "Металеве срібло знак",
+        "recipe_name": "Металеве срібло знак",
+        "flavor": "Голодний?"
+      },
+      "sign_metal_gear": {
+        "description": "Металевий знак передач.",
+        "display_name": "Знак металевих передач",
+        "recipe_name": "Знак металевих передач",
+        "flavor": "Unturing."
+      },
+      "sign_metal_goblin": {
+        "description": "Знак металевого гобліна.",
+        "display_name": "Знак металевого гобліна",
+        "recipe_name": "Знак металевого гобліна",
+        "flavor": "Такий реалістичний."
+      },
+      "sign_metal_goblin_angry": {
+        "description": "Металевий розлючений знак гобліна.",
+        "display_name": "Металевий сердитий гоблін знак",
+        "recipe_name": "Металевий сердитий гоблін знак",
+        "flavor": "Він чимось обурений."
+      },
+      "sign_metal_herbalist": {
+        "description": "Металевий знак травника.",
+        "display_name": "Знак травника металу",
+        "recipe_name": "Знак травника металу",
+        "flavor": "Під час виготовлення цього знаку жодне дерево не постраждало."
+      },
+      "sign_metal_inn": {
+        "description": "Металевий трактирний знак.",
+        "display_name": "Металевий знак Inn",
+        "recipe_name": "Металевий знак Inn",
+        "flavor": "Втомився?."
+      },
+      "sign_metal_key": {
+        "description": "Знак металевого ключа.",
+        "display_name": "Металевий ключ знак",
+        "recipe_name": "Металевий ключ знак",
+        "flavor": "Ключ додається. Постійно."
+      },
+      "sign_metal_mason": {
+        "description": "Металевий знак муляра.",
+        "display_name": "Знак металевого масона",
+        "recipe_name": "Знак металевого масона",
+        "flavor": "Не камінь."
+      },
+      "sign_metal_mason_bench": {
+        "description": "Знак верстака металевого муляра.",
+        "display_name": "Знак лавки металевого муляра",
+        "recipe_name": "Знак лавки металевого муляра",
+        "flavor": "Маленька мініатюрна версія справжньої речі."
+      },
+      "sign_metal_pint": {
+        "description": "Знак металевої пінти.",
+        "display_name": "Металева пінта знак",
+        "recipe_name": "Металева пінта знак",
+        "flavor": "Mmmm...beeeeer."
+      },
+      "sign_metal_potion": {
+        "description": "Знак металевого зілля.",
+        "display_name": "Знак металевого зілля",
+        "recipe_name": "Знак металевого зілля",
+        "flavor": "НЕ для пиття."
+      },
+      "sign_metal_potter": {
+        "description": "Металевий гончарний знак.",
+        "display_name": "Знак металевого Гончара",
+        "recipe_name": "Знак металевого Гончара",
+        "flavor": "Насправді важчий за глиняний знак."
+      },
+      "sign_metal_saw": {
+        "description": "Знак металевої пилки.",
+        "display_name": "Знак пилки по металу",
+        "recipe_name": "Знак пилки по металу",
+        "flavor": "Що ти зробив з моєю пилкою?! - Столяр."
+      },
+      "sign_metal_scissors": {
+        "description": "Металеві ножиці знак.",
+        "display_name": "Металеві ножиці знак",
+        "recipe_name": "Металеві ножиці знак",
+        "flavor": "Не бігайте з цим теж!"
+      },
+      "sign_metal_storage": {
+        "description": "Знак металевих запасів.",
+        "display_name": "Знак запасів металу",
+        "recipe_name": "Знак запасів металу",
+        "flavor": "Наповнений усілякими смаколиками!"
+      },
+      "sign_metal_tower": {
+        "description": "Знак металевої вежі.",
+        "display_name": "Знак металевої вежі",
+        "recipe_name": "Знак металевої вежі",
+        "flavor": "Ви майже можете собі уявити, як там живуть маленькі сердечки."
+      },
+      "sign_metal_vase": {
+        "description": "Знак металевої вази.",
+        "display_name": "Знак металевої вази",
+        "recipe_name": "Знак металевої вази",
+        "flavor": "Це виглядає важко."
+      },
+      "sign_metal_weaver": {
+        "description": "Знак металевого ткача.",
+        "display_name": "Знак металевого ткача",
+        "recipe_name": "Знак металевого ткача",
+        "flavor": "Немає потреби в нарощуванні."
+      },
+      "signpost_marker_blacksmith": {
+        "description": "Ковальський покажчик.",
+        "display_name": "Маркер ковальського покажчика",
+        "recipe_name": "Маркер ковальського покажчика",
+        "flavor": "Це вказує на те!"
+      },
+      "signpost_marker_carpenter": {
+        "description": "Столярний покажчик-маркер.",
+        "display_name": "Карпентер покажчик маркер",
+        "recipe_name": "Карпентер покажчик маркер",
+        "flavor": "Це вказує на те!"
+      },
+      "signpost_marker_cook": {
+        "description": "Кухарський покажчик.",
+        "display_name": "Маркер покажчика Кука",
+        "recipe_name": "Маркер покажчика Кука",
+        "flavor": "Це вказує на те!"
+      },
+      "signpost_marker_engineer": {
+        "description": "Маркер інженерного покажчика.",
+        "display_name": "Інженер покажчик маркер",
+        "recipe_name": "Інженер покажчик маркер",
+        "flavor": "Це вказує на те!"
+      },
+      "signpost_marker_herbalist": {
+        "description": "Маркер-вказівник травника.",
+        "display_name": "Травник покажчик маркер",
+        "recipe_name": "Травник покажчик маркер",
+        "flavor": "Це вказує на те!"
+      },
+      "signpost_marker_inn": {
+        "description": "Вказівник на корчмі.",
+        "display_name": "Позначка вказівника готелю",
+        "recipe_name": "Позначка вказівника готелю",
+        "flavor": "Це вказує на те!"
+      },
+      "signpost_marker_mason": {
+        "description": "Маркер покажчика муляра.",
+        "display_name": "Мейсон покажчик",
+        "recipe_name": "Мейсон покажчик",
+        "flavor": "Це вказує на те!"
+      },
+      "signpost_marker_oak": {
+        "description": "Дубовий покажчик.",
+        "display_name": "Дубовий покажчик",
+        "recipe_name": "Дубовий покажчик",
+        "flavor": "Це вказує на те!"
+      },
+      "signpost_marker_potter": {
+        "description": "Гончарний покажчик.",
+        "display_name": "Маркер Поттера",
+        "recipe_name": "Маркер Поттера",
+        "flavor": "Це вказує на те!"
+      },
+      "signpost_marker_pub": {
+        "description": "Маркер-вказівник пабу.",
+        "display_name": "Паб покажчик маркер",
+        "recipe_name": "Паб покажчик маркер",
+        "flavor": "Це вказує на те!"
+      },
+      "signpost_marker_storage": {
+        "description": "Зберігання покажчик маркер.",
+        "display_name": "Зберігання вказівник маркер",
+        "recipe_name": "Зберігання вказівник маркер",
+        "flavor": "Це вказує на те!"
+      },
+      "signpost_marker_weaver": {
+        "description": "Маркер-вказівник ткача.",
+        "display_name": "Вівер покажчик маркер",
+        "recipe_name": "Вівер покажчик маркер",
+        "flavor": "Це вказує на те!"
+      },
+      "signpost_oak": {
+        "description": "Дубовий дороговказ.",
+        "display_name": "Дубовий покажчик",
+        "recipe_name": "Дубовий покажчик",
+        "flavor": "Звичайно, для розміщення знаків."
+      },
+      "signstand_brick": {
+        "description": "Цегляний пам'ятник-вказівник.",
+        "display_name": "Цегляний пам'ятник",
+        "recipe_name": "Цегляний пам'ятник",
+        "flavor": "Трохи стійкіший і красивіший, ніж пост."
+      },
+      "signstand_brick_fancy": {
+        "description": "Витончений цегляний пам’ятник-покажчик.",
+        "display_name": "Незвичайний цегляний пам'ятник",
+        "recipe_name": "Незвичайний цегляний пам'ятник",
+        "flavor": "Це просто кричить, подивіться на мене."
+      },
+      "signstand_oak": {
+        "description": "Дубовий пам'ятник-вказівник.",
+        "display_name": "Пам'ятник дубу",
+        "recipe_name": "Пам'ятник дубу",
+        "flavor": "Трохи постійніший, ніж пост."
+      },
+      "signstand_oak_fancy": {
+        "description": "Витончений дубовий пам’ятник.",
+        "display_name": "Витончений дубовий пам'ятник",
+        "recipe_name": "Витончений дубовий пам'ятник",
+        "flavor": "Добре зроблений дороговказ пам'ятника з дуба."
+      },
+      "signstand_stone": {
+        "description": "Кам'яний пам'ятник-вказівник.",
+        "display_name": "Кам'яний пам'ятник покажчик",
+        "recipe_name": "Кам'яний пам'ятник покажчик",
+        "flavor": "Значно більш постійний, ніж посада."
+      },
+      "signstand_stone_fancy": {
+        "description": "Шикарний кам'яний пам'ятник-покажчик.",
+        "display_name": "Незвичайний кам'яний пам'ятник покажчик",
+        "recipe_name": "Незвичайний кам'яний пам'ятник покажчик",
+        "flavor": "Оздоблений золотим блиском."
+      }
+    }
+  },
+  "jobs": {
+    "blacksmith": {
+      "recipes": {
+        "banner_name": "Banners",
+        "signs_name": "Signs"
+      }
+    },
+    "carpenter": {
+      "recipes": {
+        "banner_name": "Banners",
+        "signs_name": "Signs"
+      }
+    },
+    "cook": {
+      "recipes": {
+        "banner_name": "Banners",
+        "signs_name": "Signs"
+      }
+    },
+    "engineer": {
+      "recipes": {
+        "banner_name": "Banners",
+        "signs_name": "Signs"
+      }
+    },
+    "herbalist": {
+      "recipes": {
+        "banner_name": "Banners",
+        "signs_name": "Signs"
+      }
+    },
+    "mason": {
+      "recipes": {
+        "banner_name": "Banners",
+        "signs_name": "Signs"
+      }
+    },
+    "potter": {
+      "recipes": {
+        "banner_name": "Banners",
+        "signs_name": "Signs"
+      }
+    },
+    "weaver": {
+      "recipes": {
+        "banner_name": "Banners",
+        "signs_name": "Signs"
+      }
+    }
+  }
+}

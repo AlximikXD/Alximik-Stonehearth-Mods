@@ -1,0 +1,447 @@
+{
+  "TRANSLATOR": "Hamnisu",
+  "recipes": {
+    "mason": {
+      "tombstones": {
+        "ambiguous": {
+          "recipe_name": "Надгробок",
+          "description": "Надгробок полеглого",
+          "flavor": "Назавжди мертвий"
+        },
+        "archer": {
+          "recipe_name": "Надгробок лучника",
+          "description": "Надгробок загиблого стрільця",
+          "flavor": "Назавжди мертвий"
+        },
+        "artificer": {
+          "recipe_name": "Артифікатор Надгробок",
+          "description": "Надгробок загиблому реміснику",
+          "flavor": "Назавжди мертвий"
+        },
+        "battle_priest": {
+          "recipe_name": "Надгробок бойового священика",
+          "description": "Надгробок полеглого бойового священика",
+          "flavor": "Назавжди мертвий"
+        },
+        "beast_tamer": {
+          "recipe_name": "Надгробок «Приборкувач звірів».",
+          "description": "Надгробок полеглого приборкувача звірів",
+          "flavor": "Назавжди мертвий"
+        },
+        "blacksmith": {
+          "recipe_name": "Ковальський надгробок",
+          "description": "Надгробок загиблого коваля",
+          "flavor": "Назавжди мертвий"
+        },
+        "blade": {
+          "recipe_name": "Клинок Надгробок",
+          "description": "Надгробок впалого клинка",
+          "flavor": "Назавжди мертвий"
+        },
+        "bonesmith": {
+          "recipe_name": "Надгробний пам'ятник костяреві",
+          "description": "Надгробок полеглого костяра",
+          "flavor": "Назавжди мертвий"
+        },
+        "brewer": {
+          "recipe_name": "Пивовар надгробок",
+          "description": "Надгробок загиблому пивовару",
+          "flavor": "Назавжди мертвий"
+        },
+        "carpenter": {
+          "recipe_name": "Тесля Надгробок",
+          "description": "Надгробок загиблому теслі",
+          "flavor": "Назавжди мертвий"
+        },
+        "church_ruler": {
+          "recipe_name": "Церковний правитель надгробок",
+          "description": "Надгробок загиблого церковного правителя",
+          "flavor": "Назавжди мертвий"
+        },
+        "cleric": {
+          "recipe_name": "Священнослужитель Надгробок",
+          "description": "Надгробок загиблому священнослужителю",
+          "flavor": "Назавжди мертвий"
+        },
+        "cook": {
+          "recipe_name": "Кук Надгробок",
+          "description": "Надгробок загиблого кухаря",
+          "flavor": "Назавжди мертвий"
+        },
+        "druid": {
+          "recipe_name": "Надгробок друїдів",
+          "description": "Надгробок полеглого друїда",
+          "flavor": "Назавжди мертвий"
+        },
+        "earthmaster": {
+          "recipe_name": "Надгробок Майстра Землі",
+          "description": "Надгробок полеглого майстра землі",
+          "flavor": "Назавжди мертвий"
+        },
+        "engineer": {
+          "recipe_name": "Надгробок інженера",
+          "description": "Надгробок загиблому інженеру",
+          "flavor": "Назавжди мертвий"
+        },
+        "farmer": {
+          "recipe_name": "Надгробок фермера",
+          "description": "Надгробок загиблого хлібороба",
+          "flavor": "Назавжди мертвий"
+        },
+        "fisher": {
+          "recipe_name": "Надгробок Фішера",
+          "description": "Надгробок загиблому рибалці",
+          "flavor": "Назавжди мертвий"
+        },
+        "footman": {
+          "recipe_name": "Надгробок лакея",
+          "description": "Надгробок загиблому лакею",
+          "flavor": "Назавжди мертвий"
+        },
+        "geomancer": {
+          "recipe_name": "Надгробок Геоманта",
+          "description": "Надгробок полеглого геоманта",
+          "flavor": "Назавжди мертвий"
+        },
+        "glassmith": {
+          "recipe_name": "Надгробок Скляря",
+          "description": "Надгробок загиблого скляря",
+          "flavor": "Назавжди мертвий"
+        },
+        "grower": {
+          "recipe_name": "Вирощувач Надгробок",
+          "description": "Надгробок загиблому хліборобу",
+          "flavor": "Назавжди мертвий"
+        },
+        "herbalist": {
+          "recipe_name": "Надгробок травника",
+          "description": "Надгробок загиблому травнику",
+          "flavor": "Назавжди мертвий"
+        },
+        "hunter": {
+          "recipe_name": "Надгробок Мисливця",
+          "description": "Надгробок загиблого мисливця",
+          "flavor": "Назавжди мертвий"
+        },
+        "knight": {
+          "recipe_name": "Надгробок лицаря",
+          "description": "Надгробок полеглого лицаря",
+          "flavor": "Назавжди мертвий"
+        },
+        "magmasmith": {
+          "recipe_name": "Надгробок Магмасміта",
+          "description": "Надгробок загиблого магмасматика",
+          "flavor": "Назавжди мертвий"
+        },
+        "mason": {
+          "recipe_name": "Мейсон Надгробок",
+          "description": "Надгробок загиблому муляру",
+          "flavor": "Назавжди мертвий"
+        },
+        "miner": {
+          "recipe_name": "Шахтарський надгробок",
+          "description": "Надгробок загиблому шахтару",
+          "flavor": "Назавжди мертвий"
+        },
+        "monk": {
+          "recipe_name": "Монах Надгробок",
+          "description": "Надгробок загиблому монаху",
+          "flavor": "Назавжди мертвий"
+        },
+        "moonmage": {
+          "recipe_name": "Надгробок місячного мага",
+          "description": "Надгробок занепалого місячного мага",
+          "flavor": "Назавжди мертвий"
+        },
+        "paladin": {
+          "recipe_name": "Надгробок паладина",
+          "description": "Надгробок полеглого паладина",
+          "flavor": "Назавжди мертвий"
+        },
+        "potter": {
+          "recipe_name": "Надгробок Поттера",
+          "description": "Надгробок загиблого гончаря",
+          "flavor": "Назавжди мертвий"
+        },
+        "ruler": {
+          "recipe_name": "Правитель Надгробок",
+          "description": "Надгробок полеглого правителя",
+          "flavor": "Назавжди мертвий"
+        },
+        "scavenger": {
+          "recipe_name": "Надгробок Сміттяра",
+          "description": "Надгробний пам'ятник загиблому сміттяру",
+          "flavor": "Назавжди мертвий"
+        },
+        "shaman": {
+          "recipe_name": "Надгробок шамана",
+          "description": "Надгробок полеглого шамана",
+          "flavor": "Назавжди мертвий"
+        },
+        "shepherd": {
+          "recipe_name": "Пастух Надгробок",
+          "description": "Надгробок загиблому пастуху",
+          "flavor": "Назавжди мертвий"
+        },
+        "spirit_walker": {
+          "recipe_name": "Надгробний пам'ятник Духу Уокера",
+          "description": "Надгробок занепалого духоходця",
+          "flavor": "Назавжди мертвий"
+        },
+        "sunmage": {
+          "recipe_name": "Надгробок Мага Сонця",
+          "description": "Надгробок занепалого сонячного мага",
+          "flavor": "Назавжди мертвий"
+        },
+        "timewizard": {
+          "recipe_name": "Надгробок Чарівника Часу",
+          "description": "Надгробок занепалого чарівника часу",
+          "flavor": "Назавжди мертвий"
+        },
+        "trapper": {
+          "recipe_name": "Надгробок Трапера",
+          "description": "Надгробок полеглого трапера",
+          "flavor": "Назавжди мертвий"
+        },
+        "weaver": {
+          "recipe_name": "Надгробок Вівер",
+          "description": "Надгробок загиблого ткача",
+          "flavor": "Назавжди мертвий"
+        },
+        "wizard": {
+          "recipe_name": "Чарівник Надгробок",
+          "description": "Надгробок загиблого чарівника",
+          "flavor": "Назавжди мертвий"
+        },
+        "worker": {
+          "recipe_name": "Робітник надгробок",
+          "description": "Надгробок загиблому трудівнику",
+          "flavor": "Назавжди мертвий"
+        },
+        "warrior": {
+          "recipe_name": "Надгробок воїна",
+          "description": "Надгробок загиблому воїну",
+          "flavor": "Назавжди мертвий"
+        },
+        "skirmisher": {
+          "recipe_name": "Надгробок Стрільця",
+          "description": "Надгробок загиблому стрільцю",
+          "flavor": "Назавжди мертвий"
+        },
+        "skald": {
+          "recipe_name": "Надгробок Скальда",
+          "description": "Надгробок полеглого скальда",
+          "flavor": "Назавжди мертвий"
+        },
+        "huskarl": {
+          "recipe_name": "Надгробок Хускарла",
+          "description": "Надгробок полеглого гускарла",
+          "flavor": "Назавжди мертвий"
+        },
+        "hersir": {
+          "recipe_name": "Херсір Надгробок",
+          "description": "Надгробок загиблого спадкоємця",
+          "flavor": "Назавжди мертвий"
+        },
+        "villager": {
+          "recipe_name": "Сільський надгробок",
+          "description": "Надгробок загиблому односельцю",
+          "flavor": "Назавжди мертвий"
+        },
+        "abbot": {
+          "recipe_name": "Ігумен Надгробний",
+          "description": "Надгробок загиблого ігумена",
+          "flavor": "Назавжди мертвий"
+        },
+        "king": {
+          "recipe_name": "Король Надгробок",
+          "description": "Надгробок полеглого короля",
+          "flavor": "Назавжди мертвий"
+        },
+        "sultan": {
+          "recipe_name": "Надгробок султана",
+          "description": "Надгробок полеглого султана",
+          "flavor": "Назавжди мертвий"
+        },
+        "chieftain": {
+          "recipe_name": "Отаман Надгробок",
+          "description": "Надгробок загиблому отаману",
+          "flavor": "Назавжди мертвий"
+        },
+        "jarl": {
+          "recipe_name": "Ярл Надгробок",
+          "description": "Надгробок полеглого ярла",
+          "flavor": "Назавжди мертвий"
+        },
+        "lord": {
+          "recipe_name": "Лорд Надгробок",
+          "description": "Надгробок загиблого лорда",
+          "flavor": "Назавжди мертвий"
+        },
+        "demolisher": {
+          "recipe_name": "Надгробок руйнівника",
+          "description": "Надгробок полеглого підривника",
+          "flavor": "Назавжди мертвий"
+        },
+        "slopgoblin": {
+          "recipe_name": "Надгробний пам'ятник Слопогобліна",
+          "description": "Надгробний пам'ятник загиблому нелюду",
+          "flavor": "Назавжди мертвий"
+        },
+        "stockgoblin": {
+          "recipe_name": "Стогоблінський надгробок",
+          "description": "Надгробок загиблого гобліна",
+          "flavor": "Назавжди мертвий"
+        },
+        "warlock": {
+          "recipe_name": "Надгробок чорнокнижника",
+          "description": "Надгробок полеглого чорнокнижника",
+          "flavor": "Назавжди мертвий"
+        },
+        "warmaster": {
+          "recipe_name": "Надгробний камінь Warmaster",
+          "description": "Надгробний пам'ятник загиблому воєводі",
+          "flavor": "Назавжди мертвий"
+        },
+        "oresmith": {
+          "recipe_name": "Надгробок Оресміта",
+          "description": "Надгробок полеглого рударя",
+          "flavor": "Назавжди мертвий"
+        }
+      }
+    }
+  },
+  "entities": {
+    "furniture": {
+      "tombstones": {
+        "tombstone_ghost": {
+          "display_name_abbot": "Ігумен Надгробний",
+          "display_name_ambiguous": "Надгробок",
+          "display_name_archer": "Надгробок лучника",
+          "display_name_artificer": "Артифікатор Надгробок",
+          "display_name_battle_priest": "Надгробок бойового священика",
+          "display_name_beast_tamer": "Надгробок «Приборкувач звірів».",
+          "display_name_blacksmith": "Ковальський надгробок",
+          "display_name_blade": "Клинок Надгробок",
+          "display_name_bonesmith": "Надгробний пам'ятник костяреві",
+          "display_name_brewer": "Пивовар надгробок",
+          "display_name_carpenter": "Тесля Надгробок",
+          "display_name_church_ruler": "Церковний правитель надгробок",
+          "display_name_cleric": "Священнослужитель Надгробок",
+          "display_name_cook": "Кук Надгробок",
+          "display_name_druid": "Надгробок друїдів",
+          "display_name_earthmaster": "Надгробок Майстра Землі",
+          "display_name_engineer": "Надгробок інженера",
+          "display_name_farmer": "Надгробок фермера",
+          "display_name_fisher": "Надгробок Фішера",
+          "display_name_footman": "Надгробок лакея",
+          "display_name_geomancer": "Надгробок Геоманта",
+          "display_name_glassmith": "Надгробок Скляря",
+          "display_name_grower": "Вирощувач Надгробок",
+          "display_name_herbalist": "Надгробок травника",
+          "display_name_hunter": "Надгробок Мисливця",
+          "display_name_knight": "Надгробок лицаря",
+          "display_name_magmasmith": "Надгробок Магмасміта",
+          "display_name_mason": "Мейсон Надгробок",
+          "display_name_miner": "Шахтарський надгробок",
+          "display_name_monk": "Монах Надгробок",
+          "display_name_moonmage": "Надгробок місячного мага",
+          "display_name_paladin": "Надгробок паладина",
+          "display_name_potter": "Надгробок Поттера",
+          "display_name_ruler": "Правитель Надгробок",
+          "display_name_scavenger": "Надгробок Сміттяра",
+          "display_name_shaman": "Надгробок шамана",
+          "display_name_shepherd": "Пастух Надгробок",
+          "display_name_spirit_walker": "Надгробний пам'ятник Духу Уокера",
+          "display_name_sunmage": "Надгробний камінь Мага Сонця",
+          "display_name_timewizard": "Надгробок Часочаклуна",
+          "display_name_trapper": "Надгробок Трапера",
+          "display_name_weaver": "Надгробок Вівер",
+          "display_name_wizard": "Чарівник Надгробок",
+          "display_name_worker": "Робітник надгробок",
+          "display_name_warrior": "Надгробок воїна",
+          "display_name_skirmisher": "Надгробок Стрільця",
+          "display_name_skald": "Надгробок Скальда",
+          "display_name_huskarl": "Надгробок Хускарла",
+          "display_name_hersir": "Херсір Надгробок",
+          "display_name_villager": "Сільський надгробок",
+          "display_name_king": "Король Надгробок",
+          "display_name_sultan": "Надгробок султана",
+          "display_name_chieftain": "Отаман Надгробок",
+          "display_name_jarl": "Ярл Надгробок",
+          "display_name_lord": "Лорд Надгробок",
+          "display_name_demolisher": "Надгробок руйнівника",
+          "display_name_stockgoblin": "Стогоблінський надгробок",
+          "display_name_slopgoblin": "Надгробний пам'ятник Слопогобліна",
+          "display_name_warlock": "Надгробок чорнокнижника",
+          "display_name_warmaster": "Надгробний камінь Warmaster",
+          "display_name_oresmith": "Надгробок Оресміта",
+          "display_name_firemaster": "Надгробний пам'ятник Слопогобліна",
+          "description_abbot": "[str(self.stonehearth:unit_info.custom_name)] ігумен.",
+          "description_ambiguous": "[str(self.stonehearth:unit_info.custom_name)] Неоднозначний.",
+          "description_archer": "[str(self.stonehearth:unit_info.custom_name)] лучник.",
+          "description_artificer": "[str(self.stonehearth:unit_info.custom_name)] Майстер.",
+          "description_battle_priest": "[str(self.stonehearth:unit_info.custom_name)] Бойовий Жрець.",
+          "description_beast_tamer": "[str(self.stonehearth:unit_info.custom_name)] Приборкувач звірів.",
+          "description_blacksmith": "[str(self.stonehearth:unit_info.custom_name)] Коваль.",
+          "description_blade": "[str(self.stonehearth:unit_info.custom_name)] Лезо.",
+          "description_bonesmith": "[str(self.stonehearth:unit_info.custom_name)] Коваль.",
+          "description_brewer": "[str(self.stonehearth:unit_info.custom_name)] Пивовар.",
+          "description_carpenter": "[str(self.stonehearth:unit_info.custom_name)] Столяр.",
+          "description_church_ruler": "[str(self.stonehearth:unit_info.custom_name)] Правитель Церкви.",
+          "description_cleric": "[str(self.stonehearth:unit_info.custom_name)] Клірик.",
+          "description_cook": "[str(self.stonehearth:unit_info.custom_name)] Кухар.",
+          "description_druid": "[str(self.stonehearth:unit_info.custom_name)] Друїд.",
+          "description_earthmaster": "[str(self.stonehearth:unit_info.custom_name)] Майстер Землі.",
+          "description_engineer": "[str(self.stonehearth:unit_info.custom_name)] Інженер.",
+          "description_farmer": "[str(self.stonehearth:unit_info.custom_name)] Фермер.",
+          "description_fisher": "[str(self.stonehearth:unit_info.custom_name)] Рибак.",
+          "description_footman": "[str(self.stonehearth:unit_info.custom_name)] Лакей.",
+          "description_geomancer": "[str(self.stonehearth:unit_info.custom_name)] Геомант.",
+          "description_glassmith": "[str(self.stonehearth:unit_info.custom_name)] Скляра.",
+          "description_grower": "[str(self.stonehearth:unit_info.custom_name)] Виноградар.",
+          "description_herbalist": "[str(self.stonehearth:unit_info.custom_name)] Травник.",
+          "description_hunter": "[str(self.stonehearth:unit_info.custom_name)] мисливець.",
+          "description_knight": "[str(self.stonehearth:unit_info.custom_name)] лицар.",
+          "description_magmasmith": "[str(self.stonehearth:unit_info.custom_name)] Магмасміт.",
+          "description_mason": "[str(self.stonehearth:unit_info.custom_name)] масон.",
+          "description_miner": "[str(self.stonehearth:unit_info.custom_name)] Шахтар.",
+          "description_monk": "[str(self.stonehearth:unit_info.custom_name)] Монах.",
+          "description_moonmage": "[str(self.stonehearth:unit_info.custom_name)] Місячний маг.",
+          "description_paladin": "[str(self.stonehearth:unit_info.custom_name)] Паладин.",
+          "description_potter": "[str(self.stonehearth:unit_info.custom_name)] Гончар.",
+          "description_ruler": "[str(self.stonehearth:unit_info.custom_name)] Правитель.",
+          "description_scavenger": "[str(self.stonehearth:unit_info.custom_name)] Сміттяр.",
+          "description_shaman": "[str(self.stonehearth:unit_info.custom_name)] Шаман.",
+          "description_shepherd": "[str(self.stonehearth:unit_info.custom_name)] пастух.",
+          "description_spirit_walker": "[str(self.stonehearth:unit_info.custom_name)] Духівник.",
+          "description_sunmage": "[str(self.stonehearth:unit_info.custom_name)] маг Сонця.",
+          "description_timewizard": "[str(self.stonehearth:unit_info.custom_name)] Майстер часу.",
+          "description_trapper": "[str(self.stonehearth:unit_info.custom_name)] Трапер.",
+          "description_weaver": "[str(self.stonehearth:unit_info.custom_name)] Ткач.",
+          "description_wizard": "[str(self.stonehearth:unit_info.custom_name)] Майстер.",
+          "description_worker": "[str(self.stonehearth:unit_info.custom_name)] — Робітник.",
+          "description_warrior": "[str(self.stonehearth:unit_info.custom_name)] Воїн.",
+          "description_skirmisher": "[str(self.stonehearth:unit_info.custom_name)] Стрільник.",
+          "description_skald": "[str(self.stonehearth:unit_info.custom_name)] Скальд.",
+          "description_huskarl": "[str(self.stonehearth:unit_info.custom_name)] Хускарл.",
+          "description_hersir": "[str(self.stonehearth:unit_info.custom_name)] Hersir.",
+          "description_villager": "[str(self.stonehearth:unit_info.custom_name)] Селянин.",
+          "description_king": "[str(self.stonehearth:unit_info.custom_name)] Король.",
+          "description_sultan": "[str(self.stonehearth:unit_info.custom_name)] Султан.",
+          "description_chieftain": "[str(self.stonehearth:unit_info.custom_name)] отаман.",
+          "description_jarl": "[str(self.stonehearth:unit_info.custom_name)] Ярл.",
+          "description_lord": "[str(self.stonehearth:unit_info.custom_name)] Господь.",
+          "description_demolisher": "[str(self.stonehearth:unit_info.custom_name)] Підривник.",
+          "description_stockgoblin": "[str(self.stonehearth:unit_info.custom_name)] Stockgoblin.",
+          "description_slopgoblin": "[str(self.stonehearth:unit_info.custom_name)] Недбалий гоблін.",
+          "description_warlock": "[str(self.stonehearth:unit_info.custom_name)] чорнокнижник.",
+          "description_warmaster": "[str(self.stonehearth:unit_info.custom_name)] Warmaster.",
+          "description_oresmith": "[str(self.stonehearth:unit_info.custom_name)] Оресміт.",
+          "description_firemaster": "[str(self.stonehearth:unit_info.custom_name)] Недбалий гоблін.",
+          "description": "Меморіал загиблим."
+        }
+      }
+    }
+  }
+}

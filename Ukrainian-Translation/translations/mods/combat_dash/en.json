@@ -1,0 +1,12 @@
+{
+  "jobs": {
+    "footman": {
+      "footman_buffs": {
+        "speed_buff": {
+          "display_name": "Combat Dash",
+          "description": "Speed increased when near enemies"
+        }
+      }
+    }
+  }
+}

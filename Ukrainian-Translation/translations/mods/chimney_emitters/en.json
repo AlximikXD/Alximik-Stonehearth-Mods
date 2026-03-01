@@ -1,0 +1,32 @@
+{
+  "jobs": {
+    "mason": {
+      "recipes": {
+        "small_chimney": {
+          "recipe_name": "Small Chimney",
+          "description": "A 1x1 smoke particle emitter to emulate the output of a chimney.",
+          "flavor": "The sign of a well-warmed home."
+        },
+        "large_chimney": {
+          "recipe_name": "Large Chimney",
+          "description": "A 2x2 smoke particle emitter to emulate the output of a chimney.",
+          "flavor": "More smoke than a misused barbecue."
+        }
+      }
+    }
+  },
+  "entities": {
+    "decoration": {
+      "small_chimney": {
+        "display_name": "Small Chimney",
+        "description": "A 1x1 smoke particle emitter to emulate the output of a chimney.",
+        "flavor": "The sign of a well-warmed home."
+      },
+      "large_chimney": {
+        "display_name": "Large Chimney",
+        "description": "A 2x2 smoke particle emitter to emulate the output of a chimney.",
+        "flavor": "More smoke than a misused barbecue."
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+	"data": {
+		"build": {
+			"building_brushes": {
+				"colors": {
+					"#BF713E": "Canyon Layer 1",
+					"#BE683E": "Canyon Layer 2",
+					"#C3783F": "Canyon Layer 3",
+					"#CD8546": "Canyon Layer 4",
+					"#BC6F3C": "Canyon Layer 5",
+					"#BE603D": "Canyon Layer 6",
+					"#C77E41": "Canyon Layer 7",
+					"#C67642": "Canyon Layer 8",
+					"#CE8C45": "Canyon Layer 9",
+					"#C67942": "Canyon Layer 10",
+					"#CA8343": "Canyon Layer 11",
+					"#C27040": "Canyon Layer 12",
+					"#C2753E": "Canyon Layer 13",
+					"#BA623C": "Canyon Layer 14",
+					"#C47646": "Canyon Layer 15",
+					"#BC6A3C": "Canyon Layer 16"
+				}
+			}
+		},
+		"biome": {
+			"canyon": {
+				"display_name": "Canyon",
+				"description": "Narrow chasms with steep cliff walls, cut into the earth by running water",
+				"random_location_names": {
+					"000": "Mount Thunder",
+					"001": "Stormy Walls",
+					"002": "Scarlet Mountains",
+					"003": "Eagle Bluffs"
+				}
+			}
+		}
+	},
+	"entities":{
+		"decoration":{
+			"bones":{
+				"display_name":"Bones",
+				"description":"Once an animal, now part of the earth"
+			},
+			"skull":{
+				"display_name":"Skull",
+				"description":"Once an animal, now part of the earth"
+			}
+		},
+		"landmark":{
+			"summon_pillar":{
+				"display_name": "Canyon Pillar",
+				"description": "Summon a giant pillar with waterfall."
+			}
+		}
+	},
+	"ui":{
+		"shell":{
+			"select_settlement":{
+				"terrain_codes":{
+					"water": "River",
+					"plains_2": "Valley",
+					"mountains_wall": "Mountain Wall",
+					"mountains_top": "Plateau"
+				}
+			}
+		}
+	}
+}

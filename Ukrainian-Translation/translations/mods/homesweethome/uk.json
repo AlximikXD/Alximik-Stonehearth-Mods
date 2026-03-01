@@ -1,0 +1,576 @@
+{
+  "jobs": {
+    "blacksmith": {
+      "recipes": {
+        "bronze_wall_candle_recipe": {
+          "recipe_name": "Бронзовий свічник",
+          "description": "Невелике декоративне джерело світла для ваших кімнат.",
+          "flavor": "Гарні деталі…"
+        },
+        "bronze_wall_double_candle_recipe": {
+          "recipe_name": "Підсвічник Bronze-Twins",
+          "description": "Невелике декоративне джерело світла для ваших кімнат.",
+          "flavor": "Гарні деталі…"
+        },
+        "gold_wall_candle_recipe": {
+          "recipe_name": "Золотий свічник",
+          "description": "Невелике декоративне джерело світла для ваших кімнат.",
+          "flavor": "Стережіться орків!"
+        },
+        "gold_wall_double_candle_recipe": {
+          "recipe_name": "Підсвічник Golden-Twins",
+          "description": "Невелике декоративне джерело світла для ваших кімнат.",
+          "flavor": "Стережіться орків!"
+        },
+        "iron_brazier_recipe": {
+          "recipe_name": "Залізна жаровня",
+          "description": "Несе світло в темні ночі.",
+          "flavor": "Мені подобається, як вогонь танцює!"
+        },
+        "iron_brazier_patrol-point_recipe": {
+          "recipe_name": "Патрульна залізна жаровня",
+          "description": "Легкий соус для солдатів.",
+          "flavor": "Також зберігає тепло в холодні ночі"
+        },
+        "oil_lamp_height_rayya_recipe": {
+          "recipe_name": "Висота Олія Мангал",
+          "description": "Корисне джерело світла для темних ночей.",
+          "flavor": "Гарно виглядає в моїй вітальні"
+        },
+        "oil_lamp_height_patrol-point_rayya_recipe": {
+          "recipe_name": "Патруль Олія Мангал",
+          "description": "Легкий соус для солдатів.",
+          "flavor": "Також зберігає тепло в холодні ночі"
+        },
+        "oil_lamp_large_rayya_recipe": {
+          "recipe_name": "Великий олійний жаровня",
+          "description": "Корисне джерело світла для темних ночей.",
+          "flavor": "Уфф, цей мангал справді важкий"
+        },
+        "silver_wall_candle_recipe": {
+          "recipe_name": "Срібний свічник",
+          "description": "Невелике декоративне джерело світла для ваших кімнат.",
+          "flavor": "боже! Мені подобається bling bling"
+        },
+        "silver_wall_double_candle_recipe": {
+          "recipe_name": "Підсвічник Silver-Twins",
+          "description": "Невелике декоративне джерело світла для ваших кімнат.",
+          "flavor": "боже! Мені подобається bling bling"
+        },
+        "utensils_recipe": {
+          "recipe_name": "Бронзовий посуд",
+          "description": "Корисний посуд для вашої майстерні.",
+          "flavor": "Ой, я люблю цю ложку!"
+        }
+      }
+    },
+    "cook": {
+      "recipes": {
+        "storage_name": "Storage",
+        "furniture_name": "Furniture",
+        "corbel_cook_recipe": {
+          "recipe_name": "Пряний шнурок",
+          "description": "Гостра їжа смачніша.",
+          "flavor": "Дозвольте мені додати трохи коріандру..."
+        },
+        "barrels_berrie_recipe": {
+          "recipe_name": "Ягідні бочки",
+          "description": "Подача свіжого соку Berrie робить Hearthlings щасливішими. Місце для 92 предметів.",
+          "flavor": "Вітання, мої друзі!"
+        },
+        "barrels_pear_rayya_recipe": {
+          "recipe_name": "Грушеві бочки",
+          "description": "Подача свіжого соку опунції робить Hearthlings щасливішими. Місце для 92 предметів.",
+          "flavor": "Вітання, мої друзі!"
+        },
+        "dishes-cabinet_recipe": {
+          "recipe_name": "Шафа для посуду",
+          "description": "Верстак для прикраси вашої таверни.",
+          "flavor": "Ще одна прикраса на цій стіні, будь ласка!"
+        },
+        "pantry_cook_recipe": {
+          "recipe_name": "Інгредієнти Комора",
+          "description": "Корисне сховище для 64 кулінарних інгредієнтів.",
+          "flavor": "Нарешті в мене достатньо місця для цього!"
+        },
+        "shelf_cook_recipe": {
+          "recipe_name": "Полиця для посуду",
+          "description": "Декоративна полиця для всіх ваших рецептів і посуду.",
+          "flavor": "У вас дійсно гарні тарілки."
+        },
+        "tavern_table_large_recipe": {
+          "recipe_name": "Великий стіл у таверні",
+          "description": "Стіл для великих зустрічей.",
+          "flavor": "Це масивний стіл."
+        },
+        "tavern_table_large_cloth_recipe": {
+          "recipe_name": "Великий стіл у таверні",
+          "description": "Великий стіл зі скатертиною.",
+          "flavor": "Ой, я люблю цей колір!"
+        },
+        "tavern_table_large_fiber_recipe": {
+          "recipe_name": "Великий стіл у таверні",
+          "description": "Великий стіл з волокнистою скатертиною.",
+          "flavor": "Ой, я люблю цей колір!"
+        },
+        "tavern_table_large_fur_recipe": {
+          "recipe_name": "Великий стіл у таверні",
+          "description": "Великий стіл з хутряною скатертиною.",
+          "flavor": "Ой, я люблю цей колір!"
+        },
+        "tavern_table_small_cloth_recipe": {
+          "recipe_name": "Невеликий стіл у таверні",
+          "description": "Столик зі скатертиною.",
+          "flavor": "Ой, я люблю цей колір!"
+        },
+        "tavern_table_small_fiber_recipe": {
+          "recipe_name": "Невеликий стіл у таверні",
+          "description": "Маленький столик з волокнистою скатертиною.",
+          "flavor": "Ой, я люблю цей колір!"
+        },
+        "tavern_table_small_fur_recipe": {
+          "recipe_name": "Невеликий стіл у таверні",
+          "description": "Столик з хутряною скатертиною.",
+          "flavor": "Ой, я люблю цей колір!"
+        },
+        "utensils_holder_cook_recipe": {
+          "recipe_name": "Тримач для посуду",
+          "description": "Нарешті гарне місце для вашого посуду.",
+          "flavor": "Добре організовано…"
+        },
+        "wash_barrel_recipe": {
+          "recipe_name": "Промити бочку",
+          "description": "Тільки чиста тарілка є хорошим посудом.",
+          "flavor": "Подивіться, як воно блищить."
+        }
+      }
+    },
+    "carpenter": {
+      "recipes": {
+        "barrel_recipe": {
+          "recipe_name": "Дерев'яна бочка",
+          "description": "Безпечне місце з цим предметом. Містить до 32 матеріалів",
+          "flavor": "Я люблю ягідний сік!"
+        },
+        "case_small_recipe": {
+          "recipe_name": "Маленький футляр",
+          "description": "Зберіть деякі матеріали. Містить до 10 елементів.",
+          "flavor": "Маленький, але гарний!"
+        },
+        "case_large_recipe": {
+          "recipe_name": "Великий корпус",
+          "description": "Зберіть велику кількість матеріалів. Містить до 48 предметів.",
+          "flavor": "Добре організовано!"
+        },
+        "pantry_recipe": {
+          "recipe_name": "Дерев'яна Комора",
+          "description": "Декоративна порожня дерев'яна комора.",
+          "flavor": "Багато нових можливостей зберігання."
+        },
+        "shelf_carpenter_recipe": {
+          "recipe_name": "Дерев'яна полиця",
+          "description": "Декоративна порожня дерев'яна полиця.",
+          "flavor": "Чудово! Більше місця для речей."
+        },
+        "table_recipe": {
+          "recipe_name": "Дерев'яний стіл",
+          "description": "Великий дерев'яний стіл для вашої майстерні.",
+          "flavor": "Як корисно! Гарний дерев'яний стіл."
+        },
+        "wood_wall_candle_recipe": {
+          "recipe_name": "Дерев'яний свічник",
+          "description": "Невелике декоративне джерело світла для ваших кімнат.",
+          "flavor": "Сподіваюся, дрова не горять..."
+        },
+        "wood_wall_double_candle_recipe": {
+          "recipe_name": "Підсвічник Wooden-Twins",
+          "description": "Невелике декоративне джерело світла для ваших кімнат.",
+          "flavor": "Сподіваюся, дрова не горять..."
+        }
+      }
+    },
+    "herbalist": {
+      "recipes": {
+        "storage_name": "Storage",
+        "plants_name": "Plants",
+        "gardener-bench_recipe": {
+          "recipe_name": "Лавка садівника",
+          "description": "Рослини мають не тільки цілющі властивості.",
+          "flavor": "Корисна і декоративна. Гарне комбі."
+        },
+        "books_recipe": {
+          "recipe_name": "Books",
+          "description": "Іноді корисно записати свої знання.",
+          "flavor": "Сподіваюся, мені не доведеться читати всі ці книги."
+        },
+        "corbel_herbalist_recipe": {
+          "recipe_name": "Трави Корбель",
+          "description": "Декоративний пояс для сушіння зібраних трав.",
+          "flavor": "Вони так спокусливо пахнуть."
+        },
+        "shelf_herbalist_library_recipe": {
+          "recipe_name": "Книжкова полиця зілля",
+          "description": "Декоративна полиця для всіх ваших книг про лікування.",
+          "flavor": "Крім того, травнику іноді потрібна допомога."
+        },
+        "table_herbalist_recipe": {
+          "recipe_name": "Таблиця трав",
+          "description": "Письмовий стіл для професійних травників.",
+          "flavor": "Дозвольте написати кілька рецептів..."
+        },
+        "case_large_herbs_recipe": {
+          "recipe_name": "Великий футляр для трав",
+          "description": "Зберіть велику кількість свіжих трав. Містить до 48 предметів.",
+          "flavor": "Добре організовано!"
+        },
+        "jar_small_recipe": {
+          "recipe_name": "Маленька баночка",
+          "description": "Маленький, але гарний контейнер. Містить до 8 предметів.",
+          "flavor": "ой! Я відчув запах печива всередині?"
+        },
+        "jar_large_recipe": {
+          "recipe_name": "Велика банка",
+          "description": "Найекономніше місце для Тоніків і Трав. Містить до 32 елементів.",
+          "flavor": "Це справді велике сховище… Жах!"
+        },
+        "planter-box_small_brightbell_recipe": {
+          "recipe_name": "Кашпо Brightbell",
+          "description": "Дозвольте вирощувати потрібні трави у своїй Майстерні.",
+          "flavor": "Так дивно бачити, як вони ростуть!"
+        },
+        "planter-box_small_frostsnap_recipe": {
+          "recipe_name": "Кашпо Frostsnap",
+          "description": "Дозвольте вирощувати потрібні трави у своїй Майстерні.",
+          "flavor": "Так дивно бачити, як вони ростуть!"
+        },
+        "planter-box_small_cactus_rayya_recipe": {
+          "recipe_name": "Ящик для квітів кактусів",
+          "description": "Дозвольте вирощувати потрібні трави у своїй Майстерні.",
+          "flavor": "Так дивно бачити, як вони ростуть!"
+        },
+        "planter-box_large_recipe": {
+          "recipe_name": "Великий кашпо",
+          "description": "Збільште виробництво трав за допомогою великого ящика.",
+          "flavor": "Так дивно бачити, як вони ростуть!"
+        }
+      }
+    },
+    "mason": {
+      "recipes": {
+        "monument_name": "Статуї та пам'ятники",
+        "fireplace_stone_large_recipe": {
+          "recipe_name": "Кам'яний камін",
+          "description": "Сільський камін для вашого домашнього солодкого дому.",
+          "flavor": "Він ідеально підходить для моєї вітальні."
+        },
+        "sculpture_hamnisu_recipe": {
+          "recipe_name": "Пам'ятник Гамнісу",
+          "description": "Декоративний пам’ятник, присвячений Хамнісу за його важливу допомогу в оновленні 2.2",
+          "flavor": "Ой, подивіться на bling bling!!"
+        },
+        "stone_wall_candle_recipe": {
+          "recipe_name": "Кам'яний свічник",
+          "description": "Невелике декоративне джерело світла для ваших кімнат.",
+          "flavor": "Гори, дитинко, гори…"
+        },
+        "stone_wall_double_candle_recipe": {
+          "recipe_name": "Підсвічник Stone-Twins",
+          "description": "Невелике декоративне джерело світла для ваших кімнат.",
+          "flavor": "Гори, дитинко, гори…"
+        }
+      }
+    },
+    "potter": {
+      "recipes": {
+        "decoration_name": "Decorations",
+        "monument_name": "Статуї та пам'ятники",
+        "crockery_recipe": {
+          "recipe_name": "Crockery",
+          "description": "Гарний фарфоровий посуд для особливих подій.",
+          "flavor": "Чудовий чайний сервіз."
+        },
+        "clay_wall_candle_recipe": {
+          "recipe_name": "Глиняний свічник",
+          "description": "Невелике декоративне джерело світла для ваших кімнат.",
+          "flavor": "Гарні деталі…"
+        },
+        "clay_wall_double_candle_recipe": {
+          "recipe_name": "Підсвічник Clay-Twins",
+          "description": "Невелике декоративне джерело світла для ваших кімнат.",
+          "flavor": "Гарні деталі…"
+        },
+        "pantry_rayya_recipe": {
+          "recipe_name": "Глиняна комора",
+          "description": "Декоративна порожня глиняна комора.",
+          "flavor": "Багато нових можливостей зберігання."
+        },
+        "shelf_rayya_recipe": {
+          "recipe_name": "Глиняна полиця",
+          "description": "Декоративна порожня глиняна полиця.",
+          "flavor": "Чудово! Більше місця для речей."
+        },
+        "table_rayya_recipe": {
+          "recipe_name": "Глиняний стіл",
+          "description": "Великий глиняний стіл для вашої майстерні.",
+          "flavor": "Як корисно! Гарний глиняний стіл."
+        }
+      }
+    }
+  },
+  "entities": {
+    "workbenches": {
+      "dishes-cabinet_ghost": {
+        "display_name": "Шафа для посуду",
+        "description": "Верстак для прикраси вашої таверни."
+      },
+      "gardener-bench_ghost": {
+        "display_name": "Лавка садівника",
+        "description": "Корисна і декоративна."
+      }
+    },
+    "containers": {
+      "barrel_ghost": {
+        "display_name": "Дерев'яна бочка",
+        "description": "Зберіть більше 32 предметів."
+      },
+      "barrels_berrie_ghost": {
+        "display_name": "Ягідні бочки",
+        "description": "Зберіть понад 96 предметів."
+      },
+      "barrels_pear_rayya_ghost": {
+        "display_name": "Грушеві бочки",
+        "description": "Зберіть понад 96 предметів."
+      },
+      "case_small_ghost": {
+        "display_name": "Маленький футляр",
+        "description": "Зберіть понад 10 предметів."
+      },
+      "case_large_ghost": {
+        "display_name": "Великий корпус",
+        "description": "Зберіть велику кількість із 48 предметів."
+      },
+      "case_large_herbs_ghost": {
+        "display_name": "Великий футляр для трав",
+        "description": "Зберіть до 48 одиниць свіжих трав."
+      },
+      "jar_large_ghost": {
+        "display_name": "Велика банка",
+        "description": "Найекономніше місце для Тоніків і Трав."
+      },
+      "jar_small_ghost": {
+        "display_name": "Маленька баночка",
+        "description": "Маленький, але гарний контейнер."
+      },
+      "pantry_cook_ghost": {
+        "display_name": "Інгредієнти Комора",
+        "description": "Корисне сховище для 64 кулінарних інгредієнтів."
+      }
+    },
+    "food": {
+      "honey": {
+        "honey_basket": {
+          "display_name": "Медова банка",
+          "description": "Маленька баночка, наповнена смачним медом."
+        },
+        "honey_serving": {
+          "display_name": "Смачний мед",
+          "description": "Солодкий. солодше. Мед. Вашим людям це сподобається!"
+        }
+      }
+    },
+    "furniture": {
+      "fireplace_stone_large_ghost": {
+        "display_name": "Кам'яний камін",
+        "description": "Сільський камін для вашого дому."
+      },
+      "pantry_ghost": {
+        "display_name": "Дерев'яна Комора",
+        "description": "Порожнє сховище для нових елементів."
+      },
+      "pantry_rayya_ghost": {
+        "display_name": "Глиняна комора",
+        "description": "Порожнє сховище для нових елементів."
+      },
+      "shelf_carpenter_ghost": {
+        "display_name": "Дерев'яна полиця",
+        "description": "Можливо, комусь потрібно більше місця для зберігання…"
+      },
+      "shelf_rayya_ghost": {
+        "display_name": "Глиняна полиця",
+        "description": "Можливо, комусь потрібно більше місця для зберігання…"
+      },
+      "shelf_cook_ghost": {
+        "display_name": "Полиця для посуду",
+        "description": "Полиця для ваших рецептів і посуду."
+      },
+      "shelf_herbalist_library_ghost": {
+        "display_name": "Книжкова полиця зілля",
+        "description": "Збирає всі ваші знання з лікування."
+      },
+      "table_ghost": {
+        "display_name": "Дерев'яний стіл",
+        "description": "Великий дерев'яний стіл для вашої майстерні."
+      },
+      "table_rayya_ghost": {
+        "display_name": "Глиняний стіл",
+        "description": "Великий глиняний стіл для вашої майстерні."
+      },
+      "table_herbalist_ghost": {
+        "display_name": "Таблиця трав",
+        "description": "Більше місця для виробництва лікувальних предметів."
+      },
+      "tavern_table_large_ghost": {
+        "display_name": "Великий стіл у таверні",
+        "description": "Стіл для великих зустрічей."
+      },
+      "tavern_table_large_cloth_ghost": {
+        "display_name": "Великий стіл у таверні",
+        "description": "Великий стіл зі скатертиною"
+      },
+      "tavern_table_large_fiber_ghost": {
+        "display_name": "Великий стіл у таверні",
+        "description": "Великий стіл з волокнистою скатертиною"
+      },
+      "tavern_table_large_fur_ghost": {
+        "display_name": "Великий стіл у таверні",
+        "description": "Великий стіл з хутряною скатертиною"
+      },
+      "tavern_table_small_cloth_ghost": {
+        "display_name": "Невеликий стіл у таверні",
+        "description": "Столик зі скатертиною."
+      },
+      "tavern_table_small_fiber_ghost": {
+        "display_name": "Невеликий стіл у таверні",
+        "description": "Маленький столик з волокнистою скатертиною."
+      },
+      "tavern_table_small_fur_ghost": {
+        "display_name": "Невеликий стіл у таверні",
+        "description": "Столик з хутряною скатертиною."
+      }
+    },
+    "decoration": {
+      "books_ghost": {
+        "display_name": "Books",
+        "description": "Декоративний і корисний."
+      },
+      "bronze_wall_candle_ghost": {
+        "display_name": "Бронзовий свічник",
+        "description": "Невелике декоративне джерело світла."
+      },
+      "bronze_wall_double_candle_ghost": {
+        "display_name": "Підсвічник Bronze-Twins",
+        "description": "Невелике декоративне джерело світла."
+      },
+      "clay_wall_candle_ghost": {
+        "display_name": "Глиняний свічник",
+        "description": "Невелике декоративне джерело світла."
+      },
+      "clay_wall_double_candle_ghost": {
+        "display_name": "Підсвічник Clay-Twins",
+        "description": "Невелике декоративне джерело світла."
+      },
+      "corbel_cook_ghost": {
+        "display_name": "Пряний шнурок",
+        "description": "Гостра їжа смачніша."
+      },
+      "corbel_herbalist_ghost": {
+        "display_name": "Трави Корбель",
+        "description": "Ідеально підходить для сушіння зібраних трав."
+      },
+      "crockery_ghost": {
+        "display_name": "Crockery",
+        "description": "Гарний фарфоровий посуд."
+      },
+      "gold_wall_candle_ghost": {
+        "display_name": "Золотий свічник",
+        "description": "Невелике декоративне джерело світла."
+      },
+      "gold_wall_double_candle_ghost": {
+        "display_name": "Підсвічник Golden-Twins",
+        "description": "Невелике декоративне джерело світла."
+      },
+      "iron_brazier_ghost": {
+        "display_name": "Залізна жаровня",
+        "description": "Несе світло в темні ночі."
+      },
+      "oil_lamp_height_rayya_ghost": {
+        "display_name": "Висота Олія Мангал",
+        "description": "Несе світло в темні ночі."
+      },
+      "oil_lamp_large_rayya_ghost": {
+        "display_name": "Великий олійний жаровня",
+        "description": "Несе світло в темні ночі."
+      },
+      "sculpture_hamnisu_ghost": {
+        "display_name": "Пам'ятник Гамнісу",
+        "description": "За його допомогу в оновленні 2.2"
+      },
+      "silver_wall_candle_ghost": {
+        "display_name": "Срібний свічник",
+        "description": "Невелике декоративне джерело світла."
+      },
+      "silver_wall_double_candle_ghost": {
+        "display_name": "Підсвічник Silver-Twins",
+        "description": "Невелике декоративне джерело світла."
+      },
+      "stone_wall_candle_ghost": {
+        "display_name": "Кам'яний свічник",
+        "description": "Невелике декоративне джерело світла."
+      },
+      "stone_wall_double_candle_ghost": {
+        "display_name": "Підсвічник Stone-Twins",
+        "description": "Невелике декоративне джерело світла."
+      },
+      "utensils_ghost": {
+        "display_name": "Бронзовий посуд",
+        "description": "Корисний посуд для вашої майстерні."
+      },
+      "utensils_holder_cook_ghost": {
+        "display_name": "Тримач для посуду",
+        "description": "Ваш посуд, добре організований…"
+      },
+      "wash_barrel_ghost": {
+        "display_name": "Промити бочку",
+        "description": "Нехай ваш посуд засяє."
+      },
+      "wood_wall_candle_ghost": {
+        "display_name": "Дерев'яний свічник",
+        "description": "Невелике декоративне джерело світла."
+      },
+      "wood_wall_double_candle_ghost": {
+        "display_name": "Підсвічник Wooden-Twins",
+        "description": "Невелике декоративне джерело світла."
+      }
+    },
+    "plants": {
+      "grass_large_ghost": {
+        "display_name": "Grass",
+        "description": "Великий пучок трави."
+      },
+      "grass_medium_ghost": {
+        "display_name": "Grass",
+        "description": "Середній пучок трави."
+      },
+      "grass_small_ghost": {
+        "display_name": "Grass",
+        "description": "Маленький пучок трави."
+      },
+      "planter-box_small_brightbell_ghost": {
+        "display_name": "Кашпо Brightbell",
+        "description": "Посадіть трави у своїй майстерні."
+      },
+      "planter-box_small_frostsnap_ghost": {
+        "display_name": "Кашпо Frostsnap",
+        "description": "Посадіть трави у своїй майстерні."
+      },
+      "planter-box_small_cactus_rayya_ghost": {
+        "display_name": "Ящик для квітів кактусів",
+        "description": "Посадіть трави у своїй майстерні."
+      },
+      "planter-box_large_ghost": {
+        "display_name": "Великий кашпо",
+        "description": "Збільшити виробництво трав."
+      }
+    }
+  }
+}

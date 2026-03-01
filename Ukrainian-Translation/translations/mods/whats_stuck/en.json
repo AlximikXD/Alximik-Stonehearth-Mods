@@ -1,0 +1,42 @@
+{
+   "ui": {
+      "game": {
+         "whats_stuck": {
+            "title": "What's Stuck?",
+            "tab": {
+               "citizens": "Hearthlings",
+               "items": "Items",
+               "enemies": "Enemies",
+               "buildings": "Buildings (soon!)"
+            },
+            "no_hearth": {
+               "name": "Your Town's Hearth Was Not Found",
+               "description": "Make sure your town's hearth is placed somewhere in the world. Whether a hearthling has a viable path to your town's hearth is used to determine whether they're stuck."
+            },
+            "citizens_list_headers": {
+               "name": "Name",
+               "time": "Time Stuck"
+            },
+            "items_list_headers": {
+               "name": "Name",
+               "time": "Time Failed to Restock"
+            },
+            "buildings_list_headers": {
+               "name": "Name",
+               "time": "Time Stuck"
+            },
+            "enemies_list_headers": {
+               "name": "Name",
+               "kingdom": "Kingdom",
+               "time": "Time Stuck"
+            }
+         },
+         "menu": {
+            "whats_stuck_manager": {
+               "display_name": "What's Stuck?",
+               "description": "If a hearthling or something else gets stuck in your town, you'll be alerted here!"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,940 @@
+{
+  "data": {
+    "commands": {
+      "transform": {
+        "upgrade_comfy_bunk_bottom": {
+          "description": "Order a worker to replace this bed with a Comfy Bottom Bunk created by the Carpenter. A craft order will be given if no Comfy Bottom Bunk is found in the town's inventory. The bed owner will remain the same.",
+          "display_name": "Replace with Comfy Bottom Bunk"
+        },
+        "upgrade_comfy_bunk_top": {
+          "description": "Order a worker to replace this bed with a Comfy Top Bunk created by the Carpenter. A craft order will be given if no Comfy Top Bunk is found in the town's inventory. The bed owner will remain the same.",
+          "display_name": "Replace with Comfy Top Bunk"
+        },
+        "upgrade_comfy_clay_bunk_bottom": {
+          "description": "Order a worker to replace this bed with a Comfy Clay Bottom Bunk created by the Potter. A craft order will be given if no Comfy Clay Bottom Bunk is found in the town's inventory. The bed owner will remain the same.",
+          "display_name": "Replace with Comfy Clay Bottom Bunk"
+        },
+        "upgrade_comfy_clay_bunk_top": {
+          "description": "Order a worker to replace this bed with a Comfy Clay Top Bunk created by the Potter. A craft order will be given if no Comfy Clay Top Bunk is found in the town's inventory. The bed owner will remain the same.",
+          "display_name": "Replace with Comfy Clay Top Bunk"
+        },
+        "upgrade_comfy_stone_bunk_bottom": {
+          "description": "Order a worker to replace this bed with a Comfy Stone Bottom Bunk created by the Mason. A craft order will be given if no Comfy Stone Bottom Bunk is found in the town's inventory. The bed owner will remain the same.",
+          "display_name": "Replace with Comfy Stone Bottom Bunk"
+        },
+        "upgrade_comfy_stone_bunk_top": {
+          "description": "Order a worker to replace this bed with a Comfy Stone Top Bunk created by the Mason. A craft order will be given if no Comfy Stone Top Bunk is found in the town's inventory. The bed owner will remain the same.",
+          "display_name": "Replace with Comfy Stone Top Bunk"
+        }
+      }
+    }
+  },
+  "entities": {
+    "construction": {
+      "plank_bridge": {
+        "display_name": "Wooden Plank Bridge (x4)",
+        "description": "A single Wooden Plank Bridge to cross a 1 block gap."
+      },
+      "stone_arrow_slit": {
+        "display_name": "Stone Arrow Slit",
+        "description": "A small, Stone window for Archers to fire at attackers."
+      },
+      "stone_window_frame_small": {
+        "display_name": "Small Stone Window Frame",
+        "description": "A small, Stone window."
+      },
+      "stone_window_frame_small_double": {
+        "display_name": "Small Stone Window Frame - Double",
+        "description": "A small, double Stone window."
+      },
+      "stone_window_frame_small_triple": {
+        "display_name": "Small Stone Window Frame - Triple",
+        "description": "A small, triple Stone window."
+      },
+      "wooden_arrow_slit": {
+        "display_name": "Wooden Arrow Slit",
+        "description": "A small, Wooden window for Archers to fire at attackers."
+      },
+      "wooden_window_frame_small": {
+        "display_name": "Small Wooden Window Frame",
+        "description": "A small, Wooden window."
+      },
+      "wooden_window_frame_small_double": {
+        "display_name": "Small Wooden Window Frame - Double",
+        "description": "A small, double Wooden window."
+      },
+      "wooden_window_frame_small_triple": {
+        "display_name": "Small Wooden Window Frame - Triple",
+        "description": "A small, triple Wooden window."
+      }
+    },
+    "containers": {
+      "firewood_basket": {
+        "display_name": "Firewood Basket",
+        "description": "A small basket for storing firewood."
+      },
+      "input_crate_large": {
+        "display_name": "Wooden Supply Crate - Large",
+        "description": "A large supply crate, for quicker crafting."
+      },
+      "input_crate_small": {
+        "display_name": "Wooden Supply Crate - Small",
+        "description": "A small supply crate, for quicker crafting."
+      },
+      "quenching_tub": {
+        "display_name": "Quenching Tub",
+        "description": "A barrel filled with water to cool metal."
+      },
+      "water_barrel": {
+        "display_name": "Water Barrel",
+        "description": "A barrel for storing drinking water."
+      },
+      "wood_pile": {
+        "display_name": "Wood Pile",
+        "description": "A pile of wood ready to be split into firewood."
+      }
+    },
+    "decoration": {
+      "banner_wall_large": {
+        "display_name": "Wall-Mounted Standard - Large",
+        "description": "Show your town pride with this large standard."
+      },
+      "books": {
+        "display_name": "Books",
+        "description": "A collection books."
+      },
+      "firewood_holder_stone_large": {
+        "display_name": "Stone Firewood Holder",
+        "description": "A reliable storage alcove that will keep up to 18 Bundles O' Firewood ready to be used."
+      },
+      "wooden_bookcase_large": {
+        "display_name": "Bookcase - Large",
+        "description": "A large-sized Bookcase filled with books."
+      },
+      "wooden_bookcase_med": {
+        "display_name": "Bookcase - Medium",
+        "description": "A medium-sized Bookcase filled with books."
+      },
+      "wooden_bookcase_small": {
+        "display_name": "Bookcase - Small",
+        "description": "A small-sized Bookcase filled with books."
+      },
+      "hanging_herbs": {
+        "display_name": "Hanging Herbs",
+        "description": "A decorative bundle of Herbs."
+      },
+      "hanging_herbs_large": {
+        "display_name": "Hanging Herbs - Large",
+        "description": "A large, decorative bundle of Herbs."
+      },
+      "herbalist_bookcase_large": {
+        "display_name": "Herbalist Bookcase - Large",
+        "description": "A large-sized Bookcase for an Herbalist's many supplies."
+      },
+      "herbalist_bookcase_med": {
+        "display_name": "Herbalist Bookcase - Medium",
+        "description": "A medium-sized Bookcase for an Herbalist's many supplies."
+      },
+      "herbalist_bookcase_small": {
+        "display_name": "Herbalist Bookcase - Small",
+        "description": "A small-sized Bookcase for an Herbalist's many supplies."
+      },
+      "model_skeleton": {
+        "display_name": "Model Skeleton",
+        "description": "An anatomically correct model of a Hearthling's skeletal system."
+      },
+      "oriental_rug": {
+        "display_name": "Oriental Rug",
+        "description": "Intricate, hand-woven rug from a far-off land."
+      },
+      "rope_banner": {
+        "display_name": "Rope Banner",
+        "description": "A rope filled with colorful banners."
+      },
+      "room_divider": {
+        "display_name": "Wooden Room Divider Section (x4)",
+        "description": "Four sections of a Wooden Room Divider."
+      },
+      "stone_fireplace": {
+        "display_name": "Stone Fireplace",
+        "description": "Keeps Hearthlings warm on cold nights."
+      },
+      "stone_fireplace_large": {
+        "display_name": "Stone Fireplace - Large",
+        "description": "Keeps Hearthlings really warm on cold nights."
+      },
+      "stone_fireplace_small": {
+        "display_name": "Stone Fireplace - Small",
+        "description": "Keeps Hearthlings fairly warm on cold nights."
+      },
+      "throw_rug_large": {
+        "display_name": "Large Decorative Throw Rug",
+        "description": "Brightens up that old dusty floor a little more."
+      },
+      "torch": {
+        "display_name": "Torch (x2)",
+        "description": "A small torch that provides light."
+      },
+      "weapons_rack": {
+        "display_name": "Weapons Rack",
+        "description": "A Wooden rack to hold various weaponry."
+      },
+      "weapons_rack_empty": {
+        "display_name": "Weapons Rack - Empty",
+        "description": "A Wooden rack to hold various weaponry."
+      },
+      "weapons_rack_storage": {
+        "display_name": "Weapons Rack - Storage",
+        "description": "A Wooden rack to store various weaponry."
+      }
+    },
+    "furniture": {
+      "apothecary_cabinet": {
+        "display_name": "Wooden Apothecary Cabinet",
+        "description": "A cabinet for the storage of bits and bobs."
+      },
+      "bench_large": {
+        "display_name": "Wooden Park Bench - Large",
+        "description": "Larger outdoor seating for moments of relaxation."
+      },
+      "bench_small": {
+        "display_name": "Wooden Park Bench - Small",
+        "description": "Smaller outdoor seating for moments of relaxation."
+      },
+      "comfy_bunk_bottom": {
+        "display_name": "Comfy Bottom Bunk",
+        "description": "Eight hours will leave you as refreshed as the day you were born."
+      },
+      "comfy_bunk_top": {
+        "display_name": "Comfy Top Bunk",
+        "description": "Eight hours will leave you as refreshed as the day you were born."
+      },
+      "comfy_clay_bunk_bottom": {
+        "display_name": "Comfy Clay Bottom Bunk",
+        "description": "Eight hours will leave you as refreshed as the day you were born."
+      },
+      "comfy_clay_bunk_top": {
+        "display_name": "Comfy Clay Top Bunk",
+        "description": "Eight hours will leave you as refreshed as the day you were born."
+      },
+      "comfy_stone_bunk_bottom": {
+        "display_name": "Comfy Stone Bottom Bunk",
+        "description": "Eight hours will leave you as refreshed as the day you were born."
+      },
+      "comfy_stone_bunk_top": {
+        "display_name": "Comfy Stone Top Bunk",
+        "description": "Eight hours will leave you as refreshed as the day you were born."
+      },
+      "herbalist_bed": {
+        "display_name": "Herbalist Comfy Bed (No Table)",
+        "description": "A comfortable bed to provide the best treatments."
+      },
+      "herbalist_ornate_comfy_bed": {
+        "display_name": "Herbalist Ornate, Comfy Bed (No Table)",
+        "description": "An ornate, comfortable bed to provide the best treatments."
+      },
+      "hope_chest": {
+        "display_name": "Wooden Hope Chest",
+        "description": "A place to store all your hopes and dreams."
+      },
+      "mean_bunk_bottom": {
+        "display_name": "Mean Bottom Bunk",
+        "description": "Slightly more comfortable than sleeping on a board."
+      },
+      "mean_bunk_top": {
+        "display_name": "Mean Top Bunk",
+        "description": "Slightly more comfortable than sleeping on a board."
+      },
+      "mean_clay_bunk_bottom": {
+        "display_name": "Mean Clay Bottom Bunk",
+        "description": "Slightly more comfortable than sleeping on a board."
+      },
+      "mean_clay_bunk_top": {
+        "display_name": "Mean Clay Top Bunk",
+        "description": "Slightly more comfortable than sleeping on a board."
+      },
+      "mean_stone_bunk_bottom": {
+        "display_name": "Mean Stone Bottom Bunk",
+        "description": "Slightly more comfortable than sleeping on a board."
+      },
+      "mean_stone_bunk_top": {
+        "display_name": "Mean Stone Top Bunk",
+        "description": "Slightly more comfortable than sleeping on a board."
+      },
+      "pasture_bed_tiny": {
+        "display_name": "Pasture Bedding - Tiny",
+        "description": "Pasture animals will rest during the night or bad weather. Must be in a pasture."
+      },
+      "sink": {
+        "display_name": "Wooden Sink",
+        "description": "An indoor place to wash up."
+      },
+      "wardrobe": {
+        "display_name": "Wooden Wardrobe",
+        "description": "A place for storing clothing and personal possessions."
+      },
+      "wooden_writing_desk": {
+        "display_name": "Wooden Writing Desk",
+        "description": "A peaceful place to write letters to home."
+      }
+    },
+    "gizmos": {
+      "upgraded_training_dummy": {
+        "display_name": "Upgraded Training Dummy",
+        "description": "Melee fighters can gain more experience from practicing with this friendly guy."
+      },
+      "upgraded_training_target": {
+        "display_name": "Upgraded Archery Target",
+        "description": "Ranged fighters can gain more experience from practicing with this target."
+      }
+    },
+    "modular": {
+      "bench_end_left": {
+        "display_name": "Wooden Park Bench - End, Left",
+        "description": "The end of a Wooden Park Bench."
+      },
+      "bench_end_right": {
+        "display_name": "Wooden Park Bench - End, Right",
+        "description": "The end of a Wooden Park Bench."
+      },
+      "bench_middle": {
+        "display_name": "Wooden Park Bench - Middle",
+        "description": "The middle section of an extended Wooden Park Bench."
+      },
+      "dining_table_end": {
+        "display_name": "Dining Table - End",
+        "description": "An end piece for a Dining Table"
+      },
+      "dining_table_middle": {
+        "display_name": "Dining Table - Middle",
+        "description": "A middle piece for a Dining Table"
+      },
+      "wooden_bench_end_left": {
+        "display_name": "Wooden Bench - End, Left",
+        "description": "The end of an extended Wooden bench."
+      },
+      "wooden_bench_end_right": {
+        "display_name": "Wooden Bench - End, Right",
+        "description": "The end of an extended Wooden bench."
+      },
+      "wooden_bench_middle": {
+        "display_name": "Wooden Bench - Middle",
+        "description": "The middle section of an extended Wooden bench."
+      },
+      "wooden_bench_middle_long": {
+        "display_name": "Wooden Bench - Middle, Long",
+        "description": "A longer middle section of an extended Wooden bench."
+      }
+    },
+    "planters": {
+      "clay_planter": {
+        "display_name": "Clay Planter",
+        "description": "The Herbalist can use this planter to cultivate two renewable herbs."
+      },
+      "clay_planter_large": {
+        "display_name": "Clay Planter - Large",
+        "description": "The Herbalist can use this planter to cultivate three renewable herbs."
+      },
+      "clay_planter_small": {
+        "display_name": "Clay Planter - Small",
+        "description": "The Herbalist can use this planter to cultivate a single renewable herb."
+      },
+      "planter_large_clay": {
+        "display_name": "Large Herbalist Planter - Clay",
+        "description": "The Herbalist can use this planter to cultivate four renewable herbs."
+      },
+      "planter_large_stone": {
+        "display_name": "Large Herbalist Planter - Stone",
+        "description": "The Herbalist can use this planter to cultivate four renewable herbs."
+      },
+      "planter_large_wood": {
+        "display_name": "Large Herbalist Planter - Wood",
+        "description": "The Herbalist can use this planter to cultivate four renewable herbs."
+      },
+      "planter_water_clay": {
+        "display_name": "Herbalist Water Planter - Clay",
+        "description": "The Herbalist can create a special planter to cultivate aquatic resources and get leeches, useful for treating infections."
+      },
+      "planter_water_stone": {
+        "display_name": "Herbalist Water Planter - Stone",
+        "description": "The Herbalist can create a special planter to cultivate aquatic resources and get leeches, useful for treating infections."
+      },
+      "planter_water_wood": {
+        "display_name": "Herbalist Water Planter - Wood",
+        "description": "The Herbalist can create a special planter to cultivate aquatic resources and get leeches, useful for treating infections."
+      },
+      "stone_planter": {
+        "display_name": "Stone Planter",
+        "description": "The Herbalist can use this planter to cultivate two renewable herbs."
+      },
+      "stone_planter_large": {
+        "display_name": "Stone Planter - Large",
+        "description": "The Herbalist can use this planter to cultivate three renewable herbs."
+      },
+      "stone_planter_small": {
+        "display_name": "Stone Planter - Small",
+        "description": "The Herbalist can use this planter to cultivate a single renewable herb."
+      },
+      "wood_planter": {
+        "display_name": "Wooden Planter",
+        "description": "The Herbalist can use this planter to cultivate two renewable herbs."
+      },
+      "wood_planter_large": {
+        "display_name": "Wooden Planter - Large",
+        "description": "The Herbalist can use this planter to cultivate three renewable herbs."
+      },
+      "wood_planter_small": {
+        "display_name": "Wooden Planter - Small",
+        "description": "The Herbalist can use this planter to cultivate a single renewable herb."
+      }
+    }
+  },
+  "jobs": {
+    "footman": {
+      "footman_description": {
+        "level_1_data": {
+          "training_perk_name": "Combat Training",
+          "training_perk_description": "The Footman can use Regular and Upgraded Training Dummies to train their combat techniques and earn experience up to Job Level 6",
+          "perk_000_description": "The Footman knows that all combats may have mortal consequences, and attacks with renewed determination."
+        },
+        "level_3_data": {
+          "training_complete_name": "Academy Graduate",
+          "training_complete_description": "The Footman has finished their basic combat training and can now seek new opportunities like trying to become a Knight!"
+        }
+      }
+    },
+    "archer": {
+      "archer_description": {
+        "description": "A rearguard combatant capable of using ranged weaponry like bows, crossbows and a variety of hindering types of arrows or bolts to attack their foes.",
+        "level_1_data": {
+          "training_perk_name": "Archery Training",
+          "training_perk_description": "The Archer can use Regular and Upgraded Archery Targets to train their precision and earn experience up to Job Level 6"
+        }
+      }
+    },
+    "knight": {
+      "knight_description": {
+        "description": "A defensive fighter focused on protecting allies from harm and rounding up enemies, striking fear in their hearts!",
+        "level_1_data": {
+          "training_perk_name": "Squire Training",
+          "training_perk_description": "The Knight can use Regular and Upgraded Training Dummies to train their defensive taunting skills and earn experience up to Job Level 6"
+        }
+      }
+    },
+    "blacksmith": {
+      "recipes": {
+        "weapons_rack": {
+          "recipe_name": "Weapons Rack",
+          "description": "A Wooden rack to hold various weaponry.",
+          "flavor": "Mind the pointy ends."
+        }
+      }
+    },
+    "carpenter": {
+      "recipes": {
+        "modular_name": "Modular Furniture",
+        "apothecary_cabinet": {
+          "recipe_name": "Wooden Apothecary Cabinet",
+          "description": "A cabinet for the storage of bits and bobs.",
+          "flavor": "Everything in its place..."
+        },
+        "bench_end_left": {
+          "recipe_name": "Wooden Park Bench - End, Left",
+          "description": "The end of a Wooden Park Bench.",
+          "flavor": "Now we can sit next to each other."
+        },
+        "bench_end_right": {
+          "recipe_name": "Wooden Park Bench - End, Right",
+          "description": "The end of a Wooden Park Bench.",
+          "flavor": "Now we can sit next to each other."
+        },
+        "bench_middle": {
+          "recipe_name": "Wooden Park Bench - Middle",
+          "description": "The middle section of an extended Wooden Park Bench.",
+          "flavor": "Now we can sit next to each other."
+        },
+        "bench_middle_long": {
+          "recipe_name": "Wooden Park Bench - Middle, Long",
+          "description": "A longer middle section of an extended Wooden Park Bench.",
+          "flavor": "Now we can sit next to each other."
+        },
+        "bench_large": {
+          "recipe_name": "Wooden Park Bench - Large",
+          "description": "Larger outdoor seating for moments of relaxation.",
+          "flavor": "Life is like a plate of berries."
+        },
+        "bench_small": {
+          "recipe_name": "Wooden Park Bench - Small",
+          "description": "Smaller outdoor seating for moments of relaxation.",
+          "flavor": "Life is like a plate of berries."
+        },
+        "comfy_bunk_bottom": {
+          "recipe_name": "Comfy Bottom Bunk",
+          "description": "Eight hours will leave you as refreshed as the day you were born.",
+          "flavor": "Nobody ever wants to get out. It makes emergency evacuations awkward."
+        },
+        "comfy_bunk_top": {
+          "recipe_name": "Comfy Top Bunk",
+          "description": "Eight hours will leave you as refreshed as the day you were born.",
+          "flavor": "Nobody ever wants to get out. It makes emergency evacuations awkward."
+        },
+        "dining_table_end": {
+          "recipe_name": "Dining Table - End",
+          "description": "An end piece for a Dining Table.",
+          "flavor": "Sitting down to eat is a sign of civilization."
+        },
+        "dining_table_middle": {
+          "recipe_name": "Dining Table - Middle",
+          "description": "A middle piece for a Dining Table.",
+          "flavor": "Sitting down to eat is a sign of civilization."
+        },
+        "herbalist_bed": {
+          "recipe_name": "Herbalist Comfy Bed (No Table)",
+          "description": "Wounded or incapacitated hearthlings will prefer this bed, which can be placed closer to their medications and recovers them slightly faster.",
+          "flavor": "Herbalist beds can't be personally owned."
+        },
+        "herbalist_ornate_comfy_bed": {
+          "recipe_name": "Herbalist Ornate, Comfy Bed (No Table)",
+          "description": "Wounded or incapacitated hearthlings will prefer this bed, which can be placed closer to their medications and recovers them slightly faster.",
+          "flavor": "Herbalist beds can't be personally owned."
+        },
+        "hope_chest": {
+          "recipe_name": "Wooden Hope Chest",
+          "description": "A place to store all your hopes and dreams.",
+          "flavor": "Just like mom had."
+        },
+        "input_crate_large": {
+          "recipe_name": "Wooden Supply Crate - Large",
+          "description": "A large supply crate, for quicker crafting.",
+          "flavor": "Think of what we can achieve when Hearthlings work together!"
+        },
+        "input_crate_small": {
+          "recipe_name": "Wooden Supply Crate - Small",
+          "description": "A small supply crate, for quicker crafting.",
+          "flavor": "Think of what we can achieve when Hearthlings work together!"
+        },
+        "mean_bunk_bottom": {
+          "recipe_name": "Mean Bottom Bunk",
+          "description": "Slightly more comfortable than sleeping on a board.",
+          "flavor": "Mean as in poor, not cruel. Though it's that too."
+        },
+        "mean_bunk_top": {
+          "recipe_name": "Mean Top Bunk",
+          "description": "Slightly more comfortable than sleeping on a board.",
+          "flavor": "Mean as in poor, not cruel. Though it's that too."
+        },
+        "plank_bridge": {
+          "recipe_name": "Wooden Plank Bridge",
+          "description": "A single Wooden Plank Bridge to cross a 1 block gap.",
+          "flavor": "Add more to cross wider gaps!"
+        },
+        "quenching_tub": {
+          "recipe_name": "Quenching Tub",
+          "description": "A barrel filled with water to cool metal.",
+          "flavor": "This water is fortified...with iron!"
+        },
+        "sink": {
+          "recipe_name": "Wooden Sink",
+          "description": "An indoor place to wash up.",
+          "flavor": "Cleanliness is next to godliness."
+        },
+        "room_divider": {
+          "recipe_name": "Wooden Room Divider Section (x4)",
+          "description": "Four sections of a Wooden Room Divider.",
+          "flavor": "My side! Your side! My side! Your side!"
+        },
+        "upgraded_training_dummy": {
+          "recipe_name": "Upgraded Training Dummy",
+          "description": "Melee fighters can gain more experience from practicing with this friendly guy.",
+          "flavor": "Can be repaired before it's completely broken."
+        },
+        "upgraded_training_target": {
+          "recipe_name": "Upgraded Archery Target",
+          "description": "Ranged fighters can gain more experience from practicing with this target.",
+          "flavor": "Can be repaired before it's completely broken."
+        },
+        "wardrobe": {
+          "recipe_name": "Wooden Wardrobe",
+          "description": "A place for storing clothing and personal possessions.",
+          "flavor": "Just need a Lion and a Witch to complete the set!"
+        },
+        "water_barrel": {
+          "recipe_name": "Water Barrel",
+          "description": "A barrel for storing drinking water.",
+          "flavor": "Drink up me hearties, yo ho!"
+        },
+        "weapons_rack_empty": {
+          "recipe_name": "Weapons Rack - Empty",
+          "description": "A Wooden rack to hold various weaponry.",
+          "flavor": "Harmless...Unless you count splinters."
+        },
+        "weapons_rack_storage": {
+          "recipe_name": "Weapons Rack - Storage",
+          "description": "A Wooden rack to store various weaponry.",
+          "flavor": "Mind the pointy ends."
+        },
+        "wood_pile": {
+          "recipe_name": "Wood Pile",
+          "description": "A pile of wood ready to be split into firewood.",
+          "flavor": "I've gotta split..."
+        },
+        "wooden_arrow_slit": {
+          "recipe_name": "Wooden Arrow Slit",
+          "description": "A small, Wooden window for Archers to fire at attackers.",
+          "flavor": "Light comes in, arrows go out."
+        },
+        "wooden_bench_end_left": {
+          "recipe_name": "Wooden Bench - End, Left",
+          "description": "The end of an extended Wooden bench.",
+          "flavor": "Now we can sit next to each other."
+        },
+        "wooden_bench_end_right": {
+          "recipe_name": "Wooden Bench - End, Right",
+          "description": "The end of an extended Wooden bench.",
+          "flavor": "Now we can sit next to each other."
+        },
+        "wooden_bench_middle": {
+          "recipe_name": "Wooden Bench - Middle",
+          "description": "The middle section of an extended Wooden bench.",
+          "flavor": "Now we can sit next to each other."
+        },
+        "wooden_bench_middle_long": {
+          "recipe_name": "Wooden Bench - Middle, Long",
+          "description": "A longer middle section of an extended Wooden bench.",
+          "flavor": "Now we can sit next to each other."
+        },
+        "wooden_bookcase_large": {
+          "recipe_name": "Bookcase - Large",
+          "description": "A large-sized Bookcase filled with books.",
+          "flavor": "How can you read this?  There's no pictures!"
+        },
+        "wooden_bookcase_med": {
+          "recipe_name": "Bookcase - Medium",
+          "description": "A medium-sized Bookcase filled with books.",
+          "flavor": "How can you read this?  There's no pictures!"
+        },
+        "wooden_bookcase_small": {
+          "recipe_name": "Bookcase - Small",
+          "description": "A small-sized Bookcase filled with books.",
+          "flavor": "How can you read this?  There's no pictures!"
+        },
+        "wooden_window_frame_small": {
+          "recipe_name": "Small Wooden Window Frame",
+          "description": "A small, Wooden window.",
+          "flavor": "Let a little light in."
+        },
+        "wooden_window_frame_small_double": {
+          "recipe_name": "Small Wooden Window Frame - Double",
+          "description": "A small, double Wooden window.",
+          "flavor": "Let a little light in."
+        },
+        "wooden_window_frame_small_triple": {
+          "recipe_name": "Small Wooden Window Frame - Triple",
+          "description": "A small, triple Wooden window.",
+          "flavor": "Let a little light in."
+        },
+        "wooden_writing_desk": {
+          "recipe_name": "Wooden Writing Desk",
+          "description": "A peaceful place to write letters to home.",
+          "flavor": "...It can produce a few notes, though they are all flat."
+        }
+      }
+    },
+    "herbalist": {
+      "recipes": {
+        "clay_planter": {
+          "recipe_name": "Clay Planter",
+          "description": "The Herbalist can use this planter to cultivate two renewable herbs.",
+          "flavor": "Grow baby, grow!"
+        },
+        "clay_planter_large": {
+          "recipe_name": "Clay Planter - Large",
+          "description": "The Herbalist can use this planter to cultivate three renewable herbs.",
+          "flavor": "Grow baby, grow!"
+        },
+        "clay_planter_small": {
+          "recipe_name": "Clay Planter - Small",
+          "description": "The Herbalist can use this planter to cultivate a single renewable herb.",
+          "flavor": "Grow baby, grow!"
+        },
+        "hanging_herbs": {
+          "recipe_name": "Hanging Herbs",
+          "description": "A degorative bundle of Herbs.",
+          "flavor": "Smells so nice."
+        },
+        "hanging_herbs_large": {
+          "recipe_name": "Hanging Herbs - Large",
+          "description": "A large, degorative bundle of Herbs.",
+          "flavor": "Smells even better!"
+        },
+        "herbalist_bookcase_large": {
+          "recipe_name": "Herbalist Bookcase - Large",
+          "description": "A large Bookcase for an Herbalist's many supplies.",
+          "flavor": "So many things, so little space."
+        },
+        "herbalist_bookcase_med": {
+          "recipe_name": "Herbalist Bookcase - Medium",
+          "description": "A large Bookcase for an Herbalist's many supplies.",
+          "flavor": "So many things, so little space."
+        },
+        "herbalist_bookcase_small": {
+          "recipe_name": "Herbalist Bookcase - Small",
+          "description": "A large Bookcase for an Herbalist's many supplies.",
+          "flavor": "So many things, so little space."
+        },
+        "herbalist_cauldron": {
+          "recipe_name": "Herbalist Stone Cauldron",
+          "description": "Used by the Herbalist for brewing & concocting simple potions.",
+          "flavor": "Firewood not included."
+        },
+        "herbalist_fireplace": {
+          "recipe_name": "Herbalist Fireplace with Stone Cauldron",
+          "description": "Used by the Herbalist for brewing & concocting simple potions.",
+          "flavor": "Now with less chance to burn your house down!"
+        },
+        "herbalist_fireplace_metal": {
+          "recipe_name": "Herbalist Fireplace with Metal Cauldron",
+          "description": "Used by the Herbalist for brewing more advanced potions. Replaces the stone cauldron.",
+          "flavor": "Now with less chance to burn your house down!"
+        },
+        "herbalist_metal_cauldron": {
+          "recipe_name": "Herbalist Metal Cauldron",
+          "description": "Used by the Herbalist for brewing more advanced potions. Replaces the stone cauldron.",
+          "flavor": "The wing of a bat, the eye of a newt... Wait, what?"
+        },
+        "model_skeleton": {
+          "recipe_name": "Model Skeleton",
+          "description": "An anatomically correct model of a Hearthling's skeletal system.",
+          "flavor": "The leg bone's connected to the..."
+        },
+        "planter_large_clay": {
+          "recipe_name": "Large Herbalist Planter - Clay",
+          "description": "The Herbalist can use this planter to cultivate four renewable herbs.",
+          "flavor": "Grow baby, grow!"
+        },
+        "planter_large_stone": {
+          "recipe_name": "Large Herbalist Planter - Stone",
+          "description": "The Herbalist can use this planter to cultivate four renewable herbs.",
+          "flavor": "Grow baby, grow!"
+        },
+        "planter_large_wood": {
+          "recipe_name": "Large Herbalist Planter - Wood",
+          "description": "The Herbalist can use this planter to cultivate four renewable herbs.",
+          "flavor": "Grow baby, grow!"
+        },
+        "planter_water_clay": {
+          "recipe_name": "Herbalist Water Planter - Clay",
+          "description": "The Herbalist can create a special planter to cultivate aquatic resources and get leeches, useful for treating infections.",
+          "flavor": "Grow baby, grow!"
+        },
+        "planter_water_stone": {
+          "recipe_name": "Herbalist Water Planter - Stone",
+          "description": "The Herbalist can create a special planter to cultivate aquatic resources and get leeches, useful for treating infections.",
+          "flavor": "Grow baby, grow!"
+        },
+        "planter_water_wood": {
+          "recipe_name": "Herbalist Water Planter - Wood",
+          "description": "The Herbalist can create a special planter to cultivate aquatic resources and get leeches, useful for treating infections.",
+          "flavor": "Grow baby, grow!"
+        },
+        "stone_planter": {
+          "recipe_name": "Stone Planter",
+          "description": "The Herbalist can use this planter to cultivate two renewable herbs.",
+          "flavor": "Grow baby, grow!"
+        },
+        "stone_planter_large": {
+          "recipe_name": "Stone Planter - Large",
+          "description": "The Herbalist can use this planter to cultivate three renewable herbs.",
+          "flavor": "Grow baby, grow!"
+        },
+        "stone_planter_small": {
+          "recipe_name": "Stone Planter - Small",
+          "description": "The Herbalist can use this planter to cultivate a single renewable herb.",
+          "flavor": "Grow baby, grow!"
+        },
+        "wood_planter": {
+          "recipe_name": "Wooden Planter",
+          "description": "The Herbalist can use this planter to cultivate two renewable herbs.",
+          "flavor": "Grow baby, grow!"
+        },
+        "wood_planter_large": {
+          "recipe_name": "Wooden Planter - Large",
+          "description": "The Herbalist can use this planter to cultivate three renewable herbs.",
+          "flavor": "Grow baby, grow!"
+        },
+        "wood_planter_small": {
+          "recipe_name": "Wooden Planter - Small",
+          "description": "The Herbalist can use this planter to cultivate a single renewable herb.",
+          "flavor": "Grow baby, grow!"
+        }
+      },
+      "herbalist_cauldron": {
+        "display_name": "Herbalist Stone Cauldron",
+        "description": "Used for brewing & concocting potions. Requires lower grade fuel."
+      },
+      "herbalist_fireplace": {
+        "display_name": "Herbalist Fireplace with Stone Cauldron",
+        "description": "Used for brewing & concocting potions. Requires lower grade fuel."
+      },
+      "herbalist_fireplace_metal": {
+        "display_name": "Herbalist Fireplace with Metal Cauldron",
+        "description": "Used for brewing more advanced potions. Requires any common fuel."
+      },
+      "herbalist_metal_cauldron": {
+        "display_name": "Herbalist Metal Cauldron",
+        "description": "Used for brewing more advanced potions. Requires any common fuel."
+      }
+    },
+    "potter": {
+      "recipes": {
+        "comfy_clay_bunk_bottom": {
+          "recipe_name": "Comfy Clay Bottom Bunk",
+          "description": "Eight hours will leave you as refreshed as the day you were born.",
+          "flavor": "Nobody ever wants to get out. It makes emergency evacuations awkward."
+        },
+        "comfy_clay_bunk_top": {
+          "recipe_name": "Comfy Clay Top Bunk",
+          "description": "Eight hours will leave you as refreshed as the day you were born.",
+          "flavor": "Nobody ever wants to get out. It makes emergency evacuations awkward."
+        },
+        "mean_clay_bunk_bottom": {
+          "recipe_name": "Mean Clay Bottom Bunk",
+          "description": "Slightly more comfortable than sleeping on a board.",
+          "flavor": "Mean as in poor, not cruel. Though it's that too."
+        },
+        "mean_clay_bunk_top": {
+          "recipe_name": "Mean Clay Top Bunk",
+          "description": "Slightly more comfortable than sleeping on a board.",
+          "flavor": "Mean as in poor, not cruel. Though it's that too."
+        }
+      }
+    },
+    "mason": {
+      "recipes": {
+        "signage_decoration_name": "Signage & Decoration",
+        "comfy_stone_bunk_bottom": {
+          "recipe_name": "Comfy Stone Bottom Bunk",
+          "description": "Eight hours will leave you as refreshed as the day you were born.",
+          "flavor": "Nobody ever wants to get out. It makes emergency evacuations awkward."
+        },
+        "comfy_stone_bunk_top": {
+          "recipe_name": "Comfy Stone Top Bunk",
+          "description": "Eight hours will leave you as refreshed as the day you were born.",
+          "flavor": "Nobody ever wants to get out. It makes emergency evacuations awkward."
+        },
+        "firewood_holder_stone_large": {
+          "recipe_name": "Stone Firewood Holder",
+          "description": "A reliable storage alcove that will keep up to 18 Bundles O' Firewood ready to be used.",
+          "flavor": ""
+        },
+        "mean_stone_bunk_bottom": {
+          "recipe_name": "Mean Stone Bottom Bunk",
+          "description": "Slightly more comfortable than sleeping on a board.",
+          "flavor": "Mean as in poor, not cruel. Though it's that too."
+        },
+        "mean_stone_bunk_top": {
+          "recipe_name": "Mean Stone Top Bunk",
+          "description": "Slightly more comfortable than sleeping on a board.",
+          "flavor": "Mean as in poor, not cruel. Though it's that too."
+        },
+        "stone_fireplace": {
+          "recipe_name": "Stone Fireplace",
+          "description": "Keeps Hearthlings warm on cold nights.",
+          "flavor": "Burn baby, BURN!"
+        },
+        "stone_fireplace_large": {
+          "recipe_name": "Stone Fireplace - Large",
+          "description": "Keeps Hearthlings very warm on cold nights.",
+          "flavor": "Burn baby, BURN!"
+        },
+        "stone_fireplace_small": {
+          "recipe_name": "Stone Fireplace - Small",
+          "description": "Keeps Hearthlings fairly warm on cold nights.",
+          "flavor": "Burn baby, BURN!"
+        },
+        "stone_arrow_slit": {
+          "recipe_name": "Stone Arrow Slit",
+          "description": "A small, Stone window for Archers to fire at attackers.",
+          "flavor": "Light comes in, arrows go out."
+        },
+        "stone_window_frame_small": {
+          "recipe_name": "Small Stone Window Frame",
+          "description": "A small, Stone window.",
+          "flavor": "Let a little light in."
+        },
+        "stone_window_frame_small_double": {
+          "recipe_name": "Small Stone Window Frame - Double",
+          "description": "A small, double Stone window.",
+          "flavor": "Let a little light in."
+        },
+        "stone_window_frame_small_triple": {
+          "recipe_name": "Small Stone Window Frame - Triple",
+          "description": "A small, triple Stone window.",
+          "flavor": "Let a little light in."
+        },
+        "torch": {
+          "recipe_name": "Torch (x2)",
+          "description": "A small torch that provides light.",
+          "flavor": "Let's shed a little light on the subject."
+        }
+      }
+    },
+    "shepherd": {
+      "recipes": {
+        "animal_furniture_name": "Animal Furniture",
+        "pasture_bed_tiny": {
+          "recipe_name": "Pasture Bedding - Tiny",
+          "description": "Small pasture animals will go to these during the night or bad weather, place them under shelter.",
+          "flavor": "Must be placed inside a pasture, can be placed on walls. Small animals include ducks, poyos and rabbits"
+        }
+      }
+    },
+    "weaver": {
+      "recipes": {
+        "books": {
+          "recipe_name": "Books",
+          "description": "A collection of books.",
+          "flavor": "Take a look, it's in a book..."
+        },
+        "banner_wall_large": {
+          "recipe_name": "Large Wall-Mounted Standard",
+          "description": "Show your town pride with this standard.",
+          "flavor": "Recommended for higher standards."
+        },
+        "firewood_basket": {
+          "recipe_name": "Firewood Basket",
+          "description": "A small basket for storing firewood.",
+          "flavor": "Just a little wood."
+        },
+        "rope_banner": {
+          "recipe_name": "Rope Banner",
+          "description": "A rope filled with colorful banners.",
+          "flavor": "Celebrate good times!"
+        },
+        "oriental_rug": {
+          "recipe_name": "Oriental Rug",
+          "description": "Intricate, hand-woven rug from a far-off land.",
+          "flavor": "It really brings the room together."
+        },
+        "throw_rug_large": {
+          "recipe_name": "Large Decorative Throw Rug",
+          "description": "Brightens up that old dusty floor a little more.",
+          "flavor": "Too beautiful to step on."
+        }
+      }
+    }
+  },
+  "ui": {
+    "game": {
+      "zones_mode": {
+        "stockpile": {
+          "filters": {
+            "melee_weapons": "Melee Weapons",
+            "tooltip_mainhand": "Main Hand Weapon",
+            "tooltip_twohanded": "Two Handed Weapon"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "entities": {
+    "critters": {
+      "racoon": {
+        "display_name": "i18n(serene_league:data.biome.coast.animals.racoon.display_name)"
+      }
+    },
+    "monsters": {
+      "avian": {
+        "duckduck": {
+          "display_name": "i18n(serene_league:data.biome.coast.animals.duckduck.display_name)"
+        },
+        "ostrich": {
+          "display_name": "i18n(serene_league:data.biome.coast.animals.ostrich.display_name)"
+        }
+      }
+    }
+  }
+}

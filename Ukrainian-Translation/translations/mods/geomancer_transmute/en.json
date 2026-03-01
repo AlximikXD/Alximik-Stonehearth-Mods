@@ -1,0 +1,41 @@
+{
+  "jobs": {
+    "geomancer": {
+      "recipes": {
+        "common": {
+          "transmute_flavor": "Transmutation is less efficient than summon stones but allows skipping the mining process."
+        },
+        "categories": {
+          "transmute": "Transmutation"
+        },
+        "stone_pile": {
+          "description": "Use Hearth Essence to multiply stone."
+        },
+        "clay_pile": {
+          "description": "Use Hearth Essence to multiply clay."
+        },
+        "lump_of_coal": {
+          "description": "Use Hearth Essence to obtain coal."
+        },
+        "tin_ore": {
+          "description": "Use Hearth Essence to obtain tin."
+        },
+        "copper_ore": {
+          "description": "Use Hearth Essence to obtain copper."
+        },
+        "iron_ore": {
+          "description": "Use Hearth Essence to obtain iron."
+        },
+        "silver_ore": {
+          "description": "Use Hearth Essence to obtain silver."
+        },
+        "gold_ore": {
+          "description": "Use Hearth Essence to obtain gold."
+        },
+        "hard_coal": {
+          "description": "Use Hearth Essence to obtain hard coal."
+        }
+      }
+    }
+  }
+}

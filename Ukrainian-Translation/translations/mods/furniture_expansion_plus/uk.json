@@ -1,0 +1,388 @@
+{
+  "data": {
+    "gm": {
+      "campaigns": {
+        "trader": {
+          "arcs": {
+            "encounters": {
+              "rare_item_shop": {
+                "display_name": "Торговець блискучими речами",
+                "title": "Підходить блакитноокий торговець-скелет. . ."
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "entities": {
+    "decorations": {
+      "blue_awning": {
+        "blue_awning_ghost": {
+          "display_name": "Синій тент",
+          "description": "Для тих, хто не любить сонця в очі."
+        }
+      },
+      "red_awning": {
+        "red_awning_ghost": {
+          "display_name": "Червоний тент",
+          "description": "Для тих, хто не любить синій."
+        }
+      },
+      "red_curtains": {
+        "red_curtains_ghost": {
+          "display_name": "Червоні штори",
+          "description": "Як Синій, але Червоний."
+        }
+      },
+      "trapdoor": {
+        "trapdoor_ghost": {
+          "display_name": "Trapdoor",
+          "description": "Цікаво, що там внизу... воно не відкривається."
+        }
+      }
+    },
+    "furniture": {
+      "bar_corner": {
+        "bar_corner_ghost": {
+          "display_name": "Барний куточок",
+          "description": "Кому не подобаються кутові барні сидіння."
+        }
+      },
+      "bar_section": {
+        "bar_section_ghost": {
+          "display_name": "Барна секція",
+          "description": "П'яні селяни набагато смішніші за тверезих."
+        }
+      },
+      "barrel_chair": {
+        "barrel_chair_ghost": {
+          "display_name": "Простий дерев'яний табурет",
+          "description": "Простий спосіб витратити половину бочки."
+        }
+      },
+      "barrel_for_one": {
+        "barrel_for_one_ghost": {
+          "display_name": "Бочка для одного",
+          "description": "Тому що ділитися - це погано."
+        }
+      },
+      "barrel_table": {
+        "barrel_table_ghost": {
+          "display_name": "Барельний стіл",
+          "description": "Коли ви ненавидите столи."
+        }
+      },
+      "bluecloth_wood_table": {
+        "bluecloth_wood_table_ghost": {
+          "display_name": "Синій накритий стіл",
+          "description": "Столи, тепер із кольором!"
+        }
+      },
+      "boiling_cabinet": {
+        "boiling_cabinet_ghost": {
+          "display_name": "Кип'ятна шафа",
+          "description": "Для тих днів, коли потрібно їсти."
+        }
+      },
+      "bookcase_large": {
+        "bookcase_large_ghost": {
+          "display_name": "Велика книжкова шафа",
+          "description": "В одній із цих книг є скибочка шинки."
+        }
+      },
+      "bookcase_small": {
+        "bookcase_small_ghost": {
+          "display_name": "Маленька книжкова шафа",
+          "description": "У цих є бекон."
+        }
+      },
+      "burning_logs": {
+        "burning_logs_ghost": {
+          "display_name": "Палаючі поліна",
+          "description": "Декоративні поліна, щоб ви думали, що ви можете розвести багаття."
+        }
+      },
+      "cart": {
+        "cart_ghost": {
+          "display_name": "Cart",
+          "description": "Найнеприємніша річ, яку ви хотіли б мати функцію."
+        }
+      },
+      "crate_chair": {
+        "crate_chair_ghost": {
+          "display_name": "Crate Chair",
+          "description": "Використання цінних пакетів як місця для сидіння доводить, що ви хороший працівник."
+        }
+      },
+      "linked_chest": {
+        "linked_chest_ghost": {
+          "display_name": "Зв'язана скриня",
+          "description": "Дуже радий, що цей мод не взяв нічого з інших ігор."
+        }
+      },
+      "piano": {
+        "piano_ghost": {
+          "display_name": "Piano",
+          "description": "Залишаючись стильним."
+        }
+      },
+      "redcloth_wooden_table": {
+        "redcloth_wooden_table_ghost": {
+          "display_name": "Червоний накритий стіл",
+          "description": "Столи, тепер іншого кольору."
+        }
+      },
+      "scarecrow": {
+        "scarecrow_ghost": {
+          "display_name": "Scarecrow",
+          "description": "Якби він мав мозок."
+        }
+      },
+      "shelf": {
+        "shelf_ghost": {
+          "display_name": "Shelf",
+          "description": "Якби ми тільки могли покласти на нього речі."
+        }
+      },
+      "shopping_stall_blue": {
+        "shopping_stall_blue_ghost": {
+          "display_name": "Синій торговий кіоск",
+          "description": "Як інакше розіб'єшся, стрибаючи з дахів."
+        }
+      },
+      "shopping_stall_green": {
+        "shopping_stall_green_ghost": {
+          "display_name": "Зелений торговий кіоск",
+          "description": "Як інакше розіб'єшся, стрибаючи з дахів."
+        }
+      },
+      "shopping_stall_pink": {
+        "shopping_stall_pink_ghost": {
+          "display_name": "Рожевий торговий кіоск",
+          "description": "Як інакше розіб'єшся, стрибаючи з дахів."
+        }
+      },
+      "shopping_stall_purple": {
+        "shopping_stall_purple_ghost": {
+          "display_name": "Фіолетовий торговий кіоск",
+          "description": "Як інакше розіб'єшся, стрибаючи з дахів."
+        }
+      },
+      "simple_wooden_stool": {
+        "simple_wooden_stool_ghost": {
+          "display_name": "Простий дерев'яний табурет",
+          "description": "Слідкуйте за павуками."
+        }
+      },
+      "training_dummy": {
+        "training_dummy_ghost": {
+          "display_name": "Тренувальний манекен",
+          "description": "Декоративний при відсутності речей."
+        }
+      },
+      "washing_cabinet": {
+        "washing_cabinet_ghost": {
+          "display_name": "Мийна шафа",
+          "description": "Важливо мити руки."
+        }
+      },
+      "wooden_chest": {
+        "wooden_chest_ghost": {
+          "display_name": "Дерев'яна скриня",
+          "description": "Декоративний при відсутності речей."
+        }
+      }
+    },
+    "toys": {
+      "plushie_toy_mudkip": {
+        "plushie_toy_mudkip_ghost": {
+          "display_name": "Плюшева іграшка Mudkip",
+          "description": "Ось вам іграшка, оскільки вони вам дуже подобаються."
+        }
+      },
+      "plushie_toy_snorlax": {
+        "plushie_toy_snorlax_ghost": {
+          "display_name": "Плюшева іграшка Снорлакс",
+          "description": "Потрібен Pokeflute."
+        }
+      },
+      "plushie_toy_meowth": {
+        "plushie_toy_meowth_ghost": {
+          "display_name": "Плюшева іграшка Мяу",
+          "description": "Ми зробили його подвійним."
+        }
+      }
+    }
+  },
+  "jobs": {
+    "weaver": {
+      "recipes": {
+        "plushie_toy_meowth_recipe": {
+          "recipe_name": "Плюшева іграшка Мяу",
+          "description": "Іграшка...звичайно для дітей.",
+          "flavor": "Ми зробили його подвійним"
+        },
+        "blue_awning_recipe": {
+          "recipe_name": "Синій тент",
+          "description": "Прикрашає звичайне вікно.",
+          "flavor": "Технологія блокування світла заохочує спати."
+        },
+        "plushie_toy_mudkip_recipe": {
+          "recipe_name": "Плюшева іграшка Mudkip",
+          "description": "Іграшка...звичайно для дітей.",
+          "flavor": "Ось вам іграшка, оскільки вони вам дуже подобаються"
+        },
+        "plushie_toy_snorlax_recipe": {
+          "recipe_name": "Плюшева іграшка Снорлакс",
+          "description": "Іграшка...звичайно для дітей.",
+          "flavor": "Потрібен Pokeflute"
+        },
+        "red_awning_recipe": {
+          "recipe_name": "Червоний тент",
+          "description": "Прикрашає звичайне вікно.",
+          "flavor": "Технологія блокування світла заохочує спати."
+        },
+        "red_curtains_recipe": {
+          "recipe_name": "Гарні червоні штори",
+          "description": "Прикрашає звичайне вікно.",
+          "flavor": "Технологія блокування світла заохочує спати."
+        }
+      }
+    },
+    "carpenter": {
+      "recipes": {
+        "barrel_for_one_recipe": {
+          "recipe_name": "Бочка для одного",
+          "description": "Краще, ніж їсти стоячи. Якщо ви не стежите за своєю вагою.",
+          "flavor": "Тому що ділитися - це погано."
+        },
+        "bookcase_small_recipe": {
+          "recipe_name": "Маленька книжкова шафа",
+          "description": "У цих є бекон.",
+          "flavor": "Я щось відчуваю..."
+        },
+        "boiling_cabinet_recipe": {
+          "recipe_name": "Кип'ятна шафа",
+          "description": "Дозволяє групі людей їсти разом. Як дорослі.",
+          "flavor": "Для тих днів, коли потрібно їсти."
+        },
+        "bar_corner_recipe": {
+          "recipe_name": "Барний куточок",
+          "description": "Кутова секція, коли потрібно повернути.",
+          "flavor": "Попередження: не пий і не впади."
+        },
+        "barrel_chair_recipe": {
+          "recipe_name": "Крісло-бочка",
+          "description": "Сидячи, їжа приносить на 20% більше задоволення.",
+          "flavor": "Бо коли гобіти покінчать з ними."
+        },
+        "barrel_table_recipe": {
+          "recipe_name": "Барельний стіл",
+          "description": "Дозволяє групі людей їсти разом. Як дорослі.",
+          "flavor": "Коли ви ненавидите столи."
+        },
+        "bar_section_recipe": {
+          "recipe_name": "Барна секція",
+          "description": "Пряма ділянка для всіх ваших потреб",
+          "flavor": "Попередження: не пий і не впади."
+        },
+        "burning_logs_recipe": {
+          "recipe_name": "Палаючі поліна",
+          "description": "Декоративні поліна, щоб ви думали, що ви можете розвести багаття.",
+          "flavor": ""
+        },
+        "cart_recipe": {
+          "recipe_name": "Cart",
+          "description": "Найнеприємніша річ, яку ви хотіли б мати функцію.",
+          "flavor": "Пандемія поганий жарт..."
+        },
+        "bluecloth_wood_table_recipe": {
+          "recipe_name": "Синій накритий стіл",
+          "description": "Столи, тепер із кольором!",
+          "flavor": ""
+        },
+        "bookcase_large_recipe": {
+          "recipe_name": "Велика книжкова шафа",
+          "description": "В одній із цих книг є скибочка шинки.",
+          "flavor": ""
+        },
+        "linked_chest_recipe": {
+          "recipe_name": "Зв'язана скриня",
+          "description": "Дуже радий, що цей мод не взяв нічого з інших ігор.",
+          "flavor": ""
+        },
+        "crate_chair_recipe": {
+          "recipe_name": "Crate Chair",
+          "description": "Дозволяє групі людей їсти разом. Як дорослі.",
+          "flavor": "Сидіти на вантажі непогано, просто винахідливо."
+        },
+        "piano_recipe": {
+          "recipe_name": "Piano",
+          "description": "Залишаючись стильним.",
+          "flavor": ""
+        },
+        "redcloth_wooden_table_recipe": {
+          "recipe_name": "Червоний накритий стіл",
+          "description": "Столи, тепер іншого кольору.",
+          "flavor": ""
+        },
+        "scarecrow_recipe": {
+          "recipe_name": "Scarecrow",
+          "description": "Опудало для вашого саду",
+          "flavor": "Якби він мав мозок."
+        },
+        "shelf_recipe": {
+          "recipe_name": "Shelf",
+          "description": "Якби ми тільки могли покласти на нього речі.",
+          "flavor": ""
+        },
+        "shopping_stall_blue_recipe": {
+          "recipe_name": "Синій торговий кіоск",
+          "description": "Відкритий для бізнесу",
+          "flavor": "Як інакше розіб'єшся, стрибаючи з дахів."
+        },
+        "shopping_stall_green_recipe": {
+          "recipe_name": "Зелений торговий кіоск",
+          "description": "Відкритий для бізнесу",
+          "flavor": "Як інакше розіб'єшся, стрибаючи з дахів."
+        },
+        "shopping_stall_pink_recipe": {
+          "recipe_name": "Рожевий торговий кіоск",
+          "description": "Відкритий для бізнесу",
+          "flavor": "Як інакше розіб'єшся, стрибаючи з дахів."
+        },
+        "shopping_stall_purple_recipe": {
+          "recipe_name": "Фіолетовий торговий кіоск",
+          "description": "Відкритий для бізнесу",
+          "flavor": "Як інакше розіб'єшся, стрибаючи з дахів."
+        },
+        "simple_wooden_stool_recipe": {
+          "recipe_name": "Простий дерев'яний табурет",
+          "description": "Сидячи, їжа приносить на 20% більше задоволення.",
+          "flavor": "Слідкуйте за павуками."
+        },
+        "training_dummy_recipe": {
+          "recipe_name": "Тренувальний манекен",
+          "description": "Декоративний при відсутності речей.",
+          "flavor": ""
+        },
+        "trapdoor_recipe": {
+          "recipe_name": "Trapdoor",
+          "description": "Цікаво, що там внизу... воно не відкривається.",
+          "flavor": ""
+        },
+        "washing_cabinet_recipe": {
+          "recipe_name": "Мийна шафа",
+          "description": "Важливо мити руки.",
+          "flavor": ""
+        },
+        "wooden_chest_recipe": {
+          "recipe_name": "Дерев'яна скриня",
+          "description": "Декоративний при відсутності речей.",
+          "flavor": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+    "jobs": {
+        "blacksmith": {
+            "recipes": {
+                "crown": {
+                    "recipe_name": "King's Crown",
+                    "description": "Required to promote a hearthling into a King"
+                }
+            }
+        },
+        "king": {
+            "display_name": "King",
+            "title": "King",
+            "description": "The ruler of a kingdom. The very presence of Royalty boosts the morale of their Hearthlings",
+            "requirements": "Crafted by Blacksmith",
+            "talisman": {
+                "display_name": "King's Crown",
+                "description": "Required to promote a hearthling into a King"
+            },
+            "crown_equipped": {
+                "display_name": "Crown",
+                "description": "A symbol of the monarchy"
+            },
+            "king_buffs": {
+                "royal_defense_buff": {
+                    "display_name": "Royal Defense",
+                    "description": "Your King and Queen has seen to the defense of this kingdom. Hearthlings gain a small defense buff"
+                },
+                "aristocrat_buff": {
+                    "display_name": "Aristocrat",
+                    "description": "This Hearthling is an Aristocrat. Look how they walk with pride."
+                },
+                "noble_birth_buff": {
+                    "display_name": "Noble Birth",
+                    "description": "The Nobility of a King and Queen motivates all. In their presence Muscle, Speed and Stamina is greatly increased. Look sharp!"
+                },
+                "love_of_the_people_buff": {
+                    "display_name": "Love of the People",
+                    "description": "The King and Queen hold the love of the people. Spreading happiness wherever they go."
+                },
+                "royal_heart_buff": {
+                    "display_name": "The Royal Presence",
+                    "description": "Your King and Queen increases the courage, willpower and compassion of their subjects."
+                },
+                "royal_protocol_buff": {
+                    "display_name": "Royal Protocol",
+                    "description": "There is certain way things must be done. The King and Queen increases the inspriation of all Hearthlings in their presence."
+                }
+            }
+        }
+    }
+}

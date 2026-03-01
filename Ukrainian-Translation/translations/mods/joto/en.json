@@ -1,0 +1,172 @@
+{
+  "entities": {
+    "critters": {
+      "dromedary": {
+        "display_name": "Dromedary",
+        "description": "A hardy animal, suitable for barren conditions.",
+        "dromedary_young": {
+          "display_name": "Young dromedary",
+          "description": "A hardy animal, suitable for barren conditions. This one is still small!"
+        }
+      },
+      "wild_dromedary": {
+        "display_name": "Wild Dromedary",
+        "description": "A wild, hardy animal, suitable for barren conditions.",
+        "wild_dromedary_young": {
+          "display_name": "Young wild dromedary",
+          "description": "A wild, hardy animal, suitable for barren conditions. This one is still small!."
+        }
+      }
+    },
+    "food": {
+      "coffee": {
+        "display_name": "Coffee Beans",
+        "coffee_basket": {
+          "display_name": "Basket of Coffee Beans",
+          "description": "Fairly bitter tasting beans, roast them and make a beverage."
+        },
+        "coffee_serving": {
+          "display_name": "Plate of Coffee Beans",
+          "description": "Chewy energy providing beans, suitable when roasted and used in a hot beverage."
+        }
+      },
+      "dromedary_feed": {
+        "dromedary_feed": {
+          "display_name": "Dromedary feed",
+          "description": "Used to feed dromedary"
+        },
+        "dromedary_feed_ground": {
+          "display_name": "Dromedary feed",
+          "description": "Used to feed dromedary"
+        }
+      }
+    },
+    "drink": {
+      "dromedary_milk": {
+        "dromedary_milk": {
+          "display_name": "Dromedary Milk",
+          "description": "Warm and smooth, straight from a healthy dromedary!"
+        },
+        "dromedary_milk_serving": {
+          "display_name": "Cup of Dromedary Milk",
+          "description": "Warm and smooth, straight from a healthy Dromedary!"
+        }
+      },
+      "coffee_desert": {
+        "coffee_desert": {
+          "display_name": "Desert Coffee",
+          "description": "Hot, thick and energizing, served in decorative cups."
+        },
+        "coffee_desert_serving": {
+          "display_name": "Desert Coffee",
+          "description": "Hot, thick and energizing, served in decorative cups."
+        }
+      },
+      "coffee_iconic": {
+        "display_name": "Desert Coffee",
+        "description": "Hot, thick and energizing, served in decorative cups."
+      }
+    },
+    "plants": {
+      "coffee_plant": {
+        "unripe_description": "Not yet ripe for harvest.",
+        "display_name": "Coffee Plant",
+        "description": "Harvest for bitter coffee beans.",
+        "bud": {
+          "coffee_plant_bud": {
+            "display_name": "Budding Coffee Plant",
+            "description": "It's almost there! Look, it has buds!"
+          }
+        },
+        "seed": {
+          "coffee_plant_seed_ghost": {
+            "display_name": "Coffee Plant Seed",
+            "description": "Can be planted to grow a bush of bitter coffee beans."
+          }
+        },
+        "sprout": {
+          "coffee_plant_sprout": {
+            "display_name": "Coffee Plant Sproutling",
+            "description": "Just needs some time and care."
+          }
+        },
+        "stem": {
+          "coffee_plant_stem": {
+            "description": "Still growing!",
+            "display_name": "Stemming Coffee Plant"
+          }
+        }
+      }
+    },
+    "decoration": {
+      "decorative_coffeepot": {
+        "decorative_coffeepot_ghost": {
+          "display_name": "Decorative Coffee Pot",
+          "description": "Used for the storage and pouring of coffee, this pot is currently empty."
+        }
+      }
+    }
+  },
+  "jobs": {
+    "cook": {
+      "recipes": {
+        "dromedary_feed_recipe": {
+          "recipe_name": "Dromedary Feed (x3)",
+          "description": "Used to feed Dromedary",
+          "flavor": "\"Trust in Cid, but tie up your Camel.\" -Popular desert proverb"
+        },
+        "coffee_recipe": {
+          "recipe_name": "Desert Coffee",
+          "description": "A zesty and hot beverage very appreciated by many! Provides a bonus to hearthlings.",
+          "flavor": "Prepared coffee must be placed somewhere in order to be consumed"
+        }
+      }
+    },
+    "herbalist": {
+      "recipes": {
+        "coffee_plant_transmute_recipe": {
+          "recipe_name": "Coffee Plant Seeds (x3)",
+          "description": "Separate seeds from the fruit",
+          "flavor": "Only a skilled hand can harvest the weaker seeds, but the fruit is lost in the process."
+        }
+      }
+    },
+    "mason": {
+      "mason_description": {
+        "requirements": "Crafted by Potter"
+      }
+    },
+    "potter": {
+      "recipes": {
+        "decorative_coffeepot_recipe": {
+          "description": "Beautiful brass adorned clay pot",
+          "recipe_name": "Decorative Coffee Pot",
+          "flavor": "'A finely crafted serving vessel for the beverage to start your day.'"
+        }
+      }
+    },
+    "shepherd": {
+      "shepherd_description": {
+        "requirements": "Crafted by Potter"
+      }
+    }
+  },
+  "ui": {
+    "game": {
+      "zones_mode": {
+        "pasture": {
+          "dromedary_pasture_name": "Dromedary Herd",
+          "dromedary_pasture_description": "Dromedary produce milk, a nourishing drink and also wool used by the weaver. Slaughtering Dromedary will produce meat, a raw cooking ingredient."
+        }
+      }
+    }
+  },
+  "data": {
+    "buffs": {
+      "coffee_energy": {
+        "display_name": "Caffeinated Energy",
+        "description": "Woo, caffeine rush! Diligence is increased, Speed is slightly increased. The need for sleep is slightly decreased.<ul><li>Crafting is slightly faster</li></ul>"
+      }
+    }
+  }
+}

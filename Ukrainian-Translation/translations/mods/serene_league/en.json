@@ -1,0 +1,1597 @@
+{
+  "kingdom": {
+    "kingdom_name": "Serene League [W.I.P.]",
+    "quote": "\"It's true that things are beautiful when they work. Art is function\". -- Giannina Braschi",
+    "long_description": "Skeptical about magic and physical exercise, members of the League may not be used to harsh conditions. Nevertheless, citizens of the Serene Republic are keen to spread art and science to new lands.",
+    "post_selection_description": ", a refined society of scholars and artists.",
+    "initial_town_name": "Municipality [str(town_number)]"
+  },
+  "entities": {
+    "trees": {
+      "stump": "Tree Stump",
+      "stump_description": "Not a tree anymore... Won't regrow, harvest it to clear the space.",
+      "cypress": {
+        "sapling": {
+          "display_name": "Cypress Sapling",
+          "description": "Baby Cypress Tree.",
+          "description_iconic": "Plant it in the earth and watch it grow."
+        },
+        "seed": {
+          "display_name": "Cypress Cone",
+          "description": "Plant it to grow a vertical beauty.",
+          "crop_description": "Even a majestic cypress has humble beginnings."
+        },
+        "sprout": {
+          "display_name": "Cypress Sprout",
+          "description": "Just needs some time and care."
+        },
+        "stem": {
+          "display_name": "Cypress Stem",
+          "description": "Still growing!"
+        },
+        "bud": {
+          "display_name": "Cypress Bud",
+          "description": "It's almost there!  It's growing its adult leaves!"
+        },
+        "small": {
+          "display_name": "Small Cypress",
+          "description": "Getting taller every day."
+        },
+        "medium": {
+          "display_name": "Cypress",
+          "description": "Strong and tall."
+        },
+        "large": {
+          "display_name": "Large Cypress",
+          "description": "An impressive specimen."
+        }
+      },
+      "stone_pine": {
+        "sapling": {
+          "display_name": "Stone Pine Sapling",
+          "description": "Baby Stone Pine.",
+          "description_iconic": "Plant it in the earth and watch it grow."
+        },
+        "seed": {
+          "display_name": "Stone Pine Cone",
+          "description": "Plant it to grow impressive umbrella pine.",
+          "crop_description": "Even an impressive pine has humble beginnings."
+        },
+        "sprout": {
+          "display_name": "Stone Pine Sprout",
+          "description": "Just needs some time and care."
+        },
+        "stem": {
+          "display_name": "Stone Pine Stem",
+          "description": "Still growing!"
+        },
+        "bud": {
+          "display_name": "Stone Pine Bud",
+          "description": "It's almost there!  It's growing its adult leaves!"
+        },
+        "small": {
+          "display_name": "Small Stone Pine",
+          "description": "On its way to become a sturdy tree."
+        },
+        "medium": {
+          "display_name": "Stone Pine",
+          "description": "Provides comfortable shadow."
+        },
+        "large": {
+          "display_name": "Large Stone Pine",
+          "description": "Magnificently shaped."
+        }
+      },
+      "olive": {
+        "sapling": {
+          "display_name": "Olive Tree Sapling",
+          "description": "Baby Olive Tree.",
+          "description_iconic": "Plant it in the earth and watch it grow."
+        },
+        "seed": {
+          "display_name": "Olive Tree Seed",
+          "description": "Plant it to grow an olive tree. It takes time.",
+          "crop_description": "Even an impressive olive tree has humble beginnings.",
+          "transmute_recipe": {
+            "recipe_name": "Olive Tree Seeds (x2)",
+            "description": "Select the best fruits from the basket",
+            "flavor": "Only a skilled hand can choose the best fruits, but the rest are destroyed in the process."
+          }
+        },
+        "sprout": {
+          "display_name": "Olive Tree Sprout",
+          "description": "Just needs some time and care."
+        },
+        "stem": {
+          "display_name": "Olive Tree Stem",
+          "description": "Still growing!"
+        },
+        "bud": {
+          "display_name": "Olive Tree Bud",
+          "description": "It's almost there!  It's growing its adult leaves!"
+        },
+        "small": {
+          "display_name": "Small Olive Tree",
+          "description": "This tree will bear some olives in summer and autumn."
+        },
+        "medium": {
+          "display_name": "Olive Tree",
+          "description": "This tree will bear olives in summer and autumn."
+        },
+        "large": {
+          "display_name": "Large Olive Tree",
+          "description": "This tree will bear many olives in summer and autumn."
+        }
+      },
+      "lemon": {
+        "sapling": {
+          "display_name": "Lemon Tree Sapling",
+          "description": "Baby Lemon Tree.",
+          "description_iconic": "Plant it in the earth and watch it grow."
+        },
+        "seed": {
+          "display_name": "Lemon Tree Seed",
+          "description": "Plant it to grow an lemon tree. It takes time.",
+          "crop_description": "Even an impressive lemon tree has humble beginnings.",
+          "transmute_recipe": {
+            "recipe_name": "Lemon Tree Seeds (x2)",
+            "description": "Select the best fruits from the basket",
+            "flavor": "Only a skilled hand can choose the best fruits, but the rest are destroyed in the process."
+          }
+        },
+        "sprout": {
+          "display_name": "Lemon Tree Sprout",
+          "description": "Just needs some time and care."
+        },
+        "stem": {
+          "display_name": "Lemon Tree Stem",
+          "description": "Still growing!"
+        },
+        "bud": {
+          "display_name": "Lemon Tree Bud",
+          "description": "It's almost there!  It's growing its adult leaves!"
+        },
+        "small": {
+          "display_name": "Small Lemon Tree",
+          "description": "This tree will bear some lemons in spring and summer."
+        },
+        "medium": {
+          "display_name": "Lemon Tree",
+          "description": "This tree will bear lemons in spring and summer."
+        },
+        "large": {
+          "display_name": "Large Lemon Tree",
+          "description": "This tree will bear many lemons in spring and summer."
+        }
+      }
+    },
+    "crops": {
+      "celery_crop": {
+        "display_name": "Celeriac",
+        "description": "Both shoots and roots are edible!",
+        "description_ace": "Fair growth time; Provides hearty vegetables and often leafy greens.",
+        "growth_stage": {
+          "003": {
+            "name": "Ripe Celeriac",
+            "description": "What an aroma!"
+          },
+          "002": {
+            "name": "Baby Celeriac",
+            "description": "Small, very chewy."
+          },
+          "001": {
+            "name": "Celeriac Sprout",
+            "description": "Not edible yet!"
+          },
+          "000": {
+            "name": "Celeriac Seedling",
+            "description": "A unrealized celeriac."
+          },
+          "011": {
+            "name": "Rotten Celeriac",
+            "description": "Mouldy and disgusting."
+          }
+        }
+      },
+      "celery_seeds": {
+        "display_name": "Celeriac Seeds",
+        "description": "Learn to grow celeriac for shoots and roots.",
+        "recipe": {
+          "recipe_name": "Celeriac Seeds",
+          "description": "Domesticate Celeriacs and learn how to farm them.",
+          "flavor": "Interact with the finished crate to unlock the crop. This will also consume this item",
+          "description_2": "Trade or gift it to allow other cultures to cultivate celeriac!",
+          "flavor_2": "This farming crop is already known to your farmers by default"
+        }
+      },
+      "grapes_crop": {
+        "display_name": "Grapes",
+        "description": "Slow-growing vine with the best fruit for wine.",
+        "description_ace": "Long growth time; Very efficiently provides fruits",
+        "growth_stage": {
+          "005": {
+            "name": "Ripe Grapes",
+            "description": "Ready for winemaking!"
+          },
+          "004": {
+            "name": "Unripe Grapes",
+            "description": "Green, small, bitter."
+          },
+          "003": {
+            "name": "Stemming Grapes",
+            "description": "Not edible yet!"
+          },
+          "002": {
+            "name": "Mature Grapevine",
+            "description": "Ready to blossom and bear fruit."
+          },
+          "001": {
+            "name": "Growing Grapevine",
+            "description": "Still climbing the trellis."
+          },
+          "000": {
+            "name": "Sprouting Grapevine",
+            "description": "Just started climbing."
+          }
+        }
+      },
+      "grape_seeds": {
+        "display_name": "Grape Seeds",
+        "description": "Learn to grow grapes so you can make wine.",
+        "recipe": {
+          "recipe_name": "Grape Seeds",
+          "description": "Domesticate Grape Vines and learn how to farm them.",
+          "flavor": "Interact with the finished crate to unlock the crop. This will also consume this item",
+          "description_2": "Trade or gift it to allow other cultures to cultivate grape vines!",
+          "flavor_2": "This farming crop is already known to your farmers by default"
+        }
+      },
+      "lavender_crop": {
+        "display_name": "Lavender",
+        "description": "Aromatic flower herb from warmer climates.",
+        "description_ace": "Decorative only! Cultivate them in Herbalist Planters for soothing herbs.",
+        "growth_stage": {
+          "003": {
+            "name": "Blossoming Lavender",
+            "description": "Flowers are ready for harvest."
+          },
+          "002": {
+            "name": "Budding Lavender",
+            "description": "Will soon be ready."
+          },
+          "001": {
+            "name": "Lavender Sprout",
+            "description": "Still battling the conditions."
+          },
+          "000": {
+            "name": "Lavender Seedling",
+            "description": "It will grow, I promise!"
+          }
+        }
+      },
+      "lavender_seeds": {
+        "display_name": "Lavender Seeds",
+        "description": "Learn to grow lavender, a herbal blossom.",
+        "recipe": {
+          "recipe_name": "Lavender Seeds",
+          "description": "Domesticate Lavender plants and learn how to farm them.",
+          "flavor": "Interact with the finished crate to unlock the crop. This will also consume this item",
+          "description_2": "Trade or gift it to allow other cultures to cultivate lavender!",
+          "flavor_2": "This farming crop is already known to your farmers by default"
+        }
+      },
+      "purslane_crop": {
+        "display_name": "Purslane",
+        "description": "Sour flower herb from warmer climates.",
+        "description_ace": "Decorative only! Cultivate them in Herbalist Planters for healing or pungent herbs.",
+        "growth_stage": {
+          "003": {
+            "name": "Blossoming Purslane",
+            "description": "Flowers are ready for harvest."
+          },
+          "002": {
+            "name": "Budding Purslane",
+            "description": "Will soon be ready."
+          },
+          "001": {
+            "name": "Purslane Sprout",
+            "description": "Still battling the conditions."
+          },
+          "000": {
+            "name": "Purslane Seedling",
+            "description": "It will grow, I promise!"
+          }
+        }
+      },
+      "purslane_seeds": {
+        "display_name": "Purslane Seeds",
+        "description": "Learn to grow purslane, durable sour herb.",
+        "recipe": {
+          "recipe_name": "Purslane Seeds",
+          "description": "Domesticate Purslane plants and learn how to farm them.",
+          "flavor": "Interact with the finished crate to unlock the crop. This will also consume this item",
+          "description_2": "Trade or gift it to allow other cultures to cultivate purslane!",
+          "flavor_2": "This farming crop is already known to your farmers by default"
+        }
+      },
+      "sugar_cane_crop": {
+        "display_name": "Sugarcane",
+        "description": "Most effective sugar source in the world!",
+        "description_ace": "Fair growth time; Efficiently provides stalks which can be refined into sugar.",
+        "growth_stage": {
+          "003": {
+            "name": "Ripe Sugarcane",
+            "description": "Stalks are ready for harvest."
+          },
+          "002": {
+            "name": "Budding Sugarcane",
+            "description": "Will soon be ready."
+          },
+          "001": {
+            "name": "Sugarcane Sprout",
+            "description": "Still battling the conditions."
+          },
+          "000": {
+            "name": "Sugarcane Seedling",
+            "description": "It will grow, I promise!"
+          }
+        }
+      },
+      "sugar_cane_seeds": {
+        "display_name": "Sugarcane Seeds",
+        "description": "Learn to grow Sugarcane, most effective sugar source in the world!",
+        "recipe": {
+          "recipe_name": "Sugarcane Seeds",
+          "description": "Domesticate Sugarcane plants and learn how to farm them.",
+          "flavor": "Interact with the finished crate to unlock the crop. This will also consume this item",
+          "description_2": "Trade or gift it to allow other cultures to cultivate sugar cane!",
+          "flavor_2": "This farming crop is already known to your farmers by default"
+        }
+      },
+      "cypress_crop": {
+        "display_name": "Cypress Sapling",
+        "description": "Can be grown and harvested for wood logs, evergreen boughs and a seed when cut",
+        "stonehearth_ace": {
+          "display_name": "Cypress Tree",
+          "description": "Fair growth time; Provides wood logs, evergreen boughs and a cypress cone"
+        }
+      },
+      "cypress_seeds": {
+        "display_name": "Cypress Cones",
+        "description": "Learn to grow majestic cypresses.",
+        "recipe": {
+          "recipe_name": "Cypress Cones",
+          "description": "Domesticate Cypress trees and learn how to farm them.",
+          "flavor": "Interact with the finished crate to unlock the crop. This will also consume this item",
+          "description_2": "Trade or gift it to allow other cultures to cultivate cypress trees!",
+          "flavor_2": "This farming crop is already known to your farmers by default"
+        }
+      },
+      "stone_pine_crop": {
+        "display_name": "Stone Pine Sapling",
+        "description": "Can be grown and harvested for wood logs, evergreen boughs and a seed when cut",
+        "stonehearth_ace": {
+          "display_name": "Stone Pine Tree",
+          "description": "Long growth time; Provides wood logs, evergreen boughs and a pine cone"
+        }
+      },
+      "stone_pine_seeds": {
+        "display_name": "Stone Pine Cones",
+        "description": "Learn to grow stone pines.",
+        "recipe": {
+          "recipe_name": "Stone Pine Cones",
+          "description": "Domesticate Stone Pines and learn how to farm them.",
+          "flavor": "Interact with the finished crate to unlock the crop. This will also consume this item",
+          "description_2": "Trade or gift it to allow other cultures to cultivate stone pines!",
+          "flavor_2": "This farming crop is already known to your farmers by default"
+        }
+      },
+      "olive_crop": {
+        "display_name": "Olive Sapling",
+        "description": "Can be grown for olives and harvested for wood logs, boughs and a seed when cut",
+        "stonehearth_ace": {
+          "display_name": "Olive Tree",
+          "description": "Long growth time; Provides olives (savoury vegetable and oily grain) or wood logs and boughs if cut"
+        }
+      },
+      "olive_seeds": {
+        "display_name": "Overripe Olives",
+        "description": "Learn to grow olive trees.",
+        "recipe": {
+          "recipe_name": "Overripe Olives",
+          "description": "Domesticate Olive Trees and learn how to farm them.",
+          "flavor": "Interact with the finished crate to unlock the crop. This will also consume this item",
+          "description_2": "Trade or gift it to allow other cultures to cultivate olive trees!",
+          "flavor_2": "This farming crop is already known to your farmers by default"
+        }
+      },
+      "lemon_crop": {
+        "display_name": "Lemon Sapling",
+        "description": "Can be grown for lemons and harvested for wood logs, boughs and a seed when cut",
+        "stonehearth_ace": {
+          "display_name": "Lemon Tree",
+          "description": "Fair growth time; Provides fine fruits or wood logs if cut"
+        }
+      },
+      "lemon_seeds": {
+        "display_name": "Overripe Lemons",
+        "description": "Learn to grow lemon trees.",
+        "recipe": {
+          "recipe_name": "Overripe Lemons",
+          "description": "Domesticate Lemon Trees and learn how to farm them.",
+          "flavor": "Interact with the finished crate to unlock the crop. This will also consume this item",
+          "description_2": "Trade or gift it to allow other cultures to cultivate lemon trees!",
+          "flavor_2": "This farming crop is already known to your farmers by default"
+        }
+      }
+    },
+    "plants": {
+      "lavender": {
+        "display_name": "Lavender",
+        "description": "Impressively blossoming plant useful as a soothing herb.",
+        "unripe_description": "Not ready for harvest yet!",
+        "seed": {
+          "display_name": "Lavender Seed",
+          "description": "Plant it in the earth to grow the herb."
+        },
+        "sprout": {
+          "display_name": "Sprouting Lavender",
+          "description": "Look, it's there, in the soil!"
+        },
+        "stem": {
+          "display_name": "Stemming Lavender",
+          "description": "Plant equivalent of a teenager."
+        },
+        "bud": {
+          "display_name": "Budding Lavender",
+          "description": "Come on buddy, it's very close to finish!"
+        },
+        "herb": {
+          "display_name": "Sheaf of Lavender",
+          "description": "Mesmerising... Useful as a soothing herb."
+        },
+        "transmute_recipe": {
+          "description": "Separate seeds from the herbs",
+          "recipe_name": "Lavender Seeds (x2)",
+          "flavor": "Only a skilled hand can harvest the fragile seeds, but the herbs are lost in the process."
+        }
+      },
+      "purslane": {
+        "display_name": "Purslane",
+        "description": "Durable plant which can be used as a healing but pungent herb.",
+        "unripe_description": "Not ready for harvest yet!",
+        "seed": {
+          "display_name": "Purslane Seed",
+          "description": "Plant it in the earth to grow the herb."
+        },
+        "sprout": {
+          "display_name": "Sprouting Purslane",
+          "description": "Look, it's there, in the soil!"
+        },
+        "stem": {
+          "display_name": "Stemming Purslane",
+          "description": "Plant equivalent of a teenager."
+        },
+        "bud": {
+          "display_name": "Budding Purslane",
+          "description": "Come on buddy, it's very close to finish!"
+        },
+        "herb": {
+          "display_name": "Purslane Flower",
+          "description": "Cute but acrid. Useful as a healing or pungent herb."
+        },
+        "transmute_recipe": {
+          "description": "Separate seeds from the herbs. Purslane is known for its incredibly sour taste, use with caution!",
+          "recipe_name": "Purslane Seeds (x2)",
+          "flavor": "Only a skilled hand can harvest the fragile seeds, but the herbs are lost in the process."
+        }
+      },
+      "dandelions": {
+        "display_name": "Dandelions",
+        "description": "Expansive plants with yellow flowers useful as mild herbs.",
+        "seed": {
+          "display_name": "Dandelion Seeds",
+          "description": "Plant it in the earth to grow dandelions."
+        },
+        "sprout": {
+          "display_name": "Sprouting Dandelions",
+          "description": "Taking first steps on its way for power."
+        },
+        "stem": {
+          "display_name": "Stemming Dandelions",
+          "description": "Fighting the odds. Successfully!"
+        },
+        "bud": {
+          "display_name": "Budding Dandelions",
+          "description": "Will soon join the ranks of Dandelion Empire!"
+        },
+        "herb": {
+          "display_name": "Dandelion Flower",
+          "description": "Smells of honey. Useful as a mild herb."
+        },
+        "transmute_recipe": {
+          "description": "Separate seeds from the herbal flowers. Dandelions will spread after planting.",
+          "recipe_name": "Dandelion Seeds (x2)",
+          "flavor": "Villains in the eyes of every gardener, the Dandelion Empire keeps expanding its borders."
+        }
+      },
+      "celery": {
+        "basket": {
+          "display_name": "Basket of Celeriacs",
+          "description": "An aromatic and very nutritious veggie. Useful as a hearty vegetable."
+        },
+        "serving": {
+          "display_name": "Celeriac",
+          "description": "Flavourful but hard."
+        },
+        "greens_basket": {
+           "display_name": "Basket of Celery Greens",
+           "description": "Nutritious and crunchy celery stalks. Useful as leafy greens."
+        },
+        "greens_serving": {
+           "display_name": "Serving of Celery Greens",
+           "description": "Nom nom nom"
+        }
+      },
+      "grapes": {
+        "basket": {
+          "display_name": "Basket of Red Grapes",
+          "description": "Sweet, velvety small fruits. Can be eaten raw or used in cooking and brewing."
+        },
+        "serving": {
+          "display_name": "Serving of Red Grapes",
+          "description": "Full of flavour and juice."
+        }
+      },
+      "olives": {
+        "basket": {
+          "display_name": "Basket of Olives",
+          "description": "Ready to be processed into oil, eaten or used in cooking as a savory vegetable."
+        },
+        "serving": {
+          "display_name": "Serving of Olives",
+          "description": "Greasy treat from the coast."
+        }
+      },
+      "lemons": {
+        "basket": {
+          "display_name": "Basket of Lemons",
+          "description": "Sour citrus fruits. Can be eaten raw (ouch!) or used in cooking and brewing."
+        },
+        "serving": {
+          "display_name": "Serving of Lemons",
+          "description": "Sour treat from the coast."
+        }
+      },
+      "sugar_cane": {
+        "display_name": "Sugarcane",
+        "description": "Can be processed to make sugar.",
+        "unripe_description": "Not ready for harvest yet!",
+        "seed": {
+          "display_name": "Sugarcane Seed",
+          "description": "Plant it in the earth to grow the cane."
+        },
+        "sprout": {
+          "display_name": "Sprouting Sugarcane",
+          "description": "Look, it's there, in the soil!"
+        },
+        "stem": {
+          "display_name": "Stemming Sugarcane",
+          "description": "Plant equivalent of a teenager."
+        },
+        "bud": {
+          "display_name": "Budding Sugarcane",
+          "description": "Come on buddy, it's very close to finish!"
+        },
+        "basket": {
+          "display_name": "Basket of Sugarcane",
+          "description": "Can be processed to make sugar."
+        },
+        "bale": {
+          "display_name": "Bale of Sugarcane",
+          "description": "Can be processed to make sugar."
+        },
+        "transmute_recipe": {
+          "description": "Separate seeds from the herbs",
+          "recipe_name": "Sugarcane Seeds (x2)",
+          "flavor": "Only a skilled hand can harvest the fragile seeds, but sugarcane is lost in the process."
+        }
+      }
+    },
+    "refined": {
+      "plaster": {
+        "display_name": "Plaster Mound",
+        "recipe_name": "Plaster Mound (x3)",
+        "description": "Easier to form than stone, can also replace clay while crafting.",
+        "flavor": "Unmatched for setting, unless you add water too early."
+      },
+      "plastered_stone_bricks": {
+        "display_name": "Plastered Stone Bricks",
+        "recipe_name": "Plastered Stone Bricks (x2)",
+        "description": "Building material as sturdy as stone yet of more cosy appearance.",
+        "flavor": "Recipe produces two pieces."
+      },
+      "water_well_roof_terracotta": {
+        "display_name": "Terracotta Water Well Roof"
+      },
+      "water_well_kit_plaster": {
+        "display_name": "Plaster Water Well Parts"
+      }
+    },
+    "construction": {
+      "plastered_door": {
+        "display_name": "Plastered Door",
+        "description": "Lighter than doors made of stone.",
+        "flavor": "Adds a civilised feeling."
+      },
+      "plastered_double_door": {
+        "display_name": "Plastered Double Door",
+        "description": "Much lighter than doors made of stone.",
+        "flavor": "Rectangular beauty!"
+      },
+      "plastered_tunnel_door": {
+        "display_name": "Plastered Tunnel Door",
+        "description": "Seals off your tunnels with style.",
+        "flavor": "Draughtproof."
+      },
+      "plastered_window_frame_small": {
+        "display_name": "Plastered Window Frame",
+        "description": "Plastered window frames will let critters or projectiles through.",
+        "flavor": "As simple as it could be: squares everywhere!"
+      },
+      "plastered_window_frame_tall": {
+        "display_name": "Plastered Tall Window Frame",
+        "description": "Plastered window frames will let critters or projectiles through.",
+        "flavor": "Elegance at its very basics. It's just a rectangle."
+      },
+      "plastered_window_frame_wide": {
+        "display_name": "Plastered Wide Window Frame",
+        "description": "Plastered window frames will let critters or projectiles through.",
+        "flavor": "Perfectly plain and simple."
+      },
+      "plastered_window_small": {
+        "display_name": "Plastered Window",
+        "description": "Unlike plastered window frames, plastered windows do not let critters or projectiles through.",
+        "flavor": "Timeless design classic."
+      },
+      "plastered_window_small_shuttered": {
+        "display_name": "Plastered Shuttered Window",
+        "description": "Unlike plastered window frames, plastered windows do not let critters or projectiles through.",
+        "flavor": "Too hot? Shut the shutters."
+      },
+      "plastered_window_tall": {
+        "display_name": "Plastered Tall Window",
+        "description": "Unlike plastered window frames, plastered windows do not let critters or projectiles through.",
+        "flavor": "Makes you feel like home."
+      },
+      "plastered_window_tall_shuttered": {
+        "display_name": "Plastered Tall Shuttered Window",
+        "description": "Unlike plastered window frames, plastered windows do not let critters or projectiles through.",
+        "flavor": "Has a little note in the corner: \"Made in Italy.\""
+      },
+      "plastered_window_wide": {
+        "display_name": "Plastered Wide Window",
+        "description": "Unlike plastered window frames, plastered windows do not let critters or projectiles through.",
+        "flavor": "We could add the shutters but they would have doubled the width."
+      },
+      "plaster_fence": {
+        "display_name": "Plaster Balustrade",
+        "description": "Higher class replacement of a fence.",
+        "flavor": "Stairs not included."
+      },
+      "plaster_fence_post": {
+        "display_name": "Plaster Balustrade Post",
+        "description": "Put in corners of a balustrade.",
+        "flavor": "I am not sure how stable that topping ball is. Is it heavy?"
+      },
+      "simple_hatch_plastered": {
+        "display_name": "Plastered Hatch",
+        "description": "An elegant hatch for vertical doorways.",
+        "flavor": ""
+      },
+      "plastered_animal_door": {
+        "display_name": "Plastered Animal Door",
+        "description": "A large door for animal shelters, it can be closed by a shepherd. When closed, only hearthlings may go through!",
+        "flavor": ""
+      },
+      "plastered_animal_door_small": {
+        "display_name": "Plastered Small Animal Door",
+        "description": "A small door for animal shelters, it can be closed by a shepherd.",
+        "flavor": "When placed on ground level, the two tiles of dirt underneath it must be dug out for it to work!"
+      },
+      "plaster_water_well_roofed": {
+        "display_name": "Plaster Roofed Water Well"
+      },
+      "plaster_water_well": {
+        "display_name": "Plaster Water Well"
+      }
+    },
+    "containers": {
+      "input_bin_plaster": {
+        "display_name": "Plaster Input Bin",
+        "description": "A versatile container for any resource, to help keep crafters supplied.",
+        "flavor": "Input containers are prioritized when new resources are brought to town."
+      },
+      "input_shelf_ground_plaster": {
+        "display_name": "Plastered Ground Shelf",
+        "description": "A versatile container for any resource, to help keep crafters supplied.",
+        "flavor": "Input containers are prioritized when new resources are brought to town."
+      },
+      "input_shelf_wall_plaster": {
+        "display_name": "Plastered Wall Shelf",
+        "description": "A versatile container for any resource, to help keep crafters supplied.",
+        "flavor": "Input containers are prioritized when new resources are brought to town."
+      },
+      "plaster_urn_small": {
+        "display_name": "Small Plaster Urn",
+        "description": "For compactly storing up to 8 items.",
+        "flavor": "Just don't drop it, OK?"
+      },
+      "plaster_urn_large": {
+        "display_name": "Large Plaster Urn",
+        "description": "For compactly storing up to 32 items.",
+        "flavor": "So, you say it is possible to take things out of it?"
+      },
+      "output_box_plaster": {
+        "display_name": "Plastered Output Shelf",
+        "description": "Temporary storage for freshly-crafted items.",
+        "flavor": "Crafters love to show off their work!"
+      }
+    },
+    "decoration": {
+      "candle_plaster": {
+        "display_name": "Plaster Candle Holder",
+        "description": "A light in a tunnel.",
+        "flavor": "Mounted on walls."
+      },
+      "hanging_box_lavender": {
+        "display_name": "Hanging Lavender Planter",
+        "description": "A planter box full of lavender, attached to walls.",
+        "flavor": "Lavender keeps scorpions at a distance.",
+        "stonehearth_ace": {
+          "display_name": "Hanging Plaster Planter",
+          "description": "A decorative planter. Includes Lavender but another herb can be chosen.",
+          "recipe": {
+            "recipe_name": "Hanging Planter with Lavender",
+            "description": "A decorative planter to be placed against walls. Comes with Lavender but a different herb can be chosen and planted by the Herbalist."
+          }
+        }
+      },
+      "hanging_box_purslane": {
+        "display_name": "Hanging Purslane Planter",
+        "description": "A planter box full of purslane, attached to walls.",
+        "flavor": "Purslane can grow in a somewhat unpredicted and cute way.",
+        "stonehearth_ace": {
+          "display_name": "Hanging Plaster Planter",
+          "description": "A decorative planter. Includes Purslane but another herb can be chosen.",
+          "recipe": {
+            "recipe_name": "Hanging Planter with Purslane",
+            "description": "A decorative planter to be placed against walls. Comes with Purslane but a different herb can be chosen and planted by the Herbalist."
+          }
+        }
+      },
+      "hanging_box_vines": {
+        "display_name": "Hanging Vine Planter",
+        "description": "A planter box full of vines, attached to walls.",
+        "flavor": "It's the dwarf variety so you don't wake up entangled with the stems.",
+        "stonehearth_ace": {
+          "display_name": "Hanging Vine Planter",
+          "description": "A decorative planter. The vines have taken over so you cannot change the herb.",
+          "recipe": {
+            "recipe_name": "Hanging Planter with Vines",
+            "description": "A decorative planter to be placed against walls. The vines are so invasive you cannot change the herb like with other planters!"
+          }
+        }
+      },
+      "plaster_box_lavender": {
+        "display_name": "Lavender Planter",
+        "description": "A planter box full of lavender, built to be placed below window frames.",
+        "flavor": "Lavender keeps scorpions at a distance.",
+        "stonehearth_ace": {
+          "display_name": "Plaster Window Planter",
+          "description": "A decorative planter. Includes Lavender but another herb can be chosen.",
+          "recipe": {
+            "recipe_name": "Window Planter with Lavender",
+            "description": "A decorative planter to be placed under window frames. Comes with Lavender but a different herb can be chosen and planted by the Herbalist."
+          }
+        }
+      },
+      "plaster_box_purslane": {
+        "display_name": "Purslane Planter",
+        "description": "A planter box full of purslane, built to be placed below window frames.",
+        "flavor": "Purslane can grow in a somewhat unpredicted and cute way.",
+        "stonehearth_ace": {
+          "display_name": "Plaster Window Planter",
+          "description": "A decorative planter. Includes Purslane but another herb can be chosen.",
+          "recipe": {
+            "recipe_name": "Window Planter with Purslane",
+            "description": "A decorative planter to be placed under window frames. Comes with Purslane but a different herb can be chosen and planted by the Herbalist."
+          }
+        }
+      },
+      "plaster_box_vines": {
+        "display_name": "Vine Planter",
+        "description": "A planter box full of vines, built to be placed below window frames.",
+        "flavor": "It's the dwarf variety so you don't wake up entangled with the stems.",
+        "stonehearth_ace": {
+          "display_name": "Vine Planter",
+          "description": "A decorative planter. The vines have taken over so you cannot change the herb.",
+          "recipe": {
+            "recipe_name": "Window Planter with Vines",
+            "description": "A decorative planter to be placed under window frames. The vines are so invasive you cannot change the herb like with other planters!"
+          }
+        }
+      },
+      "plaster_box_long_lavender": {
+        "display_name": "Long Lavender Planter",
+        "description": "A planter box full of lavender, built to be placed below window frames.",
+        "flavor": "Lavender keeps scorpions at a distance.",
+        "stonehearth_ace": {
+          "display_name": "Long Plaster Planter",
+          "description": "A decorative planter. Includes Lavender but another herb can be chosen.",
+          "recipe": {
+            "recipe_name": "Long Planter with Lavender",
+            "description": "A long planter to be placed under window frames. Comes with Lavender but a different herb can be chosen and planted by the Herbalist."
+          }
+        }
+      },
+      "plaster_box_long_purslane": {
+        "display_name": "Long Purslane Planter",
+        "description": "A planter box full of purslane, built to be placed below window frames.",
+        "flavor": "Purslane can grow in a somewhat unpredicted and cute way.",
+        "stonehearth_ace": {
+          "display_name": "Long Plaster Planter",
+          "description": "A decorative planter. Includes Purslane but another herb can be chosen.",
+          "recipe": {
+            "recipe_name": "Long Planter with Purslane",
+            "description": "A long planter to be placed under window frames. Comes with Purslane but a different herb can be chosen and planted by the Herbalist."
+          }
+        }
+      },
+      "plaster_box_long_vines": {
+        "display_name": "Long Vine Planter",
+        "description": "A planter box full of vines, built to be placed below window frames.",
+        "flavor": "It's the dwarf variety so you don't wake up entangled with the stems.",
+        "stonehearth_ace": {
+          "display_name": "Long Vine Planter",
+          "description": "A decorative planter. The vines have taken over so you cannot change the herb.",
+          "recipe": {
+            "recipe_name": "Long Planter with Vines",
+            "description": "A long planter to be placed under window frames. The vines are so invasive you cannot change the herb like with other planters!"
+          }
+        }
+      },
+      "plastered_market_stall": {
+        "display_name": "Plastered Market Stall",
+        "description": "Merchants can visit this stall to buy and sell goods",
+        "flavor": "Gelato! We sell the best gelato in town!"
+      },
+      "rooftile_edge": {
+        "display_name": "Terracotta Rooftiles",
+        "recipe_name": "Terracotta Rooftiles (x5)",
+        "description": "Decorate roofs, can be placed on walls.",
+        "flavor": "Design uses Ochre colour from Plastered Stone Bricks palette."
+      },
+      "rooftile_corner_inner": {
+        "display_name": "Inner Corner Rooftiles",
+        "recipe_name": "Inner Corner Rooftiles (x5)",
+        "description": "Decorate roofs, can be placed on walls.",
+        "flavor": "Design uses Ochre colour from Plastered Stone Bricks palette."
+      },
+      "rooftile_corner_outer": {
+        "display_name": "Outer Corner Rooftiles",
+        "recipe_name": "Outer Corner Rooftiles (x5)",
+        "description": "Decorate roofs, can be placed on walls.",
+        "flavor": "Design uses Ochre colour from Plastered Stone Bricks palette."
+      }
+    },
+    "furniture": {
+      "plaster_crude_bed": {
+        "display_name": "Plaster Sleeping Spot",
+        "description": "You might not want to jump into this one.",
+        "flavor": "Elegant frame might distract you from the discomfort of sleeping on hard surface."
+      },
+      "plaster_bed": {
+        "display_name": "Plaster Bed",
+        "description": "A bed to call your own after a hard day's work.",
+        "flavor": "Thatch can be obtained by harvesting grass tufts, some plants like Wintermoss or digging into grassy terrain."
+      },
+      "plaster_comfy_bed": {
+        "display_name": "Comfy Plaster Bed",
+        "description": "Eight hours will leave you as refreshed as the day you were born.",
+        "flavor": "Nobody ever wants to get out. It makes emergency evacuations awkward."
+      },
+      "plaster_comfy_bed_herbalist": {
+        "display_name": "Herbalist Plaster Comfy Bed",
+        "description": "A comfortable bed with a support table to provide the best treatments."
+      },
+      "plaster_comfy_bed_pet": {
+        "display_name": "Plaster Animal Comfy Bed",
+        "description": "Allows animals to have a more comfortable sleep.",
+        "flavor": "Pets will always try to sleep on the bed that is closest to their owner's bed!"
+      },
+      "plaster_bench": {
+        "display_name": "Plaster Bench",
+        "description": "Outdoor seating for moments of relaxation.",
+        "flavor": "Pretty and functional. Matches the wigs."
+      },
+      "plaster_table": {
+        "display_name": "Plaster Table",
+        "description": "Its considerable weight gives it a sense of gravitas.",
+        "flavor": "For serious business only."
+      },
+      "plaster_table_covered": {
+        "display_name": "Covered Plaster Table",
+        "description": "Gingham clothing suggests it isn't as heavy as it is.",
+        "flavor": "Grandma makes the best pizza!"
+      },
+      "simple_plaster_chair": {
+        "display_name": "Simple Plaster Chair",
+        "description": "Somewhere to sit while eating.",
+        "flavor": "More civilised than sitting on the floor."
+      },
+      "comfy_plaster_chair": {
+        "display_name": "Comfy Plaster Chair",
+        "description": "A very nice somewhere to sit while eating.",
+        "flavor": "Not a throne but will do."
+      }
+    },
+    "drink": {
+      "juice_grape": {
+        "juice_grape": {
+          "display_name": "Red Grape Juice",
+          "description": "Refreshing and flavorful beverage made with grapes.",
+          "recipe_name": "Bucket of Red Grape Juice",
+          "flavor": "Lack of skins makes it unsuitable for wine production."
+        },
+        "juice_grape_serving": {
+          "display_name": "Cup of Red Grape Juice"
+        }
+      },
+      "juice_lemon": {
+        "juice_lemon": {
+          "display_name": "Lemon Juice",
+          "description": "Almost unbearably sour beverage made with lemons.",
+          "recipe_name": "Bucket of Lemon Juice",
+          "flavor": "I said KEEP SMILING!"
+        },
+        "juice_lemon_serving": {
+          "display_name": "Cup of Lemon Juice"
+        }
+      },
+      "lemonade": {
+        "lemonade": {
+          "display_name": "Lemonade",
+          "description": "Sugar does not make it less acidic but at least mitigates the sour taste."
+        },
+        "lemonade_serving": {
+          "display_name": "Cup of Lemonade"
+        }
+      },
+      "must_red_grape": {
+        "display_name": "Bucket of Red Grape Must",
+        "description": "Crushed red grapes, juice and solids. A Brewer needs it to fill a wine cask!"
+      },
+      "red_wine": {
+        "red_wine": {
+          "display_name": "Red Wine",
+          "description": "Most classy of all the brews. Makes hearthlings happy but also a little tipsy!"
+        },
+        "wine_berry_serving": {
+          "display_name": "Goblet of Red Wine"
+        },
+        "serving_pitcher_iconic": {
+          "description": "Place it somewhere so hearthlings can serve themselves!"
+        },
+        "serving_pitcher": {
+          "display_name": "Serving Pitcher of Red Wine"
+        }
+      },
+      "hippocras": {
+        "hippocras_serving": {
+          "display_name": "Goblet of Hippocras",
+          "description": "Spicy, warming and not very strong!"
+        },
+        "serving_keg_iconic": {
+          "description": "Place it somewhere so hearthlings can serve themselves!"
+        },
+        "serving_keg": {
+          "display_name": "Serving Keg of Hippocras",
+          "description": "A Serene League speciality! Spicy, warming and with little alcohol content."
+        }
+      },
+      "limoncello": {
+        "limoncello": {
+          "display_name": "Limoncello",
+          "description": "Very refined, a truly luxurious drink that will make hearthlings a bit tipsy."
+        },
+        "limoncello_serving": {
+          "display_name": "Cup of Limoncello"
+        },
+        "serving_keg_iconic": {
+          "description": "Place it somewhere so hearthlings can serve themselves!"
+        },
+        "serving_keg": {
+          "display_name": "Serving Keg of Limoncello"
+        }
+      }
+    },
+    "armor": {
+      "cloth_padded_hat": {
+        "display_name": "Cloth Padded Hat",
+        "description": "Extra padding for your noggin"
+      },
+      "cloth_padded_uniform": {
+        "display_name": "Cloth Padded Uniform",
+        "description": "Provides light protection in a fight. Every little bit helps!"
+      },
+      "leather_hat": {
+        "display_name": "Thick Leather Hat",
+        "description": "Protection for your head"
+      },
+      "leather_uniform": {
+        "display_name": "Thick Leather Uniform",
+        "description": "Hardened leather provides sturdy protection."
+      },
+      "bronze_hat": {
+        "display_name": "Bronze-Splint Hat",
+        "description": "Pretty and protective"
+      },
+      "bronze_uniform": {
+        "display_name": "Bronze-Splint Uniform",
+        "description": "Covered with metal parts for extra protection."
+      },
+      "iron_hat": {
+        "display_name": "Iron-Splint Hat",
+        "description": "Protection for your head"
+      },
+      "iron_uniform": {
+        "display_name": "Iron-Splint Uniform",
+        "description": "A full suit of iron armor"
+      },
+      "steel_hat": {
+        "display_name": "Steel-Splint Hat",
+        "description": "Strong and not so heavy protection for your head."
+      },
+      "steel_uniform": {
+        "display_name": "Steel-Splint Uniform",
+        "description": "A very fancy and strong chainmail suit of armor."
+      },
+      "ornate_cleric_armor": {
+        "display_name": "Ornate Cleric's Gown",
+        "description": "A more inspiring outfit for the Cleric.",
+        "recipe": {
+          "description": "Craft a more inspiring outfit for the Cleric. It also provides some bonuses.",
+          "flavor": "In an embroidered gown like this one can deliver a lecture to any audience!"
+        }
+      }
+    },
+    "npc": {
+      "herald": {
+        "male": {
+          "herald_rinaldo": {
+            "display_name": "Rinaldo Fabioni",
+            "description": "Herald of the Republic."
+          },
+          "herald_voltini": {
+            "display_name": "prof. Gianlorenzo Voltini",
+            "description": "Faculty of Linguistics, Serene Academy."
+          }
+        },
+        "female": {
+          "herald_henrietta": {
+            "display_name": "Henrietta",
+            "description": "Professor Voltini's PeaDuck."
+          }
+        }
+      }
+    },
+    "food": {
+      "dairy": {
+        "mozzarella": {
+          "mozzarella": {
+            "display_name": "Mozzarella",
+            "description": "Soft, moist and delicious! This cheese will go bad after some time if not eaten."
+          },
+          "mozzarella_serving": {
+            "display_name": "Slice of Mozzarella"
+          }
+        }
+      }
+    }
+  },
+  "jobs": {
+    "requirements": {
+      "blacksmith": "Crafted by Blacksmith",
+      "brewer": "Crafted by Brewer",
+      "carpenter": "Crafted by Carpenter",
+      "cook": "Crafted by Cook",
+      "engineer": "Crafted by Engineer",
+      "fisher": "Crafted by Fisher",
+      "geomancer": "Crafted by Geomancer",
+      "herbalist": "Crafted by Herbalist",
+      "mason": "Crafted by Mason",
+      "potter": "Crafted by Potter",
+      "shepherd": "Crafted by Shepherd",
+      "weaver": "Crafted by Weaver"
+    },
+    "crafter": {
+      "sunstroke_crafter_outfit": {
+        "sl_display_name": "Summer Felt Crafter Tricorne",
+        "description": "Can only be worn by crafters. Protects from hot weather and sunstrokes."
+      }
+    },
+    "field_work": {
+      "sunstroke_field_work_outfit": {
+        "sl_display_name": "Summer Woven Work Hat",
+        "description": "A hat for workers and field workers. Protects from hot weather and sunstrokes."
+      }
+    },
+    "carpenter": {
+      "carpenter_saw": {
+        "display_name": "Carpenter's Frame Bone Saw"
+      }
+    },
+    "mason": {
+      "recipes": {
+        "plaster_building_parts_name": "Building Parts, Plaster",
+        "plaster_furniture_name": "Containers & Furniture, Plaster",
+        "carpenter_saw_recipe": {
+          "recipe_name": "Carpenter's Frame Bone Saw",
+          "flavor": "More fragile than an iron saw but equally viable in skilled hands."
+        },
+        "plaster_water_well_recipe": {
+          "recipe_name": "Plaster Water Well Parts",
+          "description": "Assemble the materials for upgrading a simple well into a nice, better looking plaster well."
+        }
+      },
+      "gypsum_kiln": {
+        "display_name": "Gypsum Kiln",
+        "description": "Used to burn stone into gypsum, base ingredient of plaster.",
+        "flavor": "Formable materials are easier to work with than hard stone."
+      }
+    },
+    "farmer": {
+      "farmer_description": {
+        "level_2_data": {
+          "perk_000_description": "Exposure to fibrous plants has given the farmer ideas about spinning threads. See the promotion menu for details."
+        }
+      }
+    },
+    "brewer": {
+      "brewer_fermenting_carboy_red_wine": {
+        "display_name": "Carboy with Red Wine",
+        "description": "The red wine is ready and can now be racked into jugs!"
+      },
+      "brewer_fermenting_carboy_unfermented_red_wine": {
+        "display_name": "Carboy with Red Wine",
+        "description": "The fruits are fermenting and releasing all their flavors! Not yet ready..."
+      },
+      "brewer_wine_cask_red_wine": {
+        "display_name": "Cask with Red Wine",
+        "description": "The red wine is ready and can now be racked into jugs!"
+      },
+      "brewer_wine_cask_unfermented_red_wine": {
+        "display_name": "Cask with Red Wine",
+        "description": "The fruits are fermenting and releasing all their flavors! Not yet ready..."
+      },
+      "recipes": {
+        "must_red_grape_recipe": {
+          "recipe_name": "Bucket of Red Grape Must",
+          "description": "Crushed red grapes with skins and juice. Within a Wine Cask it can be turned into red wine!",
+          "flavor": "Wild yeast living on the skins are crucial for the fermentation process."
+        },
+        "red_wine_serving_pitcher_recipe": {
+          "recipe_name": "Serving Pitcher of Red Wine",
+          "description": "Provides 14 goblets of red wine. It needs to be placed down before being used.",
+          "flavor": "Pitchers prevent waste, thus dispensing more servings"
+        },
+        "hippocras_serving_keg_recipe": {
+          "recipe_name": "Serving Keg of Hippocras",
+          "description": "Widely known remedy for winter sorrows: spicy, warming and with little alcohol content.",
+          "flavor": "Requires placement before it can be used"
+        },
+        "limoncello_recipe": {
+          "recipe_name": "Keg of Limoncello",
+          "description": "Serene League recipe combining a sweet treat with the very finest of lemon zest flavours extracted with alcohol.",
+          "flavor": "Particularly good after a dinner at granny's."
+        },
+        "limoncello_serving_keg_recipe": {
+          "recipe_name": "Serving Keg of Limoncello",
+          "description": "Provides 28 cups of the special Serene League brew. It needs to be placed down before being used.",
+          "flavor": "Tapped drinks prevent waste, thus dispensing more servings"
+        },
+        "liqueur_almond_recipe": {
+          "description": "A very refined recipe for a luxury beverage known as Amaretto to Serene League.",
+          "flavor": "A classy choice for desserts due to its mesmerising aroma!"
+        },
+        "liqueur_almond_serving_keg_recipe": {
+          "description": "Provides 28 cups of almond liqueur also known as Amaretto. It needs to be placed down before being used."
+        },
+        "lemonade_recipe": {
+          "recipe_name": "Bucket of Lemonade",
+          "description": "Sugar does not make it less acidic but at least mitigates the sour taste.",
+          "flavor": "A refreshing combination, perfect for hot weather!"
+        }
+      }
+    },
+    "cook": {
+      "recipes": {
+        "cane_sugar": {
+          "recipe_name": "Cane Sugar",
+          "description": "Obtaining sugar from sugarcane is slightly easier than from sugarbells.",
+          "flavor": "It takes more resources though as sugarcane leaves are not suitable for refinement."
+        }
+      }
+    },
+    "shepherd": {
+      "recipes": {
+        "mozzarella_recipe": {
+          "recipe_name": "Mozzarella (x2)",
+          "description": "Miraculously moist and tender cheese made by pasta filata method: stirring the curds in hot water then kneading them a bit.",
+          "flavor": "Cottage Cheese can be obtained by early harvesting of Cheese Vats."
+        }
+      }
+    }
+  },
+  "herbalist_crops": {
+    "lavender": {
+      "display_name": "Lavender",
+      "description": "Gorgeous bushy herb from warmer climates. Needs a few days to be fully grown and will provide <span class='soothingHerb'>soothing</span> herbs when harvested.",
+      "harvest_text": "harvesting lavender"
+    },
+    "purslane": {
+      "display_name": "Purslane",
+      "description": "Durable, acidic succulent. Grows very quickly and will provide <span class='healingHerb'>healing</span> or <span class='pungentHerb'>pungent</span> herbs when harvested.",
+      "harvest_text": "harvesting purslane"
+    },
+    "basil": {
+      "display_name": "Basil",
+      "description": "Warm climate plant with round leaves and unmistakable scent. Grows very quickly and will provide <span class='zestyHerb'>zesty</span> herbs when harvested.",
+      "harvest_text": "harvesting basil"
+    },
+    "dandelions": {
+      "display_name": "Dandelions",
+      "description": "An expansive plant. Needs a bunch of days to be fully grown and will provide <span class='mildHerb'>mild</span> herbs when harvested.",
+      "harvest_text": "harvesting dandelions"
+    },
+    "stone_pine_sapling": {
+      "display_name": "Stone Pine Sapling",
+      "description": "Tall umbrella evergreen tree found in the coast. Needs some days before it has grown enough to be replanted somewhere else.",
+      "harvest_text": "harvesting stone pine sapling"
+    },
+    "cypress_sapling": {
+      "display_name": "Cypress Sapling",
+      "description": "Sleek and classy evergreen tree found in the coast. Needs some days before it has grown enough to be replanted somewhere else.",
+      "harvest_text": "harvesting cypress sapling"
+    },
+    "olive_sapling": {
+      "display_name": "Olive Tree Sapling",
+      "description": "An olive-bearing (savoury, oily veggie) tree that survives dry climates. Needs some days before it has grown enough to be replanted somewhere else.",
+      "harvest_text": "harvesting olive tree sapling"
+    },
+    "lemon_sapling": {
+      "display_name": "Lemon Tree Sapling",
+      "description": "A fruit-bearing tree that survives dry climates. Needs some days before it has grown enough to be replanted somewhere else.",
+      "harvest_text": "harvesting lemon tree sapling"
+    }
+  },
+  "kingdoms": {
+    "serene_league": "Serene League [W.I.P.]"
+  },
+  "ui": {
+    "shell": {
+      "select_settlement": {
+        "terrain_codes": {
+          "beach": "Beach"
+        }
+      }
+    }
+  },
+  "data": {
+    "serene_league_population": {
+      "display_name": "Serene League [W.I.P.]"
+    },
+    "biome": {
+      "coast": {
+        "display_name": "Coast",
+        "description": "Rocks and mountains descending into the sea. Default home of the Serene League.",
+        "random_location_names": {
+          "000": "Monferrone Coast"
+        },
+        "seasons": {
+          "spring": {
+            "display_name": "Spring",
+            "description": "Spring in the Coast is the mildest season, lasting two months. Occasional rainfall keeps the soil fresh while pleasant sunshine brings new life to all plants and creatures."
+          },
+          "summer": {
+            "display_name": "Summer",
+            "description": "Summer in the Coast is the hottest season, lasting five months. It is dry and not very windy with little rainfall, which usually comes together with violent storms."
+          },
+          "autumn": {
+            "display_name": "Autumn",
+            "description": "Autumn in the Coast is the harvest season, lasting two months. Plants enjoy their portion of rain after the dry summer while the skies darken with rain clouds before drier, windy winter."
+          },
+          "winter": {
+            "display_name": "Winter",
+            "description": "Winter in the Coast is a windy season, lasting three months. It is also quite dry, making plants and animals exhausted by hot summer and stormy autumn wait for spring rainfall."
+          }
+        },
+        "animals": {
+          "duckduck": {
+            "display_name": "PeaDuck"
+          },
+          "ostrich": {
+            "display_name": "Bustrich"
+          },
+          "wild_poyo": {
+            "display_name": "Poysant"
+          },
+          "racoon": {
+            "display_name": "Racoon Marten"
+          }
+        }
+      }
+    },
+    "buffs": {
+      "serene_mind": {
+        "display_name": "Serene Mind",
+        "description": "Are all of our daily mishaps worth worrying about? We should focus on the big picture instead. Diligence and Curiosity are increased.<ul><li>Crafting quality is quite increased</li><li>The hearthling's mood is quite increased</li></ul>"
+      }
+    },
+    "happiness": {
+      "thoughts": {
+        "drinking": {
+          "serene_mind": {
+            "display_name": "Having a serene mind",
+            "tooltip": "Can anything bring a thought more refreshing than a goblet of wine?"
+          }
+        }
+      }
+    },
+    "weather": {
+      "windy_dry": {
+        "display_name": "Dry Winds",
+        "description": "The air is dry as the winds howl across the lands.<ul><li>Normal sunlight levels.</li><li>Noticeably reduced humidity levels.</li></ul>"
+      },
+      "windy_chilly_dry": {
+        "display_name": "Chilly Dry Winds",
+        "description": "The air is dry and cold as the winds howl across the lands.<ul><li>Normal sunlight levels.</li><li>Noticeably reduced humidity levels.</li><li>Unsheltered hearthlings are too chilly to work as effectively.</li></ul>"
+      },
+      "cloudy_hot": {
+        "display_name": "Hot & Cloudy",
+        "description": "Skies may be dark, but accumulated heat is still unbearable.<ul><li>Fairly reduced sunlight levels.</li><li>Regular humidity levels.</li><li>Unsheltered hearthlings are too hot to work as effectively.</li><li>Unsheltered pasture animals are affected by the heat.</li></ul>"
+      }
+    },
+    "build": {
+      "building_brushes": {
+        "colors": {
+          "grandis": "Grandis",
+          "rob_roy": "Rob Roy",
+          "dijon": "Dijon",
+          "goldenrod": "Goldenrod",
+          "harvest_gold": "Harvest Gold",
+          "koromiko": "Koromiko",
+          "rajah": "Rajah",
+          "tacao": "Tacao",
+          "crusta": "Crusta",
+          "ochre": "Ochre",
+          "desert_ochre": "Desert Ochre",
+          "mule_fawn": "Mule Fawn",
+          "chelsea_gem": "Chelsea Gem",
+          "nutmeg": "Nutmeg",
+          "peru_tan": "Peru Tan",
+          "pickled_bean": "Pickled Bean",
+          "locust": "Locust",
+          "amulet": "Amulet",
+          "pistacchio": "Pistacchio"
+        }
+      }
+    },
+    "loadouts": {
+      "items": {
+        "prickly_pear": "Pears",
+        "grapes": "Grapes",
+        "olives": "Olives",
+        "wine": "Wine",
+        "cheese": "Cheese"
+      }
+    },
+    "commands": {
+      "transform": {
+        "fermenting_carboy_fill_unfermented_red_wine": {
+          "display_name": "Produce Red Wine",
+          "description": "Order the Brewer to fill this fermenting vessel with red grape juice! This Carboy will continue producing Red Wine until a new command is given."
+        },
+        "wine_cask_fill_unfermented_red_wine": {
+          "display_name": "Produce Red Wine",
+          "description": "Order the Brewer to fill this fermenting vessel with red grape juice! This Cask will continue producing Red Wine until a new command is given."
+        },
+        "build_well_roof_terracotta": {
+          "display_name": "Add Terracotta Roof",
+          "description": "Use a crafted Terracotta Water Well Roof to add a fancy roof to make your citizens happier and your water always fresh! The roof needs to be installed by a worker or the potter."
+        },
+        "build_well_plaster": {
+          "display_name": "Build Plaster Water Well",
+          "description": "Order this simple well to be upgraded into a plaster water well. Doing so requires Plaster Water Well Parts, a refined item that can be crafted by the Mason."
+        }
+      }
+    },
+    "guilds": {
+      "eagle": {
+        "display_name": "Eagle Guild"
+      },
+      "lion": {
+        "display_name": "Lion Guild"
+      },
+      "pegasus": {
+        "display_name": "Pegasus Guild"
+      },
+      "amberstone": {
+        "display_name": "Clan Amberstone",
+        "bonus_description": "All citizens gain Amberstone Aura buff."
+      }
+    },
+    "gm": {
+      "campaigns": {
+        "encounters": {
+          "daily_report_encounter": {
+            "title": "Citizenship Applications",
+            "update_title": "Citizenship applications are pending approval",
+            "next_requirements_label": "Requirements:",
+            "conclusion_positive": "You have pending citizenship applications.",
+            "conclusion_negative": "No new applications received today.",
+            "success_title": "[name(i18n_data.citizen)] has joined [str(i18n_data.town_name)]!",
+            "messages": {
+              "000": "I've heard a lot about your town!",
+              "001": "I'd like to join your town.",
+              "002": "You guys really look like you could use a hand!",
+              "003": "Wow! What a town! Let me help out!"
+            },
+            "outcome_statement": " A [str(i18n_data.job)] would like to join [str(i18n_data.town_name)]!"
+          }
+        },
+        "town_progression": {
+          "town_founding_explanation": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "meet_rinaldo_1": {
+                  "bulletin_title": "An official-looking person approaches",
+                  "dialog_title": "Young gentleman",
+                  "bulletin_message": {
+                    "00": "Salve a tutti! My name’s Rinaldo Fabioni. I hope I am not interrupting anything important.<p>I come to you following the wish of His Serenity the Doge himself.</p>"
+                  },
+                  "choice_001": "Not at all, welcome!",
+                  "choice_000": "Blimey, His Serene Grace himself?!"
+                },
+                "meet_rinaldo_2": {
+                  "bulletin_title": "Messenger from the Capital!",
+                  "dialog_title": "",
+                  "bulletin_message": {
+                    "00": "First and foremost, His Serenity wishes to express his happiness and gratitude. In the Capital we are all very glad to see such a talented team willing to spread the Enlightenment to new lands.<p>Serving the Republic is an honour and guarding centuries-old legacy is our duty, especially in unsteady times like these.</p><p><i>Rinaldo is trying to keep his uplifting smile but his eyes tell he is worried.</i></p>"
+                  },
+                  "choice_001": "How very true.",
+                  "choice_000": "Unsteady?"
+                },
+                "meet_rinaldo_3": {
+                  "bulletin_title": "Messenger from the Capital!",
+                  "dialog_title": "",
+                  "bulletin_message": {
+                    "00": "His Serenity is doing his best trying to protect the borders but the raids of the Red Kiln seem to get more and more powerful each day. Our army is looking, erm, I meant… doing splendid, nevertheless the Council was forced to hire mercenaries from the North to keep the Kiln away from the Capital."
+                  },
+                  "choice_001": "How far are they now?",
+                  "choice_000": "I’m sure they’ll keep them away..."
+                },
+                "meet_rinaldo_4": {
+                  "bulletin_title": "Messenger from the Capital!",
+                  "dialog_title": "",
+                  "bulletin_message": {
+                    "00": "…far enough not to worry... for now. If the Capital wasn’t built on water troops of the Kiln could have gotten there already. Our fleet may be invincible but the Kiln is blockading almost all land routes. The last caravan from Rayya’s Children arrived few months ago. Empty-handed.<p><i>Rinaldo is not even trying to smile anymore.</i></p>"
+                  },
+                  "choice_000": "Huh? How?"
+                },
+                "meet_rinaldo_5": {
+                  "bulletin_title": "Messenger from the Capital!",
+                  "dialog_title": "",
+                  "bulletin_message": {
+                    "00": "Letting a merchant pass and letting the goods pass are two different things. Orcs know that well. If the trade collapses we will not be able to pay the mercenaries. Orcs know that too. And mercenaries don’t fight for free - that orcs know better than anyone else."
+                  },
+                  "choice_000": "Any solution on the horizon?",
+                  "choice_001": "Can we help in any way?"
+                },
+                "meet_rinaldo_6": {
+                  "bulletin_title": "Messenger from the Capital!",
+                  "dialog_title": "",
+                  "bulletin_message": {
+                    "00": "<i>Your enthusiasm seems to lighten the conversation up.</i><p>That brings us to the reason of my visit. The Council sent me here to officially grant your municipality a trade license. That requires your town to become a member of one of the trade guilds.</p>"
+                  },
+                  "choice_000": "[skip] About time! Where do I sign?",
+                  "choice_001": "Guilds?"
+                },
+                "rinaldo_story_1": {
+                  "bulletin_title": "Founding Story of the League",
+                  "dialog_title": "",
+                  "bulletin_message": {
+                    "00": "<i>The way Rinaldo looks at you changes; he seems wise beyond his years.</i><p>We don’t call ourselves a League without a reason. Most of us belong to at least one of the guilds. There are many types of guilds, specialising in different fields. Centuries ago the guilds were competing with each other. Conflicts arose and smaller guilds started associating into leagues to withstand the pressure of larger ones. Leagues started associating with each other into even bigger leagues until one day there were just two of them left.</p>"
+                  },
+                  "choice_000": "I don’t like where this is going..."
+                },
+                "rinaldo_story_2": {
+                  "bulletin_title": "The Story Continues",
+                  "dialog_title": "The Story Continues...",
+                  "bulletin_message": {
+                    "00": "Oh silly, haven’t I told you one can be a member of more than one guild? Besides, would you like to participate in unnecessary physical exerc… violence, that’s what I wanted to say. Anyway, instead of dividing people and forcing them to decide which side they support, leaders of the guilds gathered together (we now call such an assembly the Council) and decided to form one league..."
+                  },
+                  "choice_000": "...the Serene League!"
+                },
+                "rinaldo_story_3": {
+                  "bulletin_title": "The Story Continues",
+                  "dialog_title": "The Story Continues...",
+                  "bulletin_message": {
+                    "00": "Exactly. Conflicts were ended once and for all and as all people were united into one League the Council declared all lands owned by the League members are united into one dominion, the Serene Republic, and decided to elect a ruler, the Serene Doge, from one of its members."
+                  },
+                  "choice_001": "That’s quite a history lesson!",
+                  "choice_000": "Fascinating, but what about our guild?"
+                },
+                "rinaldo_story_4": {
+                  "bulletin_title": "The Story Continues",
+                  "dialog_title": "The Story Continues...",
+                  "bulletin_message": {
+                    "00": "<i>Rinaldo blushes.</i><p>Pardon me, right back to you trade license! To become a trader officially recognised by the Republic you must be a member of one of the trade guilds. I must say, you seem to be famous as I have letters from leaders of the most prominent three in the whole League with me! One does not read someone else’s correspondence so I have no idea what exactly they wrote but I bet they all have great offers for you!</p><p><i>Rinaldo hands you three differently sealed scrolls.</i></p>"
+                  },
+                  "choice_000": "Let me see them.",
+                  "choice_001": "I hope so!"
+                }
+              }
+            }
+          },
+          "town_founding_food_donation": {
+            "donation_dialog_info": {
+              "dialog_nodes": {
+                "simple_message": {
+                  "bulletin_message": {
+                    "00": "Man, you have reasons to celebrate and you know how to do that! I wish I didn’t have to leave this early but His Serenity has entrusted me with more orders of utmost importance. Here, take this as my contribution to the party: "
+                  },
+                  "bulletin_title": "Rinaldo Prepares To Leave",
+                  "dialog_title": "Rinaldo Prepares To Leave",
+                  "choice_000": "How kind of you!"
+                }
+              }
+            }
+          },
+          "bird_departs": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "msg1": {
+                  "bulletin_message": {
+                    "00": "Oh, before I go: I heard a respected member of the Academy is on his way to the neighbourhood to oversee some important excavation works, as you’re the only outpost of the League nearby I guess he’ll pay you a visit! Arrivederci, friends!<p>[Here the League campaign overhaul ends for now; Ascendancy campaign is used further on, stay tuned for the campaign is currently work in progress and it will be expanded in future updates]</p>"
+                  },
+                  "bulletin_title": "Rinaldo Departs",
+                  "dialog_title": "Rinaldo Departs",
+                  "choice_000": "Something tells me we will meet again soon!"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "saved_objects": {
+      "building_templates_index": {
+        "template_tabs": {
+          "serene_league": {
+            "categories": {
+              "outpost": "Municipality",
+              "settlement": "Settlement"
+            }
+          }
+        }
+      },
+      "building_templates": {
+        "small_stone_house": "Little Stone House",
+        "sentry_quarters": "Sentry Quarters",
+        "mason_workshop": "Mason's Workshop"
+      }
+    }
+  }
+}

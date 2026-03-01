@@ -1,0 +1,75 @@
+{
+  "ui": {
+    "shell": {
+      "select_game_story": {
+        "game_modes": {
+          "insanity": {
+            "display_name": "Insanity",
+            "description": "Danger lurks around every corner, in every shadow.... No raids until you have at least a few bodies to repel them, but after that they'll come for you relentlessly....",
+            "post_selection_text": "a lethal place to start."
+          }
+        }
+      }
+    }
+  },
+  "data": {
+    "buffs": {
+      "game_modes": {
+        "insanity_buff": {
+          "display_name": "Insanity Mode",
+          "description": "Raids become stronger by Gamedays. Enemys have increased health, armor and damage"
+        }
+      }
+    },
+    "loadouts": {
+      "naked_and_afraid": {
+        "display_name": "Naked and Afraid",
+        "description": "A lone wanderer, with nothing but the clothes on their back.",
+        "tooltip": "No starting items, work for what you need. An impossible loadout to start with."
+      },
+      "deserter": {
+        "display_name": "Deserter",
+        "description": "Having abandoned the army, you have only what you carried into battle, and some meager rations.",
+        "tooltip": "Start with some low level combat gear and food. A hard loadout to start with."
+      },
+      "pilgrim": {
+        "display_name": "Pilgrim",
+        "description": "Your local Church of Plenty has sanctioned your pilgrimmage to the chapel of Cid in the capital of the Ascendancy. Unfortunately, your journey has been cut short out of necessity.",
+        "tooltip": "A start with a bedroll and a few belongings. A hard loadout to start with."
+      },
+      "thief": {
+        "display_name": "Thief",
+        "description": "Living on the streets and out of others pockets, you were finally caught and forced to flee.",
+        "tooltip": "A very challenging start. No items, but a bit of gold. A very hard loadout to start with."
+      },
+      "full_backpacks": {
+        "display_name": "Full Backpack",
+        "description": "A collection of food and wood for your lone wanderer to start fresh. Progress may be slow and dangerous, but feel quite rewarding.",
+        "tooltip": "A balanced start for a lone wanderer."
+      },
+      "items": {
+        "nothing": "Nothing!",
+        "sleeping_bag": "Sleeping Bag",
+        "mace": "Bronze Mace"
+      }
+    }
+  },
+  "entities": {
+    "furniture": {
+      "sleeping_bag": {
+        "display_name": "Sleeping Bag",
+        "description": "The perfect tool for the roving adventurer."
+      }
+    }
+  },
+  "jobs": {
+    "weaver": {
+      "recipes": {
+        "sleeping_bag_recipe": {
+          "recipe_name": "Sleeping Bag",
+          "description": "A handy sleeping sack for intrepid adventuring types."
+        }
+      }
+    }
+  }
+}

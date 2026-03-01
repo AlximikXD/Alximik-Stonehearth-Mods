@@ -1,0 +1,329 @@
+{
+  "ui": {
+    "game": {
+      "goblinpedia": {
+        "menu": {
+          "goblins": {
+            "jobs": {
+              "demolisher": "Demolisher",
+              "warlock": "Warlock"
+            }
+          }
+        },
+        "pages": {
+          "jobs": {
+            "warrior": {
+              "topic4": {
+                "title": "Promotion: ",
+                "desc1": "The Warrior is the backbone of the Firefly army, but they need something a little heavier to take the damage. You can promote sufficiently levelled warriors into Demolishers. Wrecking machines that soak damage as well as deal it out."
+              }
+            },
+            "shaman": {
+              "topic3": {
+                "desc1": "Shamans can later be promoted into Spirit Walkers, a summoner/healer class, or Warlocks, a ranged damage class with a few support abilities."
+              }
+            },
+            "demolisher": {
+              "title": "Demolisher",
+              "description1": "A havily armored juggernaut",
+              "topic1": {
+                "title": "Description: ",
+                "desc1": "Heavily armored with shield and spear, the Demolisher is a goblin defender."
+              },
+              "topic2": {
+                "title": "What it does: ",
+                "desc1": "The Demolisher relies on aggro drawing abilities to draw the enemies to it, and then slices them down with incredible strength. Uses a shield and spear."
+              },
+              "topic3": {
+                "title": "Combat Antics: ",
+                "desc1": "Unlike the hearthling 'knight', the Demolisher can form a strong offence as well as defence. The Demolisher has a number of abilities that improves their damage output in combat."
+              }
+            },
+            "warlock": {
+              "title": "Warlock",
+              "description1": "A ranged caster that can slow down and ignite enemies",
+              "topic1": {
+                "title": "Description: ",
+                "desc1": "The Warlock is a ranged combatant, using magic to attack enemies from far away."
+              },
+              "topic2": {
+                "title": "What it does: ",
+                "desc1": "very lightly armored, the warlock instead relies on ranged combat with magical attacks. The warlock can use arcane magics to slow enemies, or ignite them, causing them to burn."
+              },
+              "topic3": {
+                "title": "Area of Effect: ",
+                "desc1": "[WIP] The warlock can project their arcane magic in powerful waves to affect multiple enemies."
+              }
+            }
+          }
+        }
+      }
+    },
+    "data": {
+      "buffs": {
+        "glory_of_valor": {
+          "display_name": "Glory of Valor",
+          "description": "A proven fighter, this goblin has shown they can handle more than the average hearthling."
+        },
+        "berzerk_totem": {
+          "display_name": "Berzerk Totem",
+          "description": "Hit harder, fight longer."
+        },
+        "mending_totem": {
+          "display_name": "Mending Totem",
+          "description": "The natural healing of this goblin is increased."
+        },
+        "skull_charm": {
+          "display_name": "Skull Charm",
+          "description": "Understanding the power of this skull boosts the Spirit Walkers healing ability."
+        }
+      },
+      "traits": {
+        "ogre_boned_trait": {
+          "display_name": "Ogre Boned",
+          "description": "Noone dared ask about [name(i18n_data.entity)]'s parentage, but suffice it to say, they are bigger than your average goblin... and probably stronger, too."
+        },
+        "puny_trait": {
+          "display_name": "Puny",
+          "description": "This goblin is smaller than average, and isn't very good in fights."
+        }
+      },
+      "constants": {
+        "chitin_resource": "Chitin Shells",
+        "bling_hat_resource": "Kobold Hats"
+      }
+    }
+  },
+  "entities": {
+    "armor": {
+      "bone_crown": {
+        "display_name": "Bone Crown",
+        "description": "A celebratory crown made from the trophies of powerful enemies.",
+        "flavor": "It 'll also keep your head warm in those long winters."
+      },
+      "stone_armor": {
+        "display_name": "Stone Armor",
+        "description": "Thick and heavy armor hewn from the very earth, imbued with essence of Firefly to be lighter and more movable than normal.",
+        "flavor": "So much stone... They must be so strong!"
+      },
+      "wooden_knight_helm": {
+        "display_name": "Wooden Knight Helm",
+        "description": "A wooden helm styled after the shiny helmets of the human colonies."
+      }
+    },
+    "construction": {
+      "palisade_gate": {
+        "display_name": "Palisade Gate",
+        "description": "A sturdy wooden gate for your palisade walls."
+      },
+      "reinforced_stone_door": {
+        "display_name": "Reinforced Stone Door",
+        "description": "A stronger, sturdier door made of pure stone."
+      },
+      "reinforced_stone_window": {
+        "display_name": "Reinforced Stone Window",
+        "description": "A tough window made of hardened stone."
+      },
+      "reinforced_wooden_door": {
+        "display_name": "Reinforced Wooden Door",
+        "description": "A tougher door to crack."
+      },
+      "reinforced_wooden_double_door": {
+        "display_name": "Reinforced Wooden Double Door",
+        "description": "Twice the doors, Twice the strength."
+      },
+      "reinforced_wooden_window": {
+        "display_name": "Reinforced Wooden Window",
+        "description": "Pretty self eplanatory..."
+      }
+    },
+    "consumables": {
+      "healing_tonic": {
+        "moderate_healing_tonic": {
+          "display_name": "Moderate Healing Tonic",
+          "description": "A more potent healing tonic."
+        },
+        "large_healing_tonic": {
+          "display_name": "Large Healing Tonic",
+          "description": "The most potent healing tonic known to goblins."
+        }
+      }
+    },
+    "decoration": {
+      "gong_of_courage": {
+        "display_name": "Gong of Courage",
+        "description": "A decorative gong made from the hats of defeated enemy kobolds."
+      },
+      "show_of_victory": {
+        "display_name": "Show of Victory",
+        "description": "A wall tapestry made form salvaged materials, once showing a mighty foot soldier."
+      }
+    },
+    "gizmos": {
+      "ramshackle_dummy": {
+        "display_name": "Ramshackle Dummy",
+        "description": "A makeshift training dummy made with odds and ends, mostly wood, and decorated to give it some modesty. NOT SAFE FOR USE."
+      },
+      "protection_totem": {
+        "display_name": "Protection Totem",
+        "description": "A protective talisman, imbued with the essence of firefly."
+      },
+      "mending_totem": {
+        "display_name": "Mending Totem",
+        "description": "A talisman imbued to help with the natural healing of herbs."
+      },
+      "berzerk_totem": {
+        "display_name": "Berzerk Totem",
+        "description": "A talisman granting great strength to the one who wields it."
+      },
+      "shrunken_skull_charm": {
+        "display_name": "Shrunken Skull Charm",
+        "description": "A charm crafted from the skull of a poor small animal. Understanding the power of this charm could be important for a Spirit Walker."
+      }
+    },
+    "materials": {
+      "leather_bolt": {
+        "flavor": "It's not the tidiest, and there are still patches of fur here and there, but it should still be usable..."
+      }
+    },
+    "weapons": {
+      "chill_touch": {
+        "display_name": "Chill Touch",
+        "description": "A powerful arcane blast of cold."
+      },
+      "goblin_bone_spear": {
+        "display_name": "Goblin Bone Spear",
+        "description": "A simple spear for the aspiring demolisher."
+      },
+      "goblin_long_cleaver": {
+        "display_name": "Goblin Long Cleaver",
+        "description": "A long pointy thing, made and used by the Firefly Clan."
+      },
+      "goblin_pole_mace": {
+        "display_name": "Goblin Pole Mace",
+        "description": "A long blunt weapon that can double as a destructive tool."
+      },
+      "goblin_trident": {
+        "display_name": "Goblin Trident",
+        "description": "A three pronged weapon, used by the goblins."
+      },
+      "magma_spear": {
+        "display_name": "Magma Spear",
+        "description": "a longer seared version of the magma sword, a magmarized blade."
+      }
+    }
+  },
+  "jobs": {
+    "demolisher": {
+      "demolisher_description": {
+        "display_name": "Demolisher",
+        "description": "A dangerous protector with immense power when properly trained.",
+        "requirements": "Crafted by Shaman",
+        "level_1_data": {
+          "perk_000_name": "Zeal",
+          "perk_000_description": "Increases Stamina, Courage, and draws attention from monsters",
+          "perk_001_name": "Damage Reduction Rank 1",
+          "perk_001_description": "The Demolisher gains an additional 10% defense from equipment"
+        },
+        "level_2_data": {
+          "perk_000_name": "Shout",
+          "perk_000_description": "The Demolisher intimidates the opponent, drawing the attention of nearby enemies."
+        },
+        "level_3_data": {
+          "perk_000_name": "Mad Charge",
+          "perk_000_description": "More muscle. More. MORE. MORE!"
+        },
+        "level_4_data": {
+          "perk_000_name": "Damage Reduction Rank 2",
+          "perk_000_description": "The Demolisher gains an additional 20% armor from equipment"
+        },
+        "level_5_data": {
+          "perk_000_name": "Fury Slasher",
+          "perk_000_description": "The Demolisher furiously performs a triple slash attack."
+        },
+        "level_6_data": {
+          "perk_000_name": "Inspiring Presence",
+          "perk_000_description": "The Demolisher boosts courage of everyone around"
+        }
+      },
+      "demolisher_armor": {
+        "display_name": "Demolisher Armor",
+        "description": "Ragged armor that has seen many conflicts. Granted to only the strongest, and most reckless warriors."
+      },
+      "demolisher_helm": {
+        "display_name": "Demolisher Skullcap",
+        "description": "A leather skullcap with a mask, adorned with pieces of bone."
+      },
+      "demolishers_shield": {
+        "display_name": "Demolishers Shield",
+        "shield_talisman": {
+          "display_name": "Demolishers Shield",
+          "description": "The power of the guardian. Kindness to aid friends. A shield to repel all.",
+          "flavor": "Promotes a goblin to Demolisher"
+        }
+      }
+    },
+    "shaman": {
+      "recipes": {
+        "totems": "Totems"
+      }
+    },
+    "warlock": {
+      "warlock_description": {
+        "display_name": "Warlock",
+        "description": "Having harnessed the arcane, the warlock is a dangerous combatant.",
+        "requirements": "Crafted by Shaman",
+        "level_1_data": {
+          "perk_000_name": "Chill Touch",
+          "perk_000_description": "The warlock attacks with cold damage, causing great pain to the tribes foes."
+        },
+        "level_2_data": {
+          "perk_000_name": "Slow",
+          "perk_000_description": "The warlock can slow enemies, making them crawl to a slow, agonizing demise."
+        },
+        "level_3_data": {
+          "perk_000_name": "Ignite",
+          "perk_000_description": "Through truly magical means, the warlock can ignite their enemies, causing damage over time."
+        },
+        "level_5_data": {
+          "perk_000_name": "Slow AoE",
+          "perk_000_description": "The warlock can slow multiple enemies, making them crawl to a slow, agonizing demise."
+        },
+        "level_4_data": {
+          "perk_000_name": "Cause Fear",
+          "perk_000_description": "The warlock targets the enemys greatest fear, and brings it to life."
+        }
+      },
+      "warlock_buffs": {
+        "feared": {
+          "display_name": "Afraid!",
+          "description": "Ahhh! Scary goblin!"
+        },
+        "ignite": {
+          "display_name": "Lit Up",
+          "description": "Burn bright like a candle."
+        },
+        "slow": {
+          "display_name": "Slowed!",
+          "description": "You get the feeling a snail would mvoe faster..."
+        }
+      },
+      "warlock_staff": {
+        "display_name": "Warlock Staff",
+        "staff_talisman": {
+          "display_name": "Warlock Staff",
+          "description": "The power of the mystic. Inner strength. A staff of wonder and ruin.",
+          "flavor": "Promotes a goblin to Warlock"
+        }
+      },
+      "warlock_outfit": {
+        "display_name": "Warlock Outfit",
+        "description": "A sleeveless robe, woven from plant fibers.",
+        "warlock_hood": {
+          "display_name": "Warlock Hood",
+          "description": "A light cloth covering, just enough to give a spooky kinda feeling."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "data": {
+    "population": {
+      "firefly_clan": {
+        "initial_town_name": "Королівство гоблінів [str(town_number)]",
+        "display_name": "Клан Світлячка",
+        "quote": "",
+        "description": "Вежі з магічним ушкодженням, багатьма негативними ефектами та випадковим/вдалим геймплеєм.",
+        "long_description": "Вежі з магічним ушкодженням, багатьма негативними ефектами та випадковим/вдалим геймплеєм.",
+        "post_selection_description": ", чарівна банда гоблінів."
+      }
+    }
+  },
+  "entities": {
+    "towers": {
+      "egg": {
+        "display_name": "Яйце гобліна",
+        "description": "У наступному раунді він потрапить у випадковий клас."
+      },
+      "beast_tamer": {
+        "display_name": "Приборкувач звірів",
+        "description": "wip.",
+        "weapon": {
+          "description": "wip"
+        },
+        "weapon_damage": {
+          "description": "wip",
+          "display_name": "Damage"
+        },
+        "weapon_utility": {
+          "description": "wip",
+          "display_name": "Utility"
+        }
+      },
+      "bonesmith": {
+        "display_name": "Bonesmith",
+        "description": "wip.",
+        "weapon": {
+          "description": "wip"
+        },
+        "weapon_damage": {
+          "description": "wip",
+          "display_name": "Damage"
+        },
+        "weapon_utility": {
+          "description": "wip",
+          "display_name": "Utility"
+        }
+      },
+      "earthmaster": {
+        "display_name": "Earthmaster",
+        "description": "wip.",
+        "weapon": {
+          "description": "wip"
+        },
+        "weapon_damage": {
+          "description": "wip",
+          "display_name": "Damage"
+        },
+        "weapon_utility": {
+          "description": "wip",
+          "display_name": "Utility"
+        }
+      },
+      "shaman": {
+        "display_name": "Shaman",
+        "description": "wip.",
+        "weapon": {
+          "description": "wip"
+        },
+        "weapon_damage": {
+          "description": "wip",
+          "display_name": "Damage"
+        },
+        "weapon_utility": {
+          "description": "wip",
+          "display_name": "Utility"
+        }
+      },
+      "spirit_walker": {
+        "display_name": "Spirit Walker",
+        "description": "wip.",
+        "weapon": {
+          "description": "wip"
+        },
+        "weapon_damage": {
+          "description": "wip",
+          "display_name": "Damage"
+        },
+        "weapon_utility": {
+          "description": "wip",
+          "display_name": "Utility"
+        }
+      },
+      "trapper": {
+        "display_name": "Trapper",
+        "description": "wip.",
+        "weapon": {
+          "description": "wip"
+        },
+        "weapon_damage": {
+          "description": "wip",
+          "display_name": "Damage"
+        },
+        "weapon_utility": {
+          "description": "wip",
+          "display_name": "Utility"
+        }
+      },
+      "warrior": {
+        "display_name": "Warrior",
+        "description": "wip.",
+        "weapon": {
+          "description": "wip"
+        },
+        "weapon_damage": {
+          "description": "wip",
+          "display_name": "Damage"
+        },
+        "weapon_utility": {
+          "description": "wip",
+          "display_name": "Utility"
+        }
+      },
+      "worker": {
+        "display_name": "Worker",
+        "description": "Найдешевший клас, найменший збиток",
+        "weapon": {
+          "description": "Слабкі атаки з повітря та землі"
+        },
+        "weapon_utility": {
+          "description": "Вони можуть відчувати невидимих ​​ворогів у своєму діапазоні та розкривати їх іншим гоблінам",
+          "display_name": "Utility"
+        }
+      }
+    }
+  }
+}

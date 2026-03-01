@@ -1,0 +1,743 @@
+{
+  "ui": {
+    "game": {
+      "goblinpedia": {
+        "menu": {
+          "goblins": {
+            "jobs": {
+              "warmaster": "Warsmith"
+            }
+          }
+        },
+        "pages": {
+          "jobs": {
+            "warmaster": {
+              "title": "Warsmith",
+              "description1": "Той, хто маніпулює рудою",
+              "topic1": {
+                "title": "Description: ",
+                "desc1": "Коваль і майстер, який готує нас до війни."
+              },
+              "topic2": {
+                "title": "Що він робить:",
+                "desc1": "Військовий майстер обробляє руду, щоб виковувати металеву зброю та обладунки."
+              },
+              "topic3": {
+                "title": "Крім металу:",
+                "desc1": "Отримавши знання, воєначальник працює з магією та механікою, щоб створити турелі та пастки."
+              }
+            }
+          }
+        }
+      }
+    },
+    "menu": {
+      "goblins": {
+        "items": {
+          "jobs": {
+            "items": {
+              "warmaster": {
+                "display_name": "Warsmith",
+                "open_page_id": "jobs_warmaster"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "entities": {
+    "armor": {
+      "bronze_armor": {
+        "bronze_armor": {
+          "display_name": "Бронзова броня",
+          "description": "Обладунки з бронзи."
+        }
+      },
+      "bronze_pot_helmet": {
+        "bronze_pot_helmet": {
+          "display_name": "Бронзовий шолом для приготування їжі",
+          "description": "Шолом, зроблений з бронзового горщика"
+        }
+      },
+      "bronze_shield": {
+        "bronze_shield": {
+          "display_name": "Бронзовий щит",
+          "description": "Щит з бронзи."
+        }
+      },
+      "hearth_guard_armor": {
+        "hearth_guard_armor": {
+          "display_name": "Обладунки охоронця вогнища",
+          "description": "Броня охоронця вогнища зі сталі."
+        }
+      },
+      "hearth_guard_helmet": {
+        "hearth_guard_helmet": {
+          "display_name": "Шолом охоронця вогнища",
+          "description": "Шолом охоронець вогнища зі сталі."
+        }
+      },
+      "hearth_guard_shield": {
+        "hearth_guard_shield": {
+          "display_name": "Щит охоронця вогнища",
+          "description": "Щит вогнища зі сталі."
+        }
+      },
+      "horned_full_helmet": {
+        "horned_full_helmet": {
+          "display_name": "Рогатий повний шолом",
+          "description": "Великий шолом, щоб налякати навіть найбільших ворогів.",
+          "flavor": "Справжня сила того, хто її носить, демонструє його розмір"
+        }
+      },
+      "iron_shield": {
+        "iron_shield": {
+          "display_name": "Щит болотної охорони",
+          "description": "Болотозахисний щит зі сталі."
+        }
+      },
+      "mushroom_shield": {
+        "mushroom_shield": {
+          "display_name": "Гриб щитівка",
+          "description": "Щит із верхівки гриба.",
+          "flavor": "Принаймні речі можуть застрягти в ньому, правда?"
+        }
+      },
+      "swamp_guard_armor": {
+        "swamp_guard_armor": {
+          "display_name": "Броня болотної варти",
+          "description": "Залізний обладунок болотника."
+        }
+      },
+      "swamp_guard_helmet": {
+        "swamp_guard_helmet": {
+          "display_name": "Шолом болотної охорони",
+          "description": "Шолом болотника із заліза."
+        }
+      },
+      "swamp_guard_helmet_light": {
+        "swamp_guard_helmet_light": {
+          "display_name": "Легкий болотний шолом",
+          "description": "Полегшений варіант шолома болотника."
+        }
+      },
+      "hearth_guard_helmet_light": {
+        "hearth_guard_helmet_light": {
+          "display_name": "Шолом охоронця світлого вогнища",
+          "description": "Полегшена версія шолома охоронця вогнища."
+        }
+      },
+      "back_banner_generic": {
+        "back_banner_generic": {
+          "display_name": "Задній банер",
+          "description": "Банер із зображенням черепа на задній панелі."
+        }
+      },
+      "back_banner_skull": {
+        "back_banner_skull": {
+          "display_name": "Череп назад банер",
+          "description": "Ззаду встановлений банер із агресивним малюнком черепа."
+        }
+      },
+      "back_banner_varanus": {
+        "back_banner_varanus": {
+          "description": "Банер на задній панелі з надихаючим візерунком варанус.",
+          "display_name": "Задній прапор Варана"
+        }
+      }
+    },
+    "containers": {
+      "clay_corner": {
+        "display_name": "Декорована глиняна кутова полиця",
+        "description": "Зберігає до 12 предметів."
+      },
+      "clay_shelf_ground": {
+        "display_name": "Декорована глиняна полиця",
+        "description": "Зберігає до 12 предметів."
+      },
+      "clay_shelf_wall": {
+        "display_name": "Декорована глиняна полиця",
+        "description": "Зберігає до 12 предметів.",
+        "clay_shelf_wall_ghost": {
+          "display_name": "Декорована глиняна полиця"
+        }
+      },
+      "clay_supply_basin": {
+        "display_name": "Прикрашений глиняний басейн",
+        "description": "Зберігає до 12 предметів.",
+        "clay_supply_basin_ghost": {
+          "display_name": "Прикрашений глиняний басейн",
+          "description": "Вміщує до 12 предметів."
+        }
+      },
+      "iron_corner": {
+        "display_name": "Залізна кутова полиця",
+        "description": "Зберігає до 12 предметів.",
+        "iron_corner_ghost": {
+          "display_name": "Залізна кутова полиця",
+          "description": "Зберігає до 12 предметів."
+        }
+      },
+      "iron_supply_bin": {
+        "display_name": "Кошик для запасів заліза",
+        "description": "Зберігає до 12 предметів.",
+        "iron_supply_bin_ghost": {
+          "display_name": "Кошик для запасів заліза",
+          "description": "Зберігає до 12 предметів."
+        }
+      },
+      "iron_table": {
+        "display_name": "Залізний стіл",
+        "description": "Зберігає до 12 предметів.",
+        "iron_table_ghost": {
+          "display_name": "Залізний стіл",
+          "description": "Зберігає до 12 предметів."
+        }
+      },
+      "stone_shelf_ground": {
+        "display_name": "Кам'яна полиця",
+        "description": "Зберігає до 12 предметів."
+      },
+      "stone_shelf_wall": {
+        "display_name": "Кам'яна полиця",
+        "description": "Зберігає до 12 предметів.",
+        "stone_shelf_wall_ghost": {
+          "display_name": "Кам'яна полиця"
+        }
+      },
+      "stone_supply_basin": {
+        "display_name": "Кам'яний басейн",
+        "description": "Зберігає до 12 предметів.",
+        "stone_supply_basin_ghost": {
+          "display_name": "Кам'яний басейн",
+          "description": "Зберігає до 12 предметів."
+        }
+      },
+      "war_vault": {
+        "display_name": "War Vault",
+        "description": "Скриня високого рівня для зберігання 86 предметів.",
+        "war_vault_ghost": {
+          "display_name": "War Vault",
+          "description": "Зберігає до 86 предметів."
+        }
+      },
+      "clay": {
+        "shelf_ground": {
+          "clay_shelf_ground_ghost": {
+            "display_name": "Декорована глиняна полиця"
+          },
+          "clay": {
+            "shelf_ground_ghost": {
+              "description": "Зберігає до 12 предметів."
+            }
+          }
+        },
+        "shelf_wall": {
+          "clay": {
+            "shelf_wall_ghost": {
+              "description": "Зберігає до 12 предметів."
+            }
+          }
+        }
+      },
+      "stone": {
+        "shelf_ground": {
+          "stone_shelf_ground_ghost": {
+            "display_name": "Кам'яна полиця"
+          },
+          "stone": {
+            "shelf_ground_ghost": {
+              "description": "Зберігає до 12 предметів."
+            }
+          }
+        },
+        "shelf_wall": {
+          "stone": {
+            "shelf_wall_ghost": {
+              "description": "Зберігає до 12 предметів."
+            }
+          }
+        }
+      },
+      "armor_stand": {
+        "armor_stand": {
+          "display_name": "Підставка для броні",
+          "description": "Використовується в ремеслі, але також може використовуватися як статуя."
+        }
+      },
+      "skull_pole_banner": {
+        "skull_pole_banner": {
+          "display_name": "Череп полюс банер",
+          "description": "Банер із стовпом із черепом для позначення території."
+        }
+      },
+      "wooden_sign_barracks": {
+        "wooden_sign_barracks": {
+          "display_name": "Дерев'яні казарми знак",
+          "description": "Дерев'яний знак для казарми."
+        }
+      }
+    },
+    "stone_sign_warmaster": {
+      "stone_sign_warmaster": {
+        "display_name": "Кам'яний знак Воєначальника",
+        "description": "Кам'яний знак Воєначальника."
+      }
+    },
+    "decoration": {
+      "armor_stand": {
+        "display_name": "Підставка для броні",
+        "description": "Для використання в рецептах крафта для відображення броні.",
+        "flavor": "Акуратні черепа, щоб показати, які ми погані",
+        "armor_stand": {
+          "display_name": "Підставка для броні",
+          "description": "Використовується в ремеслі, але також може використовуватися як статуя."
+        }
+      },
+      "decorated_clay_bed": {
+        "decorated_clay_bed_ghost": {
+          "display_name": "Прикрашене глиняне ліжко",
+          "description": "Зручне глиняне ліжко."
+        }
+      },
+      "clay_bench": {
+        "clay_bench_ghost": {
+          "display_name": "Декорована глиняна лавка",
+          "description": "Добре виліплена глиняна лавка."
+        }
+      },
+      "clay_chair": {
+        "clay_chair_ghost": {
+          "display_name": "Декорований глиняний стілець",
+          "description": "Гарний глиняний стілець, на якому можна сидіти."
+        }
+      },
+      "clay_table": {
+        "clay_table_ghost": {
+          "display_name": "Декорований глиняний стіл",
+          "description": "Глиняний стіл з малюнком."
+        }
+      },
+      "clay_throne": {
+        "clay_throne_ghost": {
+          "display_name": "Прикрашений глиняний трон",
+          "description": "Глиняний трон, щоб показати процвітання."
+        }
+      },
+      "comfy_clay_chair": {
+        "comfy_clay_chair_ghost": {
+          "display_name": "Зручне глиняне крісло",
+          "description": "Зручне глиняне крісло для сидіння."
+        }
+      },
+      "skull_pole_banner": {
+        "skull_pole_banner": {
+          "display_name": "Череп полюс банер",
+          "description": "Полюсний банер із зображенням черепа на вершині."
+        }
+      },
+      "wooden_sign_warmaster": {
+        "wooden_sign_warmaster": {
+          "display_name": "Дерев'яний знак Warmaster",
+          "description": "Дерев'яна табличка для тепломайстра."
+        }
+      },
+      "stone_sign_barracks": {
+        "stone_sign_barracks": {
+          "display_name": "Кам'яний знак для казарми."
+        }
+      },
+      "candle_clay": {
+        "candle_clay": {
+          "display_name": "Глиняна свічка",
+          "description": "Глиняна настінна свічка."
+        }
+      },
+      "clay_torch": {
+        "clay_torch": {
+          "display_name": "Прикрашені глиняні стіни Firebowl",
+          "description": "Декорована настінна вогнища."
+        }
+      },
+      "stone_torch": {
+        "stone_torch": {
+          "display_name": "Кам'яна стіна Firebowl",
+          "description": "Настінна кам'яна вогнища."
+        }
+      },
+      "stone_sign_warmaster": {
+        "stone_sign_warmaster": {
+          "display_name": "Кам'яний знак Воєначальника",
+          "description": "Кам'яний знак для тепломайстра."
+        }
+      },
+      "wooden_sign_barracks": {
+        "wooden_sign_barracks": {
+          "display_name": "Дерев'яні казарми знак",
+          "description": "Дерев'яний знак для вашої казарми."
+        }
+      },
+      "bronze_armor_stand": {
+        "bronze_armor_stand": {
+          "display_name": "Бронзова підставка для броні",
+          "description": "Бронзова підставка для броні. Можна зібрати, щоб повернути частини."
+        },
+        "description": "Збирайте врожай, щоб повернути речі.",
+        "display_name": "Бронзова підставка для броні"
+      },
+      "swamp_guard_armor_stand": {
+        "swamp_guard_armor_stand": {
+          "display_name": "Підставка для броні Болотної Варти",
+          "description": "Підставка для броні болотника. Можна зібрати, щоб повернути частини."
+        }
+      },
+      "hearth_guard_armor_stand": {
+        "hearth_guard_armor_stand": {
+          "display_name": "Підставка для броні охоронця вогнища",
+          "description": "Підставка для броні охоронця вогнища. Можна зібрати, щоб повернути частини."
+        }
+      },
+      "swamp_guard_statue": {
+        "swamp_guard_statue": {
+          "display_name": "Статуя «Болотний охоронець».",
+          "description": "Статуя болотного охоронця."
+        }
+      },
+      "hearth_guard_statue": {
+        "hearth_guard_statue": {
+          "display_name": "Статуя охоронця вогнища",
+          "description": "Статуя охоронця вогнища."
+        }
+      },
+      "swamp_guard_plaque": {
+        "swamp_guard_plaque": {
+          "display_name": "Меморіальна дошка «Болотній варті».",
+          "description": "Пам'ятна дошка болотному охоронцю. Можна зібрати, щоб повернути частини."
+        }
+      },
+      "alligator_small_totem": {
+        "alligator_small_totem": {
+          "display_name": "Маленький тотем алігатора",
+          "description": "Маленький тотем алігатора з коштовним каменем."
+        }
+      },
+      "clay_skull_brazier": {
+        "clay_skull_brazier": {
+          "display_name": "Мангал із глиняним черепом",
+          "description": "Череп з глини, перетворений на жаровню."
+        }
+      },
+      "clay_tower_brazier": {
+        "clay_tower_brazier": {
+          "display_name": "Глиняна вежа жаровня",
+          "description": "Декорована глиняна вежа-жаровня."
+        }
+      },
+      "serpent_totem": {
+        "serpent_totem": {
+          "display_name": "Тотем змія",
+          "description": "Тотем-змій із глини та каменю."
+        }
+      },
+      "exquisite_rug": {
+        "exquisite_rug_ghost": {
+          "display_name": "Вишуканий килим",
+          "description": "Найкраще, що може виткати гоблін."
+        },
+        "exquisite_rug": {
+          "description": "Найкраще, що може виткати гоблін.",
+          "display_name": "Вишуканий килим"
+        }
+      },
+      "fine_rug": {
+        "fine_rug_ghost": {
+          "display_name": "Прекрасний килимок",
+          "description": "Чудовий килим, по якому можна ходити."
+        },
+        "fine_rug": {
+          "display_name": "Прекрасний килимок",
+          "description": "Чудовий килим, по якому можна ходити."
+        }
+      },
+      "banner_wall_big": {
+        "description": "Настінний банер.",
+        "display_name": "Настінний банер"
+      }
+    },
+    "furniture": {
+      "clay_bench": {
+        "display_name": "Декорована глиняна лавка",
+        "description": "Добре виліплена глиняна лавка.",
+        "flavor": "Акуратні черепа, щоб показати, які ми погані"
+      },
+      "clay_chair": {
+        "display_name": "Декорований глиняний стілець",
+        "description": "Гарний глиняний стілець, на якому можна сидіти.",
+        "flavor": "Трохи незручно, але виглядає гарно"
+      },
+      "clay_table": {
+        "display_name": "Декорований глиняний стіл",
+        "description": "Глиняний стіл з малюнком.",
+        "flavor": "Акуратні черепа, щоб показати, які ми погані"
+      },
+      "clay_throne": {
+        "display_name": "Прикрашений глиняний трон",
+        "description": "Глиняний трон, побудований для демонстрації процвітання.",
+        "flavor": "Подивіться на мене, я тепер шеф"
+      },
+      "comfy_clay_chair": {
+        "display_name": "Зручне глиняне крісло",
+        "description": "Зручне глиняне крісло для сидіння.",
+        "flavor": "Накинь на нього килимок - Винахідник зручних речей"
+      },
+      "decorated_clay_bed": {
+        "display_name": "Прикрашене глиняне ліжко",
+        "description": "Зручне глиняне ліжко.",
+        "flavor": "Ні, я відмовляюся виходити!"
+      }
+    },
+    "upgrades": {
+      "bronze_beast_tamer_claw": {
+        "bronze_beast_tamer_claw": {
+          "display_name": "Бронзові кігті приборкувача звірів",
+          "description": "Бронзові кігті для приборкувача звірів."
+        }
+      },
+      "iron_beast_tamer_claw": {
+        "iron_beast_tamer_claw": {
+          "display_name": "Кігті приборкувача залізних звірів",
+          "description": "Залізні пазурі для приборкувача звірів."
+        }
+      },
+      "bronze_spirit_walker_helmet": {
+        "bronze_spirit_walker_helmet": {
+          "display_name": "Бронзовий шолом Spirit Walker",
+          "description": "Бронзове покращення для духівника."
+        }
+      },
+      "iron_spirit_walker_helmet": {
+        "iron_spirit_walker_helmet": {
+          "display_name": "Шолом Iron Spirit Walker",
+          "description": "Покращення заліза для духівника."
+        }
+      },
+      "essence_knowledge_tome": {
+        "essence_knowledge_tome": {
+          "display_name": "Фоліант сутності знань",
+          "description": "Магія та знання, вкладені в це, безумовно, допоможуть."
+        }
+      }
+    },
+    "weapons": {
+      "bone_axe": {
+        "bone_axe": {
+          "display_name": "Кістяна сокира",
+          "description": "Одноручна кістяна сокира."
+        }
+      },
+      "bone_sword": {
+        "bone_sword": {
+          "display_name": "Одноручний кістяний меч.",
+          "description": "Меч, зроблений з кістяних уколів."
+        }
+      },
+      "bronze_spear": {
+        "bronze_spear": {
+          "display_name": "Бронзовий спис",
+          "description": "Дворучний спис з бронзи."
+        }
+      },
+      "bronze_sword": {
+        "bronze_sword": {
+          "display_name": "Бронзовий меч",
+          "description": "Одноручний меч з бронзи."
+        }
+      },
+      "iron_spear": {
+        "iron_spear": {
+          "display_name": "Залізний спис",
+          "description": "Дворучний спис із заліза."
+        }
+      },
+      "iron_sword": {
+        "iron_sword": {
+          "display_name": "Залізний меч",
+          "description": "Одноручний меч із заліза."
+        }
+      },
+      "war_fork": {
+        "war_fork": {
+          "display_name": "Військова вилка",
+          "description": "Дворучна вилка із заліза та сталі."
+        }
+      },
+      "hearth_guard_bardiche": {
+        "hearth_guard_bardiche": {
+          "display_name": "Охоронець вогнища Бардіче",
+          "description": "Сталевий бардиш зі сталі з вбудованим коштовним каменем."
+        }
+      },
+      "steel_sword": {
+        "steel_sword": {
+          "display_name": "Меч охоронця вогнища",
+          "description": "Одноручний меч зі сталі."
+        }
+      },
+      "bronze_axe": {
+        "bronze_axe": {
+          "display_name": "Бронзова сокира",
+          "description": "Одноручна бронзова сокира."
+        }
+      },
+      "bronze_mace": {
+        "bronze_mace": {
+          "description": "Одноручна бронзова сокира.",
+          "display_name": "Бронзова булава"
+        }
+      },
+      "iron_axe": {
+        "iron_axe": {
+          "display_name": "Залізна сокира",
+          "description": "Одноручна залізна сокира."
+        }
+      },
+      "iron_mace": {
+        "iron_mace": {
+          "description": "Одноручна залізна булава.",
+          "display_name": "Залізна булава"
+        }
+      }
+    },
+    "construction": {
+      "iron_portcullis": {
+        "iron_portcullis": {
+          "display_name": "Порткуліс залізний",
+          "description": "Ворота кам'яні з укріпленим порткулем. (Розмістіть раму в стінах і не залишайте повітряного зазору)"
+        }
+      },
+      "stronghold_double_door": {
+        "stronghold_double_door": {
+          "display_name": "Подвійні двері Stronghold",
+          "description": "Міцні двері, за якими можна сховатися."
+        }
+      },
+      "wooden_portcullis": {
+        "wooden_portcullis": {
+          "display_name": "Порткуліс дерев'яний",
+          "description": "Дерев’яні ворота з дерев’яною решіткою. (Розташуйте раму всередині стін і не залишайте повітряного зазору)"
+        }
+      },
+      "barricade_gate": {
+        "barricade_gate": {
+          "display_name": "Подвійні барикадні ворота",
+          "description": "Дві барикади, з’єднані в одну, тому вони функціонують як більші ворота."
+        }
+      },
+      "double_barricade_gate": {
+        "double_barricade_gate": {
+          "display_name": "Подвійні барикадні ворота",
+          "description": "Дві барикади, з’єднані в одну, тому вони функціонують як більші ворота."
+        }
+      }
+    },
+    "warsmith": {
+      "warsmith_talisman": {
+        "warsmith_talisman": {
+          "display_name": "Талісман бойовика",
+          "description": "Використовується для підвищення до воєначальника."
+        },
+        "display_name": "Талісман бойовика",
+        "description": "Використовується для підвищення до воєначальника."
+      },
+      "warsmith_hammer": {
+        "warsmith_hammer": {
+          "display_name": "Warsmith Hammer",
+          "description": "Молот Військових Кузнів."
+        },
+        "display_name": "Warsmith Hammer",
+        "description": "Молот Військових Кузнів."
+      },
+      "warsmith_outfit": {
+        "warsmith_outfit": {
+          "display_name": "Військовий костюм",
+          "description": "Вбрання Вояків."
+        },
+        "display_name": "Військовий костюм",
+        "description": "Вбрання Вояків."
+      },
+      "warsmith_forge": {
+        "warsmith_forge": {
+          "display_name": "Warsmith Forge",
+          "description": "Використовується для нагрівання металів і плавлення руди."
+        },
+        "display_name": "Warsmith Forge",
+        "description": "Використовується для нагрівання металів і плавлення руди."
+      },
+      "warsmith_workbench": {
+        "display_name": "Warsmith Anvil",
+        "description": "Де гарячий метал кують у придатні для використання предмети."
+      }
+    },
+    "warfare": {
+      "essence_core": {
+        "essence_core": {
+          "display_name": "Ядро сутності",
+          "description": "Магічне ядро ​​для живлення наших машин і пасток."
+        }
+      },
+      "alligator_small_guardian": {
+        "alligator_small_guardian": {
+          "display_name": "Охоронець маленького алігатора",
+          "description": "Маленька чарівна вежа для захисту вашого села."
+        }
+      }
+    }
+  },
+  "data": {
+    "buffs": {
+      "major_muscle_aura_buff": {
+        "display_name": "Бафф аури черепа",
+        "description": "Бафф аури черепа, який наповнює гоблінів навколо силою."
+      },
+      "major_muscle_aura_effect_buff": {
+        "display_name": "Ефект аури черепа",
+        "description": "Бафф аури черепа, який наповнює гоблінів навколо силою."
+      },
+      "mix_aura_buff": {
+        "display_name": "банер бафф"
+      },
+      "mix_buff": {
+        "description": "Банер, який змусить вас почуватися сильним."
+      },
+      "courage_aura_buff": {
+        "display_name": "Бафф аури Varanus"
+      },
+      "courage_buff": {
+        "description": "Бафф аури Варана, який наповнює гоблінів навколо хоробрістю."
+      },
+      "courage_aura_effect_buff": {
+        "display_name": "Бафф аури Varanus"
+      },
+      "courage_effect_buff": {
+        "description": "Бафф аури Варана, який наповнює гоблінів навколо хоробрістю."
+      },
+      "mix_effect_buff": {
+        "description": "Банер, який змусить вас почуватися сильним."
+      },
+      "mix_aura_effect_buff": {
+        "display_name": "банер бафф"
+      },
+      "essence_knowledge": {
+        "display_name": "Суть Знання",
+        "description": "Знання таємничого і механічного в одному."
+      }
+    },
+    "commands": {
+      "dismantle": {
+        "display_name": "Dismantle",
+        "description": "Натисніть, щоб демонтувати предмет."
+      }
+    }
+  }
+}

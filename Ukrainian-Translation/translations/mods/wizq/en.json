@@ -1,0 +1,577 @@
+{
+   "data": {
+      "gm": {
+          "campaigns": {
+		      "wizard_quest_campaign": {
+			     "dragon": {
+				    "sighted_bulletin": {
+					   "title": "Magic Dragons are invading! Town Alert!"
+				    }
+			     },
+				 "wolf": {
+				    "sighted_bulletin": {
+					   "title": "A Magic Wolf has appeared! Town Alert!"
+				    },
+					"sighted_bulletin2": {
+					   "title": "Greater Magic Wolf has appeared! Engage in Battle!"
+				    }
+			     },
+				 "wizard_dialogue": {
+				    "dialog_tree_info": {
+					   "dialog_nodes": {
+					      "msg1": {
+						     "bulletin_title": "The Wolf Wizard",
+							 "dialog_title": "A special visitor",
+							 "bulletin_message": "Greetings!  I am Klaus, of the North Old Territory.  Though I am more well known as the Wolf Wizard.<br><br>The Magical Wolf has sensed your Outpost and deemed you to be worthy of a test of courage.  Now that the Wolf has dematerialized, I see that you could use some help in defending your lands from other hostile forces. There is a way to become a user of the magic forces, to become a Wizard...",
+							 "choice": "A Wizard?"
+						  }
+					   }
+					}
+				 },
+				 "wolf_belt_gift": {
+                  "donation_dialog_info": {
+                     "dialog_nodes": {
+                        "simple_message": {
+                           "bulletin_message": {
+                              "00": "You have been able to defeat a Magical Wolf this day, and I bring to you an Ancient Wolf Belt. Equipping this, you may learn the ways of becoming a Wizard like myself.  However, along with enhanced energy skills comes a volatile force that changes your form into that of a Wolf beast from time to time.<br><br>Enjoy your quest for learning and harnessing the magic! <br><i>\"Elemental Energy, and Shapeshifting,\"</i> just equip yourself with this gift:"
+                           },
+                           "bulletin_title": "The Wolf Belt",
+                           "dialog_title": "The gift of Magic",
+                           "choice_000": "Thank You! 🐺"
+                        }
+                     }
+                  }
+               },
+			   "dialog_thanks": {
+                              "dialog_tree_info": {
+                                 "dialog_nodes": {
+                                    "msg1": {
+                                       "bulletin_message": {
+                                          "000": "I sensed a small pack of Magic Dragons in this area.  They rarely materialize from an Alternate Plane, and can be aggressive towards all, or become friendly towards another being if they choose it.<br><br>Did you happen to see them near your Settlement?"
+                                       },
+                                       "bulletin_title": "The sudden dragon appearance",
+                                       "dialog_title": "The Wolf Wizard comes",
+                                       "choice_000": "Yes! They came here",
+                                       "choice_001": "Nope, we didn't see any..."
+                                    },
+                                    "end_choice": {
+                                       "bulletin_message": {
+                                          "000": "Well, look here, another magical cloud is gathering into a Magic Dragon!<br>This one here seems friendly.  It looks like it wants to stay with you if you are willing to keep it.  They can be fierce protectors of their clan, and that would include you now!<br><p align='left'><font size=-1 color='#cccccc'>I will continue roaming these lands, remember Wizard, to craft and use your Spell books as they grant more attacks.</font></p>"
+                                       },
+                                       "bulletin_title": "Another Magic Dragon",
+                                       "dialog_title": "The Wolf Wizard",
+                                       "choice_000": "We will keep it! 🐲",
+                                       "choice_001": "Let it go away"
+                                    }
+                                 }
+                              }
+                },
+			   	 "wizard_dialogue2": {
+				    "dialog_tree_info": {
+					   "dialog_nodes": {
+					      "msg1": {
+						     "bulletin_title": "The Wolf Wizard Returns",
+							 "dialog_title": "Magical Wolf tested us again",
+							 "bulletin_message": "Your adeptness in Wizardry has attracted a Magical Wolf to your Town.<br><br>Once again, you have passed the test of courage.  And I have one more Wolf Belt to offer you, so that you may train a Wizard companion if you wish it...",
+							 "choice": "We accept it gratefully"
+						  }
+					   }
+					}
+				 },
+				 "wolf_belt_gift2": {
+                  "donation_dialog_info": {
+                     "dialog_nodes": {
+                        "simple_message": {
+                           "bulletin_message": {
+                              "00": "Everyone has their own inner Wolf form that they can morph into as a Wizard.<br><br>Your new Wizard can also choose to use a different spell book attack, for more damage variations. <br><i>\"Be brave, be strong!\"</i> Keep this final gift, and I will continue my journey to other lands, searching for more aspiring candidates... <br><p align='left'><font size=-1 color='#cccccc'>Wait for another message from me in two days time.</font></p>"
+                           },
+                           "bulletin_title": "Ancient Wolf Belt",
+                           "dialog_title": "For an Apprentice",
+                           "choice_000": "So long, Wolf Wizard! 🐺"
+                        }
+                     }
+                  }
+               },
+			   "wwizard_dialogue": {
+				    "dialog_tree_info": {
+					   "dialog_nodes": {
+					      "msg1": {
+						     "bulletin_title": "The Wolf Wizard Returns",
+							 "dialog_title": "A Wizardly Visit",
+							 "bulletin_message": "Well wishes to you, Wizard of [str(i18n_data.town_name)].  Your power has grown steadily now, and I'd like to spend a day here. Tell me of your new spells, and I'll tell you of mine!<br><br>Wizard, have you heard any strange rumbling noises, lately? An upheaval of the land can sometimes reveal old structures, long buried. Tomorrow, I'll conduct a search.<br><p align='left'><font size=-1 color='#cccccc'>I will report my findings back to you in a couple days.</font></p>",
+							 "choice": "Enjoy your stay, Klaus!"
+						  }
+					   }
+					}
+			   },
+			   "dialog_mission_start": {
+                              "dialog_tree_info": {
+                                 "dialog_nodes": {
+									"msg1": {
+                                       "bulletin_message": {
+                                          "000": "Alas, my journey may end here, amongst these old ruins.  The Magical Wolf inside me is struggling to be let loose...<br><br>You passed the Wolf's test long ago, but did you ever guess it could have been me?"
+                                       },
+                                       "bulletin_title": "A nearby rumbling is heard",
+                                       "dialog_title": "The Wolf Wizard",
+                                       "choice_000": "Huh.",
+                                       "choice_001": "Yes, we thought so."
+                                    },
+                                    "information": {
+                                       "bulletin_message": {
+                                          "000": "The conduction of magic for all these years has caught up with me, and I cannot keep its forces under control for much longer.<br><br>The price I pay will be my body and mind permanently changed into a monstrous Wolf Beast. Oh, no!"
+                                       },
+                                       "bulletin_title": "The Journey's End",
+                                       "dialog_title": "The Wolf Wizard",
+                                       "choice_000": "Frightening",
+                                       "choice_001": "Can we help you?"
+                                    },
+                                    "end_result": {
+                                       "bulletin_message": {
+                                          "000": "I have protected the lands for so long, but now...<br>Wizard, you must come here, and put an end to this!<br><br>Now, I am changed! Arrghh!<br>Grrr,  Whoever comes near, will be torn to shreds! Beware!<br><br><p align='left'><font size=-1 color='#cccccc'>Prepare for a tough battle with the Wolf Beast, and come when ready.  You can retreat and return later, if injured badly.</font></p>"
+                                       },
+                                       "bulletin_title": "The Final Meeting",
+                                       "dialog_title": "A Wolf Beast",
+                                       "choice_000": "If we must",
+                                       "choice_001": "We honor your request, Wizard!"
+                                    }
+                                 }
+                              }
+                },
+				"mission_reward": {
+                  "donation_dialog_info": {
+                     "dialog_nodes": {
+                        "simple_message": {
+                           "bulletin_message": {
+                              "00": "We have to choose how we wield our magic powers, for they can be used in acts of defense, or as a destructive force.<br><br>The Wizard showed us how to live a just life, but one day it all ends. We find an old red spell book on the ground with a note inside.<br><i>\"Use this spell to alter the Magnitude of your foes, it makes them weaker!  - Klaus\"</i><br><br> It's up to us now to find our way forward. We receive:"
+                           },
+                           "bulletin_title": "The Wizard's Knowledge",
+                           "dialog_title": "The Magnitude Spell Book",
+                           "choice_000": "OK! 📕"
+                        }
+                     }
+                  }
+               }
+		     },
+			 "cinder_quest_campaign": {
+			    "cinder_dialogue": {
+				    "dialog_tree_info": {
+					   "dialog_nodes": {
+					      "msg1": {
+						     "bulletin_title": "A hot fire floats nearby!",
+							 "dialog_title": "Cinder, the Fire Esper",
+							 "bulletin_message": "Aha! I knew there was a Wizard over here.<br><br>You may call me Cinder, and I may grant you a legendary Wizard hat, far better than you can craft yourself...<br>That is, if you want to be able to Burn down those monsters that attack you, the Fireball spell is best!  And I will make you an enchanted hat with some of my power.<br><br>Just craft me up some ingredients, ok?",
+							 "choice": "Fireballs? Yes!"
+						  }
+					   }
+					}
+				 },
+				 "cinder_hat_quest": {
+				    "title": "Quest for Fire",
+				    "dialog_title": "Quest for Fire"
+				 },
+				 "cinder_dialogue_2": {
+				    "dialog_tree_info": {
+					   "dialog_nodes": {
+					      "msg1": {
+						     "bulletin_title": "The hot fire returns...",
+							 "dialog_title": "Cinder, the Fire Esper",
+							 "bulletin_message": "Hey, are you sure you don't want to get this magic power?<br>I'll give you one last chance to get me the ingredients!  <br><br>If you really don't want to, then you can Abandon the quest this last time, and I'll never return.",
+							 "choice": "The Quest, final chance"
+						  }
+					   }
+					}
+				 },
+			     "cinder_hat_gift": {
+                  "donation_dialog_info": {
+                     "dialog_nodes": {
+                        "simple_message": {
+                           "bulletin_message": {
+                              "00": "Hi Wizard.<br><i>\"I grant you my powers of fire through this fine hat, as promised.\"</i><br>"
+                           },
+                           "bulletin_title": "Cinder comes back!",
+                           "dialog_title": "The Cinder Hat",
+                           "choice_000": "Great"
+                        }
+                     }
+                  }
+               }
+			 }
+		  }
+        },
+      "buffs": {
+	     "boss_buff": {
+            "display_name": "Magic Armor",
+            "description": "Beastly Stat Boosts!"
+         },
+		 "boss_cooldown_buff": {
+            "display_name": "Magic Armor Cooldown",
+            "description": "Waiting to regain Magic power"
+         },
+         "morphed": {
+            "display_name": "Polymorph",
+            "description": "Flowing power of an Altered Beast!"
+         },
+		  "weather": {
+		   "combo_weather_resist_buff": {
+		       "display_name": "Weather Resistor",
+               "description": "Wearing a Magical Outfit with resistance to environmental temperatures."
+		   }
+		 }
+      },
+	  "commands": {
+	    "wizard_mode": {
+		   "morph": {
+		     "display_name": "Enable Morph",
+             "description": "Allow wolf morphing during battle, for boosted close combat power."
+		   },
+		   "unmorph": {
+		     "display_name": "Focus Form",
+             "description": "Remain in original form, for frequent ranged magic power."
+		   }
+		},
+	    "wizard_spells": {
+		  "magic_missile": {
+		    "display_name": "Magic Missile",
+            "description": "The default Wizard magic spell."
+		  },
+		  "ice_spell": {
+		    "display_name": "Ice Spell",
+            "description": "Ice shards slow down the foe."
+		  },
+		  "bolt_spell": {
+		    "display_name": "Bolt Spell",
+            "description": "Lightning bolts weaken the foe's armor."
+		  },
+		  "magni_spell": {
+		    "display_name": "Magni Spell",
+            "description": "Magnitude magic changes the foe's size."
+		  }
+		}
+	  }
+   },
+   "entities": {
+       "magicwolf": {
+	      "dragon":{
+		     "display_name": "Magical Dragon",
+			 "description": "Aggressive, but also cute?",
+			 "species": "dragon"
+		   },
+		   "dragon_red":{
+		     "display_name": "Red Ash Dragon",
+			 "description": "A severely strong beast on a rampage.",
+			 "species": "dragon"
+		   },
+		   "dragon_green":{
+		     "display_name": "Lime Ash Dragon",
+			 "description": "Brutish Door breaking Dragon.",
+			 "species": "dragon"
+		   },
+	      "wolf":{
+		     "display_name": "Magical Wolf",
+			 "description": "Seeking out worthy candidates."
+		   },
+		   "wolfboss":{
+		     "display_name": "Wolf Beast",
+			 "description": "The final form of the old Wizard."
+		   }
+	   },
+	   "npc": {
+	     "male": {
+	      "wolf_wizard":{
+		     "display_name": "The Wolf Wizard",
+			 "description": "Ancient Wizard of Wolves."
+		   }
+		  }
+	   },
+	   "containers": {
+	     "input_shelf_wizard_stone": {
+		    "input_shelf_wizard_stone_ghost": {
+			  "display_name": "Wizard Supply Shelf",
+			  "description": "A supply shelf for powder flakes."
+			}
+		 }
+	   },
+       "resources": {
+	     "refined": {
+		   "amethyst_flakes":{
+		     "display_name": "Amethyst Powder",
+			 "description": "Purple colored gem dust."
+		   },
+		   "aquamarine_flakes":{
+		     "display_name": "Aquamarine Powder",
+			 "description": "Blue colored gem dust."
+		   },
+		   "wizard_powder": {
+		     "display_name": "Wizard Powder Flakes"
+		   }
+		 }
+	   },
+	   "armor": {
+	     "ice_book": {
+		   "display_name": "Ice Spell Book",
+		   "description": "The knowledge of frigid elemental attacks."
+		 },
+		 "bolt_book": {
+		   "display_name": "Bolt Spell Book",
+		   "description": "The knowledge of electrical elemental attacks."
+		 },
+		 "magni_book": {
+		   "display_name": "Magni Spell Book",
+		   "description": "The knowledge of magnitude attacks."
+		 },
+		 "wizard_robe": {
+		    "display_name": "Wizard Robe",
+			"description": "An enhanced Wizard Robe with a leather chestguard.", 
+		    "wizard_robe_iconic": {
+               "display_name": "Wizard Robe",
+               "description": "Moderate defence from injuries."
+            }
+         }
+	  },
+	  "tools": {
+	    "wizard_morph_toggler": {
+		  "display_name": "Morph Control",
+		  "description": "Device that can allow or inhibit a Wizard's morph skill."
+		}
+	  },
+	   "weapons": {
+		 "wizard_staff": {
+		    "display_name": "Wizard Staff",
+            "description": "A long staff with magic gems embedded into the tri-prong.", 
+            "wizard_staff_iconic": {
+               "display_name": "Wizard Staff",
+               "description": "Dark material magic staff."
+            }			
+         },
+		 "magic_shot": {
+		    "display_name": "Magic Shot",
+            "description": "Magic spell energy shot."    
+		 },
+		 "wizard_shot": {
+		    "display_name": "Wizard Shot",
+            "description": "Magic Missles home in on a target."    
+		 }
+      }
+   },
+   "jobs": {
+     "na_wizard": {
+         "wizard_description": {
+            "level_1_data": {
+               "hunting_perk_name": "Hunting",
+               "hunting_perk_description": "A Northern Alliance Wizard is naturally adept at animal tracking, and can hunt animals for food and other resources."
+            }
+         }
+      },
+     "wizard": {
+         "wizard_description": {
+            "display_name": "Wizard",
+            "description": "The Wizard casts powerful elemental spells, and morphs into a Demi Wolf.",
+            "requirements": "Receive as a Gift",
+            "level_1_data": {
+               "perk_000_name": "Magic Missle",
+               "perk_000_description": "Magic Missles are conjured and home in on the enemy."
+            },
+            "level_2_data": {
+               "perk_000_name": "Wolf Claws",
+               "perk_000_description": "A slashing attack makes the enemy rage.",
+			   "perk_001_name": "Morphed",
+               "perk_001_description": "Periodic morphing into a Demi Wolf."
+            },
+            "level_3_data": {
+               "perk_000_name": "Crafting Knowledge",
+               "perk_000_description": "The Wizard can begin crafting magic goods."
+            },
+            "level_4_data": {
+               "perk_000_name": "Poison Cloud",
+               "perk_000_description": "An attack which creates a thick toxic gas, spreading to all foes in the area."
+            },
+            "level_5_data": {
+               "perk_000_name": "Attuned",
+               "perk_000_description": "Wolf Morphing is mastered and more powerful."
+            },
+            "level_6_data": {
+               "perk_000_name": "Lava Scorch",
+               "perk_000_description": "A great magic attack releasing lava that burns and damages all foes in the zone."
+            }
+         },
+         "wizard_buffs": {
+		    "morphing_buff": {
+               "display_name": "Morphing",
+               "description": "Gathering power to Polymorph"
+            },
+		    "wolf_claws": {
+               "display_name": "Wolf Claws",
+               "description": "Wolf scratch decreases armor, increases muscle"
+            },
+            "poison_cloud": {
+               "display_name": "Poison Cloud",
+               "description": "Health steadily lost from toxic gas"
+            },
+			"magma": {
+               "display_name": "Lava Scorched",
+               "description": "Steadily hurt by hot Lava"
+            },
+            "ice_spell": {
+               "display_name": "Frozen",
+               "description": "Slowed by Wizard Ice Magic"
+            },
+			"bolt_spell": {
+               "display_name": "Shocked",
+               "description": "Armor weakened by Wizard Bolt Magic"
+            },
+			"magni_spell": {
+               "display_name": "Magnitude",
+               "description": "Size changed by Wizard Magic, foe is weakened"
+            },
+			"magnib_spell": {
+               "display_name": "Magnitude",
+               "description": "Size changed by Dragon Magic"
+            }
+         },
+		 "wizard_workbench": {
+            "wizard_workbench_ghost": {
+               "display_name": "Wizard Workbench",
+               "description": "A magical crafting bench."
+            }
+         },
+         "wizard_outfit": {
+            "display_name": "Wizard Outfit",
+            "description": "Garment to allow for light quick movements, provides meager protection."
+         },
+         "wizard_belt": {
+            "display_name": "Wolf Belt",
+			"description": "An ancient belt with a Wolf emblem, which grants polymorphing.",
+            "wizard_belt_iconic": {
+               "display_name": "Wolf Belt",
+			   "description": "An ancient belt with a Wolf emblem, granting polymorphing."      
+            },
+            "wizard_belt_talisman": {
+               "display_name": "Wolf Belt",
+			   "description": "Required to promote to Wizard." 
+            }
+         },
+		 "wizard_wand": {
+		    "display_name": "Wizard Wand",
+			"description": "Dark wood with a metallic striking head, its green jewels can channel magic forces.",
+			"wizard_wand_iconic": {
+               "display_name": "Wizard Wand",
+               "description": "Magic force chaneller tool."
+            }
+		 },
+		 "wizard_hat": {
+		    "display_name": "Wizard Hat",
+			"description": "A wide brimmed, sturdy hat for Wizards.",
+			"wizard_hat_iconic": {
+               "display_name": "Wizard Hat",
+               "description": "A wide brimmed tall hat."
+            }
+		 },
+		 "wizard_hat_fire": {
+		    "display_name": "Cinder Hat",
+			"description": "Wizard Hat of the Fireball: burns foes.",
+			"wizard_hat_fire_iconic": {
+               "display_name": "Cinder Hat",
+               "description": "Wizard Hat of the Fireball: burns foes."
+            }
+		 },
+		 "recipes": {
+            "wizard_workbench_recipe": {
+               "recipe_name": "Wizard Workbench",
+               "description": "Allows a Wizard to craft new items.",
+               "flavor": "Built from an old tree stump, with magic crystals emitting their glowing light."
+            },
+			"wizard_stone_shelf_recipe": {
+               "recipe_name": "Wizard Supply Shelf",
+               "description": "Supply storage for Wizard powder.",
+               "flavor": "Can hold 12 pouches of Aquamarine and Amethyst Powder."
+            },
+			"morpher_toggle_recipe": {
+               "recipe_name": "Morph Control",
+               "description": "A tool to have control over the morphing skill.  Grants a command to allow, or inhibit the morph skill.",
+               "flavor": "Useful to regain the command after being incapacitated."
+            },
+			"wizard_hat_recipe": {
+               "recipe_name": "Wizard Hat",
+               "description": "A large hat to protect the head.",
+               "flavor": "It looks kinda funny."
+            },
+			"wizard_staff_recipe": {
+               "recipe_name": "Wizard Staff",
+               "description": "A Gem infused magical Staff.",
+               "flavor": "It looks kinda serious..."
+            },
+			"wizard_robe_recipe": {
+               "recipe_name": "Wizard Robe",
+               "description": "A sturdy reinforced robe.",
+               "flavor": "Magic powder infusion adds protection."
+            },
+			"ice_book_recipe": {
+               "recipe_name": "Book of Ice",
+               "description": "Teaches spellcasting of Ice Magic.",
+               "flavor": "Ice magic reduces speed on the target. Wizard can change which spell type is active with the command button."
+            },
+			"bolt_book_recipe": {
+               "recipe_name": "Book of Lightning",
+               "description": "Teaches spellcasting of Bolt Magic.",
+               "flavor": "Bolt magic reduces armor on the target. Wizard can change which spell type is active with the command button."
+            },
+			"amethyst_flakes_recipe": {
+               "recipe_name": "Amethyst Powder",
+               "description": "Purple gem flaked powder.",
+               "flavor": "Draw out elements from resources and convert into powder."
+            },
+			"aquamarine_flakes_recipe": {
+               "recipe_name": "Aquamarine Powder",
+               "description": "Blue gem flaked powder.",
+               "flavor": "Draw out elements from resources and convert into powder."
+            },
+			"coal_recipe": {
+               "recipe_name": "Coal",
+               "description": "Created lump of coal.",
+               "flavor": "I guess this could be made in a firepit instead..."
+            },
+			"copper_recipe": {
+               "recipe_name": "Copper Ore",
+               "description": "Transmuted ore.",
+               "flavor": "Manipulating matter time!"
+            },
+			"tin_recipe": {
+               "recipe_name": "Tin Ore",
+               "description": "Transmuted ore.",
+               "flavor": "Can this be made into a can?"
+            },
+			"iron_recipe": {
+               "recipe_name": "Iron Ore",
+               "description": "Transmuted ore.",
+               "flavor": "Ahh, the useful metal"
+            },
+			"silver_recipe": {
+               "recipe_name": "Silver Ore",
+               "description": "Transmuted ore.",
+               "flavor": "Isn't this transmuting magic convenient?"
+            },
+			"gold_recipe": {
+               "recipe_name": "Gold Ore",
+               "description": "Transmuted ore.",
+               "flavor": "The feat of an Alchemist"
+            },
+            "workbenches_name": "Workshop",
+			"magic_powders_name": "Magic Books & Powders",
+			"equipment_name": "Equipment",
+			"ores_name": "Ore Transmuting"
+         }
+      } 
+   },
+   "ui": {
+			"wizard": {
+             "display_name": "Wizard Craft Menu",
+             "description": "Crafts magical equipment and items.",
+             "requirements": "Requires a Wizard."
+            },
+			"stockpile": {
+			  "filters": {
+			    "wizard_goods": "Wizard Goods"
+			  }
+			}
+         }
+}

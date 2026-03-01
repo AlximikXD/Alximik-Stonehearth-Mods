@@ -1,0 +1,257 @@
+{
+   "mixins": "/stonehearth_ace/locales/locales_mixin.json",
+   "ui": {
+      "game": {
+         "citizens": {
+            "workers_list_headers": {
+               "morale": "Mood"
+            }
+         }
+      },
+      "shell": {
+         "loading_screen": {
+            "loading_map_flavor_text": {
+               "017": "splining reticulators...",
+               "034": "baking cookies...",
+               "035": "spinning poyos...",
+               "036": "milking moo-moos...",
+               "037": "finishing fishes...",
+               "038": "spreading fungi...",
+               "039": "contemplating marble...",
+               "040": "searching for coal...",
+               "041": "still expecting dwarves...",
+               "042": "hugging bunnies...",
+               "043": "finding bugs...",
+               "044": "admiring titles...",
+               "045": "irrigating fields...",
+               "046": "training goblins...",
+               "047": "singing to flowers...",
+               "048": "trimming the world borders...",
+               "049": "breaking something...",
+               "050": "waking up hearthlings...",
+               "051": "herding wombats...",
+               "052": "cleaning workbenches...",
+               "053": "recharging moonbells...",
+               "054": "chilling frostsnaps...",
+               "055": "loading very slowly...",
+               "056": "taking a really long time...",
+               "057": "brewing adventure...",
+               "058": "polishing boulders...",
+               "059": "adding to the pottage...",
+               "060": "setting up merchants...",
+               "061": "digging up bones...",
+               "062": "smoothing the silk...",
+               "063": "traveling to the far east..."
+            },
+            "tips": {
+               "001": "Your hearthlings will get a better night's sleep if you provide beds for them.",
+               "006": "Use the < and > keys to rotate an item or building before placing it.",
+               "007": "Your hearthlings move faster on roads.",
+               "009": "Sitting during a meal helps with digestion. Build tables and chairs for your hearthlings.",
+               "012": "Resources and Food do not contribute to your town net worth.",
+               "013": "The curiosity attribute increases experience gain.",
+               "015": "The net worth of an item is its sell value.",
+               "016": "You can use a tunnel door to block off your mining tunnel entrances.",
+               "018": "Settlers with a high Mind attribute will make good crafters.",
+               "023": "You can actually see ore veins in the side of mountains.",
+               "025": "After defeating the Goblin Chieftain, you can claim Bluebell the sheep as your own.",
+               "026": "Your hearthlings don't like being in cramped spaces for too long.",
+               "027": "Farm animals can reproduce if there are at least 2 of the same animals in a pen.",
+               "028": "Use \"shift + ,\" to sink your building template's foundation before placing it.",
+               "000": "Workers can automatically build ladders while digging! There are ACE-specific settings for toggling automatic ladder building, enabled by default.",
+               "002": "Build pens around your pastures to make sure shepherded animals stay put, and don't forget about shelter and a manger for food!",
+               "003": "Stockpiles can be changed to hold specific kinds of items but are very inefficient. Try using only crates, chests and other containers as soon as you can!",
+               "004": "You can farm certain crops like silkweed or cotton for a steady supply of thread fiber.",
+               "005": "A well-fed town is a happy town. And if they also have quality drinks, they'll be even happier!",
+               "008": "The Weaver can craft weather-specific clothing or new uniforms that increases the effectiveness of your workers.",
+               "010": "Shepherds will automatically find the first two animals to start a pasture.",
+               "011": "If you want a higher net worth, try selling your items to a merchant for gold. Some merchants will pay more for certain things, so always keep an eye out!",
+               "014": "Quality items have a higher net worth and appeal than their regular quality versions.",
+               "017": "Don't want your hearthlings to leave town? The Engineer can make locks for doors.",
+               "019": "Place supply containers closer to work areas so it's easier for your hearthlings to access food and building resources, for example.",
+               "020": "Trappers can set traps anywhere, but wilder areas with vegetation and no signs of civilization will always be better.",
+               "021": "You can disable a combat unit's job in the Citizens panel to force them to take a rest from fighting and help with simple tasks like hauling.",
+               "022": "Mining dirt will occasionally yield clay, stone, and rarities like bones.",
+               "024": "Need a starting food source? Look for fruit bushes or edible fungi and move them closer to you!",
+               "029": "Pasture animals will always go for pasture beds when the weather is bad for them. Place these under a roof to protect them!",
+               "030": "With a feeding manger you can make sure your pasture animals always have enough fodder available to them.",
+               "031": "Pets will try to sleep on the pet bed that is closest to their owner's bed. Keep a food bowl nearby for even more comfort.",
+               "032": "Fodder is enough to keep an animal healthy but only specific foods will increase the quality of animal products.",
+               "033": "You can choose a desirable amount of animals to keep in a pasture, beyond which they will automatically be slaughtered.",
+               "034": "You can rename animals in a pasture and Shepherds will never automatically slaughter named creatures.",
+               "035": "Farmer crops have different and specific needs. You can find out about them by hovering your mouse over all the icons on the Farm Plot window!",
+               "036": "Different weathers and different biomes have dynamic values for humidity and sunlight. Try to optimize your farms as much as you can!",
+               "037": "Sunlight is very important for most Farmer crops. Buildings and obstacles that obstruct the sun on the east-west axis will also affect it!",
+               "038": "Humidity is very important for many Farmer crops, although some of them can thrive with little or no water at all!",
+               "039": "Although uncommon, a Farmer crop might require water in specific amounts or ways to grow. For example, Paddy requires the Farm Plot to be flooded.",
+               "040": "Having no water isn't optimal for Farmer crops, but excessive water might not be good either. Make sure to always check the Farm Plot window!",
+               "041": "Fertilizers can be crafted by the Shepherd and are very efficient in increasing the quality of Farmer crops.",
+               "042": "Utilizing high quality resources and materials will yield higher quality products that are worth more and are more appealing.",
+               "043": "New workers are equipped with a set of Bronze Tools that can be replaced with faster and more efficient Iron and Steel tools made by the Blacksmith.",
+               "044": "Chopping firewood is an easy and reliable source of fuel until you can produce charcoal or mine coal.",
+               "045": "Harvesting fungi will destroy the wild spawn; maintaining a steady production of fungi requires the expertise of a dwarven Grower...",
+               "046": "The Herbalist is able to produce Farmer Seeds of most plants and trees from the biome you settle in, as well as most of the crops known to your kingdom.",
+               "047": "Different cold weathers will have different levels of cold. Blizzards can be very dangerous but fires and specific clothing can ease the effects.",
+               "048": "Hearthlings that go into the water on chilly, cold or freezing days will be hurt by the freezing waters.",
+               "049": "Hearthlings that go into the water on hot days will be refreshed for a while. Bath time!",
+               "050": "Be wary of wild animal dens and caves when settling. Wild wolves or bears aren't particularly strong but can cause trouble early on.",
+               "051": "Always make sure to keep a varied and hearty diet for your hearthlings. Many of them can have specific food preferences, intolerances, or tastes.",
+               "052": "Mega Crops have varied and unique rewards from each kind of crop.",
+               "053": "During autumn and winter, hearthlings prefer to wear warm clothing over clothing that provides bonuses.",
+               "054": "Having a good fuel stockpile with different grades and types will allow your crafters to optimize your production lines.",
+               "055": "Firewood, Charcoal, and Coke are examples of crafted fuels that will greatly increase the number of uses of a fuel item.",
+               "056": "An enhanced anvil or furnace can replace your older ones in all functions and will allow you to smelt metals more efficiently.",
+               "057": "Hard Coal can be found in coal veins. Mining and trading are the only ways to acquire it!",
+               "058": "Carpenters can carve beautiful furniture out of those pesky fallen logs lying around!",
+               "059": "Masons can sculpt awesome statues out of the otherwise boring marble boulders!",
+               "060": "Different weapons and armor have additional advantages and disadvantages beyond their damage and protection values. Read all the tooltips!",
+               "061": "Short Swords are often considered a Knight's sidearm and will provide no benefits other than a free hand for a trustworthy shield.",
+               "062": "Maces and hammers are efficient Knight's weapons that will crush the armor of their target, exposing enemies to more allied damage.",
+               "063": "Polearms, like spears and halberds, are usually used by Knights and are really good at putting fear in the hearts of enemy crowds at the cost of less protection.",
+               "064": "Long swords are versatile slashing weapons and can be used by footmen to hinder the mobility of enemies.",
+               "065": "Axes and other lighter, hacking weapons can be utilized by footmen for increased armor penetration against enemies.",
+               "066": "Two-handed weapons are extremely strong and powerful pieces of equipment, possessing a higher base damage and inflicting wounds that hurt enemies over time.",
+               "067": "Bows and Crossbows are both efficient ranged weapons. Bows can be faster but crossbows are often stronger, especially against armor.",
+               "068": "Light and medium armor can be worn by footmen while heavy armor is usually restricted to Knights. The more armored a hearthling is, the braver they will be!",
+               "069": "You can switch what kind of equipment a soldier will prefer by using the toggle button in their unit frame.",
+               "070": "Weapons can get titles and renown over time, depending on the feats of their users. A titled weapon can be freely renamed by the player.",
+               "071": "Hearthlings can gain different titles during the course of their lives, depending on what amazing and noble—or ignoble—feats they achieve!",
+               "072": "Many wild animals can provide some sort of interesting resource or benefit to the observant player that explores their surroundings.",
+               "073": "You can sometimes find ore while mining common rock, but the most reliable source of ore is mining actual veins.",
+               "074": "Algae have some culinary uses but can also be dried and used as a robust herb by the Herbalist.",
+               "075": "Wondering what something is? If an object or creature has an information icon next to their name, click it to learn more!",
+               "076": "Any lower-grade fuel can be used to light the hearth, including peat or brown coal.",
+               "077": "Dry Grass can easily be found if you harvest grassy plants like shrubs, or simply dig the grass layer.",
+               "078": "Trapping zones for big game might—although rarely—attract bears and other large wild animals.",
+               "079": "Firewood holders and sheds are very efficient ways of storing fuel.",
+               "080": "Ball Clay can easily be found in large mining deposits, in boulders, or at the bottom of water bodies like lakes.",
+               "081": "Hot meals and beverages like tea, stews, and soups will provide hearthlings with a bonus that protects them from cold weather for some time.",
+               "082": "Cold or refreshing meals and beverages like juices or yogurt will provide hearthlings with a bonus that protects them from hot weather for some time.",
+               "083": "Trees and other plants present in the world when you settle will not grow bigger.",
+               "084": "You can hold the SHIFT key when clicking the \"Craft!\" button to send that recipe to the top of their queue! Holding CTRL will add a Maintain Order - or add to an existing one!",
+               "085": "Drinks can boost your citizens with several different effects. Make sure to check them out!",
+               "086": "If you can't provide your hearthlings with prepared drinks yet, make sure to at least build them a water well.",
+               "087": "Thirst will not hurt your citizens. Just their feelings!",
+               "088": "Make sure to always offer alternatives to alcoholic drinks. No one wants all their citizens being excessively merry all day long!",
+               "089": "Hearthlings will always prefer a drink that is more appropriate to the current time of the day, except when they really love something else.",
+               "090": "Tea will greatly boost the qualities of all crafted products, although it also makes crafting a bit slower. Balance requires patience!",
+               "091": "Poisons and Toxins? Poisons last a long time and will slowly chip health away; Toxins disappear quickly but have more immediate effects.",
+               "092": "Drinks like milks or juices are considered simple while more complex, flavorful brewings like spirits or beer are considered prepared.",
+               "093": "Chitin armor can be crafted by the Weaver and will protect a lower level Footman against simple poisons and toxins.",
+               "094": "Sleeping is important! Make sure to provide comfortable bedrooms and personally assigned beds for your hearthlings.",
+               "095": "Dreaming of sheep rave parties? Click on your hearthlings while they're sleeping to see if they're having good or bad dreams...",
+               "096": "Fruit and nut trees take a long time to mature but will bear their produce even when small. The longer they grow, the better their yield will be.",
+               "097": "If starting during the Autumn, look around. There might be some extra food sources like nut trees before the winter!",
+               "098": "You can temporarily pause either crafter queue individually by clicking their signs on the top right of the crafting screen.",
+               "099": "Crafted Bee Skeps require Captive Bees before they can work. Cut some trees and you might find a nest or two lying around!",
+               "100": "An enhanced Herbalist cauldron can replace your older one in all functions and will allow you to craft advanced healing items or enhanced tonics.",
+               "101": "A brick oven and cooking pot can replace your older ones in all functions and will allow you to craft the finest dishes.",
+               "102": "Wells are built faster if they're placed close to the water. Make sure to leave space for the well upgrades and for the crank to be used!",
+               "103": "You can hold the SHIFT key when clicking the \"Build\" button to make sure that all the items for that building will be queued at the top of their queues!",
+               "104": "Remember to craft and use Exploration Gardens and Exploration Tubs to find and unlock new types of herbs for Herbalist planters.",
+               "105": "Herbs can be cultivated in Herbalist planters, crafted by Herbalists themselves. All the kingdoms start with some herbs unlocked.",
+               "106": "Always start looking for \"Native\" plants in Herbalist Exploration Gardens. After you've got a basic collection of herbs, then go for exotic ones!",
+               "107": "You may click the firepit on the center of the goblin encampment to order your citizens to remove the hole in the terrain. Just make sure the goblins are gone!",
+               "108": "Varanus or Zilla skins can be used as leather straight up, without refining!",
+               "109": "You can click the Campfire Pot (Pottage) to see the current stage and what ingredient is needed for the next stage.",
+               "110": "You can expand a hearthling's list of titles by clicking the Information icon right next to their name when selected. There you can also see their total renown!",
+               "111": "Disabling a merchant category in the Mercantile Overview will completely prevent visits of merchants from that category.",
+               "112": "Merchants will arrive over the morning and leave at the end of the day. High net worth and a positive trading history will attract more merchants!",
+               "113": "Using a piece of cloth, you can upgrade counters into shop counters. Items displayed on those can be purchased by travelers or other players in multiplayer.",
+               "114": "Having a counter desk will boost the value of all the items sold within a dozen tiles by +12%!",
+               "115": "You can tell what kind of foodstuff you're seeing just by looking at the basket! Each kind of item has a unique basket shape.",
+               "116": "Right clicking the name of a hearthling you have selected will allow you to change their current title. Use the lock icon to keep that selection locked!",
+               "117": "There are dozens of useful and interesting settings that you can customize in ACE. try checking them out in the Settings menu, under Gameplay!",
+               "118": "Nights with shooting stars are somewhat rare but might bring incredible rewards... Keep your eyes (and your ears!) sharp!",
+               "119": "Exclusive Merchants are special merchants that require a certain structure to be able to visit. Try looking for all of them; some will offer unique stuff!",
+               "120": "Higher game difficulties will also have higher requirements for getting new citizens and merchants. Likewise, it's much easier to get new citizens and merchants on \"Peaceful\" difficulty!",
+               "121": "Harvest the ruins of crypts to acquire some extra resources like stone and wood... if you can defeat its unholy protectors!",
+               "122": "All wounds have a category, each with a specific type of healing item with multiple tiers. Any tier can be used, but lower tier medicine will require more than one treatment!",
+               "123": "Missing a certain herb? Need some extra dry grass? Maybe some emergency food? Don't forget about the \"Foraging Tool\"! Just drag it over a wild area to try your luck.",
+               "124": "Some baked goods are made of doughs that require leavening before they can be cooked. Use a \"Leavening Table\" to let them rise!",
+               "125": "Most prepared food will take much longer than raw food to spoil, but it can still go bad! Use cooling boxes or the Engineer's refrigerators to prevent waste.",
+               "126": "Different weapon choices will inflict different kinds of penalties on your enemies. Try going for a combination of multiple weapon types for an invincible party!",
+               "127": "You can use the \"Guard Location\" command on Archers to position them on higher ground like walls and towers during combat. Just make sure they have line of sight!",
+               "128": "You can harvest lilies and lily pads by dragging the \"Harvest Tool\" on the lakebed beneath them.",
+               "129": "Never refuse a bone to Rattley. BONES!",
+               "130": "Many items, like small pasture beds or fluid casks, can be placed hanging from walls so that they can be more optimally used in building templates.",
+               "131": "Several containers can be reached from a lower position like casks and supply shelves, allowing you to stack 'em higher on walls.",
+               "132": "The Cook can use vegetables or fruits to make preserves like pickles or jam. These ingredients can be used in lots of recipes and will last a very long time.",
+               "133": "Friendly strangers will often visit your town with tips and advice on different game mechanics. They will also leave you gifts on \"Peaceful\" or \"Gentle\".",
+               "134": "Keep an eye on the weather forecast! Preparation is essential and you'll find it very helpful to know about blizzards or sandstorms ahead of time.",
+               "135": "Sometimes the weather can turn for the better in the middle of a day... or for the worse. Always read the current weather information to be well prepared!",
+               "136": "Cleric Scepters are more than just a reliable blunt weapon: they work particularly well against the undead.",
+               "137": "Certain plants—like beetroots or garlic—are somewhat common and, because of that, will have their Farmer seeds available to be crafted by an Herbalist.",
+               "138": "The more items from the same category crafted by someone, the more proficient at getting better qualities on these items they are.",
+               "139": "Shepherded poyos, ducks and ostriches will sometimes drop some feathers which can be used! It's not always needed to slaughter them for feathers!",
+               "140": "You can read about the priority of each crafting queue by hovering your mouse over their signs on the top right of the crafting screen!",
+               "141": "You can edit existing orders by double-clicking them on the crafting queues. This allows you to quickly send it to the bottom or top, change the maintain amount or swap their queues!"
+            }
+         },
+         "select_roster": {
+            "reembark_button": "Reembark"
+         }
+      }
+   },
+   "data": {
+      "gm": {
+         "campaigns": {
+            "trader": {
+               "returning_collector_encounter": {
+                  "waiting_text": "The explorer will be back in [str(i18n_data.hour_counter)] [str(i18n_data.period)] to give you <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> if you have <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)] <span class='numCached'>([str(i18n_data.req_1.quantity)])</span></strong><img class='questItemsCached [str(i18n_data.req_1.items_cached_class)]'/> ready for them!"
+               },
+               "returning_trader_encounter": {
+                  "waiting_text": "The trader will be back in [str(i18n_data.hour_counter)] [str(i18n_data.period)] to give you <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> if you have <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)] <span class='numCached'>([str(i18n_data.req_1.quantity)])</span></strong><img class='questItemsCached [str(i18n_data.req_1.items_cached_class)]'/> ready for him!"
+               },
+               "returning_crop_trader_encounter": {
+                  "waiting_text": "The trader will be back in [str(i18n_data.hour_counter)] [str(i18n_data.period)] to give you [str(i18n_data.reward_item)] if you have <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)] <span class='numCached'>([str(i18n_data.req_1.quantity)])</span></strong><img class='questItemsCached [str(i18n_data.req_1.items_cached_class)]'/> ready for him!"
+               }
+            }
+         }
+      },
+      "hotkeys": {
+         "keys": {
+            "build_visdown": {
+               "display_name": "Building Vis Down"
+            }
+         }
+      }
+   },
+   "entities": {
+      "crops": {
+         "carrot_crop": {
+            "growth_stage": {
+               "000": {
+                  "description": "An unrealized carrot."
+               }
+            }
+         },
+         "pumpkin_crop": {
+            "growth_stage": {
+               "000": {
+                  "description": "An unrealized pumpkin."
+               }
+            }
+         },
+         "watermelon_crop": {
+            "growth_stage": {
+               "000": {
+                  "description": "An unrealized watermelon."
+               }
+            }
+         },
+         "turnip_crop": {
+            "growth_stage": {
+               "000": {
+                  "description": "An unrealized turnip."
+               }
+            }
+         }
+      },
+      "gizmos": {
+         "charging_pedestal": {
+            "charging_display_name": "[str(self.stonehearth:unit_info.custom_name)] [[str(self.stonehearth:unit_info.custom_data.percent_charge)]%]"
+         }
+      }
+   }
+}

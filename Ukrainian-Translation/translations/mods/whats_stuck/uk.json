@@ -1,0 +1,42 @@
+{
+  "ui": {
+    "game": {
+      "whats_stuck": {
+        "title": "Що застрягло?",
+        "tab": {
+          "citizens": "Hearthlings",
+          "items": "Items",
+          "enemies": "Enemies",
+          "buildings": "Будинки (скоро!)"
+        },
+        "no_hearth": {
+          "name": "Вогнище вашого міста не знайдено",
+          "description": "Переконайтеся, що вогнище вашого міста знаходиться десь у світі. Щоб визначити, чи застряг він, використовується інформація про те, чи є у родини життєздатний шлях до вогнища вашого міста."
+        },
+        "citizens_list_headers": {
+          "name": "Name",
+          "time": "Час застряг"
+        },
+        "items_list_headers": {
+          "name": "Name",
+          "time": "Час не вдалося поповнити"
+        },
+        "buildings_list_headers": {
+          "name": "Name",
+          "time": "Час застряг"
+        },
+        "enemies_list_headers": {
+          "name": "Name",
+          "kingdom": "Kingdom",
+          "time": "Час застряг"
+        }
+      },
+      "menu": {
+        "whats_stuck_manager": {
+          "display_name": "Що застрягло?",
+          "description": "Якщо вогник або щось інше застрягне у вашому місті, ви отримаєте сповіщення тут!"
+        }
+      }
+    }
+  }
+}

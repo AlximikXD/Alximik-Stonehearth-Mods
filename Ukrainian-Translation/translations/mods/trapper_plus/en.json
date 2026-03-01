@@ -1,0 +1,1744 @@
+{
+  "na_rug_pelt_wolf": {
+    "recipe_name": "Black Wolf Pelt Rug",
+    "display_name": "Black Wolf Pelt Rug"
+  },
+  "armor": {
+    "leather": {
+      "display_name": "Leather Vest",
+      "description": "Leather provides sturdy protection against light weapons.",
+      "flavor": "Insults bounce right off too!",
+      "i_description": "Leather provides sturdy protection."
+    }
+  },
+  "trapper": {
+    "recipes": {
+      "butchering": {
+        "pork_display_name": "Raw Pork Cuts (x4)",
+        "pork_description": "Slice a piece of Raw Pork, producing four units of raw pork cuts that can be used as meat in cooking, cured or smoked.",
+        "pork_flavor": "Pork cuts are considered red meat",
+        "pork_2_display_name": "Raw Bacon (x2)",
+        "pork_2_description": "Slice a piece of Raw Pork, producing two units of raw bacon that can be used cooking or smoked.",
+        "pork_2_flavor": "Bacon is considered red meat. Raw Bacon can be directly smoked into its best cured form",
+        "duck_display_name": "Raw Duck Cuts (x2)",
+        "duck_description": "Slice a piece of Duck Meat, producing two units of raw duck cuts that can be used as meat in cooking, cured or smoked.",
+        "duck_flavor": "Duck cuts are considered small white meat",
+        "mutton_display_name": "Raw Mutton Cuts (x2)",
+        "mutton_description": "Slice a piece of Raw Mutton, producing two units of raw mutton cuts that can be used as meat in cooking, cured or smoked.",
+        "mutton_flavor": "Mutton cuts are considered small red meat",
+        "venison_display_name": "Raw Venison Cuts (x3)",
+        "venison_description": "Slice a piece of Raw Venison, producing three units of raw venison cuts that can be used as meat in cooking, cured or smoked.",
+        "venison_flavor": "Venison cuts are considered small game meat",
+        "steak_display_name": "Raw Beef Cuts (x2)",
+        "steak_description": "Slice a piece of Raw Steak, producing two units of raw beef cuts that can be used as meat in cooking, cured or smoked.",
+        "steak_flavor": "Beef cuts are considered red meat",
+        "varanus_display_name": "Raw Varanus Cuts (x3)",
+        "varanus_description": "Slice a piece of Raw Varanus, producing three units of raw varanus cuts that can be used as meat in cooking, cured or smoked.",
+        "varanus_flavor": "Varanus cuts are considered small game meat",
+        "poyo_display_name": "Raw Poyo Cuts (x2)",
+        "poyo_description": "Slice a piece of Poyo Meat, producing two units of raw poyo cuts that can be used as meat in cooking, cured or smoked.",
+        "poyo_flavor": "Poyo cuts are considered small white meat",
+        "poultry_display_name": "Raw Poultry Cuts (x3)",
+        "poultry_description": "Slice a piece of Raw Poultry, producing three units of raw poultry cuts that can be used as meat in cooking, cured or smoked.",
+        "poultry_flavor": "Poultry cuts are considered small white meat",
+        "fish_display_name": "Fish FIllet (x2)",
+        "fish_description": "Slice a fish, producing two units of fish meat that can be used as meat in cooking, cured or smoked.",
+        "fish_flavor": "",
+        "fish_big_display_name": "Fish Fillet (x3)",
+        "fish_big_description": "Slice a piece of Big Fish Meat, producing three units of fish meat that can be used as meat in cooking, cured or smoked.",
+        "fish_big_flavor": "No one will believe how big it was, after you slice it!"
+      },
+      "pickles_recipe": {
+        "recipe_name": "Jar of Pickles (x3)",
+        "description": "Bold, spicy flavors. Not as efficient as a Cook's recipe, but it will do. Can replace 'Any Vegetable' in many recipes.",
+        "flavor": "Preserves are a good way to make raw foodstuffs last a lot longer than they usually would"
+      },
+      "jam_fruit_recipe": {
+        "recipe_name": "Jar of Fruit Jam (x3)",
+        "description": "Sweet and smooth. Not as efficient as a Cook's recipe, but it will do. Can replace 'Any Fruit' in many recipes.",
+        "flavor": "Preserves are a good way to make raw foodstuffs last a lot longer than they usually would"
+      },
+      "workbenches_name": "Workbenches & Tools",
+      "processors_name": "Tools: Food Preservation",
+      "frontier_name": "Frontier Survival",
+      "tannery_name": "Refinement: Leatherworking",
+      "butchering_name": "Refinement: Butchering",
+      "curing_name": "Refinement: Curing",
+      "boiling_name": "Refinement: Boiling & Rendering",
+      "storage_name": "Storage & Piles",
+      "clothing_name": "Clothing & Outfits",
+      "decorations_name": "Decorations"
+    },
+    "craft_menu": {
+      "display_name": "Trapper Craft Menu",
+      "description": "Handles leather tanning, meat butchering and survival crafting.",
+      "required_job_text": "Requires a trapper"
+    },
+    "perks": {
+      "l1_display_name": "Tannery",
+      "l1_description": "The Trapper is able to build tannery facilities, extract tannins, dry fresh hides and prepare pelts."
+    },
+    "block": {
+      "display_name": "Trapper's Block",
+      "description": "Used by the Trapper for cleaning pelts and basic crafting.",
+      "recipe_display_name": "Trapper's Block",
+      "recipe_description": "Required for basic crafting, cleaning pelts and turning them into Rawhides which can then become Thin Leather in a Tanning Tub.",
+      "flavor": "Is that... b-blood?"
+    },
+    "tanning_tub": {
+      "display_name": "Tanning Tub",
+      "description": "Used to tan rawhide or raw skins into leather. Slightly increases their quality, but produces a foul smell.",
+      "recipe_display_name": "Tanning Tub",
+      "recipe_description": "Used to tan rawhides or raw skins into Thin Leather or Thin Scaly Leather, respectively. Increases the quality of products by 1.",
+      "flavor": "Tanneries are usually built on the outskirts of towns due to their... particular smell.",
+      "water_description": "This tub requires tannin to be functional again."
+    },
+    "drying_frame": {
+      "display_name": "Drying Frame",
+      "description": "Used to dry fresh large hides into useful pelts. Skins will take longer to dry and lose some quality.",
+      "recipe_display_name": "Drying Frame",
+      "recipe_description": "Required for drying large pelts or skins. Skins will take longer to dry and have their quality reduced by 1.",
+      "flavor": "It is NOT a jumping bed!"
+    },
+    "small_drying_frame": {
+      "description": "Can simultaneously dry up to eight small hides into useful pelts, can also dry bundles of fresh Saltbush.",
+      "display_name": "Hanging Drying Frame",
+      "recipe_display_name": "Hanging Drying Frame",
+      "recipe_description": "Required for drying small pelts or fresh Saltbush bundles. Pelts can then be used in crafting or turned into rawhides which can then be tanned into leather.",
+      "flavor": "Pelts are then cleaned into Rawhides by the Trapper itself!"
+    },
+    "input_rack_thin_leather": {
+      "recipe_display_name": "Thin Leather Stockpile",
+      "recipe_description": "Provide your tannery with a special stockpile for recently finished leather.",
+      "flavor": "Holds up to 20 sheets of thin leather"
+    },
+    "input_rack_pelt_large": {
+      "recipe_display_name": "Large Pelt Stockpile",
+      "recipe_description": "Supply your crafters with a pile of large pelts straight from the drying frames.",
+      "flavor": "Holds up to 20 large pelts"
+    },
+    "input_rack_pelt_small": {
+      "recipe_display_name": "Small Pelt Wall Rack",
+      "recipe_description": "Supply your crafters with a rack of small pelts ready for use.",
+      "flavor": "Holds up to 20 small pelts"
+    },
+    "output_rack_rawhide": {
+      "recipe_display_name": "Rawhide Stockpile",
+      "recipe_description": "An efficient storage for recently clean pelts to be stored before they can be tanned.",
+      "flavor": "Holds up to 20 rawhides"
+    },
+    "racoon_hat": {
+      "display_name": "Raccoon Hat",
+      "display_name_highlands": "Skunk Hat",
+      "description": "Trappers can wear this hat for a small speed and diligence increase.",
+      "worn_description": "Slightly increasing the Trapper's speed and diligence.",
+      "flavor": "'Ain't no thing like me, 'cept me!' - Rocket Raccoon"
+    },
+    "rabbit_hat": {
+      "display_name": "Rabbit Hat",
+      "description": "Trappers can wear this hat for a good compassion bonus and a small speed increase.",
+      "worn_description": "Increasing the Trapper's compassion and slightly increasing speed.",
+      "flavor": "For making furry friends."
+    },
+    "squirrel_hat": {
+      "display_name": "Squirrel Hat",
+      "description": "Trappers can wear this hat for a small speed increase.",
+      "worn_description": "Slightly increasing the Trapper's speed.",
+      "flavor": "SQUIRREL!"
+    },
+    "wolf_hat": {
+      "display_name": "Wolf Hood",
+      "description": "Trappers can wear this hood for a good speed increase.",
+      "worn_description": "Increasing the Trapper's speed.",
+      "flavor": "Become one with the pack."
+    },
+    "cougar_hat": {
+      "display_name": "Big Cat Hood",
+      "description": "Trappers can wear this hood for a good speed and diligence increase.",
+      "worn_description": "Increasing the Trapper's speed and diligence.",
+      "flavor": "Only a master of the hunt can wear this."
+    },
+    "smokehouse": {
+      "display_name": "Wooden Smokery",
+      "description": "Useful for efficiently smoking or curing products, slightly increasing their quality as well.",
+      "recipe_description": "A smokehouse can be used to efficiently cure certain products like raw meats and sausages into edible, tasty foods. It also increases the quality of its products by 1.",
+      "flavor": "Smells funny",
+      "unlit_description": "It has run out of fuel and needs to be lit again before it can work!"
+    },
+    "campfire_pot": {
+      "display_name": "Trapper's Campfire & Pot",
+      "description": "Used by the Trapper to boil, render and cook.",
+      "recipe_display_name": "Trapper's Campfire & Pot",
+      "recipe_description": "Required for boiling, rendering and simple cooking.",
+      "flavor": "The pot is a very useful survival tool"
+    },
+    "rc_smokehouse": {
+      "description": "Useful for efficiently smoking or curing products, slightly increasing their quality as well.",
+      "display_name": "Clay Smokery",
+      "unlit_description": "It has run out of fuel and needs to be lit again before it can work!"
+    },
+    "na_smokehouse": {
+      "display_name": "Stone Smokery",
+      "description": "Useful for efficiently smoking or curing products, slightly increasing their quality as well.",
+      "unlit_description": "It has run out of fuel and needs to be lit again before it can work!"
+    },
+    "salt_box": {
+      "display_name": "Salt Box",
+      "description": "Can be used to salt products, preserving them for longer and slightly increasing their quality.",
+      "recipe_display_name": "Salt Box",
+      "recipe_description": "Can be used for curing a variety of products with salt, preserving them for a longer time and increasing their quality by 1.",
+      "flavor": "Salted goods can then be cured in a smokehouse for the best possible results!",
+      "dirty_description": "It's all dirty and moist. The salt must be replaced before it can be used again."
+    },
+    "fox_hat": {
+      "worn_description": "Slightly increasing the Trapper's speed and diligence.",
+      "display_name": "Fox Hat",
+      "description": "Trappers can wear this hat for a small speed and diligence increase.",
+      "flavor": "What does the fox say?"
+    },
+    "smoking_pit": {
+      "display_name": "Smoking Pit",
+      "description": "A firepit in a shallow hole to slowly smoke smaller meat cuts. Slightly reduces the meat quality.",
+      "recipe_display_name": "Smoking Pit",
+      "recipe_description": "Can be used to slowly smoke meat cuts, but not whole meat pieces nor salted products. The quality of the smoked meats will be reduced by 1.",
+      "flavor": "An old-fashioned but definitely functional way to preserve food!",
+      "unlit_description": "It has run out of fuel to burn and requires more before it can work again!"
+    },
+    "smokehouse_simple": {
+      "description": "Used for smoking and curing products, both raw and salted.",
+      "display_name": "Simple Smokery",
+      "unlit_description": "It has run out of fuel and needs to be lit again before it can work!",
+      "recipe_description": "A simple smokehouse that can be used to cure certain products like raw meats and sausages into edible, tasty foods.",
+      "flavor": "Smokehouses can cure salted goods into their best form!"
+    },
+    "sundrying_beam": {
+      "display_name": "Sun-drying Beam",
+      "description": "A wooden beam for leaving meat pieces to be dried by the sun and a bit of salt.",
+      "empty_description": "The salt reserve is empty and needs to be refilled before it can be used again!",
+      "recipe_description": "Useful for drying some meats with salt and heat, creating unique and flavorful dried meat that provides their own bonuses.",
+      "flavor": "Takes longer than smoking or salting but shorter than proper curing, providing a reasonable middle ground"
+    },
+    "sun_tanning_rack": {
+      "display_name": "Sun-tanning Rack",
+      "description": "A special frame that can more efficiently dry skins and very slowly tan hides with some quality loss.",
+      "empty_description": "The salt reserve is empty and needs to be refilled before it can be used again!",
+      "recipe_description": "Uses salt and refracted heat to dry skins faster. It can also dry pelts and even tan hides into leather, but slowly and with the quality reduced by 1.",
+      "flavor": "A rudimentary technique"
+    }
+  },
+  "data": {
+    "gm": {
+      "campaigns": {
+        "trader": {
+          "arcs": {
+            "encounters": {
+              "tier_1_shops": {
+                "salt_mine_shop_1": {
+                  "shop_info": {
+                    "name": "Uphilling Salt Mines",
+                    "title": "A worker from a local salt mine has arrived"
+                  }
+                }
+              },
+              "tier_2_shops": {
+                "salt_mine_shop_2": {
+                  "shop_info": {
+                    "name": "Angor & Angst Salt Mines",
+                    "title": "A trader from a big salt mine has arrived"
+                  }
+                }
+              },
+              "tier_3_shops": {
+                "salt_mine_shop_3": {
+                  "shop_info": {
+                    "name": "Cirdain's Whip Salt Mines",
+                    "title": "A caravan from a famous salt mine is here for business"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "ambient_threats": {
+          "snake_attack": {
+            "mission": {
+              "sighted_bulletin": {
+                "title": "Watch out, dangerous snakes!",
+                "title_hard": "Prepare for battle! Giant snakes!"
+              }
+            }
+          }
+        }
+      }
+    },
+    "saved_objects": {
+      "building_templates": {
+        "northern_alliance": {
+          "trapper_house": {
+            "display_name": "Trapper's Camp"
+          },
+          "curing_yard": {
+            "display_name": "Trapper's Curing Yard"
+          }
+        },
+        "rayyas_children": {
+          "trapper_house": {
+            "display_name": "Trapper's Workshop"
+          },
+          "curing_yard": {
+            "display_name": "Trapper's Curing Yard"
+          }
+        },
+        "trapper_house": {
+          "display_name": "Trapper's House"
+        },
+        "curing_yard": {
+          "display_name": "Trapper's Curing Yard"
+        }
+      }
+    },
+    "constants": {
+      "small_pelt_resource_name": "Fur Pelt (Small)",
+      "skin_resource_name": "Any Scaly Skin",
+      "animal_fat_rendered_resource_name": "Any Rendered Animal Fat",
+      "food_meat_preserved_name": "Any Preserved Meat",
+      "food_meat_jerky_name": "Any Jerky",
+      "any_pelt_resource_name": "Any Fur Pelt",
+      "large_pelt_resource_name": "Fur Pelt (Large)",
+      "small_food_meat_raw_resource_name": "Raw Meat (Small)",
+      "large_food_meat_raw_resource_name": "Raw Meat (Large)",
+      "food_meat_raw_resource_name": "Any Raw Meat",
+      "leather_resource_bolt_name": "Any Bolt of Leather",
+      "leather_resource_small_name": "Any Thin Leather",
+      "leather_resource_name": "Any Leather",
+      "fish_resource_name": "Any Whole Fish",
+      "salt_resource_name": "Any Cooking Salt",
+      "seasoning_resource_name": "Any Seasoning",
+      "wax_resource_name": "Any Wax",
+      "wax_poor_resource_name": "Any Poor Wax",
+      "wax_fine_resource_name": "Any Fine Wax",
+      "leather_resource_boiled_name": "Boiled Leather",
+      "wax_source_resource_name": "Any Waxy Plant"
+    },
+    "filters": {
+      "meat_types": "Food Types",
+      "raw_meat": "Raw Meat",
+      "raw_sausage": "Sausages",
+      "specific_foods": "Specific Raw Foods",
+      "raw_meat_small": "Raw Meat (Small)",
+      "raw_meat_big": "Raw Meat (Large)",
+      "all_type": "Unrestricted",
+      "everything": "All Curables",
+      "small_pelt": "Fur Pelt (Small)",
+      "raw_meat_white": "Raw Meat (Poultry)",
+      "raw_meat_piece": "Whole Animal Parts",
+      "resource_types": "Specific",
+      "large_fresh_pelt": "Fresh Pelt (Large)",
+      "small_fresh_pelt": "Fresh Pelt (Small)",
+      "rawhide_raw_skin": "Rawhide & Raw Skin",
+      "large_pelt": "Fur Pelt (Large)",
+      "hard_pelts": "Any Skin",
+      "fresh_skin": "Any Fresh Skin",
+      "small_leather": "All Thin Leathers",
+      "only_raw": "Only Raw Curables",
+      "only_salted": "Only Salted Curables",
+      "any_cheese": "Any Cheese",
+      "any_nuts": "Any Basket of Nuts",
+      "salted_meat_small": "Salted Meat (Small)",
+      "salted_meat_big": "Salted Meat (Large)",
+      "salted_meat_piece": "Salted Animal Parts",
+      "salted_foods": "Specific Salted Foods",
+      "resource_misc": "Misc"
+    },
+    "happiness": {
+      "thoughts": {
+        "job": {
+          "values": {
+            "tanning_tub_stench": {
+              "display_name": "Smelling Funny",
+              "tooltip": "Everyone can notice, can't they? Are they looking? I smell awful... I should really stay away from those horrid tanning tubs!"
+            }
+          }
+        }
+      }
+    },
+    "buffs": {
+      "smoky_flavors": {
+        "display_name": "Smoky Flavors",
+        "description": "Very strong, hearty smoke flavor! Muscle is increased, but Compassion is slightly decreased.<ul><li>Crafting is slightly faster</li></ul>"
+      },
+      "poison_snake": {
+        "display_name": "Snake Venom",
+        "description": "Greatly reduces Muscle and Diligence. Slightly reduces Speed. This hearthling will be damaged in 2.5% of their total health every 30 minutes.",
+        "ace_description": "A dangerous natural venom. Can last a few days if untreated. Muscle and Diligence are greatly reduced, Speed is impaired.<ul><li>💬 Type & Severity: Snake Venom (Severe)</li><li>💊 This venom requires multiple treatments of Snake Antidote to be removed</li><li>🌡️ Greatly increased chances of developing High Fever and Infections while untreated!</li><li>💜🔻 Effective maximum health is somewhat lowered</li><li>🖤 This venom greatly reduces the time a hearthling has to be rescued if knocked unconscious</li></ul>"
+      },
+      "poison_snake_weak": {
+        "display_name": "Weak Snake Venom",
+        "description": "Slightly reduces Muscle, Diligence and Speed. This hearthling will be damaged in 1% of their total health every 30 minutes.",
+        "ace_description": "A complicated natural venom. Can last a few days if untreated. Muscle, Diligence and Speed are slightly impaired.<ul><li>💬 Type & Severity: Snake Venom (Low)</li><li>💊 This venom requires a treatment of Snake Antidote to be removed</li><li>🌡️ Some chances of developing High Fever while untreated!</li><li>💜🔻 Effective maximum health is slightly lowered</li><li>🖤 This venom slightly reduces the time a hearthling has to be rescued if knocked unconscious</li></ul>"
+      },
+      "snake_juice": {
+        "snake_juice_worn_off_buff": {
+          "display_name": "Snake Juice (Expiration Effect)",
+          "description": "The bad taste and foul smell has left this hearthling a bit shaken for a while.<ul><li>Willpower is greatly reduced</li></ul>"
+        },
+        "snake_juice_buff": {
+          "display_name": "Snake Juice",
+          "description": "Eww! Blergh! Slightly increases hunger and thirst but will protect from snake bites and their venom while active."
+        }
+      },
+      "salty_flavors": {
+        "display_name": "Salty Flavors",
+        "description": "Phew! Makes me thirsty... But quite tasty! Willpower and Stamina are increased, but Inspiration is slightly decreased."
+      },
+      "cured_flavors": {
+        "display_name": "Perfectly Cured Flavors",
+        "description": "Mmmm! This was perfectly preserved. Hearty! Muscle, Willpower, Stamina and Diligence are increased.<ul><li>Crafting is quite faster</li></ul>"
+      },
+      "sundry_flavors": {
+        "display_name": "Sun-dried Flavors",
+        "description": "A bit too dry but has an exquisite, curious taste! Speed, Curiosity, Diligence and Inspiration are increased, but Muscle is slightly decreased."
+      },
+      "red_meat": {
+        "display_name": "Red Meat Flavors",
+        "description": "I've recently enjoyed some well-preserved red meat! Courage and Willpower are increased by 10%!"
+      },
+      "fish_meat": {
+        "display_name": "Fishy Flavors",
+        "description": "I've recently enjoyed some well-preserved fish meat! Curiosity and Compassion are increased by 10%!"
+      },
+      "white_meat": {
+        "display_name": "White Meat Flavors",
+        "description": "I've recently enjoyed some well-preserved white meat! Speed and Diligence are increased by 10%!"
+      },
+      "wild_meat": {
+        "display_name": "Wild Game Flavors",
+        "description": "I've recently enjoyed some well-preserved wild game meat! Stamina and Muscle are increased by 10%!"
+      }
+    },
+    "loadouts": {
+      "items": {
+        "meat": "Meat"
+      }
+    },
+    "commands": {
+      "transform": {
+        "tanning_tub": {
+          "display_name": "Add More Tannin",
+          "description": "Order the Trapper to refill this vat and add another Pinch of Tannin to it so it can be used to tan hides again. This command is automatically issued whenever the tub needs it."
+        },
+        "smokehouse": {
+          "display_name": "Refuel",
+          "description": "Order the Trapper to bring any common fuel and light this facility again. They must be able to access opening to light the fire. This command is automatically issued when needed."
+        },
+        "add_salt": {
+          "display_name": "Clean & Add Salt",
+          "description": "Order the Trapper to clean this facility and replace the salt. This command will be issued automatically when needed."
+        }
+      }
+    },
+    "population": {
+      "ascendancy": {
+        "titles": {
+          "proficient_category_trapper_frontier": {
+            "description": "Gained by reaching 100% proficiency in the \"Frontier Survival\" category as a Trapper.",
+            "display_name": "🍁 Proficiency: Frontier Survival",
+            "1_display_name": " the Revenant",
+            "1_description": "They have mastered surviving on the edge of society, a true conqueror of the wilderness!"
+          },
+          "proficient_category_trapper_refiner": {
+            "description": "Gained by reaching 100% proficiency in any \"Refinement\" categories as a Trapper.",
+            "display_name": "🦊 Proficiency: Trapper Skills",
+            "1_description": "They have mastered the crafts of one category of refining skills as a Trapper.",
+            "3_description": "They have mastered the crafts of two categories of refining skills as a Trapper.",
+            "5_description": "They have mastered the crafts of three categories of refining skills as a Trapper.",
+            "9_description": "They have mastered the crafts of all categories of refining skills as a Trapper! Amazing!",
+            "1_display_name": ", Roughrider",
+            "3_display_name": ", Groundskeeper",
+            "5_display_name": ", Frontier Explorer",
+            "9_display_name": ", Master Tanner"
+          }
+        }
+      }
+    },
+    "monster_tuning": {
+      "forest": {
+        "snake_regular": {
+          "display_name": "Large Snake",
+          "description": "Slightly bigger, slightly deadlier!"
+        },
+        "snake_hard": {
+          "display_name": "Giant Snake",
+          "description": "Careful with its hardened scales! Watch out for its teeth!"
+        }
+      }
+    }
+  },
+  "entities": {
+    "rawhide": {
+      "display_name": "Rawhide",
+      "description": "Rawhide can be tanned into Thin Leather when processed in a tanning tub.",
+      "recipe_display_name": "Rawhide (x2)",
+      "small_recipe_display_name": "Rawhide",
+      "recipe_description": "Clean a large dried pelt, unhairing and degreasing it in preparation for tanning. Large pelts produce two pieces of Rawhide.",
+      "small_recipe_description": "Clean a small dried pelt, unhairing and degreasing it in preparation for tanning.",
+      "flavor": "Eww."
+    },
+    "tannin": {
+      "display_name": "Pinch of Tannin",
+      "description": "Milled from organics like wood, bark or leaves. Used in leather tanning.",
+      "recipe_display_name": "Pinch of Tannin",
+      "oak_recipe_display_name": "Pinch of Oak Tannin (x2)",
+      "chestnut_recipe_display_name": "Pinch of Chestnut Tannin (x2)",
+      "acacia_recipe_display_name": "Pinch of Acacia Tannin (x2)",
+      "recipe_description": "Tannins are used by the Trapper to craft a Tanning Tub, which is usef for turning rawhides or raw skins into thin leather.",
+      "chestnut_recipe_description": "A more advanced and efficient extraction technique, producing two items.",
+      "flavor": "",
+      "chestnut_flavor": "Chestnut wood chips can be boiled to extract their tannins"
+    },
+    "fresh_pelt": {
+      "display_name": "Fresh Pelt (Large)",
+      "description": "Eww! Recently skinned, requires drying before being of any use."
+    },
+    "fresh_pelt_small": {
+      "display_name": "Fresh Pelt (Small)"
+    },
+    "fresh_boar_pelt": {
+      "display_name": "Fresh Boar Pelt"
+    },
+    "fresh_cougar_pelt": {
+      "display_name": "Fresh Big Cat Pelt"
+    },
+    "fresh_deer_pelt": {
+      "display_name": "Fresh Deer Pelt"
+    },
+    "fresh_rabbit_pelt": {
+      "display_name": "Fresh Rabbit Pelt",
+      "description": "Recently skinned, requires drying to be usable. Rabbit pelts are very fast to dry!"
+    },
+    "fresh_racoon_pelt": {
+      "display_name": "Fresh Raccoon Pelt",
+      "display_name_highlands": "Fresh Skunk Pelt"
+    },
+    "fresh_red_fox_pelt": {
+      "display_name": "Fresh Fox Pelt"
+    },
+    "fresh_squirrel_pelt": {
+      "display_name": "Fresh Squirrel Pelt"
+    },
+    "fresh_wolf_pelt": {
+      "display_name": "Fresh Wolf Pelt"
+    },
+    "fresh_zilla_skin": {
+      "display_name": "Fresh Zilla Skin",
+      "description": "Eww! Scaly, rough and somewhat warm to the touch, requires a long time to dry."
+    },
+    "thin_leather": {
+      "display_name": "Thin Leather",
+      "description": "Supple but not so strong. Can be woven into stronger bolts by a Weaver.",
+      "recipe_display_name": "Bolt of Leather",
+      "recipe_description": "Prepared sheets of leather, ready to be put to good use.",
+      "flavor": "A Trapper can tan pelts into Thin Leather"
+    },
+    "scaly_leather": {
+      "display_name": "Scaly Thin Leather",
+      "description": "Full of hardened, flexible scales. Can be woven into stronger bolts by a Weaver."
+    },
+    "raw_skin": {
+      "display_name": "Raw Scaly Skin",
+      "description": "Raw skin can be tanned into scaly leather using a tanning tub.",
+      "recipe_display_name": "Raw Scaly Skin (x2)",
+      "small_recipe_display_name": "Raw Scaly Skin",
+      "recipe_description": "Clean a dried scaly skin, degreasing and treating it in preparation for tanning. Large skins produce two pieces of Raw Scaly Skin.",
+      "small_recipe_description": "Clean a small dried scaly skin, degreasing and treating it in preparation for tanning.",
+      "flavor": "Scales! Scales everywhere!"
+    },
+    "scaly_leather_boots": {
+      "display_name": "Scaly Leather Boots",
+      "worn_description": "Slightly increasing the Worker's speed.",
+      "description": "Fairly resistant scaly leather boots that grants Workers a minor speed bonus.",
+      "flavor": ""
+    },
+    "scaly_leather_bolt": {
+      "display_name": "Bolt of Scaly Leather",
+      "description": "Scaly and supple but durable.",
+      "recipe_display_name": "Bolt of Scaly Leather",
+      "recipe_description": "Prepared sheets of scaly leather, ready to be put to good use.",
+      "flavor": "Scaly animals like the Varanus will provide scaly leather"
+    },
+    "animal_fat": {
+      "display_name": "Cut of Animal Fat",
+      "description": "Eww. It smells bad and looks gross!",
+      "recipe_description": "Use a knife to trim the fat from a large piece of raw meat.",
+      "flavor": "Eww. It smells bad and looks gross!"
+    },
+    "fresh_moomoo_pelt": {
+      "display_name": "Fresh Moo-Moo Pelt",
+      "description": "Recently skinned, requires drying before being of any use. Moomoo pelts dry faster than usual."
+    },
+    "fresh_oinker_pelt": {
+      "display_name": "Fresh Oinker Pelt",
+      "description": "Requires drying before being usable. Oinker pelts take long to dry but can be straight up used as Rawhide."
+    },
+    "fresh_wild_cattle_pelt": {
+      "display_name": "Fresh Wild Cattle Pelt"
+    },
+    "fresh_bear_pelt": {
+      "display_name": "Fresh Bear Pelt",
+      "description": "Eww! Recently skinned, requires drying before being usable. Bear pelts take longer to dry..."
+    },
+    "any_fresh_pelt": {
+      "display_name": "Any Fresh Pelt"
+    },
+    "pelts": {
+      "display_name": "Any Fur Pelt"
+    },
+    "containers": {
+      "input_rack_pelt_large": {
+        "display_name": "Large Pelt Stockpile",
+        "description": "A special place for supplying your crafters with a pile of large pelts."
+      },
+      "input_rack_pelt_small": {
+        "display_name": "Small Pelt Wall Rack",
+        "description": "A wall-mounted rack for small pelts to be easily stored."
+      },
+      "input_rack_thin_leather": {
+        "display_name": "Thin Leather Stockpile",
+        "description": "A resting place for your thin leather as soon as it leaves the tub."
+      },
+      "output_rack_rawhide": {
+        "display_name": "Rawhide Stockpile",
+        "description": "A dry place for clean pelts to wait before the tanning tub."
+      },
+      "fur_pile": {
+        "display_name": "Bundle of Furs",
+        "description": "Can be harvested for up to 48 fur pelts.",
+        "iconic_description": "Place it so it can be harvested for fur pelts.",
+        "flavor": "Very useful for stockpiling pelts or simply trading them in bulk"
+      },
+      "fur_pile_small": {
+        "display_name": "Small Bundle of Furs",
+        "description": "Can be harvested for up to 6 fur pelts.",
+        "iconic_description": "Place it so it can be harvested for fur pelts.",
+        "flavor": "Very useful for stockpiling pelts or simply trading them in bulk"
+      },
+      "input_bin_boiled_leather": {
+        "display_name": "Boiled Leather Supply Crate",
+        "description": "A supply container, for quicker crafting.",
+        "recipe_description": "A versatile container that Hearthlings will try to keep full, so your crafters can keep on working!",
+        "flavor": "Very fancy and decorated"
+      },
+      "boiled_leather_chest": {
+        "display_name": "Boiled Leather Chest",
+        "description": "Stores up to 32 items",
+        "recipe_description": "For beautifully storing up to 32 items.",
+        "flavor": "Very intricately hardened"
+      },
+      "boiled_leather_chest_small": {
+        "display_name": "Boiled Leather Case",
+        "description": "Stores up to 16 items",
+        "recipe_description": "For beautifully storing up to 16 items.",
+        "flavor": ""
+      }
+    },
+    "food": {
+      "salt": {
+        "display_name": "Sack of Fine Salt",
+        "description": "A common seasoning also useful for preserving and curing.",
+        "recipe_name": "Sack of Fine Salt (x2)",
+        "recipe_description": "Grind rock salt into a versatile seasoning that is also useful for preserving and curing.",
+        "flavor": "Preservation and curing with salt is handled by the Trapper",
+        "recipe_trapper_description": "Boil and extract the salt from dried plant fibers. Salt is a versatile seasoning that is also useful for preserving and curing.",
+        "flavor_trapper": "Not the most efficient way but it will have to do"
+      },
+      "salt_smoked": {
+        "display_name": "Sack of Smoked Salt",
+        "description": "An exquisite seasoning with a very bold flavor."
+      },
+      "almond": {
+        "smoked_almond_basket": {
+          "display_name": "Basket of Smoked Almonds",
+          "description": "Softly cooked nuts with a smoky flavor."
+        },
+        "smoked_almond_serving": {
+          "display_name": "Serving of Smoked Almonds"
+        }
+      },
+      "chestnut": {
+        "smoked_chestnut_basket": {
+          "display_name": "Basket of Smoked Chestnuts",
+          "description": "Very popular and delicious smoked nuts, a nice treat during the winter."
+        },
+        "smoked_chestnut_serving": {
+          "display_name": "Serving of Smoked Chestnuts"
+        }
+      },
+      "hazelnut": {
+        "smoked_hazelnut_basket": {
+          "display_name": "Basket of Smoked Hazelnuts",
+          "description": "Flavorful nuts with a touch of smoke."
+        },
+        "smoked_hazelnut_serving": {
+          "display_name": "Serving of Smoked Hazelnuts"
+        }
+      },
+      "smoked_nuts_basket": {
+        "display_name": "Basket of Smoked Nuts",
+        "description": "An exquisite and diverse mix of smoked nuts."
+      },
+      "smoked_nuts_serving": {
+        "display_name": "Serving of Smoked Nuts"
+      },
+      "walnut": {
+        "smoked_walnut_basket": {
+          "display_name": "Basket of Smoked Walnuts",
+          "description": "Hard outside, tender inside, with a spicy flavor of smoke."
+        },
+        "smoked_walnut_serving": {
+          "display_name": "Serving of Smoked Walnuts"
+        }
+      },
+      "dairy": {
+        "smoked_cheese_aged": {
+          "smoked_cheese_aged": {
+            "display_name": "Smoked Cheddar",
+            "description": "A delicious and firm cheese with a very strong flavor."
+          },
+          "smoked_cheese_aged_serving": {
+            "display_name": "Slice of Smoked Cheddar"
+          }
+        },
+        "smoked_cheese_fresh": {
+          "smoked_cheese_fresh": {
+            "display_name": "Smoked Mozzarella",
+            "description": "A soft cheese, almost creamy inside, with a salty taste."
+          },
+          "smoked_cheese_fresh_serving": {
+            "display_name": "Slice of Smoked Mozzarella"
+          }
+        },
+        "smoked_cheese_mild": {
+          "smoked_cheese_mild": {
+            "display_name": "Smoked Gouda",
+            "description": "A firm, mild cheese with a fudgy taste and a sweet finish."
+          },
+          "smoked_cheese_mild_serving": {
+            "display_name": "Slice of Smoked Gouda"
+          }
+        }
+      }
+    },
+    "clump_of_rock_salt": {
+      "display_name": "Clumps 'o Rock Salt",
+      "description": "Has a nice shine. Can be milled by a Cook into fine salt, a traditional seasoning."
+    },
+    "terrain": {
+      "ui": {
+        "rock_salt_block": {
+          "display_name": "Salt Vein",
+          "description": "Provides rock salt when mined."
+        }
+      }
+    },
+    "resources": {
+      "wax": {
+        "beeswax": {
+          "display_name": "Beeswax",
+          "description": "Malleable yet tough, the incredible work of bees. Can be used as a fine wax."
+        },
+        "wax_vegetable": {
+          "display_name": "Vegetable Wax",
+          "description": "A soft and easy to mold organic product. Can be used as a poor wax.",
+          "flavor": "Waxy plants are common in the desert or dry regions"
+        },
+        "wax_wool": {
+          "display_name": "Lanolin Wax",
+          "description": "Greasy and firm fat boiled from the wooly coat of a sheep. Can be used as fine wax.",
+          "flavor": "The waxy grease of sheep wool helps them keep warm and dry",
+          "shepherd_flavor": "The Shepherd can use the Cook's Cooking Pot for this recipe!"
+        }
+      },
+      "fiber": {
+        "dwarfsbeard_bundle": {
+          "description": "Very tangled, greasy and rough. Can be used as thatching, fiber or a source of wax."
+        },
+        "saltbush_bundle": {
+          "description": "Salty, rough leaves. Can be used as fiber, spun into thread or dried for boiling its salt out.",
+          "display_name": "Fresh Saltbush Bundle",
+          "drying_description": "Drying is going well and it will soon be able to be boiled for fine salt."
+        },
+        "saltbush_bundle_dry": {
+          "display_name": "Dry Saltbush Bundle",
+          "description": "No longer usable as fiber, it can now be used as thatching material or boiled for fine salt by a Trapper."
+        }
+      },
+      "snake_skin": {
+        "display_name": "Snake Skin",
+        "description": "A long stretch of scaly, hard but supple skin."
+      },
+      "oinker_pelt": {
+        "description": "A thin and leathery hide with a very short fur. Can be directly used as rawhide."
+      },
+      "bone": {
+        "fang_snake": {
+          "display_name": "Venomous Snake Fang",
+          "description": "Oof, there's venom dripping from it still!"
+        }
+      }
+    },
+    "boiled_leather": {
+      "display_name": "Boiled Leather",
+      "description": "Able to harden and quite resistant, this leather can be intricately molded."
+    },
+    "armor": {
+      "boiled_leather_cuirass": {
+        "display_name": "Boiled Leather Cuirass",
+        "description": "A durable yet lighter alternative for a knight's armor of choice."
+      },
+      "boiled_leather_helmet": {
+        "display_name": "Boiled Leather Helm",
+        "description": "Resistant and fashionable, perfect for a knight."
+      },
+      "boiled_leather_shield": {
+        "display_name": "Boiled Leather Shield",
+        "description": "Tough and reliable, a nice shield for a footman."
+      }
+    },
+    "backpack_boiled_leather": {
+      "display_name": "Boiled Leather Worker's Backpack",
+      "description": "Allows Workers to be much more efficient when hauling and restocking.",
+      "recipe_description": "Craft a very useful accessory that will allow Workers to be much more efficient at hauling.",
+      "flavor": "As efficient as a leather backpack but with alternative and cheaper materials"
+    },
+    "consumables": {
+      "soap": {
+        "display_name": "Bar of Soap",
+        "description": "Used for efficiently treating infections of any severity but also good for cleaning any cuts or piercing wounds.",
+        "recipe_description": "Used by Herbalists to efficiently treat infections of any severity and cutting or piercing wounds of low severity.",
+        "flavor": "BATH TIME!"
+      },
+      "seeds": {
+        "saltbush_seeds": {
+          "display_name": "Saltbush Seeds",
+          "description": "Learn to grow saltbush shrubs.",
+          "recipe_name": "Saltbush Seeds",
+          "recipe_description": "Domesticate Saltbushes and learn how to farm them.",
+          "recipe_flavor": "Interact with the finished crate to unlock the crop. This will also consume this item"
+        }
+      },
+      "antidote_snake": {
+        "display_name": "Snake Venom Antidote",
+        "description": "This special medication is used by the Herbalist to hold back the venom from snake bites.",
+        "recipe_name": "Snake Venom Antidote (x3)",
+        "recipe_description": "Harness the venom of a snake fang to create three doses of life-saving antidote.",
+        "recipe_flavor": "Snake bites might require multiple treatments to be successful"
+      },
+      "snake_juice": {
+        "display_name": "Snake Juice",
+        "description": "Protects the town from snake venom, but won't cure people that are already infected. Drink if you see snakes!",
+        "recipe_name": "Jug of Snake Juice",
+        "recipe_description": "A special tonic to be used preventively, disallowing the venom to settle in after a bite. Will not cure hearthlings that are already infected!",
+        "recipe_flavor": "An old frontier recipe and the most horrible taste you'll ever experience"
+      }
+    },
+    "fresh_snake_skin": {
+      "display_name": "Fresh Snake Skin",
+      "description": "Eww! Recently skinned, requires drying before being usable. Snake skins dry faster than most skins!"
+    },
+    "fresh_skin": {
+      "description": "Eww! Scaly and rough, requires drying.",
+      "display_name": "Fresh Scaly Skin"
+    },
+    "fresh_varanus_skin": {
+      "display_name": "Fresh Varanus Skin"
+    },
+    "monsters": {
+      "forest": {
+        "snake": {
+          "display_name": "Snake",
+          "description": "Slithering the undergrowth, watch out for its venomous bite!"
+        }
+      }
+    },
+    "crops": {
+      "saltbush_crop": {
+        "growth_stage": {
+          "000": {
+            "name": "Saltbush Seedling",
+            "description": "Will grow into a salty, fibrous shrub!"
+          },
+          "001": {
+            "name": "Saltbush Sproutling",
+            "description": "Up it goes!"
+          },
+          "002": {
+            "name": "Stemming Saltbush",
+            "description": "Starting to take shape!"
+          },
+          "003": {
+            "name": "Budding Saltbush",
+            "description": "Salt is already starting to accumulate on its leaves!"
+          }
+        },
+        "display_name": "Saltbush",
+        "description": "Takes a fair time to grow; Can be harvested for its salty fiber"
+      }
+    },
+    "plants": {
+      "saltbush": {
+        "display_name": "Saltbush",
+        "description": "Source of salty fibers which can be boiled for fine salt."
+      },
+      "saltbush_bud": {
+        "display_name": "Budding Saltbush",
+        "description": "Almost there, the leaves are accumulating salt!"
+      },
+      "saltbush_sprout": {
+        "display_name": "Saltbush Sproutling",
+        "description": "Still some way to go..."
+      },
+      "saltbush_stem": {
+        "display_name": "Stemming Saltbush",
+        "description": "It's growing nicely now!"
+      },
+      "saltbush_seed_ghost": {
+        "display_name": "Saltbush Seed",
+        "description": "Will grow into a salty bush that provides fiber which can be boiled for fine salt.",
+        "iconic_description": "Can be planted to grow a bush that will provide salty fibers.",
+        "recipe_name": "Saltbush Seed (x2)",
+        "recipe_description": "Separate seeds from the fiber",
+        "recipe_flavor": "Only a skilled hand can harvest the weaker seeds, but the fiber is destroyed in the process."
+      }
+    }
+  },
+  "buffs": {
+    "wolf_spirit": {
+      "display_name": "The Spirit of the Wolf",
+      "description": "Speed Increased by 25"
+    },
+    "squirrel_spirit": {
+      "display_name": "The Squirrel's Agility",
+      "description": "Speed Increased by 15"
+    },
+    "racoon_spirit": {
+      "display_name": "The Raccoon's Guile",
+      "display_name_highlands": "The Skunk's Guile",
+      "description": "Diligence increased by 15 and Speed Increased by 10"
+    },
+    "rabbit_spirit": {
+      "display_name": "The Rabbit's Charm",
+      "description": "Compassion increased by 25 and Speed Increased by 10"
+    },
+    "cougar_spirit": {
+      "display_name": "The Soul of a Cougar",
+      "description": "Diligence and Speed Increased by 25"
+    },
+    "boots": {
+      "display_name": "Fancy Shoes",
+      "description": "Speed Increased by 8"
+    },
+    "tanning_tub": {
+      "display_name": "Foul Smog",
+      "description": "The smokes coming out of this tub are fetid and smell awful!"
+    },
+    "tanning_tub_stench": {
+      "display_name": "Foul Stench",
+      "description": "One shouldn't hang around the tanning vats for so long..."
+    },
+    "fox_spirit": {
+      "description": "Diligence increased by 15 and Speed Increased by 10",
+      "display_name": "The Fox's Cunning"
+    }
+  },
+  "decorations": {
+    "tannery_sign": {
+      "display_name": "Tanner's Sign",
+      "recipe_display_name": "Tanner's Wall-Mounted Sign",
+      "description": "A sign with the mark of the Trapper.",
+      "flavor": ""
+    },
+    "plushie_dragon": {
+      "display_name": "Plushie Toy Dragon",
+      "description": "A bit fluffier than the original.",
+      "flavor": "Rawrr!"
+    },
+    "boar_rug": {
+      "display_name": "Boar Rug",
+      "description": "Make a comfy rug with the prepared fur of a boar.",
+      "flavor": ""
+    },
+    "cougar_rug": {
+      "display_name": "Big Cat Rug",
+      "description": "Make a comfy rug with the prepared fur of a cougar.",
+      "flavor": "Careful with the teeth"
+    },
+    "deer_rug": {
+      "display_name": "Deer Rug",
+      "description": "Make a comfy rug with the prepared fur of a deer.",
+      "flavor": ""
+    },
+    "fox_rug": {
+      "display_name": "Fox Rug",
+      "description": "Make a comfy rug with the prepared fur of a fox.",
+      "flavor": ""
+    },
+    "wolf_rug": {
+      "display_name": "Wolf Rug",
+      "description": "Make a comfy rug with the prepared fur of a wolf.",
+      "flavor": "Not so scary anymore."
+    },
+    "bear_rug": {
+      "display_name": "Bear Rug",
+      "description": "Make a comfy rug with the prepared fur of a bear.",
+      "flavor": "An unbearable sight for some"
+    },
+    "moomoo_rug": {
+      "display_name": "Moo-Moo Rug",
+      "description": "Make a comfy rug with the prepared fur of a moo-moo.",
+      "flavor": "Very popular on farmhouses"
+    },
+    "wild_cattle_rug": {
+      "display_name": "Wild Cattle Rug",
+      "description": "Make a comfy rug with the prepared fur of wild cattle.",
+      "flavor": ""
+    }
+  },
+  "food": {
+    "raw_boar_meat": {
+      "display_name": "Raw Boar Meat"
+    },
+    "raw_deer_meat": {
+      "display_name": "Raw Deer Meat"
+    },
+    "raw_duckduck_meat": {
+      "display_name": "Raw Duckduck Meat"
+    },
+    "raw_poultry_meat": {
+      "display_name": "Raw Poultry Cuts"
+    },
+    "raw_poyo_meat": {
+      "display_name": "Raw Poyo Cuts"
+    },
+    "raw_rabbit_meat": {
+      "display_name": "Raw Rabbit Meat"
+    },
+    "raw_racoon_meat": {
+      "display_name": "Raw Raccoon Meat",
+      "display_name_highlands": "Raw Skunk Meat"
+    },
+    "raw_red_fox_meat": {
+      "display_name": "Raw Fox Meat"
+    },
+    "raw_mutton_meat": {
+      "display_name": "Raw Mutton Cuts"
+    },
+    "raw_squirrel_meat": {
+      "display_name": "Raw Squirrel Meat"
+    },
+    "raw_varanus_meat": {
+      "display_name": "Raw Varanus Cuts"
+    },
+    "raw_pork_meat": {
+      "display_name": "Raw Pork Cuts"
+    },
+    "raw_venison_meat": {
+      "display_name": "Raw Venison Cuts"
+    },
+    "raw_ostrich_meat": {
+      "display_name": "Raw Ostrich Meat"
+    },
+    "fish_smoked": {
+      "all_raw_display_name": "Fish",
+      "raw_display_name": "Raw Fish",
+      "display_name": "Smoked Fish",
+      "description": "Stringy and delicious cured white meat!"
+    },
+    "smoked_big_fish": {
+      "raw_display_name": "Raw Big Fish",
+      "display_name": "Smoked Big Fish",
+      "description": "This large chunk of fish meat has been perfectly smoked! Tender and juicy!",
+      "serving_display_name": "Serving of Smoked Big Fish"
+    },
+    "smoked_sausage": {
+      "serving_display_name": "Serving of Smoked Sausage",
+      "serving_description": "",
+      "display_name": "Smoked Sausage",
+      "description": "Tasty, stringy and encased ground meat cured in a smokery."
+    },
+    "sausage": {
+      "trapper_recipe_name": "Raw Sausage (x2)",
+      "trapper_recipe_description": "The trapper can, albeit less efficiently than a proper Cook, encase meat into sausages.",
+      "cook_recipe_name": "Raw Sausage (x4)"
+    },
+    "warm_wolf": {
+      "serving_display_name": "Serving of Warm-Wolf",
+      "serving_description": "",
+      "recipe_name": "Warm-Wolf (x2)",
+      "display_name": "Warm-Wolf",
+      "description": "Perhaps one of the best ideas ever was to put roast sausages inside common bread.",
+      "flavor": "Now we only need some kind of sauce..."
+    },
+    "raw_wolf_meat": {
+      "display_name": "Raw Wolf Meat"
+    },
+    "animal_fat_rendered": {
+      "display_name": "Bucket of Rendered Fat",
+      "description": "It still smells odd and looks weird... Can be used as grease in cooking!",
+      "recipe_name": "Bucket of Rendered Fat",
+      "recipe_description": "Boil and work this animal fat into an useful, rendered form.",
+      "flavor": "Rendered animal fat has several uses like, for example, in cooking as an edible grease"
+    },
+    "animal_fat_rendered_lard": {
+      "display_name": "Slab of Lard",
+      "description": "Greasy, flavorful pork fat. Can be used as grease but also as butter!",
+      "recipe_name": "Slab of Lard (x3)",
+      "recipe_description": "Boil and work pork fat into an useful, rendered form.",
+      "flavor": "Known as lard, rendered pork fat can also be used as a spreading, like butter!",
+      "shepherd_flavor": "The Shepherd can use the Cook's Cooking Pot for this recipe!"
+    },
+    "animal_fat_rendered_tallow": {
+      "display_name": "Bucket of Tallow",
+      "description": "A special kind of fat. Can be used as grease, cooking oil and even as poor wax!",
+      "recipe_name": "Bucket of Tallow (x2)",
+      "recipe_description": "Boil and work steak fat into an useful, rendered form.",
+      "flavor": "Tallow has many uses, can be used as oil for deep frying and even as a poor wax",
+      "shepherd_flavor": "The Shepherd can use the Cook's Cooking Pot for this recipe!"
+    },
+    "bug_meat_soup": {
+      "display_name": "Bug Meat Soup",
+      "description": "Watery and weak but better than nothing.",
+      "serving_name": "Bowl of Bug Meat Soup",
+      "recipe_name": "Bug Meat Soup",
+      "recipe_description": "It's not as good as a stew but should be better than nothing.",
+      "flavor": "It has boiled bugs and, well... More boiled bugs!"
+    },
+    "pemmican": {
+      "display_name": "Pemmican",
+      "description": "Not really tasty but very nutritious and long lasting survivalist food.",
+      "recipe_name": "Pemmican (x6)",
+      "recipe_description": "Dried meat ground alongside berries and rendered fat provide a long lasting and nutritious meal for enduring the wilderness.",
+      "flavor": "Conserved in small rawhide sacks, well made pemmican can last for years"
+    },
+    "raw_bear_meat": {
+      "display_name": "Raw Bear Meat"
+    },
+    "raw_beef_meat": {
+      "display_name": "Raw Beef (Domestic)"
+    },
+    "raw_cougar_meat": {
+      "display_name": "Raw Big Cat Meat"
+    },
+    "cured_fish_meat": {
+      "display_name": "Cured Fish Fillet",
+      "description": "Thin, crunchy and stringy. Has a peculiar flavor.",
+      "serving": {
+        "display_name": "Serving of Cured Fish Fillet"
+      }
+    },
+    "smoked_pork": {
+      "display_name": "Leg of Smoked Pork",
+      "description": "A tender smoked piece of pork meat.",
+      "serving_display_name": "Serving of Smoked Pork"
+    },
+    "smoked_mutton": {
+      "display_name": "Smoked Mutton",
+      "description": "A crisp and nicely smoked piece of meat.",
+      "serving_display_name": "Serving of Smoked Mutton"
+    },
+    "smoked_poultry": {
+      "display_name": "Smoked Poultry Drumstick",
+      "description": "Fleshy and tender, smoked poultry meat.",
+      "serving_display_name": "Serving of Smoked Poultry"
+    },
+    "smoked_poyo": {
+      "display_name": "Smoked Poyo",
+      "description": "Succulent, smoked poyo breast.",
+      "serving_display_name": "Serving of Smoked Poyo"
+    },
+    "smoked_steak": {
+      "display_name": "Smoked Steak",
+      "description": "A thin and well smoked steak of meat.",
+      "serving_display_name": "Serving of Smoked Steak"
+    },
+    "smoked_varanus": {
+      "display_name": "Slab of Smoked Varanus",
+      "description": "An exotic and not so tasty meat, smoked.",
+      "serving_display_name": "Serving of Smoked Varanus"
+    },
+    "smoked_venison": {
+      "display_name": "Chunk of Smoked Venison",
+      "description": "Delicious wild game smoked to perfection.",
+      "serving_display_name": "Serving of Smoked Venison"
+    },
+    "smoked_boar_meat": {
+      "display_name": "Smoked Boar Meat"
+    },
+    "smoked_bear_meat": {
+      "display_name": "Smoked Bear Meat"
+    },
+    "smoked_beef_meat": {
+      "display_name": "Smoked Beef Cuts"
+    },
+    "smoked_cougar_meat": {
+      "display_name": "Smoked Big Cat Meat"
+    },
+    "smoked_deer_meat": {
+      "display_name": "Smoked Deer Meat"
+    },
+    "smoked_duckduck_meat": {
+      "display_name": "Smoked Duckduck Meat"
+    },
+    "smoked_mutton_meat": {
+      "display_name": "Smoked Mutton Cuts"
+    },
+    "smoked_ostrich_meat": {
+      "display_name": "Smoked Ostrich Meat"
+    },
+    "smoked_pork_meat": {
+      "display_name": "Smoked Pork Cuts"
+    },
+    "smoked_poultry_meat": {
+      "display_name": "Smoked Poultry Cuts"
+    },
+    "smoked_poyo_meat": {
+      "display_name": "Smoked Poyo Cuts"
+    },
+    "smoked_rabbit_meat": {
+      "display_name": "Smoked Rabbit Meat"
+    },
+    "smoked_racoon_meat": {
+      "display_name": "Smoked Raccoon Meat",
+      "display_name_highlands": "Smoked Skunk Meat"
+    },
+    "smoked_red_fox_meat": {
+      "display_name": "Smoked Fox Meat"
+    },
+    "smoked_squirrel_meat": {
+      "display_name": "Smoked Squirrel Meat"
+    },
+    "smoked_varanus_meat": {
+      "display_name": "Smoked Varanus Cuts"
+    },
+    "smoked_venison_meat": {
+      "display_name": "Smoked Venison Cuts"
+    },
+    "smoked_wolf_meat": {
+      "display_name": "Smoked Wolf Meat"
+    },
+    "smoked_fish_meat": {
+      "display_name": "Smoked Fish Fillet",
+      "description": "Nutritious, stringy, but not that flavorful...",
+      "serving": {
+        "display_name": "Serving of Smoked Fish Fillet"
+      }
+    },
+    "salted_fish_meat": {
+      "display_name": "Salted Fish Fillet",
+      "description": "Salty and crispy, not so enjoyable. Can be further cured in a smokery."
+    },
+    "smoked_fish_carp_meat": {
+      "display_name": "Smoked Carp Fillet"
+    },
+    "smoked_fish_catfish_meat": {
+      "display_name": "Smoked Catfish Fillet"
+    },
+    "smoked_fish_salmon_meat": {
+      "display_name": "Smoked Salmon Fillet"
+    },
+    "smoked_fish_trout_meat": {
+      "display_name": "Smoked Trout Fillet"
+    },
+    "salted_big_fish": {
+      "display_name": "Salted Big Fish",
+      "description": "Very dry and salty, but still juicy inside! Can be further cured in a smokery."
+    },
+    "salted_big_fish_serving": {
+      "display_name": "Serving of Salted Big Fish"
+    },
+    "fish_salted": {
+      "display_name": "Salted Fish",
+      "description": "Crisp and dry outside. Can be further cured in a smokery."
+    },
+    "salted_bear_meat": {
+      "display_name": "Salted Bear Meat"
+    },
+    "salted_beef_meat": {
+      "display_name": "Salted Beef Cuts"
+    },
+    "salted_boar_meat": {
+      "display_name": "Salted Boar Meat"
+    },
+    "salted_cougar_meat": {
+      "display_name": "Salted Big Cat Meat"
+    },
+    "salted_deer_meat": {
+      "display_name": "Salted Deer Meat"
+    },
+    "salted_duckduck_meat": {
+      "display_name": "Salted Duckduck Meat"
+    },
+    "salted_fish_carp_meat": {
+      "display_name": "Salted Carp Fillet"
+    },
+    "salted_fish_catfish_meat": {
+      "display_name": "Salted Catfish Fillet"
+    },
+    "salted_fish_salmon_meat": {
+      "display_name": "Salted Salmon Fillet"
+    },
+    "salted_fish_trout_meat": {
+      "display_name": "Salted Trout Fillet"
+    },
+    "salted_mutton_meat": {
+      "display_name": "Salted Mutton Cuts"
+    },
+    "salted_ostrich_meat": {
+      "display_name": "Salted Ostrich Meat"
+    },
+    "salted_pork_meat": {
+      "display_name": "Salted Pork Cuts"
+    },
+    "salted_poultry_meat": {
+      "display_name": "Salted Poultry Cuts"
+    },
+    "salted_poyo_meat": {
+      "display_name": "Salted Poyo Cuts"
+    },
+    "salted_rabbit_meat": {
+      "display_name": "Salted Rabbit Meat"
+    },
+    "salted_racoon_meat": {
+      "display_name": "Salted Raccoon Meat",
+      "display_name_highlands": "Salted Skunk Meat"
+    },
+    "salted_red_fox_meat": {
+      "display_name": "Salted Fox Meat"
+    },
+    "salted_squirrel_meat": {
+      "display_name": "Salted Squirrel Meat"
+    },
+    "salted_varanus_meat": {
+      "display_name": "Salted Varanus Cuts"
+    },
+    "salted_venison_meat": {
+      "display_name": "Salted Venison Cuts"
+    },
+    "salted_wolf_meat": {
+      "display_name": "Salted Wolf Meat"
+    },
+    "salted_mutton": {
+      "description": "Crispy and nicely salted. Can be further cured in a smokery.",
+      "display_name": "Salted Mutton"
+    },
+    "salted_mutton_serving": {
+      "display_name": "Serving of Salted Mutton"
+    },
+    "salted_pork": {
+      "display_name": "Leg of Salted Pork",
+      "description": "This salted pork is particularly good. Can be further cured in a smokery."
+    },
+    "salted_pork_serving": {
+      "display_name": "Serving of Salted Pork",
+      "description": "\"Salted pork?\""
+    },
+    "salted_poultry": {
+      "display_name": "Salted Poultry Drumstick",
+      "description": "Hearty and crunchy piece of salted fowl. Can be further cured in a smokery."
+    },
+    "salted_poultry_serving": {
+      "display_name": "Serving of Salted Poultry"
+    },
+    "salted_poyo": {
+      "display_name": "Salted Poyo",
+      "description": "The salty, well preserved chest piece of a poyo. Can be further cured in a smokery."
+    },
+    "salted_poyo_serving": {
+      "display_name": "Serving of Salted Poyo"
+    },
+    "salted_sausage": {
+      "display_name": "Salted Sausage",
+      "description": "Seasoned to perfection, can be further cured in a smokery."
+    },
+    "salted_sausage_serving": {
+      "display_name": "Serving of Salted Sausage"
+    },
+    "salted_steak": {
+      "display_name": "Salted Steak",
+      "description": "Tender and juicy, if not a bit salty... Can be further cured in a smokery."
+    },
+    "salted_steak_serving": {
+      "display_name": "Serving of Salted Steak"
+    },
+    "salted_varanus": {
+      "display_name": "Slab of Salted Varanus",
+      "description": "Exotic and tender. Can be further cured in a smokery."
+    },
+    "salted_varanus_serving": {
+      "display_name": "Serving of Salted Varanus"
+    },
+    "salted_venison": {
+      "display_name": "Chunk of Salted Venison",
+      "description": "A valuable and fancy piece of game meat, can be further cured in a smokery."
+    },
+    "salted_venison_serving": {
+      "display_name": "Serving of Salted Venison"
+    },
+    "cured_big_fish": {
+      "display_name": "Cured Big Fish",
+      "description": "A deliciously flavored and smoked chunk of fish meat."
+    },
+    "cured_big_fish_serving": {
+      "display_name": "Serving of Cured Big Fish"
+    },
+    "cured_fish": {
+      "display_name": "Cured Fish",
+      "description": "A stringy and salty whole fish, very tasty!"
+    },
+    "cured_mutton": {
+      "display_name": "Rack of Cured Mutton",
+      "description": "Perfectly salted and smoked rack of meat, ready to be eaten!"
+    },
+    "cured_mutton_serving": {
+      "display_name": "Serving of Cured Mutton"
+    },
+    "cured_pork": {
+      "display_name": "Cured Ham",
+      "description": "A hearty, juicy large bit of smoked pork."
+    },
+    "cured_pork_serving": {
+      "display_name": "Serving of Cured Ham"
+    },
+    "cured_poultry": {
+      "display_name": "Cured Poultry Drumstick",
+      "description": "Well seasoned and smoked fowl meat."
+    },
+    "cured_poultry_serving": {
+      "display_name": "Serving of Cured Poultry"
+    },
+    "cured_poyo": {
+      "display_name": "Cured Poyo",
+      "description": "A refined and tasty poyo breast with a crispy, salty crust."
+    },
+    "cured_poyo_serving": {
+      "display_name": "Serving of Cured Poyo"
+    },
+    "cured_duck": {
+      "display_name": "Cured Duck",
+      "description": "The unique duck flavors perfectly combined with salty, smoked fat."
+    },
+    "cured_duck_serving": {
+      "display_name": "Serving of Cured Duck"
+    },
+    "cured_sausage": {
+      "display_name": "Cured Sausage",
+      "description": "An exquisitely prepared sausage."
+    },
+    "cured_sausage_serving": {
+      "display_name": "Serving of Cured Sausage"
+    },
+    "cured_steak": {
+      "display_name": "Cured Steak",
+      "description": "It's like a giant cured meat piece!"
+    },
+    "cured_steak_serving": {
+      "display_name": "Serving of Cured Steak"
+    },
+    "cured_varanus": {
+      "display_name": "Slab of Cured Varanus",
+      "description": "Something so bad turned into something so good..."
+    },
+    "cured_varanus_serving": {
+      "display_name": "Serving of Cured Varanus"
+    },
+    "cured_venison": {
+      "display_name": "Chunk of Cured Venison",
+      "description": "Delicious and flavorful game meat, smoked to perfection."
+    },
+    "cured_venison_serving": {
+      "display_name": "Serving of Cured Venison"
+    },
+    "raw_bacon": {
+      "display_name": "Raw Bacon",
+      "description": "It's bacon! But it needs curing in a smokery to become its true self..."
+    },
+    "bacon_serving": {
+      "display_name": "Slice of Bacon",
+      "description": "Nom nom nom! It's bacon!"
+    },
+    "raw_wild_meat": {
+      "serving_display_name": "Portion of Raw Game Meat",
+      "display_name": "Raw Game Meat",
+      "description": "Not good for consumption, needs curing in a smokery or usage in cooking!"
+    },
+    "raw_red_meat": {
+      "serving_display_name": "Portion of Raw Red Meat",
+      "display_name": "Raw Red Meat",
+      "description": "Not good for consumption, needs curing in a smokery or usage in cooking!"
+    },
+    "raw_domestic_rabbit_meat": {
+      "display_name": "Raw Rabbit Meat (Domestic)"
+    },
+    "raw_domestic_sheep_meat": {
+      "display_name": "Raw Sheep Meat (Domestic)"
+    },
+    "raw_duck_meat": {
+      "display_name": "Raw Duck Cuts"
+    },
+    "raw_oinker_meat": {
+      "display_name": "Raw Oinker Meat"
+    },
+    "raw_sheep_meat": {
+      "display_name": "Raw Sheep Meat"
+    },
+    "raw_snake_meat": {
+      "display_name": "Raw Snake Meat"
+    },
+    "raw_wild_cattle_meat": {
+      "display_name": "Raw Beef"
+    },
+    "raw_steak_meat": {
+      "display_name": "Raw Steak Cuts"
+    },
+    "bacon": {
+      "display_name": "Bacon",
+      "description": "Just... Bacon."
+    },
+    "raw_red_meat_small": {
+      "display_name": "Raw Red Meat (Small)",
+      "description": "Not good for consumption, needs curing in a smokery or usage in cooking!"
+    },
+    "raw_white_meat_small": {
+      "display_name": "Raw White Meat (Small)",
+      "description": "Not good for consumption, needs curing in a smokery or usage in cooking!"
+    },
+    "raw_wild_meat_small": {
+      "display_name": "Raw Game Meat (Small)",
+      "description": "Not good for consumption, needs curing in a smokery or usage in cooking!"
+    },
+    "rotten": {
+      "meat": {
+        "display_name": "Rotten Meat",
+        "description": "Definitely not good for consumption anymore..."
+      },
+      "meat_small": {
+        "display_name": "Rotten Meat (Small)",
+        "description": "It's not safe to eat!"
+      }
+    },
+    "salted_duck": {
+      "display_name": "Salted Duck",
+      "description": "Delicious, tender duck meat preserved with salt."
+    },
+    "salted_duck_serving": {
+      "display_name": "Serving of Salted Duck"
+    },
+    "salted_fish": {
+      "display_name": "Salted Fish",
+      "description": "This fish has been completely dry with salt, giving it a rich, stringy flavor."
+    },
+    "salted_fish_serving": {
+      "display_name": "Plate of Salted Fish"
+    },
+    "cured_fish_serving": {
+      "display_name": "Plate of Cured Fish"
+    },
+    "salted_fish_meat_serving": {
+      "display_name": "Serving of Salted Fish Fillet"
+    },
+    "cured_red_meat": {
+      "display_name": "Red Meat Jerky",
+      "description": "A delicious and expertly cured piece of domestic red meat jerky.",
+      "serving": {
+        "display_name": "Serving of Red Meat Jerky"
+      }
+    },
+    "cured_red_meat_small": {
+      "display_name": "Red Meat Jerky (Small)",
+      "description": "A smaller but still delicious bit of well cured, domestic red meat jerky."
+    },
+    "cured_white_meat": {
+      "display_name": "White Meat Jerky",
+      "description": "A very nicely cured piece of white meat with a rich flavor.",
+      "serving": {
+        "display_name": "Serving of White Meat Jerky"
+      }
+    },
+    "cured_white_meat_small": {
+      "display_name": "White Meat Jerky (Small)",
+      "description": "A bite-sized piece of exquisitely cured white meat."
+    },
+    "cured_wild_meat": {
+      "display_name": "Game Meat Jerky",
+      "description": "A nice, boldly flavored chunk of wild meat, cured to perfection.",
+      "serving": {
+        "display_name": "Serving of Game Meat Jerky"
+      }
+    },
+    "cured_wild_meat_small": {
+      "display_name": "Game Meat Jerky (Small)",
+      "description": "Don't underestimate its size! This small piece of well preserved meat tastes great!"
+    },
+    "salted_red_meat": {
+      "serving": {
+        "display_name": "Serving of Salted Red Meat"
+      },
+      "display_name": "Salted Red Meat",
+      "description": "A dry, nutritious slice of domestic red meat preserved in salt."
+    },
+    "salted_white_meat": {
+      "serving": {
+        "display_name": "Serving of Salted White Meat"
+      },
+      "display_name": "Salted White Meat",
+      "description": "A tasty, dehydrated bit of poultry preserved in salt."
+    },
+    "salted_wild_meat": {
+      "serving": {
+        "display_name": "Serving of Salted Game Meat"
+      },
+      "display_name": "Salted Game Meat",
+      "description": "A hearty chunk of wild meat that has been preserved with salt."
+    },
+    "smoked_duck": {
+      "display_name": "Smoked Duck",
+      "description": "Smoked to crispy perfection. Very flavorful and exotic!",
+      "serving": {
+        "display_name": "Serving of Smoked Duck"
+      }
+    },
+    "smoked_fish": {
+      "display_name": "Smoked Fish",
+      "description": "This whole fish has been smoked for a very nutritious, tasty meal!",
+      "serving": {
+        "display_name": "Serving of Smoked Fish"
+      }
+    },
+    "smoked_red_meat": {
+      "serving": {
+        "display_name": "Serving of Smoked Red Meat"
+      },
+      "display_name": "Smoked Red Meat",
+      "description": "A stringy but juicy chunk of meat preserved with smoke."
+    },
+    "smoked_white_meat": {
+      "serving": {
+        "display_name": "Serving of Smoked White Meat"
+      },
+      "display_name": "Smoked White Meat",
+      "description": "A sizeable chunk of poultry preserved with flavorful smoke."
+    },
+    "smoked_wild_meat": {
+      "serving": {
+        "display_name": "Serving of Smoked Game Meat"
+      },
+      "display_name": "Smoked Game Meat",
+      "description": "Lean, whild meat cut preserved in smoke. Very nutritious!"
+    },
+    "salted_red_meat_small": {
+      "display_name": "Salted Red Meat (Small)",
+      "description": "A bite-sized chunk of salted domestic meat."
+    },
+    "salted_white_meat_small": {
+      "display_name": "Salted White Meat (Small)",
+      "description": "A tiny bit of white meat that was left in a salt box for a while."
+    },
+    "salted_wild_meat_small": {
+      "display_name": "Salted Game Meat (Small)",
+      "description": "A bit of the wilderness in a nice, preserving salty crust."
+    },
+    "smoked_red_meat_small": {
+      "display_name": "Smoked Red Meat (Small)",
+      "description": "A small piece of lean, domestic meat smoked to perfection."
+    },
+    "smoked_white_meat_small": {
+      "display_name": "Smoked White Meat (Small)",
+      "description": "A small nugget of white meat given texture and flavor by smoke."
+    },
+    "smoked_wild_meat_small": {
+      "display_name": "Smoked Game Meat (Small)",
+      "description": "A small bit of wild, lean meat. A bit stringy but very flavorful!"
+    },
+    "raw_white_meat": {
+      "description": "Not good for consumption, needs curing in a smokery or usage in cooking!",
+      "display_name": "Raw White Meat",
+      "serving_display_name": "Portion of Raw White Meat"
+    },
+    "raw_meat": {
+      "decay_1_description": "This meat is going bad. Must be consumed soon!"
+    },
+    "sundried_fish_meat": {
+      "display_name": "Sun-dried Fish Meat",
+      "description": "A peculiar taste for a refined palate!",
+      "serving": {
+        "display_name": "Serving of Sun-dried Fish Meat"
+      }
+    },
+    "sundried_red_meat": {
+      "display_name": "Sun-dried Red Meat",
+      "description": "Sliced and salted, under the sun for days.",
+      "serving": {
+        "display_name": "Serving of Sun-dried Red Meat"
+      }
+    },
+    "sundried_steak": {
+      "display_name": "Sun-dried Steak",
+      "description": "A large chunk of meat well dried by the sun.",
+      "serving": {
+        "display_name": "Serving of Sun-dried Steak"
+      }
+    },
+    "sundried_varanus": {
+      "display_name": "Sun-dried Varanus",
+      "description": "A big lizard that has been cured under the sun with some salt.",
+      "serving": {
+        "display_name": "Serving of Sun-dried Varanus"
+      }
+    },
+    "sundried_white_meat": {
+      "display_name": "Sun-dried White Meat",
+      "description": "Not so juicy anymore, a bit chewy, even.",
+      "serving": {
+        "display_name": "Serving of Sun-dried White Meat"
+      }
+    },
+    "sundried_wild_meat": {
+      "display_name": "Sun-dried Game Meat",
+      "description": "Very chewy and somewhat tough. But flavorful!",
+      "serving": {
+        "display_name": "Serving of Sun-dried Game Meat"
+      }
+    }
+  },
+  "worker": {
+    "fur_coat": {
+      "display_name": "Worker's Fur Coat",
+      "worn_description": "Warm and cozy, keeps the cold away...",
+      "description": "Workers can wear this thick coat which provides protection to freezing weather.",
+      "flavor": ""
+    }
+  },
+  "ui": {
+    "game": {
+      "zones_mode": {
+        "stockpile": {
+          "filter_presets": {
+            "default_presets": {
+              "supply_trapper": "Tannery Supplies (Trapper+ Default)",
+              "small_meats": "Raw Meat (Small) (Trapper+ Default)",
+              "large_meats": "Raw Meat (Trapper+ Default)",
+              "red_meats": "Raw Red Meat (Trapper+ Default)",
+              "white_meats": "Raw White Meat (Trapper+ Default)",
+              "wild_meats": "Raw Game Meat (Trapper+ Default)",
+              "fish_meats": "Raw Fish Meat (Trapper+ Default)",
+              "meat_pieces": "Whole Meat Pieces (Trapper+ Default)",
+              "nuts_cheese": "Nuts & Cheese (Trapper+ Default)"
+            }
+          },
+          "filters": {
+            "tooltip_wax": "Waxes"
+          }
+        }
+      }
+    }
+  }
+}

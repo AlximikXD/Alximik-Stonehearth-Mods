@@ -1,0 +1,743 @@
+{
+  "ui": {
+    "game": {
+      "goblinpedia": {
+        "menu": {
+          "goblins": {
+            "jobs": {
+              "warmaster": "Warsmith"
+            }
+          }
+        },
+        "pages": {
+          "jobs": {
+            "warmaster": {
+              "title": "Warsmith",
+              "description1": "One who manipulates ore",
+              "topic1": {
+                "title": "Description: ",
+                "desc1": "A blacksmith and tinkerer who prepares us for war."
+              },
+              "topic2": {
+                "title": "What it does: ",
+                "desc1": "The warsmith manipulates ore to forge metal weapons and armour."
+              },
+              "topic3": {
+                "title": "Beyond metal: ",
+                "desc1": "After gaining knowledge, the warsmith tinkers with magic and mechanics to create turrets and traps."
+              }
+            }
+          }
+        }
+      }
+    },
+    "menu": {
+      "goblins": {
+        "items": {
+          "jobs": {
+            "items": {
+              "warmaster": {
+                "display_name": "Warsmith",
+                "open_page_id": "jobs_warmaster"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "entities": {
+    "armor": {
+      "bronze_armor": {
+        "bronze_armor": {
+          "display_name": "Bronze Armor",
+          "description": "Armor made of bronze."
+        }
+      },
+      "bronze_pot_helmet": {
+        "bronze_pot_helmet": {
+          "display_name": "Bronze Cooking Pot Helmet",
+          "description": "A helmet made out of a bronze cooking pot"
+        }
+      },
+      "bronze_shield": {
+        "bronze_shield": {
+          "display_name": "Bronze Shield",
+          "description": "A shield made of bronze."
+        }
+      },
+      "hearth_guard_armor": {
+        "hearth_guard_armor": {
+          "display_name": "Hearth Guard armor",
+          "description": "Hearth guard armor made of steel."
+        }
+      },
+      "hearth_guard_helmet": {
+        "hearth_guard_helmet": {
+          "display_name": "Hearth Guard Helmet",
+          "description": "Hearth guard helmet made of steel."
+        }
+      },
+      "hearth_guard_shield": {
+        "hearth_guard_shield": {
+          "display_name": "Hearth Guard Shield",
+          "description": "Hearth guard shield made of steel."
+        }
+      },
+      "horned_full_helmet": {
+        "horned_full_helmet": {
+          "display_name": "Horned Full Helmet",
+          "description": "A large helmet to scare even the largest of enemies.",
+          "flavor": "The true strength of the wearer is shown by its size"
+        }
+      },
+      "iron_shield": {
+        "iron_shield": {
+          "display_name": "Swamp Guard Shield",
+          "description": "Swamp guard shield made of steel."
+        }
+      },
+      "mushroom_shield": {
+        "mushroom_shield": {
+          "display_name": "Mushroom Shield",
+          "description": "A shield made from a mushroom top.",
+          "flavor": "At least things can get stuck in it, right?"
+        }
+      },
+      "swamp_guard_armor": {
+        "swamp_guard_armor": {
+          "display_name": "Swamp Guard Armor",
+          "description": "Swamp guard armor made of iron."
+        }
+      },
+      "swamp_guard_helmet": {
+        "swamp_guard_helmet": {
+          "display_name": "Swamp Guard Helmet",
+          "description": "Swamp guard helmet made of iron."
+        }
+      },
+      "swamp_guard_helmet_light": {
+        "swamp_guard_helmet_light": {
+          "display_name": "Light Swamp Guard Helmet",
+          "description": "A light version of the swamp guard helmet."
+        }
+      },
+      "hearth_guard_helmet_light": {
+        "hearth_guard_helmet_light": {
+          "display_name": "Light Hearth Guard Helmet",
+          "description": "A light version of the hearth guard helmet."
+        }
+      },
+      "back_banner_generic": {
+        "back_banner_generic": {
+          "display_name": "Back Banner",
+          "description": "A back mounted banner with a skull ontop."
+        }
+      },
+      "back_banner_skull": {
+        "back_banner_skull": {
+          "display_name": "Skull Back Banner",
+          "description": "A back mounted banner with an aggressive skull pattern."
+        }
+      },
+      "back_banner_varanus": {
+        "back_banner_varanus": {
+          "description": "A back mounted banner with an inspiring varanusl pattern.",
+          "display_name": "Varanus Back Banner"
+        }
+      }
+    },
+    "containers": {
+      "clay_corner": {
+        "display_name": "Decorated Clay Corner Shelf",
+        "description": "Stores up to 12 items."
+      },
+      "clay_shelf_ground": {
+        "display_name": "Decorated Clay Ground Shelf",
+        "description": "Stores up to 12 items."
+      },
+      "clay_shelf_wall": {
+        "display_name": "Decorated Clay Shelf",
+        "description": "Stores up to 12 items.",
+        "clay_shelf_wall_ghost": {
+          "display_name": "Decorated Clay Shelf"
+        }
+      },
+      "clay_supply_basin": {
+        "display_name": "Decorated Clay Supply Basin",
+        "description": "Stores up to 12 items.",
+        "clay_supply_basin_ghost": {
+          "display_name": "Decorated Clay Supply Basin",
+          "description": "Holds up to 12 items."
+        }
+      },
+      "iron_corner": {
+        "display_name": "Iron Corner Shelf",
+        "description": "Stores up to 12 items.",
+        "iron_corner_ghost": {
+          "display_name": "Iron Corner Shelf",
+          "description": "Stores up to 12 items."
+        }
+      },
+      "iron_supply_bin": {
+        "display_name": "Iron Supply Bin",
+        "description": "Stores up to 12 items.",
+        "iron_supply_bin_ghost": {
+          "display_name": "Iron Supply Bin",
+          "description": "Stores up to 12 items."
+        }
+      },
+      "iron_table": {
+        "display_name": "Iron Table",
+        "description": "Stores up to 12 items.",
+        "iron_table_ghost": {
+          "display_name": "Iron Table",
+          "description": "Stores up to 12 items."
+        }
+      },
+      "stone_shelf_ground": {
+        "display_name": "Stone Ground Shelf",
+        "description": "Stores up to 12 items."
+      },
+      "stone_shelf_wall": {
+        "display_name": "Stone Shelf",
+        "description": "Stores up to 12 items.",
+        "stone_shelf_wall_ghost": {
+          "display_name": "Stone Shelf"
+        }
+      },
+      "stone_supply_basin": {
+        "display_name": "Stone Supply Basin",
+        "description": "Stores up to 12 items.",
+        "stone_supply_basin_ghost": {
+          "display_name": "Stone Supply Basin",
+          "description": "Stores up to 12 items."
+        }
+      },
+      "war_vault": {
+        "display_name": "War Vault",
+        "description": "A high level chest to store 86 items.",
+        "war_vault_ghost": {
+          "display_name": "War Vault",
+          "description": "Stores up to 86 items."
+        }
+      },
+      "clay": {
+        "shelf_ground": {
+          "clay_shelf_ground_ghost": {
+            "display_name": "Decorated Clay Ground Shelf"
+          },
+          "clay": {
+            "shelf_ground_ghost": {
+              "description": "Stores up to 12 items."
+            }
+          }
+        },
+        "shelf_wall": {
+          "clay": {
+            "shelf_wall_ghost": {
+              "description": "Stores up to 12 items."
+            }
+          }
+        }
+      },
+      "stone": {
+        "shelf_ground": {
+          "stone_shelf_ground_ghost": {
+            "display_name": "Stone Ground Shelf"
+          },
+          "stone": {
+            "shelf_ground_ghost": {
+              "description": "Stores up to 12 items."
+            }
+          }
+        },
+        "shelf_wall": {
+          "stone": {
+            "shelf_wall_ghost": {
+              "description": "Stores up to 12 items."
+            }
+          }
+        }
+      },
+      "armor_stand": {
+        "armor_stand": {
+          "display_name": "Armor Stand",
+          "description": "Used in crafting, but can also be places as a statue."
+        }
+      },
+      "skull_pole_banner": {
+        "skull_pole_banner": {
+          "display_name": "Skull Pole Banner",
+          "description": "A skull pole banner to mark territory."
+        }
+      },
+      "wooden_sign_barracks": {
+        "wooden_sign_barracks": {
+          "display_name": "Wooden Barracks Sign",
+          "description": "Wooden sign for the barracks."
+        }
+      }
+    },
+    "stone_sign_warmaster": {
+      "stone_sign_warmaster": {
+        "display_name": "Stone Warmaster Sign",
+        "description": "Stone sign for the Warmaster."
+      }
+    },
+    "decoration": {
+      "armor_stand": {
+        "display_name": "Armor Stand",
+        "description": "To be used in crafting recipes to display armor.",
+        "flavor": "Neat skulls to show how badass we are",
+        "armor_stand": {
+          "display_name": "Armor Stand",
+          "description": "Used in crafting, but can also be places as a statue."
+        }
+      },
+      "decorated_clay_bed": {
+        "decorated_clay_bed_ghost": {
+          "display_name": "Decorated Clay Bed",
+          "description": "A comfy clay bed."
+        }
+      },
+      "clay_bench": {
+        "clay_bench_ghost": {
+          "display_name": "Decorated Clay Bench",
+          "description": "A well sculpted clay bench."
+        }
+      },
+      "clay_chair": {
+        "clay_chair_ghost": {
+          "display_name": "Decorated Clay Chair",
+          "description": "A nice clay chair to sit on."
+        }
+      },
+      "clay_table": {
+        "clay_table_ghost": {
+          "display_name": "Decorated Clay Table",
+          "description": "A patterned clay table."
+        }
+      },
+      "clay_throne": {
+        "clay_throne_ghost": {
+          "display_name": "Decorated Clay Throne",
+          "description": "A clay throne to show prosperity."
+        }
+      },
+      "comfy_clay_chair": {
+        "comfy_clay_chair_ghost": {
+          "display_name": "Comfy Clay Chair",
+          "description": "A comfy clay chair to sit on."
+        }
+      },
+      "skull_pole_banner": {
+        "skull_pole_banner": {
+          "display_name": "Skull Pole Banner",
+          "description": "A pole banner with a skull on top."
+        }
+      },
+      "wooden_sign_warmaster": {
+        "wooden_sign_warmaster": {
+          "display_name": "Wooden Warmaster Sign",
+          "description": "A wooden sign for the warmaster."
+        }
+      },
+      "stone_sign_barracks": {
+        "stone_sign_barracks": {
+          "display_name": "Stone sign for the barracks."
+        }
+      },
+      "candle_clay": {
+        "candle_clay": {
+          "display_name": "Clay Candle",
+          "description": "A clay wall candle."
+        }
+      },
+      "clay_torch": {
+        "clay_torch": {
+          "display_name": "Decorated Clay Wall Firebowl",
+          "description": "A decorated wall firebowl."
+        }
+      },
+      "stone_torch": {
+        "stone_torch": {
+          "display_name": "Stone Wall Firebowl",
+          "description": "A wall mounted stone firebowl."
+        }
+      },
+      "stone_sign_warmaster": {
+        "stone_sign_warmaster": {
+          "display_name": "Stone Warmaster Sign",
+          "description": "Stone sign for the warmaster."
+        }
+      },
+      "wooden_sign_barracks": {
+        "wooden_sign_barracks": {
+          "display_name": "Wooden Barracks Sign",
+          "description": "Wooden sign for your barracks."
+        }
+      },
+      "bronze_armor_stand": {
+        "bronze_armor_stand": {
+          "display_name": "Bronze Armor Stand",
+          "description": "A bronze armor stand. Can be harvested to get the parts back."
+        },
+        "description": "Harvest to get items back.",
+        "display_name": "Bronze Armor Stand"
+      },
+      "swamp_guard_armor_stand": {
+        "swamp_guard_armor_stand": {
+          "display_name": "Swamp Guard Armor Stand",
+          "description": "A swamp guard armor stand. Can be harvested to get the parts back."
+        }
+      },
+      "hearth_guard_armor_stand": {
+        "hearth_guard_armor_stand": {
+          "display_name": "Hearth Guard Armor Stand",
+          "description": "A hearth guard armor stand. Can be harvested to get the parts back."
+        }
+      },
+      "swamp_guard_statue": {
+        "swamp_guard_statue": {
+          "display_name": "Swamp Guard Statue",
+          "description": "The statue of a swamp guard."
+        }
+      },
+      "hearth_guard_statue": {
+        "hearth_guard_statue": {
+          "display_name": "Hearth Guard Statue",
+          "description": "The statue of a hearth guard."
+        }
+      },
+      "swamp_guard_plaque": {
+        "swamp_guard_plaque": {
+          "display_name": "Swamp Guard Plaque",
+          "description": "A swamp guard plaque. Can be harvested to get the parts back."
+        }
+      },
+      "alligator_small_totem": {
+        "alligator_small_totem": {
+          "display_name": "Small Alligator Totem",
+          "description": "A small alligator totem with an embedded jewel."
+        }
+      },
+      "clay_skull_brazier": {
+        "clay_skull_brazier": {
+          "display_name": "Clay Skull Brazier",
+          "description": "A skull made of clay, turned into a brazier."
+        }
+      },
+      "clay_tower_brazier": {
+        "clay_tower_brazier": {
+          "display_name": "Clay Tower Brazier",
+          "description": "A decorated clay tower brazier."
+        }
+      },
+      "serpent_totem": {
+        "serpent_totem": {
+          "display_name": "Serpent Totem",
+          "description": "A serpet totem made of clay and stone."
+        }
+      },
+      "exquisite_rug": {
+        "exquisite_rug_ghost": {
+          "display_name": "Exquisite Rug",
+          "description": "The finest a goblin can weave."
+        },
+        "exquisite_rug": {
+          "description": "The finest a goblin can weave.",
+          "display_name": "Exquisite Rug"
+        }
+      },
+      "fine_rug": {
+        "fine_rug_ghost": {
+          "display_name": "Fine Rug",
+          "description": "A lovely rug to walk on."
+        },
+        "fine_rug": {
+          "display_name": "Fine Rug",
+          "description": "A lovely rug to walk on."
+        }
+      },
+      "banner_wall_big": {
+        "description": "A wall mounted banner.",
+        "display_name": "Wall Banner"
+      }
+    },
+    "furniture": {
+      "clay_bench": {
+        "display_name": "Decorated Clay Bench",
+        "description": "A well sculpted clay bench.",
+        "flavor": "Neat skulls to show how badass we are"
+      },
+      "clay_chair": {
+        "display_name": "Decorated Clay Chair",
+        "description": "A nice clay chair to sit on.",
+        "flavor": "Kinda uncomfortable, but looks nice"
+      },
+      "clay_table": {
+        "display_name": "Decorated Clay Table",
+        "description": "A patterned clay table.",
+        "flavor": "Neat skulls to show how badass we are"
+      },
+      "clay_throne": {
+        "display_name": "Decorated Clay Throne",
+        "description": "A clay throne built to show prosperity.",
+        "flavor": "Look at me, I'm the cheiftian now"
+      },
+      "comfy_clay_chair": {
+        "display_name": "Comfy Clay Chair",
+        "description": "A comfy clay chair to sit on.",
+        "flavor": "Throw a rug on it - The inventor of comfy things"
+      },
+      "decorated_clay_bed": {
+        "display_name": "Decorated Clay Bed",
+        "description": "A comfy clay bed.",
+        "flavor": "No, I refuse to get out!"
+      }
+    },
+    "upgrades": {
+      "bronze_beast_tamer_claw": {
+        "bronze_beast_tamer_claw": {
+          "display_name": "Bronze Beast Tamer Claws",
+          "description": "Bronze claws for the beast tamer."
+        }
+      },
+      "iron_beast_tamer_claw": {
+        "iron_beast_tamer_claw": {
+          "display_name": "Iron Beast Tamer Claws",
+          "description": "Iron claws for the beast tamer."
+        }
+      },
+      "bronze_spirit_walker_helmet": {
+        "bronze_spirit_walker_helmet": {
+          "display_name": "Bronze Spirit Walker Helmet",
+          "description": "A bronze upgrade for the spirit walker."
+        }
+      },
+      "iron_spirit_walker_helmet": {
+        "iron_spirit_walker_helmet": {
+          "display_name": "Iron Spirit Walker Helmet",
+          "description": "An iron upgrade for the spirit walker."
+        }
+      },
+      "essence_knowledge_tome": {
+        "essence_knowledge_tome": {
+          "display_name": "Essence Knowledge Tome",
+          "description": "The magic and knowledge poured into this will certainly be of help."
+        }
+      }
+    },
+    "weapons": {
+      "bone_axe": {
+        "bone_axe": {
+          "display_name": "Bone Axe",
+          "description": "One handed bone axe."
+        }
+      },
+      "bone_sword": {
+        "bone_sword": {
+          "display_name": "One handed bone sword.",
+          "description": "A sword made with bone bits."
+        }
+      },
+      "bronze_spear": {
+        "bronze_spear": {
+          "display_name": "Bronze Spear",
+          "description": "Two handed spear made of bronze."
+        }
+      },
+      "bronze_sword": {
+        "bronze_sword": {
+          "display_name": "Bronze Sword",
+          "description": "One handed sword made of bronze."
+        }
+      },
+      "iron_spear": {
+        "iron_spear": {
+          "display_name": "Iron Spear",
+          "description": "Two handed spear made of iron."
+        }
+      },
+      "iron_sword": {
+        "iron_sword": {
+          "display_name": "Iron Sword",
+          "description": "One handed sword made of iron."
+        }
+      },
+      "war_fork": {
+        "war_fork": {
+          "display_name": "War Fork",
+          "description": "Two handed warfork made of iron and steel."
+        }
+      },
+      "hearth_guard_bardiche": {
+        "hearth_guard_bardiche": {
+          "display_name": "Hearth Guard Bardiche",
+          "description": "A steel bardiche made of steel with an embedded jewel."
+        }
+      },
+      "steel_sword": {
+        "steel_sword": {
+          "display_name": "Hearth Guard Sword",
+          "description": "One handed sword made of steel."
+        }
+      },
+      "bronze_axe": {
+        "bronze_axe": {
+          "display_name": "Bronze Axe",
+          "description": "One handed bronze axe."
+        }
+      },
+      "bronze_mace": {
+        "bronze_mace": {
+          "description": "One handed bronze axe.",
+          "display_name": "Bronze Mace"
+        }
+      },
+      "iron_axe": {
+        "iron_axe": {
+          "display_name": "Iron Axe",
+          "description": "One handed iron axe."
+        }
+      },
+      "iron_mace": {
+        "iron_mace": {
+          "description": "One handed iron mace.",
+          "display_name": "Iron Mace"
+        }
+      }
+    },
+    "construction": {
+      "iron_portcullis": {
+        "iron_portcullis": {
+          "display_name": "Iron Portcullis",
+          "description": "A stone gate with a reinforced portcullis. (Place the frame inside your walls & leave no air gap)"
+        }
+      },
+      "stronghold_double_door": {
+        "stronghold_double_door": {
+          "display_name": "Stronghold Double Door",
+          "description": "A strong door to hide behind."
+        }
+      },
+      "wooden_portcullis": {
+        "wooden_portcullis": {
+          "display_name": "Wooden Portcullis",
+          "description": "A wooden gate with a wood portcullis.(Place the frame inside your walls & leave no air gap)"
+        }
+      },
+      "barricade_gate": {
+        "barricade_gate": {
+          "display_name": "Double Barricade Gate",
+          "description": "Two barricades tied into one so it functions like a larger gate."
+        }
+      },
+      "double_barricade_gate": {
+        "double_barricade_gate": {
+          "display_name": "Double Barricade Gate",
+          "description": "Two barricades tied into one so it functions like a larger gate."
+        }
+      }
+    },
+    "warsmith": {
+      "warsmith_talisman": {
+        "warsmith_talisman": {
+          "display_name": "Warsmith Talisman",
+          "description": "Used to promote to a warsmith."
+        },
+        "display_name": "Warsmith Talisman",
+        "description": "Used to promote to a warsmith."
+      },
+      "warsmith_hammer": {
+        "warsmith_hammer": {
+          "display_name": "Warsmith Hammer",
+          "description": "The Warsmiths' hammer."
+        },
+        "display_name": "Warsmith Hammer",
+        "description": "The Warsmiths' hammer."
+      },
+      "warsmith_outfit": {
+        "warsmith_outfit": {
+          "display_name": "Warsmith Outfit",
+          "description": "The Warsmiths' outfit."
+        },
+        "display_name": "Warsmith Outfit",
+        "description": "The Warsmiths' outfit."
+      },
+      "warsmith_forge": {
+        "warsmith_forge": {
+          "display_name": "Warsmith Forge",
+          "description": "Used for heating up metals and melting ore."
+        },
+        "display_name": "Warsmith Forge",
+        "description": "Used for heating up metals and melting ore."
+      },
+      "warsmith_workbench": {
+        "display_name": "Warsmith Anvil",
+        "description": "Where hot metal is forged into usable items."
+      }
+    },
+    "warfare": {
+      "essence_core": {
+        "essence_core": {
+          "display_name": "Essence Core",
+          "description": "The magical core to power our machines and traps."
+        }
+      },
+      "alligator_small_guardian": {
+        "alligator_small_guardian": {
+          "display_name": "Small Alligator Guardian",
+          "description": "A small magical turret, to protect your village."
+        }
+      }
+    }
+  },
+  "data": {
+    "buffs": {
+      "major_muscle_aura_buff": {
+        "display_name": "Skull Aura Buff",
+        "description": "Skull aura buff which infuses the goblins around with power."
+      },
+      "major_muscle_aura_effect_buff": {
+        "display_name": "Skull Aura Effect",
+        "description": "Skull aura buff which infuses the goblins around with power."
+      },
+      "mix_aura_buff": {
+        "display_name": "Banner Buff"
+      },
+      "mix_buff": {
+        "description": "A banner to make you feel strong."
+      },
+      "courage_aura_buff": {
+        "display_name": "Varanus Aura Buff"
+      },
+      "courage_buff": {
+        "description": "Varanus aura buff which infuses the goblins around with courage."
+      },
+      "courage_aura_effect_buff": {
+        "display_name": "Varanus Aura Buff"
+      },
+      "courage_effect_buff": {
+        "description": "Varanus aura buff which infuses the goblins around with courage."
+      },
+      "mix_effect_buff": {
+        "description": "A banner to make you feel strong."
+      },
+      "mix_aura_effect_buff": {
+        "display_name": "Banner Buff"
+      },
+      "essence_knowledge": {
+        "display_name": "Essence Knowledge",
+        "description": "Knowledge of the arcane and mechanical in one."
+      }
+    },
+    "commands": {
+      "dismantle": {
+        "display_name": "Dismantle",
+        "description": "Press to dismantle the item."
+      }
+    }
+  }
+}

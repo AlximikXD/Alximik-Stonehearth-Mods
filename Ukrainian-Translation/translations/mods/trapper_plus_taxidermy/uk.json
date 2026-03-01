@@ -1,0 +1,180 @@
+{
+  "decorations": {
+    "mounted_wolf": {
+      "display_name": "Верховий вовк",
+      "description": "Декоративне опудало вовка в загрозливій позі.",
+      "flavor": "Зуби все ще небезпечні.",
+      "mounted_desert_wolf": {
+        "display_name": "Кінний пустельний вовк"
+      },
+      "mounted_arctic_wolf": {
+        "display_name": "Верховий полярний вовк"
+      },
+      "mounted_warg": {
+        "display_name": "Навісний варг"
+      }
+    },
+    "mounted_fox": {
+      "display_name": "Верховий Фокс",
+      "description": "Красиве опудало лисиці для прикраси.",
+      "flavor": "",
+      "mounted_fennec_fox": {
+        "display_name": "Верховий фенек"
+      },
+      "mounted_arctic_fox": {
+        "display_name": "Верховий песець"
+      }
+    },
+    "mounted_deer": {
+      "description": "Звичайна лісова тварина тепер перетворилася на екзотичну прикрасу.",
+      "display_name": "Верховий олень",
+      "flavor": "",
+      "mounted_gazelle_cow": {
+        "display_name": "Навісна газель корова",
+        "description": "Мирний пасовик посушливих чагарників перетворився на прикрасу."
+      },
+      "mounted_red_deer": {
+        "display_name": "Верховий благородний олень"
+      },
+      "mounted_moose_cow": {
+        "display_name": "Верховий лось корова"
+      }
+    },
+    "mounted_varanus": {
+      "display_name": "Кінний Варан",
+      "description": "Ця велика рептилія, яка раніше була загрозою, тепер стала предметом прикраси.",
+      "flavor": ""
+    },
+    "mounted_stag": {
+      "display_name": "Верховий олень",
+      "description": "Шановна і мудра істота лісу, тепер опудала ловця.",
+      "flavor": "Приголомшливо!",
+      "mounted_gazelle": {
+        "display_name": "Навісна Газель",
+        "description": "Колись гордість своєї зграї, тепер лише прикраса..."
+      },
+      "mounted_caribou": {
+        "display_name": "Верховий карібу"
+      },
+      "mounted_moose": {
+        "display_name": "Верховий лось"
+      }
+    },
+    "mounted_squirrel": {
+      "display_name": "Білка верхова",
+      "description": "Маленька екзотична прикраса.",
+      "flavor": "",
+      "mounted_ground_squirrel": {
+        "display_name": "Їздовий ховрах"
+      },
+      "mounted_gray_squirrel": {
+        "display_name": "Білка сіра верхова"
+      },
+      "mounted_red_squirrel": {
+        "display_name": "Верхова червона білка"
+      }
+    },
+    "mounted_racoon": {
+      "display_name": "Верховий єнот",
+      "description": "Опудало єнота для прикраси.",
+      "flavor": "Нічого подібного, крім цього.",
+      "mounted_brown_racoon": {
+        "display_name": "Верховий коричневий єнот"
+      },
+      "mounted_arctic_racoon": {
+        "display_name": "Верховий арктичний єнот"
+      },
+      "mounted_skunk": {
+        "display_name": "Навісний скунс",
+        "description": "Опудало високогірного скунса для прикраси."
+      }
+    },
+    "mounted_rabbit": {
+      "display_name": "Верховий кролик",
+      "description": "Маленьке безпорадне створіння, яке тепер навічно застигло в часі.",
+      "flavor": "",
+      "mounted_brown_hare": {
+        "display_name": "Заєць-русак"
+      },
+      "mounted_snow_hare": {
+        "display_name": "Сніжний заєць"
+      },
+      "mounted_gray_rabbit": {
+        "display_name": "Верховий сірий кролик"
+      }
+    },
+    "mounted_cougar": {
+      "display_name": "Верховий Кугуар",
+      "description": "Колись лютий хижак, ця опудала пуми - дивовижний твір.",
+      "flavor": "",
+      "mounted_panther": {
+        "display_name": "Кінна пантера"
+      },
+      "mounted_snow_leopard": {
+        "display_name": "Верховий сніговий барс"
+      },
+      "mounted_tiger": {
+        "display_name": "Верховий тигр"
+      }
+    },
+    "mounted_boar": {
+      "display_name": "Верховий кабан",
+      "description": "Хитрий і сильний лісовий звір, опудало ловця.",
+      "flavor": ""
+    },
+    "wall_cougar_trophy": {
+      "display_name": "Настінний трофей \"Пума\".",
+      "description": "Прекрасна прикраса для оселі гордого мисливця.",
+      "flavor": "",
+      "wall_panther_trophy": {
+        "display_name": "Настінний трофей \"Пантера\"."
+      },
+      "wall_snow_leopard_trophy": {
+        "display_name": "Настінний трофей снігового барса"
+      },
+      "wall_tiger_trophy": {
+        "display_name": "Настінний тигровий трофей"
+      }
+    },
+    "wall_stag_trophy": {
+      "display_name": "Настінний трофей оленя",
+      "description": "Традиційна прикраса для тих, хто подолав пустелю.",
+      "flavor": "",
+      "wall_gazelle_trophy": {
+        "display_name": "Настінна Газель Trophy"
+      },
+      "wall_caribou_trophy": {
+        "display_name": "Настінний трофей карібу"
+      },
+      "wall_moose_trophy": {
+        "display_name": "Трофей настінного лося"
+      }
+    },
+    "wall_wolf_trophy": {
+      "display_name": "Настінний трофей вовка",
+      "description": "Колись виклик, тепер трофей.",
+      "flavor": "",
+      "wall_desert_wolf_trophy": {
+        "display_name": "Настінний трофей Desert Wolf"
+      },
+      "wall_arctic_wolf_trophy": {
+        "display_name": "Настінний трофей Arctic Wolf"
+      },
+      "wall_warg_trophy": {
+        "display_name": "Настінний Warg Trophy"
+      }
+    },
+    "wall_zilla_trophy": {
+      "display_name": "Настінний Zilla Trophy",
+      "description": "Цей трофей є доказом славної перемоги.",
+      "flavor": "Zilla - грізний ворог."
+    }
+  },
+  "trapper": {
+    "studio": {
+      "display_name": "Студія таксидермії",
+      "description": "Використовується Трапером, щоб набивати та їздити на тварин або створювати трофеї.",
+      "flavor": ""
+    }
+  }
+}

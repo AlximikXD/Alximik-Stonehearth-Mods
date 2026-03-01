@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "construction": {
+      "tall_bantonian_window": {
+        "tall_bantonian_window_ghost": {
+          "display_name": "Tall Bantonian Window",
+          "description": "Glass included"
+        }
+      },
+      "tall_bantonian_window_flowers": {
+        "tall_bantonian_window_flowers_ghost": {
+          "display_name": "Tall Bantonian Flower Window",
+          "description": "Flower pots included!"
+        }
+      },
+      "small_bantonian_window": {
+        "small_bantonian_window_ghost": {
+          "display_name": "Small Bantonian Window",
+          "description": "Stylish small window"
+        }
+      },
+      "bantonian_stone_window_frame_tall": {
+        "bantonian_stone_window_frame_tall_ghost": {
+          "display_name": "a Fancy Stone Window",
+          "description": "Glass included!"
+        }
+      },
+      "bantonian_wide_window": {
+        "bantonian_wide_window_ghost": {
+          "display_name": "Wide Bantonian Window",
+          "description": "The world seems... stretched?"
+        }
+      },
+      "small_wooden_bantonian_window": {
+        "small_wooden_bantonian_window_ghost": {
+          "display_name": "Small Nordic Bantonian Window",
+          "description": "Stylish small window"
+        }
+      }
+    }
+  }
+}

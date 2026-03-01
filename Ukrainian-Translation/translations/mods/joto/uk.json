@@ -1,0 +1,172 @@
+{
+  "entities": {
+    "critters": {
+      "dromedary": {
+        "display_name": "Dromedary",
+        "description": "Витривала тварина, підходить для безплідних умов.",
+        "dromedary_young": {
+          "display_name": "Молодий верстат",
+          "description": "Витривала тварина, підходить для безплідних умов. Цей ще маленький!"
+        }
+      },
+      "wild_dromedary": {
+        "display_name": "Дикий дромадер",
+        "description": "Дика, витривала тварина, придатна для безплідних умов.",
+        "wild_dromedary_young": {
+          "display_name": "Молодий дикий дромадер",
+          "description": "Дика, витривала тварина, придатна для безплідних умов. Цей ще маленький!."
+        }
+      }
+    },
+    "food": {
+      "coffee": {
+        "display_name": "Кава в зернах",
+        "coffee_basket": {
+          "display_name": "Кошик кавових зерен",
+          "description": "Досить гіркі на смак боби, обсмажте їх і приготуйте напій."
+        },
+        "coffee_serving": {
+          "display_name": "Тарілка кавових зерен",
+          "description": "Жувальні енергетичні боби, придатні для смаження та використання в гарячих напоях."
+        }
+      },
+      "dromedary_feed": {
+        "dromedary_feed": {
+          "display_name": "Корм для дромадерів",
+          "description": "Використовується для годування дромадерів"
+        },
+        "dromedary_feed_ground": {
+          "display_name": "Корм для дромадерів",
+          "description": "Використовується для годування дромадерів"
+        }
+      }
+    },
+    "drink": {
+      "dromedary_milk": {
+        "dromedary_milk": {
+          "display_name": "Молоко дромадера",
+          "description": "Теплий і гладкий, прямо зі здорового дромадера!"
+        },
+        "dromedary_milk_serving": {
+          "display_name": "Чашка молока дромадера",
+          "description": "Теплий і гладкий, прямо зі здорового дромедара!"
+        }
+      },
+      "coffee_desert": {
+        "coffee_desert": {
+          "display_name": "Десертна кава",
+          "description": "Гаряче, густе та енергійне, подається в декоративних чашках."
+        },
+        "coffee_desert_serving": {
+          "display_name": "Десертна кава",
+          "description": "Гаряче, густе та енергійне, подається в декоративних чашках."
+        }
+      },
+      "coffee_iconic": {
+        "display_name": "Десертна кава",
+        "description": "Гаряче, густе та енергійне, подається в декоративних чашках."
+      }
+    },
+    "plants": {
+      "coffee_plant": {
+        "unripe_description": "Ще не дозрів до збору врожаю.",
+        "display_name": "Кавовий завод",
+        "description": "Урожай для гірких кавових зерен.",
+        "bud": {
+          "coffee_plant_bud": {
+            "display_name": "Розвиток кави",
+            "description": "Майже готово! Подивіться, у нього бутони!"
+          }
+        },
+        "seed": {
+          "coffee_plant_seed_ghost": {
+            "display_name": "Насіння кавової рослини",
+            "description": "Можна посадити для вирощування кущ гірких кавових зерен."
+          }
+        },
+        "sprout": {
+          "coffee_plant_sprout": {
+            "display_name": "Проростання кавових рослин",
+            "description": "Просто потрібен час і догляд."
+          }
+        },
+        "stem": {
+          "coffee_plant_stem": {
+            "description": "Все ще росте!",
+            "display_name": "Стеблова кавова рослина"
+          }
+        }
+      }
+    },
+    "decoration": {
+      "decorative_coffeepot": {
+        "decorative_coffeepot_ghost": {
+          "display_name": "Декоративний кавник",
+          "description": "Використовується для зберігання та розливу кави, цей горщик наразі порожній."
+        }
+      }
+    }
+  },
+  "jobs": {
+    "cook": {
+      "recipes": {
+        "dromedary_feed_recipe": {
+          "recipe_name": "Корм для дромадерів (x3)",
+          "description": "Використовується для годування дромадерів",
+          "flavor": "«Довірся Сіду, але прив’яжи свого Верблюда». -Популярне прислів'я про пустелю"
+        },
+        "coffee_recipe": {
+          "recipe_name": "Десертна кава",
+          "description": "Дуже цінується багатьма пікантний і гарячий напій! Надає бонус для порід.",
+          "flavor": "Приготовану каву потрібно кудись поставити, щоб її можна було спожити"
+        }
+      }
+    },
+    "herbalist": {
+      "recipes": {
+        "coffee_plant_transmute_recipe": {
+          "recipe_name": "Насіння кавової рослини (x3)",
+          "description": "Відокремте насіння від плоду",
+          "flavor": "Лише вправна рука може зібрати слабші насіння, але плід у процесі втрачається."
+        }
+      }
+    },
+    "mason": {
+      "mason_description": {
+        "requirements": "Створено Поттером"
+      }
+    },
+    "potter": {
+      "recipes": {
+        "decorative_coffeepot_recipe": {
+          "description": "Красивий глиняний горщик, прикрашений латундю",
+          "recipe_name": "Декоративний кавник",
+          "flavor": "«Досконало виготовлена ​​посудина для подачі напою, щоб розпочати ваш день»."
+        }
+      }
+    },
+    "shepherd": {
+      "shepherd_description": {
+        "requirements": "Створено Поттером"
+      }
+    }
+  },
+  "ui": {
+    "game": {
+      "zones_mode": {
+        "pasture": {
+          "dromedary_pasture_name": "Стадо дромадерів",
+          "dromedary_pasture_description": "Дромадер дає молоко, живильний напій, а також вовну, яку використовують ткачі. Забій дромадера дасть м’ясо, сирий інгредієнт для приготування."
+        }
+      }
+    }
+  },
+  "data": {
+    "buffs": {
+      "coffee_energy": {
+        "display_name": "Енергія з кофеїном",
+        "description": "Ура, кофеїн! Старанність підвищена, Швидкість трохи підвищена. Потреба уві сні трохи зменшилася.<ul><li>Крафт трохи швидше</li></ul>"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "ui": {
+    "shell": {
+      "settings": {
+        "gameplayTab": {
+          "entity_cutaway": {
+            "name": "Enable Cutaway Vision",
+            "description": "Certain entities, particularly passive processing containers from mods like \"Trapper+\" or \"Glassworks\", will be displayed with a special cutaway view when clicked that allows you to see their interiors."
+          },
+          "passive_transformer_tick": {
+            "name": "Passive Transformation Update Frequency",
+            "description": "Determines how often will the passive transformation processors check the progress of any undergoing processes like glass cooling <i>(Glassworks)</i> or pelt drying <i>(Trapper+)</i>. All values are in <i>in-game time</i>.<br><br>Increasing this setting might help with the game's performance on well developed towns with a large population, at the cost of the transformations sometimes taking slightly longer to complete. For example, if a process takes 1 hour and 30 minutes to complete and you set the update frequency to \"1 Hour\", it will only be considered complete after two updates, which equals two hours.<br><br><i>Default: 30 Minutes</i>",
+            "15m": "15 Minutes",
+            "15m_description": "The game will check the progress of all processes in their \"real-time\", which means they'll be ready as soon as they should be.",
+            "30m": "30 Minutes",
+            "30m_description": "The game will check the progress of all processes quite often but not as quickly as some processes can be, but the effect will be mostly irrelevant.",
+            "1h": "1 Hour",
+            "1h_description": "The game will check the progress of all processes every hour, which will result in some processes taking a bit longer but with a minor impact.",
+            "90m": "1.5 Hour",
+            "90m_description": "The game won't check the progress of all processes so often and this might be perceivable for quicker processes, probably not for longer ones.",
+            "2h": "2 Hours",
+            "2h_description": "The game will take a long time between checks on processes, this might be very perceivable for quick processes but not so much for longer ones."
+          }
+        }
+      }
+    }
+  }
+}

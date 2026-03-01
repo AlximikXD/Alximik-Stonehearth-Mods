@@ -1,0 +1,51 @@
+//
+// Variables
+// --------------------------------------------------
+@import "/Ukrainian_translation/ui/fonts/ofelixgro/stylesheet.css";   // ofelixgro
+@import "/Ukrainian_translation/ui/fonts/autourone-uk/stylesheet.css"; // AutourOne
+@import "/Ukrainian_translation/ui/fonts/grobold/stylesheet.css";      // GROBOLD (uk)
+
+// Typography
+// -------------------------
+@baseFontFamily:        'AutourOneRegular', 'groboldregular', 'Segoe UI', 'Arial', sans-serif;
+
+@headerFontFamily:      'groboldregular', 'AutourOneRegular', 'ofelixgro', 'Segoe UI', 'Arial', sans-serif;
+@controlFontFamily:     'groboldregular', 'AutourOneRegular', 'ofelixgro', 'Segoe UI', 'Arial', sans-serif;
+
+// Main menu button layout.
+#titlescreen #controls > div:last-child {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    row-gap: 8px;
+}
+
+#titlescreen #controls > div:last-child > a {
+    width: auto !important;
+    flex: 0 0 auto;
+}
+
+#titlescreen #controls > div:last-child > a:last-child {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+#titlescreen #aboutButton {
+    min-width: 220px;
+    width: auto !important;
+}
+
+#titlescreen #settingsButton {
+    min-width: 320px;
+    width: auto !important;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+#titlescreen #exitButton {
+    min-width: 220px;
+    width: auto !important;
+}

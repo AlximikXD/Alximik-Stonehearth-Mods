@@ -1,0 +1,299 @@
+{
+  "kingdoms": {
+    "char_dwarf": "Гноми Даркмайну"
+  },
+  "kingdom": {
+    "kingdom_name": "Гноми Даркмайну",
+    "long_description": "Великі різьбярі Темних копалень наважилися проникнути через ворота порталу з глибини підземного світу магми. Північний Альянс вітає їх у своїх лонах, приносячи тепло на холодну північ."
+  },
+  "data": {
+    "char_dwarf_population": {
+      "display_name": "Гноми Даркмайну"
+    },
+    "buffs": {
+      "animal_stun_buff": {
+        "display_name": "Оглушений",
+        "description": "Не втече і не зітхнеться"
+      },
+      "no_dwarf_buff_night": {
+        "display_name": "Звичайна ніч",
+        "description": "Гном не отримує бафф Гномової пильності."
+      },
+      "vigil_night_buff": {
+        "display_name": "Гном Пильність",
+        "description": "Гном пропускає сон на ніч."
+      }
+    },
+    "build": {
+      "building_brushes": {
+        "colors": {
+          "#343434": "Світла магматична порода",
+          "#1a1a1a": "Магма Рок Темний"
+        }
+      }
+    },
+    "commands": {
+      "use_beard_cloth": {
+        "description": "Використовуйте цей предмет на громадянині."
+      }
+    },
+    "gm": {
+      "campaigns": {
+        "portal_big_bird_campaign": {
+          "dialog_portal_gate": {
+            "dialog_tree_info": {
+              "dialog_nodes": {
+                "info": {
+                  "bulletin_message": {
+                    "000": "<p>Гноми Темного Шахту прибули через ці ворота порталу зі свого підземного світу магми.<br><br>О, подивіться, що ще пройшло?!<br> Яйце, і воно готове до вилуплення!</p>"
+                  },
+                  "bulletin_title": "Портальні ворота",
+                  "dialog_title": "З підземного світу"
+                }
+              }
+            }
+          }
+        },
+        "random_dwarf_beard": {
+          "intro": {
+            "title": "Нова борода?",
+            "dialog_title": "Нова борода?",
+            "message": "Тканина для бороди підготовлена ​​до використання прямо зараз.<br>Ви використаєте її, щоб сформувати нову бороду для гнома? Інакше його буде викинуто.",
+            "choice_yes": "✔️ Так",
+            "choice_no": "❌ Ні"
+          },
+          "quest": {
+            "title": "Нова Борода",
+            "dialog_title": "Нова борода",
+            "text": "Виберіть гнома, який змінить свою бороду.",
+            "message_bulletin": "Гарна нова борода!"
+          }
+        }
+      }
+    },
+    "happiness": {
+      "thoughts": {
+        "char_dwarf": {
+          "values": {
+            "happy_miner": {
+              "display_name": "Щасливий Шахтар",
+              "tooltip": "Удар землі від радості! Знайдіть скарби в темних і таємних місцях внизу."
+            }
+          }
+        }
+      }
+    }
+  },
+  "jobs": {
+    "blacksmith": {
+      "recipes": {
+        "cd_armor_outfits_name": "Обладунки броні",
+        "dimensional_gear_name": "Габаритне спорядження",
+        "iron_battle_axe_recipe": {
+          "recipe_name": "Залізна бойова сокира",
+          "description": "Дуже великий, коли вам знадобиться додатковий удар.",
+          "flavor": "«Це всі?» — крикнув Ровнар."
+        },
+        "steel_axe_recipe": {
+          "recipe_name": "Сталева сокира",
+          "description": "Дуже добре підходить для рубання та рубання.",
+          "flavor": "...і один за іншим вони витягли сокири над стіною щита.' - Сага Валіна"
+        },
+        "silver_mace_recipe": {
+          "recipe_name": "Срібний молот",
+          "description": "Тупий. Сильний. Нестримний.",
+          "flavor": "Lightbringer"
+        },
+        "dark_knight_armor_recipe": {
+          "recipe_name": "Броня темного лицаря",
+          "description": "Покращена альтернатива броні для Лицаря-гнома Даркмайн.",
+          "flavor": "Небезпечний зовнішній вигляд."
+        },
+        "dragoon_armor_recipe": {
+          "recipe_name": "Драгунський обладунок",
+          "description": "Удосконалена альтернатива броні для піхотина-гнома з Даркмайну.",
+          "flavor": "Жорстокий вигляд."
+        },
+        "dark_knight_helmet_recipe": {
+          "recipe_name": "Шолом темного лицаря",
+          "description": "Шолом лорда капітана.",
+          "flavor": "Гноми створили спеціальне спорядження Darkmine"
+        },
+        "dragoon_helm_recipe": {
+          "recipe_name": "Драгунський Шлем",
+          "description": "Шлем стрибуна у висоту.",
+          "flavor": "Гноми створили спеціальне спорядження Darkmine"
+        }
+      }
+    },
+    "footman": {
+      "footman_description": {
+        "level_1_data": {
+          "hunting_perk_name": "Hunting",
+          "hunting_perk_description": "Піхотинець-гном Даркмін від природи вміє вистежувати тварин і може полювати на них, щоб отримати їжу та інші ресурси."
+        }
+      },
+      "footman_buffs": {
+        "dwarf_hunt_dash_buff": {
+          "display_name": "Мисливська гонитва",
+          "description": "Швидко женеться за здобиччю диких тварин"
+        }
+      }
+    },
+    "potter": {
+      "recipes": {
+        "large_urn_coal_recipe": {
+          "description": "Для компактного зберігання до 32 речей",
+          "recipe_name": "Велика темна урна",
+          "flavor": "Коли ми покладемо речі, як ми їх витягнемо? Не думай про це занадто багато"
+        },
+        "tile_floor_mosaic_coal_recipe": {
+          "description": "Прикрашає та охолоджує підлогу",
+          "recipe_name": "Темна мозаїчна плитка для підлоги",
+          "flavor": "Переступіть через намальовані квіти та подякуйте"
+        },
+        "tile_wall_mosaic_coal_recipe": {
+          "description": "Заспокійливі декоративні візерунки",
+          "recipe_name": "Плитка настінна темна мозаїка",
+          "flavor": "Плитка охолоджується всередині і зовні"
+        }
+      }
+    },
+    "weaver": {
+      "recipes": {
+        "beard_cloth_recipe": {
+          "description": "Використовується для формування нової бороди.",
+          "recipe_name": "Тканина для бороди карлика Darkmine",
+          "flavor": "Іноді жінка-гном також хоче носити гарну бороду."
+        },
+        "rug_gilded_coal_recipe": {
+          "description": "Майстерно виткана з фарбованих і золотистих ниток",
+          "recipe_name": "Позолочене вугілля",
+          "flavor": "Колір отриманий із шматків вугілля, знайдених глибоко в гірських шахтах."
+        },
+        "rug_gilded_copper_recipe": {
+          "description": "Майстерно виткана з фарбованих і золотистих ниток",
+          "recipe_name": "Позолочена мідь",
+          "flavor": "Колір отримано з мідної руди, знайденої глибоко в гірських шахтах."
+        },
+        "rug_gilded_gold_recipe": {
+          "description": "Майстерно виткана з фарбованих і золотистих ниток",
+          "recipe_name": "Позолочене золото",
+          "flavor": "Колір отримано із золотої руди, знайденої глибоко в гірських шахтах."
+        },
+        "rug_gilded_silver_recipe": {
+          "description": "Майстерно виткана з фарбованих і золотистих ниток",
+          "recipe_name": "Позолочений срібний кидок",
+          "flavor": "Колір отримано зі срібної руди, знайденої глибоко в гірських шахтах."
+        }
+      }
+    }
+  },
+  "entities": {
+    "ale_drink": {
+      "description": "Завжди майте під рукою чашку елю.",
+      "display_name": "Ель Танкард"
+    },
+    "armor": {
+      "dark_knight": {
+        "display_name": "Броня темного лицаря",
+        "description": "Покращена броня для лицаря."
+      },
+      "dark_knight_helmet": {
+        "display_name": "Шолом темного лицаря",
+        "description": "Покращена броня для лицаря."
+      },
+      "dragoon": {
+        "display_name": "Драгунський обладунок",
+        "description": "Покращена броня для піхотина."
+      },
+      "dragoon_helm": {
+        "display_name": "Драгунський Шлем",
+        "description": "Удосконалений головний убір для лакея."
+      }
+    },
+    "consumables": {
+      "beard_cloth": {
+        "display_name": "Тканина для бороди",
+        "description": "Дає обраному гному нову бороду."
+      }
+    },
+    "containers": {
+      "large_urn_coal": {
+        "large_urn_coal_ghost": {
+          "display_name": "Велика темна урна",
+          "description": "Зберігає до 32 предметів"
+        }
+      }
+    },
+    "decoration": {
+      "portal_gate": {
+        "portal_gate_ghost": {
+          "description": "Пристрій для подорожей в одну сторону. Прибулі люди з підземного світу в іншому всесвіті.",
+          "display_name": "Портальні ворота"
+        }
+      },
+      "rug_gilded_coal": {
+        "rug_gilded_coal_ghost": {
+          "display_name": "Вугільний позолочений кидок",
+          "description": "Майстерно виткана з фарбованих і золотистих ниток"
+        }
+      },
+      "rug_gilded_copper": {
+        "rug_gilded_copper_ghost": {
+          "display_name": "Мідний позолочений плед",
+          "description": "Майстерно виткана з фарбованих і золотистих ниток"
+        }
+      },
+      "rug_gilded_gold": {
+        "rug_gilded_gold_ghost": {
+          "display_name": "Золотий позолочений плед",
+          "description": "Майстерно виткана з фарбованих і золотистих ниток"
+        }
+      },
+      "rug_gilded_silver": {
+        "rug_gilded_silver_ghost": {
+          "display_name": "Срібний позолочений кидок",
+          "description": "Майстерно виткана з фарбованих і золотистих ниток"
+        }
+      },
+      "tile_floor_mosaic_coal": {
+        "tile_floor_mosaic_coal_ghost": {
+          "display_name": "Темна мозаїчна плитка для підлоги",
+          "description": "Охолодити на босу ногу"
+        }
+      },
+      "tile_wall_mosaic_coal": {
+        "tile_wall_mosaic_coal_ghost": {
+          "display_name": "Плитка настінна темна мозаїка",
+          "description": "Заспокійливі декоративні візерунки"
+        }
+      }
+    },
+    "pets": {
+      "big_bird": {
+        "description": "Великий темний птах, га?",
+        "display_name": "Великий Птах",
+        "big_bird_egg": {
+          "description": "Чи готовий він до вилуплення?",
+          "display_name": "Велике пташине яйце"
+        },
+        "species": "Великий Птах"
+      }
+    },
+    "weapons": {
+      "iron_battle_axe": {
+        "description": "Дуже великий, коли вам знадобиться додатковий удар. (дворучний)",
+        "display_name": "Залізна бойова сокира"
+      },
+      "steel_axe": {
+        "display_name": "Сталева сокира",
+        "description": "За рубання та рубання до перемоги."
+      },
+      "silver_mace": {
+        "display_name": "Срібний молот",
+        "description": "Тупий. Сильний. Нестримний."
+      }
+    }
+  }
+}

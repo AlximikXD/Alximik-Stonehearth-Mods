@@ -1,0 +1,122 @@
+{
+  "entities": {
+    "mining": {
+      "crane": {
+        "display_name": "Mining Crane",
+        "description": "Picks things up and puts them down."
+      },
+      "mine_track_ramp": {
+        "display_name": "Mine Track - Ramp",
+        "description": "It goes up...or down."
+      },
+      "mine_track_straight": {
+        "display_name": "Mine Track - Straight",
+        "description": "A straight section of Track."
+      },
+      "mine_track_half": {
+        "display_name": "Mine Track - Half",
+        "description": "Half of a straight section of Track."
+      },
+      "mine_track_t": {
+        "display_name": "Mine Track - T",
+        "description": "Allows for changing direction."
+      },
+      "mine_track_intersection": {
+        "display_name": "Mine Track - Intersection",
+        "description": "An intersection."
+      },
+      "mine_track_curve": {
+        "display_name": "Mine Track - Curve",
+        "description": "A curved section of Track."
+      },
+      "mine_track_stop": {
+        "display_name": "Mine Track - Stop",
+        "description": "A wooden stop for a Minecart."
+      },
+      "minecart": {
+        "display_name": "Mine Track - Minecart",
+        "description": "Storage for 32 items."
+      },
+      "wooden_mine_support": {
+        "display_name": "Mine Track - Wooden Support",
+        "description": "Keeps the mine from caving in."
+      },
+      "stone_mine_support": {
+        "display_name": "Mine Track - Stone Support",
+        "description": "Keeps the mine from caving in."
+      }
+    }
+  },
+  "jobs": {
+    "blacksmith": {
+      "recipes": {
+        "mining_name": "Mining",
+        "mine_track_ramp_recipe": {
+          "recipe_name": "Mine Track - Ramp (2)",
+          "description": "Ramps are much so better than stairs.",
+          "flavor": "Radical Ramp!"
+        },
+        "mine_track_straight_recipe": {
+          "recipe_name": "Mine Track - Straight (4)",
+          "description": "A straight section of Track.",
+          "flavor": "Ever Forward!"
+        },
+        "mine_track_half_recipe": {
+          "recipe_name": "Mine Track - Half (4)",
+          "description": "Half of a straight section of Track.",
+          "flavor": "Half Forward!"
+        },
+        "mine_track_t_recipe": {
+          "recipe_name": "Mine Track - T (2)",
+          "description": "Right OR left turn.",
+          "flavor": "You mean we don't always have to move forward!?"
+        },
+        "mine_track_intersection_recipe": {
+          "recipe_name": "Mine Track - Intersection (2)",
+          "description": "An intersection.",
+          "flavor": "Why can't we turn here!?"
+        },
+        "mine_track_curve_recipe": {
+          "recipe_name": "Mine Track - Curve (4)",
+          "description": "A curved section of Track.",
+          "flavor": "And we're turning..."
+        },
+        "mine_track_stop_recipe": {
+          "recipe_name": "Mine Track - Stop (4)",
+          "description": "A wooden stop for a Minecart.",
+          "flavor": "Stop!  Waitaminute."
+        },
+        "minecart_recipe": {
+          "recipe_name": "Mine Track - Minecart",
+          "description": "Storage for 32 items.",
+          "flavor": "It's storage...on wheels!"
+        }
+      }
+    },
+    "carpenter": {
+      "recipes": {
+        "mining_name": "Mining",
+        "crane_recipe": {
+          "recipe_name": "Mining Crane",
+          "description": "Picks things up and puts them down.",
+          "flavor": "The wheel on the crane goes round and round..."
+        },
+        "wooden_mine_support_recipe": {
+          "recipe_name": "Mine Track - Wooden Support (4)",
+          "description": "Keeps the mine from caving in.",
+          "flavor": "Sturdy and safe."
+        }
+      }
+    },
+    "mason": {
+      "recipes": {
+        "mining_name": "Mining",
+        "stone_mine_support_recipe": {
+          "recipe_name": "Mine Track - Stone Support (4)",
+          "description": "Keeps the mine from caving in.",
+          "flavor": "Sturdy and safe...but in stone."
+        }
+      }
+    }
+  }
+}

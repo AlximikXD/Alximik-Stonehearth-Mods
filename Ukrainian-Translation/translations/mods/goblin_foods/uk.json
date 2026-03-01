@@ -1,0 +1,431 @@
+{
+  "ui": {
+    "firemaster": {
+      "display_name": "Ремісниче меню Slopgoblin",
+      "description": "Смачні, смачні страви",
+      "requirements": "Потрібен Slopgoblin."
+    },
+    "stockgoblin": {
+      "description": "Стогоблін приведе сюди тварин пастися.",
+      "requirements": "Потрібен Stockgoblin."
+    },
+    "game": {
+      "goblinpedia": {
+        "menu": {
+          "goblins": {
+            "jobs": {
+              "firemaster": {
+                "title": "Slopgoblin"
+              },
+              "stockgoblin": {
+                "title": "Stockgoblin"
+              }
+            }
+          }
+        },
+        "pages": {
+          "jobs": {
+            "firemaster": {
+              "title": "Slopgoblin",
+              "description1": "Шеф-кухар Рамзі пишався б!",
+              "topic1": {
+                "title": "Description: ",
+                "desc1": "Слопгоблін — найкращий шеф-кухар, відомий племенам світлячків, і за спеціальні страви шеф-кухаря просто померти!"
+              },
+              "topic2": {
+                "title": "Що він робить:",
+                "desc1": "Робота Слопгобліна проста. Варіть, варіть, варіть. Гоблінам потрібна їжа для життя, як і будь-якій іншій культурі, і особливо багато їжі під час кладки яєць для малюків. У Slopgoblin це покрито."
+              },
+              "topic3": {
+                "title": "Особливі страви шеф-кухаря:",
+                "desc1": "Кулінарне мистецтво не для слабкодухих. Кулінарія потребує розуму та серця, а спеціальні страви шеф-кухаря вимагають обох у великій кількості. Спеціальні рецепти, відомі лише гоблінам-недбалим гоблінам, спеціальні страви шеф-кухаря чудово підходять для того, щоб нагодувати колонію."
+              }
+            },
+            "stockgoblin": {
+              "title": "Stockgoblin",
+              "description1": "Хто вирощує стада, той вирощує себе.",
+              "topic1": {
+                "title": "Description: ",
+                "desc1": "Стогобліни - це фермери та скотарі. Майстри врожаю і звіра."
+              },
+              "topic2": {
+                "title": "Що він робить:",
+                "desc1": "Стокгоблін — фермер, який вирощував би гобліни. Вони також повертають тварин у визначені місця."
+              },
+              "topic3": {
+                "title": "Як годувати тварин:",
+                "desc1": "Для того, щоб їхні звірі вижили, гоблінам потрібен спеціальний корм. Ці корми можуть бути створені Слопгобліном."
+              }
+            }
+          }
+        }
+      },
+      "zones_mode": {
+        "pasture": {
+          "frog_pasture_name": "Жаб'ячий ставок",
+          "frog_pasture_description": "Поле жаб, яке утримує стокгоблін. Вони випадковим чином генеруватимуть м’ясо жука, щоб гоблін збирав урожай.",
+          "ostrich_pasture_name": "Страусине ранчо",
+          "ostrich_pasture_description": "Великі птахи, які називаються страусами, будуть принесені сюди гобліном, де вони зможуть відкласти свої гігантські яйця.",
+          "wolf_pasture_name": "Вовча ручка",
+          "wolf_pasture_description": "Тут будуть доглядати за вовченятами, знайденими в пустелі.",
+          "spider_pasture_name": "Гніздо павука",
+          "spider_pasture_description": "Гніздо павуків знайшов гоблін і повернув, щоб доглядати за ним."
+        }
+      }
+    }
+  },
+  "entities": {
+    "containers": {
+      "input_bin_mushroom": {
+        "input_bin_mushroom_ghost": {
+          "display_name": "Відро для грибів",
+          "description": "Ідеально підходить для зберігання продуктів."
+        }
+      },
+      "herb_bin": {
+        "herb_bin_ghost": {
+          "display_name": "Глиняний контейнер для трав",
+          "description": "Ароматна баночка для зберігання свіжих трав."
+        }
+      }
+    },
+    "critters": {
+      "wolf": {
+        "display_name": "Дресирований Вовк",
+        "description": "Дресирований вовк із роду Світлячків, вихований із дитинча.",
+        "species": "Wolf",
+        "young": {
+          "display_name": "Вовченя",
+          "description": "Вовченя, яке знайшли самотнім у пустелі.",
+          "species": "Wolf"
+        }
+      }
+    },
+    "decoration": {
+      "glowing_mushrooms": {
+        "glowing_mushrooms_ghost": {
+          "display_name": "Сяючі гриби",
+          "description": "Ідеальна прикраса будь-якого гоблінського саду."
+        }
+      },
+      "cook_pot": {
+        "cattail": {
+          "display_name": "Рогозовий котел",
+          "description": "Це майже перевершує болото, в якому вони звикли рости!"
+        },
+        "giple": {
+          "display_name": "Котел Гіпл",
+          "description": "Гарна квітка. Надто гарний для такого горщика."
+        },
+        "sapling": {
+          "display_name": "Саджанець Котел",
+          "description": "Гарний саджанець, посаджений у брудний казан."
+        }
+      },
+      "knife_board": {
+        "display_name": "Вішалка для ножів",
+        "description": "Я б сказав, що це ідеальне місце, щоб повісити ножі, але хтось це вже зробив..."
+      }
+    },
+    "food": {
+      "cattail_flour": {
+        "display_name": "Мішок рогозового борошна",
+        "description": "Пісок і погано подрібнений, але згодиться."
+      },
+      "goblin_loaf": {
+        "goblin_loaf": {
+          "display_name": "Буханець гобліна",
+          "description": "Жаркий, черствий хліб."
+        },
+        "goblin_loaf_serving": {
+          "display_name": "Шматочок гоблінського батона"
+        }
+      },
+      "mushroom_grog": {
+        "mushroom_grog": {
+          "display_name": "Грибний напій",
+          "description": "Алкогольний напій із ферментованих грибів."
+        },
+        "mushroom_grog_serving": {
+          "display_name": "Кружка грибів"
+        }
+      },
+      "seed_porridge": {
+        "seed_porridge": {
+          "display_name": "Насіннєва каша",
+          "description": "Густий вершковий суп з насіння болотної рослини."
+        },
+        "seed_porridge_serving": {
+          "display_name": "Чаша каші"
+        }
+      },
+      "stuffed_bug_roast": {
+        "stuffed_bug_roast": {
+          "display_name": "Фарширована печеня з жуків",
+          "description": "Свіже м'ясо клопа, фаршироване грибами і зеленню."
+        },
+        "stuffed_bug_roast_serving": {
+          "display_name": "Подача печені"
+        }
+      },
+      "candied_mushrooms": {
+        "display_name": "Грибні цукати",
+        "description": "Ласощі з різнокольорових цукрів."
+      },
+      "sandy_witch": {
+        "display_name": "Піщана відьма",
+        "description": "Люди називають це їжею, але я думав, що відьми — це люди?"
+      },
+      "frog_feed": {
+        "frog_feed": {
+          "display_name": "Наземні комахи",
+          "description": "Мішечок з подрібненими жуками, ідеально підходить для павуків і жаб."
+        },
+        "frog_feed_ground": {
+          "display_name": "Мелені шматочки комах",
+          "description": "розкидані шматки комах, щоб жаби та павуки їли!."
+        }
+      },
+      "ostrich_feed": {
+        "ostrich_feed": {
+          "display_name": "Корм для страусів",
+          "description": "Шматочки насіння та овочів для страусів."
+        },
+        "ostrich_feed_ground": {
+          "display_name": "Корм для страусів",
+          "description": "шматочки насіння та овочів для страусів."
+        }
+      },
+      "wolf_feed": {
+        "wolf_feed": {
+          "display_name": "Корм для вовка",
+          "description": "Більші шматки м’яса, грубо нарізані для ваших вовків."
+        },
+        "wolf_feed_ground": {
+          "display_name": "Корм для вовка",
+          "description": "Більші шматки м’яса, грубо нарізані для ваших вовків."
+        }
+      }
+    },
+    "furniture": {
+      "mushroom_bed_pet": {
+        "display_name": "Лежак для вихованців грибів",
+        "description": "Спальне місце для короля звірів"
+      }
+    },
+    "resources": {
+      "spidersilk": {
+        "display_name": "Spidersilk Spool",
+        "description": "Дерев'яний рулон шовку, зібраний з приручених павуків."
+      }
+    }
+  },
+  "jobs": {
+    "bonesmith": {
+      "recipes": {
+        "mushroom_bed_pet_recipe": {
+          "recipe_name": "Лежак для вихованців грибів",
+          "description": "Грибна накладка, щоб ваші домашні тварини могли покласти голову.",
+          "flavor": "Просто... не дай їм це з'їсти..."
+        }
+      }
+    },
+    "stockgoblin": {
+      "stockgoblin_description": {
+        "display_name": "Stockgoblin",
+        "description": "Стокгоблін доглядає за тваринами та посівами.",
+        "requirements": "Створено Шаманом",
+        "level_1_data": {
+          "perk_000_name": "Farming",
+          "perk_000_description": "Стогоблін може вирощувати кілька легких культур, корисних для їжі.",
+          "perk_001_name": "Herding",
+          "perk_001_description": "Стогоблін може пасти тварин для отримання ресурсів і їжі."
+        },
+        "level_2_data": {
+          "perk_000_name": "Прискорити!",
+          "perk_000_description": "Треба йти швидко! Тепер гоблін може рухатися швидше.",
+          "perk_001_name": "Розширене скотарство",
+          "perk_001_description": "Стогоблін знайшов більшу різноманітність тваринних феремонів, щоб залучати різних тварин."
+        },
+        "level_3_data": {
+          "perk_000_name": "Жаби перед Bros",
+          "perk_000_description": "Завжди надто зайнятий, щоб спілкуватися з друзями, гоблін навчився отримувати задоволення від спілкування зі своїми звірами."
+        },
+        "level_5_data": {
+          "perk_000_description": "Стоковий гоблін може здійснювати дивовижні вчинки розвитку дерев! (Вони можуть вирощувати дерева.)"
+        }
+      },
+      "stockgoblin_outfit": {
+        "display_name": "Одяг Stockgoblin",
+        "description": "Уніформа для всіх гоблінів"
+      },
+      "stockgoblin_crook": {
+        "display_name": "Стокгоблінський шахрай",
+        "description": "Використовується Stockgoblin",
+        "stockgoblin_crook_iconic": {
+          "display_name": "Стокгоблінський шахрай",
+          "description": "Міцний дерев'яний крюк, виготовлений з міцної деревини."
+        },
+        "stockgoblin_crook_talisman": {
+          "display_name": "Стокгоблінський шахрай",
+          "description": "Міцний дерев'яний крюк, виготовлений з міцної деревини.",
+          "flavor": "Підвищує гобліна до Stockgoblin"
+        }
+      }
+    },
+    "firemaster": {
+      "firemaster_description": {
+        "display_name": "Slopgoblin",
+        "description": "Slopgoblin готує смачні ситні страви з основних овочів і м’яса.",
+        "requirements": "Створено Шаманом",
+        "workshop": {
+          "name": "Кам'яний котел",
+          "long_description": "Величезний, важкий горщик, який підходить для того, щоб влаштувати бенкет за один раз!"
+        },
+        "level_1_data": {
+          "perk_000_name": "Табірна кулінарія",
+          "perk_000_description": "Недбалий гоблін може приготувати елементарні, поживні рецепти."
+        },
+        "level_2_data": {
+          "perk_000_name": "Ingredients",
+          "perk_000_description": "Шляхом експериментів нелюдник виявив деякі речі, які добре підходять для приготування іншої їжі.",
+          "perk_001_name": "Їжа з моря",
+          "perk_001_description": "Недбалий гоблін має базове уявлення про використання риби та інших морських мешканців у своїх стравах."
+        },
+        "level_4_data": {
+          "perk_000_name": "Ласун",
+          "perk_000_description": "Якщо люди можуть створювати «солодку» їжу, то чому ми не можемо?"
+        },
+        "level_5_data": {
+          "perk_000_name": "Гоблін Рамзі Спеціальний",
+          "perk_000_description": "Недбалий гоблін чув і опанував унікальні страви зі світів гоблінів і людей."
+        }
+      },
+      "firemaster_outfit": {
+        "display_name": "Одяг Слопгобліна",
+        "description": "Уніформа для всіх нехлюйників"
+      },
+      "firemaster_spoon": {
+        "display_name": "Ложка неряхи",
+        "description": "Використовується Slopgoblin",
+        "firemaster_spoon_iconic": {
+          "display_name": "Ложка неряхи",
+          "description": "Дерев'яна ложка, щоб ввібрати всі ці природні аромати. Ви куштуватимете рагу минулих тижнів до наступного року!"
+        },
+        "firemaster_spoon_talisman": {
+          "display_name": "Ложка неряхи",
+          "description": "Дерев'яна ложка, щоб ввібрати всі ці природні аромати. Ви куштуватимете рагу минулих тижнів до наступного року!",
+          "flavor": "Підвищує гобліна до Слопгобліна"
+        }
+      },
+      "firemaster_workbench": {
+        "firemaster_workbench_ghost": {
+          "display_name": "Кам'яний котел",
+          "description": "Використовується Slopgoblin для смачних рецептів."
+        }
+      },
+      "firemaster_prep_table": {
+        "firemaster_prep_table_ghost": {
+          "display_name": "Таблиця підготовки",
+          "description": "Ідеальна поверхня для приготування страв."
+        }
+      },
+      "firemaster_oven": {
+        "firemaster_oven_ghost": {
+          "display_name": "Кам'яна піч",
+          "description": "Для запікання та гриля."
+        }
+      },
+      "recipes": {
+        "workbenches_name": "Stations",
+        "storndecor_name": "Зберігання та прикраси",
+        "drinks_name": "Drinks",
+        "everyday_name": "Щоденна їжа",
+        "seafood_name": "Seafood",
+        "specials_name": "Особливі пропозиції Гобліна Рамзі",
+        "firemaster_workbench_recipe": {
+          "description": "Використовується для приготування поживних страв.",
+          "recipe_name": "Кам'яний котел",
+          "flavor": "Камінь, щоб їжа довго залишалася гарячою."
+        },
+        "firemaster_prep_table_recipe": {
+          "description": "Ідеальна поверхня для приготування страв.",
+          "recipe_name": "Таблиця підготовки"
+        },
+        "firemaster_oven_recipe": {
+          "description": "Прекрасна кам'яна піч для запікання та гриля.",
+          "recipe_name": "Кам'яна піч"
+        },
+        "mushroom_bin_recipe": {
+          "description": "Видовбаний гриб. Ідеально підходить для зберігання всіх видів продуктів.",
+          "recipe_name": "Відро для грибів",
+          "flavor": "безкоштовна кришка входить до кожного виробу!"
+        },
+        "herb_bin_recipe": {
+          "description": "Чудово підходить для зберігання всіх ваших кухонних трав.",
+          "recipe_name": "Глиняний контейнер для трав"
+        },
+        "cook_pot_cattail_recipe": {
+          "description": "Гарне застосування для старого брудного казана.",
+          "recipe_name": "Рогозовий котел"
+        },
+        "cook_pot_giple_recipe": {
+          "description": "Така гарна квітка.",
+          "recipe_name": "Котел Гіпл"
+        },
+        "cook_pot_sapling_recipe": {
+          "description": "Усі ці додаткові поживні речовини із залишків їжі в казані можуть сприяти його зростанню.",
+          "recipe_name": "Саджанець Котел"
+        },
+        "glowing_mushrooms_recipe": {
+          "description": "Ні, ти не просто бачиш речі.",
+          "recipe_name": "Сяючі гриби"
+        },
+        "knife_board_recipe": {
+          "description": "Найцінніші інструменти будь-якого Слопгобліна.",
+          "recipe_name": "Вішалка для ножів"
+        },
+        "cattail_flour_recipe": {
+          "description": "Це борошно, виготовлене з мелених кореневищ рогози, не ідеальне для ситної дієти... але для гоблінської дієти...?.",
+          "recipe_name": "Мішок рогозового борошна"
+        },
+        "goblin_loaf_recipe": {
+          "description": "Жорсткий буханець хліба, ідеальний для гоблінів.",
+          "recipe_name": "Буханець гобліна"
+        },
+        "candied_mushrooms_recipe": {
+          "description": "Смачне частування, приготування чогось солодкого.",
+          "recipe_name": "Цукати з грибів"
+        },
+        "mushroom_grog_recipe": {
+          "description": "Алкогольний напій, відомий клану Світлячків, зварений із ферментованих грибів, які зазвичай ростуть на болотах.",
+          "recipe_name": "Грибний напій"
+        },
+        "seed_porridge_recipe": {
+          "description": "Густа базова кашка.",
+          "recipe_name": "Насіннєва каша"
+        },
+        "stuffed_bug_roast_recipe": {
+          "description": "Смачна та ароматна страва.",
+          "recipe_name": "Фарширована печеня з жуків"
+        },
+        "sandy_witch_recipe": {
+          "description": "Люди їх їдять, тож ми теж можемо!",
+          "recipe_name": "Піщана відьма (x3)"
+        },
+        "frog_feed_recipe": {
+          "recipe_name": "Шматки комах",
+          "description": "Нарізані шматочки комах для задоволення ваших жаб і павуків."
+        },
+        "ostrich_feed_recipe": {
+          "recipe_name": "Корм для страусів",
+          "description": "Шматочки насіння та овочів для страусів."
+        },
+        "wolf_feed_recipe": {
+          "recipe_name": "Корм для вовка",
+          "description": "Більші шматки м’яса, грубо нарізані для ваших вовків."
+        }
+      }
+    }
+  }
+}

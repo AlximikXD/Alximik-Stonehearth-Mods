@@ -1,0 +1,122 @@
+{
+  "entities": {
+    "mining": {
+      "crane": {
+        "display_name": "Гірничий кран",
+        "description": "Піднімає і кладе речі."
+      },
+      "mine_track_ramp": {
+        "display_name": "Шахтна колія - ​​рампа",
+        "description": "Він піднімається...або опускається."
+      },
+      "mine_track_straight": {
+        "display_name": "Шахтна колія - ​​пряма",
+        "description": "Пряма ділянка траси."
+      },
+      "mine_track_half": {
+        "display_name": "Шахта Колія - ​​Пов",
+        "description": "Половина прямої ділянки траси."
+      },
+      "mine_track_t": {
+        "display_name": "Шахтна доріжка - Т",
+        "description": "Дозволяє змінювати напрямок."
+      },
+      "mine_track_intersection": {
+        "display_name": "Шахта Колія - ​​Перехрестя",
+        "description": "Перехрестя."
+      },
+      "mine_track_curve": {
+        "display_name": "Mine Track - Curve",
+        "description": "Вигнута ділянка доріжки."
+      },
+      "mine_track_stop": {
+        "display_name": "Mine Track - Stop",
+        "description": "Дерев'яна зупинка для Minecart."
+      },
+      "minecart": {
+        "display_name": "Mine Track - Minecart",
+        "description": "Сховище на 32 шт."
+      },
+      "wooden_mine_support": {
+        "display_name": "Мінна доріжка - дерев'яна опора",
+        "description": "Утримує шахту від обвалу."
+      },
+      "stone_mine_support": {
+        "display_name": "Mine Track - Stone Support",
+        "description": "Утримує шахту від обвалу."
+      }
+    }
+  },
+  "jobs": {
+    "blacksmith": {
+      "recipes": {
+        "mining_name": "Mining",
+        "mine_track_ramp_recipe": {
+          "recipe_name": "Шахтна доріжка - рампа (2)",
+          "description": "Пандуси набагато краще, ніж сходи.",
+          "flavor": "Радикальна рампа!"
+        },
+        "mine_track_straight_recipe": {
+          "recipe_name": "Шахтна доріжка - пряма (4)",
+          "description": "Пряма ділянка траси.",
+          "flavor": "Завжди вперед!"
+        },
+        "mine_track_half_recipe": {
+          "recipe_name": "Шахтна доріжка - половина (4)",
+          "description": "Половина прямої ділянки траси.",
+          "flavor": "Наполовину вперед!"
+        },
+        "mine_track_t_recipe": {
+          "recipe_name": "Шахтна доріжка - T (2)",
+          "description": "Поворот праворуч АБО ліворуч.",
+          "flavor": "Ви маєте на увазі, що ми не завжди повинні рухатися вперед!?"
+        },
+        "mine_track_intersection_recipe": {
+          "recipe_name": "Шахта - Перехрестя (2)",
+          "description": "Перехрестя.",
+          "flavor": "Чому ми не можемо звернути сюди!?"
+        },
+        "mine_track_curve_recipe": {
+          "recipe_name": "Mine Track - Curve (4)",
+          "description": "Вигнута ділянка доріжки.",
+          "flavor": "І ми обертаємося..."
+        },
+        "mine_track_stop_recipe": {
+          "recipe_name": "Mine Track - Stop (4)",
+          "description": "Дерев'яна зупинка для Minecart.",
+          "flavor": "СТІЙ! Хвилина."
+        },
+        "minecart_recipe": {
+          "recipe_name": "Mine Track - Minecart",
+          "description": "Сховище на 32 шт.",
+          "flavor": "Це сховище...на колесах!"
+        }
+      }
+    },
+    "carpenter": {
+      "recipes": {
+        "mining_name": "Mining",
+        "crane_recipe": {
+          "recipe_name": "Гірничий кран",
+          "description": "Піднімає і кладе речі.",
+          "flavor": "Колесо на крані крутиться..."
+        },
+        "wooden_mine_support_recipe": {
+          "recipe_name": "Шахтна доріжка - дерев'яна опора (4)",
+          "description": "Утримує шахту від обвалу.",
+          "flavor": "Міцний і безпечний."
+        }
+      }
+    },
+    "mason": {
+      "recipes": {
+        "mining_name": "Mining",
+        "stone_mine_support_recipe": {
+          "recipe_name": "Доріжка шахти - Кам'яна опора (4)",
+          "description": "Утримує шахту від обвалу.",
+          "flavor": "Міцний і безпечний...але в камені."
+        }
+      }
+    }
+  }
+}

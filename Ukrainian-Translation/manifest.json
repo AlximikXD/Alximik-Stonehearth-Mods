@@ -1,0 +1,70 @@
+{
+  "info": {
+    "name": "Ukrainian translation",
+    "namespace": "Ukrainian_translation",
+    "version": 3,
+    "steam_file_id": "3339191597",
+    "client_only": true
+  },
+  "default_locale": "en",
+  "mixintos": {
+    "stonehearth/locales/supported_languages.json": "file(added_languages.json)",
+    "stonehearth_ace/manifest.json": "file(translations/mods/stonehearth_ace/manifest.json)"
+  },
+  "overrides": {
+    "ace_composting/locales/uk.json": "file(translations/mods/ace_composting/uk.json)",
+    "archipelago_biome/locales/uk.json": "file(translations/mods/archipelago_biome/uk.json)",
+    "autoharvest_mod/locales/uk.json": "file(translations/mods/autoharvest_mod/uk.json)",
+    "bantonia/locales/uk.json": "file(translations/mods/bantonia/uk.json)",
+    "canyon_biome/locales/uk.json": "file(translations/mods/canyon_biome/uk.json)",
+    "care_cats/locales/uk.json": "file(translations/mods/care_cats/uk.json)",
+    "char_dwarf/locales/uk.json": "file(translations/mods/char_dwarf/uk.json)",
+    "chimney_emitters/locales/uk.json": "file(translations/mods/chimney_emitters/uk.json)",
+    "cm/locales/uk.json": "file(translations/mods/cm/uk.json)",
+    "combat_dash/locales/uk.json": "file(translations/mods/combat_dash/uk.json)",
+    "commemorative_tombstones/locales/uk.json": "file(translations/mods/commemorative_tombstones/uk.json)",
+    "core_dani/locales/uk.json": "file(translations/mods/core_dani/uk.json)",
+    "dvoid_mbs_training/locales/uk.json": "file(translations/mods/dvoid_mbs_training/uk.json)",
+    "extra_map_options/locales/uk.json": "file(translations/mods/extra_map_options/uk.json)",
+    "finery/locales/uk.json": "file(translations/mods/finery/uk.json)",
+    "furniture_expansion_plus/locales/uk.json": "file(translations/mods/furniture_expansion_plus/uk.json)",
+    "geomancer_transmute/locales/uk.json": "file(translations/mods/geomancer_transmute/uk.json)",
+    "gobbo/locales/uk.json": "file(translations/mods/gobbo/uk.json)",
+    "goblin_foods/locales/uk.json": "file(translations/mods/goblin_foods/uk.json)",
+    "goblin_warfare/locales/uk.json": "file(translations/mods/goblin_warfare/uk.json)",
+    "homesweethome/locales/uk.json": "file(translations/mods/homesweethome/uk.json)",
+    "hunter/locales/uk.json": "file(translations/mods/hunter/uk.json)",
+    "joto/locales/uk.json": "file(translations/mods/joto/uk.json)",
+    "kingdoms_ex/locales/uk.json": "file(translations/mods/kingdoms_ex/uk.json)",
+    "kmnky_traits/locales/uk.json": "file(translations/mods/kmnky_traits/uk.json)",
+    "large_double_doors/locales/uk.json": "file(translations/mods/large_double_doors/uk.json)",
+    "lone_wanderer/locales/uk.json": "file(translations/mods/lone_wanderer/uk.json)",
+    "lostems/locales/uk.json": "file(translations/mods/lostems/uk.json)",
+    "mine_tracks/locales/uk.json": "file(translations/mods/mine_tracks/uk.json)",
+    "nordlingmod/locales/uk.json": "file(translations/mods/nordlingmod/uk.json)",
+    "northern_alliance/locales/uk.json": "file(translations/northern_alliance/uk.json)",
+    "obligationtracker/locales/uk.json": "file(translations/mods/obligationtracker/uk.json)",
+    "odds_n_ends/locales/uk.json": "file(translations/mods/odds_n_ends/uk.json)",
+    "proper_shelter/locales/uk.json": "file(translations/mods/proper_shelter/uk.json)",
+    "rayyas_children/locales/uk.json": "file(translations/rayyas_children/uk.json)",
+    "royal/locales/uk.json": "file(translations/mods/royal/uk.json)",
+    "serene_league/locales/uk.json": "file(translations/mods/serene_league/uk.json)",
+    "settlementdecor/locales/uk.json": "file(translations/mods/settlementdecor/uk.json)",
+    "signery/locales/uk.json": "file(translations/mods/signery/uk.json)",
+    "spike_land/locales/uk.json": "file(translations/mods/spike_land/uk.json)",
+    "stairs/locales/uk.json": "file(translations/mods/stairs/uk.json)",
+    "stonehearth/locales/uk.json": "file(translations/stonehearth/uk.json)",
+    "stonehearth_ace/locales/uk.json": "file(translations/mods/stonehearth_ace/uk.json)",
+    "swamp_goblins/locales/uk.json": "file(translations/mods/swamp_goblins/uk.json)",
+    "tilys_chests/locales/uk.json": "file(translations/mods/tilys_chests/uk.json)",
+    "trapper_plus/locales/uk.json": "file(translations/mods/trapper_plus/uk.json)",
+    "trapper_plus_taxidermy/locales/uk.json": "file(translations/mods/trapper_plus_taxidermy/uk.json)",
+    "whats_stuck/locales/uk.json": "file(translations/mods/whats_stuck/uk.json)",
+    "wizq/locales/uk.json": "file(translations/mods/wizq/uk.json)"
+  },
+	"ui": {
+      "less": [
+         "file(ui/mixins.less)"
+      ]
+   }
+}

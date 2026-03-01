@@ -1,0 +1,813 @@
+{
+  "ui": {},
+  "entities": {
+    "decoration": {
+      "banner_blank": {
+        "description": "A blank banner.",
+        "display_name": "Blank Banner",
+        "recipe_name": "Blank Banner",
+        "flavor": "An empty canvas on which to create."
+      },
+      "banner_hanging_large_black": {
+        "description": "A large black banner.",
+        "display_name": "Large Black Hanging Banner",
+        "recipe_name": "Large Black Hanging Banner",
+        "flavor": "A large black hanging banner."
+      },
+      "banner_hanging_large_blue": {
+        "description": "A large blue banner.",
+        "display_name": "Large Blue Hanging Banner",
+        "recipe_name": "Large Blue Hanging Banner",
+        "flavor": "A large blue hanging banner."
+      },
+      "banner_hanging_large_green": {
+        "description": "A large green banner.",
+        "display_name": "Large Green Hanging Banner",
+        "recipe_name": "Large Green Hanging Banner",
+        "flavor": "A large green hanging banner."
+      },
+      "banner_hanging_large_red": {
+        "description": "A large red banner.",
+        "display_name": "Large Red Hanging Banner",
+        "recipe_name": "Large Red Hanging Banner",
+        "flavor": "A large red hanging banner."
+      },
+      "banner_hanging_large_white": {
+        "description": "A large white banner.",
+        "display_name": "Large White Hanging Banner",
+        "recipe_name": "Large White Hanging Banner",
+        "flavor": "A large white hanging banner."
+      },
+      "banner_hanging_large_yellow": {
+        "description": "A large yellow banner.",
+        "display_name": "Large Yellow Hanging Banner",
+        "recipe_name": "Large Yellow Hanging Banner",
+        "flavor": "A large yellow hanging banner."
+      },
+      "banner_hanging_small_black": {
+        "description": "A small black banner.",
+        "display_name": "Small Black Hanging Banner",
+        "recipe_name": "Small Black Hanging Banner",
+        "flavor": "A small black hanging banner."
+      },
+      "banner_hanging_small_blue": {
+        "description": "A small blue banner.",
+        "display_name": "Small Blue Hanging Banner",
+        "recipe_name": "Small Blue Hanging Banner",
+        "flavor": "A small blue hanging banner."
+      },
+      "banner_hanging_small_green": {
+        "description": "A small green banner.",
+        "display_name": "Small Green Hanging Banner",
+        "recipe_name": "Small Green Hanging Banner",
+        "flavor": "A small green hanging banner."
+      },
+      "banner_hanging_small_red": {
+        "description": "A small red banner.",
+        "display_name": "Small Red Hanging Banner",
+        "recipe_name": "Small Red Hanging Banner",
+        "flavor": "A small red hanging banner."
+      },
+      "banner_hanging_small_white": {
+        "description": "A small white banner.",
+        "display_name": "Small White Hanging Banner",
+        "recipe_name": "Small White Hanging Banner",
+        "flavor": "A small white hanging banner."
+      },
+      "banner_hanging_small_yellow": {
+        "description": "A small yellow banner.",
+        "display_name": "Small Yellow Hanging Banner",
+        "recipe_name": "Small Yellow Hanging Banner",
+        "flavor": "A small yellow hanging banner."
+      },
+      "banner_pennant_large_black": {
+        "description": "A large black pennant.",
+        "display_name": "Large Black Wall Pennant",
+        "recipe_name": "Large Black Wall Pennant",
+        "flavor": "A large black wall pennant."
+      },
+      "banner_pennant_large_blue": {
+        "description": "A large blue pennant.",
+        "display_name": "Large Blue Wall Pennant",
+        "recipe_name": "Large Blue Wall Pennant",
+        "flavor": "A large blue wall pennant."
+      },
+      "banner_pennant_large_green": {
+        "description": "A large green pennant.",
+        "display_name": "Large Green Wall Pennant",
+        "recipe_name": "Large Green Wall Pennant",
+        "flavor": "A large green wall pennant."
+      },
+      "banner_pennant_large_red": {
+        "description": "A large red pennant.",
+        "display_name": "Large Red Wall Pennant",
+        "recipe_name": "Large Red Wall Pennant",
+        "flavor": "A large red wall pennant."
+      },
+      "banner_pennant_large_white": {
+        "description": "A large white pennant.",
+        "display_name": "Large White Wall Pennant",
+        "recipe_name": "Large White Wall Pennant",
+        "flavor": "A large white wall pennant."
+      },
+      "banner_pennant_large_yellow": {
+        "description": "A large yellow pennant.",
+        "display_name": "Large Yellow Wall Pennant",
+        "recipe_name": "Large Yellow Wall Pennant",
+        "flavor": "A large yellow wall pennant."
+      },
+      "banner_pennant_small_black": {
+        "description": "A small black pennant.",
+        "display_name": "Small Black Wall Pennant",
+        "recipe_name": "Small Black Wall Pennant",
+        "flavor": "A small black wall pennant."
+      },
+      "banner_pennant_small_blue": {
+        "description": "A small blue pennant.",
+        "display_name": "Small Blue Wall Pennant",
+        "recipe_name": "Small Blue Wall Pennant",
+        "flavor": "A small blue wall pennant."
+      },
+      "banner_pennant_small_green": {
+        "description": "A small green pennant.",
+        "display_name": "Small Green Wall Pennant",
+        "recipe_name": "Small Green Wall Pennant",
+        "flavor": "A small green wall pennant."
+      },
+      "banner_pennant_small_red": {
+        "description": "A small red pennant.",
+        "display_name": "Small Red Wall Pennant",
+        "recipe_name": "Small Red Wall Pennant",
+        "flavor": "A small red wall pennant."
+      },
+      "banner_pennant_small_white": {
+        "description": "A small white pennant.",
+        "display_name": "Small White Wall Pennant",
+        "recipe_name": "Small White Wall Pennant",
+        "flavor": "A small white wall pennant."
+      },
+      "banner_pennant_small_yellow": {
+        "description": "A small yellow pennant.",
+        "display_name": "Small Yellow Wall Pennant",
+        "recipe_name": "Small Yellow Wall Pennant",
+        "flavor": "A small yellow wall pennant."
+      },
+      "banner_simple_blacksmith": {
+        "description": "A simple blacksmith's banner.",
+        "display_name": "Blacksmith Simple Banner",
+        "recipe_name": "Blacksmith Simple Banner",
+        "flavor": "A plain blacksmith's banner."
+      },
+      "banner_simple_carpenter": {
+        "description": "A simple carpenter's banner.",
+        "display_name": "Carpenter Simple Banner",
+        "recipe_name": "Carpenter Simple Banner",
+        "flavor": "A plain carpenter's banner."
+      },
+      "banner_simple_cook": {
+        "description": "A simple cook's banner.",
+        "display_name": "Cook Simple Banner",
+        "recipe_name": "Cook Simple Banner",
+        "flavor": "A plain cook's banner."
+      },
+      "banner_simple_engineer": {
+        "description": "A simple engineer's banner.",
+        "display_name": "Engineer Simple Banner",
+        "recipe_name": "Engineer Simple Banner",
+        "flavor": "A plain engineer's banner."
+      },
+      "banner_simple_herbalist": {
+        "description": "A simple herbalist's banner.",
+        "display_name": "Herbalist Simple Banner",
+        "recipe_name": "Herbalist Simple Banner",
+        "flavor": "A plain herbalist's banner."
+      },
+      "banner_simple_mason": {
+        "description": "A simple mason's banner.",
+        "display_name": "Mason Simple Banner",
+        "recipe_name": "Mason Simple Banner",
+        "flavor": "A plain mason's banner."
+      },
+      "banner_simple_potter": {
+        "description": "A simple potter's banner.",
+        "display_name": "Potter Simple Banner",
+        "recipe_name": "Potter Simple Banner",
+        "flavor": "A plain potter's banner."
+      },
+      "banner_simple_weaver": {
+        "description": "A simple weaver's banner.",
+        "display_name": "Weaver Simple Banner",
+        "recipe_name": "Weaver Simple Banner",
+        "flavor": "A plain weaver's banner."
+      },
+      "banner_wall_blacksmith": {
+        "description": "A blacksmith's banner.",
+        "display_name": "Blacksmith Wall Banner",
+        "recipe_name": "Blacksmith Wall Banner",
+        "flavor": "A magnificent blacksmith's banner."
+      },
+      "banner_wall_carpenter": {
+        "description": "A carpenter's banner.",
+        "display_name": "Carpenter Wall Banner",
+        "recipe_name": "Carpenter Wall Banner",
+        "flavor": "A magnificent carpenter's banner."
+      },
+      "banner_wall_cook": {
+        "description": "A cook's banner.",
+        "display_name": "Cook Wall Banner",
+        "recipe_name": "Cook Wall Banner",
+        "flavor": "A magnificent cook's banner."
+      },
+      "banner_wall_engineer": {
+        "description": "A engineer's banner.",
+        "display_name": "Engineer Wall Banner",
+        "recipe_name": "Engineer Wall Banner",
+        "flavor": "A magnificent engineer's banner."
+      },
+      "banner_wall_herbalist": {
+        "description": "A herbalist's banner.",
+        "display_name": "Herbalist Wall Banner",
+        "recipe_name": "Herbalist Wall Banner",
+        "flavor": "A magnificent herbalist's banner."
+      },
+      "banner_wall_inn": {
+        "description": "An inn's banner.",
+        "display_name": "Inn's Wall Banner",
+        "recipe_name": "Inn's Wall Banner",
+        "flavor": "A inn's banner."
+      },
+      "banner_wall_large_black": {
+        "description": "A large black banner.",
+        "display_name": "Large Black Wall Banner",
+        "recipe_name": "Large Black Wall Banner",
+        "flavor": "A large black wall banner."
+      },
+      "banner_wall_large_green": {
+        "description": "A large green banner.",
+        "display_name": "Large Green Wall Banner",
+        "recipe_name": "Large Green Wall Banner",
+        "flavor": "A large green wall banner."
+      },
+      "banner_wall_large_red": {
+        "description": "A large red banner.",
+        "display_name": "Large Red Wall Banner",
+        "recipe_name": "Large Red Wall Banner",
+        "flavor": "A large red wall banner."
+      },
+      "banner_wall_large_white": {
+        "description": "A large white banner.",
+        "display_name": "Large White Wall Banner",
+        "recipe_name": "Large White Wall Banner",
+        "flavor": "A large white wall banner."
+      },
+      "banner_wall_large_yellow": {
+        "description": "A large yellow banner.",
+        "display_name": "Large Yellow Wall Banner",
+        "recipe_name": "Large Yellow Wall Banner",
+        "flavor": "A large yellow wall banner."
+      },
+      "banner_wall_mason": {
+        "description": "A mason's banner.",
+        "display_name": "Mason Wall Banner",
+        "recipe_name": "Mason Wall Banner",
+        "flavor": "A magnificent mason's banner."
+      },
+      "banner_wall_potion": {
+        "description": "An potion banner.",
+        "display_name": "Potion Wall Banner",
+        "recipe_name": "Potion Wall Banner",
+        "flavor": "A banner depicting a potion."
+      },
+      "banner_wall_potter": {
+        "description": "A potter's banner.",
+        "display_name": "Potter Wall Banner",
+        "recipe_name": "Potter Wall Banner",
+        "flavor": "A magnificent potter's banner."
+      },
+      "banner_wall_pub": {
+        "description": "An pub's banner.",
+        "display_name": "Pub's Wall Banner",
+        "recipe_name": "Pub's Wall Banner",
+        "flavor": "A banner depicting a pint."
+      },
+      "banner_wall_small_black": {
+        "description": "A small black banner.",
+        "display_name": "Small Black Wall Banner",
+        "recipe_name": "Small Black Wall Banner",
+        "flavor": "A small black wall banner."
+      },
+      "banner_wall_small_green": {
+        "description": "A small green banner.",
+        "display_name": "Small Green Wall Banner",
+        "recipe_name": "Small Green Wall Banner",
+        "flavor": "A small green wall banner."
+      },
+      "banner_wall_small_red": {
+        "description": "A small red banner.",
+        "display_name": "Small Red Wall Banner",
+        "recipe_name": "Small Red Wall Banner",
+        "flavor": "A small red wall banner."
+      },
+      "banner_wall_small_white": {
+        "description": "A small white banner.",
+        "display_name": "Small White Wall Banner",
+        "recipe_name": "Small White Wall Banner",
+        "flavor": "A small white wall banner."
+      },
+      "banner_wall_small_yellow": {
+        "description": "A small yellow banner.",
+        "display_name": "Small Yellow Wall Banner",
+        "recipe_name": "Small Yellow Wall Banner",
+        "flavor": "A small yellow wall banner."
+      },
+      "banner_wall_storage": {
+        "description": "A stockpile's banner.",
+        "display_name": "Stockpile Wall Banner",
+        "recipe_name": "Stockpile Wall Banner",
+        "flavor": "A stockpile's banner."
+      },
+      "banner_wall_weaver": {
+        "description": "A weaver's banner.",
+        "display_name": "Weaver Wall Banner",
+        "recipe_name": "Weaver Wall Banner",
+        "flavor": "A magnificent weaver's banner."
+      },
+      "sign_clay_blacksmith": {
+        "description": "A clay blacksmith's sign.",
+        "display_name": "Blacksmith's Clay Sign",
+        "recipe_name": "Blacksmith's Clay Sign",
+        "flavor": "A simple blacksmith's sign made from clay."
+      },
+      "sign_clay_blank": {
+        "description": "An empty clay sign.",
+        "display_name": "Blank Clay Sign",
+        "recipe_name": "Blank Clay Sign",
+        "flavor": "An empty clay sign ready to enrich."
+      },
+      "sign_clay_carpenter": {
+        "description": "A clay carpenter's sign.",
+        "display_name": "Carpenter's Clay Sign",
+        "recipe_name": "Carpenter's Clay Sign",
+        "flavor": "A simple carpenter's sign made from clay."
+      },
+      "sign_clay_cook": {
+        "description": "A clay cook's sign.",
+        "display_name": "Cook's Clay Sign",
+        "recipe_name": "Cook's Clay Sign",
+        "flavor": "A simple cook's sign made from clay."
+      },
+      "sign_clay_engineer": {
+        "description": "A clay engineer's sign.",
+        "display_name": "Engineer's Clay Sign",
+        "recipe_name": "Engineer's Clay Sign",
+        "flavor": "A simple engineer's sign made from clay."
+      },
+      "sign_clay_herbalist": {
+        "description": "A clay herbalist's sign.",
+        "display_name": "Herbalist's Clay Sign",
+        "recipe_name": "Herbalist's Clay Sign",
+        "flavor": "A simple herbalist's sign made from clay."
+      },
+      "sign_clay_inn": {
+        "description": "A clay inn sign.",
+        "display_name": "Clay Inn Sign",
+        "recipe_name": "Clay Inn Sign",
+        "flavor": "A simple inn sign made from clay."
+      },
+      "sign_clay_mason": {
+        "description": "A clay mason's sign.",
+        "display_name": "Mason's Clay Sign",
+        "recipe_name": "Mason's Clay Sign",
+        "flavor": "A simple mason's sign made from clay."
+      },
+      "sign_clay_potter": {
+        "description": "A clay potter's sign.",
+        "display_name": "Potter's Clay Sign",
+        "recipe_name": "Potter's Clay Sign",
+        "flavor": "A simple potter's sign made from clay."
+      },
+      "sign_clay_pub": {
+        "description": "A clay pub's sign.",
+        "display_name": "Pub's Clay Sign",
+        "recipe_name": "Pub's Clay Sign",
+        "flavor": "A simple pub's sign made from clay."
+      },
+      "sign_clay_storage": {
+        "description": "A clay stockpile's sign.",
+        "display_name": "A Clay Stockpile Sign",
+        "recipe_name": "A Clay Stockpile Sign",
+        "flavor": "A stockpile sign made from clay."
+      },
+      "sign_clay_weaver": {
+        "description": "A clay weaver's sign.",
+        "display_name": "Weaver's Clay Sign",
+        "recipe_name": "Weaver's Clay Sign",
+        "flavor": "A simple weaver's sign made from clay."
+      },
+      "sign_fancy_clay_bed": {
+        "description": "A decorate clay bed sign.",
+        "display_name": "Fancy Clay Sign with Bed",
+        "recipe_name": "Fancy Clay Sign with Bed",
+        "flavor": "A fancy clay sign showing a bed."
+      },
+      "sign_fancy_clay_blacksmith": {
+        "description": "A decorate clay blacksmith's sign.",
+        "display_name": "Fancy Clay Blacksmith's Sign",
+        "recipe_name": "Fancy Clay Blacksmith's Sign",
+        "flavor": "A fancy clay sign showing a sword."
+      },
+      "sign_fancy_clay_carpenter": {
+        "description": "A decorate clay carpenter's sign.",
+        "display_name": "Fancy Clay Carpenter's Sign",
+        "recipe_name": "Fancy Clay Carpenter's Sign",
+        "flavor": "A fancy clay sign showing a saw."
+      },
+      "sign_fancy_clay_castle": {
+        "description": "A decorate clay castle sign.",
+        "display_name": "Fancy Clay Sign with Castle",
+        "recipe_name": "Fancy Clay Sign with Castle",
+        "flavor": "A fancy clay sign showing a castle."
+      },
+      "sign_fancy_clay_cook": {
+        "description": "A decorate clay cook's sign.",
+        "display_name": "Fancy Clay Cook's Sign",
+        "recipe_name": "Fancy Clay Cook's Sign",
+        "flavor": "A fancy clay sign showing a pumpkin."
+      },
+      "sign_fancy_clay_desert_inn": {
+        "description": "A decorate clay inn sign.",
+        "display_name": "Fancy Clay Desert Inn Sign",
+        "recipe_name": "Fancy Clay Desert Inn Sign",
+        "flavor": "A fancy clay sign showing an oil lamp."
+      },
+      "sign_fancy_clay_engineer": {
+        "description": "A decorate clay engineer's sign.",
+        "display_name": "Fancy Clay Engineer's Sign",
+        "recipe_name": "Fancy Clay Engineer's Sign",
+        "flavor": "A fancy clay sign showing off some gears."
+      },
+      "sign_fancy_clay_herbalist": {
+        "description": "A decorate clay herbalist's sign.",
+        "display_name": "Fancy Clay Herbalist's Sign",
+        "recipe_name": "Fancy Clay Herbalist's Sign",
+        "flavor": "A fancy clay sign showing a potion."
+      },
+      "sign_fancy_clay_inn": {
+        "description": "A decorate clay inn sign.",
+        "display_name": "Fancy Clay Inn Sign",
+        "recipe_name": "Fancy Clay Inn Sign",
+        "flavor": "A fancy clay sign showing a candle."
+      },
+      "sign_fancy_clay_mason": {
+        "description": "A decorate clay mason's sign.",
+        "display_name": "Fancy Clay Mason's Sign",
+        "recipe_name": "Fancy Clay Mason's Sign",
+        "flavor": "A fancy clay sign showing masonary tools."
+      },
+      "sign_fancy_clay_mason_bench": {
+        "description": "A decorate clay mason's sign.",
+        "display_name": "Fancy Clay Mason's Bench Sign",
+        "recipe_name": "Fancy Clay Mason's Bench Sign",
+        "flavor": "A fancy clay sign showing a mason's bench."
+      },
+      "sign_fancy_clay_ol_saw": {
+        "description": "A decorate clay carpenter's sign.",
+        "display_name": "Fancy Clay Ol' Carpenter's Sign",
+        "recipe_name": "Fancy Clay Ol' Carpenter's Sign",
+        "flavor": "A fancy clay sign showing an old saw."
+      },
+      "sign_fancy_clay_potter": {
+        "description": "A decorate clay potter's sign.",
+        "display_name": "Fancy Clay Potter's Sign",
+        "recipe_name": "Fancy Clay Potter's Sign",
+        "flavor": "A fancy clay sign showing a teapot."
+      },
+      "sign_fancy_clay_pub": {
+        "description": "A decorate clay pub sign.",
+        "display_name": "Fancy Clay Pub Sign",
+        "recipe_name": "Fancy Clay Pub Sign",
+        "flavor": "A fancy clay sign showing a pint...mmmmmm."
+      },
+      "sign_fancy_clay_storage": {
+        "description": "A decorate clay stockpile sign.",
+        "display_name": "Fancy Clay Stockpile Sign",
+        "recipe_name": "Fancy Clay Stockpile Sign",
+        "flavor": "A fancy clay stockpile sign."
+      },
+      "sign_fancy_clay_weaver": {
+        "description": "A decorate clay weaver's sign.",
+        "display_name": "Fancy Clay Weaver's Sign",
+        "recipe_name": "Fancy Clay Weaver's Sign",
+        "flavor": "A fancy clay sign showing scissors."
+      },
+      "sign_metal_blacksmith": {
+        "description": "A metal blacksmith's sign.",
+        "display_name": "Metal Blacksmith's Sign",
+        "recipe_name": "Metal Blacksmith's Sign",
+        "flavor": "A fancy, not to mention heavy, metal sign."
+      },
+      "sign_metal_blacksmith_hammer": {
+        "description": "A metal blacksmith's hammer sign.",
+        "display_name": "Metal Hammer Sign",
+        "recipe_name": "Metal Hammer Sign",
+        "flavor": "Somewhere, someone is missing their hammer."
+      },
+      "sign_metal_carpenter": {
+        "description": "A metal carpenter's sign.",
+        "display_name": "Metal Carpenter's Sign",
+        "recipe_name": "Metal Carpenter's Sign",
+        "flavor": "Silly metal sign."
+      },
+      "sign_metal_cook": {
+        "description": "A metal cook's sign.",
+        "display_name": "Metal Cook's Sign",
+        "recipe_name": "Metal Cook's Sign",
+        "flavor": "Well you can't eat it."
+      },
+      "sign_metal_engineer": {
+        "description": "A metal engineer's sign.",
+        "display_name": "Metal Engineer's Sign",
+        "recipe_name": "Metal Engineer's Sign",
+        "flavor": "I can do better - the Engineer."
+      },
+      "sign_metal_flowers": {
+        "description": "A metal flower sign.",
+        "display_name": "Metal Flower Sign",
+        "recipe_name": "Metal Flower Sign",
+        "flavor": "Where is the Iron Butterfly?!"
+      },
+      "sign_metal_fork": {
+        "description": "A metal silverware sign.",
+        "display_name": "Metal Silverware Sign",
+        "recipe_name": "Metal Silverware Sign",
+        "flavor": "Hungy?"
+      },
+      "sign_metal_gear": {
+        "description": "A metal gear sign.",
+        "display_name": "Metal Gear Sign",
+        "recipe_name": "Metal Gear Sign",
+        "flavor": "Unturing."
+      },
+      "sign_metal_goblin": {
+        "description": "A metal goblin sign.",
+        "display_name": "Metal Goblin Sign",
+        "recipe_name": "Metal Goblin Sign",
+        "flavor": "So lifelike."
+      },
+      "sign_metal_goblin_angry": {
+        "description": "A metal angry goblin sign.",
+        "display_name": "Metal Angry Goblin Sign",
+        "recipe_name": "Metal Angry Goblin Sign",
+        "flavor": "He is irked about something."
+      },
+      "sign_metal_herbalist": {
+        "description": "A metal herbalist's sign.",
+        "display_name": "Metal Herbalist's Sign",
+        "recipe_name": "Metal Herbalist's Sign",
+        "flavor": "No trees were harmed in the making of this sign."
+      },
+      "sign_metal_inn": {
+        "description": "A metal inn sign.",
+        "display_name": "Metal Inn Sign",
+        "recipe_name": "Metal Inn Sign",
+        "flavor": "Tired?."
+      },
+      "sign_metal_key": {
+        "description": "A metal key sign.",
+        "display_name": "Metal Key Sign",
+        "recipe_name": "Metal Key Sign",
+        "flavor": "The key is attached.  Permanently."
+      },
+      "sign_metal_mason": {
+        "description": "A metal mason's sign.",
+        "display_name": "Metal Mason's Sign",
+        "recipe_name": "Metal Mason's Sign",
+        "flavor": "Not stone."
+      },
+      "sign_metal_mason_bench": {
+        "description": "A metal mason's workbench sign.",
+        "display_name": "Metal Mason's Bench Sign",
+        "recipe_name": "Metal Mason's Bench Sign",
+        "flavor": "Small miniturized version of the real thing."
+      },
+      "sign_metal_pint": {
+        "description": "A metal pint sign.",
+        "display_name": "Metal Pint Sign",
+        "recipe_name": "Metal Pint Sign",
+        "flavor": "Mmmm...beeeeer."
+      },
+      "sign_metal_potion": {
+        "description": "A metal potion sign.",
+        "display_name": "Metal Potion Sign",
+        "recipe_name": "Metal Potion Sign",
+        "flavor": "NOT for drinking."
+      },
+      "sign_metal_potter": {
+        "description": "A metal potter's sign.",
+        "display_name": "Metal Potter's Sign",
+        "recipe_name": "Metal Potter's Sign",
+        "flavor": "Actually heavier than a clay sign."
+      },
+      "sign_metal_saw": {
+        "description": "A metal saw sign.",
+        "display_name": "Metal Saw Sign",
+        "recipe_name": "Metal Saw Sign",
+        "flavor": "You did what with my saw?! -the Carpenter."
+      },
+      "sign_metal_scissors": {
+        "description": "A metal scissors sign.",
+        "display_name": "Metal Scissors Sign",
+        "recipe_name": "Metal Scissors Sign",
+        "flavor": "Do not run with this either!"
+      },
+      "sign_metal_storage": {
+        "description": "A metal stockpile sign.",
+        "display_name": "Metal Stockpile Sign",
+        "recipe_name": "Metal Stockpile Sign",
+        "flavor": "Filled with all kinds of goodies!"
+      },
+      "sign_metal_tower": {
+        "description": "A metal tower sign.",
+        "display_name": "Metal Tower Sign",
+        "recipe_name": "Metal Tower Sign",
+        "flavor": "You can almost imagine little hearthlings living in there."
+      },
+      "sign_metal_vase": {
+        "description": "A metal vase sign.",
+        "display_name": "Metal Vase Sign",
+        "recipe_name": "Metal Vase Sign",
+        "flavor": "That looks heavy."
+      },
+      "sign_metal_weaver": {
+        "description": "A metal weaver's sign.",
+        "display_name": "Metal Weaver's Sign",
+        "recipe_name": "Metal Weaver's Sign",
+        "flavor": "No looming required."
+      },
+      "signpost_marker_blacksmith": {
+        "description": "A blacksmith's signpost marker.",
+        "display_name": "Blacksmith Signpost Marker",
+        "recipe_name": "Blacksmith Signpost Marker",
+        "flavor": "It points that way!"
+      },
+      "signpost_marker_carpenter": {
+        "description": "A carpenter's signpost marker.",
+        "display_name": "Carpenter Signpost Marker",
+        "recipe_name": "Carpenter Signpost Marker",
+        "flavor": "It points that way!"
+      },
+      "signpost_marker_cook": {
+        "description": "A cook's signpost marker.",
+        "display_name": "Cook Signpost Marker",
+        "recipe_name": "Cook Signpost Marker",
+        "flavor": "It points that way!"
+      },
+      "signpost_marker_engineer": {
+        "description": "An engineer's signpost marker.",
+        "display_name": "Engineer Signpost Marker",
+        "recipe_name": "Engineer Signpost Marker",
+        "flavor": "It points that way!"
+      },
+      "signpost_marker_herbalist": {
+        "description": "A herbalist's signpost marker.",
+        "display_name": "Herbalist Signpost Marker",
+        "recipe_name": "Herbalist Signpost Marker",
+        "flavor": "It points that way!"
+      },
+      "signpost_marker_inn": {
+        "description": "An inn's signpost marker.",
+        "display_name": "Inn Signpost Marker",
+        "recipe_name": "Inn Signpost Marker",
+        "flavor": "It points that way!"
+      },
+      "signpost_marker_mason": {
+        "description": "A mason's signpost marker.",
+        "display_name": "Mason Signpost Marker",
+        "recipe_name": "Mason Signpost Marker",
+        "flavor": "It points that way!"
+      },
+      "signpost_marker_oak": {
+        "description": "An oak signpost marker.",
+        "display_name": "Oak Signpost Marker",
+        "recipe_name": "Oak Signpost Marker",
+        "flavor": "It points that way!"
+      },
+      "signpost_marker_potter": {
+        "description": "A potter's signpost marker.",
+        "display_name": "Potter Signpost Marker",
+        "recipe_name": "Potter Signpost Marker",
+        "flavor": "It points that way!"
+      },
+      "signpost_marker_pub": {
+        "description": "A pub's signpost marker.",
+        "display_name": "Pub Signpost Marker",
+        "recipe_name": "Pub Signpost Marker",
+        "flavor": "It points that way!"
+      },
+      "signpost_marker_storage": {
+        "description": "Storage signpost marker.",
+        "display_name": "Storage Signpost Marker",
+        "recipe_name": "Storage Signpost Marker",
+        "flavor": "It points that way!"
+      },
+      "signpost_marker_weaver": {
+        "description": "A weaver's signpost marker.",
+        "display_name": "Weaver Signpost Marker",
+        "recipe_name": "Weaver Signpost Marker",
+        "flavor": "It points that way!"
+      },
+      "signpost_oak": {
+        "description": "An oak signpost.",
+        "display_name": "Oak Signpost",
+        "recipe_name": "Oak Signpost",
+        "flavor": "For posting signs of course."
+      },
+      "signstand_brick": {
+        "description": "A brick monument signpost.",
+        "display_name": "Brick Monument Signpost",
+        "recipe_name": "Brick Monument Signpost",
+        "flavor": "Slightly more permanent and pretty than a post."
+      },
+      "signstand_brick_fancy": {
+        "description": "A fancy brick monument signpost.",
+        "display_name": "Fancy Brick Monument Signpost",
+        "recipe_name": "Fancy Brick Monument Signpost",
+        "flavor": "It just screams look at me."
+      },
+      "signstand_oak": {
+        "description": "An oak monument signpost.",
+        "display_name": "Oak Monument Signpost",
+        "recipe_name": "Oak Monument Signpost",
+        "flavor": "Slightly more permanent than a post."
+      },
+      "signstand_oak_fancy": {
+        "description": "A fancy oak monument signpost.",
+        "display_name": "Fancy Oak Monument Signpost",
+        "recipe_name": "Fancy Oak Monument Signpost",
+        "flavor": "Well made oak monument signpost."
+      },
+      "signstand_stone": {
+        "description": "A stone monument signpost.",
+        "display_name": "Stone Monument Signpost",
+        "recipe_name": "Stone Monument Signpost",
+        "flavor": "Considerably more permanent than a post."
+      },
+      "signstand_stone_fancy": {
+        "description": "A fancy stone monument signpost.",
+        "display_name": "Fancy Stone Monument Signpost",
+        "recipe_name": "Fancy Stone Monument Signpost",
+        "flavor": "Trimmed in gold flashing."
+      }
+    }
+  },
+  "jobs": {
+    "blacksmith": {
+      "recipes": {
+        "banner_name": "Banners",
+        "signs_name": "Signs"
+      }
+    },
+    "carpenter": {
+      "recipes": {
+        "banner_name": "Banners",
+        "signs_name": "Signs"
+      }
+    },
+    "cook": {
+      "recipes": {
+        "banner_name": "Banners",
+        "signs_name": "Signs"
+      }
+    },
+    "engineer": {
+      "recipes": {
+        "banner_name": "Banners",
+        "signs_name": "Signs"
+      }
+    },
+    "herbalist": {
+      "recipes": {
+        "banner_name": "Banners",
+        "signs_name": "Signs"
+      }
+    },
+    "mason": {
+      "recipes": {
+        "banner_name": "Banners",
+        "signs_name": "Signs"
+      }
+    },
+    "potter": {
+      "recipes": {
+        "banner_name": "Banners",
+        "signs_name": "Signs"
+      }
+    },
+    "weaver": {
+      "recipes": {
+        "banner_name": "Banners",
+        "signs_name": "Signs"
+      }
+    }
+  }
+}

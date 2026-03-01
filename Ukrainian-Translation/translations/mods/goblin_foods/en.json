@@ -1,0 +1,431 @@
+{
+  "ui": {
+    "firemaster": {
+      "display_name": "Slopgoblin Craft Menu",
+      "description": "Delicious, delicious edibles",
+      "requirements": "Requires a Slopgoblin."
+    },
+    "stockgoblin": {
+      "description": "The stockgoblin will bring animals here to graze.",
+      "requirements": "Requires a Stockgoblin."
+    },
+    "game": {
+      "goblinpedia": {
+        "menu": {
+          "goblins": {
+            "jobs": {
+              "firemaster": {
+                "title": "Slopgoblin"
+              },
+              "stockgoblin": {
+                "title": "Stockgoblin"
+              }
+            }
+          }
+        },
+        "pages": {
+          "jobs": {
+            "firemaster": {
+              "title": "Slopgoblin",
+              "description1": "Chef Ramsay would be proud!",
+              "topic1": {
+                "title": "Description: ",
+                "desc1": "The Slopgoblin is the greatest chef known to the firefly tribes, and the chef specials are to die for!"
+              },
+              "topic2": {
+                "title": "What it does: ",
+                "desc1": "The job of the Slopgoblin is simple. Cook, cook, cook. Goblins need food to live, the same as any other culture, and especially a lot of food when laying eggs for babies. The Slopgoblin has it covered."
+              },
+              "topic3": {
+                "title": "Chef Specials: ",
+                "desc1": "The culinary arts are not for the weak minded. Cooking takes brains and heart and the chef specials require both in abundance. Special recipes known only to goblin Slopgoblins, the chef specials are great for keeping a colony fed."
+              }
+            },
+            "stockgoblin": {
+              "title": "Stockgoblin",
+              "description1": "He who grows herds, grows themselves.",
+              "topic1": {
+                "title": "Description: ",
+                "desc1": "Stockgoblins are farmers and herders. Masters of crop and beast."
+              },
+              "topic2": {
+                "title": "What it does: ",
+                "desc1": "The Stockgoblin is a farmer, growing crops goblins would use. They also herd animals back to designated areas."
+              },
+              "topic3": {
+                "title": "How to feed the animals: ",
+                "desc1": "Stockgoblins need special feed to keep their beasts alive. These feeds can be crafted by the Slopgoblin."
+              }
+            }
+          }
+        }
+      },
+      "zones_mode": {
+        "pasture": {
+          "frog_pasture_name": "Frog Pond",
+          "frog_pasture_description": "A field of frogs kept by a Stockgoblin. They will randomly generate bug meat fir the stockgoblin to harvest.",
+          "ostrich_pasture_name": "Ostrich Ranch",
+          "ostrich_pasture_description": "Big birds called Ostriches will be brought here by the stockgoblin where they can lay their giant eggs.",
+          "wolf_pasture_name": "Wolf Pen",
+          "wolf_pasture_description": "Baby wolves found in the wilderness will be cared for and looked after here.",
+          "spider_pasture_name": "Spider Nest",
+          "spider_pasture_description": "A nest of spiders the stockgoblin has found and brought back to care for."
+        }
+      }
+    }
+  },
+  "entities": {
+    "containers": {
+      "input_bin_mushroom": {
+        "input_bin_mushroom_ghost": {
+          "display_name": "Mushroom Bin",
+          "description": "Perfect for storing foods."
+        }
+      },
+      "herb_bin": {
+        "herb_bin_ghost": {
+          "display_name": "Clay Herb Bin",
+          "description": "An aromatic jar for holding fresh herbs."
+        }
+      }
+    },
+    "critters": {
+      "wolf": {
+        "display_name": "Trained Wolf",
+        "description": "A trained wolf of the Firefly clan, raised from a pup.",
+        "species": "Wolf",
+        "young": {
+          "display_name": "Wolf Pup",
+          "description": "A baby wolf, who was found alone in the wilderness.",
+          "species": "Wolf"
+        }
+      }
+    },
+    "decoration": {
+      "glowing_mushrooms": {
+        "glowing_mushrooms_ghost": {
+          "display_name": "Glowing Mushrooms",
+          "description": "The perfect decoration for any goblin garden."
+        }
+      },
+      "cook_pot": {
+        "cattail": {
+          "display_name": "Cattail Cauldron",
+          "description": "This almost beats the swamp they're used to growing in!"
+        },
+        "giple": {
+          "display_name": "Giple Cauldron",
+          "description": "A pretty flower. Too pretty for such a plant pot."
+        },
+        "sapling": {
+          "display_name": "Sapling Cauldron",
+          "description": "A lovely sapling, planted in a dirty cauldron."
+        }
+      },
+      "knife_board": {
+        "display_name": "Knife Hanger",
+        "description": "I would say it is the perfect place to hang your knives, but someone already did..."
+      }
+    },
+    "food": {
+      "cattail_flour": {
+        "display_name": "Sack of Cattail Flour",
+        "description": "Gritty and poorly ground, but it'll do."
+      },
+      "goblin_loaf": {
+        "goblin_loaf": {
+          "display_name": "Goblin Loaf",
+          "description": "A gritty, stale bread."
+        },
+        "goblin_loaf_serving": {
+          "display_name": "Slice of Goblin Loaf"
+        }
+      },
+      "mushroom_grog": {
+        "mushroom_grog": {
+          "display_name": "Mushroom Brew",
+          "description": "An alcoholic beverage of fermented mushrooms."
+        },
+        "mushroom_grog_serving": {
+          "display_name": "A mug of Mushroom"
+        }
+      },
+      "seed_porridge": {
+        "seed_porridge": {
+          "display_name": "Seed Porridge",
+          "description": "A thick, creamy soup, made from the seeds of the swampy plants."
+        },
+        "seed_porridge_serving": {
+          "display_name": "Bowl of Porridge"
+        }
+      },
+      "stuffed_bug_roast": {
+        "stuffed_bug_roast": {
+          "display_name": "Stuffed Bug Roast",
+          "description": "Fresh bug meat, stuffed with mushroom and herbs."
+        },
+        "stuffed_bug_roast_serving": {
+          "display_name": "Serving of Roast"
+        }
+      },
+      "candied_mushrooms": {
+        "display_name": "Candied Mushroom",
+        "description": "A sugary treat made from colorful sugars."
+      },
+      "sandy_witch": {
+        "display_name": "Sandy Witch",
+        "description": "The humans call it food, but I thought witches were people?"
+      },
+      "frog_feed": {
+        "frog_feed": {
+          "display_name": "Ground Insects",
+          "description": "A bag of ground up bugs, perfect for spiders and frogs."
+        },
+        "frog_feed_ground": {
+          "display_name": "Ground Insect Pieces",
+          "description": "scattered bug chunks for frogs and spiders to eat!."
+        }
+      },
+      "ostrich_feed": {
+        "ostrich_feed": {
+          "display_name": "Ostrich Feed",
+          "description": "Chunks of seed and veges for ostriches."
+        },
+        "ostrich_feed_ground": {
+          "display_name": "Ostrich Feed",
+          "description": "scattered seed and vegetable chunks for ostriches."
+        }
+      },
+      "wolf_feed": {
+        "wolf_feed": {
+          "display_name": "Wolf Feed",
+          "description": "Larger chunks of meat, roughly chopped for your wolves."
+        },
+        "wolf_feed_ground": {
+          "display_name": "Wolf Feed",
+          "description": "Larger chunks of meat, roughly chopped for your wolves."
+        }
+      }
+    },
+    "furniture": {
+      "mushroom_bed_pet": {
+        "display_name": "Mushroom Pet Bed",
+        "description": "A sleepspot fit for a beast king"
+      }
+    },
+    "resources": {
+      "spidersilk": {
+        "display_name": "Spidersilk Spool",
+        "description": "A wooden roll of silk harvested from tamed spiders."
+      }
+    }
+  },
+  "jobs": {
+    "bonesmith": {
+      "recipes": {
+        "mushroom_bed_pet_recipe": {
+          "recipe_name": "Mushroom Pet Bed",
+          "description": "A shroomy patch for your pets to lay their heads.",
+          "flavor": "Just... don't let them eat it..."
+        }
+      }
+    },
+    "stockgoblin": {
+      "stockgoblin_description": {
+        "display_name": "Stockgoblin",
+        "description": "The Stockgoblin looks after critters and crops.",
+        "requirements": "Crafted by Shaman",
+        "level_1_data": {
+          "perk_000_name": "Farming",
+          "perk_000_description": "The stockgoblin can grow a number of easy crops, good for food.",
+          "perk_001_name": "Herding",
+          "perk_001_description": "The stockgoblin can herd animals for resources and food."
+        },
+        "level_2_data": {
+          "perk_000_name": "Speed Up!",
+          "perk_000_description": "Gotta go fast! The stockgoblin can move faster now.",
+          "perk_001_name": "Advanced Herding",
+          "perk_001_description": "The stockgoblin has sourced a wider variety of animal pheremones to attract different animals."
+        },
+        "level_3_data": {
+          "perk_000_name": "Toads before Bros",
+          "perk_000_description": "Always being too busy to talk to friends, the stockgoblin instead learned to enjoy hanging out with their beasts."
+        },
+        "level_5_data": {
+          "perk_000_description": "The stockgoblin can perform amazing acts of arboreal advancement! (They can grow trees.)"
+        }
+      },
+      "stockgoblin_outfit": {
+        "display_name": "Stockgoblin Outfit",
+        "description": "Uniform for all stockgoblin"
+      },
+      "stockgoblin_crook": {
+        "display_name": "Stockgoblin's Crook",
+        "description": "Used by the Stockgoblin",
+        "stockgoblin_crook_iconic": {
+          "display_name": "Stockgoblin's Crook",
+          "description": "A solid wooden crook, made with strong wood."
+        },
+        "stockgoblin_crook_talisman": {
+          "display_name": "Stockgoblin's Crook",
+          "description": "A solid wooden crook, made with strong wood.",
+          "flavor": "Promotes a goblin to Stockgoblin"
+        }
+      }
+    },
+    "firemaster": {
+      "firemaster_description": {
+        "display_name": "Slopgoblin",
+        "description": "The Slopgoblin makes delicious, hearty meals from base vegetables and meats.",
+        "requirements": "Crafted by Shaman",
+        "workshop": {
+          "name": "Stone Cauldron",
+          "long_description": "Humongous, heavy pot, suitable for slopgoblining up a feast at a time!"
+        },
+        "level_1_data": {
+          "perk_000_name": "Camp cooking",
+          "perk_000_description": "The slopgoblin can make basic, nutritious recipes."
+        },
+        "level_2_data": {
+          "perk_000_name": "Ingredients",
+          "perk_000_description": "Through experimentation, the slopgoblin has discovered certain things that work well for making other foods.",
+          "perk_001_name": "Food from the Sea",
+          "perk_001_description": "The slopgoblin has a basic understanding of using fish and other sea life in their meals."
+        },
+        "level_4_data": {
+          "perk_000_name": "Sweet Tooth",
+          "perk_000_description": "If the humans can craft food that is 'sweet', then why can't we?"
+        },
+        "level_5_data": {
+          "perk_000_name": "Goblin Ramsay Special",
+          "perk_000_description": "The slopgoblin has heard of, and mastered unique cuisines from the worlds of goblin, and man."
+        }
+      },
+      "firemaster_outfit": {
+        "display_name": "Slopgoblin Outfit",
+        "description": "Uniform for all slopgoblins"
+      },
+      "firemaster_spoon": {
+        "display_name": "Slopgoblin's Spoon",
+        "description": "Used by the Slopgoblin",
+        "firemaster_spoon_iconic": {
+          "display_name": "Slopgoblin's Spoon",
+          "description": "A spoon made of wood, to absorb all those natural flavors. You'll be tasting last weeks stew until next year!"
+        },
+        "firemaster_spoon_talisman": {
+          "display_name": "Slopgoblin's Spoon",
+          "description": "A spoon made of wood, to absorb all those natural flavors. You'll be tasting last weeks stew until next year!",
+          "flavor": "Promotes a goblin to Slopgoblin"
+        }
+      },
+      "firemaster_workbench": {
+        "firemaster_workbench_ghost": {
+          "display_name": "Stone Cauldron",
+          "description": "Used by the Slopgoblin for delicious recipes."
+        }
+      },
+      "firemaster_prep_table": {
+        "firemaster_prep_table_ghost": {
+          "display_name": "Preparation Table",
+          "description": "The perfect surface to get dishes ready."
+        }
+      },
+      "firemaster_oven": {
+        "firemaster_oven_ghost": {
+          "display_name": "Stone Oven",
+          "description": "For baking and grilling."
+        }
+      },
+      "recipes": {
+        "workbenches_name": "Stations",
+        "storndecor_name": "Storage & Decorations",
+        "drinks_name": "Drinks",
+        "everyday_name": "Everyday Foods",
+        "seafood_name": "Seafood",
+        "specials_name": "Goblin Ramsay Specials",
+        "firemaster_workbench_recipe": {
+          "description": "Used to cook nutritious meals.",
+          "recipe_name": "Stone Cauldron",
+          "flavor": "Stone, to keep the food hot for a long time."
+        },
+        "firemaster_prep_table_recipe": {
+          "description": "The perfect surface to get dishes ready.",
+          "recipe_name": "Preparation Table"
+        },
+        "firemaster_oven_recipe": {
+          "description": "A fine stone oven for baking and grilling.",
+          "recipe_name": "Stone Oven"
+        },
+        "mushroom_bin_recipe": {
+          "description": "A hollowed out mushroom. Perfect for storing all kinds of foods.",
+          "recipe_name": "Mushroom Bin",
+          "flavor": "free lid included with every craft!"
+        },
+        "herb_bin_recipe": {
+          "description": "Great for holding all your kitchen herbs.",
+          "recipe_name": "Clay Herb Bin"
+        },
+        "cook_pot_cattail_recipe": {
+          "description": "A good use for a dirty old cauldron.",
+          "recipe_name": "Cattail Cauldron"
+        },
+        "cook_pot_giple_recipe": {
+          "description": "Such a pretty  flower.",
+          "recipe_name": "Giple Cauldron"
+        },
+        "cook_pot_sapling_recipe": {
+          "description": "All that extra nutrients from the leftover food in the cauldron might help it grow.",
+          "recipe_name": "Sapling Cauldron"
+        },
+        "glowing_mushrooms_recipe": {
+          "description": "No, you're not just seeing things.",
+          "recipe_name": "Glowing Mushrooms"
+        },
+        "knife_board_recipe": {
+          "description": "The prized tools of any Slopgoblin.",
+          "recipe_name": "Knife Hanger"
+        },
+        "cattail_flour_recipe": {
+          "description": "Gritty and made from the ground rhizomes of the cattail plant, this flour isn't ideal for a hearthling diet... but a goblin diet...?.",
+          "recipe_name": "Sack of Cattail Flour"
+        },
+        "goblin_loaf_recipe": {
+          "description": "A gritty loaf of bread, perfect for goblins.",
+          "recipe_name": "Goblin Loaf"
+        },
+        "candied_mushrooms_recipe": {
+          "description": "A delicious treat, making something sweet.",
+          "recipe_name": "Candied Mushrooms"
+        },
+        "mushroom_grog_recipe": {
+          "description": "An alcoholic beverage known to the Firefly clan, brewed from fermented mushrooms that typically grow in the swamps.",
+          "recipe_name": "Mushroom Brew"
+        },
+        "seed_porridge_recipe": {
+          "description": "A thick, basic gruel.",
+          "recipe_name": "Seed Porridge"
+        },
+        "stuffed_bug_roast_recipe": {
+          "description": "A delicious and armoatic meal.",
+          "recipe_name": "Stuffed Bug Roast"
+        },
+        "sandy_witch_recipe": {
+          "description": "The humans eat them, so we can, too!",
+          "recipe_name": "Sandy Witch (x3)"
+        },
+        "frog_feed_recipe": {
+          "recipe_name": "Insect Chunks",
+          "description": "Chopped up insect chunks for your frogs and spiders delight."
+        },
+        "ostrich_feed_recipe": {
+          "recipe_name": "Ostrich Feed",
+          "description": "Chunks of seed and veges for ostriches."
+        },
+        "wolf_feed_recipe": {
+          "recipe_name": "Wolf Feed",
+          "description": "Larger chunks of meat, roughly chopped for your wolves."
+        }
+      }
+    }
+  }
+}

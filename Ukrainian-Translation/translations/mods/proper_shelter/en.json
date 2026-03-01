@@ -1,0 +1,83 @@
+{
+   "data": {
+      "gm": {
+         "campaigns": {
+            "encounters": {
+               "daily_report_encounter": {
+                  "proper_shelter_label": "Shelter "
+               }
+            },
+            "amberstone": {
+               "arcs": {
+                  "trigger": {
+                     "discovery": {
+                        "encounters": {
+                           "fail_shelter_test": {
+                              "dialog_tree_info": {
+                                 "dialog_nodes": {
+                                    "msg1": {
+                                       "bulletin_title": "They changed their mind!",
+                                       "dialog_title": "The Rabbit immigrant leaves...",
+                                       "bulletin_message": {
+                                          "00": "Unfortunately our town doesn't currently provide the necessary shelter arrangements for receiving a new citizen. Make sure to have enough beds for all of your citizens and the potential newcomer, and to satisfy whatever other requirements are expected from a town like ours!"
+                                       }
+                                    }
+                                 }
+                              }
+                           }
+                        }
+                     }
+                  }
+               }
+            },       
+            "orc_war": {
+               "arcs": {
+                  "trigger": {
+                     "old_khan": {
+                        "encounters": {
+                           "fail_shelter_test": {
+                              "dialog_tree_info": {
+                                 "dialog_nodes": {
+                                    "msg1": {
+                                       "bulletin_title": "They changed their mind!",
+                                       "dialog_title": "The Orc immigrant leaves...",
+                                       "bulletin_message": {
+                                          "00": "Unfortunately our town doesn't currently provide the necessary shelter arrangements for receiving a new citizen. Make sure to have enough beds for all of your citizens and the potential newcomer, and to satisfy whatever other requirements are expected from a town like ours!"
+                                       }
+                                    }
+                                 }
+                              }
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   },
+   "ui": {
+      "game": {
+         "bulletin": {
+            "immigration_report": {
+               "tooltips": {
+                  "proper_shelter": "Hearthlings require beds and they must be properly sheltered from the elements.",
+                  "proper_shelter_t1": "Town Tier 1: Hearthlings require any kind of bed and it must be properly sheltered from the elements.",
+                  "proper_shelter_t2": "Town Tier 2: Hearthlings require good beds and they must be properly sheltered from the elements.",
+                  "proper_shelter_t3": "Town Tier 3: Hearthlings require good beds, they must be properly sheltered from the elements and they must be on a well decorated spot with a decent Appeal score."
+               }
+            }
+         }
+      },
+      "shell": {
+         "settings": {
+            "gameplayTab": {
+               "use_advanced_setting": "Advanced Mode",
+               "use_advanced_setting_description": "Provides a slightly more challenging experience. When using 'Advanced Mode', upgrading your town to Tier 2 (Hearth upgrade) and then to Tier 3 (Shrine upgrade) will unlock more conditions for the shelter requirement to be considered fulfilled.<br><span class='warn'>Tier 2</span> towns will need to have decent beds for their citizens (Comfy or better); thatch beds won't be enough anymore!<br><span class='warn'>Tier 3</span> towns require each bed to have a certain appeal around them, so accomodations must be decorated and feel very homely!",
+               "advanced_setting_appeal": "Advanced Mode: Appeal Target",
+               "advanced_setting_appeal_description": "If using 'Advanced Mode', you can customize the appeal needed for beds to be considered proper shelter on Daily Updates for Tier 3 towns.<br><span class='warn'>Note:</span>This setting only works if 'Advanced Mode' is enabled.<br><i>(Default: 3)</i>"
+            }
+         }
+      }
+   }
+}

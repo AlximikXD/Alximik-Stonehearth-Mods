@@ -1,0 +1,52 @@
+{
+  "ui": {
+    "shell": {
+      "select_settlement": {
+        "open_map_options": "Спеціальні параметри світу",
+        "world_size": {
+          "display": "Світовий розмір:",
+          "micro": "Micro",
+          "small": "Small",
+          "normal": "Normal",
+          "large": "Large"
+        },
+        "enable": {
+          "display": "Enable:",
+          "lakes": "Lakes",
+          "dirt_holes": "Брудні отвори"
+        },
+        "landmarks": {
+          "display": "Landmarks:",
+          "none": "Немає",
+          "default": "Типово",
+          "plenty": "Plenty"
+        },
+        "rivers": {
+          "display": "Rivers:",
+          "quantity": "Максимальна кількість:",
+          "sizes": {
+            "display": "Sizes:",
+            "narrow": "Narrow",
+            "wide": "Wide"
+          },
+          "locations": {
+            "display": "Locations:",
+            "plains": "Plains",
+            "foothills": "Foothills",
+            "mountains": "Mountains"
+          }
+        },
+        "modes": {
+          "display": "Спеціальні режими:",
+          "superflat": "Супер плоский",
+          "waterworld": "WaterWorld",
+          "canyons": "Canyons",
+          "sky_lands": "Sky Lands"
+        },
+        "apply_map_options": "Apply",
+        "default_map_options": "Defaults",
+        "cancel_map_options": "Скасувати"
+      }
+    }
+  }
+}

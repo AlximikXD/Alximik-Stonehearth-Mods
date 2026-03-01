@@ -1,0 +1,186 @@
+{
+  "entities": {
+    "construction": {
+      "great_stone_double_door": {
+        "display_name": "Stone Double Door - Great",
+        "description": "A massive door built to keep things out."
+      },
+      "great_stone_double_door_even": {
+        "display_name": "Stone Double Door - Great*",
+        "description": "A massive door built to keep things out."
+      },
+      "great_stone_portcullis": {
+        "display_name": "Stone Portcullis - Great",
+        "description": "Useful for fortifying town entry points. This is an even larger alternative to the Large Bronze Portcullis."
+      },
+      "great_stone_portcullis_even": {
+        "display_name": "Stone Portcullis - Great*",
+        "description": "Useful for fortifying town entry points. This is an even larger alternative to the Large Bronze Portcullis."
+      },
+      "great_wooden_double_door": {
+        "display_name": "Wooden Double Door - Great",
+        "description": "A massive door built to keep things out."
+      },
+      "great_wooden_double_door_even": {
+        "display_name": "Wooden Double Door - Great*",
+        "description": "A massive door built to keep things out."
+      },
+      "large_iron_double_door": {
+        "display_name": "Double Ironclad Door - Large",
+        "description": "Larger and studier than wooden or stone double doors."
+      },
+      "large_iron_wooden_double_door": {
+        "display_name": "Iron-Framed Double Door - Large",
+        "description": "Larger and studier than wooden or stone double doors."
+      },
+      "large_wooden_double_door": {
+        "display_name": "Wooden Double Door - Large",
+        "description": "An even larger door. It makes quite an impression."
+      },
+      "large_wooden_double_door_frame": {
+        "display_name": "Wooden Double Door Frame - Large",
+        "description": "It's like a huge window that goes all the way to the ground!"
+      },
+      "large_ornate_wooden_double_door": {
+        "display_name": "Ornate Wooden Double Door - Large",
+        "description": "An even larger door with some extra style. All your friends will be envious."
+      },
+      "large_ornate_wooden_double_door_frame": {
+        "display_name": "Ornate Wooden Double Door Frame - Large",
+        "description": "Even more space for you to go through!"
+      },
+      "large_marble_double_door": {
+        "display_name": "Marble Double Door - Large",
+        "description": "A larger, stronger, more reliable, and beautiful door."
+      },
+      "large_stone_double_door": {
+        "display_name": "Stone Double Door - Large",
+        "description": "An even larger door. It makes quite an impression."
+      },
+      "large_stone_double_door_frame": {
+        "display_name": "Stone Double Door Frame - Large",
+        "description": "It's guaranteed safe to go through!"
+      },
+      "large_stone_wooden_double_door": {
+        "display_name": "Stone-Framed Double Door - Large",
+        "description": "An even larger door. It makes quite an impression."
+      },
+      "ornate_wooden_round_door": {
+        "display_name": "Ornate Round Wooden Door",
+        "description": "A fancy round door made for an underground home."
+      },
+      "wooden_round_door": {
+        "display_name": "Round Wooden Door",
+        "description": "A round door made for an underground home."
+      }
+    }
+  },
+  "jobs": {
+    "blacksmith": {
+      "recipes": {
+        "large_iron_wooden_double_door": {
+          "recipe_name": "Iron-Framed Double Door - Large",
+          "description": "Larger and studier than wooden or stone double doors.",
+          "flavor": "Designed for larger, less friendly folk."
+        }
+      }
+    },
+    "carpenter": {
+      "recipes": {
+        "great_wooden_double_door": {
+          "recipe_name": "Wooden Double Door - Great",
+          "description": "A massive door built to keep things out.",
+          "flavor": "Or is it to keep things in..."
+        },
+        "great_wooden_double_door_even": {
+          "recipe_name": "Wooden Double Door - Great*",
+          "description": "A massive door built to keep things out.",
+          "flavor": "Or is it to keep things in..."
+        },
+        "large_wooden_double_door": {
+          "recipe_name": "Wooden Double Door - Large",
+          "description": "An even larger door. It makes quite an impression.",
+          "flavor": "Some people want to make an even bigger entrance."
+        },
+        "large_wooden_double_door_frame": {
+          "recipe_name": "Wooden Double Door Frame - Large",
+          "description": "An even larger door frame without a door.",
+          "flavor": "Please air-knock before coming in"
+        },
+        "large_ornate_wooden_double_door": {
+          "recipe_name": "Ornate Wooden Double Door - Large",
+          "description": "Two doors are better than one.",
+          "flavor": "Some people want to make an even bigger entrance. With some extra style."
+        },
+        "large_ornate_wooden_double_door_frame": {
+          "recipe_name": "Ornate Wooden Double Door Frame - Large",
+          "description": "An even larger decorated door frame.",
+          "flavor": "The latest fashion in maximalist doorways"
+        },
+        "ornate_wooden_round_door": {
+          "recipe_name": "Ornate Round Wooden Door",
+          "description": "A fancy round door made for an underground home.",
+          "flavor": "...and I like less than half of you half as well as you deserve"
+        },
+        "wooden_round_door": {
+          "recipe_name": "Round Wooden Door",
+          "description": "A round door made for an underground home.",
+          "flavor": "I don't know half of you half as well as I should like..."
+        }
+      }
+    },
+    "engineer": {
+      "recipes": {
+        "great_stone_portcullis": {
+          "recipe_name": "Stone Portcullis - Great",
+          "description": "Useful for fortifying town entry points. This is an even larger alternative to the Large Bronze Portcullis.",
+          "flavor": "Whenever size matters, go bigger."
+        },
+        "great_stone_portcullis_even": {
+          "recipe_name": "Stone Portcullis - Great*",
+          "description": "Useful for fortifying town entry points. This is an even larger alternative to the Large Bronze Portcullis.",
+          "flavor": "Whenever size matters, go bigger."
+        },
+        "large_iron_double_door": {
+          "recipe_name": "Double Ironclad Door - Large",
+          "description": "Larger and studier than wooden or stone double doors.",
+          "flavor": "Designed for larger, less friendly folk."
+        }
+      }
+    },
+    "mason": {
+      "recipes": {
+        "great_stone_double_door": {
+          "recipe_name": "Stone Double Door - Great",
+          "description": "A massive door built to keep things out.",
+          "flavor": "Or is it to keep things in..."
+        },
+        "great_stone_double_door_even": {
+          "recipe_name": "Stone Double Door - Great*",
+          "description": "A massive door built to keep things out.",
+          "flavor": "Or is it to keep things in..."
+        },
+        "large_marble_double_door": {
+          "recipe_name": "Marble Double Door - Large",
+          "description": "A larger, stronger, more reliable, and beautiful door.",
+          "flavor": "You must be really polite to go through such a polished door."
+        },
+        "large_stone_double_door": {
+          "recipe_name": "Stone Double Door - Large",
+          "description": "An even larger door. It makes quite an impression.",
+          "flavor": "Some people want to make an even bigger entrance."
+        },
+        "large_stone_double_door_frame": {
+          "recipe_name": "Stone Double Door Frame - Large",
+          "description": "An even larger stone arch. Held together by the power of magic! (Or gravity)",
+          "flavor": "So that's why they call it architecture?"
+        },
+        "large_stone_wooden_double_door": {
+          "recipe_name": "Stone-Framed Double Door - Large",
+          "description": "An even larger door. It makes quite an impression.",
+          "flavor": "Some people want to make an even bigger entrance."
+        }
+      }
+    }
+  }
+}

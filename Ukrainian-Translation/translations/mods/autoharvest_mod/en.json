@@ -1,0 +1,42 @@
+{
+  "data": {
+    "commands": {
+      "autoharvest_on": {
+        "display_name": "Autoharvest mode is ON",
+        "description": "Click to turn it off.",
+        "disabled_description": "Cannot be turned off now, try again later."
+      },
+      "autoharvest_off": {
+        "display_name": "Autoharvest mode is OFF",
+        "description": "Click to turn it on.",
+        "disabled_description": "Cannot be turned on now, try again later."
+      }
+    }
+  },
+  "ui": {
+    "game": {
+      "menu": {
+        "harvest_menu": {
+          "items": {
+            "box_autoharvest": {
+              "display_name": "Autoharvest",
+              "description": "Select renewable resource nodes to be harvested automatically.",
+              "tip_title": "Click and drag to mark resources for autoharvest",
+              "tip_description": "Right click to exit this mode"
+            }
+          }
+        }
+      }
+    },
+    "shell": {
+      "settings": {
+        "controls_tab": {
+          "key_binding_names": {
+            "harvest_autoharvest": "Toggle Autoharvest",
+            "harvest_box_autoharvest": "Box-Select for Autoharvest"
+          }
+        }
+      }
+    }
+  }
+}

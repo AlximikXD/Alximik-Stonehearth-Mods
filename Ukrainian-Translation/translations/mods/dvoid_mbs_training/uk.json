@@ -1,0 +1,302 @@
+{
+  "entities": {
+    "learning": {
+      "ink_phial": {
+        "display_name": "Чашка з чорнилом",
+        "description": "Липкий матеріал для написання."
+      },
+      "empty_ink_phial": {
+        "display_name": "Порожній флакон з чорнилом",
+        "description": "Маленька пляшка для рідини."
+      },
+      "waterskin_berry_juice": {
+        "display_name": "Ягідний сік",
+        "description": "Напій, повний енергії."
+      },
+      "waterskin": {
+        "display_name": "Порожній бурдюк",
+        "description": "Друге життя для мого вихованця."
+      },
+      "candle_holder": {
+        "display_name": "Підсвічник",
+        "description": "Необхідно для просвіти."
+      },
+      "candle_holder_empty": {
+        "display_name": "Порожній свічник",
+        "description": "Використовується, щоб тримати свічку."
+      }
+    }
+  },
+  "jobs": {
+    "blacksmith": {
+      "recipes": {
+        "utilities_name": "Utilities",
+        "empty_ink_phial_recipe": {
+          "recipe_name": "Порожній флакон з чорнилом",
+          "description": "Маленька пляшка для рідини."
+        },
+        "trainee_dumbbell_recipe": {
+          "recipe_name": "Гантель тренувальна",
+          "description": "Ви навіть піднімаєте?"
+        },
+        "candle_holder_empty_recipe": {
+          "recipe_name": "Порожній свічник",
+          "description": "Використовується, щоб тримати свічку."
+        },
+        "disciple_amulet_recipe": {
+          "recipe_name": "Амулет учня",
+          "description": "Такий блискучий!"
+        }
+      }
+    },
+    "carpenter": {
+      "recipes": {
+        "scholar_workbench_recipe": {
+          "recipe_name": "Дослідження вченого",
+          "description": "Використовується для отримання знань."
+        },
+        "trainee_workbench_recipe": {
+          "recipe_name": "Тренувальна станція",
+          "description": "Використовується для поліпшення фізичних здібностей."
+        }
+      }
+    },
+    "mason": {
+      "recipes": {
+        "disciple_workbench_recipe": {
+          "recipe_name": "Моноліт учня",
+          "description": "Спроектуйте свій дух між світами."
+        }
+      }
+    },
+    "weaver": {
+      "recipes": {
+        "waterskin_recipe": {
+          "recipe_name": "Порожній бурдюк",
+          "description": "Друге життя для мого вихованця."
+        }
+      }
+    },
+    "disciple": {
+      "disciple_description": {
+        "display_name": "Disciple",
+        "description": "Учень медитує, щоб просвітити свій дух до вищих рівнин.",
+        "requirements": "Створено ковалем",
+        "level_1_data": {
+          "name": "Sheep",
+          "description": ""
+        },
+        "level_2_data": {
+          "name": "Awareness",
+          "description": ""
+        },
+        "level_3_data": {
+          "name": "Questioning",
+          "description": ""
+        },
+        "level_4_data": {
+          "name": "Emerging",
+          "description": ""
+        },
+        "level_5_data": {
+          "name": "Enlighten",
+          "description": ""
+        },
+        "level_6_data": {
+          "name": "Transcended",
+          "description": ""
+        }
+      },
+      "disciple_outfit": {
+        "display_name": "Екіпірування учня",
+        "description": "Традиційний плащ учня.",
+        "disciple_hood": {
+          "display_name": "Плащ учня",
+          "description": "Гарний плащ."
+        }
+      },
+      "disciple_amulet": {
+        "display_name": "Амулет учня",
+        "description": "Такий блискучий!",
+        "disciple_amulet_iconic": {
+          "display_name": "Амулет учня",
+          "description": "Такий блискучий!"
+        },
+        "disciple_amulet_talisman": {
+          "display_name": "Амулет учня",
+          "description": "Необхідно, щоб підвищити родину до учня."
+        }
+      },
+      "disciple_workbench": {
+        "disciple_workbench_ghost": {
+          "display_name": "Моноліт учня",
+          "description": "Спроектуйте свій дух між світами."
+        }
+      },
+      "recipes": {
+        "meditating_name": "Meditating",
+        "simple_meditating_recipe": {
+          "recipe_name": "Проста медитація",
+          "description": "Потрібно медитувати, щоб усвідомити."
+        }
+      }
+    },
+    "herbalist": {
+      "recipes": {
+        "scholar_book_recipe": {
+          "recipe_name": "Навчальна книга вченого",
+          "description": "Необхідно підвищити родину до вченого."
+        },
+        "ink_phial_recipe": {
+          "recipe_name": "Чашка з чорнилом",
+          "description": "Липкий матеріал для написання."
+        },
+        "waterskin_berry_juice_recipe": {
+          "recipe_name": "Ягідний сік",
+          "description": "Напій, повний енергії."
+        },
+        "candle_holder_recipe": {
+          "recipe_name": "Підсвічник",
+          "description": "Необхідно для просвіти."
+        }
+      }
+    },
+    "scholar": {
+      "scholar_description": {
+        "display_name": "Scholar",
+        "description": "Вчений вивчає, щоб покращити свій розум.",
+        "requirements": "Створено Herbalist",
+        "level_1_data": {
+          "name": "Dumb",
+          "description": ""
+        },
+        "level_2_data": {
+          "name": "Curious",
+          "description": ""
+        },
+        "level_3_data": {
+          "name": "Informed",
+          "description": ""
+        },
+        "level_4_data": {
+          "name": "Educated",
+          "description": ""
+        },
+        "level_5_data": {
+          "name": "Clever",
+          "description": ""
+        },
+        "level_6_data": {
+          "name": "Genius",
+          "description": ""
+        }
+      },
+      "scholar_outfit": {
+        "display_name": "Екіпірування вченого",
+        "description": "Вбрання вченого"
+      },
+      "scholar_book": {
+        "display_name": "Навчальна книга вченого",
+        "description": "Контейнер знань для самовдосконалення.",
+        "scholar_book_iconic": {
+          "display_name": "Навчальна книга вченого",
+          "description": "Контейнер знань для самовдосконалення."
+        },
+        "scholar_book_talisman": {
+          "display_name": "Навчальна книга вченого",
+          "description": "Необхідно підвищити родину до вченого."
+        }
+      },
+      "scholar_workbench": {
+        "scholar_workbench_ghost": {
+          "display_name": "Дослідження вченого",
+          "description": "Використовується для отримання знань."
+        }
+      },
+      "recipes": {
+        "learning_name": "Learning",
+        "simple_mathematics_recipe": {
+          "recipe_name": "Проста математика",
+          "description": "Шлях до розширення розуму починається тут."
+        }
+      }
+    },
+    "trainee": {
+      "trainee_description": {
+        "display_name": "Trainee",
+        "description": "Учасники наполегливо працюють над вдосконаленням свого тіла.",
+        "requirements": "Створено ковалем.",
+        "level_1_data": {
+          "name": "Wimp",
+          "description": ""
+        },
+        "level_2_data": {
+          "name": "Feeble",
+          "description": ""
+        },
+        "level_3_data": {
+          "name": "Average",
+          "description": ""
+        },
+        "level_4_data": {
+          "name": "vigorous",
+          "description": ""
+        },
+        "level_5_data": {
+          "name": "Athletic",
+          "description": ""
+        },
+        "level_6_data": {
+          "name": "Olympian",
+          "description": ""
+        }
+      },
+      "trainee_outfit": {
+        "display_name": "Екіпірування стажера",
+        "description": "Пробіжки найкращі."
+      },
+      "trainee_dumbbell": {
+        "display_name": "Гантель тренувальна",
+        "description": "Ви навіть піднімаєте?",
+        "trainee_dumbbell_iconic": {
+          "display_name": "Гантель тренувальна",
+          "description": "Ви навіть піднімаєте?"
+        },
+        "trainee_dumbbell_talisman": {
+          "display_name": "Гантель тренувальна",
+          "description": "Необхідно підвищити сім'ю до стажера."
+        }
+      },
+      "trainee_workbench": {
+        "trainee_workbench_ghost": {
+          "display_name": "Тренувальна станція",
+          "description": "Використовується для поліпшення фізичних здібностей."
+        }
+      },
+      "recipes": {
+        "training_name": "Training",
+        "simple_training_recipe": {
+          "recipe_name": "Просте навчання",
+          "description": "Давайте рухатися."
+        }
+      }
+    }
+  },
+  "ui": {
+    "game": {
+      "zones_mode": {
+        "stockpile": {
+          "filters": {
+            "learning": "Improving",
+            "ink_phial": "Чашка з чорнилом",
+            "empty_ink_phial": "Порожній флакон з чорнилом",
+            "waterskin_berry_juice": "Ягідний сік",
+            "waterskin": "Порожній бурдюк",
+            "candle_holder": "Підсвічник",
+            "candle_holder_empty": "Порожній свічник"
+          }
+        }
+      }
+    }
+  }
+}

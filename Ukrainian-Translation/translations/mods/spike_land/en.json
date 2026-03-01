@@ -1,0 +1,27 @@
+{
+  "data": {
+    "biome": {
+      "spike_land": {
+        "display_name": "Spike Land",
+        "description": "Mountains of spikes with unpredictable seasons and blinding winters.",
+        "random_location_names": {
+          "000": "Spikes to the sky"
+        },
+        "seasons": {
+          "autumn": {
+            "description": "Autumn in the Spikes is the harvest season, lasting three months. The trees turn to gold, and the grass prepares to retreat into its winter blanket, as the skies darken with storm clouds.<ul><li> Daytime sunlight levels are average </li><li> Colden season</li></ul>"
+          },
+          "winter": {
+            "description": "Winter in the Spikes is a season of hardship. lasting three months. Weather is severe, with biting winds and unforgiving blizzards making farming exceedingly difficult. Even venturing outside without a winter outfit can end tragically. <ul><li> Daytime sunlight levels are inadequate </li><li> Very unseen season</li></ul>"
+          },
+          "spring": {
+            "description": "Spring in the Spikes is a season of rebirth, lasting three months. Rains may melt the snows, revealing new growth hidden underneath, and trees come back to life covered with colorful blossoms.<ul><li> Daytime sunlight levels are good </li><li> Warming season</li></ul>"
+          },
+          "summer": {
+            "description": "Summer in the Spikes is the mildest season, lasting three months. It is a time to relax and bask in the sun, but may worry about storms or snow.<ul><li> Daytime sunlight levels are very good </li><li> Unpredictable season</li></ul>"
+          }
+        }
+      }
+    }
+  }
+}

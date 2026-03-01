@@ -1,0 +1,1094 @@
+{
+  "ui": {
+    "gardener": {
+      "display_name": "Садівник Crafter Меню",
+      "description": "Виготовлення декоративних виробів з квітів.",
+      "requirements": "Потрібен фермер",
+      "crafter_requirements": "Потрібен садівник",
+      "craft_gardener": "Меню садівника"
+    }
+  },
+  "entities": {
+    "construction": {
+      "carved_stone_window": {
+        "display_name": "Різьблене по каменю вікно",
+        "description": "Ретельно виліплене кам'яне вікно"
+      },
+      "carved_stone_door": {
+        "display_name": "Кам'яні різьблені двері",
+        "description": "Ретельно виліплені кам'яні двері"
+      },
+      "clay_brick_wall": {
+        "display_name": "Глиняна цегляна стіна",
+        "description": "Складена ліпна глина"
+      },
+      "fortress_door": {
+        "display_name": "Фортечні двері",
+        "description": "Такий сильний, як це виглядає"
+      },
+      "fortress_window": {
+        "display_name": "Фортечне вікно",
+        "description": "Вікно з кам'яними залізними ґратами"
+      },
+      "gardener_sign": {
+        "display_name": "Настінний садівник",
+        "description": "Табличка з позначкою Садівника"
+      },
+      "hedge": {
+        "display_name": "Hedge",
+        "description": "Листяний і губчастий"
+      },
+      "hedge_corner": {
+        "display_name": "Куточок живої огорожі",
+        "description": "Листяний і губчастий"
+      },
+      "tumbleweed_fibre_fence": {
+        "display_name": "Жива огорожа з волокна перекати",
+        "description": "Заплутаний безлад"
+      },
+      "tumbleweed_fibre_fence_corner": {
+        "display_name": "Куточок для живоплоту з волокна перекати",
+        "description": "Кут живої огорожі"
+      },
+      "mine_entrance_scaffold": {
+        "display_name": "Вхідні риштування",
+        "description": "Дерев'яні риштування для підтримки шахт"
+      },
+      "picket_fence_archway": {
+        "display_name": "Арка паркану",
+        "description": "Не ідеально підходить для вольєрів для тварин"
+      },
+      "robust_door": {
+        "display_name": "Надійні двері",
+        "description": "Міцний і надійний"
+      },
+      "robust_window": {
+        "display_name": "Міцне вікно",
+        "description": "Маленький отвір"
+      },
+      "spiked_fence_corner": {
+        "display_name": "Кутовий паркан з шипами",
+        "description": "Для всіх ваших потреб"
+      },
+      "spiked_fence": {
+        "display_name": "Шипи паркан",
+        "description": "Видання Extra pointy"
+      },
+      "tall_wooden_palliside": {
+        "display_name": "Високий дерев'яний частокіл",
+        "description": "Дуже високий і надзвичайно загострений"
+      },
+      "tall_wooden_palliside_corner": {
+        "display_name": "Високий кутовий дерев'яний частокіл",
+        "description": "Дуже високий і надзвичайно загострений"
+      },
+      "stone_mine_entrance": {
+        "display_name": "Вхід у кам'яну шахту",
+        "description": "Висічений у камені вхід до шахти"
+      },
+      "large_wooden_window_frame": {
+        "display_name": "Велика дерев'яна віконна рама",
+        "description": "Велика віконна рама"
+      },
+      "large_stone_window_frame": {
+        "display_name": "Велика кам'яна віконна рама",
+        "description": "Велика віконна рама"
+      },
+      "iron_gate": {
+        "display_name": "Залізні ворота",
+        "description": "Скрипить на вітрі"
+      }
+    },
+    "furniture": {
+      "berry_curtains": {
+        "display_name": "Ягідні штори",
+        "description": "Ви майже можете спробувати ягоди."
+      },
+      "bird_house": {
+        "display_name": "Будинок для птахів",
+        "description": "Розміщення птахів, безкоштовно."
+      },
+      "brightbell_hanging_basket": {
+        "display_name": "Підвісний кошик Brightbell",
+        "description": "Біль до води."
+      },
+      "cactus_tree_planter": {
+        "display_name": "Плантатор для кактусів",
+        "description": "Високий, сильний і гострий."
+      },
+      "canopy_garden": {
+        "display_name": "Canopy Garden",
+        "description": "Навіщо просто квіти на землі."
+      },
+      "canopy_garden_long": {
+        "display_name": "Canopy Garden Long",
+        "description": "Навіщо просто квіти на землі."
+      },
+      "cloth_canopy": {
+        "display_name": "Тканина навісу",
+        "description": "Затінене місце для відпочинку."
+      },
+      "cloth_canopy_long": {
+        "display_name": "Тканина Canopy Long",
+        "description": "Затінене місце для відпочинку."
+      },
+      "chiminea": {
+        "display_name": "Chiminea",
+        "description": "Теплова доброта"
+      },
+      "feasting_table": {
+        "display_name": "Застільний стіл",
+        "description": "Грандіозний обідній стіл для застіль"
+      },
+      "fireplace": {
+        "display_name": "Fireplace",
+        "description": "Для затишних ночей у приміщенні"
+      },
+      "flower_fence": {
+        "display_name": "Квітковий паркан",
+        "description": "Квіткова розлука"
+      },
+      "flowered_curtains": {
+        "display_name": "Квітчасті штори",
+        "description": "Стильно і практично."
+      },
+      "footman_tapestry": {
+        "display_name": "Лакей Гобелен",
+        "description": "Деталізований гобелен із зображенням піхотину."
+      },
+      "foxfire_hanging_basket": {
+        "display_name": "Підвісний кошик Foxfire",
+        "description": "Біль до води."
+      },
+      "foxfire_lantern": {
+        "display_name": "Ліхтар із лисячого вогню",
+        "description": "Кам'яний ліхтар, наповнений сяючою слизом"
+      },
+      "ember_lantern": {
+        "display_name": "Ембер Ліхтар",
+        "description": "Кам'яний ліхтар, наповнений пилком рослин"
+      },
+      "frostsnap_hanging_basket": {
+        "display_name": "Підвісний кошик Frostsnap",
+        "description": "Біль до води."
+      },
+      "fur_bed": {
+        "display_name": "Ліжко з хутра",
+        "description": "Тепло і розслабляюче."
+      },
+      "garden_bed": {
+        "display_name": "Садова грядка",
+        "description": "Заповідник для всіх видів рослин."
+      },
+      "guardian_statue": {
+        "display_name": "Статуя охоронця",
+        "description": "Кам'яна статуя гвардійця"
+      },
+      "hanging_cactus_pots": {
+        "display_name": "Підвісні горщики для кактусів",
+        "description": "Підвісні горщики з кактусами."
+      },
+      "hanging_ember_pots": {
+        "display_name": "Висячі горщики з вугіллям",
+        "description": "Підвісні горщики з рослинами вугілля."
+      },
+      "hanging_litso_pots": {
+        "display_name": "Підвісні горщики Litso",
+        "description": "Підвісні горщики з травою літсо."
+      },
+      "large_stone_planter": {
+        "display_name": "Велика кам'яна кашпо",
+        "description": "Гарний і міцний."
+      },
+      "large_vase": {
+        "display_name": "Велика ваза",
+        "description": "Великий, але крихкий"
+      },
+      "large_wooden_planter": {
+        "display_name": "Велике дерев'яне кашпо",
+        "description": "Так гарно."
+      },
+      "log_chair": {
+        "display_name": "Крісло з журналу",
+        "description": "Місця на відкритому повітрі для моментів відпочинку."
+      },
+      "luxury_stone_chair": {
+        "display_name": "Розкішне кам'яне крісло",
+        "description": "Найкраще місце для сидіння."
+      },
+      "plant_pot": {
+        "display_name": "Горщик для рослин",
+        "description": "Маленький глиняний горщик"
+      },
+      "poster_bed": {
+        "display_name": "Ліжко з балдахіном",
+        "description": "Так багато місця для ніг."
+      },
+      "potted_brightbell": {
+        "display_name": "Горщиковий Брайтбелл",
+        "description": "Горщик Brightbells."
+      },
+      "potted_foxfire": {
+        "display_name": "Лисиця в горщику",
+        "description": "Горщик з вогнищем."
+      },
+      "potted_frostsnap": {
+        "display_name": "Горщик Frostsnap",
+        "description": "Горщик Frostsnaps."
+      },
+      "potted_box_plant": {
+        "display_name": "Рослина в горщиках",
+        "description": "Горщик з ящиковими рослинами."
+      },
+      "potted_litso_grass": {
+        "display_name": "Трава Litso в горщиках",
+        "description": "Горщик Litso Grass."
+      },
+      "potted_ember_plant": {
+        "display_name": "Рослина Ember в горщику",
+        "description": "Горщик з рослиною Ember."
+      },
+      "sarcophagus": {
+        "display_name": "Sarcophagus",
+        "description": "Могила полеглого героя."
+      },
+      "scarecrow": {
+        "display_name": "Scarecrow",
+        "description": "Захист насіння."
+      },
+      "shelf": {
+        "display_name": "Shelf",
+        "description": "У недоступному для дітей місці."
+      },
+      "shepherd_tapestry": {
+        "display_name": "Гобелен пастух",
+        "description": "Гобелен із зображенням пастуха та його овець."
+      },
+      "skull_flag": {
+        "display_name": "Прапор черепа",
+        "description": "Трохи страшніше."
+      },
+      "small_stone_planter": {
+        "display_name": "Маленький кам'яний кашпо",
+        "description": "Ідеально підходить для палісадника."
+      },
+      "small_vase": {
+        "display_name": "Маленька ваза",
+        "description": "Маленький і крихкий"
+      },
+      "small_wooden_planter": {
+        "display_name": "Невелике дерев'яне кашпо",
+        "description": "Ідеально підходить для палісадника."
+      },
+      "statue_of_fortune": {
+        "display_name": "Статуя удачі",
+        "description": "Загадайте бажання."
+      },
+      "stone_fur_bed": {
+        "display_name": "Ліжко з кам'яного хутра",
+        "description": "Міцний і м'який."
+      },
+      "stone_garden_bed": {
+        "display_name": "Клумба Кам'яний сад",
+        "description": "Заповідник для всіх видів рослин."
+      },
+      "stone_totem": {
+        "display_name": "Кам'яний тотем",
+        "description": "Культура, вписана в камінь"
+      },
+      "straw_basket": {
+        "display_name": "Солом'яний кошик",
+        "description": "Кошик плетений із соломи."
+      },
+      "sundial": {
+        "display_name": "Sundial",
+        "description": "Просто, але так інтригуюче"
+      },
+      "the_mighty_worker_statue": {
+        "display_name": "Статуя «Могутній робітник».",
+        "description": "Натхнення для всіх."
+      },
+      "tiered_stone_planter": {
+        "display_name": "Багатоярусна кам'яна кашпо",
+        "description": "Шар за шаром органічної доброти."
+      },
+      "tiered_wooden_planter": {
+        "display_name": "Багаторівневе дерев'яне кашпо",
+        "description": "Шар за шаром органічної доброти."
+      },
+      "totem": {
+        "display_name": "Totem",
+        "description": "Святиня для всіх аспектів життя."
+      },
+      "traveller_statue": {
+        "display_name": "Статуя мандрівника",
+        "description": "Холодний камінь і глибокі темні очі."
+      },
+      "wall_mounted_foxfire_lantern": {
+        "display_name": "Настінний ліхтар Foxfire",
+        "description": "Настінний кам'яний ліхтар, наповнений сяючою слизом."
+      },
+      "wall_mounted_ember_lantern": {
+        "display_name": "Настінний ліхтар Ember",
+        "description": "Настінний кам'яний ліхтар, наповнений пилком рослин."
+      },
+      "weaver_tapestry": {
+        "display_name": "Гобелен Вівер",
+        "description": "Декоративний гобелен роботи ткача."
+      },
+      "wise_man_statue": {
+        "display_name": "Статуя мудреця",
+        "description": "Перо сильніше за меч."
+      },
+      "wooden_hero_statue": {
+        "display_name": "Статуя місцевого героя",
+        "description": "Який кращий спосіб вшанувати наших полеглих героїв?"
+      },
+      "wooden_tree_planter": {
+        "display_name": "Плантатор дерев",
+        "description": "Коли маленьких квіточок недостатньо."
+      }
+    },
+    "crops": {
+      "box_plant": {
+        "display_name": "Коробковий завод",
+        "description": "Повільно зростаюча красиво квітуча рослина"
+      },
+      "box_plant_1": {
+        "name": "Розсада ящикових рослин",
+        "description": "Маленькі зелені пагони"
+      },
+      "box_plant_2": {
+        "name": "Рослина ящика",
+        "description": "Починає проростати"
+      },
+      "box_plant_3": {
+        "name": "Ніжна коробкова рослина",
+        "description": "Маленькі красиві пелети"
+      },
+      "box_plant_4": {
+        "name": "Доросла коробкова рослина",
+        "description": "Повний коробковий ріст рослин"
+      },
+      "foxfire": {
+        "display_name": "Foxfire",
+        "description": "Повільно до повного дозрівання та утворення сяючого слизу"
+      },
+      "foxfire_1": {
+        "name": "Розсада Foxfire",
+        "description": "Маленька слизька цибулина"
+      },
+      "foxfire_2": {
+        "name": "Росток лисячого вогню",
+        "description": "Більший і стрункіший"
+      },
+      "foxfire_3": {
+        "name": "Бутон Фоксфайр",
+        "description": "Майже готовий до збирання"
+      },
+      "litso_grass": {
+        "display_name": "Ліцо Грасс",
+        "description": "Низька невелика трава з декоративними жовтими кінчиками"
+      },
+      "litso_grass_1": {
+        "name": "Розсада трави Litso",
+        "description": "Маленький пагін"
+      },
+      "litso_grass_2": {
+        "name": "Паросток трави Litso",
+        "description": "Зелені пагони ростуть вище і міцнішають"
+      },
+      "litso_grass_3": {
+        "name": "Ніжна трава Litso",
+        "description": "Майже повністю зрілий"
+      },
+      "litso_grass_4": {
+        "name": "Ліцо Грасс",
+        "description": "Повністю зрілі жовті стебла"
+      },
+      "ember_plant": {
+        "display_name": "Завод Ember",
+        "description": "Низька квітуча рослина з пилком, що світиться червоним кольором"
+      },
+      "ember_plant_1": {
+        "name": "Розсада рослин Ember",
+        "description": "Дитяче стебло рослини"
+      },
+      "ember_plant_2": {
+        "name": "Паросток рослини Ember",
+        "description": "Ще не повністю дозрів"
+      },
+      "ember_plant_3": {
+        "name": "Ніжна рослина Ember",
+        "description": "Перші ознаки цвітіння"
+      },
+      "ember_plant_4": {
+        "name": "Ніжна рослина Ember",
+        "description": "Повноквіткова рослина Ember"
+      }
+    },
+    "decorations": {
+      "foxfire": {
+        "display_name": "Дика лисиця",
+        "description": "Яскраве блакитне свічення"
+      },
+      "box_plant": {
+        "display_name": "Дика коробкова рослина",
+        "description": "Красиві ящикові рослини"
+      },
+      "litso_grass": {
+        "display_name": "Дика Ліцо Грас",
+        "description": "Маленькі зелені пагони з жовтими кінчиками"
+      },
+      "ember_plant": {
+        "display_name": "Дика рослина Ember",
+        "description": "Маленькі факели пустелі"
+      }
+    },
+    "plants": {
+      "foxfire": {
+        "display_name": "Дика лисиця",
+        "description": "Можна зібрати через яскраво-синій люмінесцентний слиз всередині.",
+        "unripe_description": "Ця рослина зібрана і ще не відросла."
+      },
+      "foxfire_seed": {
+        "display_name": "Насіння лисиці",
+        "description": "Маленьке м’яке насіння рослини вогник."
+      },
+      "box_plant": {
+        "display_name": "Дика коробкова рослина",
+        "description": "Польова квітка для прикраси.",
+        "unripe_description": "Ця рослина зібрана і ще не відросла."
+      },
+      "box_plant_seeds": {
+        "display_name": "Насіння ящикових рослин",
+        "description": "Маленьке зелене насіння коробочки."
+      },
+      "litso_grass": {
+        "display_name": "Дика Ліцо Грас",
+        "description": "Дикоросла трава, яку можна збирати для прикраси.",
+        "unripe_description": "Ця рослина зібрана і ще не відросла."
+      },
+      "litso_grass_seeds": {
+        "display_name": "Насіння трави Litso",
+        "description": "Насіння листолистої трави з жовтим наконечником"
+      },
+      "ember_plant": {
+        "display_name": "Дика рослина Ember",
+        "description": "Можна збирати через сяючий оранжевий пилок.",
+        "unripe_description": "Ця рослина зібрана і ще не відросла."
+      },
+      "ember_plant_seeds": {
+        "display_name": "Насіння рослин Ember",
+        "description": "Факел схожий на насіння вугілля."
+      }
+    },
+    "resources": {
+      "foxfire_slime": {
+        "display_name": "Слиз лисячого вогню",
+        "description": "Слизька речовина, яка випромінює синє світіння"
+      },
+      "ember_plant_pollen": {
+        "display_name": "Пилок рослин Ember",
+        "description": "Пилок вугілля, що світиться помаранчевим кольором, як вогонь"
+      },
+      "ember_plant_pod": {
+        "display_name": "Ember Plant Pod",
+        "description": "Квітковий стручок, взятий із вугілля."
+      },
+      "foxfire_pod": {
+        "display_name": "Стручок лисячого вогню",
+        "description": "Слизове ядро ​​рослини вогню."
+      },
+      "litso_grass_stem": {
+        "display_name": "Стебло трави Litso",
+        "description": "Стебла з листя трави."
+      },
+      "box_plant_flowers": {
+        "display_name": "Коробкові квіти",
+        "description": "Керівник ящикового заводу."
+      }
+    }
+  },
+  "effects": {
+    "smoke_stack": {
+      "display_name": "Димова труба",
+      "description": "Шлейф брудного диму."
+    },
+    "fire_flies": {
+      "display_name": "Вогняні мухи",
+      "description": "Летить рій маленьких яскравих вогняних мух."
+    },
+    "ghost": {
+      "display_name": "Земля з привидами",
+      "description": "Місцевість викликає тривогу."
+    },
+    "bird": {
+      "display_name": "Пташиний політ",
+      "description": "Птахи літають високо вгорі в пошуках здобичі."
+    }
+  },
+  "jobs": {
+    "gardener": {
+      "talisman": {
+        "name": "Кельма садівнича",
+        "description": "Просує громадянина в садівника"
+      },
+      "workbench": {
+        "display_name": "Верстак садівника",
+        "description": "Використовується садівником для крафта"
+      },
+      "toolbench": {
+        "display_name": "Ласка садівника",
+        "description": "Використовується садівником для крафта"
+      },
+      "outfit": {
+        "name": "Спецодяг садівника",
+        "description": "Уніформа для всіх садівників"
+      },
+      "job_description": {
+        "display_name": "Gardener",
+        "description": "Садівник створює декоративні вироби з квітів",
+        "requirements": "Фермер 3-го рівня з кельмою садівника, виготовленою ковалем"
+      },
+      "level_data": {
+        "l1_name": "Стандартний каталог",
+        "l1_description": "Тепер садівник може створити цілий набір садових прикрас.",
+        "l2_name": "Розширений список матеріалів",
+        "l2_description": "Тепер садівник достатньо вміє використовувати складніші матеріали.",
+        "l3_name": "Комплексний декор",
+        "l3_description": "Садівник може створити більш витончені садові меблі.",
+        "l4_name": "Мистецьке натхнення",
+        "l4_description": "Коли приходить натхнення, садівник може прикрасити свої роботи несподіваним чином.",
+        "l6_name": "Майстер садівник",
+        "l6_description": "Майстерне володіння садівником своєю справою дозволяє йому придумувати абсолютно нові способи використання рослин."
+      },
+      "personality": {
+        "promote": "Почувши поклик кельми:",
+        "beleaguered_leader": "Я не знаю, будучи під контролем усіх цих квітів, що, якщо вони загинуть?",
+        "hopeless_optimist": "Чудово, тепер я можу вирощувати власну їжу... Думаю.",
+        "lovable_rogue": "Зазвичай я просто топчу квіти, але вирощувати їх було б добре, я вважаю.",
+        "psychopathic_misanthrope": "Усі ці квіти під моїм контролем, які будуть политі, які ні, їх доля в моїх руках.",
+        "insufferable_academic": "Я завжди хотів спробувати себе в ботанічних науках.",
+        "diligent_sweetheart": "Садівник? тож я можу класти гарні квіти, де захочу? Чудово!!!"
+      },
+      "recipe_category": {
+        "workbenches": "Workbenches",
+        "garden_decorations": "Садові прикраси",
+        "housing_decorations": "Прикраси житла",
+        "planters": "Planters",
+        "resources": "Resources"
+      },
+      "recipes": {
+        "brightbell_hanging_basket": {
+          "recipe_name": "Підвісний кошик Brightbell",
+          "description": "Кошик для підвішування яскравих квітів-дзвіночків над дверима.",
+          "flavor": "Попередження може стати летальним під час штормової погоди."
+        },
+        "cactus_tree_planter": {
+          "recipe_name": "Плантатор для кактусів",
+          "description": "Основа з глиняної цегли, що підтримує велике дерево кактуса.",
+          "flavor": "Не чіпайте!"
+        },
+        "canopy_garden_long": {
+          "recipe_name": "Canopy Garden Long",
+          "description": "Довга дерев'яна рама, вкрита яскравими квітами-дзвіночками.",
+          "flavor": "Щось, на що дивитися, крім хмар."
+        },
+        "canopy_garden": {
+          "recipe_name": "Canopy Garden",
+          "description": "Дерев'яна рамка, вкрита яскравими квітами-дзвіночками.",
+          "flavor": "Щось, на що дивитися, крім хмар."
+        },
+        "flower_fence": {
+          "recipe_name": "Квітковий паркан",
+          "description": "Декоративна дерев'яна огорожа, крізь яку вплетені яскраві дзвіночки.",
+          "flavor": "Конфіденційність і прикраса в одному пакеті."
+        },
+        "foxfire_hanging_basket": {
+          "recipe_name": "Підвісний кошик Foxfire",
+          "description": "Кошик для підвішування вогнища над дверима.",
+          "flavor": "Попередження може стати летальним під час штормової погоди."
+        },
+        "foxfire_slime": {
+          "recipe_name": "Слиз лисячого вогню",
+          "description": "Слизька блакитна речовина, витягнута з внутрішньої частини рослини лисиці.",
+          "flavor": "Відразливий і водночас ... інтригуючий."
+        },
+        "ember_plant_pollen": {
+          "recipe_name": "Пилок рослин Ember",
+          "description": "Пилок, взятий з рослини вугілля.",
+          "flavor": "Світиться, як вуглинки старого багаття."
+        },
+        "frostsnap_hanging_basket": {
+          "recipe_name": "Підвісний кошик Frostsnap",
+          "description": "Кошик для підвішування морозних квітів над дверима.",
+          "flavor": "Попередження може стати летальним під час штормової погоди."
+        },
+        "garden_bed": {
+          "recipe_name": "Садова грядка",
+          "description": "Святилище ґрунту та органіки для різноманітних видів рослин.",
+          "flavor": ""
+        },
+        "gardener_toolbench": {
+          "recipe_name": "Садівник Toolbench",
+          "description": "Gardeners Toolbench використовується для створення складніших садових прикрас, що потребують більш складних інструментів.",
+          "flavor": ""
+        },
+        "gardener_workbench": {
+          "recipe_name": "Верстат садівника",
+          "description": "Верстак Gardeners для складання різних садових прикрас.",
+          "flavor": ""
+        },
+        "hedge_corner": {
+          "recipe_name": "Куточок живої огорожі",
+          "description": "Куточок для живоплоту.",
+          "flavor": "Екологічно чистий бар'єр."
+        },
+        "hedge": {
+          "recipe_name": "Hedge",
+          "description": "Коротка смуга живоплоту.",
+          "flavor": "Екологічно чистий бар'єр."
+        },
+        "tumbleweed_fibre_fence": {
+          "recipe_name": "Жива огорожа з волокна перекати",
+          "description": "Волокна перекати сплутані між собою, утворюючи бар’єр.",
+          "flavor": ""
+        },
+        "tumbleweed_fibre_fence_corner": {
+          "recipe_name": "Куточок для живоплоту з волокна перекати",
+          "description": "Волокна перекати переплутані разом, щоб утворити бар’єрну кутову частину.",
+          "flavor": ""
+        },
+        "hanging_cactus_pots": {
+          "recipe_name": "Підвісні горщики для кактусів",
+          "description": "Горщики, наповнені кактусами, що звисають на нитці.",
+          "flavor": "Переконайтеся, що вони добре закріплені."
+        },
+        "hanging_ember_pots": {
+          "recipe_name": "Висячі горщики з вугіллям",
+          "description": "Горщики для рослин, наповнені вугіллям, що звисають на нитці.",
+          "flavor": "Переконайтеся, що вони добре закріплені."
+        },
+        "hanging_litso_pots": {
+          "recipe_name": "Підвісні горщики Litso",
+          "description": "Горщики для рослин, наповнені травою літсо, що звисає з нитки.",
+          "flavor": "Переконайтеся, що вони добре закріплені."
+        },
+        "large_stone_planter": {
+          "recipe_name": "Велика кам'яна кашпо",
+          "description": "Великий кам'яний орнамент, наповнений квітами.",
+          "flavor": ""
+        },
+        "large_wooden_planter": {
+          "recipe_name": "Велике дерев'яне кашпо",
+          "description": "Велика дерев'яна прикраса, наповнена квітами.",
+          "flavor": ""
+        },
+        "potted_brightbell": {
+          "recipe_name": "Горщиковий Брайтбелл",
+          "description": "Глиняний горщик, наповнений Brightbells.",
+          "flavor": ""
+        },
+        "potted_foxfire": {
+          "recipe_name": "Лисиця в горщику",
+          "description": "Глиняний горщик із рослиною Foxfire.",
+          "flavor": ""
+        },
+        "potted_frostsnap": {
+          "recipe_name": "Горщик Frostsnap",
+          "description": "Глиняний горщик для рослин, наповнений Frostsnaps.",
+          "flavor": ""
+        },
+        "potted_box_plant": {
+          "recipe_name": "Рослина в горщиках",
+          "description": "Глиняний горщик, наповнений ящиковими рослинами.",
+          "flavor": ""
+        },
+        "potted_litso_grass": {
+          "recipe_name": "Трава Litso в горщиках",
+          "description": "Глиняний горщик для рослин, наповнений травою Litso.",
+          "flavor": ""
+        },
+        "potted_ember_plant": {
+          "recipe_name": "Рослина Ember в горщику",
+          "description": "Глиняний горщик із рослиною Ember.",
+          "flavor": ""
+        },
+        "scarecrow": {
+          "recipe_name": "Scarecrow",
+          "description": "Опудало для охорони ваших посівів.",
+          "flavor": "Будемо сподіватися, що цей не оживе, як попередній."
+        },
+        "small_stone_planter": {
+          "recipe_name": "Маленький кам'яний кашпо",
+          "description": "Невелика кам'яна прикраса з маленькими квітами всередині.",
+          "flavor": ""
+        },
+        "small_wooden_planter": {
+          "recipe_name": "Невелике дерев'яне кашпо",
+          "description": "Невелика дерев’яна прикраса з яскравими дзвіночками всередині.",
+          "flavor": ""
+        },
+        "stone_garden_bed": {
+          "recipe_name": "Клумба Кам'яний сад",
+          "description": "Кам’яне святилище ґрунту та органіки для різноманітних видів рослин.",
+          "flavor": ""
+        },
+        "tiered_stone_planter": {
+          "recipe_name": "Багатоярусна кам'яна кашпо",
+          "description": "Кашпо з каменю з кількома ярусами для найелегантнішого саду.",
+          "flavor": ""
+        },
+        "tiered_wooden_planter": {
+          "recipe_name": "Багаторівневе дерев'яне кашпо",
+          "description": "Дерев'яне кашпо з кількома ярусами для найелегантнішого саду.",
+          "flavor": ""
+        },
+        "wooden_tree_planter": {
+          "recipe_name": "Плантатор дерев",
+          "description": "Велика дерев'яна кашпо, заповнена маленьким деревом.",
+          "flavor": "Хіба ти не ненавидиш, коли дерева ростуть не там, де ти хочеш."
+        }
+      }
+    },
+    "carpenter": {
+      "recipe_category": {
+        "statues": "Statues"
+      },
+      "recipes": {
+        "picket_fence_archway": {
+          "recipe_name": "Арка паркану",
+          "description": "Декоративна дерев'яна арка для огорожі полів і садів.",
+          "flavor": "Хто встигає ворота відкривати."
+        },
+        "robust_window": {
+          "recipe_name": "Міцне вікно",
+          "description": "Міцне вікно, щоб зупинити зловмисників.",
+          "flavor": ""
+        },
+        "robust_door": {
+          "recipe_name": "Надійні двері",
+          "description": "Міцні надійні двері, призначені для безпечного проживання.",
+          "flavor": "Щоразу відкривається та закривається, гарантовано."
+        },
+        "mine_entrance_scaffold": {
+          "recipe_name": "Вхідні риштування",
+          "description": "Арматура для проходів шахт.",
+          "flavor": "Відповідно до правила безпеки шахт 462-A."
+        },
+        "spiked_fence": {
+          "recipe_name": "Шипи паркан",
+          "description": "Утримує ворогів від вашої власності.",
+          "flavor": "Обережно колючий"
+        },
+        "tall_wooden_palliside": {
+          "recipe_name": "Високий дерев'яний частокіл",
+          "description": "Утримує ворогів від вашої власності.",
+          "flavor": "Обережно колючий"
+        },
+        "tall_wooden_palliside_corner": {
+          "recipe_name": "Високий кутовий дерев'яний частокіл",
+          "description": "Тепер ви можете зробити будь-який кут, який вам подобається, за умови, що це кут 90 градусів.",
+          "flavor": "Обережно колючий"
+        },
+        "gardener_sign": {
+          "recipe_name": "Настінний знак Гарднера",
+          "description": "Табличка з відміткою Садівника, для розміщення на будівлях.",
+          "flavor": "Квіти для всіх."
+        },
+        "the_mighty_worker_statue": {
+          "recipe_name": "Могутній робітник статуя",
+          "description": "Статуя, яка надихне будь-якого працівника на дію.",
+          "flavor": "Ідеально для будь-якого комуністичного міста."
+        },
+        "wise_man_statue": {
+          "recipe_name": "Статуя мудреця",
+          "description": "Статуя мудрого старого на честь тих, хто використовує мозок замість м’язів.",
+          "flavor": "Такий розумний, що деякі кажуть, що він був на межі божевільного."
+        },
+        "wooden_hero_statue": {
+          "recipe_name": "Статуя місцевого героя",
+          "description": "Шанування могутнього героя, чия хоробрість пам’ятається.",
+          "flavor": "Відділ охорони здоров’я та безпеки вирішив, що ми не можемо робити меч надто гострим."
+        },
+        "spiked_fence_corner": {
+          "recipe_name": "Кутовий паркан з шипами",
+          "description": "Тепер ви можете зробити будь-який кут, який вам подобається, за умови, що це кут 90 градусів.",
+          "flavor": "Обережно колючий"
+        },
+        "bird_house": {
+          "recipe_name": "Будинок для птахів",
+          "description": "Маленький дерев'яний будинок для ваших друзів-птахів.",
+          "flavor": "Чип чип"
+        },
+        "poster_bed": {
+          "recipe_name": "Ліжко з балдахіном",
+          "description": "Велике ліжко для тих, хто любить надмірний рівень комфорту.",
+          "flavor": "Будьте предметом заздрості для всіх ваших сусідів."
+        },
+        "fur_bed": {
+          "recipe_name": "Ліжко з хутра",
+          "description": "Щільно загорніться в шари м’якого хутра.",
+          "flavor": "Тепер я знаю, що відчуває ведмідь."
+        },
+        "log_chair": {
+          "recipe_name": "Крісло з журналу",
+          "description": "Крісло, вирізане з колоди.",
+          "flavor": "Просто, дешево, ефективно і зовсім не зручно."
+        },
+        "totem": {
+          "recipe_name": "Totem",
+          "description": "Тотемний стовп, щоб продемонструвати свої навички теслярського ліплення.",
+          "flavor": "Кожне різьблення розповідає історію."
+        },
+        "shelf": {
+          "recipe_name": "Shelf",
+          "description": "Забезпечує підвищене сховище для книг, прикрас і трофеїв...... якщо такі у вас були.",
+          "flavor": "Незручно для невисоких людей."
+        },
+        "large_wooden_window_frame": {
+          "recipe_name": "Велика дерев'яна віконна рама",
+          "description": "Більша, більша віконна рама",
+          "flavor": "Який вид!"
+        },
+        "feasting_table": {
+          "recipe_name": "Застільний стіл",
+          "description": "Грандіозний обідній стіл для проведення великих застіль",
+          "flavor": "Вистачить місця, щоб кожен наповнив свій живіт."
+        }
+      }
+    },
+    "mason": {
+      "recipe_category": {
+        "statues": "Statues"
+      },
+      "recipes": {
+        "foxfire_lantern": {
+          "recipe_name": "Ліхтар із лисячого вогню",
+          "description": "Виготовлений з каменю ліхтар, наповнений слизом лисячого вогню, щоб освітлювати темряву.",
+          "flavor": ""
+        },
+        "wall_mounted_foxfire_lantern": {
+          "recipe_name": "Настінний ліхтар Foxfire",
+          "description": "Кам’яний настінний ліхтар, наповнений слизом лисячого вогню, щоб освітлювати темряву.",
+          "flavor": ""
+        },
+        "ember_lantern": {
+          "recipe_name": "Ембер Ліхтар",
+          "description": "Виготовлений з каменю ліхтар, наповнений пилком рослин, щоб освітлювати темряву.",
+          "flavor": ""
+        },
+        "wall_mounted_ember_lantern": {
+          "recipe_name": "Настінний ліхтар Ember",
+          "description": "Кам’яний настінний ліхтар, наповнений пилком вугілля, щоб освітлювати темряву.",
+          "flavor": ""
+        },
+        "sundial": {
+          "recipe_name": "Sundial",
+          "description": "Кам'яна конструкція, яка використовує світло і тінь, щоб показати час.",
+          "flavor": "З точністю до 5 годин!"
+        },
+        "stone_totem": {
+          "recipe_name": "Кам'яний тотем",
+          "description": "Кам'яний тотем з історією та знаннями викарбуваний на ньому.",
+          "flavor": ""
+        },
+        "sarcophagus": {
+          "recipe_name": "Sarcophagus",
+          "description": "Кам'яна могила, яка охоплює тіло загиблого героя.",
+          "flavor": "Хто спочиває всередині?"
+        },
+        "stone_mine_entrance": {
+          "recipe_name": "Вхід у кам'яну шахту",
+          "description": "Кам'яна скульптурна архітектура для підтримки входів у шахти.",
+          "flavor": "Відповідно до правил гірничої безпеки 462-B."
+        },
+        "carved_stone_window": {
+          "recipe_name": "Вікно з різьбленого каменю",
+          "description": "Каменний різьблений портал у зовнішній світ.",
+          "flavor": ""
+        },
+        "carved_stone_door": {
+          "recipe_name": "Різьблені кам'яні двері",
+          "description": "Ретельно виліплені декоративні кам'яні двері.",
+          "flavor": ""
+        },
+        "fortress_window": {
+          "recipe_name": "Фортечне вікно",
+          "description": "Кам'яне вікно, закріплене залізними гратами.",
+          "flavor": "Тримайте людей всередині або поза нею."
+        },
+        "fortress_door": {
+          "recipe_name": "Фортечні двері",
+          "description": "Кам'яна рама з двостулковими посиленими дверима.",
+          "flavor": "Ідеальний лічильник для облог і орд нежиті!"
+        },
+        "stone_fur_bed": {
+          "recipe_name": "Ліжко з кам'яного хутра",
+          "description": "Міцна кам'яна основа, покрита м'яким хутром.",
+          "flavor": "Без хутра це було б гірше, ніж ніч на підлозі."
+        },
+        "luxury_stone_chair": {
+          "recipe_name": "Розкішне кам'яне крісло",
+          "description": "Стілець виготовлений із каменю та оббитий найм’якшим хутром.",
+          "flavor": "Ніби на хмарі сидить."
+        },
+        "guardian_statue": {
+          "recipe_name": "Статуя охоронця",
+          "description": "Виготовлена ​​з каменю статуя гвардійця.",
+          "flavor": "Непорушний і завжди пильний, як і належить охоронцеві."
+        },
+        "statue_of_fortune": {
+          "recipe_name": "Статуя Фортуни",
+          "description": "Статуя для надання дарів богам.",
+          "flavor": "Квітка для надії, золото для долі, залізо для сили, бронза для захисту."
+        },
+        "traveller_statue": {
+          "recipe_name": "Статуя мандрівника",
+          "description": "Статуя, схожа на істоту, яка, як кажуть, веде мертвих у загробне життя.",
+          "flavor": "Моліться за безпечну дорогу."
+        },
+        "large_stone_window_frame": {
+          "recipe_name": "Велика кам'яна віконна рама",
+          "description": "Більша, більша віконна рама",
+          "flavor": "Який вид!"
+        },
+        "iron_gate": {
+          "recipe_name": "Залізні ворота",
+          "description": "Кам'яні стовпи з залізними воротами.",
+          "flavor": ""
+        },
+        "fireplace": {
+          "recipe_name": "Fireplace",
+          "description": "Величний камін з бруківки, щоб огородити палаючий вогонь.",
+          "flavor": "Сядьте зручніше і зігрійте ноги."
+        }
+      }
+    },
+    "blacksmith": {
+      "recipes": {
+        "gardeners_tool": {
+          "recipe_name": "Кельма садівнича",
+          "description": "Зробить із родини садівника.",
+          "flavor": ""
+        }
+      }
+    },
+    "weaver": {
+      "recipe_category": {
+        "storage": "Storage"
+      },
+      "recipes": {
+        "skull_flag": {
+          "recipe_name": "Прапор черепа",
+          "description": "Прапор, встановлений на стовпі поруч із 2 черепами тварин.",
+          "flavor": "Якщо вам подобається нецивілізована варварська орда, то це прапор для вас."
+        },
+        "weaver_tapestry": {
+          "recipe_name": "Гобелен Вівер",
+          "description": "Складний гобелен із зображенням ткаля за важкою роботою.",
+          "flavor": "Мистецтво імітації життя"
+        },
+        "footman_tapestry": {
+          "recipe_name": "Лакей Гобелен",
+          "description": "Детальний портрет піхотину.",
+          "flavor": ""
+        },
+        "shepherd_tapestry": {
+          "recipe_name": "Гобелен пастух",
+          "description": "Гобелен із зображенням пастуха, який пасе своїх овець.",
+          "flavor": ""
+        },
+        "flowered_curtains": {
+          "recipe_name": "Квітчасті штори",
+          "description": "Нитяні штори з втиснутими в них яскравими квітами-дзвіночками.",
+          "flavor": "Блокуйте суворі, холодні реалії зовнішнього світу."
+        },
+        "berry_curtains": {
+          "recipe_name": "Ягідні штори",
+          "description": "Бавовняні штори, змочені ягідним соком, щоб надати їм виразного фіолетового кольору.",
+          "flavor": "Натхненний плямами від ягідного соку на одязі селян."
+        },
+        "straw_basket": {
+          "recipe_name": "Солом'яний кошик",
+          "description": "Корзина для зберігання, плетена з соломи, вміщує до 16 речей.",
+          "flavor": ""
+        },
+        "cloth_canopy": {
+          "recipe_name": "Тканина навісу",
+          "description": "Дерев'яна каркасна структура, покрита тканиною.",
+          "flavor": "Забезпечує затінене місце подалі від суворого сонця"
+        },
+        "cloth_canopy_long": {
+          "recipe_name": "Тканина Canopy Long",
+          "description": "Довга дерев'яна каркасна структура, покрита тканиною.",
+          "flavor": "Забезпечує затінене місце подалі від суворого сонця"
+        }
+      }
+    },
+    "herbalist": {
+      "recipes": {
+        "litso_grass_seeds": {
+          "recipe_name": "Насіння трави Lito (x3)",
+          "description": "Відокремте насіння від рослини.",
+          "flavor": "Лише вправна рука може зібрати слабші насіння, але рослина втрачається в процесі."
+        }
+      }
+    },
+    "potter": {
+      "recipes": {
+        "clay_brick_wall": {
+          "recipe_name": "Глиняна цегляна стіна",
+          "description": "Міцна стіна, утворена шляхом укладання глиняної цегли.",
+          "flavor": ""
+        },
+        "plant_pot": {
+          "recipe_name": "Горщик для рослин",
+          "description": "Горщик для посадки рослин.",
+          "flavor": ""
+        },
+        "chiminea": {
+          "recipe_name": "Chiminea",
+          "description": "Великий глиняний відкритий камін.",
+          "flavor": "Зігріває пальці рук і ніг."
+        },
+        "small_vase": {
+          "recipe_name": "Маленька ваза",
+          "description": "Невелика ваза, виготовлена ​​з простої глини.",
+          "flavor": ""
+        },
+        "large_vase": {
+          "recipe_name": "Велика ваза",
+          "description": "Велика ваза, виготовлена ​​з простої глини.",
+          "flavor": ""
+        },
+        "fireplace": {
+          "recipe_name": "Fireplace",
+          "description": "Величний глиняний камін, що оточує палаючий вогонь.",
+          "flavor": "Сядьте зручніше і зігрійте ноги."
+        }
+      }
+    }
+  },
+  "data": {
+    "commands": {
+      "place_effect_smoke_stack": {
+        "display_name": "Ефект місця",
+        "description": "Розмістити ефект димової труби"
+      },
+      "place_effect_fire_flies": {
+        "display_name": "Ефект місця",
+        "description": "Помістіть ефект вогняних мух"
+      },
+      "place_effect_ghost": {
+        "display_name": "Ефект місця",
+        "description": "Місце переслідує ефект"
+      },
+      "place_effect_bird": {
+        "display_name": "Ефект місця",
+        "description": "Розмістіть пташину муху за ефектом"
+      }
+    }
+  }
+}

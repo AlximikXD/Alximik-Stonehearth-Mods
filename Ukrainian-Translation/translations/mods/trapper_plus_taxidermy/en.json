@@ -1,0 +1,180 @@
+{
+  "decorations": {
+    "mounted_wolf": {
+      "display_name": "Mounted Wolf",
+      "description": "A decorative stuffed wolf in a threatening pose.",
+      "flavor": "The teeth are still dangerous.",
+      "mounted_desert_wolf": {
+        "display_name": "Mounted Desert Wolf"
+      },
+      "mounted_arctic_wolf": {
+        "display_name": "Mounted Arctic Wolf"
+      },
+      "mounted_warg": {
+        "display_name": "Mounted Warg"
+      }
+    },
+    "mounted_fox": {
+      "display_name": "Mounted Fox",
+      "description": "A beautiful fox stuffed for decoration.",
+      "flavor": "",
+      "mounted_fennec_fox": {
+        "display_name": "Mounted Fennec Fox"
+      },
+      "mounted_arctic_fox": {
+        "display_name": "Mounted Arctic Fox"
+      }
+    },
+    "mounted_deer": {
+      "description": "A common woodland animal now turned into exotic decoration.",
+      "display_name": "Mounted Deer",
+      "flavor": "",
+      "mounted_gazelle_cow": {
+        "display_name": "Mounted Gazelle Cow",
+        "description": "A peaceful grazer of the arid shrublands turned into decoration."
+      },
+      "mounted_red_deer": {
+        "display_name": "Mounted Red Deer"
+      },
+      "mounted_moose_cow": {
+        "display_name": "Mounted Moose Cow"
+      }
+    },
+    "mounted_varanus": {
+      "display_name": "Mounted Varanus",
+      "description": "Formerly a threat, this large reptile is now a piece of decoration.",
+      "flavor": ""
+    },
+    "mounted_stag": {
+      "display_name": "Mounted Stag",
+      "description": "A respectful and wise being of the forest, now stuffed by a trapper.",
+      "flavor": "Staggering!",
+      "mounted_gazelle": {
+        "display_name": "Mounted Gazelle",
+        "description": "Once the pride of its pack, now just a decoration..."
+      },
+      "mounted_caribou": {
+        "display_name": "Mounted Caribou"
+      },
+      "mounted_moose": {
+        "display_name": "Mounted Moose"
+      }
+    },
+    "mounted_squirrel": {
+      "display_name": "Mounted Squirrel",
+      "description": "A small and exotic piece of decoration.",
+      "flavor": "",
+      "mounted_ground_squirrel": {
+        "display_name": "Mounted Ground Squirrel"
+      },
+      "mounted_gray_squirrel": {
+        "display_name": "Mounted Gray Squirrel"
+      },
+      "mounted_red_squirrel": {
+        "display_name": "Mounted Red Squirrel"
+      }
+    },
+    "mounted_racoon": {
+      "display_name": "Mounted Raccoon",
+      "description": "A stuffed raccoon to be used as decoration.",
+      "flavor": "Ain't no thing like it, except it.",
+      "mounted_brown_racoon": {
+        "display_name": "Mounted Brown Raccoon"
+      },
+      "mounted_arctic_racoon": {
+        "display_name": "Mounted Arctic Raccoon"
+      },
+      "mounted_skunk": {
+        "display_name": "Mounted Skunk",
+        "description": "A stuffed highland skunk to be used as decoration."
+      }
+    },
+    "mounted_rabbit": {
+      "display_name": "Mounted Rabbit",
+      "description": "A little and helpless creature now eternally frozen in time.",
+      "flavor": "",
+      "mounted_brown_hare": {
+        "display_name": "Mounted Brown Hare"
+      },
+      "mounted_snow_hare": {
+        "display_name": "Mounted Snow Hare"
+      },
+      "mounted_gray_rabbit": {
+        "display_name": "Mounted Gray Rabbit"
+      }
+    },
+    "mounted_cougar": {
+      "display_name": "Mounted Cougar",
+      "description": "Once a ferocious predator, this stuffed cougar is an amazing piece.",
+      "flavor": "",
+      "mounted_panther": {
+        "display_name": "Mounted Panther"
+      },
+      "mounted_snow_leopard": {
+        "display_name": "Mounted Snow Leopard"
+      },
+      "mounted_tiger": {
+        "display_name": "Mounted Tiger"
+      }
+    },
+    "mounted_boar": {
+      "display_name": "Mounted Boar",
+      "description": "A cunning and strong forest animal, stuffed by a trapper.",
+      "flavor": ""
+    },
+    "wall_cougar_trophy": {
+      "display_name": "Wall-Mounted Cougar Trophy",
+      "description": "A fine decoration for the home of a proud hunter.",
+      "flavor": "",
+      "wall_panther_trophy": {
+        "display_name": "Wall-Mounted Panther Trophy"
+      },
+      "wall_snow_leopard_trophy": {
+        "display_name": "Wall-Mounted Snow Leopard Trophy"
+      },
+      "wall_tiger_trophy": {
+        "display_name": "Wall-Mounted Tiger Trophy"
+      }
+    },
+    "wall_stag_trophy": {
+      "display_name": "Wall-Mounted Stag Trophy",
+      "description": "A traditional decoration piece for those that braved the wilderness.",
+      "flavor": "",
+      "wall_gazelle_trophy": {
+        "display_name": "Wall-Mounted Gazelle Trophy"
+      },
+      "wall_caribou_trophy": {
+        "display_name": "Wall-Mounted Caribou Trophy"
+      },
+      "wall_moose_trophy": {
+        "display_name": "Wall-Mounted Moose Trophy"
+      }
+    },
+    "wall_wolf_trophy": {
+      "display_name": "Wall-Mounted Wolf Trophy",
+      "description": "Once a challenge, now a trophy.",
+      "flavor": "",
+      "wall_desert_wolf_trophy": {
+        "display_name": "Wall-Mounted Desert Wollf Trophy"
+      },
+      "wall_arctic_wolf_trophy": {
+        "display_name": "Wall-Mounted Arctic Wolf Trophy"
+      },
+      "wall_warg_trophy": {
+        "display_name": "Wall-Mounted Warg Trophy"
+      }
+    },
+    "wall_zilla_trophy": {
+      "display_name": "Wall-Mounted Zilla Trophy",
+      "description": "This trophy is proof of a glorious victory.",
+      "flavor": "The Zilla is a formidable enemy."
+    }
+  },
+  "trapper": {
+    "studio": {
+      "display_name": "Taxidermy Studio",
+      "description": "Used by the Trapper to stuff and mount animals or create trophies.",
+      "flavor": ""
+    }
+  }
+}

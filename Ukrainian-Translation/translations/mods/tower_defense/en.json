@@ -1,0 +1,138 @@
+{
+  "data": {
+    "population": {
+      "firefly_clan": {
+        "initial_town_name": "Goblin Kingdom [str(town_number)]",
+        "display_name": "Firefly Clan",
+        "quote": "",
+        "description": "Towers with magical damage, many debuffs and random/lucky gameplay.",
+        "long_description": "Towers with magical damage, many debuffs and random/lucky gameplay.",
+        "post_selection_description": ", a magical gang of goblins."
+      }
+    }
+  },
+  "entities": {
+    "towers": {
+      "egg": {
+        "display_name": "Goblin Egg",
+        "description": "It will hatch into a random class next round."
+      },
+      "beast_tamer": {
+        "display_name": "Beast Tamer",
+        "description": "wip.",
+        "weapon": {
+          "description": "wip"
+        },
+        "weapon_damage": {
+          "description": "wip",
+          "display_name": "Damage"
+        },
+        "weapon_utility": {
+          "description": "wip",
+          "display_name": "Utility"
+        }
+      },
+      "bonesmith": {
+        "display_name": "Bonesmith",
+        "description": "wip.",
+        "weapon": {
+          "description": "wip"
+        },
+        "weapon_damage": {
+          "description": "wip",
+          "display_name": "Damage"
+        },
+        "weapon_utility": {
+          "description": "wip",
+          "display_name": "Utility"
+        }
+      },
+      "earthmaster": {
+        "display_name": "Earthmaster",
+        "description": "wip.",
+        "weapon": {
+          "description": "wip"
+        },
+        "weapon_damage": {
+          "description": "wip",
+          "display_name": "Damage"
+        },
+        "weapon_utility": {
+          "description": "wip",
+          "display_name": "Utility"
+        }
+      },
+      "shaman": {
+        "display_name": "Shaman",
+        "description": "wip.",
+        "weapon": {
+          "description": "wip"
+        },
+        "weapon_damage": {
+          "description": "wip",
+          "display_name": "Damage"
+        },
+        "weapon_utility": {
+          "description": "wip",
+          "display_name": "Utility"
+        }
+      },
+      "spirit_walker": {
+        "display_name": "Spirit Walker",
+        "description": "wip.",
+        "weapon": {
+          "description": "wip"
+        },
+        "weapon_damage": {
+          "description": "wip",
+          "display_name": "Damage"
+        },
+        "weapon_utility": {
+          "description": "wip",
+          "display_name": "Utility"
+        }
+      },
+      "trapper": {
+        "display_name": "Trapper",
+        "description": "wip.",
+        "weapon": {
+          "description": "wip"
+        },
+        "weapon_damage": {
+          "description": "wip",
+          "display_name": "Damage"
+        },
+        "weapon_utility": {
+          "description": "wip",
+          "display_name": "Utility"
+        }
+      },
+      "warrior": {
+        "display_name": "Warrior",
+        "description": "wip.",
+        "weapon": {
+          "description": "wip"
+        },
+        "weapon_damage": {
+          "description": "wip",
+          "display_name": "Damage"
+        },
+        "weapon_utility": {
+          "description": "wip",
+          "display_name": "Utility"
+        }
+      },
+      "worker": {
+        "display_name": "Worker",
+        "description": "Cheapest class, lowest damage",
+        "weapon": {
+          "description": "Weak attacks on air and ground"
+        },
+        "weapon_utility": {
+          "description": "They can sense invisible enemies in their range and reveal them to other goblins",
+          "display_name": "Utility"
+        }
+      }
+    }
+  }
+}

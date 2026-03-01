@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "construction": {
+      "tall_bantonian_window": {
+        "tall_bantonian_window_ghost": {
+          "display_name": "Високе бантоніанське вікно",
+          "description": "Скло в комплекті"
+        }
+      },
+      "tall_bantonian_window_flowers": {
+        "tall_bantonian_window_flowers_ghost": {
+          "display_name": "Високе квіткове вікно Bantonian",
+          "description": "Квіткові горщики в комплекті!"
+        }
+      },
+      "small_bantonian_window": {
+        "small_bantonian_window_ghost": {
+          "display_name": "Мале бантоніанське вікно",
+          "description": "Стильне маленьке вікно"
+        }
+      },
+      "bantonian_stone_window_frame_tall": {
+        "bantonian_stone_window_frame_tall_ghost": {
+          "display_name": "химерне кам'яне вікно",
+          "description": "Скло в комплекті!"
+        }
+      },
+      "bantonian_wide_window": {
+        "bantonian_wide_window_ghost": {
+          "display_name": "Широке бантоніанське вікно",
+          "description": "Світ здається... розтягнутим?"
+        }
+      },
+      "small_wooden_bantonian_window": {
+        "small_wooden_bantonian_window_ghost": {
+          "display_name": "Мале нордичне бантоніанське вікно",
+          "description": "Стильне маленьке вікно"
+        }
+      }
+    }
+  }
+}

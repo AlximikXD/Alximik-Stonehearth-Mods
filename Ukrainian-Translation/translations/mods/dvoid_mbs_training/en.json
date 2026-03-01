@@ -1,0 +1,304 @@
+{
+    "entities": {
+        "learning": {
+            "ink_phial": {
+                "display_name": "Ink Phial",
+                "description": "Gooey stuff to write with."
+            },
+            "empty_ink_phial": {
+                "display_name": "Empty Ink Phial",
+                "description": "A small bottle for liquids."
+            },
+            "waterskin_berry_juice": {
+                "display_name": "Berry Juice",
+                "description": "Beverage full of energy."
+            },
+            "waterskin": {
+                "display_name": "Empty Waterskin",
+                "description": "Second life for my pet."
+            },
+            "candle_holder": {
+                "display_name": "Candle Holder",
+                "description": "A must for enlightenment."
+            },
+            "candle_holder_empty": {
+                "display_name": "Empty Candle Holder",
+                "description": "Used to hold a candle."
+            }
+        }
+    },
+
+   "jobs": {
+       "blacksmith": {
+            "recipes": {
+                "utilities_name": "Utilities",
+                "empty_ink_phial_recipe": {
+                    "recipe_name": "Empty Ink Phial",
+                    "description": "A small bottle for liquids."
+                },
+                "trainee_dumbbell_recipe": {
+                    "recipe_name": "Trainee's dumbbell",
+                    "description": "Do You Even Lift?"
+                },
+                "candle_holder_empty_recipe": {
+                    "recipe_name": "Empty Candle Holder",
+                    "description": "Used to hold a candle."
+                },
+                "disciple_amulet_recipe": {
+                    "recipe_name": "Disciple's Amulet",
+                    "description": "Sooo Shiny!"
+                }
+            }
+        },
+        "carpenter": {
+            "recipes": {
+                "scholar_workbench_recipe": {
+                    "recipe_name": "Scholar's Study",
+                    "description": "Used to acquire knowledge."
+                },
+                "trainee_workbench_recipe": {
+                    "recipe_name": "Training's Station",
+                    "description": "Used to improve physical abilities."
+                }
+            }
+        },
+        "mason": {
+            "recipes": {
+                "disciple_workbench_recipe": {
+                    "recipe_name": "Disciple's Monolith",
+                    "description": "Project your spirit in between worlds."
+                }
+            }
+        },
+        "weaver": {
+            "recipes": {
+                "waterskin_recipe": {
+                    "recipe_name": "Empty Waterskin",
+                    "description": "Second life for my pet."
+                }
+            }
+        },
+        "disciple": {
+            "disciple_description": {
+                "display_name": "Disciple",
+                "description": "The Disciple meditate to enlighten their spirit to higher plains.",
+                "requirements": "Crafted by Blacksmith",
+                "level_1_data": {
+                    "name": "Sheep",
+                    "description": ""
+                },
+                "level_2_data": {
+                    "name": "Awareness",
+                    "description": ""
+                },
+                "level_3_data": {
+                    "name": "Questioning",
+                    "description": ""
+                },
+                "level_4_data": {
+                    "name": "Emerging",
+                    "description": ""
+                },
+                "level_5_data": {
+                    "name": "Enlighten",
+                    "description": ""
+                },
+                "level_6_data": {
+                    "name": "Transcended",
+                    "description": ""
+                }
+            },
+            "disciple_outfit": {
+                "display_name": "Disciple's Outfit",
+                "description": "Traditional cloak of the Disciple.",
+                "disciple_hood": {
+                    "display_name": "Disciple's Cloak",
+                    "description": "A beautiful Cloak."
+                }
+            },
+            "disciple_amulet": {
+                "display_name": "Disciple's Amulet",
+                "description": "Sooo Shiny!",
+                "disciple_amulet_iconic": {
+                    "display_name": "Disciple's Amulet",
+                    "description": "Sooo Shiny!"
+                },
+                "disciple_amulet_talisman": {
+                    "display_name": "Disciple's Amulet",
+                    "description": "Required to promote a hearthling to a Disciple."
+                }
+            },
+            "disciple_workbench": {
+                "disciple_workbench_ghost": {
+                    "display_name": "Disciple's Monolith",
+                    "description": "Project your spirit in between worlds."
+                }
+            },
+            "recipes": {
+                "meditating_name": "Meditating",
+                "simple_meditating_recipe": {
+                    "recipe_name": "Simple Meditating",
+                    "description": "One must meditate to become aware."
+                }
+            }
+        },
+        "herbalist": {
+            "recipes": {
+                "scholar_book_recipe": {
+                    "recipe_name": "Scholar's Study Book",
+                    "description": "Required to promote a hearthling to a Scholar."
+                },
+                "ink_phial_recipe": {
+                    "recipe_name": "Ink Phial",
+                    "description": "Gooey stuff to write with."
+                },
+                "waterskin_berry_juice_recipe": {
+                    "recipe_name": "Berry Juice",
+                    "description": "Beverage full of energy."
+                },
+                "candle_holder_recipe": {
+                    "recipe_name": "Candle Holder",
+                    "description": "A must for enlightenment."
+                }
+            }
+        },
+       "scholar": {
+           "scholar_description": {
+                "display_name": "Scholar",
+                "description": "The Scholar study to improve their mind.",
+                "requirements": "Crafted by Herbalist",
+                "level_1_data": {
+                    "name": "Dumb",
+                    "description": ""
+                },
+                "level_2_data": {
+                    "name": "Curious",
+                    "description": ""
+                },
+                "level_3_data": {
+                    "name": "Informed",
+                    "description": ""
+                },
+                "level_4_data": {
+                    "name": "Educated",
+                    "description": ""
+                },
+                "level_5_data": {
+                    "name": "Clever",
+                    "description": ""
+                },
+                "level_6_data": {
+                    "name": "Genius",
+                    "description": ""
+                }
+            },
+            "scholar_outfit": {
+                "display_name": "Scholar's Outfit",
+                "description": "Outfit of the Scholar"    
+            },
+            "scholar_book": {
+                "display_name": "Scholar's Study Book",
+                "description": "Knowledge container to improve oneself.",
+                "scholar_book_iconic": {
+                    "display_name": "Scholar's Study Book",
+                    "description": "Knowledge container to improve oneself."
+                },
+                "scholar_book_talisman": {
+                    "display_name": "Scholar's Study Book",
+                    "description": "Required to promote a hearthling to a Scholar."
+                }
+            },
+            "scholar_workbench": {
+                "scholar_workbench_ghost": {
+                    "display_name": "Scholar's Study",
+                    "description": "Used to acquire knowledge."
+                }
+            },
+            "recipes": {
+                "learning_name": "Learning",
+                "simple_mathematics_recipe": {
+                    "recipe_name": "Simple Mathematics",
+                    "description": "The road to expand your mind start here."
+                }
+            }
+        },
+        "trainee": {
+            "trainee_description": {
+                 "display_name": "Trainee",
+                 "description": "The Trainee work hard to improve their Body.",
+                 "requirements": "Crafted by Blacksmith.",
+                 "level_1_data": {
+                    "name": "Wimp",
+                    "description": ""
+                },
+                "level_2_data": {
+                    "name": "Feeble",
+                    "description": ""
+                },
+                "level_3_data": {
+                    "name": "Average",
+                    "description": ""
+                },
+                "level_4_data": {
+                    "name": "vigorous",
+                    "description": ""
+                },
+                "level_5_data": {
+                    "name": "Athletic",
+                    "description": ""
+                },
+                "level_6_data": {
+                    "name": "Olympian",
+                    "description": ""
+                }
+             },
+             "trainee_outfit": {
+                 "display_name": "Trainee's Outfit",
+                 "description": "Joggings are the best."    
+             },
+             "trainee_dumbbell": {
+                 "display_name": "Trainee's dumbbell",
+                 "description": "Do You Even Lift?",
+                 "trainee_dumbbell_iconic": {
+                     "display_name": "Trainee's dumbbell",
+                     "description": "Do You Even Lift?"
+                 },
+                 "trainee_dumbbell_talisman": {
+                     "display_name": "Trainee's dumbbell",
+                     "description": "Required to promote a hearthling to a Trainee."
+                 }
+             },
+             "trainee_workbench": {
+                 "trainee_workbench_ghost": {
+                     "display_name": "Training's Station",
+                     "description": "Used to improve physical abilities."
+                 }
+             },
+             "recipes": {
+                 "training_name": "Training",
+                 "simple_training_recipe": {
+                     "recipe_name": "Simple Training",
+                     "description": "Let's move."
+                 }
+             }
+         }
+    },
+
+    "ui": {
+        "game": {
+            "zones_mode": {
+                "stockpile": {
+                    "filters": {
+                        "learning": "Improving",
+                        "ink_phial": "Ink Phial",
+                        "empty_ink_phial": "Empty Ink Phial",
+                        "waterskin_berry_juice": "Berry Juice",
+                        "waterskin": "Empty Waterskin",
+                        "candle_holder": "Candle Holder",
+                        "candle_holder_empty": "Empty Candle Holder"
+                    }
+                }
+            }
+        }
+    }
+}

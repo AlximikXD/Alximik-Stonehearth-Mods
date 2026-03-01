@@ -1,0 +1,299 @@
+{
+   "kingdoms": {
+		"char_dwarf": "Darkmine Dwarves"
+   },
+   "kingdom": {
+      "kingdom_name": "Darkmine Dwarves",
+	  "long_description": "Great stonecarvers of the Darkmines ventured through a portal gate, from deep in the Magma Underworld. The Northern Alliance welcomes them into their fold, bringing warmth to the frigid north.",
+   },
+   "data": {
+      "char_dwarf_population": {
+         "display_name": "Darkmine Dwarves"
+      },
+	  "buffs": {
+	      "animal_stun_buff": {
+               "display_name": "Stunned",
+               "description": "Will not flee or cower"
+           },
+		   "no_dwarf_buff_night": {
+               "display_name": "Normal Night",
+               "description": "Dwarf isn't receiving Dwarf Vigilance buff."
+           },
+		   "vigil_night_buff": {
+               "display_name": "Dwarf Vigilance",
+               "description": "Dwarf will skip sleeping for a night."
+           }
+	  },
+	  "build": {
+		"building_brushes": {
+		  "colors": {
+			"#343434": "Magma Rock Light",
+			"#1a1a1a": "Magma Rock Dark"
+		  }
+		}
+	  },
+	  "commands": {
+		"use_beard_cloth": {
+          "description": "Use this item on a citizen."
+        }		
+	  },
+	  "gm": {
+		 "campaigns": {
+			"portal_big_bird_campaign": {
+			     "dialog_portal_gate": {
+                              "dialog_tree_info": {
+                                 "dialog_nodes": {
+                                    "info": {
+                                       "bulletin_message": {
+                                          "000": "<p>The Darkmine Dwarves arrived through this portal gate from their Magma Underworld.<br><br>Oh, look what else came through?!<br> An Egg, and it's ready to hatch!</p>"
+                                       },
+                                       "bulletin_title": "A Portal Gate",
+                                       "dialog_title": "From the Underworld"
+                                    }
+                                 }
+                              }
+                }
+			},
+			"random_dwarf_beard": {
+				"intro": {
+				  "title": "A New Beard?",
+                  "dialog_title": "A New Beard?",				  
+			      "message": "The beard cloth has been prepared for use, right now.<br>Will you use it to form a new beard for a Dwarf? Otherwise, it will be discarded.",
+				  "choice_yes": "✔️ Yes",
+                  "choice_no": "❌ No"
+				},
+				"quest": {
+				  "title": "The New Beard",
+                  "dialog_title": "New Beard",				  
+			      "text": "Select a Dwarf who will change their beard.",
+				  "message_bulletin": "It's a nice new beard!"
+				}
+			}
+	     }
+	  },
+	  "happiness": {
+		"thoughts": {
+			"char_dwarf": {
+				"values": {
+					"happy_miner": {
+						"display_name": "Happy Miner",
+						"tooltip": "Strike the earth with joy! Find the treasures in the dark and secret places below."
+					}
+				}
+			}
+		}
+	  }
+   },
+   "jobs": {
+	 "blacksmith": {
+	    "recipes": {
+		   "cd_armor_outfits_name": "Armor Outfits",
+		   "dimensional_gear_name": "Dimensional Gear",
+		   "iron_battle_axe_recipe": {
+               "recipe_name": "Iron Battle Axe",
+               "description": "Extra large for when you need some extra punch.",
+               "flavor": "'Are these all of them?' shouted Rovnar 'They might as well make a line'"
+            },
+			"steel_axe_recipe": {
+               "recipe_name": "Steel Axe",
+               "description": "Very good for hacking and slashing.",
+               "flavor": "'...and one hearthling after the other they all drew their axes above the shieldwall.' - The Valin Saga"
+            },
+			"silver_mace_recipe": {
+               "recipe_name": "Silver Hammer",
+               "description": "Blunt. Strong. Unstoppable.",
+               "flavor": "Lightbringer"
+            },
+			"dark_knight_armor_recipe": {
+               "recipe_name": "Dark Knight Armor",
+               "description": "Advanced Armor alternative for a Darkmine Dwarf Knight.",
+               "flavor": "The dangerous appearance."
+            },
+			"dragoon_armor_recipe": {
+               "recipe_name": "Dragoon Armor",
+               "description": "Advanced Armor alternative for a Darkmine Dwarf Footman.",
+               "flavor": "The ferocious appearance."
+            },
+			"dark_knight_helmet_recipe": {
+               "recipe_name": "Dark Knight Helmet",
+               "description": "Helmet of the Lord Captain.",
+               "flavor": "Dwarven crafted Darkmine Specialty Equipment"
+            },
+			"dragoon_helm_recipe": {
+               "recipe_name": "Dragoon Helm",
+               "description": "Helm of the High Jumper.",
+               "flavor": "Dwarven crafted Darkmine Specialty Equipment"
+            }
+		}
+	 },
+	 "footman": {
+		"footman_description": {
+            "level_1_data": {
+               "hunting_perk_name": "Hunting",
+               "hunting_perk_description": "A Darkmine Dwarf Footman is naturally adept at animal tracking, and can hunt animals for food and other resources."
+            }
+        },
+        "footman_buffs": {
+          "dwarf_hunt_dash_buff": {
+            "display_name": "Hunter's Pursuit",
+            "description": "Quickly chases after feral animal prey"
+		  }
+        }
+     },
+	 "potter": {
+		"recipes": {
+           "large_urn_coal_recipe": {
+               "description": "For compactly storing up to 32 items",
+               "recipe_name": "Large Dark Urn",
+               "flavor": "Once we put things in, how will we get them out? Don't think about it too much"
+            },
+			"tile_floor_mosaic_coal_recipe": {
+               "description": "Decorates and cools the floor",
+               "recipe_name": "Tile Floor Dark Mosaic",
+               "flavor": "Step over the painted flowers, and give thanks"
+            },
+            "tile_wall_mosaic_coal_recipe": {
+               "description": "Soothing decorative patterns",
+               "recipe_name": "Tile Wall Dark Mosaic",
+               "flavor": "Tile cools inside and out"
+            }
+        }			
+	 },
+     "weaver": {
+        "recipes": {
+		   "beard_cloth_recipe": {
+               "description": "Used to form a new beard.",
+               "recipe_name": "Darkmine Dwarf Beard Cloth",
+               "flavor": "Sometimes, a Dwarven woman also wants to wear a nice beard."
+            },
+            "rug_gilded_coal_recipe": {
+               "description": "Skillfully woven from dyed and golden threads",
+               "recipe_name": "Gilded Coal Throw",
+               "flavor": "The color is milled from coal chunks found deep within mountain mines."
+            },
+			"rug_gilded_copper_recipe": {
+               "description": "Skillfully woven from dyed and golden threads",
+               "recipe_name": "Gilded Copper Throw",
+               "flavor": "The color is milled from copper ore found deep within mountain mines."
+            },
+			"rug_gilded_gold_recipe": {
+               "description": "Skillfully woven from dyed and golden threads",
+               "recipe_name": "Gilded Gold Throw",
+               "flavor": "The color is milled from gold ore found deep within mountain mines."
+            },
+			"rug_gilded_silver_recipe": {
+               "description": "Skillfully woven from dyed and golden threads",
+               "recipe_name": "Gilded Silver Throw",
+               "flavor": "The color is milled from silver ore found deep within mountain mines."
+            }
+	    }
+     }		 
+   },
+   "entities": {
+	  "ale_drink": {
+            "description": "Always have a cup of Ale on hand.",
+            "display_name": "Ale Tankard"
+      },
+	  "armor": {
+	    "dark_knight": {
+		   "display_name": "Dark Knight Armor",
+           "description": "Advanced Armor for a Knight."
+		},
+		"dark_knight_helmet": {
+		   "display_name": "Dark Knight Helmet",
+           "description": "Advanced Armor for a Knight."
+		},
+		"dragoon": {
+		   "display_name": "Dragoon Armor",
+           "description": "Advanced Armor for a Footman."
+		},
+		"dragoon_helm": {
+		   "display_name": "Dragoon Helm",
+           "description": "Advanced Headgear for a Footman."
+		}
+	  },
+	  "consumables": {
+		"beard_cloth": {
+		   "display_name": "Beard Cloth",
+           "description": "Gives your chosen Dwarf a new beard."
+        }		   
+	  },
+	  "containers": {
+		"large_urn_coal": {
+            "large_urn_coal_ghost": {
+               "display_name": "Large Dark Urn",
+               "description": "Stores up to 32 items"
+            }
+         }  
+	  },
+	  "decoration": {
+	     "portal_gate": {
+			"portal_gate_ghost": {
+              "description": "One way travel device. Arrivals came from the Underworld in another Universe.",
+              "display_name": "Portal Gate"
+            }				
+		 },
+		 "rug_gilded_coal": {
+               "rug_gilded_coal_ghost": {
+                  "display_name": "Coal Gilded Throw",
+                  "description": "Skillfully woven from dyed and golden threads"
+               }
+         },
+		 "rug_gilded_copper": {
+               "rug_gilded_copper_ghost": {
+                  "display_name": "Copper Gilded Throw",
+                  "description": "Skillfully woven from dyed and golden threads"
+               }
+         },
+		 "rug_gilded_gold": {
+               "rug_gilded_gold_ghost": {
+                  "display_name": "Gold Gilded Throw",
+                  "description": "Skillfully woven from dyed and golden threads"
+               }
+         },
+		 "rug_gilded_silver": {
+               "rug_gilded_silver_ghost": {
+                  "display_name": "Silver Gilded Throw",
+                  "description": "Skillfully woven from dyed and golden threads"
+               }
+         },
+		 "tile_floor_mosaic_coal": {
+            "tile_floor_mosaic_coal_ghost": {
+               "display_name": "Tile Floor Dark Mosaic",
+               "description": "Cool on the bare feet"
+            }
+         },
+         "tile_wall_mosaic_coal": {
+            "tile_wall_mosaic_coal_ghost": {
+               "display_name": "Tile Wall Dark Mosaic",
+               "description": "Soothing decorative patterns"
+            }
+         }
+	  },
+	  "pets": {
+         "big_bird": {
+	       "description": "A large Dark Bird, kweh?",
+           "display_name": "Big Bird",
+		     "big_bird_egg": {
+               "description": "Is it ready to hatch?",
+               "display_name": "Big Bird Egg"
+             },
+			 "species": "Big Bird"
+		 }
+	  },
+	  "weapons": {
+         "iron_battle_axe": {
+            "description": "Extra large for when you need some extra punch. (Two-handed)",
+            "display_name": "Iron Battle Axe"
+         },
+         "steel_axe": {
+            "display_name": "Steel Axe",
+            "description": "For hacking and slashing to victory."
+         },
+         "silver_mace": {
+            "display_name": "Silver Hammer",
+            "description": "Blunt. Strong. Unstoppable."
+         }
+      }		  
+   }
+}

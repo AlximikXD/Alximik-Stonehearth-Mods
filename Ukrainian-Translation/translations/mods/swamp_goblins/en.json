@@ -1,0 +1,2859 @@
+{
+	"wip":"Work in Progress",
+	"deprecated":"Deprecated",
+	"ai": {
+		"actions": {
+			"status_text": {
+				"charging_weather_stone": "Charging Weather Stone",
+				"using_weather_stone": "Using Weather Stone",
+				"summoning": "Summoning",
+				"lay_egg": "Laying an egg",
+				"play_music": "Playing music",
+				"enjoy_music": "Enjoying music"
+			}
+		}
+	},
+	"data": {
+		"biome": {
+			"swamp": {
+				"display_name": "Swamp",
+				"description": "Flat land, water flooded, with dense vegetation. Watch your steps.",
+				"random_location_names": {
+					"000": "Monbos Swamp"
+				},
+				"seasons": {
+					"dry": {
+						"display_name": "Dry Season",
+						"description": "Dry season in the Swamp lasts six months. There is almost no rain at all. It is warm during the day, but cool at night."
+					},
+					"wet": {
+						"display_name": "Wet Season",
+						"description": "Wet season in the Swamp lasts six months. This is the warm period. Afternoon showers are common, and the bush is lush."
+					}
+				}
+			}
+		},
+		"buffs": {
+			"body_up": {
+				"display_name": "Body Up",
+				"description": "+1 Body attribute"
+			},
+			"firefly_confusion": {
+				"display_name": "Firefly Cloud",
+				"description": "A firefly cloud blinds and confuses the enemy"
+			},
+			"poison": {
+				"display_name": "Poison",
+				"description": "Poisoned, stats are going down"
+			},
+			"potions": {
+				"body": {
+					"display_name": "Body Potion",
+					"description":"Increases body attribute, but decreases mind and spirit."
+				},
+				"mind": {
+					"display_name": "Mind Potion",
+					"description":"Increases mind attribute, but decreases body and spirit."
+				},
+				"speed": {
+					"display_name": "Speed Potion",
+					"description":"Increase speed, but decreases health."
+				},
+				"spirit": {
+					"display_name": "Spirit Potion",
+					"description":"Increases spirit attribute, but decreases mind and body."
+				}
+			},
+			"rage_over_time": {
+				"display_name": "Rage over Time",
+				"description": "Stats going up over time"
+			},
+			"self_aid": {
+				"display_name": "Self Aid",
+				"description": "Faster health recovery"
+			},
+			"slow_dart": {
+				"display_name": "Slowness",
+				"description": "Slower from the poison dart"
+			},
+			"town_bonus": {
+				"book": {
+					"display_name": "Tome Blessing",
+					"description": "Spirit increased by 1."
+				},
+				"tall": {
+					"display_name": "Obelisk Blessing",
+					"description": "Curiosity doubled."
+				}
+			},
+			"trapped": {
+				"display_name": "Trapped",
+				"description": "Trapped by the Beast Tamer"
+			}
+		},
+		"build": {
+			"building_brushes": {
+				"colors": {
+					"#7C7F48": "Grassland Edge (Swamp)",
+					"#6D7037": "Grassland Fade (Swamp)",
+					"#5D602D": "Grassland (Swamp)",
+					"#CFCCC2": "Light Bone (Swamp)",
+					"#C1BCAB": "Pale Bone (Swamp)",
+					"#B4AD95": "Bone (Swamp)",
+					"#A19878": "Old Bone (Swamp)",
+					"#695087": "Light Giple (Swamp)",
+					"#5C4578": "Giple (Swamp)",
+					"#4A3662": "Dark Giple (Swamp)"
+				},
+				"patterns":{
+					"fiber_checker":"Green Fiber Checkerboard",
+					"fiber_diagonal":"Green Fiber Diagonal Stripes",
+					"fiber_dotted":"White Fiber Dots",
+					"roof":{
+						"green_stripes":"Green Fiber Stripes",
+						"purple_stripes":"Purple Fiber Stripes",
+						"white_stripes":"White Fiber Stripes"
+					},
+					"white_stripes":"White Fiber Stripes"
+				}
+			}
+		},
+		"commands":{
+			"enable_egg_spot":{
+				"display_name":"Lay Egg",
+				"description":"Calls a goblin worker to lay an egg"
+			},
+			"cancel_egg_spot":{
+				"display_name":"Cancel Lay Egg",
+				"description":"Cancel the order to lay an egg"
+			},
+			"goblinpedia":{
+				"display_name":"Open the Goblinpedia",
+				"description":"Click to read it"
+			},
+			"market":{
+				"display_name":"Shop",
+				"description":"Opens a trading window",
+				"disabled_description":"Waiting a new trader"
+			},
+			"swap_entity":{
+				"display_name":"Toggle Entity",
+				"description":"Change this entity state"
+			},
+			"music":{
+				"display_name":"Play Music",
+				"description":"It will call someone to play this instrument",
+				"disabled_description":"Waiting for someone to play it, or in use already."
+			},
+			"shrine":{
+				"summon_allied_fighters":{
+					"display_name":"Summon allied fighters",
+					"description":"4 fighters will spawn and help defend your town",
+					"disabled_description":"The cooldown lasts for 12 hours, it can be called again later"
+				},
+				"summon_allied_workers":{
+					"display_name":"Summon allied workers",
+					"description":"4 workers will spawn and help doing tasks in your town",
+					"disabled_description":"The cooldown lasts for 12 hours, it can be called again later"
+				}
+			},
+			"travel":{
+				"display_name":"Travel",
+				"description":"Choose which goblins will reembark"
+			},
+			"transform":{
+				"build_well_wood": {
+					"display_name": "Build Wooden Water Well (Firefly)",
+					"description": "Order this simple well to be upgraded into a wooden water well. Doing so requires Firefly Essence, a refined item that can be crafted by the Shaman."
+				},
+				"build_well_roof_clay": {
+					"display_name": "Upgrade to Clay",
+					"description": "Upgrade using a crafted Firefly Jewel into a fancy clay well to make your citizens happier and your water always fresh!"
+				}
+			},
+			"weather_stone":{
+				"charge":{
+					"display_name":"Charge the Stone",
+					"description":"Uses 3 firefly jewels to charge it",
+					"disabled_description":"Waiting the 3 jewels to be delivered"
+				},
+				"use":{
+					"display_name":"Use the Stone",
+					"description":"Will change the weather",
+					"disabled_description":"Waiting someone to come and use it"
+				}
+			}
+		},
+		"fishing":{
+			"egg_basket":{
+				"message":"There is a note on it:<br>To whoever found it, please protect it.<br><font size=-1><i>Place it somewhere safe</i></font>"
+			}
+		},
+		"gm":{
+			"human":"Unknown human",
+			"nina":"Nina",
+			"erdene_nina":"Erdene and Nina",
+			"erdene":"Erdene, Speaker of the Red Kiln",
+			"campaigns":{
+				"amberstone":{
+					"arcs":{
+						"trigger":{
+							"discovery":{
+								"encounters":{
+									"02_hello":{
+										"02a_hello_friend_intro":{
+											"dialog_tree_info":{
+												"dialog_nodes":{
+													"msg2":{
+														"bulletin_message":{
+															"00":"Your clan has proven gracious, and your gardens savory. Many of my kin mistrust the progeny of Snake, but I feel we must extend a paw of friendship."
+														}
+													}
+												}
+											}
+										}
+									},
+									"11_shook_down":{
+										"11_shook_down_intro":{
+											"dialog_tree_info":{
+												"dialog_nodes":{
+													"msg1":{
+														"bulletin_message":{
+															"00":"Some orcs somehow found an entrance to our hovel and are asking for... a bunch of wooden doors? We have neither wood nor carpenter on paw, so could you perhaps craft some for us?<br><br>Alternatively, we're not afraid to fight them off, but we lack the means to heal our injured afterwards."
+														}
+													}
+												}
+											}
+										},
+										"11_shook_down_outro_a":{
+											"donation_dialog_info":{
+												"dialog_nodes":{
+													"simple_message":{
+														"bulletin_message":{
+															"00": "\"Thank you, I'm sure those big orcs will find these quite satisfactory. May our friendship ever blossom!.\" He offers you glittering bags as payment.<br><br><font size=-1><i>[Rabbit reputation increased]</i></font>"
+														}
+													}
+												}
+											}
+										}
+									},
+									"14_chase_scene":{
+										"14_chase_scene_intro":{
+											"dialog_tree_info":{
+												"dialog_nodes":{
+													"leave":{
+														"bulletin_message":{
+															"00": "\"I understand. I haven't heard any howling in a while, I think your goblin odors might have thrown them off. I'll make a break for it, the long way around...\""
+														}
+													}
+												}
+											}
+										}
+									},
+									"15_crystal_charging":{
+										"15_crystal_charging_intro":{
+											"dialog_tree_info":{
+												"dialog_nodes":{
+													"msg1":{
+														"bulletin_message":{
+															"00": "\"Greetings, kind goblins. As you know, we live undergound, and because of that we rely on Amberstone, our namesake material, for many things.\"<br><br>\"Amberstones can absorb many kinds of energy, sunlight being one of them - and these stones here have lost their glow.\""
+														}
+													},
+													"msg4":{
+														"bulletin_message":{
+															"00": "\"I understand. Perhaps next time. Farewell, goblins.\""
+														}
+													}
+												}
+											}
+										}
+									},
+									"23_borrow_crafter": {
+										"borrow_intro_trapper": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"Dear goblins, some of my clan respect the efficiency of your Trappers. Could one visit for two days, so that we might learn their methods and adapt them for our own use?\"<br><br>\"We will provide the supplies, and they will be an honored guest of the warren.\""
+														}
+													}
+												}
+											}
+										},
+										"borrow_intro_bonesmith": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"We have need of someone experienced with wood for two days, to help with bracing a tunnel and putting up new vegetable storage.\"<br><br>\"Would you be willing to spare someone? We will provide the supplies, and they will be an honored guest of the warren.\""
+														}
+													}
+												}
+											}
+										},
+										"borrow_intro_earthmaster": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"We have need of someone experienced with hard materials for two days, to help us with forging some new digging equipment.\"<br><br>\"Would you be willing to spare someone? We will provide the supplies, and they will be an honored guest of the warren.\""
+														}
+													}
+												}
+											}
+										},
+										"borrow_intro_shaman": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"Our medics would like to compare notes with one of your Shamans for a couple of days.\"<br><br>\"Would you be willing to spare someone? We will provide the supplies, and they will be an honored guest of the warren.\""
+														}
+													}
+												}
+											}
+										},
+										"borrow_quest_bonesmith": {
+											"title": "Send a Bonesmith",
+											"dialog_title": "Send a Bonesmith",
+											"text": "Select a Bonesmith (Level 3+) to help Clan Amberstone."
+										},
+										"borrow_quest_earthmaster": {
+											"title": "Send an Earthshaper",
+											"dialog_title": "Send an Earthshaper",
+											"text": "Select an Earthshaper (Level 3+) to help Clan Amberstone."
+										},
+										"borrow_quest_shaman": {
+											"title": "Send a Shaman",
+											"dialog_title": "Send a Shaman",
+											"text": "Select a Shaman (Level 3+) to help Clan Amberstone."
+										}
+									},
+									"20_partnership": {
+										"20_partnership_intro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "Sasha Lightfoot approaches, a small load-bearing stone insect bobbling along behind him. \"Friends! Not long ago, my kind were afraid of you kin of Snake, but you have dissolved our purposeless trepidation! We have found in you a dependable ally in the aboveground!\""
+														}
+													}
+												}
+											}
+										}
+									},
+									"30_geomancy": {
+										"30_geomancy_intro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"My dear goblin friends! It has been generations since we Lapine have found an ally as trustworthy as you. We have decided to offer you a precious gift.\"<br><br>\"We would like to bring one of your own into our warren for a time, to teach them the art of Geomancy.\"<br><br>\"Do you understand how vital Geomancy is to us, of the history of my kind and of Clan Amberstone?\""
+														}
+													},
+													"story1": {
+														"bulletin_message": {
+															"00": "Sasha nods sagely. \"This world of Hearth is ruled by the Heavenly Cycles. Each eon brings a different entity to Ascendance, who raises their own kind to an evolved state.\"<br><br>\"Monkey is in Ascendance now, giving Humans form and cleverness. Snake was before. Rabbit before that; long ago, but you can find our statues dotting the landscape even now.\""
+														}
+													}
+												}
+											}
+										}
+									},
+									"40_recipe_sharing": {
+										"40_recipe_sharing_intro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"accept": {
+														"bulletin_message": {
+															"00": "\"Splendid! I think even a novice Bonesmith and Earthshaper would work just fine, so long as they're receptive to teaching. It shouldn't take more than two days.\""
+														}
+													},
+													"reject2": {
+														"bulletin_message": {
+															"00": "\"Hum. Well, I suppose maybe I still have much to learn about goblin aesthetics after all...\""
+														}
+													},
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"Kind greetings, goblin friends! I was struck by an idea after watching your crafters at work - how would you like to send a Bonesmith and an Earthshaper down to our warren for a few days, to learn our various crafting recipes and techniques?\""
+														}
+													}
+												}
+											}
+										},
+										"40_recipe_sharing_quest": {
+											"text": "Select a Bonesmith and Earthshaper (Levels 1+) to go learn Amberstone recipes"
+										},
+										"40_recipe_sharing_outro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "Your venturing Bonesmith and Earthshaper have returned, with knowledge of all sorts of Rabbit recipes!<br><br>\"I must say, your citizens shared tales of swamp mushroom recipes with us. I simply must try it sometime...\""
+														}
+													}
+												}
+											}
+										},
+										"40_grant_recipes_earthmaster": {
+											"bulletin_title": "Amberstone Earthshaper recipes unlocked!"
+										},
+										"40_grant_recipes_bonesmith": {
+											"bulletin_title": "Amberstone Bonesmith recipes unlocked!"
+										}
+									},
+									"50_titan":{
+										"50_titan_dialog": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"greet": {
+														"bulletin_message": {
+															"00": "\"Dear friends of the Snake, I bring greetings and well wishes from the twenty-third warren of Amberstone.\"<br><br>\"I have a… momentous favor to ask of you, but I think perhaps you lack the context to understand it. Am I right that the human history of the Phoenix Empire became lost after the cataclysm?\""
+														}
+													},
+													"story5": {
+														"bulletin_message": {
+															"00": "\"Humans, sensible, fled; to the coasts, to the northern mountains. Only recently have they started to build inwards again. Orcs, stubborn, stayed and fought the corruptions, fought the apparitions of a natural world brought to anger, defending the lands abandoned by the humans. And we Lapine, already underground, were content to wait.\"<br><br>\"But as the evil energies settled, they embedded in the ground, drawn downwards towards the source of Hearth’s magic. These fragments absorb that magic, slowly gaining strength over generations, congealing into malevolent aspects which we have come to call ‘Titans’.\""
+														}
+													},
+													"favor2": {
+														"bulletin_message": {
+															"00": "\"First, I will need to borrow some of your citizens: One experienced Earthshaper to double-check our work and help with reinforcement, plus three other citizens of your choosing to... help reach the tall parts.\"<br><br>\"With that complete, we will return with the weapon, and once you have prepared, we will use it to summon, attack, and destroy the Titan. The attack may take some significant time, so you should prepare for a siege.\"<br><br>\"I should say... this evil is of no <i>immediate</i> threat to you. This is a task to benefit your people's children, and mine.\""
+														}
+													}
+												}
+											}
+										},
+										"50_titan_weapon_quest": {
+											"text": "Choose an Earthshaper (level 4+), plus any three other citizens to help Clan Amberstone"
+										}
+									},
+									"titan_already_killed_dialog": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"greet": {
+													"bulletin_message": {
+														"00": "\"Hello again, my friends of the Snake! I hope this day finds you at peace.<br><br>Honorable Goblins, I... have a confession to make.\""
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				"dragonborn_king":{
+					"arcs":{
+						"trigger":{
+							"dragonborn_king":{
+								"encounters":{
+									"dialog_thank_player_for_help":{
+										"dialog_tree_info":{
+											"dialog_nodes":{
+												"information_howlong":{
+													"bulletin_message":{
+														"000": "It has been many cycles... too many. My family line lives no longer, and my body failed me long ago. My soul has been of the dragon's watch long enough to see many races born and die. Yours has been of great interest, Children of Snake, as my vigil comes to an end."
+													}
+												},
+												"hatch_and_attach":{
+													"bulletin_message":{
+														"000": "I am fading fast, but I have given the last of my spirit to this egg of the Great Dragon, so that the dragonling inside may finally hatch out into this world. I have known you for little time, Children of Snake, but I trust you will aid this young welp as you have aided me. May you carry yourselves with strength and compassion, as the Dragonborn once did."
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				"swamp_and_goblins": {
+					"started_without_goblins":"Hey! Wait for me!.. A goblin clan needs goblins!"
+				},
+				"trader": {
+					"arcs": {
+						"encounters": {
+							"tier_1_shops": {
+								"firefly_shop_1": {
+									"name": "Firefly Simple Items Shop",
+									"title": "A firefly goblin has arrived with items from his hometown"
+								}
+							},
+							"tier_2_shops": {
+								"firefly_shop_2": {
+									"name": "Firefly Items Shop",
+									"title": "A small firefly goblin group has arrived with items from their hometown"
+								}
+							},
+							"tier_3_shops": {
+								"firefly_shop_3": {
+									"name": "Firefly Complete Items Shop",
+									"title": "A very organized firefly goblin caravan has arrived with items from their hometown"
+								}
+							}
+						}
+					}
+				},
+				"town_progression":{
+					"trigger":{
+						"before_chosing_banner":{
+							"title":"It is time",
+							"dialog_title":"It is time",
+							"message":"The moment has come, the shaman has prepared the ritual, and we are ready to begin our adventure.<br>But first, we must choose our banner. It will be our mark of honor and unity in the challenging times ahead."
+						},
+						"explain_egg":{
+							"title":"Daily Report?",
+							"dialog_title":"Daily Report?",
+							"message":"What is a 'Daily Report'? A way to get new citizens? We don't have such a thing. <br> Use the Goblinpedia, crafted by the Shaman, to learn how it is done."
+						},
+						"explain_egg_again":{
+							"title":"Goblin eggs!",
+							"dialog_title":"Goblin eggs!",
+							"message":"We are going to repeat this, just to make sure you know about it, ok?<br>To get new goblins, you need to first place and use the <strong>egg pedestal</strong>.<br><br><font size=-1>More information available on the goblinpedia.</font>"
+						}
+					},
+					"challenge":{
+						"first_contact":{
+							"title":"First Impression",
+							"message":"No, that's not possible...<br>You guys are here too?",
+							"what":"What do you mean?",
+							"message_2":"Good try, but it will not work.<br>We know your tactics.<br>This time, we will take the initiative first!",
+							"wait":"Wait, what?",
+							"message_3":"Forward!",
+							"listen":"You are not listening!"
+						},
+						"first_contact_alert":"They are sending an attack!",
+						"raid":{
+							"title":"Incoming attack",
+							"message":"Some footman, watch out!"
+						},
+						"footman_death_dialog":{
+							"title":"Not bad",
+							"message":"Next attack wave will be harder.<br>Let's see if you can handle that tomorrow."
+						},
+						"unreachable_attack":{
+							"title":"Cowards!",
+							"message":"We can't reach you! We will increase our forces anyway, and we will get you once you are reachable!",
+							"answer":"We don't want to fight!"
+						},
+						"boss_death_dialog":{
+							"title":"Victory",
+							"message":"Oh man, I can't believe we were defeated.<br>Why did you do this?",
+							"answer":"Because you attacked us!",
+							"message2":"Of course we attacked you, you would have attacked us anyway.",
+							"message3":"We didn't have to fight? Nice!<br>I'm Nina, sorry for the trouble.<br>So... Who are you guys?",
+							"answer3":"(proceeds with introductions)"
+						},
+						"nina_introduction":{
+							"title":"Introductions",
+							"message":"Interesting. And similar to our group.<br>We are exploring new and far lands, to better understand our world, and map it for new settlements when needed.",
+							"message2":"We will stay around, if you need help with something just ask<br>Oh, and we have some food for you, as payback for our trouble<br><br><font size=-1>The food will be dropped at your banner</font>",
+							"thanks":"Thanks!"
+						},
+						"peaceful_introduction":{
+							"title":"Introductions",
+							"message":"Hi, I'm Nina, we have just settled here, I hope we can grow together peacefully in this area.<br>We are exploring new and far lands, to better understand our world, and map it for new settlements when needed.",
+							"message2":"We will stay around, if you need help with something just ask<br>Oh, and we have some food for you, consider it a neighborly gift<br><br><font size=-1>The food will be dropped at your banner</font>",
+							"thanks":"Thanks!"
+						},
+						"humans_asks_materials":{
+							"title":"A helping hand",
+							"message":"We are in the middle of a project here, but we have run out of resources to complete it...<br>Could you help us with a few materials?",
+							"nope":"Oh, that is ok. We will try alone, but it will take longer to finish...",
+							"yep":"Nice!<br>It is not much, as you can see, just a few things in our item list."
+						},
+						"materials_quest":{
+							"title":"Materials Quest",
+							"dialog_title":"Materials Quest"
+						},
+						"materials_abandon_quest":{
+							"title":"A helping hand",
+							"message":"Oh no. We were counting with those materials...<br>Don't worry. We will change a few things here, maybe it ends up just with a longer delay."
+						},
+						"materials_done":{
+							"title":"Quest Completed",
+							"message":"Thanks, this will help us a lot!<br>Here, we have prepared some food as a thank you gift.<br><br><font size=-1>The food will be dropped at your banner</font>"
+						},
+						"materials_hint":{
+							"title":"Hint",
+							"message":"We heard something about one of your crafters, I think you called it Earthshaper, being good at burning wood to make coal, is that true? That can be useful for our quest."
+						},
+						"notice_human_hearth":{
+							"title":"Step up",
+							"dialog_title":"Hearth Update",
+							"message":"Our friends over there already got their shiny new hearth!<br>Maybe we should start thinking about our hearth upgrade too.",
+							"message_2":"We decided on two options to represent our town:<br>Warrior Hearth and Nature Hearth",
+							"message_3":"The <i>Warrior Hearth</i> is for those who believe their destiny is to stand strong in a hostile world.<br>We will be able to fight against the best warriors from other clans, training with them and learning from them.",
+							"message_4":"The <i>Nature Hearth</i> is for those who believe that a town's value is found within its happy citizens in harmony with nature.<br>We will receive random daily blessings.",
+							"message_5":"Warrior or Nature? What do you think would be the most fitting for our town from here and beyond?",
+							"choice":"We choose..."
+						},
+						"hearth_choice":{
+							"warrior": {
+								"name": "Warrior Hearth",
+								"description": "<i>Proof that you have military strength, and that you're prepared to keep it on its feet.</i><ul><li>Allows summoning increasingly difficult challengers to improve your skills</li></ul>"
+							},
+							"nature": {
+								"name": "Nature Hearth",
+								"description": "<i>Proof that you have happy citizens in sync with nature, and nice places for them to live.</i><ul><li>Each day brings a new random buff for your townsfolk.</li></ul>"
+							}
+						},
+						"hearth_quest_warrior":{
+							"title":"Hearth Upgrade: Warrior",
+							"dialog_title":"Hearth Upgrade: Warrior"
+						},
+						"hearth_quest_nature":{
+							"title":"Hearth Upgrade: Nature",
+							"dialog_title":"Hearth Upgrade: Nature"
+						}
+					},
+					"climax":{
+						"erdene_intro_dialog":{
+							"title":"Orcs visit",
+							"message":"Greetings, little ones. I'm Erdene, Speaker of the Red Kiln.<br>I came here because of some rumors running among the orcs.<br>Rumors about a group of goblins defeating a human fort full of heavily armored soldiers and knights, on their own...<br>How you guys did it? Here in person you don't look strong enough, no offense. Was it hard?",
+							"message2_yes":"Fair. You did it anyway, and the boys were promised a worthy opponent.",
+							"message2_no":"Uhm, to be fair, that human camp over there does not look like a big deal.",
+							"message3":"You see, we came here for you, well, for a bigger challenge.<br>Orcs, with kobolds and ogres, use a color system to measure each other ranks. Green, blue, red and then purple.<br>That said, I'm still not really convinced about your strength. We will send some rookies to test you first, just to avoid wasting the higher ranks time.<br>Else they can complain for days...",
+							"choice_wait":"Wait",
+							"message4_accept":"Then watchout, as they will reach your camp soon",
+							"message4_wait":"Fine. We will give you one more day."
+						},
+						"erdene_intro_dialog_peaceful":{
+							"message":"Greetings, little ones. I'm Erdene, Speaker of the Red Kiln.<br>Glad to see some friendly neighbors here!",
+							"message2":"We are just starting in the area, so this is a quick hello. You can count with us!"
+						},
+						"wait_rookies_dialog":{
+							"title":"Orc rookies",
+							"message":"I hope you are ready now, as they will reach your camp soon"
+						},
+						"sighted_spawn_rookies":"Rookie Orcs Sighted",
+						"rookies_defeat_dialog":{
+							"title":"Orc rookies defeated",
+							"message1":"I saw that. Not bad!",
+							"message2":"Do you remember our talk about our ranks being based on colors?",
+							"message3_yes":"So, I will leave instructions for your metal worker on how to make one of our colored gongs.<br>Place them in your area to signal that you are ready for that color, and challengers from that rank will come. You will start in the green rank.",
+							"message3_no":"Ok, a quick recap.<br>Orcs, with kobolds and ogres, use a color system to measure each other ranks. Green, blue, red and then purple."
+						},
+						"recipes":{
+							"unlock_gong_green_recipe":"The Earthshaper has unlocked the Green Gong recipe!",
+							"unlock_gong_blue_recipe":"The Earthshaper has unlocked the Blue Gong recipe!",
+							"unlock_gong_red_recipe":"The Earthshaper has unlocked the Red Gong recipe!",
+							"unlock_gong_purple_recipe":"The Earthshaper has unlocked the Purple Gong recipe!",
+							"unlock_shrine_recipes":"The Earthshaper has unlocked Shrines recipes!"
+						},
+						"challenge_accepted":"Challenge accepted",
+						"green_tier_end_dialog":{
+							"message":"Us.. too weak.. Put out Blue Gong if you dares..",
+							"message2":"Seems like the green rank was not a hard challenge for you.<br>Here, the recipe for Blue Gong so you can challenge the next rank."
+						},
+						"blue_tier_end_dialog":{
+							"message":"Ok, ok... You won. If only we had some ogres like in the red ranks...<br>Put out Red Gong if you dares..",
+							"message2":"Still easy, uh? Interesting.<br>Here, the next Gong recipe."
+						},
+						"red_tier_end_dialog":{
+							"message":"You are way stronger than what we imagined, but don't get too confident! Next rank, if you take their challenge, will be way harder. They even have clerics!",
+							"message2":"So you guy are really this strong?<br>As usual, I'm here to give you the next Gong recipe. Good luck."
+						},
+						"no_food":{
+							"title":"Erdene?...",
+							"message":"Sorry guys, we are having some technical difficulties...<br>Our higher ranks are not ready yet.",
+							"choice_difficulties":"Difficulties?",
+							"choice_what":"What happened?",
+							"message2":"Some miscommunications happened, and long story short, we sent our resources to the wrong place. And now we can't set camp here and answer your challenge anymore...",
+							"choice_resources":"You need resources?",
+							"choice_camp":"Isn't a camp easy to build?",
+							"message3":"Building the camp is easy, it is very modular and we can use local resources for it.<br>The problem is their diet...",
+							"choice_who":"Whose diet?",
+							"choice_what_diet":"What diet?",
+							"message4":"Those in purple ranks say a healthy diet is the key for their strength.<br>We have the meat. But no vegetables...",
+							"choice_yuck":"Yuck",
+							"choice_veggies":"Veggies?",
+							"message5":"For such a challenge, we usually set at around 100 vegetables. But we are so far away from our farmers, and traders have almost nothing on them. We don't know how we will reach this amount soon.",
+							"choice_100":"Just 100?",
+							"choice_100_2":"100?!?",
+							"message6":"Can you help us?",
+							"choice_guess":"I guess...",
+							"choice_sure":"Sure."
+						},
+						"no_food_peaceful":{
+							"message2":"Some miscommunications happened, and long story short, we sent our resources to the wrong place. And now we can't properly set camp here",
+							"message5":"For such a camp, we usually set at around 100 vegetables. But we are so far away from our farmers, and traders have almost nothing on them. We don't know how we will reach this amount soon."
+						},
+						"human_help_offer":{
+							"title":"Another helping hand",
+							"message":"We recognize that you have a lot of influence in this area.<br>Can you help us with the orcs? They are causing problems here with us, we would like your help to set some kind of deal or truce maybe.",
+							"travel_to_orcs":"<strong>Check on Erdene</strong>",
+							"travel_to_humans":"<strong>Check on Nina</strong>",
+							"message2":"Hey! Welcome?<br>We are not ready yet for the challenge, sorry!",
+							"tell_about_humans":"[Mention Nina request]",
+							"message3":"I mean, she has a pretty nice fort, and that is so inviting for a fight...<br>But as you know with our little food problem, they will be fine for a while.<br>Uhm, how about this? They help you with our food request, and we will set that truce with them.",
+							"deal":"Deal",
+							"message4":"Welcome back! How was it?",
+							"explain":"[Explain the deal]",
+							"message5":"Uhm, we just started a carrot farm, to help the Amberstone. Have you heard about them yet? Sorry, that is for another time.<br>Back to the carrot farm. Yes, we can help with the food.<br>How about 25 carrots daily?",
+							"message6":"Ok then! Tomorrow around this time we will be at your banner with those carrots."
+						},
+						"carrot_deliver_1":{
+							"title":"Carrot Delivery",
+							"message":"Hi!<br>First delivery, 25 carrots.<br>See you tomorrow"
+						},
+						"carrot_deliver_2":{
+							"title":"Carrot Delivery",
+							"message":"Hi, again!<br>Second delivery, 25 carrots, for a total of 50 carrots.<br>See you tomorrow"
+						},
+						"carrot_deliver_3":{
+							"title":"Carrot Delivery",
+							"message":"Hey!<br>Third delivery, 25 carrots, for a total of 75 carrots.<br>See you tomorrow"
+						},
+						"carrot_deliver_4":{
+							"title":"Carrot Delivery",
+							"message":"'Hi!' The delivery girl waves to everyone.<br>Last delivery, 25 carrots, for a total of 100 carrots.<br>See you later"
+						},
+						"food_quest_done":{
+							"title":"Food Quest Completed",
+							"message":"You guys did it! A little teamwork seems to pay off.<br>We will honor both our deals, so consider the truce with Nina done!<br>We just need a bit of time to settle everything then, and we will soon resume our challenge, ok? In two days we'll be back, and get ready, because it's going to be much harder than you think.",
+							"more_time":"Wait 4 days",
+							"message2":"Wait 4 days?<br>What are you guys planning? Ok, we will be here in 4 days then!"
+						},
+						"food_quest_done_peaceful":{
+							"message":"You guys did it! A little teamwork seems to pay off.<br>We will honor both our deals, so consider the truce with Nina done!<br>We just need a bit of time to settle everything then."
+						},
+						"purple_tier_end_dialog":{
+							"message3":"Congratulations! I'm impressed!<br>You have conquered all tiers!<br>After all these challenges, I believe we both grown even stronger. I can safely say that it was an honor.",
+							"message4":"Please accept this gift. It represents your achievement and our bonds.<br><br><font size=-1>'Gong of Orc Respect' will be dropped at your banner</font>"
+						},
+						"remember_gong":"I can't wait to see how the gong will look in your town. Just place it where you find it best.",
+						"orc_immigrant_dialog":{
+							"message":"The gong is looking good!<br>One of ours even wants to join your clan! He is a skilled fighter and is interested in learning more from you.",
+							"decline":"Oh, he was looking for it... Maybe another time then."
+						},
+						"hearthling_immigrant_dialog":{
+							"message":"Hi! I'm glad that it all worked well in the end with the orcs.<br>Through these last days, the girl responsible for the carrots and the deliveries end up making a lot of new friends with your clan.<br>We talked about it and she wants to join your group!",
+							"decline":"I guess she can visit sometimes."
+						},
+						"erdene_nina_visit":{
+							"title":"Erdene and Nina visit",
+							"message":"<strong>Nina: </strong> ...and then I punched him! Haha<br>Oh, we arrived already! Hi friends!<br><strong>Erdene: </strong> Hey, little ones!",
+							"choice_friends":"Hi... Friends?",
+							"message2":"<strong>Erdene: </strong> Oh, right. The truce is still up if you wonder<br><strong>Nina: </strong> Yes, Erdene and I have a few things in common.",
+							"choice_really":"Really?",
+							"message3":"<strong>Nina: </strong> The reason for this visit is one.<br><strong>Erdene: </strong> It seems we both underestimate you one way or another. We thought you were weaker on our first encounters<br><font size=-1><strong>Nina: </strong> Hey, don't tell them I said that!</font>",
+							"message4":"<strong>Erdene: </strong> We thought maybe you could have some kind of big shrine.<br><strong>Nina: </strong> Yes, something that represents your town and leaves no doubt about your status",
+							"choice_shrines":"Shrines?",
+							"message5":"<strong>Nina: </strong> Yes, my people do this on the bigger towns. They build a monument and then there is a big ceremony with it, and the monument ends up enchanted.<br><strong>Erdene: </strong> We do something similar too.",
+							"message6":"<strong>Erdene: </strong> You could represent your culture on one of these monuments, you could honor past achievements and it would be a valuable asset in your town<br><strong>Nina: </strong> I guess I'm not that creative, for me a big tower would do. It can be a beacon seen from afar, inspiring kinship.",
+							"message7":"<strong>Nina: </strong> We will let you think about it. For now, we are heading to her camp, I want to learn more about it<br><strong>Erdene: </strong> A fair deal, it was the only way she would allow me to check her fort later<br><strong>Nina: </strong> Bye!",
+							"choice_bye":"Have fun, you two"
+						},
+						"shrine_choice":{
+							"book_description":"<i>This Township shall honor the legacy and wisdom of its ancestors in its crafts and arts.</i><ul><li>Blesses all citizens with +1 to Spirit</li><li>Jobs start already at level 3</li></ul>",
+							"tall_description":"<i>This Township shall welcome and cherish the companionship of its allies.</i><ul><li>Curiosity stat doubled</li><li>Summons allies to assist with work or fights.</li></ul>"
+						},
+						"shrine_quest_book":{
+							"title":"Township Quest: Immemorial Tome",
+							"dialog_title":"Township Quest: Immemorial Tome"
+						},
+						"shrine_quest_tall":{
+							"title":"Township Quest: Posterity Obelisk",
+							"dialog_title":"Township Quest: Posterity Obelisk"
+						},
+						"shrine_upgrade_book":{
+							"spirit":"Spirit +1",
+							"leveled_jobs":"Jobs start at level 3",
+							"tier_3_templates":"Tier 3 Building Templates"
+						},
+						"shrine_upgrade_tall":{
+							"curiosity":"Curiosity stat doubled",
+							"helper_allies":"Helper allies",
+							"tier_3_templates":"Tier 3 Building Templates"
+						},
+						"book_and_tall_dialog":{
+							"title":"Erdene and Nina impressions",
+							"message":"What an inspiring monument you’ve built! We can sense its power and wisdom from afar. It fills us with awe and reverence.",
+							"thank":"Thanks!",
+							"message2":"Its presence is palpable even from a distance. It stirs our hearts and minds with wonder and curiosity.<br>I'm happy that you accepted my suggestion."
+						},
+						"post_shrine_dialog":{
+							"title":"Erdene and Nina again",
+							"message":"What a splendid ceremony. I can still feel the magic coursing through the shrine.<br>I am impressed by your skills and devotion.",
+							"thank":"Thanks!",
+							"message2":"As am I. The shrine is a testament to the clan’s spirit and resilience.<br>You can build the other if you like, but it'll just be a regular decoration. Fancy-looking, but none quite so magical."
+						},
+						"leave_dialog":{
+							"title":"Nina's goodbye",
+							"message":"My humble duty here is fulfilled. We shall depart shortly.",
+							"choice_fast":"So fast?",
+							"message2":"Perhaps you did not notice, but we have already prepared our belongings. If you wish, you may assume command of our modest stronghold.",
+							"message3":"Some curious incidents have been reported close to here, where the ground caught fire, so we aim to explore that also. Wish us luck!<br>Farewell!",
+							"choice_bye":"Good luck! Bye-bye!"
+						}
+					}
+				}
+			}
+		},
+		"loadouts": {
+			"toys": {
+				"display_name": "Goblin Toys",
+				"description": "This is what happens when goblins are asked to bring their own stuff",
+				"tooltip": "Hands full of weapons, bellies full of food, and pockets full of money."
+			},
+			"nature": {
+				"display_name": "Nature Synergy",
+				"description": "Balancing yourself with nature can be hard sometimes, this should help.",
+				"tooltip": "A safe option for new players. Basic materials from the start, should you need them all."
+			}
+		},
+		"happiness": {
+			"thoughts": {
+				"baby":{
+					"values": {
+						"mind_booster": {
+							"display_name": "Mind Bonus",
+							"tooltip": "Mind attribute boosted from Baby Toy"
+						},
+						"body_booster": {
+							"display_name": "Body Bonus",
+							"tooltip": "Body attribute boosted from Baby Bottle"
+						},
+						"spirit_booster": {
+							"display_name": "Spirit Bonus",
+							"tooltip": "Spirit attribute boosted from Baby Blanket"
+						}
+					}
+				},
+				"social":{
+					"values": {
+						"happy_potion": {
+							"display_name": "Happy Potion",
+							"tooltip": "I feel like I could taste colors."
+						}
+					}
+				},
+				"town": {
+					"values": {
+						"swamp_home": {
+							"display_name": "Swamp Home",
+							"tooltip": "I love living in the swamp."
+						},
+						"not_swamp_home": {
+							"display_name": "Foreign Biome",
+							"tooltip": "I would rather be in the swamp."
+						}
+					}
+				},
+				"water": {
+					"values": {
+						"sticky_water": {
+							"display_name": "Sticky Water",
+							"tooltip": "Eww! I hate going in this muddy water."
+						}
+					}
+				}
+			}
+		},
+		"monster_tuning":{
+			"forest":{
+				"insane_bear":{
+					"description":"Beware the Bear"
+				}
+			},
+			"shrine":{
+				"ally":"Allied Helper"
+			},
+			"warrior_hearth":{
+				"challenger":{
+					"display_name":"Challenger",
+					"description":"Trying to win the challenge"
+				},
+				"bulletin_title":"Warrior Hearth Challenge [str(i18n_data.glory_level)]",
+				"bulletin_default":"You have challengers ready to fight",
+				"just_workers":"Some workers want to test their strength in the arena<br><hr>Introduction:<br>These challenges will get progressively harder with each new wave.<br>You can cancel a challenge at any time through the cancel button on the hearth, which will despawn all challengers.<br>When feeling ready again, a new challenge with the same level can be remade.",
+				"easy_goblins":"A group of fighters is up to the challenge",
+				"easy_goblins_2":"A party of goblin fighters wants to test their powers",
+				"boss_at_5":"⚔️ We, The Golden Conquering Arm, have come to challenge you and claim the glory from defeating you, fellow warriors",
+				"easy_hearthlings":"Humans soldiers from a nearby camp are saying they are stronger than us",
+				"easy_hearthlings_2":"A well organized human group wants some glory",
+				"boss_at_10":"⚔️ We, The Golden Conquering Arm, have returned, this time with reinforcements, to test our skills one more time",
+				"recurring_boss_from_10":"We, The Golden Conquering Arm, have returned, this time with reinforcements, to test our skills one more time",
+				"boss_at_15":"⚔️ The Protectors, famous paladins guild, send their best apprentices to test their skills",
+				"boss_at_20":"⚔️ Warchief Oghar Norwind is here with her troops to train with you"
+			}
+		},
+		"population": {
+			"firefly_clan": {
+				"initial_town_name": "Small Goblin Clan",
+				"display_name": "Firefly Clan",
+				"quote": "",
+				"long_description": "Living in the swamp like an established shamanic tribe. This way of living gave them a slightly different perception of life than that of their green-skinned cousins.",
+				"post_selection_description": ", a magical gang of goblins."
+			}
+		},
+		"saved_objects": {
+			"building_templates": {
+				"wip": "💜 Tier 3 Rewards not done yet 🚧",
+				"firefly_t3_house1": "💜 WIP Fancy House 1",
+				"barrack": "💜 Shack",
+				"firefly_house1": "💜 House 1",
+				"firefly_house2": "💜 House 2",
+				"firefly_house3": "💜 House 3",
+				"hut": "💜 Hut",
+				"temple": "💜 Temple",
+				"tent": "💜 Tent",
+				"nursery": "💜 Nursery",
+				"treasure_storage": "💜 Treasure Storage",
+				"garden": "💜 Garden",
+				"firefly_inn": "💜 Firefly Inn",
+				"firefly_inn2": "💜 Firefly Inn (Tier 2)",
+				"snack_bar": "💜 Snack Bar",
+				"snack_bar2": "💜 Snack Bar (Tier 2)",
+				"beast_tamer_den": "💜 Beast Tamer Den",
+				"beast_tamer_den2": "💜 Beast Tamer Den (Tier 2)",
+				"bonesmith_workshop": "💜 Bonesmith Workshop",
+				"bonesmith_workshop2": "💜 Bonesmith Workshop (Tier 2)",
+				"earthmaster_workshop": "💜 Earthshaper Workshop",
+				"earthmaster_workshop2": "💜 Earthshaper Workshop (Tier 2)",
+				"shaman_center": "💜 Shaman Center",
+				"shaman_center2": "💜 Shaman Center (Tier 2)",
+				"spirit_walker_sanctuary": "💜 Spirit Walker Sanctuary",
+				"spirit_walker_sanctuary2": "💜 Spirit Walker Sanctuary (Tier 2)",
+				"fisher_hut": "💜 Fisher Hut",
+				"fisher_hut2": "💜 Fisher Hut (Tier 2)",
+				"trapper_hut": "💜 Trapper Workshop",
+				"trapper_hut2": "💜 Trapper Workshop (Tier 2)",
+				"warrior_ring": "💜 Warrior Ring",
+				"warrior_ring2": "💜 Warrior Ring (Tier 2)",
+				"walkway_straight": "💜 Walkway (Straight)",
+				"walkway_corner": "💜 Walkway (Corner)"
+			}
+		},
+		"traits": {
+			"deviant_pigment": {
+				"display_name": "Deviant Pigment",
+				"description": "[name(i18n_data.entity)] skin color is a mark of distinction. Unlike most, this one has a unique hue that sets it apart from the rest."
+			},
+			"firefly_chaser": {
+				"display_name": "Firefly Chaser",
+				"description": "At night, [name(i18n_data.entity)] will wander around looking for fireflies to admire."
+			},
+			"frog_companion": {
+				"display_name": "Frog Companion",
+				"description": "Ever since [name(i18n_data.savior)] [str(i18n_data.maybe_determiner)] [str(i18n_data.maybe_savior_species)] saved their [str(i18n_data.savee_species)], [name(i18n_data.savee)], from mortal danger, they've been inseparable.",
+				"default_species": "companion"
+			},
+			"party_goblin": {
+				"display_name": "Party Goblin",
+				"description": "[name(i18n_data.entity)] loves to tell jokes and wear funny hats. Are they good? It's tough to say, but they frequently seem to leave others with a smile."
+			}
+		}
+	},
+	"entities": {
+		"armor": {
+			"clan_armor": {
+				"display_name": "(Firefly) Clan Armor",
+				"description": "Traditional Firefly Warrior outfit"
+			},
+			"clan_banner": {
+				"display_name": "(Firefly) Clan Banner",
+				"description": "Traditional Firefly Warrior outfit"
+			},
+			"clan_helmet": {
+				"display_name": "(Firefly) Clan Helmet",
+				"description": "Traditional Firefly Warrior outfit"
+			},
+			"flower_helmet": {
+				"display_name": "(Firefly) Flower Hat",
+				"description": "More about fashion than protection"
+			},
+			"fiber_armor": {
+				"display_name": "(Firefly) Fiber Armor",
+				"description": "Itchy"
+			},
+			"mushroom_shield": {
+				"display_name": "(Firefly) Mushroom Shield",
+				"description": "Allowed even in pillow fights"
+			},
+			"horn_helmet": {
+				"display_name": "(Firefly) Horn Helmet",
+				"description": "Impressive balance"
+			},
+			"leather_armor": {
+				"display_name": "(Firefly) Leather Armor"
+			},
+			"leather_helmet": {
+				"display_name": "(Firefly) Leather Helmet"
+			},
+			"leather_shield": {
+				"display_name": "(Firefly) Leather Shield",
+				"description": "Strong and soft"
+			},
+			"full_leather_helmet": {
+				"display_name": "(Firefly) Full Leather Helmet",
+				"description": "More protection than other leather helmet"
+			},
+			"log_armor": {
+				"display_name": "(Firefly) Log Armor",
+				"description": "Strong enough"
+			},
+			"log_helmet": {
+				"display_name": "(Firefly) Log Helmet",
+				"description": "Heavy, but protects your head"
+			},
+			"mask_shield": {
+				"display_name": "(Firefly) Mask Shield",
+				"description": "The mask is usually similar to its owner"
+			},
+			"party_goblin_hat": {
+				"display_name": "Party Goblin Hat",
+				"description": "To standout in any party"
+			},
+			"spirit_armor": {
+				"display_name": "Spirit Armor",
+				"description": "Protection granted by a small spirit"
+			},
+			"varanus_armor": {
+				"display_name": "(Firefly) Varanus Armor",
+				"description": "Scaly armor, high protection"
+			},
+			"varanus_helmet": {
+				"display_name": "(Firefly) Varanus Helmet",
+				"description": "Scary and smelly"
+			},
+			"varanus_shield": {
+				"display_name": "(Firefly) Varanus Shield",
+				"description": "Strong and hard"
+			}
+		},
+		"baby":{
+			"blanket": {
+				"display_name": "Baby Blanket",
+				"description": "To help with a better sleep",
+				"flavor":"(Baby Equip) The baby will require less time sleeping"
+			},
+			"blanket2": {
+				"display_name": "Baby Comfy Blanket",
+				"description": "Super comfy, can't leave",
+				"flavor":"(Baby Equip) The baby will require less time sleeping and can grow with higher spirit stat"
+			},
+			"bottle": {
+				"display_name": "Baby Bottle",
+				"description": "Complementing the diet",
+				"flavor":"(Baby Equip) The baby will require less food"
+			},
+			"bottle2": {
+				"display_name": "Baby Healthy Bottle",
+				"description": "Super healthy, to grow strong",
+				"flavor":"(Baby Equip) The baby will require less food and can grow with higher body stat"
+			},
+			"toy": {
+				"display_name": "Baby Toy",
+				"description": "A world of fantasy in our hands",
+				"flavor":"(Baby Equip) The baby will require less conversations and move faster"
+			},
+			"toy2": {
+				"display_name": "Baby Advanced Toy",
+				"description": "Fancy doll, accessories not included",
+				"flavor":"(Baby Equip) The baby will require less conversations, move faster and can grow with higher mind stat"
+			}
+		},
+		"construction": {
+			"brick_fence": {
+				"display_name": "Brick Fence",
+				"description": "Blocks the way",
+				"flavor":"One piece at a time"
+			},
+			"brick_fence_half": {
+				"display_name": "Brick Fence Half",
+				"description": "Blocks the way",
+				"flavor":"One piece at a time"
+			},
+			"brick_fence_end": {
+				"display_name": "Brick Fence End",
+				"description": "Blocks the way",
+				"flavor":"One piece at a time"
+			},
+			"brick_fence_gate": {
+				"display_name": "Brick Fence Gate",
+				"description": "Blocks the way, sometimes",
+				"flavor":"Rudimentary fence gate"
+			},
+			"clay_fence": {
+				"display_name": "Clay Fence",
+				"description": "Blocks the way",
+				"flavor":"One piece at a time"
+			},
+			"clay_fence_half": {
+				"display_name": "Clay Fence Half",
+				"description": "Blocks the way",
+				"flavor":"One piece at a time"
+			},
+			"clay_fence_end": {
+				"display_name": "Clay Fence End",
+				"description": "Blocks the way",
+				"flavor":"One piece at a time"
+			},
+			"clay_water_well": {
+				"display_name": "Clay Water Well",
+				"description": "An ingenious mechanism for retrieving underground water."
+			},
+			"clay_window_frame": {
+				"display_name": "Clay Window Frame",
+				"description": "Let the light come in"
+			},
+			"clay_window_frame_wide": {
+				"display_name": "Wide Clay Window Frame",
+				"description": "Let more light come in"
+			},
+			"wooden_water_well": {
+				"display_name": "Wooden Water Well",
+				"description": "An ingenious mechanism for retrieving underground water."
+			},
+			"goblin_barricade": {
+				"display_name": "Double Barricade",
+				"description": "Blocks the way even more",
+				"flavor":"Rudimentary double fence"
+			},
+			"goblin_barricade_single": {
+				"display_name": "Barricade",
+				"description": "Blocks the way",
+				"flavor":"Rudimentary fence"
+			},
+			"goblin_barricade_gate": {
+				"display_name": "Barricade Gate",
+				"description": "Blocks the way, sometimes",
+				"flavor":"Rudimentary fence gate"
+			},
+			"clay_door": {
+				"display_name": "Clay Door",
+				"description": "A clay door with blue stripes. Good for entering, exiting and blocking intruders."
+			},
+			"curtains_door": {
+				"display_name": "Curtains Door",
+				"description": "A larger door. It makes quite an impression."
+			},
+			"wooden_door": {
+				"display_name": "Wooden Door",
+				"description": "To go in and out"
+			},
+			"wooden_door_frame": {
+				"display_name": "Wooden Door Frame",
+				"description": "To go in and out"
+			},
+			"wooden_window_frame": {
+				"display_name": "Wooden Window Frame",
+				"description": "Let the light come in"
+			},
+			"wooden_window_frame_wide": {
+				"display_name": "Wide Wooden Window Frame",
+				"description": "Let more light come in"
+			},
+			"wooden_window_frame_tall": {
+				"display_name": "Tall Wooden Window Frame",
+				"description": "Let more light come in. Actually, even goblins can go through it"
+			}
+		},
+		"consumables": {
+			"potions":{
+				"common":{
+					"flavor":"The effect is temporary, for the whole town."
+				},
+				"appearance": {
+					"display_name": "Appearance Potion",
+					"description":"Randomly changes someone appearance",
+					"flavor":"After using the potion, a list of all citizens will appear on the screen, there you can then select who will be affected.",
+					"ui":{
+						"title":"Appearance Potion",
+						"dialog_title":"Using an appearance potion",
+						"text":"Pick someone to have the effect applied to:"
+					}
+				},
+				"body": {
+					"display_name": "Body Potion",
+					"description":"Increases body attribute, but decreases mind and spirit."
+				},
+				"happy": {
+					"display_name": "Happy Potion",
+					"description":"Happy thoughts but makes you hungry",
+					"flavor":"The effect is for the whole town."
+				},
+				"large_healing": {
+					"display_name": "Strong Healing Tonic",
+					"description":"Heals a lot more than the small versions",
+					"flavor":"Shamans can manually use it to heal someone injured in bed."
+				},
+				"memory": {
+					"display_name": "Memory Potion",
+					"description":"Erases all current thoughts",
+					"flavor":"The effect is for the whole town."
+				},
+				"mind": {
+					"display_name": "Mind Potion",
+					"description":"Increases mind attribute, but decreases body and spirit."
+				},
+				"small_healing": {
+					"flavor":"Shamans can manually use it to heal someone injured in bed."
+				},
+				"speed": {
+					"display_name": "Speed Potion",
+					"description":"Increase speed, but decreases health."
+				},
+				"spirit": {
+					"display_name": "Spirit Potion",
+					"description":"Increases spirit attribute, but decreases mind and body."
+				},
+				"teleport": {
+					"display_name": "Teleport Potion",
+					"description":"Teleport back to the banner, but everyone gets tired and sleepy",
+					"flavor":"The effect is for the whole town."
+				}
+			},
+			"seeds":{
+				"cattail": {
+					"display_name": "Cattail seeds",
+					"description": "Learn to grow cattail plants."
+				},
+				"giple": {
+					"display_name": "Giple seeds",
+					"description": "Learn to grow giple plants."
+				},
+				"mangrove_halfsize": {
+					"display_name": "Mangrove seeds",
+					"description": "Learn to grow mangrove trees."
+				},
+				"swamp_mushroom": {
+					"display_name": "Mushroom seeds",
+					"description": "Learn to grow mushrooms."
+				}
+			}
+		},
+		"containers":{
+			"chest":{
+				"display_name": "Wooden Chest",
+				"description": "Stores up to 24 items"
+			},
+			"clay_chest":{
+				"display_name": "Clay Chest",
+				"description": "Stores up to 64 items"
+			},
+			"giant_bag":{
+				"display_name": "Giant Bag",
+				"description": "Stores up to 96 items",
+				"flavor":"Peak organization right here, just throw everything inside and worry about it later."
+			},
+			"small_bag":{
+				"display_name": "Small Bag",
+				"description": "Stores up to 8 items",
+				"flavor":"\"-How many times I have to tell you to not leave your stuff on the floor?\""
+			},
+			"stone_chest":{
+				"display_name": "Stone Chest",
+				"description": "Stores up to 48 items"
+			}
+		},
+		"critters": {
+			"dragonfly": {
+				"species": "dragonfly",
+				"display_name": "Dragonfly",
+				"description": "Flying insect"
+			},
+			"frog": {
+				"species": "frog",
+				"display_name": "Frog",
+				"description": "Jumpy amphibian"
+			}
+		},
+		"crops":{
+			"cattail_crop": {
+				"display_name": "Cattail",
+				"description": "Aquatic fiber plant",
+				"growth_stage": {
+					"000": {
+						"name": "Cattail Seedlings",
+						"description": "Still growing!"
+					},
+					"001": {
+						"name": "Cattail Sprouts",
+						"description": "Just need some time and care."
+					},
+					"002": {
+						"name": "Cattail Buds",
+						"description": "It's almost there! Look, it has buds!"
+					},
+					"003": {
+						"name": "Cattail",
+						"description": "Can be harvested for fiber"
+					}
+				}
+			},
+			"giple_crop": {
+				"display_name": "Giple Flower",
+				"description": "Can be used as a healing herb",
+				"growth_stage": {
+					"000": {
+						"name": "Giple Flower Seedlings",
+						"description": "Still growing!"
+					},
+					"001": {
+						"name": "Giple Flower Sprouts",
+						"description": "Just need some time and care."
+					},
+					"002": {
+						"name": "Giple Flower Buds",
+						"description": "It's almost there! Look, it has buds!"
+					},
+					"003": {
+						"name": "Giple Flower",
+						"description": "Can be harvested for herbs"
+					}
+				}
+			},
+			"mangrove_crop": {
+				"display_name": "Mangrove Sapling",
+				"description": "Out of trees? Get ready to participate in reforestation.",
+				"growth_stage": {
+					"000": {
+						"name": "Seed Pod",
+						"description": "Even a mighty tree has humble beginnings."
+					},
+					"001": {
+						"name": "Mangrove Seedling",
+						"description": "It's just getting started."
+					},
+					"002": {
+						"name": "Mangrove Sprout",
+						"description": "Reach for the sun"
+					},
+					"003": {
+						"name": "Mangrove Sapling",
+						"description": "Ready to be transferred to a bigger plot."
+					}
+				}
+			},
+			"mushroom_crop": {
+				"display_name": "Swamp Mushrooms",
+				"description": "Slow grow for a mushroom, and pretty bland on its own.",
+				"growth_stage": {
+					"000": {
+						"name": "Mushroom",
+						"description": "Planted to grow a meager food supply."
+					},
+					"001": {
+						"name": "Mushroom",
+						"description": "Just need some time and care."
+					},
+					"002": {
+						"name": "Mushroom",
+						"description": "Still growing!"
+					},
+					"003": {
+						"name": "Mushroom",
+						"description": "Can be harvested for food"
+					}
+				}
+			},
+			"violet_crop": {
+				"display_name": "Violet Flower",
+				"description": "Can be used as a healing herb",
+				"growth_stage": {
+					"000": {
+						"name": "Violet Seedlings",
+						"description": "Still growing!"
+					},
+					"001": {
+						"name": "Violet Sprouts",
+						"description": "Just need some time and care."
+					},
+					"002": {
+						"name": "Violet Buds",
+						"description": "It's almost there! Look, it has buds!"
+					},
+					"003": {
+						"name": "Violets",
+						"description": "Can be harvested for healing herbs"
+					}
+				}
+			}
+		},
+		"decoration": {
+			"awning": {
+				"display_name": "Awning",
+				"description": "For those who don't like sun in their eyes.",
+				"flavor": "Light-blocking technology encourages sleeping-in."
+			},
+			"big_firefly_essense": {
+				"display_name": "Big Firefly Essence",
+				"description": "Has the equivalent of 8 small firefly essence bottles. Glow in the dark",
+				"flavor": "Can be harvested back to 8 bottles later"
+			},
+			"certificate": {
+				"display_name": "Goblin Certificate",
+				"description": "Proof of something well done",
+				"flavor": "Could be from a promotion, or from winning a spit competition, anything is valid"
+			},
+			"fiber_rug": {
+				"display_name": "Fiber Rug",
+				"description": "A blend of fibers are woven tightly by hand, for whatever foot traffic comes its way.",
+				"flavor": "Easy to clean later."
+			},
+			"gong": {
+				"green_name": "Green Gong",
+				"blue_name": "Blue Gong",
+				"red_name": "Red Gong",
+				"purple_name": "Purple Gong",
+				"description": "Enormous and decorative!",
+				"flavor": "As it turns out, their hats were very dense"
+			},
+			"hourglass": {
+				"display_name": "Giant Hourglass",
+				"description": "A funny shaped glass with sand inside, draining from one end to the other",
+				"flavor": "It is not my turn to flip it!"
+			},
+			"nature_hearth": {
+				"display_name": "Nature Hearth",
+				"description": "Provides warmth, light, comfort, and random daily buffs"
+			},
+			"warrior_hearth": {
+				"display_name": "Warrior Hearth",
+				"description": "Provides warmth, light, comfort, and combat training sessions"
+			},
+			"large_candle": {
+				"display_name": "Large Candle",
+				"description": "Big tall candle"
+			},
+			"small_candle": {
+				"display_name": "Small Candle",
+				"description": "Small candle, same light"
+			},
+			"wall_candle": {
+				"display_name": "Wall Candle",
+				"description": "Small candle hangable in walls"
+			},
+			"goblin_large_totem": {
+				"display_name": "Firefly Large Totem",
+				"description": "Commemorative totem, resembling someone from the clan",
+				"flavor": "Don't worry, it is not made from real skulls, just white paint"
+			},
+			"goblin_small_totem": {
+				"display_name": "Firefly Small Totem",
+				"description": "Commemorative totem, resembling someone from the clan",
+				"flavor": "Don't worry, it is not made from real skulls, just white paint"
+			},
+			"goblin_market": {
+				"display_name": "Firefly Bazaar",
+				"description": "Goblin trader with goblin items"
+			},
+			"goblin_market_stall": {
+				"display_name": "Trading Stall"
+			},
+			"clay_lamp": {
+				"display_name": "Clay Lamp",
+				"description": "Small flames brings a glow at night",
+				"flavor": "- Did you put your name in the goblet of fire?"
+			},
+			"landmarker": {
+				"display_name": "Landmarker",
+				"description": "Marks the land",
+				"flavor": "- Goblins were here"
+			},
+			"old_landmarker": {
+				"display_name": "Old Landmarker",
+				"description": "Remains from past settlements"
+			},
+			"mini_fountain": {
+				"display_name": "Mini Fountain",
+				"description": "Water starts at the top and flow down going through all pieces",
+				"flavor": "4 of these can be placed together to create a larger fountain"
+			},
+			"wood_wall_fountain": {
+				"display_name": "Wood Wall Fountain",
+				"description": "Mini waterfall",
+				"flavor": "~ Wash your hands"
+			},
+			"stone_wall_fountain": {
+				"display_name": "Stone Wall Fountain",
+				"description": "Mini waterfall",
+				"flavor": "~ Wash your hands"
+			},
+			"clay_wall_fountain": {
+				"display_name": "Clay Wall Fountain",
+				"description": "Mini waterfall",
+				"flavor": "~ Wash your hands"
+			},
+			"mushroom_target": {
+				"display_name": "Mushroom Target",
+				"description": "Soft target practice for beginners",
+				"flavor": "Hopefully it does not hit back"
+			},
+			"pole_banner": {
+				"display_name": "Pole Banner",
+				"description": "A banner with the clan colors, raised high so everyone can see it",
+				"flavor": "Military units will consider this on their patrol path"
+			},
+			"potted_cattail": {
+				"display_name": "Potted Cattail",
+				"description": "Natural from the swamp biome, now for your home",
+				"flavor": "Hey, can you water my plants while I'm away?"
+			},
+			"potted_giple": {
+				"display_name": "Potted Giple Flower",
+				"description": "Natural from the swamp biome, now for your home",
+				"flavor": "Hey, can you water my plants while I'm away?"
+			},
+			"potted_sapling": {
+				"display_name": "Potted Sapling",
+				"description": "Natural from the swamp biome, now for your home",
+				"flavor": "Hey, can you water my plants while I'm away?"
+			},
+			"shrine": {
+				"tall": {
+					"display_name": "Posterity Obelisk",
+					"description": "A monument for the future, of safety and friendship"
+				},
+				"book": {
+					"display_name": "Immemorial Tome",
+					"description": "Chronicles of our people, honor in our past"
+				}
+			},
+			"travel_stall": {
+				"display_name": "Firefly Travel Stall",
+				"description": "Send goblins into reembarkations"
+			},
+			"wall_lamp": {
+				"display_name": "Firefly Wall Lamp",
+				"description": "Wall hanging decorative lamp",
+				"flavor": "Fancy, high status lamp"
+			},
+			"wall_mask": {
+				"display_name": "Wall Mask",
+				"description": "Wall hanging decorative mask",
+				"flavor": "Each mask tells a different story"
+			},
+			"wall_ring": {
+				"display_name": "Wall Ring",
+				"description": "Wall hanging decorative ring",
+				"flavor": "Low light, high confort"
+			},
+			"windchime": {
+				"display_name": "Windchime",
+				"description": "Soothing happy notes",
+				"flavor": "A different melody plays as the wind changes"
+			},
+			"window_box_clay": {
+				"display_name": "Clay Window Box"
+			},
+			"window_box_wood": {
+				"display_name": "Window Box",
+				"description": "A tidy home for the plant."
+			},
+			"window_mushroom_box_clay": {
+				"display_name": "Clay Window Mushroom Box"
+			},
+			"window_mushroom_box_wood": {
+				"display_name": "Window Mushroom Box",
+				"description": "A tidy home for the mushroom."
+			},
+			"wood_sign": {
+				"goblin": {
+					"display_name": "Goblin Sign",
+					"description": "A sign with a goblin face"
+				},
+				"hammer": {
+					"display_name": "Hammer Sign",
+					"description": "A sign with a hammer"
+				},
+				"mug": {
+					"display_name": "Mug Sign",
+					"description": "A sign with a mug"
+				},
+				"mushroom": {
+					"display_name": "Mushroom Sign",
+					"description": "A sign with a mushroom"
+				},
+				"pot": {
+					"display_name": "Pot Sign",
+					"description": "A sign with a pot"
+				},
+				"poyo": {
+					"display_name": "Poyo Sign",
+					"description": "A sign with a poyo"
+				},
+				"saw": {
+					"display_name": "Saw Sign",
+					"description": "A sign with a saw"
+				},
+				"tree": {
+					"display_name": "Tree Sign",
+					"description": "A sign with a tree"
+				},
+				"varanus": {
+					"display_name": "Varanus Sign",
+					"description": "A sign with a varanus face"
+				}
+			}
+		},
+		"food": {
+			"fake_vegetables": {
+				"display_name": "Vegetables Substitute",
+				"description": "Goblins are not too fond of vegetables, so Shamans had to get creative to keep a healthy diet.",
+				"flavor": "This food item counts as a vegetable for all other recipes"
+			},
+			"frog_jerky": {
+				"display_name": "Frog Jerky"
+			},
+			"mushroom": {
+				"display_name": "Swamp Mushroom",
+				"description": "Ready for eating"
+			},
+			"plate_of_mushrooms": {
+				"display_name": "Plate of Swamp Mushrooms",
+				"description": "Chopped mushroom",
+				"flavor": "Uses ingredients found in the Swamp Biome"
+			}
+		},
+		"furniture": {
+			"clay": {
+				"bed": {
+					"display_name": "(Firefly) Clay Bed"
+				},
+				"chair": {
+					"display_name": "(Firefly) Clay Chair"
+				},
+				"table": {
+					"display_name": "(Firefly) Clay Table"
+				}
+			},
+			"mushroom": {
+				"bed": {
+					"display_name": "Mushroom Bed"
+				},
+				"chair": {
+					"display_name": "Mushroom Chair",
+					"description": "You can sit on it. Very soft."
+				},
+				"table": {
+					"display_name": "Mushroom Table",
+					"description": "A table, for table things. A little wobbly."
+				}
+			},
+			"stone": {
+				"bed": {
+					"display_name": "(Firefly) Stone Bed"
+				},
+				"chair": {
+					"display_name": "(Firefly) Stone Chair"
+				},
+				"table": {
+					"display_name": "(Firefly) Stone Table"
+				},
+				"throne": {
+					"display_name": "Stone Throne",
+					"description": "Large and fancy chair for special goblins",
+					"flavor": "Watchout, no one wants to be left out, everyone is special"
+				}
+			},
+			"wood":{
+				"chair": {
+					"display_name": "(Firefly) Simple Chair",
+					"description": "You can sit on it"
+				},
+				"table": {
+					"display_name": "(Firefly) Simple Table",
+					"description": "A table, for table things"
+				}
+			},
+			"hammock": {
+				"display_name": "Hammock",
+				"description": "To sleep far from the ground"
+			},
+			"swing": {
+				"display_name": "Swing",
+				"description": "You can sit on it",
+				"flavor": "Is this broken? Why the swing does not move?"
+			},
+			"wood_throne": {
+				"display_name": "Wood Throne",
+				"description": "Large and fancy chair for special goblins",
+				"flavor": "Watchout, no one wants to be left out, everyone is special"
+			}
+		},
+		"goblins": {
+			"egg": {
+				"display_name": "Goblin Egg",
+				"description": "Keep it safe"
+			},
+			"baby": {
+				"display_name": "Baby Goblin",
+				"description": "It will turn into a grown up soon"
+			}
+		},
+		"gizmos": {
+			"camp_standard": {
+				"display_name": "Camp Banner",
+				"description": "How you know you've come home"
+			},
+			"egg_basket": {
+				"display_name": "Egg Basket",
+				"description": "It has space for one big egg"
+			},
+			"firefly_shield": {
+				"display_name": "Firefly force shield",
+				"description": "Enemies can't go through it"
+			},
+			"firefly_shield_off": {
+				"display_name": "Firefly force shield (off)",
+				"description": "Deactivated"
+			},
+			"goblin_camp_standard": {
+				"display_name": "Banner of Goblins",
+				"description": "How you know you've come home",
+				"town_bonus_description": "<i>This settlement will grow strong through our muscles and spirit.</i><ul><li>Mining gives 50% more Ore, Stone, and Clay</li><li>Goblins no longer mind cramped spaces</li></ul>"
+			},
+			"varanus_camp_standard": {
+				"display_name": "Banner of Nature",
+				"description": "How you know you've come home",
+				"town_bonus_description": "<i>This settlement shall be at one with the environment.</i><ul><li>Trees produce 25% more Wood</li><li>Plants and Crops both grow 25% faster</li><li>Plants have 2x their normal Appeal</li></ul>"
+			},
+			"goblinpedia": {
+				"display_name": "Goblinpedia",
+				"description": "About goblins and swamps",
+				"flavor":"Use this item to open an actual encyclopedia with all the necessary information about the Firefly Clan and the Swamp Biome. Can also be used as just a nice decoration"
+			},
+			"safety_standard":{
+				"stone":{
+					"display_name":"Stone Safety Standard"
+				}
+			}
+		},
+		"humans":{
+			"nina":{
+				"display_name":"Nina",
+				"description":"Royalty"
+			}
+		},
+		"landmark":{
+			"firefly_nest":{
+				"display_name":"Firefly Nest",
+				"description":"Summons a firefly nest in a raised garden"
+			},
+			"giant_mushroom":{
+				"display_name":"Giant Swamp Mushroom",
+				"description":"Summons a giant mushroom, mineable and edible"
+			},
+			"king_stone":{
+				"display_name":"King Stone",
+				"description":"Summons a big rock with a stair formation to the top"
+			},
+			"minerals":{
+				"display_name":"Minerals",
+				"description":"Summons big rocks spread in a large area"
+			},
+			"mushroom_stone":{
+				"display_name":"Mushroom Stone",
+				"description":"Summons a raised piece of rock with some swamp mushrooms on top"
+			},
+			"varanus_nest":{
+				"display_name":"Varanus Nest",
+				"description":"Summons a cave entrance with a varanus nest inside"
+			},
+			"waterfall":{
+				"display_name":"Waterfall",
+				"description":"Summons a big rock formation with a waterfall"
+			}
+		},
+		"manipulation":{
+			"weather_stone": {
+				"display_name": "Weather Stone",
+				"description": "Can randomly change the weather",
+				"flavor": "After placed, it needs to be charged with jewels before being activated."
+			}
+		},
+		"monsters": {
+			"bear": {
+				"display_name": "Swamp Bear",
+				"description": "Big and fast, a little muddy, yet fluffy"
+			},
+			"doodles_egg_raider": {
+				"description": "Sensed a nutritious goblin egg"
+			},
+			"golems": {
+				"firefly_golem":{
+					"display_name": "Firefly Golem",
+					"description": "Constructed of stone and empowered by ancient knowledge.",
+					"flavor": "Powers combined."
+				}
+			},
+			"varanus_nest": {
+				"display_name": "Varanus Nest",
+				"description": "Spawns more varanus over time"
+			}
+		},
+		"music":{
+			"bongo":{
+				"display_name":"Bongo",
+				"description":"A percussion instrument consisting of a pair of small drums of different sizes.",
+				"flavor":"Click on it and press the play button, someone will come to play it"
+			},
+			"xylophone":{
+				"display_name":"Xylophone",
+				"description":"A musical instrument in the percussion family that consists of wooden bars struck by mallets.",
+				"flavor":"Click on it and press the play button, someone will come to play it"
+			}
+		},
+		"peoples": {
+			"goblin": {
+				"species": "goblin"
+			}
+		},
+		"plants": {
+			"cattail": {
+				"display_name": "Cattail",
+				"recipe_name": "Cattail Seeds (x3)",
+				"description": "This plant's fiber can be spun into thread.",
+				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"seed":{
+					"display_name": "Cattail Seeds",
+					"description": "The small seeds of a big plant"
+				},
+				"sprout":{
+					"display_name": "Cattail Sprout",
+					"description": "Just needs some time and care."
+				}
+			},
+			"giant_flower": {
+				"display_name": "Giple Flower",
+				"recipe_name": "Giple Seeds (x3)",
+				"description": "Can be harvested for healing herbs",
+				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"seed":{
+					"display_name": "Giple Flower Seeds",
+					"description": "The small seeds of a giant flower"
+				},
+				"sprout":{
+					"display_name": "Giple Flower Sprout",
+					"description": "Just needs some time and care."
+				}
+			},
+			"mushroom": {
+				"display_name": "Swamp Mushroom",
+				"description": "Harvestable for a meager food supply.",
+				"unripe_description": "This mushroom has been harvested and has not grown back yet"
+			},
+			"mushroom_garden": {
+				"display_name": "Swamp Mushroom Garden",
+				"description": "Harvestable for new plantable mushrooms",
+				"flavor": "Important distinction: It does not yield food mushrooms, only the plantable mushroom, that once planted can later can be harvested for food",
+				"unripe_description": "The mushroom in this garden has not fully grown yet"
+			},
+			"log": {
+				"display_name": "Log",
+				"description": "A floating piece of log"
+			},
+			"lilypad": {
+				"display_name": "Lilypad",
+				"description": "Floats and can hold up a lot of weight"
+			}
+		},
+		"refined": {
+			"fiber": {
+				"display_name": "Refined Fiber",
+				"description": "Fiber prepared to be used on buildings",
+				"flavor": "Common fibers would not be enough for the task"
+			},
+			"jewel": {
+				"display_name": "Firefly Jewel",
+				"description": "Bright, glowing marbles",
+				"flavor": "Has the magical properties of the essences and minerals used to craft them."
+			}
+		},
+		"resources": {
+			"cattail": {
+				"display_name": "Cattail Bundle",
+				"description": "Spinnable into thread."
+			},
+			"giant_flower": {
+				"display_name": "Giple Flower",
+				"description": "An herb commonly used for medicinal purposes"
+			},
+			"pelt": {
+				"bear_pelt": {
+					"display_name": "Bear Pelt",
+					"description": "Pelt from a bear"
+				}
+			},
+			"firefly_essense": {
+				"display_name": "Firefly Essence",
+				"description": "Has magical properties",
+				"flavor": "Essential ingredient for many magic related recipes"
+			}
+		},
+		"summons": {
+			"dragon_aura": {
+				"display_name": "Dragon Spirit",
+				"description": "Ancient Dragon from older times"
+			},
+			"big_g": {
+				"display_name": "Big G",
+				"description": "Beloved and playful, helped his generation through tough times"
+			},
+			"big_wolf": {
+				"display_name": "Big Wolf",
+				"description": "Playful with allies, a beast for the enemies."
+			},
+			"goblin_spirit": {
+				"display_name": "Goblin Spirit",
+				"description": "An old ancestor summoned back"
+			},
+			"poyo":{
+				"display_name": "Four Feathers Member",
+				"description": "Elite Poyo summoned to help in the fight"
+			},
+			"trap": {
+				"display_name": "Trap",
+				"description": "Trapping something inside"
+			}
+		},
+		"trees": {
+			"bogger": {
+				"display_name": "Bogger Tree",
+				"description": "It radiates a mysterious aura",
+				"bud": {
+					"display_name": "Bogger bud",
+					"description": "Growing"
+				},
+				"seed": {
+					"display_name": "Bogger seed",
+					"description": "Plantable to grow a bogger tree"
+				},
+				"sprout": {
+					"display_name": "Bogger sprout",
+					"description": "Growing"
+				},
+				"stem": {
+					"display_name": "Bogger stem",
+					"description": "Growing"
+				}
+			},
+			"cypress": {
+				"display_name": "Swamp Cypress",
+				"description": "Deep roots into the soil",
+				"bud": {
+					"display_name": "Cypress bud",
+					"description": "Growing"
+				},
+				"seed": {
+					"display_name": "Cypress seed",
+					"description": "Plantable to grow a cypress tree"
+				},
+				"sprout": {
+					"display_name": "Cypress sprout",
+					"description": "Growing"
+				},
+				"stem": {
+					"display_name": "Cypress stem",
+					"description": "Growing"
+				}
+			},
+			"mangrove": {
+				"display_name": "Mangrove Tree",
+				"description": "Long roots",
+				"bud": {
+					"display_name": "Mangrove bud",
+					"description": "Growing"
+				},
+				"seed": {
+					"display_name": "Mangrove seed",
+					"description": "Plantable to grow a Mangrove tree"
+				},
+				"sprout": {
+					"display_name": "Mangrove sprout",
+					"description": "Growing"
+				},
+				"stem": {
+					"display_name": "Mangrove stem",
+					"description": "Growing"
+				}
+			},
+			"stump": {
+				"display_name": "Tree Stump",
+				"description": "The remains of a tree."
+			},
+			"swirl": {
+				"display_name": "Swirl Tree",
+				"description": "An impressive specimen."
+			}
+		},
+		"weapons": {
+			"crude_axe": {
+				"display_name": "(Firefly) Crude Axe"
+			},
+			"dart_tube": {
+				"display_name": "Dart Tube",
+				"description": "To spit poison darts"
+			},
+			"giant_bone_axe": {
+				"display_name": "(Firefly) Giant Bone Axe"
+			},
+			"giant_bone_mace": {
+				"display_name": "(Firefly) Giant Bone Mace"
+			},
+			"magma_sword": {
+				"display_name": "Magma Sword",
+				"description": "Made from melting metals",
+				"flavor": "Must be skilled enough to make such a weapon. And skilled enough to use it."
+			},
+			"poison_dart": {
+				"display_name": "Poison Dart",
+				"description": "Can poison enemies"
+			},
+			"skull_basher": {
+				"display_name": "(Firefly) Skull Basher",
+				"description": "Try to aim it at enemies head"
+			},
+			"spear": {
+				"display_name": "(Firefly) Spear",
+				"description": "Basic short spear"
+			},
+			"stick": {
+				"display_name": "Stick",
+				"description": "Just a random wooden stick"
+			},
+			"stone_maul": {
+				"display_name": "(Firefly) Stone Maul"
+			}
+		}
+	},
+	"jobs": {
+		"beast_tamer": {
+			"beast_tamer_description": {
+				"display_name": "Beast Tamer",
+				"description": "Summon and controls animals in battle",
+				"requirements": "Crafted by Carpenter",
+				"goblin_requirements": "Crafted by Shaman",
+				"level_1_data": {
+					"perk_000_name": "Four Feathers",
+					"perk_000_description": "A group of elite Poyos called the Four Feathers will join and help in the fight"
+				},
+				"level_2_data": {
+					"perk_000_name": "Wild Life",
+					"perk_000_description": "Summons local fauna wildlife to help in the battle"
+				},
+				"level_3_data": {
+					"perk_000_name": "Traps",
+					"perk_000_description": "Immobilize enemies using traps, the amount based on this goblin mind stat"
+				},
+				"level_4_data": {
+					"perk_000_name": "Varanus",
+					"perk_000_description": "Summons a pair of varanus into the fight"
+				},
+				"level_5_data": {
+					"perk_000_name": "Firefly Cloud",
+					"perk_000_description": "Casts a cloud of fireflies into enemies, confusing and blinding them"
+				},
+				"level_6_data": {
+					"perk_000_name": "Dragon Aura",
+					"perk_000_description": "(Goblins only)<br>With the combined power of a (max level) Spirit Walker, they summon an ancient Dragon Spirit into battle",
+					"perk_001_name": "Big Wolf",
+					"perk_001_description": "(Hearthlings only)<br>Summons a big wolf, one that inspires your allies and scares the enemies."
+				}
+			},
+			"beast_tamer_flute": {
+				"display_name": "Beast Tamer Flute",
+				"beast_tamer_flute_talisman": {
+					"display_name": "Beast Tamer Flute",
+					"description": "Communicates with animals",
+					"flavor": "Promotes to Beast Tamer"
+				}
+			},
+			"beast_tamer_claw": {
+				"display_name": "Claw",
+				"description": "Short range sharp weapon"
+			}
+		},
+		"bonesmith": {
+			"bonesmith_description": {
+				"display_name": "Bonesmith",
+				"description": "Crafts basic items with materials like wood and fiber",
+				"requirements": "Crafted by Shaman",
+				"level_3_data": {
+					"perk_000_name": "Journeyman's Knowledge",
+					"perk_000_description": "When inspiration strikes, the Bonesmith may now craft an especially Fine quality of item.",
+					"perk_001_name": "Job Opportunities",
+					"perk_001_description": "Different materials are suddenly more interesting. This Bonesmith can be promoted to a Earthshaper."
+				},
+				"level_5_data": {
+					"perk_000_name": "Master's Insight",
+					"perk_000_description": "The Bonesmith can now create items of Excellent quality, and will make Fine quality items more often."
+				}
+			},
+			"bonesmith_saw": {
+				"display_name": "Bonesmith Saw",
+				"bonesmith_saw_talisman": {
+					"display_name": "Bonesmith Saw",
+					"description": "Basic saw for basic tasks",
+					"flavor": "Promotes a goblin to Bonesmith"
+				},
+				"description": "Basic saw for basic tasks"
+			},
+			"bonesmith_workbench": {
+				"display_name": "Bonesmith Workbench",
+				"description": "Only simple tasks should be done here"
+			},
+			"recipes": {
+				"amberstone": "Amberstone Items",
+				"music": "Music",
+				"signs": "Signs"
+			},
+			"weaving_table": {
+				"display_name": "Weaving Table",
+				"description": "A place to weave armors, even the hard solid ones"
+			}
+		},
+		"earthmaster": {
+			"earthmaster_description": {
+				"display_name": "Earthshaper",
+				"description": "Craft advance items and decorations using hard materials like stone and clay",
+				"requirements": "Crafted by Shaman",
+				"level_1_data": {
+					"perk_000_name": "Stone Crafting",
+					"perk_000_description": "From the advanced materials, stone is the most basic one. Still, quite a leap compared to the usual wood and fiber stuff."
+				},
+				"level_2_data": {
+					"perk_000_name": "Clay Sculpting",
+					"perk_000_description": "Crafting with clay is always interesting, such a soft material but when modelled and heated ends up almost as solid as stone."
+				},
+				"level_3_data": {
+					"perk_000_name": "Journeyman's Knowledge",
+					"perk_000_description": "When inspiration strikes, the Earthshaper may now craft an especially Fine quality of item.",
+					"perk_001_name": "Magma Smithing",
+					"perk_001_description": "What about rocks and metals as soft as clay? Liquid fire as some call it."
+				},
+				"level_5_data": {
+					"perk_000_name": "Master's Insight",
+					"perk_000_description": "The Earthshaper can now create items of Excellent quality, and will make Fine quality items more often."
+				}
+			},
+			"earthmaster_chisel": {
+				"display_name": "Earthshaper Chisel",
+				"earthmaster_chisel_talisman": {
+					"display_name": "Earthshaper Chisel",
+					"description": "To sculpt hard materials",
+					"flavor": "Promotes a goblin to Earthshaper"
+				},
+				"description": "To sculpt hard materials"
+			},
+			"magmasmith_workbench": {
+				"display_name": "Magma Workbench",
+				"description": "Lava flows from within"
+			},
+			"crusher": {
+				"display_name": "Crusher",
+				"description": "Breaks items into raw resources"
+			},
+			"mason_pedestal": {
+				"display_name": "Masonry Pedestal",
+				"description": "Craft in a well-lit space."
+			},
+			"potter_kiln": {
+				"display_name": "Pottery Kiln",
+				"description": "Hardens basic clay objects."
+			},
+			"potter_workbench": {
+				"display_name": "Pottery Wheel",
+				"description": "For making symmetrical clay goods"
+			},
+			"upgraded_outfit": {
+				"display_name": "Earthshaper Upgraded Outfit",
+				"description": "Upgraded outfit",
+				"flavor": ""
+			},
+			"recipes":{
+				"amberstone":"Amberstone Items",
+				"gizmos":"Gizmos",
+				"raw_stone":{
+					"display_name":"Raw Stone (x3)",
+					"description":"A mix of clay and chitin powder heated up to rock hard",
+					"flavor":""
+				},
+				"burn_wood":{
+					"display_name":"Coal",
+					"description":"Burn some wood until it turns to charcoal",
+					"flavor":""
+				}
+			}
+		},
+		"geomancer":{
+			"recipes":{
+				"categories":{
+					"swamp_landmarks":"Swamp Landmarks"
+				}
+			}
+		},
+		"scavenger": {
+			"scavenger_description": {
+				"requirements": "Crafted by Shaman"
+			},
+			"scavenger_backpack": {
+				"display_name": "Trapper Backpack",
+				"scavenger_backpack_talisman": {
+					"display_name": "Trapper Backpack",
+					"description": "Hold the scavenged loot",
+					"flavor": "Promotes a goblin to Trapper"
+				}
+			}
+		},
+		"shaman": {
+			"shaman_description": {
+				"display_name": "Shaman",
+				"description": "Takes care of the clan well-being and growth",
+				"requirements": "Crafted by another Shaman",
+				"level_1_data": {
+					"perk_000_name": "Firefly Essence",
+					"perk_000_description": "A power source extract from nature by shamans, used in most of the clans activities."
+				},
+				"level_2_data": {
+					"perk_000_name": "Cycle of Life",
+					"perk_000_description": "With an egg pedestal, goblins (workers) can do their most important ritual."
+				},
+				"level_3_data": {
+					"perk_000_name": "Journeyman's Knowledge",
+					"perk_000_description": "When inspiration strikes, the Shaman may now craft an especially Fine quality of item."
+				},
+				"level_4_data": {
+					"perk_000_name": "Potions",
+					"perk_000_description": "The Shaman is now skillful in different potions effects. Bad taste means better potions, they say.",
+					"perk_001_name": "Job Opportunities",
+					"perk_001_description": "It is possible to hear the spirits now. This Shaman can be promoted to a Spirit Walker."
+				},
+				"level_5_data": {
+					"perk_000_name": "Master's Insight",
+					"perk_000_description": "The Shaman can now create items of Excellent quality, and will make Fine quality items more often."
+				},
+				"level_6_data": {
+					"perk_000_name": "Chef",
+					"perk_000_description": "The clan is in good shape, time to get fancy. Recipes from all over were collected and are now easily available."
+				}
+			},
+			"shaman_workbench": {
+				"display_name": "Shaman Workbench",
+				"description": "Shamans will use to craft their stuff"
+			},
+			"brewing_stand": {
+				"display_name": "Brewing Stand",
+				"description": "Shamans will use to craft potions"
+			},
+			"shaman_firefly_token": {
+				"display_name": "Shaman Firefly Altar",
+				"description": "Shamans will use this to extract firefly essences"
+			},
+			"dreamcatcher": {
+				"display_name": "Shaman Dreamcatcher",
+				"dreamcatcher_talisman": {
+					"display_name": "Shaman Dreamcatcher",
+					"description": "Helps with magic. Don't let your dreams just be dreams.",
+					"flavor": "Promotes a goblin to Shaman"
+				},
+				"description": "Helps with magic"
+			},
+			"egg_pedestal": {
+				"display_name": "Egg Pedestal",
+				"description": "It is used to lay eggs and take care of them",
+				"flavor": "\"Goblin or the egg?\""
+			},
+			"recipes": {
+				"baby_care": "Baby Care",
+				"potions": "Potions",
+				"talismans": "Talismans"
+			}
+		},
+		"spirit_walker": {
+			"spirit_walker_description": {
+				"display_name": "Spirit Walker",
+				"description": "Healer, summons spirits to help in fights",
+				"requirements": "Crafted by Shaman",
+				"level_1_data": {
+					"perk_000_name": "Healing",
+					"perk_000_description": "Can heal in small amounts the health of allies"
+				},
+				"level_2_data": {
+					"perk_000_name": "Spirit Ball",
+					"perk_000_description": "Ranged attack, shoots spirit balls at enemies. Ball amount based on this goblin spirit stat."
+				},
+				"level_3_data": {
+					"perk_000_name": "Multiple Spirits",
+					"perk_000_description": "Summons multiple goblin spirits to help in the fight, the amount based on this goblin spirit stat"
+				},
+				"level_4_data": {
+					"perk_000_name": "Big G",
+					"perk_000_description": "Summons the beloved and playful goblin Big G. He helped his generation through tough times ages ago."
+				},
+				"level_5_data": {
+					"perk_000_name": "Warrior Aura Armor",
+					"perk_000_description": "All your Warriors will now be shielded by a defensive aura"
+				},
+				"level_6_data": {
+					"perk_000_name": "Dragon Aura",
+					"perk_000_description": "With the combined power of a (max level) Beast Tamer, they summon an ancient Dragon Spirit into battle"
+				}
+			},
+			"spirit_walker_staff": {
+				"display_name": "Spirit Walker Staff",
+				"spirit_walker_staff_talisman": {
+					"display_name": "Spirit Walker Staff",
+					"description": "Scary mace weapon",
+					"flavor": "Promotes a goblin to Spirit Walker"
+				},
+				"description": "Scary mace weapon"
+			},
+			"upgraded_staff": {
+				"display_name": "Spirit Walker Upgraded Staff",
+				"description": "Upgraded weapon",
+				"flavor": ""
+			}
+		},
+		"shadow_walker": {
+			"shadow_walker_description": {
+				"display_name": "Shadow Walker"
+			}
+		},
+		"warrior": {
+			"warrior_description": {
+				"display_name": "Warrior",
+				"requirements": "Crafted by Shaman",
+				"description": "Pride in fighting. Warriors are the ones to use heavy weapons and wear armor.",
+				"level_1_data": {
+					"perk_000_name": "The Basics",
+					"perk_000_description": "The basics are learned, gaining courage and increasing stamina"
+				},
+				"level_2_data": {
+					"perk_000_name": "Multiple Targets",
+					"perk_000_description": "Performs a Spin Attack that hits everyone around."
+				},
+				"level_3_data": {
+					"perk_000_name": "Poison Darts",
+					"perk_000_description": "Hits enemies far away with darts, poisoning them."
+				},
+				"level_4_data": {
+					"perk_000_name": "Self Aid",
+					"perk_000_description": "Tougher skin for a faster health regeneration."
+				},
+				"level_5_data": {
+					"perk_000_name": "Body Up",
+					"perk_000_description": "Strength acquired from past fights grants +1 Body stat"
+				},
+				"level_6_data": {
+					"perk_000_name": "Rage over Time",
+					"perk_000_description": "Stats gets higher the longer a fight lasts."
+				}
+			},
+			"warrior_horn": {
+				"display_name": "Warrior War Horn",
+				"warrior_horn_talisman": {
+					"display_name": "Warrior War Horn",
+					"description": "Useful communication tool in battles",
+					"flavor": "Promotes a goblin to Warrior"
+				}
+			}
+		},
+		"chief": {
+			"chief_description": {
+				"display_name": "Chief"
+			}
+		},
+		"firemaster": {
+			"firemaster_description": {
+				"display_name": "Firemaster"
+			}
+		},
+		"peon": {
+			"peon_description": {
+				"display_name": "Peon"
+			}
+		},
+		"party_goblin": {
+			"party_goblin_description": {
+				"display_name": "Party Goblin"
+			},
+			"party_goblin_flute": {
+				"display_name": "Party Goblin Flute",
+				"party_goblin_flute_talisman": {
+					"display_name": "Party Goblin Flute"
+				}
+			}
+		},
+		"worker": {
+			"worker_description": {
+				"description": "Workers perform basic tasks like harvesting resources, hauling stuff around, and constructing buildings.<br><br>⚔️ Goblin workers can also fight and be in a combat party."
+			},
+			"upgraded_outfit": {
+				"description": "Reinforced shiny talisman improves worker defenses, and it is fancy!"
+			}
+		}
+	},
+	"kingdoms": {
+		"firefly_clan": "Firefly Clan"
+	},
+	"ui": {
+		"data":{
+			"constants":{
+				"chitin_resource":"Any Chitin"
+			},
+			"egg_raid":{
+				"doodles":"Watch out! Some bugs are after our eggs!",
+				"doodles_giant":"Something big is coming",
+				"entling":"Someone is trying to steal the egg!",
+				"entling_army":"These guys got some reinforcements",
+				"varanus":"They seem hungry",
+				"zilla":"Watch out! Giant lizard is after our eggs!",
+				"undead":"Undeads are trying to destroy the eggs",
+				"undead_army":"They want the life energy of our eggs!"
+			},
+			"egg_needs_protection":{
+				"title":"Another egg down...",
+				"message":"We lost quite a few already<br>We need to find a way to protect them.",
+				"message2":"Maybe we have to relocate the eggs to a more secure place where the enemy can't get to them."
+			},
+			"no_workers":"You need workers to use the pedestal",
+			"new_goblin_baby":"An egg has hatched",
+			"new_goblin_citizen":"A baby no more. Welcome [str(i18n_data.adult_name)]"
+		},
+		"game": {
+			"goblinpedia":{
+				"title":"Goblinpedia",
+				"menu":"Menu",
+				"cover":{
+					"title":"About goblins and swamps",
+					"text":"* Pick the desired topic to read from the side menu"
+				},
+				"goblins":{
+					"display_name":"Firefly Clan",
+					"growth":{
+						"display_name":"Clan Growth",
+						"pedestal":{
+							"menu_link":"Pedestal",
+							"title":"Egg Pedestal",
+							"description1":"A nice ceremonial table for an important occasion",
+							"topic1":{
+								"title":"Crafting:",
+								"desc1":"The egg pedestal is crafted by the shaman of your clan, and workers can use it"
+							},
+							"topic2":{
+								"title":"How to use:",
+								"desc1":"After placing it, click on it. In the bottom left you will see its buttons. Click on the egg icon.",
+								"desc2":"One of your goblins (worker only) will come to this pedestal and lay an egg."
+							}
+						},
+						"egg":{
+							"menu_link":"Egg",
+							"title":"Goblin Egg",
+							"description1":"Who came first, the egg or the goblin?",
+							"description2":"Many goblins wondered about it for as long as they remember, but no one knows for sure.",
+							"description3":"The goblins current most acceptable hypothesys is that it was neither. It was a tie.",
+							"topic1":{
+								"title":"How to get:",
+								"desc1":"An egg pedestal is needed first, for a goblin worker to lay his egg."
+							},
+							"topic2":{
+								"title":"Hatching:",
+								"desc1":"After one day, the egg will hatch into a baby goblin."
+							},
+							"topic3":{
+								"title":"Protecting:",
+								"desc1":"Watch out, the egg attracts wild animals."
+							}
+						},
+						"baby":{
+							"menu_link":"Baby",
+							"title":"Baby Goblin",
+							"description1":"Little devils",
+							"topic1":{
+								"title":"Behaviour:",
+								"desc1":"Eat, sleep, ask for attention, repeat."
+							},
+							"topic2":{
+								"title":"Raising:",
+								"desc1":"Just feed it, a lot. Babies eat 5 times more than adults, so watch your stocks!"
+							},
+							"topic3":{
+								"title":"Grow:",
+								"desc1":"Once they've eaten enough (and well), they'll turn into adult goblins."
+							}
+						},
+						"goblin":{
+							"menu_link":"Goblin",
+							"title":"Goblin",
+							"description1":"Firefly Goblin",
+							"topic1":{
+								"title":"Firefly Clan:",
+								"desc1":"Now a full member of society."
+							},
+							"topic2":{
+								"title":"Jobs:",
+								"desc1":"Can be promoted to Warrior, Shaman, Spirit Walker, Trapper, Beast Tamer, Bonesmith and Earthshaper.",
+								"desc2":"(With mods, some other jobs may be possible too)"
+							},
+							"topic3":{
+								"title":"The good guys:",
+								"desc1":"Different from the green goblins, often associated with trouble, these ones are way more behaved and rooted."
+							}
+						}
+					},
+					"jobs":{
+						"display_name":"Jobs",
+						"beast_tamer":{
+							"menu_link":"Beast Tamer",
+							"title":"Beast Tamer",
+							"description1":"Synergy with the animals",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"Fighter class, promoted from a Trapper. Can summon animals to fight, from little poyos to giant dragons."
+							},
+							"topic2":{
+								"title":"What it does:",
+								"desc1":"Aside from summoning animals, they can trap enemies and cast a firefly cloud, blinding and confusing them.",
+								"desc2":"With the help of a Spirit Walker, they join forces and can summon an ancient dragon spirit."
+							},
+							"topic3":{
+								"title":"Hearthling variation:",
+								"desc1":"Hearthlings can be promoted to it too. Though the Spirit Walker teamwork to summon a dragon is now a solo effort to summon a Big Wolf."
+							}
+						},
+						"bonesmith":{
+							"menu_link":"Bonesmith",
+							"title":"Bonesmith",
+							"description1":"Low level, basic materials crafter",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"Basic crafter class. From equipments to furniture and decorations."
+							},
+							"topic2":{
+								"title":"What it does:",
+								"desc1":"Uses low level materials like wood and fibers to craft simple items.",
+								"desc2":"Starter houses uses mostly furniture and decoration from this class. Can also equip warriors with most of their weapons and armors."
+							},
+							"topic3":{
+								"title":"Promotion:",
+								"desc1":"Bonesmith can later be promoted into Earthshaper, an advanced high level crafter class."
+							}
+						},
+						"earthmaster":{
+							"menu_link":"Earthshaper",
+							"title":"Earthshaper",
+							"description1":"High level, complex materials crafter",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"Advanced crafter class. From equipments to furniture and decorations."
+							},
+							"topic2":{
+								"title":"What it does:",
+								"desc1":"Uses high level materials like stone and clay to craft furniture and decorations.",
+								"desc2":"Can upgrade other classes tools and workbenches, and do some simple metal refining, like crafting firefly jewels, a high level crafting resource"
+							},
+							"topic3":{
+								"title":"Beyond crafting:",
+								"desc1":"Earthshaper can craft crushers, containers that break items back into basic resources",
+								"desc2":"The class can also repair most items, like door, turrets and other breakable gizmos"
+							}
+						},
+						"shaman":{
+							"menu_link":"Shaman",
+							"title":"Shaman",
+							"description1":"The clan starter class",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"Starter crafter class. Central figure for the clan well-being and growth."
+							},
+							"topic2":{
+								"title":"What it does:",
+								"desc1":"Harvest firefly essence used to imbue items in magic, some cooking and herbalism.",
+								"desc2":"Crafts all the clan talismans. Can also craft the egg pedestal, an important item for the clan growth."
+							},
+							"topic3":{
+								"title":"Promotion:",
+								"desc1":"Shamans can later be promoted into Spirit Walkers, a summoner/healer class."
+							}
+						},
+						"spirit_walker":{
+							"menu_link":"Spirit Walker",
+							"title":"Spirit Walker",
+							"description1":"Connects goblins with their past",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"Healer class, promoted from a Shaman. Can summon spirits to fight."
+							},
+							"topic2":{
+								"title":"What it does:",
+								"desc1":"Aside from summoning spirits and ranged attacks, they can heal some health of near allies by small amounts."
+							},
+							"topic3":{
+								"title":"Class synergies:",
+								"desc1":"Can cast a protective aura to all warriors, increasing their defenses",
+								"desc2":"With the help of a Beast Tamer, they join forces and can summon an ancient dragon spirit."
+							}
+						},
+						"trapper":{
+							"menu_link":"Trapper",
+							"title":"Trapper",
+							"description1":"Basic food producer",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"wip"
+							},
+							"topic2":{
+								"title":"What it does:",
+								"desc1":"wip"
+							},
+							"topic3":{
+								"title":"Promotion:",
+								"desc1":"wip"
+							}
+						},
+						"warrior":{
+							"menu_link":"Warrior",
+							"title":"Warrior",
+							"description1":"Front line fighter",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"Main fighter class. The muscles of the party."
+							},
+							"topic2":{
+								"title":"What it does:",
+								"desc1":"Close range fighter, have access to many goblin equipments, increasing their attack and defense."
+							},
+							"topic3":{
+								"title":"Skills:",
+								"desc1":"Can learn new abilities as they progress.",
+								"desc2":"Can hit multiple enemies at once, use ranged poison darts, and even gets stronger stats."
+							}
+						},
+						"worker":{
+							"description1":"A brick in the wall. The base of the pyramid.",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"A humble start. Bright future ahead, maybe."
+							},
+							"topic2":{
+								"title":"What it does:",
+								"desc1":"Similar to other cultures, they will take care of all basic tasks like hauling or building.",
+								"desc2":"However, goblins are also good at fighting and will have basic fighting skills, being able to defend or attack as combat units."
+							},
+							"topic3":{
+								"title":"Parenting:",
+								"desc1":"Workers are the only ones that can lay eggs."
+							}
+						}
+					},
+					"goods":{
+						"display_name":"Goods",
+						"vegetables_substitute":{
+							"menu_link":"Vegetables Substitute",
+							"title":"Vegetables Substitute",
+							"description1":"Goblins are not too fond of vegetables, so Shamans had to get creative to keep a healthy diet.",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"An older recipe used by shamans to keep a better diet for the clan."
+							},
+							"topic2":{
+								"title":"Interaction:",
+								"desc1":"This food item counts as a vegetable for all other recipes."
+							}
+						},
+						"refined_fiber":{
+							"menu_link":"Refined Fiber",
+							"title":"Refined Fiber",
+							"description1":"Section 2 of the goblins building code",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"Fiber prepared to be used on buildings. Common fibers would not be enough for the task"
+							},
+							"topic2":{
+								"title":"Interaction:",
+								"desc1":"Another option for buildings. It is used like any other common building block."
+							}
+						}
+					}
+				},
+				"swamp":{
+					"display_name":"Swamp Biome",
+					"fauna":{
+						"display_name":"Fauna",
+						"firefly":{
+							"menu_link":"Firefly",
+							"title":"Firefly",
+							"description1":"Lights in the night",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"Flying insects that glows at night. Loved by the goblins."
+							},
+							"topic2":{
+								"title":"Behaviour:",
+								"desc1":"Usually group in big clouds glowing at night under the trees"
+							},
+							"topic3":{
+								"title":"Interaction:",
+								"desc1":"Can't be interacted directly, but shamans can extract magic powers from them, hence their clan name. Some goblins have a trait called Firefly Chaser, those goblins will walk into firefly clouds to admire them"
+							}
+						},
+						"frog":{
+							"menu_link":"Frog",
+							"title":"Frog",
+							"description1":"Small and slippy",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"Ambient small critters that can be found near the water."
+							},
+							"topic2":{
+								"title":"Behaviour:",
+								"desc1":"Spend their time jumping from one lilypad to another, hunting small insects. Very noisy at night."
+							},
+							"topic3":{
+								"title":"Interaction:",
+								"desc1":"Trappers can get them for food or even as pets, baby goblins love them."
+							}
+						},
+						"varanus":{
+							"menu_link":"Varanus",
+							"title":"Varanus",
+							"description1":"Always watching",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"Large reptiles with a hard skin, loves water."
+							},
+							"topic2":{
+								"title":"Behaviour:",
+								"desc1":"Usually hostile to those that get too close. Can be found near their nests at caves entrances."
+							},
+							"topic3":{
+								"title":"Interaction:",
+								"desc1":"When in the wild they are hostile, but a beast tamer can summon tamed varanus to fight with them."
+							}
+						}
+					},
+					"flora":{
+						"display_name":"Flora",
+						"cattail":{
+							"menu_link":"Cattail",
+							"title":"Firefly",
+							"description1":"Lights in the night",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"Flying insects that glows at night. Loved by the goblins."
+							},
+							"topic2":{
+								"title":"Behaviour:",
+								"desc1":"Usually group in big clouds glowing at night under the trees"
+							},
+							"topic3":{
+								"title":"Interaction:",
+								"desc1":"Can't be interacted directly, but shamans can extract magic powers from them, hence their clan name. Some goblins have a trait called Firefly Chaser, those will walk into firefly clouds to admire"
+							}
+						},
+						"giple":{
+							"menu_link":"Giple Flower",
+							"title":"Frog",
+							"description1":"Small and slippy",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"Ambient small critters that can be found near the water."
+							},
+							"topic2":{
+								"title":"Behaviour:",
+								"desc1":"Spend their time jumping from one lilypad to another, hunting small insects. Very noisy at night."
+							},
+							"topic3":{
+								"title":"Interaction:",
+								"desc1":"Trappers can get them for food or even as pets, baby goblins love them."
+							}
+						},
+						"mushroom":{
+							"menu_link":"Swamp Mushroom",
+							"title":"Varanus",
+							"description1":"Always watching",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"Large reptiles with a hard skin, loves water."
+							},
+							"topic2":{
+								"title":"Behaviour:",
+								"desc1":"Usually hostile to those that get too close. Can be found near their nests at caves entrances."
+							},
+							"topic3":{
+								"title":"Interaction:",
+								"desc1":"When in the wild they are hostile, but a beast tamer can summon tamed varanus to fight with them."
+							}
+						},
+						"tree":{
+							"menu_link":"Trees",
+							"title":"Varanus",
+							"description1":"Always watching",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"Large reptiles with a hard skin, loves water."
+							},
+							"topic2":{
+								"title":"Behaviour:",
+								"desc1":"Usually hostile to those that get too close. Can be found near their nests at caves entrances."
+							},
+							"topic3":{
+								"title":"Interaction:",
+								"desc1":"When in the wild they are hostile, but a beast tamer can summon tamed varanus to fight with them."
+							}
+						}
+					},
+					"others":{
+						"display_name":"Others",
+						"water":{
+							"menu_link":"Water",
+							"title":"Water",
+							"description1":"Covers most of the low areas",
+							"topic1":{
+								"title":"Description:",
+								"desc1":"Still water, shallow and dark in color."
+							},
+							"topic2":{
+								"title":"Interaction:",
+								"desc1":"Moving in this water is hard. The mud soil below it will surely make everyone slower while crossing it, and probably unhappy too."
+							}
+						},
+						"weather":{
+							"menu_link":"Weather",
+							"title":"Weather",
+							"description1":"Mostly foggy. In this region there are only two seasons",
+							"topic1":{
+								"title":"Dry season:",
+								"desc1":"Higher chance of dissipating the fog and having clear sky with hot temperatures. Rarely rains."
+							},
+							"topic2":{
+								"title":"Wet season:",
+								"desc1":"Mostly rain or light rain."
+							}
+						}
+					}
+				}
+			},
+			"menu": {
+				"crafter_menu": {
+					"items": {
+						"bonesmith": {
+							"display_name": "Bonesmith Craft Menu",
+							"description": "Build simple furniture and decor.",
+							"required_job_text": "Requires a Bonesmith"
+						},
+						"earthmaster": {
+							"display_name": "Earthshaper Craft Menu",
+							"description": "Stone and clay crafting.",
+							"required_job_text": "Requires a Earthshaper"
+						},
+						"shaman": {
+							"display_name": "Shaman Craft Menu",
+							"description": "Craft well-being improving items.",
+							"required_job_text": "Requires a Shaman"
+						}
+					}
+				}
+			}
+		}
+	}
+}

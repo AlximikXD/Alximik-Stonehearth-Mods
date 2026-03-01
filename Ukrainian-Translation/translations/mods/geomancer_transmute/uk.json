@@ -1,0 +1,41 @@
+{
+  "jobs": {
+    "geomancer": {
+      "recipes": {
+        "common": {
+          "transmute_flavor": "Трансмутація менш ефективна, ніж виклик каменів, але дозволяє пропустити процес видобутку."
+        },
+        "categories": {
+          "transmute": "Transmutation"
+        },
+        "stone_pile": {
+          "description": "Використовуйте Hearth Essence, щоб примножити камінь."
+        },
+        "clay_pile": {
+          "description": "Використовуйте Hearth Essence, щоб примножити глину."
+        },
+        "lump_of_coal": {
+          "description": "Використовуйте Hearth Essence, щоб отримати вугілля."
+        },
+        "tin_ore": {
+          "description": "Використовуйте Hearth Essence, щоб отримати олово."
+        },
+        "copper_ore": {
+          "description": "Використовуйте Hearth Essence, щоб отримати мідь."
+        },
+        "iron_ore": {
+          "description": "Використовуйте Hearth Essence, щоб отримати залізо."
+        },
+        "silver_ore": {
+          "description": "Використовуйте Hearth Essence, щоб отримати срібло."
+        },
+        "gold_ore": {
+          "description": "Використовуйте Hearth Essence, щоб отримати золото."
+        },
+        "hard_coal": {
+          "description": "Використовуйте Hearth Essence, щоб отримати кам'яне вугілля."
+        }
+      }
+    }
+  }
+}

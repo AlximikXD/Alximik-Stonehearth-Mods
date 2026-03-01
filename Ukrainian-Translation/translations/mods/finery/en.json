@@ -1,0 +1,1210 @@
+{
+  "ui": {},
+  "entities": {
+    "containers": {
+      "bar_corner_acacia": {
+        "description": "A tall bar corner cabinet made from acacia wood.",
+        "display_name": "Acacia Bar Corner",
+        "recipe_name": "Acacia Bar Corner",
+        "flavor": "Stores 24 pieces of stuff."
+      },
+      "bar_corner_cactus": {
+        "description": "A tall bar corner cabinet made from cactus wood.",
+        "display_name": "Cactus Bar Corner",
+        "recipe_name": "Cactus Bar Corner",
+        "flavor": "Stores 24 pieces of stuff."
+      },
+      "bar_corner_juniper": {
+        "description": "A tall bar corner cabinet made from juniper wood.",
+        "display_name": "Juniper Bar Corner",
+        "recipe_name": "Juniper Bar Corner",
+        "flavor": "Stores 24 pieces of stuff."
+      },
+      "bar_corner_oak": {
+        "description": "A tall bar corner cabinet made from oak wood.",
+        "display_name": "Oak Bar Corner",
+        "recipe_name": "Oak Bar Corner",
+        "flavor": "Stores 24 pieces of stuff."
+      },
+      "bar_corner_palm": {
+        "description": "A tall bar corner cabinet made from palm wood.",
+        "display_name": "Palm Bar Corner",
+        "recipe_name": "Palm Bar Corner",
+        "flavor": "Stores 24 pieces of stuff."
+      },
+      "bar_corner_pine": {
+        "description": "A tall bar corner cabinet made from pine wood.",
+        "display_name": "Pine Bar Corner",
+        "recipe_name": "Pine Bar Corner",
+        "flavor": "Stores 24 pieces of stuff."
+      },
+      "bar_corner_short_acacia": {
+        "description": "A waist height bar corner cabinet made from acacia wood.",
+        "display_name": "Acacia Bar Short Corner",
+        "recipe_name": "Acacia Bar Short Corner",
+        "flavor": "Stores 16 pieces of stuff."
+      },
+      "bar_corner_short_cactus": {
+        "description": "A waist height bar corner cabinet made from cactus wood.",
+        "display_name": "Cactus Bar Short Corner",
+        "recipe_name": "Cactus Bar Short Corner",
+        "flavor": "Stores 16 pieces of stuff."
+      },
+      "bar_corner_short_juniper": {
+        "description": "A waist height bar corner cabinet made from juniper wood.",
+        "display_name": "Juniper Bar Short Corner",
+        "recipe_name": "Juniper Bar Short Corner",
+        "flavor": "Stores 16 pieces of stuff."
+      },
+      "bar_corner_short_oak": {
+        "description": "A waist height bar corner cabinet made from oak wood.",
+        "display_name": "Oak Bar Short Corner",
+        "recipe_name": "Oak Bar Short Corner",
+        "flavor": "Stores 16 pieces of stuff."
+      },
+      "bar_corner_short_palm": {
+        "description": "A waist height bar corner cabinet made from palm wood.",
+        "display_name": "Palm Bar Short Corner",
+        "recipe_name": "Palm Bar Short Corner",
+        "flavor": "Stores 16 pieces of stuff."
+      },
+      "bar_corner_short_pine": {
+        "description": "A waist height bar corner cabinet made from pine wood.",
+        "display_name": "Pine Bar Short Corner",
+        "recipe_name": "Pine Bar Short Corner",
+        "flavor": "Stores 16 pieces of stuff."
+      },
+      "bar_storage_acacia": {
+        "description": "A tall bar cabinet made from acacia wood.",
+        "display_name": "Acacia Bar Cabinet",
+        "recipe_name": "Acacia Bar Cabinet",
+        "flavor": "Stores 24 pieces of stuff."
+      },
+      "bar_storage_cactus": {
+        "description": "A tall bar cabinet made from cactus wood.",
+        "display_name": "Cactus Bar Cabinet",
+        "recipe_name": "Cactus Bar Cabinet",
+        "flavor": "Stores 24 pieces of stuff."
+      },
+      "bar_storage_juniper": {
+        "description": "A tall bar cabinet made from juniper wood.",
+        "display_name": "Juniper Bar Cabinet",
+        "recipe_name": "Juniper Bar Cabinet",
+        "flavor": "Stores 24 pieces of stuff."
+      },
+      "bar_storage_oak": {
+        "description": "A tall bar cabinet made from oak wood.",
+        "display_name": "Oak Bar Cabinet",
+        "recipe_name": "Oak Bar Cabinet",
+        "flavor": "Stores 24 pieces of stuff."
+      },
+      "bar_storage_palm": {
+        "description": "A tall bar cabinet made from palm wood.",
+        "display_name": "Palm Bar Cabinet",
+        "recipe_name": "Palm Bar Cabinet",
+        "flavor": "Stores 24 pieces of stuff."
+      },
+      "bar_storage_pine": {
+        "description": "A tall bar cabinet made from pine wood.",
+        "display_name": "Pine Bar Cabinet",
+        "recipe_name": "Pine Bar Cabinet",
+        "flavor": "Stores 24 pieces of stuff."
+      },
+      "bar_storage_short_acacia": {
+        "description": "A waist height bar cabinet made from acacia wood.",
+        "display_name": "Acacia Bar Short Cabinet",
+        "recipe_name": "Acacia Bar Short Cabinet",
+        "flavor": "Stores 16 pieces of stuff."
+      },
+      "bar_storage_short_cactus": {
+        "description": "A waist height bar cabinet made from cactus wood.",
+        "display_name": "Cactus Bar Short Cabinet",
+        "recipe_name": "Cactus Bar Short Cabinet",
+        "flavor": "Stores 16 pieces of stuff."
+      },
+      "bar_storage_short_juniper": {
+        "description": "A waist height bar cabinet made from juniper wood.",
+        "display_name": "Juniper Bar Short Cabinet",
+        "recipe_name": "Juniper Bar Short Cabinet",
+        "flavor": "Stores 16 pieces of stuff."
+      },
+      "bar_storage_short_oak": {
+        "description": "A waist height bar cabinet made from oak wood.",
+        "display_name": "Oak Bar Short Cabinet",
+        "recipe_name": "Oak Bar Short Cabinet",
+        "flavor": "Stores 16 pieces of stuff."
+      },
+      "bar_storage_short_palm": {
+        "description": "A waist height bar cabinet made from palm wood.",
+        "display_name": "Palm Bar Short Cabinet",
+        "recipe_name": "Palm Bar Short Cabinet",
+        "flavor": "Stores 16 pieces of stuff."
+      },
+      "bar_storage_short_pine": {
+        "description": "A waist height bar cabinet made from pine wood.",
+        "display_name": "Pine Bar Short Cabinet",
+        "recipe_name": "Pine Bar Short Cabinet",
+        "flavor": "Stores 16 pieces of stuff."
+      },
+      "bronze_ingot_pile": {
+        "description": "A pile of 18 bronze ingots.",
+        "display_name": "Bronze Ingot Stockpile",
+        "recipe_name": "Bronze Ingot Stockpile",
+        "flavor": "A hardened alloy."
+      },
+      "copper_ingot_pile": {
+        "description": "A pile of 18 copper ingots.",
+        "display_name": "Copper Ingot Stockpile",
+        "recipe_name": "Copper Ingot Stockpile",
+        "flavor": "Highly conductive."
+      },
+      "gold_ingot_pile": {
+        "description": "A pile of 18 gold ingots.",
+        "display_name": "Gold Ingot Stockpile",
+        "recipe_name": "Gold Ingot Stockpile",
+        "flavor": "So shiney...and heavy."
+      },
+      "iron_ingot_pile": {
+        "description": "A pile of 18 iron ingots.",
+        "display_name": "Iron Ingot Stockpile",
+        "recipe_name": "Iron Ingot Stockpile",
+        "flavor": "Not to be confused with irony."
+      },
+      "silver_ingot_pile": {
+        "description": "A pile of 18 silver ingots.",
+        "display_name": "Silver Ingot Stockpile",
+        "recipe_name": "Silver Ingot Stockpile",
+        "flavor": "Even more conductive than copper and prettier too."
+      },
+      "steel_ingot_pile": {
+        "description": "A pile of 18 steel ingots.",
+        "display_name": "Steel Ingot Stockpile",
+        "recipe_name": "Steel Ingot Stockpile",
+        "flavor": "A superiorly hardened alloy."
+      },
+      "tin_ingot_pile": {
+        "description": "A pile of 18 tin ingots.",
+        "display_name": "Tin Ingot Stockpile",
+        "recipe_name": "Tin Ingot Stockpile",
+        "flavor": "A very soft metal...if only we could combined it with something."
+      },
+      "hopechest_acacia": {
+        "description": "A hopechest made from acacia wood.",
+        "display_name": "Acacia Hopechest",
+        "recipe_name": "Acacia Hopechest",
+        "flavor": "Hansome place to store 16 pieces of stuff."
+      },
+      "hopechest_cactus": {
+        "description": "A hopechest made from cactus wood.",
+        "display_name": "Cactus Hopechest",
+        "recipe_name": "Cactus Hopechest",
+        "flavor": "Hansome place to store 16 pieces of stuff."
+      },
+      "hopechest_juniper": {
+        "description": "A hopechest made from juniper wood.",
+        "display_name": "Juniper Hopechest",
+        "recipe_name": "Juniper Hopechest",
+        "flavor": "It is bigger on the inside and can keep 16 items."
+      },
+      "hopechest_oak": {
+        "description": "A hopechest made from oak wood.",
+        "display_name": "Oak Hopechest",
+        "recipe_name": "Oak Hopechest",
+        "flavor": "Short and sturdy place to hide 16 things."
+      },
+      "hopechest_palm": {
+        "description": "A hopechest made from palm wood.",
+        "display_name": "Palm Hopechest",
+        "recipe_name": "Palm Hopechest",
+        "flavor": "Full of color and capable of holding 16 trinkets."
+      },
+      "hopechest_pine": {
+        "description": "A hopechest made from pine wood.",
+        "display_name": "Pine Hopechest",
+        "recipe_name": "Pine Hopechest",
+        "flavor": "Smells like winter and holds 16 items."
+      },
+      "log_pile_acacia": {
+        "description": "A pile of acacia logs.",
+        "display_name": "Acacia Log Pile",
+        "recipe_name": "Acacia Log Pile",
+        "flavor": "Sort of makes you want to wattle."
+      },
+      "log_pile_cactus": {
+        "description": "A pile of cactus logs.",
+        "display_name": "Cactus Log Pile",
+        "recipe_name": "Cactus Log Pile",
+        "flavor": "Prickly all over...you should get gloves."
+      },
+      "log_pile_juniper": {
+        "description": "A pile of juniper logs.",
+        "display_name": "Juniper Log Pile",
+        "recipe_name": "Juniper Log Pile",
+        "flavor": "Smells so good."
+      },
+      "log_pile_oak": {
+        "description": "A pile of oak logs.",
+        "display_name": "Oak Log Pile",
+        "recipe_name": "Oak Log Pile",
+        "flavor": "An abundant hard wood."
+      },
+      "log_pile_palm": {
+        "description": "A pile of palm logs.",
+        "display_name": "Palm Log Pile",
+        "recipe_name": "Palm Log Pile",
+        "flavor": "Silly name...it doesn't look anything like your hand."
+      },
+      "log_pile_pine": {
+        "description": "A pile of pine logs.",
+        "display_name": "Pine Log Pile",
+        "recipe_name": "Pine Log Pile",
+        "flavor": "Full of thick bark."
+      },
+      "wardrobe_acacia": {
+        "description": "A wardrobe made from acacia wood.",
+        "display_name": "Acacia Wardrobe",
+        "recipe_name": "Acacia Wardrobe",
+        "flavor": "Hansome place to store 32 pieces of stuff."
+      },
+      "wardrobe_cactus": {
+        "description": "A wardrobe made from cactus wood.",
+        "display_name": "Cactus Wardrobe",
+        "recipe_name": "Cactus Wardrobe",
+        "flavor": "Hansome place to store 32 pieces of stuff."
+      },
+      "wardrobe_juniper": {
+        "description": "A wardrobe made from juniper wood.",
+        "display_name": "Juniper Wardrobe",
+        "recipe_name": "Juniper Wardrobe",
+        "flavor": "It is bigger on the inside and can keep 32 items."
+      },
+      "wardrobe_oak": {
+        "description": "A wardrobe made from oak wood.",
+        "display_name": "Oak Wardrobe",
+        "recipe_name": "Oak Wardrobe",
+        "flavor": "Tall and sturdy place to hide 32 things."
+      },
+      "wardrobe_palm": {
+        "description": "A wardrobe made from palm wood.",
+        "display_name": "Palm Wardrobe",
+        "recipe_name": "Palm Wardrobe",
+        "flavor": "Full of color and capable of holding 32 trinkets."
+      },
+      "wardrobe_pine": {
+        "description": "A wardrobe made from pine wood.",
+        "display_name": "Pine Wardrobe",
+        "recipe_name": "Pine Wardrobe",
+        "flavor": "Smells like winter and holds 32 items."
+      }
+    },
+    "decoration": {
+      "clay_edger": {
+        "description": "Clay edgers with new world charm.",
+        "display_name": "Clay Edger",
+        "recipe_name": "Clay Edger x9",
+        "flavor": "They keep things on edge."
+      },
+      "clay_edger_full": {
+        "description": "Gapless clay edgers with new world charm.",
+        "display_name": "Gapless Clay Edger",
+        "recipe_name": "Gapless Clay Edger x9",
+        "flavor": "They keep things on edge."
+      },
+      "clay_old_edger": {
+        "description": "Clay edgers with old world charm.",
+        "display_name": "Clay Old Edger",
+        "recipe_name": "Clay Old Edger x9",
+        "flavor": "They keep old things on edge."
+      },
+      "clay_old_edger_full": {
+        "description": "Gapless clay edgers with old world charm.",
+        "display_name": "Gapless Clay Old Edger",
+        "recipe_name": "Gapless Clay Old Edger x9",
+        "flavor": "They keep old things on edge."
+      },
+      "clay_old_paver": {
+        "description": "Clay pavers with old world charm.",
+        "display_name": "Clay Old Pavers",
+        "recipe_name": "Clay Old Pavers",
+        "flavor": "Like a rug for a road."
+      },
+      "clay_old_paver_one": {
+        "description": "Clay paver with old world charm.",
+        "display_name": "Clay Old Paver",
+        "recipe_name": "Clay Old Pavers x9",
+        "flavor": "Like a rug for a road."
+      },
+      "clay_paver": {
+        "description": "Clay pavers with new world charm.",
+        "display_name": "Clay Pavers",
+        "recipe_name": "Clay Pavers",
+        "flavor": "Like a rug for a road."
+      },
+      "clay_paver_one": {
+        "description": "Clay paver with new world charm.",
+        "display_name": "Clay Paver",
+        "recipe_name": "Clay Pavers x9",
+        "flavor": "Like a rug for a road."
+      },
+      "clay_tan_edger": {
+        "description": "Clay tan edgers with tan world charm.",
+        "display_name": "Clay Tan Edger",
+        "recipe_name": "Clay Tan Edger x9",
+        "flavor": "They keep tannish things on edge."
+      },
+      "clay_tan_edger_full": {
+        "description": "Gapless clay tan edgers with tan world charm.",
+        "display_name": "Gapless Clay Tan Edger",
+        "recipe_name": "Gapless Clay Tan Edger x9",
+        "flavor": "They keep tannish things on edge."
+      },
+      "clay_tan_paver": {
+        "description": "Clay tan pavers with tan world charm.",
+        "display_name": "Clay Tan Pavers",
+        "recipe_name": "Clay Tan Pavers",
+        "flavor": "Like a rug for a road."
+      },
+      "clay_tan_paver_one": {
+        "description": "Clay tan paver with tan world charm.",
+        "display_name": "Clay Tan Paver",
+        "recipe_name": "Clay Tan Pavers x9",
+        "flavor": "Like a rug for a road."
+      },
+      "clock_great": {
+        "description": "A standing great clock.",
+        "display_name": "Great Clock",
+        "recipe_name": "Great Clock",
+        "flavor": "A thing that tells time."
+      },
+      "clock_great_fine": {
+        "description": "An ornate standing great clock.",
+        "display_name": "Great Ornate Clock",
+        "recipe_name": "Great Ornate Clock",
+        "flavor": "A thing that tells time, and is ornate."
+      },
+      "clock_wall": {
+        "description": "A hanging wall clock.",
+        "display_name": "Wall Clock",
+        "recipe_name": "Wall Clock",
+        "flavor": "Only time will tell."
+      },
+      "clock_wall_fine": {
+        "description": "A hanging ornate wall clock.",
+        "display_name": "Ornate Wall Clock",
+        "recipe_name": "Ornate Wall Clock",
+        "flavor": "Only time will tell."
+      },
+      "iron_lamppost": {
+        "description": "Large iron lamppost.",
+        "display_name": "Iron Lamppost",
+        "recipe_name": "Iron Lamppost",
+        "flavor": "It sheds stylish light."
+      },
+      "edger_brownstone": {
+        "description": "Brownstone edgers.",
+        "display_name": "Brownstone Edgers",
+        "recipe_name": "Brownstone Edgers x9",
+        "flavor": "Rough and stylish."
+      },
+      "edger_sandstone": {
+        "description": "Sandstone edgers.",
+        "display_name": "Sandstone Edgers",
+        "recipe_name": "Sandstone Edgers",
+        "flavor": "Rough and stylish."
+      },
+      "edger_stone": {
+        "description": "Stone edgers.",
+        "display_name": "Stone Edgers",
+        "recipe_name": "Stone Edgers",
+        "flavor": "Rough and stylish."
+      },
+      "edger_stone_solid": {
+        "description": "Stone edgers.",
+        "display_name": "Stone Gapless Edgers",
+        "recipe_name": "Stone Gapless Edgers",
+        "flavor": "Rough and stylish."
+      },
+      "paver_brownstone": {
+        "description": "Brownstone pavers.",
+        "display_name": "Brownstone Pavers",
+        "recipe_name": "Brownstone Pavers",
+        "flavor": "Smooth and stylish."
+      },
+      "paver_brownstone_one": {
+        "description": "Brownstone paver.",
+        "display_name": "Brownstone Paver",
+        "recipe_name": "Brownstone Pavers x9",
+        "flavor": "Smooth and stylish."
+      },
+      "paver_sandstone": {
+        "description": "Sandstone pavers.",
+        "display_name": "Sandstone Pavers",
+        "recipe_name": "Sandstone Pavers",
+        "flavor": "Smooth and stylish."
+      },
+      "paver_sandstone_one": {
+        "description": "Sandstone paver.",
+        "display_name": "Sandstone Paver",
+        "recipe_name": "Sandstone Pavers x9",
+        "flavor": "Smooth and stylish."
+      },
+      "paver_stone": {
+        "description": "Stone pavers.",
+        "display_name": "Stone Pavers",
+        "recipe_name": "Stone Pavers",
+        "flavor": "Smooth and stylish."
+      },
+      "paver_stone_one": {
+        "description": "Stone paver.",
+        "display_name": "Stone Paver",
+        "recipe_name": "Stone Pavers x9",
+        "flavor": "Smooth and stylish."
+      },
+      "step_brownstone": {
+        "description": "Brown step stones.",
+        "display_name": "Step Brownstones",
+        "recipe_name": "Step Brownstones",
+        "flavor": "Smooth and stylish."
+      },
+      "step_brownstone_one": {
+        "description": "Brown step stone.",
+        "display_name": "Step Brownstone",
+        "recipe_name": "Step Brownstones x9",
+        "flavor": "Smooth and stylish."
+      },
+      "step_darkstone": {
+        "description": "Dark step stones.",
+        "display_name": "Step Dark Stones",
+        "recipe_name": "Step Dark Stones",
+        "flavor": "Smooth and stylish."
+      },
+      "step_darkstone_one": {
+        "description": "Dark step stone.",
+        "display_name": "Step Dark Stone",
+        "recipe_name": "Step Dark Stones x9",
+        "flavor": "Smooth and stylish."
+      },
+      "step_redstone": {
+        "description": "Red step stones.",
+        "display_name": "Step Stones",
+        "recipe_name": "Step Stones",
+        "flavor": "Smooth and stylish."
+      },
+      "step_redstone_one": {
+        "description": "Red step stone.",
+        "display_name": "Step Redstone",
+        "recipe_name": "Step Redstones x9",
+        "flavor": "Smooth and stylish."
+      },
+      "step_stone": {
+        "description": "Step redstones.",
+        "display_name": "Step Redstones",
+        "recipe_name": "Step Redstones",
+        "flavor": "Smooth and stylish."
+      },
+      "step_stone_one": {
+        "description": "A step stone.",
+        "display_name": "Step Stone",
+        "recipe_name": "Step Stones x9",
+        "flavor": "Smooth and stylish."
+      },
+      "trophy_bow_wall": {
+        "description": "A displayed recurve bow.",
+        "display_name": "Recurve Bow Display",
+        "recipe_name": "Recurve Bow Display",
+        "flavor": "A nice collector's item."
+      },
+      "trophy_bronzehelm_stand": {
+        "description": "A bronze helmet.",
+        "display_name": "Bronze Helmet Stand",
+        "recipe_name": "Bronze Helmet Stand",
+        "flavor": "The bronze variety of brain bucket on display."
+      },
+      "trophy_bronzemail_stand": {
+        "description": "A bronze set of mail.",
+        "display_name": "Bronze Breastplate Stand",
+        "recipe_name": "Bronze Brestplate Stand",
+        "flavor": "Polished well."
+      },
+      "trophy_bronzemail_stand_full": {
+        "description": "A full bronze set of mail.",
+        "display_name": "Full Bronze Breastplate Stand",
+        "recipe_name": "Full Bronze Brestplate Stand",
+        "flavor": "Polished well and topped with the helmet."
+      },
+      "trophy_claymore_stand": {
+        "description": "A displayed two-handed sword.",
+        "display_name": "Two-Handed Sword Trophy",
+        "recipe_name": "Two-Handed Sword Trophy",
+        "flavor": "A nice collector's item."
+      },
+      "trophy_crude_axe": {
+        "description": "A displayed trophy axe.",
+        "display_name": "Crude Axe Trophy",
+        "recipe_name": "Crude Axe Trophy",
+        "flavor": "A nice collector's item."
+      },
+      "trophy_crude_mace": {
+        "description": "A displayed trophy mace.",
+        "display_name": "Crude Mace Trophy",
+        "recipe_name": "Crude Mace Trophy",
+        "flavor": "A nice and heavy collector's item."
+      },
+      "trophy_ironhelm_stand": {
+        "description": "An iron helmet.",
+        "display_name": "Iron Helmet Stand",
+        "recipe_name": "Iron Helmet Stand",
+        "flavor": "Keeping skulls intact."
+      },
+      "trophy_ironmail_stand": {
+        "description": "An iron set of mail.",
+        "display_name": "Iron Breastplate Stand",
+        "recipe_name": "Iron Brestplate Stand",
+        "flavor": "An impressive display."
+      },
+      "trophy_ironmail_stand_full": {
+        "description": "A full iron set of mail.",
+        "display_name": "Full Iron Breastplate Stand",
+        "recipe_name": "Full Iron Brestplate Stand",
+        "flavor": "An very impressive display topped with a helmet."
+      },
+      "trophy_jagged_stand": {
+        "description": "A displayed goblin cleaver.",
+        "display_name": "Goblin Cleaver Trophy",
+        "recipe_name": "Goblin Cleaver Trophy",
+        "flavor": "Safer here."
+      },
+      "trophy_knighthelm_stand": {
+        "description": "A highly polished knight's helmet.",
+        "display_name": "Knight's Silver Helmet Stand",
+        "recipe_name": "Knight's Silver Helmet Stand",
+        "flavor": "Only dropped once."
+      },
+      "trophy_knightmail_stand": {
+        "description": "A silver set of mail.",
+        "display_name": "Silver Breastplate Stand",
+        "recipe_name": "Silver Brestplate Stand",
+        "flavor": "It shiney."
+      },
+      "trophy_knightmail_stand_full": {
+        "description": "A full silver set of mail.",
+        "display_name": "Full Silver Breastplate Stand",
+        "recipe_name": "Full Silver Brestplate Stand",
+        "flavor": "It almost glows."
+      },
+      "trophy_lamp_elite": {
+        "description": "A lamp made from an elite kolbold's helmet.",
+        "display_name": "Elite Kolbold Lamp",
+        "recipe_name": "Elite Kolbold Lamp",
+        "flavor": "Tacky but what else were you going to do with it?"
+      },
+      "trophy_lamp_general": {
+        "description": "A lamp made from a kolbold general's helmet.",
+        "display_name": "General Kolbold Lamp",
+        "recipe_name": "General Kolbold Lamp",
+        "flavor": "Tacky but what else were you going to do with it?"
+      },
+      "trophy_lamp_master": {
+        "description": "A lamp made from a kolbold master's helmet.",
+        "display_name": "Master Kolbold Lamp",
+        "recipe_name": "Master Kolbold Lamp",
+        "flavor": "Tacky but what else were you going to do with it?"
+      },
+      "trophy_lamp_scout": {
+        "description": "A lamp made from a scout kolbold's helmet.",
+        "display_name": "Scout Kolbold Lamp",
+        "recipe_name": "Scout Kolbold Lamp",
+        "flavor": "Tacky but what else were you going to do with it?"
+      },
+      "trophy_longsword_stand": {
+        "description": "A displayed longsword sword.",
+        "display_name": "Longsword Trophy",
+        "recipe_name": "Longsword Trophy",
+        "flavor": "A nice collector's item."
+      },
+      "trophy_ogos_bone_mace": {
+        "description": "Ogo's bone mace on display.",
+        "display_name": "Ogo's Bone Mace Trophy",
+        "recipe_name": "Ogo's Bone Mace Trophy",
+        "flavor": "Ogo's mace.  He won't miss it."
+      },
+      "trophy_twosword_long_stand": {
+        "description": "An impressive sword display.",
+        "display_name": "Mighty Sword Trophy",
+        "recipe_name": "Mighty Sword Trophy",
+        "flavor": "An exceptionally nice collector's item."
+      },
+      "trophy_twosword_stand": {
+        "description": "A set of displayed swords.",
+        "display_name": "Twin Sword Trophy",
+        "recipe_name": "Twin Sword Trophy",
+        "flavor": "A very nice collector's item."
+      },
+      "trophy_wall_elite": {
+        "description": "A displayed elite kolbold's helmet.",
+        "display_name": "Elite Kolbold Display",
+        "recipe_name": "Elite Kolbold Display",
+        "flavor": "Please do not touch."
+      },
+      "trophy_wall_general": {
+        "description": "A displayed kolbold general's helmet.",
+        "display_name": "General Kolbold Display",
+        "recipe_name": "General Kolbold Display",
+        "flavor": "Not for touching."
+      },
+      "trophy_wall_master": {
+        "description": "A displayed kolbold master's helmet.",
+        "display_name": "Master Kolbold Display",
+        "recipe_name": "Master Kolbold Display",
+        "flavor": "Not for throwing."
+      },
+      "trophy_wall_scout": {
+        "description": "A displayed scout kolbold's helmet.",
+        "display_name": "Scout Kolbold Display",
+        "recipe_name": "Scout Kolbold Display",
+        "flavor": "It looks heavy."
+      },
+      "wooden_dummy": {
+        "description": "A crude looking training dummy.",
+        "display_name": "Wooden Dummy",
+        "recipe_name": "Wooden Dummy",
+        "flavor": "One day you might be able to train on this."
+      }
+    },
+    "furniture": {
+      "arch_backed_chair_acacia": {
+        "description": "A nice important looking chair.",
+        "display_name": "Cathedral-Arch Acacia Chair",
+        "recipe_name": "Cathedral-Arch Acacia Chair",
+        "flavor": "An important looking acacia chair."
+      },
+      "arch_backed_chair_cactus": {
+        "description": "A nice important looking chair.",
+        "display_name": "Cathedral-Arch Cactus Chair",
+        "recipe_name": "Cathedral-Arch Cactus Chair",
+        "flavor": "An important looking cactus chair."
+      },
+      "arch_backed_chair_juniper": {
+        "description": "A nice important looking chair.",
+        "display_name": "Cathedral-Arch Juniper Chair",
+        "recipe_name": "Cathedral-Arch Juniper Chair",
+        "flavor": "An important looking juniper chair."
+      },
+      "arch_backed_chair_palm": {
+        "description": "A nice important looking chair.",
+        "display_name": "Cathedral-Arch Palm Chair",
+        "recipe_name": "Cathedral-Arch Palm Chair",
+        "flavor": "An important looking palm chair."
+      },
+      "arch_backed_chair_pine": {
+        "description": "A nice important looking chair.",
+        "display_name": "Cathedral-Arch Pine Chair",
+        "recipe_name": "Cathedral-Arch Pine Chair",
+        "flavor": "An important looking pine chair."
+      },
+      "comfy_bed_acacia": {
+        "description": "A comfy acacia bed.",
+        "display_name": "Comfy Acacia Bed",
+        "recipe_name": "Comfy Acacia Bed",
+        "flavor": "A well made bed made of acacia wood."
+      },
+      "comfy_bed_cactus": {
+        "description": "A comfy cactus bed.",
+        "display_name": "Comfy Cactus Bed",
+        "recipe_name": "Comfy Cactus Bed",
+        "flavor": "A well made bed made of cactus wood."
+      },
+      "comfy_bed_juniper": {
+        "description": "A comfy juniper bed.",
+        "display_name": "Comfy Juniper Bed",
+        "recipe_name": "Comfy Juniper Bed",
+        "flavor": "A well made bed made of juniper wood."
+      },
+      "comfy_bed_palm": {
+        "description": "A comfy palm bed.",
+        "display_name": "Comfy Palm Bed",
+        "recipe_name": "Comfy Palm Bed",
+        "flavor": "A well made bed made of palm wood."
+      },
+      "comfy_bed_pine": {
+        "description": "A comfy pine bed.",
+        "display_name": "Comfy Pine Bed",
+        "recipe_name": "Comfy Pine Bed",
+        "flavor": "A well made bed made of pine wood."
+      },
+      "comfy_chair_acacia": {
+        "description": "A comfy acacia chair.",
+        "display_name": "Comfy Acacia Chair",
+        "recipe_name": "Comfy Acacia Chair",
+        "flavor": "A sturdy chair made of acacia wood."
+      },
+      "comfy_chair_cactus": {
+        "description": "A comfy cactus chair.",
+        "display_name": "Comfy Cactus Chair",
+        "recipe_name": "Comfy Cactus Chair",
+        "flavor": "A sturdy chair made of cactus wood."
+      },
+      "comfy_chair_juniper": {
+        "description": "A comfy juniper chair.",
+        "display_name": "Comfy Juniper Chair",
+        "recipe_name": "Comfy Juniper Chair",
+        "flavor": "A sturdy chair made of juniper wood."
+      },
+      "comfy_chair_palm": {
+        "description": "A comfy palm chair.",
+        "display_name": "Comfy Palm Chair",
+        "recipe_name": "Comfy Palm Chair",
+        "flavor": "A sturdy chair made of palm wood."
+      },
+      "comfy_chair_pine": {
+        "description": "A comfy pine chair.",
+        "display_name": "Comfy Pine Chair",
+        "recipe_name": "Comfy Pine Chair",
+        "flavor": "A sturdy chair made of pine wood."
+      },
+      "crude_bed_acacia": {
+        "description": "A crude acacia bed.",
+        "display_name": "Crude Acacia Bed",
+        "recipe_name": "Crude Acacia Bed",
+        "flavor": "Better than sleeping on the ground."
+      },
+      "crude_bed_cactus": {
+        "description": "A crude cactus bed.",
+        "display_name": "Crude Cactus Bed",
+        "recipe_name": "Crude Cactus Bed",
+        "flavor": "Better than sleeping on the ground."
+      },
+      "crude_bed_juniper": {
+        "description": "A crude juniper bed.",
+        "display_name": "Crude Juniper Bed",
+        "recipe_name": "Crude Juniper Bed",
+        "flavor": "Better than sleeping on the ground."
+      },
+      "crude_bed_palm": {
+        "description": "A crude palm bed.",
+        "display_name": "Crude Palm Bed",
+        "recipe_name": "Crude Palm Bed",
+        "flavor": "Better than sleeping on the ground."
+      },
+      "crude_bed_pine": {
+        "description": "A crude pine bed.",
+        "display_name": "Crude Pine Bed",
+        "recipe_name": "Crude Pine Bed",
+        "flavor": "Better than sleeping on the ground and it smells nice."
+      },
+      "crude_chair_acacia": {
+        "description": "A crude acacia chair.",
+        "display_name": "Crude Acacia Chair",
+        "recipe_name": "Crude Acacia Chair",
+        "flavor": "Well at least it is sturdy."
+      },
+      "crude_chair_cactus": {
+        "description": "A crude cactus chair.",
+        "display_name": "Crude Cactus Chair",
+        "recipe_name": "Crude Cactus Chair",
+        "flavor": "Well at least it is sturdy."
+      },
+      "crude_chair_juniper": {
+        "description": "A crude juniper chair.",
+        "display_name": "Crude Juniper Chair",
+        "recipe_name": "Crude Juniper Chair",
+        "flavor": "Well at least it is sturdy."
+      },
+      "crude_chair_oak": {
+        "description": "A crude oak chair.",
+        "display_name": "Crude Oak Chair",
+        "recipe_name": "Crude Oak Chair",
+        "flavor": "Well at least it is sturdy."
+      },
+      "crude_chair_palm": {
+        "description": "A crude palm chair.",
+        "display_name": "Crude Palm Chair",
+        "recipe_name": "Crude Palm Chair",
+        "flavor": "Well at least it is sturdy."
+      },
+      "crude_chair_pine": {
+        "description": "A crude pine chair.",
+        "display_name": "Crude Pine Chair",
+        "recipe_name": "Crude Pine Chair",
+        "flavor": "Well at least it is sturdy."
+      },
+      "crude_stool_acacia": {
+        "description": "A crude acacia stool.",
+        "display_name": "Crude Acacia Stool",
+        "recipe_name": "Crude Acacia Stool",
+        "flavor": "Better than sitting on the ground. But only a little."
+      },
+      "crude_stool_cactus": {
+        "description": "A crude cactus stool.",
+        "display_name": "Crude Cactus Stool",
+        "recipe_name": "Crude Cactus Stool",
+        "flavor": "Better than sitting on the ground. But only a little."
+      },
+      "crude_stool_juniper": {
+        "description": "A crude juniper stool.",
+        "display_name": "Crude Juniper Stool",
+        "recipe_name": "Crude Juniper Stool",
+        "flavor": "Better than sitting on the ground. But only a little."
+      },
+      "crude_stool_oak": {
+        "description": "A crude oak stool.",
+        "display_name": "Crude Oak Stool",
+        "recipe_name": "Crude Oak Stool",
+        "flavor": "Better than sitting on the ground. But only a little."
+      },
+      "crude_stool_palm": {
+        "description": "A crude palm stool.",
+        "display_name": "Crude Palm Stool",
+        "recipe_name": "Crude Palm Stool",
+        "flavor": "Better than sitting on the ground. But only a little."
+      },
+      "crude_stool_pine": {
+        "description": "A crude pine stool.",
+        "display_name": "Crude Pine Stool",
+        "recipe_name": "Crude Pine Stool",
+        "flavor": "Better than sitting on the ground. But only a little."
+      },
+      "dining_table_acacia": {
+        "description": "A solid acacia table.",
+        "display_name": "Acacia Dining Table",
+        "recipe_name": "Acacia Dining Table",
+        "flavor": "A dining table made from acacia wood."
+      },
+      "dining_table_cactus": {
+        "description": "A solid cactus table.",
+        "display_name": "Cactus Dining Table",
+        "recipe_name": "Cactus Dining Table",
+        "flavor": "A dining table made from cactus wood."
+      },
+      "dining_table_juniper": {
+        "description": "A solid juniper table.",
+        "display_name": "Juniper Dining Table",
+        "recipe_name": "Juniper Dining Table",
+        "flavor": "A dining table made from juniper wood."
+      },
+      "dining_table_palm": {
+        "description": "A solid palm table.",
+        "display_name": "Palm Dining Table",
+        "recipe_name": "Palm Dining Table",
+        "flavor": "A dining table made from palm wood."
+      },
+      "dining_table_pine": {
+        "description": "A solid pine table.",
+        "display_name": "Pine Dining Table",
+        "recipe_name": "Pine Dining Table",
+        "flavor": "A dining table made from pine wood."
+      },
+      "dresser_acacia": {
+        "description": "A acacia dresser.",
+        "display_name": "Acacia Dresser",
+        "recipe_name": "Acacia Dresser",
+        "flavor": "A dresser made from acacia wood."
+      },
+      "dresser_cactus": {
+        "description": "A cactus dresser.",
+        "display_name": "Cactus Dresser",
+        "recipe_name": "Cactus Dresser",
+        "flavor": "A dresser made from cactus wood."
+      },
+      "dresser_juniper": {
+        "description": "A juniper dresser.",
+        "display_name": "Juniper Dresser",
+        "recipe_name": "Juniper Dresser",
+        "flavor": "A dresser made from juniper wood."
+      },
+      "dresser_palm": {
+        "description": "A palm dresser.",
+        "display_name": "Palm Dresser",
+        "recipe_name": "Palm Dresser",
+        "flavor": "A dresser made from palm wood."
+      },
+      "dresser_pine": {
+        "description": "A pine dresser.",
+        "display_name": "Pine Dresser",
+        "recipe_name": "Pine Dresser",
+        "flavor": "A dresser made from pine wood."
+      },
+      "fancy_bed_acacia": {
+        "description": "A fancy acacia bed.",
+        "display_name": "Fancy Acacia Bed",
+        "recipe_name": "Fancy Acacia Bed",
+        "flavor": "A uniquely crafted bed made of acacia wood."
+      },
+      "fancy_bed_cactus": {
+        "description": "A fancy cactus bed.",
+        "display_name": "Fancy Cactus Bed",
+        "recipe_name": "Fancy Cactus Bed",
+        "flavor": "A uniquely crafted bed made of cactus wood."
+      },
+      "fancy_bed_juniper": {
+        "description": "A fancy juniper bed.",
+        "display_name": "Fancy Juniper Bed",
+        "recipe_name": "Fancy Juniper Bed",
+        "flavor": "A uniquely crafted bed made of juniper wood."
+      },
+      "fancy_bed_palm": {
+        "description": "A fancy palm bed.",
+        "display_name": "Fancy Palm Bed",
+        "recipe_name": "Fancy Palm Bed",
+        "flavor": "A uniquely crafted bed made of palm wood."
+      },
+      "fancy_bed_pine": {
+        "description": "A fancy pine bed.",
+        "display_name": "Fancy Pine Bed",
+        "recipe_name": "Fancy Pine Bed",
+        "flavor": "A uniquely crafted bed made of pine wood."
+      },
+      "fancy_chair_acacia": {
+        "description": "A fancy acacia chair.",
+        "display_name": "Fancy Acacia Chair",
+        "recipe_name": "Fancy Acacia Chair",
+        "flavor": "A uniquely designed chair made of acacia wood."
+      },
+      "fancy_chair_cactus": {
+        "description": "A fancy cactus chair.",
+        "display_name": "Fancy Cactus Chair",
+        "recipe_name": "Fancy Cactus Chair",
+        "flavor": "A uniquely designed chair made of cactus wood."
+      },
+      "fancy_chair_juniper": {
+        "description": "A fancy juniper chair.",
+        "display_name": "Fancy Juniper Chair",
+        "recipe_name": "Fancy Juniper Chair",
+        "flavor": "A uniquely designed chair made of juniper wood."
+      },
+      "fancy_chair_palm": {
+        "description": "A fancy palm chair.",
+        "display_name": "Fancy Palm Chair",
+        "recipe_name": "Fancy Palm Chair",
+        "flavor": "A uniquely designed chair made of palm wood."
+      },
+      "fancy_chair_pine": {
+        "description": "A fancy pine chair.",
+        "display_name": "Fancy Pine Chair",
+        "recipe_name": "Fancy Pine Chair",
+        "flavor": "A uniquely designed chair made of pine wood."
+      },
+      "fancy_table_acacia": {
+        "description": "A solid acacia table.",
+        "display_name": "Acacia Fancy Table",
+        "recipe_name": "Acacia Fancy Table",
+        "flavor": "A distinct table made from acacia wood."
+      },
+      "fancy_table_cactus": {
+        "description": "A solid cactus table.",
+        "display_name": "Cactus Fancy Table",
+        "recipe_name": "Cactus Fancy Table",
+        "flavor": "A distinct table made from cactus wood."
+      },
+      "fancy_table_juniper": {
+        "description": "A solid juniper table.",
+        "display_name": "Juniper Fancy Table",
+        "recipe_name": "Juniper Fancy Table",
+        "flavor": "A distinct table made from juniper wood."
+      },
+      "fancy_table_palm": {
+        "description": "A solid palm table.",
+        "display_name": "Palm Fancy Table",
+        "recipe_name": "Palm Fancy Table",
+        "flavor": "A distinct table made from palm wood."
+      },
+      "fancy_table_pine": {
+        "description": "A solid pine table.",
+        "display_name": "Pine Fancy Table",
+        "recipe_name": "Pine Fancy Table",
+        "flavor": "A distinct table made from pine wood."
+      },
+      "park_bench_acacia": {
+        "description": "A quaint acacia park bench.",
+        "display_name": "Acacia Park Bench",
+        "recipe_name": "Acacia Park Bench",
+        "flavor": "A park bench made from acacia wood."
+      },
+      "park_bench_cactus": {
+        "description": "A quaint cactus park bench.",
+        "display_name": "Cactus Park Bench",
+        "recipe_name": "Cactus Park Bench",
+        "flavor": "A park bench made from cactus wood."
+      },
+      "park_bench_juniper": {
+        "description": "A quaint juniper park bench.",
+        "display_name": "Juniper Park Bench",
+        "recipe_name": "Juniper Park Bench",
+        "flavor": "A park bench made from juniper wood."
+      },
+      "park_bench_palm": {
+        "description": "A quaint palm park bench.",
+        "display_name": "Palm Park Bench",
+        "recipe_name": "Palm Park Bench",
+        "flavor": "A park bench made from palm wood."
+      },
+      "park_bench_pine": {
+        "description": "A quaint pine park bench.",
+        "display_name": "Pine Park Bench",
+        "recipe_name": "Pine Park Bench",
+        "flavor": "A park bench made from pine wood."
+      },
+      "simple_acacia_chair": {
+        "description": "A well crafted acacia chair.",
+        "display_name": "Simple Acacia Chair",
+        "recipe_name": "Simple Acacia Chair",
+        "flavor": "A stylish and comfortable chair.."
+      },
+      "simple_cactus_chair": {
+        "description": "A well crafted cactus chair.",
+        "display_name": "Simple Cactus Chair",
+        "recipe_name": "Simple Cactus Chair",
+        "flavor": "A stylish and comfortable chair.."
+      },
+      "simple_juniper_chair": {
+        "description": "A well crafted juniper chair.",
+        "display_name": "Simple Juniper Chair",
+        "recipe_name": "Simple Juniper Chair",
+        "flavor": "A stylish and comfortable chair.."
+      },
+      "simple_palm_chair": {
+        "description": "A well crafted palm chair.",
+        "display_name": "Simple Palm Chair",
+        "recipe_name": "Simple Palm Chair",
+        "flavor": "A stylish and comfortable chair.."
+      },
+      "simple_pine_chair": {
+        "description": "A well crafted pine chair.",
+        "display_name": "Simple Pine Chair",
+        "recipe_name": "Simple Pine Chair",
+        "flavor": "A stylish and comfortable chair.."
+      },
+      "stone_bench_nice": {
+        "description": "Heavy stone bench of nice quality.",
+        "display_name": "Fine Stone Bench",
+        "recipe_name": "Fine Stone Bench",
+        "flavor": "A fine two person lift."
+      },
+      "stone_chair_nice": {
+        "description": "Heavy stone chair of nice quality.",
+        "display_name": "Fine Stone Chair",
+        "recipe_name": "Fine Stone Chair",
+        "flavor": "A fine two person lift chair."
+      },
+      "stone_table_nice": {
+        "description": "Heavy stone table of nice quality.",
+        "display_name": "Fine Stone Table",
+        "recipe_name": "Fine Stone Table",
+        "flavor": "A fine four person, or one He Mo, lift table."
+      },
+      "table_for_one_acacia": {
+        "description": "A small acacia table.",
+        "display_name": "Small Acacia Table",
+        "recipe_name": "Small Acacia Table",
+        "flavor": "A small acacia table."
+      },
+      "table_for_one_cactus": {
+        "description": "A small cactus table.",
+        "display_name": "Small Cactus Table",
+        "recipe_name": "Small Cactus Table",
+        "flavor": "A small cactus table."
+      },
+      "table_for_one_juniper": {
+        "description": "A small juniper table.",
+        "display_name": "Small Juniper Table",
+        "recipe_name": "Small Juniper Table",
+        "flavor": "A small juniper table."
+      },
+      "table_for_one_palm": {
+        "description": "A small palm table.",
+        "display_name": "Small Palm Table",
+        "recipe_name": "Small Palm Table",
+        "flavor": "A small palm table."
+      },
+      "table_for_one_pine": {
+        "description": "A small pine table.",
+        "display_name": "Small Pine Table",
+        "recipe_name": "Small Pine Table",
+        "flavor": "A small pine table."
+      },
+      "trophy_stand_oak": {
+        "description": "A small oak trophy stand.",
+        "display_name": "Oak Trophy Stand",
+        "recipe_name": "Oak Trophy Stand",
+        "flavor": "A place to display nice things."
+      },
+      "trophy_stand_oak_fine": {
+        "description": "A well crafted small oak trophy stand.",
+        "display_name": "Fine Oak Trophy Stand",
+        "recipe_name": "Fine Oak Trophy Stand",
+        "flavor": "A well crafted place to display nicer things."
+      },
+      "trophy_stand_oak_wide": {
+        "description": "A wide oak trophy stand.",
+        "display_name": "Wide Oak Trophy Stand",
+        "recipe_name": "Wide Oak Trophy Stand",
+        "flavor": "More space to display nice things."
+      },
+      "trophy_stand_oak_wide_fine": {
+        "description": "A well crafted oak trophy stand.",
+        "display_name": "Fine Wide Oak Trophy Stand",
+        "recipe_name": "Fine Wide Oak Trophy Stand",
+        "flavor": "More space to display nicer things."
+      },
+      "writing_desk_acacia": {
+        "description": "Heavy acacia writing desk.",
+        "display_name": "Acacia Writing Desk",
+        "recipe_name": "Acacia Writing Desk",
+        "flavor": "An acacia writing desk."
+      },
+      "writing_desk_cactus": {
+        "description": "Heavy cactus writing desk.",
+        "display_name": "Cactus Writing Desk",
+        "recipe_name": "Cactus Writing Desk",
+        "flavor": "An cactus writing desk."
+      },
+      "writing_desk_juniper": {
+        "description": "Heavy juniper writing desk.",
+        "display_name": "Juniper Writing Desk",
+        "recipe_name": "Juniper Writing Desk",
+        "flavor": "An juniper writing desk."
+      },
+      "writing_desk_palm": {
+        "description": "Heavy palm writing desk.",
+        "display_name": "Palm Writing Desk",
+        "recipe_name": "Palm Writing Desk",
+        "flavor": "An palm writing desk."
+      },
+      "writing_desk_pine": {
+        "description": "Heavy pine writing desk.",
+        "display_name": "Pine Writing Desk",
+        "recipe_name": "Pine Writing Desk",
+        "flavor": "An pine writing desk."
+      }
+    }
+  },
+  "jobs": {
+    "blacksmith": {},
+    "carpenter": {
+      "recipes": {
+        "storage_cabinet_name": "Storage Cabinets",
+        "trophy_name": "Trophies",
+        "acacia_furniture_name": "Acacia Furniture",
+        "cactus_furniture_name": "Cactus Furniture",
+        "juniper_furniture_name": "Juniper Furniture",
+        "oak_furniture_name": "Oak Furniture",
+        "palm_furniture_name": "Palm Furniture",
+        "pine_furniture_name": "Pine Furniture"
+      }
+    },
+    "cook": {},
+    "engineer": {},
+    "herbalist": {},
+    "mason": {
+      "recipes": {
+        "landscaping_name": "Landscaping"
+      }
+    },
+    "potter": {
+      "recipes": {
+        "landscaping_name": "Landscaping"
+      }
+    },
+    "weaver": {}
+  }
+}

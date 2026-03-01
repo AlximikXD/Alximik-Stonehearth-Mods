@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "containers": {
+      "huge_vault_gold": {
+        "huge_vault_gold_ghost": {
+          "display_name": "Gilded Vault",
+          "description": "A larger storage vault."
+        }
+      },
+      "huge_vault_silver": {
+        "huge_vault_silver_ghost": {
+          "display_name": "Silvered Vault",
+          "description": "A larger storage vault."
+        }
+      },
+      "huge_alt_vault": {
+        "huge_alt_vault_ghost": {
+          "display_name": "Tall Vault",
+          "description": "It's like we took our old vaults, and pushed them up!"
+        }
+      },
+      "huge_leatherbound_chest": {
+        "huge_leatherbound_chest_ghost": {
+          "display_name": "Huge Leather-Bound Chest",
+          "description": "A larger wooden chest."
+        }
+      },
+      "huge_stone_chest": {
+        "huge_stone_chest_ghost": {
+          "display_name": "Huge Stone Chest",
+          "description": "A larger stone chest."
+        }
+      },
+      "huge_jug": {
+        "huge_jug_ghost": {
+          "display_name": "Huge Clay Jug",
+          "description": "They are nice to look at."
+        }
+      }
+    }
+  },
+  "jobs": {
+    "blacksmith": {
+      "recipes": {
+        "huge_vault_gold_recipe": {
+          "recipe_name": "Gilded Vault",
+          "description": "A vault that holds 1024 items.",
+          "flavor": "A magnificently large chest."
+        },
+        "huge_vault_silver_recipe": {
+          "recipe_name": "Silvered Vault",
+          "description": "A vault that holds 1024 items.",
+          "flavor": "We must! We must! We must increase our-... vault!"
+        },
+        "huge_alt_vault_recipe": {
+          "recipe_name": "Tall Vault",
+          "description": "A vault that holds 2048 items.",
+          "flavor": "Extra supportive beams inside push up this vault to look nicer and hold more."
+        }
+      }
+    },
+    "carpenter": {
+      "recipes": {
+        "huge_leatherbound_chest_recipe": {
+          "recipe_name": "Huge Leather-Bound Chest",
+          "description": "A chest that holds 512 items.",
+          "flavor": "A huge chest should always be bound with leather. For comfort."
+        }
+      }
+    },
+    "potter": {
+      "recipes": {
+        "huge_jug_recipe": {
+          "recipe_name": "Huge Clay Jug",
+          "description": "A jug that holds 512 items.",
+          "flavor": "Everybody deserves nice jugs. Everybody."
+        }
+      }
+    },
+    "mason": {
+      "recipes": {
+        "huge_stone_chest_recipe": {
+          "recipe_name": "Huge Stone Chest",
+          "description": "A chest that holds 512 items.",
+          "flavor": "A huge stone chest that won't budge. Not even a jiggle."
+        }
+      }
+    }
+  }
+}

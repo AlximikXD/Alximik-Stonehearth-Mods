@@ -1,0 +1,1196 @@
+{
+   "kingdoms": {
+		"felines": "The Cat Crew",
+		"hearth_guard": "Hearth Guard"
+	},
+   "data": {
+      "population": {
+         "felines": {
+            "kingdom_name": "Cat Crew",
+            "display_name": "The Cat Crew",
+            "quote": "Our paws are purrfect.",
+			"description": "A curious colony of cats, in need of food and protection. Dragonborn, Rabbitkin, and Hearthlings work together as their patient caretakers.",
+            "post_selection_description": ", a cute and fluffy bunch of felines.",
+            "initial_town_name": "Feral Colony"
+         },
+		 "hearth_guard": {
+			 "kingdom_name": "Hearth Guard",
+			 "display_name": "The Hearth Guard",
+			 "quote": "Soft Fur and Hard Scales.",
+			 "description": "The Dragonborn and Rabbitkin joined forces to safeguard their land.  Through friendship, they share knowledge and skills as they explore the world.",
+			 "post_selection_description": ", a bunch of crafty Rabbit and Dragon people.",
+			 "initial_town_name": "Exploratory Trek"
+		 }
+      },
+	  "saved_objects": {
+	        "building_templates_index": {
+              "template_tabs": {
+                 "felines": {
+                    "display_name": "The Cat Crew",
+                    "categories": {
+                       "outpost": "Camp Templates",
+                       "settlement": "Town Templates"
+                    }
+                 },
+				 "hearth_guard": {
+                    "display_name": "The Hearth Guard",
+                    "categories": {
+                       "outpost": "Camp Templates",
+                       "settlement": "Town Templates"
+                    }
+                 }
+              }
+            },
+			"building_templates": {
+				"felines_clay_house": "🐱 House of Clay",
+				"felines_stone_house": "🐱 House of Stone",
+				"felines_crafter_clay": "🐱 Abode/Shop: clay",
+				"felines_crafter_stone": "🐱 Abode/Shop: rock",
+				"felines_potter": "🐱 Potter",
+				"felines_mason": "🐱 Mason",
+				"felines_carpenter": "🐱 Carpenter",
+				"felines_cat_den": "🐱 Cat Den",
+                "felines_diner": "🐱 Diner",
+				"felines_fisher_hut": "🐱 Fisher",
+				"felines_dragon_den": "🐱🐈 Dragon Den",
+				"felines_townhouse": "🐱🐈 Townhouse",
+				"hg_clay_house": "🌟 House of Clay",
+				"hg_stone_house": "🌟 House of Stone",
+				"hg_crafter_clay": "🌟 Abode/Shop: clay",
+				"hg_crafter_stone": "🌟 Abode/Shop: rock",
+				"hg_potter": "🌟 Potter",
+				"hg_mason": "🌟 Mason",
+				"hg_carpenter": "🌟 Carpenter",
+                "hg_diner": "🌟 Diner",
+				"hg_fisher_hut": "🌟 Fisher",
+				"hg_dragon_den": "🌟✨ Dragon Den",
+				"hg_townhouse": "🌟✨ Townhouse"
+			}
+	  },
+	  "biome": {
+         "bluerock": {
+            "display_name": "Bluerock",
+            "description": "Bumpy blue mountains, and pleasant green plains. Default home of the Cat Crew.",
+            "random_location_names": {
+               "000": "Bluerock Bluffs",
+               "001": "Bluerock Boulders"
+            },
+			"seasons": {
+               "spring": {
+                  "display_name": "Spring",
+                  "description": "Spring in Bluerock is a season of rebirth, lasting four months. Rains melt the snows, revealing new growth hidden underneath, and trees come back to life covered with colorful blossoms."
+               },
+               "summer": {
+                  "display_name": "Summer",
+                  "description": "Summer in Bluerock is a hot season, lasting three months. It is a time to relax and bask in the sun, but strong winds can bring thunderstorms."
+               },
+               "autumn": {
+                  "display_name": "Autumn",
+                  "description": "Autumn in Bluerock is the harvest season, lasting three months. The trees turn to gold, and the grass prepares to retreat into its winter blanket, as the skies darken with storm clouds."
+               },
+               "winter": {
+                  "display_name": "Winter",
+                  "description": "Winter in Bluerock is a cold season, lasting two months. Periods of snowfall can cover the land in a white blanket. The cold winds are best countered by cozy gatherings around the hearth."
+               }
+            }
+         },
+		 "fallreach": {
+            "display_name": "Fallreach",
+            "description": "Green mossy mountains, and dry burnt plains. Default home of the Hearth Guard.",
+            "random_location_names": {
+               "000": "Fallreach Forest",
+               "001": "Fallreach Grove"
+            },
+			"seasons": {
+               "spring": {
+                  "display_name": "Spring",
+                  "description": "Spring in Fallreach is a season of rebirth, lasting three months. Rains melt the snows, revealing new growth hidden underneath, and trees come back to life covered with colorful blossoms."
+               },
+               "summer": {
+                  "display_name": "Summer",
+                  "description": "Summer in Fallreach is a hot season, lasting three months. It is a time to relax and bask in the sun, but strong winds can bring thunderstorms."
+               },
+               "autumn": {
+                  "display_name": "Autumn",
+                  "description": "Autumn in Fallreach is the harvest season, lasting three months. The trees turn to gold, and the grass prepares to retreat into its winter blanket, as the skies darken with storm clouds."
+               },
+               "winter": {
+                  "display_name": "Winter",
+                  "description": "Winter in Fallreach is a cold season, lasting three months. Periods of snowfall can cover the land in a white blanket. The cold winds are best countered by cozy gatherings around the hearth."
+               }
+            }
+         }
+      },
+	  "loadouts": {
+	    "items": {
+		  "leather": "Leather"
+		},
+		"merchant_caravan": {
+            "description": "A collection of defensive tools should give the settlement a leg up in the wilderness.",
+            "tooltip": "Merchant provided protection based tools, but short on food."
+         },
+		 "construct_and_repair": {
+            "description": "A collection of trade tools should give the settlement some mechanical expertise.",
+            "display_name": "Construct and Repair",
+            "tooltip": "A good collection of craft skills, with a pouch of coins."
+         },
+		 "the_armory": {
+            "description": "Quicker access to advanced crafting of combat gear, which will give the settlement a great offense.",
+            "display_name": "The Armory",
+            "tooltip": "Ready to Smith and Snipe, with a pouch of coins."
+         }
+	  },
+	  "happiness": {
+	    "thoughts": {
+		   "weather": {
+		       "values": {
+			      "comforting_cat": {
+				    "display_name": "Comforting Cat",
+					"tooltip": "The Shrine of Babis emits a freshening air, providing rejuvenation."
+				  }
+			   }
+		   }
+		}
+	  },
+	  "traits": {
+	    "defender_trait": {
+               "display_name": "Defender",
+               "description": "[name(i18n_data.entity)] is happy to defend town as a Worker, or a Combat job."
+        },
+	    "happy_worker_trait": {
+               "display_name": "Happy Worker",
+               "description": "[name(i18n_data.entity)] is happy as a Worker, or other Field or Crafting jobs."
+        }
+	  },
+	  "buffs": {
+	    "xp_town_bonus": {
+		   "display_name": "Wisdom Up",
+           "description": "Experience gained is greatly increased.",
+		   "description_hg": "Experience gained is increased."
+		},
+		"fire_attack": {
+           "display_name": "Dragon Flames",
+           "description": "Set aflame! Taking fire damage"
+        },
+		"wind_speed_buff": {
+           "display_name": "Wind Speed",
+           "description": "Golden Wings boost Speed by 10%"
+        }
+	  },
+	  "gm": {
+	    "campaigns": {
+		   "town_progression": {
+		       "feline_arrival_ensure": {
+			        "feline_notification_title": "A Cat is here now"
+		       },
+		       "start_explanation_letter": {
+                             "dialog_tree_info": {
+                              "dialog_nodes": {
+                               "open_letter": {
+                                 "bulletin_message": {
+                                  "00": "A letter is found carefully placed against the post of the Banner. <p>The Cats stare at it, and a mysterious deep voice fills the air, reading the letter for anyone who can listen..."
+                                 },
+                                 "bulletin_title": "A Letter by the Banner!",
+                                 "dialog_title": "The Message",
+                                 "choice_000": "Let's listen"
+                               },
+                               "read_letter": {
+                                 "bulletin_message": {
+                                  "00": "\"Dear Cats,<p>I hope you are well on your own. We will come back as soon as we can.\"</p><p>A Dragonborn and Rabbitkin who found these Cats recently, have gone to find the Hearthlings. They can tell them about this new outpost.<br><br>\"If the Hearthlings also join us we will build up a nice Village to take care of you all!\"</p>"
+                                 },
+                                 "bulletin_title": "The Dragonborn's Message!",
+                                 "dialog_title": "The Dragonborn's Message!",
+                                 "choice_000": "Please return soon"
+                               },
+                               "read_letter2": {
+                                 "bulletin_message": {
+                                  "00": "\"Take care of yourselves with some food stored by the banner.\"<p>Use your skills in digging around to collect clay or stone resources, or gather up some plants and place them nearby, to begin creating a nice garden.</p>"
+                                 },
+                                 "bulletin_title": "Some guidance",
+                                 "dialog_title": "Some guidance",
+                                 "choice_000": "Let's search around"
+                               }
+                              }
+                             }
+                },
+				"dialog_retrieve_dragon_treasure": {
+                             "dialog_tree_info": {
+                              "dialog_nodes": {
+                               "open_letter": {
+                                 "bulletin_message": {
+                                  "00": "A little ways from the outpost, there is a small open Pit. <p>The Cats should go on over and see what's down there, by mining out a staircase, or placing ladders to climb up and down with."
+                                 },
+                                 "bulletin_title": "Something's in a Pit",
+                                 "dialog_title": "Something's in a Pit",
+                                 "choice_000": "Let's explore it"
+                               },
+                               "read_letter": {
+                                 "bulletin_message": {
+                                  "00": "The Cats see that there's a Treasure Chest in the Pit.  It can be opened to get the contents inside to appear.<p>The cats will bring back any treasures and place it in a stockpile, or storage box.</p><p>A Dragonborn would surely like a bag of<i><span class='gminor'> gold flakes</span></i>, which emit a special shiny light.</p>"
+                                 },
+                                 "bulletin_title": "A Dragonborn's Treasure",
+                                 "dialog_title": "A Dragonborn's Treasure",
+                                 "choice_000": "Let's go!"
+                               }
+                              }
+                             }
+                },
+				"dragon_treasure_quest": {
+						     "title": "Town Quest: Collect Treasure",
+							 "dialog_title": "Town Quest: Collect Gold Flakes"
+			    },
+				"dialog_create_amberstone_garden": {
+                             "dialog_tree_info": {
+                              "dialog_nodes": {
+                               "open_letter": {
+                                 "bulletin_message": {
+                                  "00": "The Dragonborn's voice is heard again.<p>\"Dear Cats, my Rabbitkin friend also left a valued<i><span class='gmajor'> Amberstone Pedestal </span></i>among your stored goods, now revealed in the presence of some gleaming gold flakes.\""
+                                 },
+                                 "bulletin_title": "The Amberstone",
+                                 "dialog_title": "Amberstone Pedestal",
+                                 "choice_000": "What is it?"
+                               },
+                               "read_letter": {
+                                 "bulletin_message": {
+                                  "00": "The Amberstone Pedestal, which harnesses the energy from deep below the ground, allows the crafty Rabbits to exist in their upright form.<p>So, please do another favor for us, before our return.</p><p>Our outpost here would be more pleasant if we were able to have an appealing garden!</p>"
+                                 },
+                                 "bulletin_title": "An Essential Artifact",
+                                 "dialog_title": "Amberstone Pedestal",
+                                 "choice_000": "Another mission"
+                               },
+                               "read_letter2": {
+                                 "bulletin_message": {
+                                  "00": "Place down this<i><span class='gmajor'> Amberstone Pedestal, </span></i>and surround it with plants that you find in the wilderness.  It needs at least<i><span class='gmajor'> 8 plants </span></i>nearby, to make an appealing natural garden.<p>Search for berry bushes, herbs, or fiber plants.<br><br>As cats, you are quick haulers: go undeploy or move some nearby plants, and place them down around the Amberstone Pedestal.</p>"
+                                 },
+                                 "bulletin_title": "Gardening",
+                                 "dialog_title": "Create a small garden",
+                                 "choice_000": "Let's gather the plants!"
+                               }
+                              }
+                             }
+               },
+			   "dialog_banner_upgrade_choice": {
+                             "dialog_tree_info": {
+                              "dialog_nodes": {
+                               "open_letter": {
+                                 "bulletin_message": {
+                                  "00": "Hello Cats, we've returned to take care of you, and build up a Village together. <br><br>And, we've found the Hearthlings, who can start trading goods with us. <p>As well, Hearthlings will also journey over to settle in with us later, in a day or two."
+                                 },
+                                 "bulletin_title": "Settled in",
+                                 "dialog_title": "Settled in",
+                                 "choice_000": "Caring and Sharing"
+                               },
+							   "dragonborn_origin1": {
+                                 "bulletin_message": {
+                                  "00": "But, where did the Dragonborn even come from, you may have wondered. <br><br>We'll tell you this short tale, if you'd like to listen.  Gather around the Hearth, young Cats."
+                                 },
+                                 "bulletin_title": "Dragonborn Destiny",
+                                 "dialog_title": "Dragonborn Destiny",
+								 "choice_000": "Dragon Tales",
+								 "choice_001": "We already know the story [Skip]"
+                               },
+							   "dragonborn_origin2": {
+                                 "bulletin_message": {
+                                  "00": "The Dragonborn formed a thriving Empire in the earliest days, the first beings to inhabit these lands.  As noble caretakers, they formed a balanced utopia, guarding the friendly animals from danger.  But, after the emergence of some new hostile races, the Dragonborn Empire fell into decline.<br><br>During their last days, a precious few were able to shift their existence to a spiritual form, hiding themselves from sight and sense.<br><br>They watched over their dormant eggs, disguised in various miraged landmarks, but eventually most of those were found and pillaged."
+                                 },
+                                 "bulletin_title": "Dragon Tales",
+                                 "dialog_title": "Dragon Tales",
+                                 "choice_000": "A Heroic Act"
+                               },
+							   "dragonborn_origin3": {
+                                 "bulletin_message": {
+                                  "00": "Pax Skydragon, a Dragonborn Prince, was one of the last heroes. A small outpost, housing precious young Dragon whelps, was beseiged by invaders one stormy night. In sacrifice, Pax Skydragon cracked the sky open, and became a conduit for the mighty lightning... finally transferring the souls of the Dragon whelps to the sky, where they would slowly and safely mature among the clouds.<br><br>Those ancient Dragon whelps are now here, all grown up! We appeared to the Rabbitkin of Clan Amberstone first, continuing our duty as caretakers of vulnerable animals, like these friendly Cats.<br><br>Our destiny is to return and assist the Children of Monkey in a great battle, to occur in this generation."
+                                 },
+                                 "bulletin_title": "Dragon Legacy",
+                                 "dialog_title": "Dragon Legacy",
+                                 "choice_000": "Guarding the Future"
+                               },
+                               "read_letter": {
+                                 "bulletin_message": {
+                                  "00": "Now, we'll give a name to our new Village and celebrate this day!<p>Our experience in the world lets us learn jobs quickly, and we should<i><span class='gminor'> job switch </span></i>whenever we need it: for crafting, farming or combat.</p><p>In time, as we gain more resources, more Cats will want to come live here as well!"
+                                 },
+                                 "bulletin_title": "Our New World",
+                                 "dialog_title": "Our New World",
+                                 "choice_000": "Okay"
+                               }
+                              }
+                             }
+               },
+			   "dialog_dismiss_cats_choice": {
+                             "dialog_tree_info": {
+                              "dialog_nodes": {
+                               "open_letter": {
+                                 "bulletin_message": {
+                                  "00": "<i>A choice for the future...</i><p>Now is the chance to make an important decision about the citizens of the Cat Crew. <p>You can continue caring for the Cats, while also recruiting new Hearthlings, Dragonborn, and Rabbitkin.<p>Or, you can choose to release these Cats into the wilderness, to make a town of other citizen types."
+                                 },
+                                 "bulletin_title": "Decision Time!",
+                                 "dialog_title": "Keep or Release Cats",
+                                 "choice_000": "Ok"
+                               },
+                               "read_letter": {
+                                 "bulletin_message": {
+                                  "00": "<p>Do you want to keep these Cats?  <p><p>"
+                                 },
+                                 "bulletin_title": "Fateful Choice!",
+                                 "dialog_title": "Keep or Release Cats",
+                                 "choice_000": "No, Release them",
+								 "choice_001": "Yes, Keep the Cats"
+                               }
+                              }
+                             }
+                },
+			   "grant_recurring_citizen": {
+			     "dragonborn_notification_title": "A Dragonborn joins the group!",
+				 "rabbit_notification_title": "A Rabbitkin joins the group!"
+			   },
+			   "citizen_type_choice": {
+                  "dragonborn": {
+                     "name": "Dragonborn",
+                     "description": "A strong and noble member of the elusive Dragon people."
+                  },
+                  "hearthling": {
+                     "name": "Hearthling",
+                     "description": "A well-rounded adventurer, able to learn many jobs."
+                  },
+                  "rabbit": {
+                     "name": "Rabbitkin",
+                     "description": "A swift running Rabbit of the enduring Clan Amberstone."
+                  },
+				  "none": {
+                     "name": "",
+                     "description": "<i>Nobody will join today,<br> maybe next time.</i>"
+                  }
+               },
+			   "dialog_cat_den_intro": {
+                             "dialog_tree_info": {
+                              "dialog_nodes": {
+                               "open_letter": {
+                                 "bulletin_message": {
+                                  "00": "There once was a very Brave Cat that lived with us.<br>This Cat was also known for having a hot headed temper, which made it lash out at any monster that would dare strike first. Still, it was only a small Cat.<p>On a gloomy and foggy day, this cat tried its best to ward off the Zombies in the wilderness, while it was bringing back some mined out ore from the mountainside.  It distracted the zombies long enough for the other cats to flee back to town..."
+                                 },
+                                 "bulletin_title": "The Brave Cat",
+                                 "dialog_title": "The Brave Cat",
+                                 "choice_000": "A good kitty"
+                               },
+                               "read_letter": {
+                                 "bulletin_message": {
+                                  "00": "So, in honour of the Brave Cat, we have crafted a Statue.<p>Now, we need to build an area for some cats to sleep comfortably near the Brave Cat Statue: a Cat Den.</p><p>Any kind of area will work, but a covered shelter will be more comfortable.<br><br>Build the Cat Den template after getting a Weaver, or use a room in a cave, but it will also need some unique furniture.</p>"
+                                 },
+                                 "bulletin_title": "Town Quest: Cat Den",
+                                 "dialog_title": "Town Quest: Cat Den",
+                                 "choice_000": "Cat Pads!"
+                               },
+                               "read_letter2": {
+                                 "bulletin_message": {
+                                  "00": "Right, lets get a<span class='gminor'> Weaver </span>to craft up some Cat Pads to furnish the Den with.<p>We can place the<span class='gmajor'> Brave Cat Statue </span>close to<span class='gmajor'> 4 Cat Pads, </span>then that will be a nice little room to get a good rest."
+                                 },
+                                 "bulletin_title": "Town Quest: Cat Den",
+                                 "dialog_title": "Cat Pads in the Cat Den",
+                                 "choice_000": "Build a comfy Cat Den"
+                               }
+                              }
+                             }
+               },
+			   "hearth_choice": {
+                  "friends": {
+                     "name": "Hearth of Friendship",
+                     "description": "<i>Proof that you have happy, well-fed citizens, and nice places for them to live.</i><ul><li>Boosts Daily Update net worth based on the overall Morale of your citizens</li><li>Each day brings a new random buff for your townsfolk.</li></ul>"
+                  }
+               },
+			   "geo_runba_gift": {
+                  "donation_dialog_info": {
+                     "dialog_nodes": {
+                        "simple_message": {
+                           "bulletin_message": {
+                              "00": "Hi there, I'm Geomancer Runba. I noticed that Amberstone energy has gathered here to upgrade your town's Hearth firepit, and you are doing a fine job of taking care of these Cats!<br><br>As a reward for your efforts in building this nice town, I will give you one of Clan Amberstone's precious talismans."
+                           },
+                           "bulletin_title": "Geomancer Runba finds our town!",
+                           "dialog_title": "Congratulations",
+                           "choice_000": "Welcome!"
+                        },
+						"simple_message_2": {
+                           "bulletin_message": {
+                              "00": "This staff allows one of your folk to become a Geomancer.<br><br>Use the essence harvested from<span class='gminor'> Hearthbud </span>plants, to get started in practicing the works of a<span class='gmajor'> Geomancer!</span><br><br><i>\"Be brave as you continue to grow and learn of this land.\"</i><p>Gifted to you:"
+                           },
+                           "bulletin_title": "Geomancer Runba's gift",
+                           "dialog_title": "Hearthbuds and Geomancy",
+                           "choice_000": "A new job to learn"
+                        }
+                     }
+                  }
+               },
+			   "dialog_mega_hearthbud_intro": {
+                             "dialog_tree_info": {
+                              "dialog_nodes": {
+                               "open_letter": {
+                                 "bulletin_message": {
+                                  "00": "I'm so glad that finding these Cats has brought together the folks of Hearth here.<p>In collaboration with the Dragonborn, a new plant species has been developed!<br>The Dragonborn shared some ancient quick plant growth techniques, which were once used to allow them to hide amongst thick forests.</p>Rabbit Geomancers adapted the technique to develop the<span class='gmajor'> Mega Hearthbud </span>plant."
+                                 },
+                                 "bulletin_title": "Mega Hearthbud Plant",
+                                 "dialog_title": "Runba and the Mega Hearthbud",
+                                 "choice_000": "That's Mega-nificent"
+                               },
+                               "read_letter": {
+                                 "bulletin_message": {
+                                  "00": "The Mega Hearthbud plant can gather and transfer the energy it absorbs from the light of the Sun and Moon, producing a valuable resource now.<br><br>Yes, now we will have a way to obtain Amberstone without needing to dig deep underground, because this plant can actually form<span class='gminor'> Amberstone Cubes!</span><p>We can use this resource to make some Legendary equipment.</p>"
+                                 },
+                                 "bulletin_title": "Amberstone Cubes",
+                                 "dialog_title": "Amberstone Cubes",
+                                 "choice_000": "That plant is super cubicle"
+                               },
+                               "read_letter2": {
+                                 "bulletin_message": {
+                                  "00": "So, I have tried growing the first Mega Hearthbud out here, and it looks like it worked!  Please bring this plant back to your town [with<span class='gminor'> Move Item </span>command] so it will start growing more Amberstone for us.<p>If you see any Amberstone Cubes nearby, please put them in your storage [with<span class='gminor'> Undeploy </span>command] for a later use: I will need to examine it to formulate some new recipes!</p>"
+                                 },
+                                 "bulletin_title": "Town Quest: Amberstone Cube",
+                                 "dialog_title": "Town Quest: Amberstone Cube",
+                                 "choice_000": "Grow the Plant and grab the Cube!"
+                               }
+                              }
+                             }
+               },
+			   "amberstone_cube_quest": {
+						     "title": "Town Quest: Collect an Amberstone Cube",
+							 "dialog_title": "Town Quest: Collect an Amberstone Cube"
+			    },
+			   "dialog_place_down_shrine": {
+                             "dialog_tree_info": {
+                              "dialog_nodes": {
+                               "open_letter": {
+                                 "bulletin_message": {
+                                  "00": "Thank you!  Thanks for getting the Amberstone Cube, and I hope you have found a nice spot for your Mega Hearthbud plant, as it steadily grows Amberstone Cubes for harvesting.<br><p>With this advancement, you can be happy that your town will reach its next level of development!"
+                                 },
+                                 "bulletin_title": "Geomancer Runba is pleased!",
+                                 "dialog_title": "Advancing the Town",
+                                 "choice_000": "Exciting!"
+                               },
+                               "read_letter": {
+                                 "bulletin_message": {
+                                  "00": "Great work!  In honor of this achievement, I present to you the<span class='gmajor'> Shrine of the Paw.</span><br>Just place it down in a nice spot, and we can proceed with the advancement ceremony.<p>I will teach your townsfolk these new recipes I have developed, including a Geomancer recipe to grow some more<span class='gminor'> Mega Hearthbud </span>plants, to increase the Amberstone Cube production!</p>"
+                                 },
+                                 "bulletin_title": "Special Shrine",
+                                 "dialog_title": "Special Shrine",
+                                 "choice_000": "Let's find a great spot for the Shrine"
+                               }
+                              }
+                             }
+               },
+               "arcs": {
+                  "trigger": {
+                     "town_progression": {
+                        "encounters": {  
+                           "banner_upgrade_xp": {
+                              "achievements": {
+                                 "000": "Citizens gain Job Experience at a boosted rate"
+                              }
+                           },
+						   "hearth_upgrade_friends": {
+                              "title": "Settlement Established",
+                              "dialog_title": "Settlement Established!",
+                              "tier_title": "Settlement",
+                              "reward_message": "By unanimous agreement of the citizens, we declare:",
+                              "reward_message_ctd": "to be a settlement that thrives on the friendship between all citizens.",
+                              "achievements": {
+                                 "000": "Daily Update boosted by citizen Morale",
+                                 "001": "Random Daily Buffs"
+                              }
+                           },
+						   "reembark_dialog": {
+                              "dialog_tree_info": {
+                                 "dialog_nodes": {
+                                    "msg1": {
+                                       "bulletin_title": "It's Runba Again!"
+                                    }
+                                 }
+                              }
+                           }
+		                 }
+					 }
+                  }
+               },
+			   "shrine_choice": {
+                  "paw": {
+                     "name": "Shrine of the Paw",
+                     "description": "<i>This Township shall seek to take great care of the Cats that come to rest here.</i><ul><li>Blesses all citizens with +1 to Mind, Body, and Spirit</li><li>Unlocks Legendary Equipment recipes</li></ul>"
+                  }
+               },
+			   "shrine_quest_paw": {
+                  "title": "Township Quest: Shrine of the Paw",
+                  "dialog_title": "Township Quest: Shrine of the Paw"
+               },
+			   "shrine_upgrade_paw": {
+                  "title": "Township Established",
+                  "reward_message": "On this day, we recognize:",
+                  "reward_message_ctd": "For making a peaceful home for the Cats. The town is hereby eligible for:",
+                  "achievements": {
+                     "001": "Potter Decorations",
+                     "002": "Blacksmith Legendaries",
+                     "003": "Weaver Banners"
+                  },
+                  "recipe_bulletins": {
+                     "recipe_unlock_potter": "New decoration recipes for Potter!",
+                     "recipe_unlock_blacksmith": "New legendary recipes for Blacksmith!",
+                     "recipe_unlock_weaver": "New banner recipes for Weaver!",
+					 "recipe_unlock_geomancer": "Mega Hearthbud recipe for Geomancer!"
+                  }
+               },
+			   "hg_dialog_banner_upgrade_choice": {
+                             "dialog_tree_info": {
+                              "dialog_nodes": {
+                               "open_letter": {
+                                 "bulletin_message": {
+                                  "00": "Geomancer Runba catches up to our small group of explorers, carrying a bag of food. <br><br>\"Greetings, members of the Hearth Guard! I see you've decided to construct an outpost out here, it looks like a fine spot.\"<p>\"I hope you will succeed in your mission to protect the Hearthlands, yes...\"<p>Yes, we are the Hearth Guard, formed of an alliance between the Dragonborn and Rabbitkin. The Rabbits have returned to the surface, from the Underground warrens, and the Dragons have returned as well..."
+                                 },
+                                 "bulletin_title": "The Arrival",
+                                 "dialog_title": "The Arrival",
+                                 "choice_000": "The start of our story..."
+                               },
+							   "dragonborn_origin1": {
+                                 "bulletin_message": {
+                                  "00": "But, where did the Dragonborn even come from, you may have wondered. <br><br>Listen to this short tale, and you'll understand.<br>Gather here, around the Hearth."
+                                 },
+                                 "bulletin_title": "Dragonborn Destiny",
+                                 "dialog_title": "Dragonborn Destiny",
+								 "choice_000": "Dragon Tales",
+								 "choice_001": "We already know the story [Skip]"
+                               },
+							   "dragonborn_origin2": {
+                                 "bulletin_message": {
+                                  "00": "The Dragonborn formed a thriving Empire in the earliest days, the first beings to inhabit these lands.  As noble caretakers, they formed a balanced utopia, guarding the friendly animals from danger.  But, after the emergence of some new hostile races, the Dragonborn Empire fell into decline.<br><br>During their last days, a precious few were able to shift their existence to a spiritual form, hiding themselves from sight and sense.<br><br>They watched over their dormant eggs, disguised in various miraged landmarks, but eventually most of those were found and pillaged."
+                                 },
+                                 "bulletin_title": "Dragon Tales",
+                                 "dialog_title": "Dragon Tales",
+                                 "choice_000": "A Heroic Act"
+                               },
+							   "dragonborn_origin3": {
+                                 "bulletin_message": {
+                                  "00": "Pax Skydragon, a Dragonborn Prince, was one of the last heroes. A small outpost, housing precious young Dragon whelps, was beseiged by invaders one stormy night. In sacrifice, Pax Skydragon cracked the sky open, and became a conduit for the mighty lightning... finally transferring the souls of the Dragon whelps to the sky, where they would slowly and safely mature among the clouds.<br><br>Those ancient Dragon whelps are now here, all grown up! We appeared to the Rabbitkin of Clan Amberstone first, continuing our duty as caretakers of vulnerable animals.<br><br>Our destiny is to return and assist the Children of Monkey in a great battle, to occur in this generation."
+                                 },
+                                 "bulletin_title": "Dragon Legacy",
+                                 "dialog_title": "Dragon Legacy",
+                                 "choice_000": "Guarding the Future"
+                               },
+                               "read_letter": {
+                                 "bulletin_message": {
+                                  "00": "Now, we'll give a name to our new Village and celebrate this day!<p>Our experience in the world lets us learn jobs quickly, and we should<i><span class='gminor'> job switch </span></i>whenever we need it: for crafting, farming or combat.</p><p>Gradually, more Rabbitkin and Dragonborn will come to join the Hearth Guard!"
+                                 },
+                                 "bulletin_title": "Our New World",
+                                 "dialog_title": "Our New World",
+                                 "choice_000": "Okay"
+                               }
+                              }
+                             }
+               },
+			   "town_founding_food_donation": {
+                  "donation_dialog_info": {
+                     "dialog_nodes": {
+                        "simple_message": {
+                           "bulletin_message": {
+                              "00": "While celebrating the start of the new outpost, Geomancer Runba opens his bag of food.<br><br><i>\"Here's a little something to help you celebrate\"</i><br>the bag contains:"
+                           },
+                           "bulletin_title": "Runba cheers!",
+                           "dialog_title": "A little feast",
+                           "choice_000": "Delicious!"
+                        }
+                     }
+                  }
+               },
+			   "dialog_engi_looxa_intro": {
+                             "dialog_tree_info": {
+                              "dialog_nodes": {
+                               "open_letter": {
+                                 "bulletin_message": {
+                                  "00": "A curious Red Dragonborn wanders into the outpost, looking at each citizen, searching for someone in particular.<p>\"Hello.  I'm Looxa Magmadragon, at your service!  Well, Geomancer Runba told me he'd be here waiting, so we could get to work on a new project.  But, I don't see him among you all here...\"<br>"
+                                 },
+                                 "bulletin_title": "A Crimson Figure Arrives",
+                                 "dialog_title": "The Dragonborn Guest",
+                                 "choice_000": "Hmm"
+                               },
+                               "read_letter": {
+                                 "bulletin_message": {
+                                  "00": "Looxa Magmadragon wears the outfit of an advanced Engineer. We wonder what project she will work on with Runba?<p>She tells us, \"Runba was to bring me some Hearth Essence and Gold Flakes, so we could design a device to enhance the growth of Hearthbud plants.<br>Anyways, I guess he is running late.\"<p>Indeed, Runba never came back here yet, since we established [str(i18n_data.town_name)]."
+                                 },
+                                 "bulletin_title": "Looxa Magmadragon",
+                                 "dialog_title": "Looxa Magmadragon",
+                                 "choice_000": "We'll have to wait"
+                               },
+                               "read_letter2": {
+                                 "bulletin_message": {
+                                  "00": "Hold on, just a minute.<br>\"Wait! Do you see that over there?  I see something sparkling and glowing faintly.  Will you please send someone over there to bring those items back, they could be the Hearth Essence and Gold Flakes that Runba was carrying.\"<br><br>Let's also check for any signs of Runba in the area."
+                                 },
+                                 "bulletin_title": "Off in the distance",
+                                 "dialog_title": "Something sparkles over there",
+                                 "choice_000": "Let's look around"
+                               }
+                              }
+                             }
+               },
+			   "dialog_engi_looxa_notice": {
+                             "dialog_tree_info": {
+                              "dialog_nodes": {
+                               "open_letter": {
+                                 "bulletin_message": {
+                                  "00": "The Hearth Essence and Gold Flakes can be looted off the ground.  Watch out for any wild aggressive animals nearby, though.<br><br><i>Run away from them, or hunt them down to guard the land.</i>"
+                                 },
+                                 "bulletin_title": "Hearth Essence",
+                                 "dialog_title": "Essence and Gold",
+                                 "choice_000": "Loot the items"
+                               }
+                              }
+                             }
+               },
+			   "hearth_essence_quest": {
+						     "title": "Collect Hearth Essence and Gold Flakes",
+							 "dialog_title": "Collect Hearth Essence and Gold Flakes"
+			   },
+			   "dialog_runba_found": {
+                             "dialog_tree_info": {
+                              "dialog_nodes": {
+                               "open_letter": {
+                                 "bulletin_message": {
+                                  "00": "\"Woowee, I finally made it here!\" says Geomancer Runba.  He looks a little roughed up, as he continues.<br><p>\"Oh, I see you found the Hearth Essence and Gold Flakes that I had dropped.  I just couldn't carry them any longer... those wild boars have been chasing me since I left the little Rabbitkin outpost I was visiting.<br>At least I distracted them well enough, because those crazy boars were eating all the food, stored up in the warehouses back there!\"</p>"
+                                 },
+                                 "bulletin_title": "Loot Gathered",
+                                 "dialog_title": "And a Rabbit Returned",
+                                 "choice_000": "Crazy!"
+                               },
+                               "read_letter": {
+                                 "bulletin_message": {
+                                  "00": "\"Runba!\" cries Looxa Magmadragon, \"You're always finding new ways to surprise me!\"<br><br>\"We are glad you could make it, though.  This project needs to proceed, so we can find a solution for local production of Amberstone on the surface, instead of scouring the dark underworld mines.  That is, if my theories are correct.  Now then, lets get to working with the supplies.\"<br><br>Runba nods, as he pulls out his Geomancer Staff."
+                                 },
+                                 "bulletin_title": "Looxa is relieved",
+                                 "dialog_title": "Looxa is relieved",
+                                 "choice_000": "A bit of magic"
+                               },
+                               "read_letter2": {
+                                 "bulletin_message": {
+                                  "00": "\"Okay Looxa, we'll proceed with the project, but first there is something I need to do.<br><br>These Hearth Guards have been hard at work in developing this place, so its time for me to cast my Geomancy powers upon their Hearth, transforming it into a granter of daily blessings.\"<p>Our friendship is growing stronger as we take the next step towards advancing our Settlement today!</p>"
+                                 },
+                                 "bulletin_title": "A new Hearth",
+                                 "dialog_title": "A new Hearth",
+                                 "choice_000": "Today we Celebrate!"
+                               }
+                              }
+                             }
+               },
+			   "geo_runba_gift_hg": {
+                  "donation_dialog_info": {
+                     "dialog_nodes": {
+                        "simple_message": {
+                           "bulletin_message": {
+                              "00": "Geomancer Runba knows that these are dangerous times, and each journey is a risk.  He has decided to instruct the Hearth Guard's Rabbitkin in the ancient knowledge of manipulating the landscape through Geomancy.<br><br>The artform can survive a little longer as a new pupil takes on the task of learning this obscure skill."
+                           },
+                           "bulletin_title": "Passing down the Knowledge",
+                           "dialog_title": "Matter Manipulation",
+                           "choice_000": "We gratefully accept"
+                        }
+                     }
+                  }
+               },
+			   "dialog_project": {
+                             "dialog_tree_info": {
+                              "dialog_nodes": {
+                               "open_letter": {
+                                 "bulletin_message": {
+                                  "00": "In the ancient past, the Dragonborn Engineers had used devices to quickly grow large forests that would surround their castles, as a way to keep them hidden from afar.<p>Now, Engineer Looxa and Geomancer Runba are combining their devices and magic to develop a new Hearthbud plant.  It grows quickly to a large size, but it also produces something different than Hearth Essence now.</p>"
+                                 },
+                                 "bulletin_title": "Dragon Tech",
+                                 "dialog_title": "Dragon Tech",
+                                 "choice_000": "What will it produce?"
+                               },
+                               "read_letter": {
+                                 "bulletin_message": {
+                                  "00": "The new Mega Hearthbud will be able to gather light energy from the Sun and Moon to focus it into a material that will form an Amberstone Cube.<br><br>We can use this resource for some special equipment, and it also provides a comforting feeling for the Rabbitkin.  They can remain as their upright Rabbit form in the presence of these Amberstones."
+                                 },
+                                 "bulletin_title": "Amberstone Source",
+                                 "dialog_title": "Amberstone Source",
+                                 "choice_000": "Convenient"
+                               },
+                               "read_letter2": {
+                                 "bulletin_message": {
+                                  "00": "So, we have activated the device on some Hearthbud seeds planted in the wilderness.<p>All we have to do now, is wait awhile for the seed to absorb the particle mixture, and watch for the emergence of our new plantform.</p>"
+                                 },
+                                 "bulletin_title": "The Project Proceeds",
+                                 "dialog_title": "The Project Proceeds",
+                                 "choice_000": "Let's Grow!"
+                               }
+                              }
+                             }
+               },
+			   "dialog_mega_hearthbud_intro_hg": {
+                             "dialog_tree_info": {
+                              "dialog_nodes": {
+                               "open_letter": {
+                                 "bulletin_message": {
+                                  "00": "The project succeeds! We see the emergence of this<span class='gmajor'> Mega Hearthbud </span>plant.<p>Please bring this plant back to your town [with<span class='gminor'> Move Item </span>command] so it will start growing more Amberstone for us.</p><p>If you see any Amberstone Cubes nearby, please put them in your storage [with<span class='gminor'> Undeploy </span>command] for a later use: I will need to examine it to formulate some new recipes!</p>"
+                                 },
+                                 "bulletin_title": "Mega Hearthbud Plant",
+                                 "dialog_title": "The Mega Hearthbud",
+                                 "choice_000": "Mega-nificent! We'll bring it here"
+                               }
+                              }
+                             }
+               },
+			   "shrine_upgrade_paw_hg": {
+                  "reward_message_ctd": "For making the home of the Hearth Guard. The town is hereby eligible for:"
+               }
+           },
+		   "kitten_guard_quest": {
+			   "initial_help_request": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+						"msg1": {
+                           "bulletin_message": {
+                              "00": "Hearth Guards! I am worried for the little wild cats out there."
+                           },
+                           "bulletin_title": "A Dragonborn Guard is concerned",
+                           "dialog_title": "Hearth Guard Knight"
+                        },
+                        "msg2": {
+                           "bulletin_message": {
+                              "00": "I smell the stinky Goblin's campfire smoke in the distance, and I've heard a nasty Goblin Wolf howling.<br><br>It would be a shame if the Goblins were to train these cats for their gruesome Army, or worse...<br><i>they're surely hungry for a snack.</i>"
+                           },
+                           "bulletin_title": "The Guard scratches his nose",
+                           "dialog_title": "Hearth Guard Knight"
+                        },
+                        "msg3": {
+                           "bulletin_message": {
+                              "00": "Stay alert when venturing out in the wild, and ready your blades for action.<br>We must help our little friends who are in danger.<br>It's our duty.<br><br>Destroy the Cat Cage, and set them free!"
+                           },
+                           "bulletin_title": "The Guard nods firmly",
+                           "dialog_title": "Hearth Guard Knight"
+                        }
+                     }
+                  }
+               },
+			   "rabbits_hint": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg1": {
+                           "bulletin_message": {
+                              "000": "Theres a wolf in the woods! Let's go! For the cats!",
+                              "001": "Can't you hear the howling? We must hurry to save the cats!",
+                              "002": "I was attacked by Goblins! And they had a cage full of cats!",
+                              "003": "The nasty Goblins and their wolf are so vicious! Can we save the cats from their terrible keepers?",
+                              "004": "Goblins in the woods! The cats in the cage are crying for help!"
+                           },
+                           "bulletin_title": "A Rabbitkin scout hears the Goblin wolf howl",
+                           "dialog_title": "Rabbitkin Scout"
+                        }
+                     }
+                  }
+               },
+               "finish_message": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg1": {
+                           "bulletin_message": {
+                              "00": "The cats have returned to their wilderness now, our mission is finished."
+                           },
+                           "bulletin_title": "The Dragonborn Guard is at ease",
+                           "dialog_title": "Hearth Guard Knight"
+                        },
+						"msg2": {
+                           "bulletin_message": {
+                              "00": "We've protected this land from the Goblins' mischief this time, and we'll continue guarding the vulnerable critters, as our ancestors did."
+                           },
+                           "bulletin_title": "The knight looks toward the sky",
+                           "dialog_title": "Hearth Guard Knight"
+                        },
+                        "msg3": {
+                           "bulletin_message": {
+                              "00": "Meanwhile, the Engineers are rediscovering old Dragontech, and have crafted some samples of the Golden Gear for us to use right now!<br><br>Maybe one day, we can build a great place for those wild cats to live in safety."
+                           },
+                           "bulletin_title": "Golden Gear revived",
+                           "dialog_title": "Hearth Guard Knight"
+                        }
+                     }
+                  }
+               },
+               "kittens_escaping_dialog": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg1": {
+                           "bulletin_message": {
+                              "00": "Purrr, Purrr, MEOOOW!!!"
+                           },
+                           "bulletin_title": "The cats explode joyfully from the cage",
+                           "dialog_title": "Escaping cats"
+                        }
+                     }
+                  }
+               },
+			   "encounters": {
+                           "create_trainer_camp": {
+                              "hut": {
+                                 "hut": {
+                                    "display_name": "Trainer Tent"
+                                 }
+                              },
+                              "kitten_cage": {
+                                 "kitten_cage": {
+                                    "display_name": "Cat Cage"
+                                 },
+                                 "tame_kitten": {
+                                    "description": "Wild and worried"
+                                 }
+                              }
+                           }
+               }
+		   },
+           "trader": {
+		      "arcs": {
+                  "encounters": {
+                     "tier_1_shops": {
+                        "metal_goods_shop_1": {
+                           "shop_info": {
+                              "name": "Reggie Sledgehammer's Metal Shop",
+                              "title": "Reggie Sledgehammer has arrived with metal for sale"
+                           }
+                        }
+					  },
+					"tier_2_shops": {
+                        "metal_goods_shop_2": {
+                           "shop_info": {
+                              "name": "Reggie Sledgehammer's Metal Shop",
+                              "title": "Reggie Sledgehammer has arrived with extra metals"
+                           }
+                        }
+					  }
+				  }
+			   }		
+		   }
+		}
+	  },
+	  "commands": {
+		"random_skin": {
+			"dragonborn": {
+				"display_name": "Change Color",
+				"description": "The Dragonborn changes the color of its scales"
+			},
+			"rabbit_hg": {
+				"display_name": "Change Color",
+				"description": "The Rabbitkin dyes its fur"
+			}
+		}
+	  }
+	},
+	"entities": {
+	  "peoples": {
+         "dragonborn_feline": {
+            "species": "Dragonborn"
+         },
+		 "feline": {
+            "species": "Cat"
+         }
+      },
+	  "npc": {
+		"female":{
+		  "engi_looxa": {
+		     "display_name": "Looxa",
+			 "description": "Magmadragon Engineer"
+		  }
+		},
+	    "male":{
+		  "geo_runba": {
+		     "display_name": "Runba",
+			 "description": "Geomancer of Clan Amberstone"
+		  }
+		}
+	  },
+	  "decoration": {
+	    "dragon_loot_chest": {
+		  "display_name": "Dragon Treasure",
+		  "description": "Open it to claim the treasure inside."
+		},
+		"hearth_friends": {
+            "hearth_friends_ghost": {
+               "display_name": "Hearth of Friendship",
+               "description": "Provides warmth, light, and comfort"
+            }
+         },
+		 "shrine_paw": {
+			"shrine_paw_ghost": {
+               "display_name": "Shrine of the Paw",
+               "description": "A monument celebrating our Town of many Creatures."
+            }				
+		 },
+		 "statue": {
+		   "statue_babis_monument": {
+               "display_name": "Shrine of Babis",
+               "description": "Legend has it that she was the best kitty ever. It radiates a healing aura."
+            }
+		 }
+	  },
+	  "equipment": {
+	    "gold_fangs": {
+		   "display_name": "Golden Fangs",
+           "description": "Converts Dragonborn breath into flames."
+		},
+		"gold_gauntlet": {
+		   "display_name": "Golden Gauntlet",
+           "description": "Powerful strike when equipped weapon expands."
+		},
+	    "gold_wings": {
+		   "display_name": "Golden Wings",
+           "description": "Protects a Dragonborn's back."
+		}
+	  },
+	  "furniture": {
+	    "sleeping_pad": {
+            "display_name": "Cat Pad",
+            "description": "Sleeping pad for cats or people."
+         }
+	  },
+	  "gizmos": {
+	    "pedestal": {
+		  "plants": "🌿",
+		  "appeal": "✨"
+		},
+		"keystone_pedestal": {
+            "keystone_pedestal_ghost": {
+               "display_name": "Amberstone Pedestal",
+               "description": "An Amberstone artifact, surround it with plants in a garden."
+            }
+        },
+		"statue_cat_guard": {
+		    "pads": "🐱🛏️",
+            "statue_cat_guard_ghost": {
+               "display_name": "Brave Cat Statue",
+               "description": "Remember the Brave Cat, and sleep well in a Cat Pad."
+            }
+        },
+	    "town_banner_xp": {
+            "town_banner_xp_ghost": {
+               "display_name": "Banner of Wisdom",
+               "description": "How you know you've come home",
+               "town_bonus_description": "<i>This settlement will adapt quickly with enhanced learning rates.</i><ul><li>Experience gaining rate is increased.</li><li>Citizens can learn their job quicker, allowing an easier time to become masters of additional jobs.</li></ul>"
+            },
+            "town_banner_xp_token_iconic": {
+               "display_name": "Banner of Wisdom Shred",
+               "description": "A shred from the Banner of Experience, carrying along its blessing."
+            }
+         }
+	  },
+	  "plants": {
+		"mega_hearthbud": {
+		 "unripe_description": "Preparing to form another Amberstone Cube.",
+		 "mega_hearthbud_clone": {
+           "description": "Gigantic plant, it will start to form an Amberstone Cube.",
+           "display_name": "Mega Hearthbud Starter"
+		 },
+		 "mega_hearthbud_half_grown": {
+           "description": "Gigantic plant, the Amberstone Cube is halfway formed...",
+           "display_name": "Mega Hearthbud Former"
+		 },
+		 "mega_hearthbud_ghost": {
+           "description": "Gigantic plant, it slowly reproduces an Amberstone Cube.",
+           "display_name": "Mega Hearthbud"
+		 }
+        }			
+	  },
+	  "resources": {
+		"amberstone_cube": {
+		   "amberstone_cube_ghost": {
+			   "description": "Raw Amberstone resource, and also a glowy table?",
+               "display_name": "Amberstone Cube"
+		   }
+		},
+	    "wood": {
+		  "parana_pine_log": {
+               "description": "A log. Made of wood.",
+               "display_name": "Parana Pine Log"
+          }
+		}
+	  },
+	  "trees": {
+	    "parana_pine_tree": {
+            "seed": {
+               "tree_parana_pine_seed_ghost": {
+                  "display_name": "Parana Pine Seed",
+                  "description": "Can be planted to grow a unique, beautiful tree."
+               }
+            },
+            "sprout": {
+               "tree_parana_pine_sprout": {
+                  "display_name": "Parana Pine Sproutling",
+                  "description": "Just needs some time and care."
+               }
+            },
+            "stem": {
+               "tree_parana_pine_plant_stem": {
+                  "display_name": "Stemming Parana Pine",
+                  "description": "Still growing!"
+               }
+            },
+            "bud": {
+               "tree_parana_pine_plant_bud": {
+                  "description": "It's a little pine, although not really a pine...",
+                  "display_name": "Budding Parana Pine"
+               }
+            },
+            "small_parana_pine_tree": {
+               "display_name": "Small Parana Pine",
+               "description": "Still mostly a pine, but with pretty, stingy leaves."
+            },
+            "large_parana_pine_tree": {
+               "display_name": "Large Parana Pine",
+               "description": "Look at those stool buds! Glorious!"
+            },
+            "medium_parana_pine_tree": {
+               "display_name": "Parana Pine",
+               "description": "So many fluffy canopies!"
+            },
+            "sapling_parana_pine_tree": {
+               "description": "Baby Parana Pine tree.",
+               "sapling_parana_pine_tree_iconic": {
+                  "description": "Plant it in the earth and watch it grow."
+               },
+               "sapling_parana_pine_tree_ghost": {
+                  "display_name": "Parana Pine Sapling",
+                  "description": "Baby Parana Pine tree."
+               }
+            }
+         }
+	  },
+	  "armor": {
+		"cc_legendary_circlet": {
+            "display_name": "Amber Eye Circlet",
+            "description": "The Kingdom's Squarest circlet"
+         },
+         "cc_legendary_shield": {
+            "display_name": "Amber Tower Shield",
+            "description": "The Kingdom's proudest shield"
+         }  
+	  },
+	  "weapons": {
+		 "cc_legendary_bow": {
+            "display_name": "Amber Rabbit Bow",
+            "description": "The Kingdom's swiftest bow"
+         },
+		 "cc_legendary_sword": {
+            "display_name": "Amber Dragon Sword",
+            "description": "The Kingdom's finest blade"
+         }
+	  }
+	},
+	"jobs": {
+	  "blacksmith": {
+		"recipes": {
+           "cc_two_handed_sword_valor_recipe": {
+               "description": "Finest blade of the Kingdom",
+               "recipe_name": "Amber Dragon Sword",
+               "flavor": "Mimics a set of sharp dragon fangs, to puncture its prey"
+            },
+			"cc_bow_valor_recipe": {
+               "description": "The swiftest bow of the Kingdom",
+               "recipe_name": "Amber Rabbit Bow",
+               "flavor": "A bow that demands skill of it's wielder, but returns it in gales of arrows over their foes"
+            },
+			"cc_giants_shield_recipe": {
+               "description": "The Kingdom's proudest shield",
+               "recipe_name": "Amber Tower Shield",
+               "flavor": "Against even the most terrible foes and impossible dangers, this shield will never break"
+            },
+			"cc_legendary_circlet_recipe": {
+               "description": "Worn by the Kingdom's finest healers",
+               "recipe_name": "Amber Eye Circlet",
+               "flavor": "Channels the very heart and soul into healing light"
+            }
+        }			
+	  },
+	  "engineer": {
+	    "recipes": {
+		  "golden_gear_name": "Golden Gear",
+		  "gold_fangs_recipe": {
+               "recipe_name": "Golden Fangs",
+               "description": "Grants a Fire-breath attack for any Dragonborn.",
+               "flavor": "🔥"
+          },
+		  "gold_wings_recipe": {
+               "recipe_name": "Golden Wings",
+               "description": "Decorative back armor for any Dragonborn.",
+               "flavor": "Fly up and away, be free in a dream"
+          },
+		  "gold_gauntlet_recipe": {
+               "recipe_name": "Golden Gauntlet",
+               "description": "Generates a gigantic mainhand weapon strike for a Dragonborn combatant.",
+               "flavor": "The Dragontech gear, within your grasp"
+          }
+		}
+	  },
+	  "footman": {
+	     "footman_cap": {
+			"display_name": "Footman's Wingcap",
+            "description": "Dragon styled headgear for a soldier"			
+		 },
+		 "footman_description": {
+			"requirements": "Crafted by Carpenter or Potter"
+		 }
+	  },
+	  "geomancer": {
+		 "recipes": {
+            "mega_hearthbud_recipe": {
+			   "recipe_name": "Mega Hearthbud",
+               "description": "A cloned starter plant, it slowly forms an Amberstone Cube to harvest.",
+               "flavor": "Ancient Dragonborn technique, combined with Rabbitkin ingenuity: its kinda creepy"
+			}
+         }			 
+	  },
+	  "knight": {
+	     "dragonborn_knight_helm": {
+			"display_name": "Knight's Crest",
+            "description": "Dragon styled helmet for a defender"		
+		 }
+	  },
+	  "mason": {
+		 "mason_description": {
+			"requirements": "Crafted by Carpenter or Potter"
+		} 
+	  },
+	  "potter": {
+         "potter_description": {
+            "requirements": "Requires a Potter's Cutter"
+         }
+	  },
+	  "ruler": {
+	     "dragonborn_ruler_helm": {
+			"display_name": "Lord's Crest",
+            "description": "Dragon styled helmet for the ruler"		
+		 }
+	  },
+	  "weaver": {
+		"weaver_description": {
+			"requirements": "Crafted by Carpenter or Potter"
+		},
+	    "recipes": {
+		  "sleeping_pad_recipe": {
+               "recipe_name": "Cat Pad",
+               "description": "A simple sleeping pad for cats, or people.",
+               "flavor": "Roll it out on the ground and take a cat nap. zzz..."
+            }
+		}
+	  }
+	},
+	"ui": {
+	  "game": {
+	    "bulletin": {
+		  "citizen_type_choice": {
+               "title": "A New Citizen wants to join!",
+               "name_header": "Choose a name for your settlement!",
+               "name_prompt": "Name:",
+               "banner_prompt": "Choose a citizen:",
+               "complete": "✔️ OK!"
+            }
+		},
+		"mercantile": {
+            "categories": {
+               "cc_metal_goods_shop": {
+                  "display_name": "Metal Goods",
+                  "description": "Merchants supplying refined metal supplies and ironworks."
+               }
+			}
+		}
+	  }
+	}
+}

@@ -1,0 +1,601 @@
+{
+  "entities": {
+    "decoration": {
+      "clay_column": {
+        "display_name": "Clay Column",
+        "description": "A decorative Clay column."
+      },
+      "clay_column_half": {
+        "display_name": "Clay Column - Half",
+        "description": "Half of a decorative Clay column."
+      },
+      "clay_column_small": {
+        "display_name": "Clay Column - Small",
+        "description": "A small decorative Clay column."
+      },
+      "clay_column_quarter": {
+        "display_name": "Clay Column - Quarter",
+        "description": "One quarter of a decorative Clay column."
+      },
+      "clay_floor_tile_large": {
+        "display_name": "Clay Floor Tile - Large",
+        "description": "A large decorative tile for the floor."
+      },
+      "clay_floor_tile_med": {
+        "display_name": "Clay Floor Tile - Medium",
+        "description": "A medium-sized decorative tile for the floor."
+      },
+      "clay_floor_tile_small": {
+        "display_name": "Clay Floor Tile - Small (x4)",
+        "description": "A small decorative tile for the floor."
+      },
+      "clay_floor_tile_wide": {
+        "display_name": "Clay Floor Tile - Long",
+        "description": "A long decorative tile for the floor."
+      },
+      "clay_floor_tile_short": {
+        "display_name": "Clay Floor Tile - Long (x2)",
+        "description": "A shorter, long decorative tile for the floor."
+      },
+      "stone_column": {
+        "display_name": "Stone Column",
+        "description": "A decorative Stone column."
+      },
+      "stone_column_half": {
+        "display_name": "Stone Column - Half",
+        "description": "Half of a decorative Stone column."
+      },
+      "stone_column_small": {
+        "display_name": "Stone Column - Small",
+        "description": "A small decorative Stone column."
+      },
+      "stone_column_quarter": {
+        "display_name": "Stone Column - Quarter",
+        "description": "One quarter of a decorative Stone column."
+      }
+    },
+    "stairs": {
+      "clay_stair_cap": {
+        "display_name": "Clay Capstone (x4)",
+        "description": "A Clay Capstone."
+      },
+      "clay_stair_cap_long": {
+        "display_name": "Clay Capstone - Long (x2)",
+        "description": "A long Clay Capstone."
+      },
+      "clay_stair_corner_inside": {
+        "display_name": "Clay Stair - Corner, Inside (x2)",
+        "description": "An inside corner piece for a course of stairs."
+      },
+      "clay_stair_corner_outside": {
+        "display_name": "Clay Stair - Corner, Outside (x2)",
+        "description": "An outside corner piece for a course of stairs."
+      },
+      "clay_stair_corner_inside_long": {
+        "display_name": "Clay Stair - Long Corner, Inside",
+        "description": "A long, inside corner piece for a course of stairs"
+      },
+      "clay_stair_corner_outside_long": {
+        "display_name": "Clay Stair - Long Corner, Outside",
+        "description": "A long, outside corner piece for a course of stairs"
+      },
+      "clay_stair_end": {
+        "display_name": "Clay Stair - End (x2)",
+        "description": "An end piece for a course of stairs."
+      },
+      "clay_stair_end_long": {
+        "display_name": "Clay Stair - Long End",
+        "description": "A long, end piece for a course of stairs"
+      },
+      "clay_stair_middle": {
+        "display_name": "Clay Stair - Middle (x2)",
+        "description": "A middle piece for a course of stairs."
+      },
+      "clay_stair_middle_long": {
+        "display_name": "Clay Stair - Long Middle",
+        "description": "A long, middle piece for a course of stairs."
+      },
+      "clay_stair_middle_wide": {
+        "display_name": "Clay Stair - Middle, Wide",
+        "description": "A wide, middle piece for a course of stairs."
+      },
+      "clay_stair_middle_long_wide": {
+        "display_name": "Clay Stair - Long Middle, Wide",
+        "description": "A long, wide, middle piece for a course of stairs."
+      },
+      "clay_stairs_spiral_ccw": {
+        "display_name": "Clay Stairs - Spiral (CCW)",
+        "description": "A spiral staircase the ascends counter-clockwise."
+      },
+      "clay_stairs_spiral_cw": {
+        "display_name": "Clay Stairs - Spiral (CW)",
+        "description": "A spiral staircase the ascends clockwise."
+      },
+      "clay_stairs_spiral_tight_ccw": {
+        "display_name": "Clay Stairs - Tight Spiral (CCW)",
+        "description": "A tight spiral staircase the ascends counter-clockwise."
+      },
+      "clay_stairs_spiral_tight_cw": {
+        "display_name": "Clay Stairs - Tight Spiral (CW)",
+        "description": "A tight spiral staircase the ascends clockwise."
+      },
+      "stone_stair_cap": {
+        "display_name": "Stone Capstone (x4)",
+        "description": "A Stone Capstone."
+      },
+      "stone_stair_cap_long": {
+        "display_name": "Stone Capstone - Long (x2)",
+        "description": "A long Stone Capstone."
+      },
+      "stone_stair_corner_inside": {
+        "display_name": "Stone Stair - Corner, Inside (x2)",
+        "description": "An inside corner piece for a course of stairs."
+      },
+      "stone_stair_corner_outside": {
+        "display_name": "Stone Stair - Corner, Outside (x2)",
+        "description": "An outside corner piece for a course of stairs."
+      },
+      "stone_stair_corner_inside_long": {
+        "display_name": "Stone Stair - Long Corner, Inside",
+        "description": "A long, corner piece for a course of stairs"
+      },
+      "stone_stair_corner_outside_long": {
+        "display_name": "Stone Stair - Long Corner, Outside",
+        "description": "A long, corner piece for a course of stairs"
+      },
+      "stone_stair_end": {
+        "display_name": "Stone Stair - End (x2)",
+        "description": "An end piece for a course of stairs."
+      },
+      "stone_stair_end_long": {
+        "display_name": "Stone Stair - Long End",
+        "description": "A long, end piece for a course of stairs"
+      },
+      "stone_stair_middle": {
+        "display_name": "Stone Stair - Middle (x2)",
+        "description": "A middle piece for a course of stairs."
+      },
+      "stone_stair_middle_long": {
+        "display_name": "Stone Stair - Long Middle",
+        "description": "A long, middle piece for a course of stairs."
+      },
+      "stone_stair_middle_wide": {
+        "display_name": "Stone Stair - Middle, Wide",
+        "description": "A wide, middle piece for a course of stairs."
+      },
+      "stone_stair_middle_long_wide": {
+        "display_name": "Stone Stair - Long Middle, Wide",
+        "description": "A long, wide, middle piece for a course of stairs."
+      },
+      "stone_stairs_spiral_ccw": {
+        "display_name": "Stone Stairs - Spiral (CCW)",
+        "description": "A spiral staircase the ascends counter-clockwise."
+      },
+      "stone_stairs_spiral_cw": {
+        "display_name": "Stone Stairs - Spiral (CW)",
+        "description": "A spiral staircase the ascends clockwise."
+      },
+      "stone_stairs_spiral_tight_ccw": {
+        "display_name": "Stone Stairs - Tight Spiral (CCW)",
+        "description": "A tight spiral staircase the ascends counter-clockwise."
+      },
+      "stone_stairs_spiral_tight_cw": {
+        "display_name": "Stone Stairs - Tight Spiral (CW)",
+        "description": "A tight spiral staircase the ascends clockwise."
+      },
+      "wood_landing_corner_inside": {
+        "display_name": "Wooden Landing - Corner, Inside",
+        "description": "An inside corner section of landing."
+      },
+      "wood_landing_corner_outside": {
+        "display_name": "Wooden Landing - Corner, Outside",
+        "description": "An outside corner section of landing."
+      },
+      "wood_landing_single_end": {
+        "display_name": "Wooden Landing - End",
+        "description": "A single section of landing with a handrail dividing it."
+      },
+      "wood_landing_single_post": {
+        "display_name": "Wooden Landing - Post",
+        "description": "A single section of landing with a handrail post."
+      },
+      "wood_landing_single_rail": {
+        "display_name": "Wooden Landing - Rail",
+        "description": "A single section of landing with a handrail."
+      },
+      "wood_post_large": {
+        "display_name": "Wooden Support Post - Large",
+        "description": "A large wooden support post."
+      },
+      "wood_post_small": {
+        "display_name": "Wooden Support Post - Small",
+        "description": "A small wooden support post."
+      },
+      "wood_stair_cap": {
+        "display_name": "Wooden Stair Cap - Middle (x2)",
+        "description": "A middle piece for a course of stairs."
+      },
+      "wood_stair_cap_wide": {
+        "display_name": "Wooden Stair Cap - Wide",
+        "description": "A wide piece for a course of stairs."
+      },
+      "wood_stair_cap_corner_inside": {
+        "display_name": "Wooden Stair Cap - Corner, Inside (x2)",
+        "description": "An inside corner for a single set of stairs."
+      },
+      "wood_stair_cap_corner_outside": {
+        "display_name": "Wooden Stair Cap - Corner, Outside (x2)",
+        "description": "An outside corner for a single set of stairs."
+      },
+      "wood_stair_cap_post": {
+        "display_name": "Wooden Stair Cap - Post",
+        "description": "A single set of stairs with a handrail post."
+      },
+      "wood_stair_cap_rail": {
+        "display_name": "Wooden Stair Cap - Rail",
+        "description": "A single set of stairs with a handrail."
+      },
+      "wood_stair_post": {
+        "display_name": "Wooden Stair - Post",
+        "description": "A single set of stairs with a handrail post."
+      },
+      "wood_stair_rail_left": {
+        "display_name": "Wooden Stair - Rail Left",
+        "description": "A single set of stairs with a handrail on the left side."
+      },
+      "wood_stair_rail_right": {
+        "display_name": "Wooden Stair - Rail Right",
+        "description": "A single set of stairs with a handrail on the right side."
+      },
+      "wood_stair_support": {
+        "display_name": "Wooden Support Brace",
+        "description": "A wooden support brace for stairs and landings."
+      },
+      "wood_stairs_spiral_ccw": {
+        "display_name": "Wooden Stairs - Spiral (CCW)",
+        "description": "A spiral staircase the ascends counter-clockwise."
+      },
+      "wood_stairs_spiral_cw": {
+        "display_name": "Wooden Stairs - Spiral (CW)",
+        "description": "A spiral staircase the ascends clockwise."
+      }
+    }
+  },
+  "jobs": {
+    "carpenter": {
+      "recipes": {
+        "stairs_name": "Stairs",
+        "wood_landing_corner_inside": {
+          "recipe_name": "Wooden Landing - Inside Corner",
+          "description": "An inside corner section of landing.",
+          "flavor": "Around the corner we go."
+        },
+        "wood_landing_corner_outside": {
+          "recipe_name": "Wooden Landing - Outside Corner",
+          "description": "An outside corner section of landing.",
+          "flavor": "Around the corner we go."
+        },
+        "wood_landing_single_end": {
+          "recipe_name": "Wooden Landing - End",
+          "description": "A single section of landing with a handrail dividing it.",
+          "flavor": "Let me catch my breath."
+        },
+        "wood_landing_single_post": {
+          "recipe_name": "Wooden Landing - Post",
+          "description": "A single section of landing with a handrail post.",
+          "flavor": "Let me catch my breath."
+        },
+        "wood_landing_single_rail": {
+          "recipe_name": "Wooden Landing - Rail",
+          "description": "A single section of landing with a handrail.",
+          "flavor": "Let me catch my breath."
+        },
+        "wood_post_large": {
+          "recipe_name": "Wooden Support Post - Large",
+          "description": "A large wooden support post.",
+          "flavor": "Steady...Steady!"
+        },
+        "wood_post_small": {
+          "recipe_name": "Wooden Support Post - Small",
+          "description": "A small wooden support post.",
+          "flavor": "Steady...Steady!"
+        },
+        "wood_stair_cap": {
+          "recipe_name": "Wooden Stair Cap (x2)",
+          "description": "A middle piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "wood_stair_cap_corner_inside": {
+          "recipe_name": "Wooden Stair Cap - Corner, Inside (x2)",
+          "description": "An inside corner for a single set of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "wood_stair_cap_corner_outside": {
+          "recipe_name": "Wooden Stair Cap - Corner, Outside (x2)",
+          "description": "An outside corner for a single set of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "wood_stair_cap_post": {
+          "recipe_name": "Wooden Stair Cap - Post",
+          "description": "A single set of stairs with a handrail post.",
+          "flavor": "Up, up, up we go!"
+        },
+        "wood_stair_cap_rail": {
+          "recipe_name": "Wooden Stair Cap - Rail",
+          "description": "A single set of stairs with a handrail.",
+          "flavor": "Up, up, up we go!"
+        },
+        "wood_stair_cap_wide": {
+          "recipe_name": "Wooden Stair Cap - Wide",
+          "description": "A wide piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "wood_stair_post": {
+          "recipe_name": "Wooden Stair - Post",
+          "description": "A single set of stairs with a handrail post.",
+          "flavor": "Up, up, up we go!"
+        },
+        "wood_stair_rail_left": {
+          "recipe_name": "Wooden Stair - Rail Left",
+          "description": "A single set of stairs with a handrail on the left side.",
+          "flavor": "Up, up, up we go!"
+        },
+        "wood_stair_rail_right": {
+          "recipe_name": "Wooden Stair - Rail Right",
+          "description": "A single set of stairs with a handrail on the right side.",
+          "flavor": "Up, up, up we go!"
+        },
+        "wood_stair_support": {
+          "recipe_name": "Wooden Support Brace",
+          "description": "A wooden support brace for stairs and landings.",
+          "flavor": "Steady...Steady!"
+        },
+        "wood_stairs_spiral_ccw": {
+          "recipe_name": "Wooden Stairs - Spiral (CCW)",
+          "description": "A spiral staircase the ascends counter-clockwise.",
+          "flavor": "Up, up, up we go!"
+        },
+        "wood_stairs_spiral_cw": {
+          "recipe_name": "Wooden Stairs - Spiral (CW)",
+          "description": "A spiral staircase the ascends clockwise.",
+          "flavor": "Up, up, up we go!"
+        }
+      }
+    },
+    "mason": {
+      "recipes": {
+        "stairs_name": "Stairs",
+        "stone_column": {
+          "recipe_name": "Stone Column",
+          "description": "A decorative Stone column.",
+          "flavor": "Keeps a roof over our heads."
+        },
+        "stone_column_half": {
+          "recipe_name": "Stone Column - Half",
+          "description": "Half of a decorative Stone column.",
+          "flavor": "Keeps a roof over our heads."
+        },
+        "stone_column_small": {
+          "recipe_name": "Stone Column - Small",
+          "description": "A small decorative Stone column.",
+          "flavor": "Keeps a roof over our heads."
+        },
+        "stone_column_quarter": {
+          "recipe_name": "Stone Column - Quarter",
+          "description": "One quarter of a decorative Stone column.",
+          "flavor": "Keeps a roof over our heads."
+        },
+        "stone_stair_cap": {
+          "recipe_name": "Stone Capstone (x4)",
+          "description": "A Stone Capstone.",
+          "flavor": "Let's put a cap on that."
+        },
+        "stone_stair_cap_long": {
+          "recipe_name": "Stone Capstone - Long (x2)",
+          "description": "A long Stone Capstone.",
+          "flavor": "Let's put a... longer cap on that."
+        },
+        "stone_stair_corner_inside": {
+          "recipe_name": "Stone Stair - Corner, Inside (x2)",
+          "description": "An inside corner piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "stone_stair_corner_outside": {
+          "recipe_name": "Stone Stair - Corner, Outside (x2)",
+          "description": "An outside corner piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "stone_stair_corner_inside_long": {
+          "recipe_name": "Stone Stair - Long Corner, Inside",
+          "description": "A long, inside corner piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "stone_stair_corner_outside_long": {
+          "recipe_name": "Stone Stair - Long Corner, Outside",
+          "description": "A long, outside corner piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "stone_stair_end": {
+          "recipe_name": "Stone Stair - End (x2)",
+          "description": "An end piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "stone_stair_end_long": {
+          "recipe_name": "Stone Stair - Long End",
+          "description": "A long, end piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "stone_stair_middle": {
+          "recipe_name": "Stone Stair - Middle (x2)",
+          "description": "A middle piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "stone_stair_middle_long": {
+          "recipe_name": "Stone Stair - Long Middle",
+          "description": "A long, middle piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "stone_stair_middle_wide": {
+          "recipe_name": "Stone Stair - Middle, Wide",
+          "description": "A wide, middle piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "stone_stair_middle_long_wide": {
+          "recipe_name": "Stone Stair - Long Middle, Wide",
+          "description": "A wide, long, middle piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "stone_stairs_spiral_ccw": {
+          "recipe_name": "Stone Stairs - Spiral (CCW)",
+          "description": "A spiral staircase the ascends counter-clockwise.",
+          "flavor": "Up, up, up we go!"
+        },
+        "stone_stairs_spiral_cw": {
+          "recipe_name": "Stone Stairs - Spiral (CW)",
+          "description": "A spiral staircase the ascends clockwise.",
+          "flavor": "Up, up, up we go!"
+        },
+        "stone_stairs_spiral_tight_ccw": {
+          "recipe_name": "Stone Stairs - Tight Spiral (CCW)",
+          "description": "A tight spiral staircase the ascends counter-clockwise.",
+          "flavor": "Up, up, up we go!"
+        },
+        "stone_stairs_spiral_tight_cw": {
+          "recipe_name": "Stone Stairs - Tight Spiral (CW)",
+          "description": "A tight spiral staircase the ascends clockwise.",
+          "flavor": "Up, up, up we go!"
+        }
+      }
+    },
+    "potter": {
+      "recipes": {
+        "stairs_name": "Stairs",
+        "clay_column": {
+          "recipe_name": "Clay Column",
+          "description": "A decorative Clay column.",
+          "flavor": "Keeps a roof over our heads."
+        },
+        "clay_column_half": {
+          "recipe_name": "Clay Column - Half",
+          "description": "Half of a decorative Clay column.",
+          "flavor": "Keeps a roof over our heads."
+        },
+        "clay_column_small": {
+          "recipe_name": "Clay Column - Small",
+          "description": "A small decorative Clay column.",
+          "flavor": "Keeps a roof over our heads."
+        },
+        "clay_column_quarter": {
+          "recipe_name": "Clay Column - Quarter",
+          "description": "One quarter of a decorative Clay column.",
+          "flavor": "Keeps a roof over our heads."
+        },
+        "clay_floor_tile_large": {
+          "recipe_name": "Clay Floor Tile - Large",
+          "description": "A large, decorative tile for the floor.",
+          "flavor": "Cool on bare feet."
+        },
+        "clay_floor_tile_med": {
+          "recipe_name": "Clay Floor Tile - Medium",
+          "description": "A medium-sized, decorative tile for the floor.",
+          "flavor": "Cool on bare feet."
+        },
+        "clay_floor_tile_small": {
+          "recipe_name": "Clay Floor Tile - Small (x4)",
+          "description": "A small, decorative tile for the floor.",
+          "flavor": "Cool on bare feet."
+        },
+        "clay_floor_tile_wide": {
+          "recipe_name": "Clay Floor Tile - Long",
+          "description": "A long decorative tile for the floor.",
+          "flavor": "Cool on bare feet."
+        },
+        "clay_floor_tile_short": {
+          "recipe_name": "Clay Floor Tile - Short (x2)",
+          "description": "A shorter, long decorative tile for the floor.",
+          "flavor": "Cool on bare feet."
+        },
+        "clay_stair_cap": {
+          "recipe_name": "Clay Capstone (x4)",
+          "description": "A Clay Capstone.",
+          "flavor": "Let's put a cap on that."
+        },
+        "clay_stair_cap_long": {
+          "recipe_name": "Clay Capstone - Long (x2)",
+          "description": "A long Clay Capstone.",
+          "flavor": "Let's put a... longer cap on that."
+        },
+        "clay_stair_corner_inside": {
+          "recipe_name": "Clay Stair - Corner, Inside (x2)",
+          "description": "An inside corner piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "clay_stair_corner_outside": {
+          "recipe_name": "Clay Stair - Corner, Outside (x2)",
+          "description": "An outside corner piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "clay_stair_corner_inside_long": {
+          "recipe_name": "Clay Stair - Long Corner, Inside",
+          "description": "A long, inside corner piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "clay_stair_corner_outside_long": {
+          "recipe_name": "Clay Stair - Long Corner, Outside",
+          "description": "A long, outside corner piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "clay_stair_end": {
+          "recipe_name": "Clay Stair - End (x2)",
+          "description": "An end piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "clay_stair_end_long": {
+          "recipe_name": "Clay Stair - Long End",
+          "description": "A long, end piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "clay_stair_middle": {
+          "recipe_name": "Clay Stair - Middle (x2)",
+          "description": "A middle piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "clay_stair_middle_long": {
+          "recipe_name": "Clay Stair - Long Middle",
+          "description": "A long, middle piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "clay_stair_middle_wide": {
+          "recipe_name": "Clay Stair - Middle, Wide",
+          "description": "A middle piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "clay_stair_middle_long_wide": {
+          "recipe_name": "Clay Stair - Long Middle, Wide",
+          "description": "A long, middle piece for a course of stairs.",
+          "flavor": "Up, up, up we go!"
+        },
+        "clay_stairs_spiral_ccw": {
+          "recipe_name": "Clay Stairs - Spiral (CCW)",
+          "description": "A spiral staircase the ascends counter-clockwise.",
+          "flavor": "Up, up, up we go!"
+        },
+        "clay_stairs_spiral_cw": {
+          "recipe_name": "Clay Stairs - Spiral (CW)",
+          "description": "A spiral staircase the ascends clockwise.",
+          "flavor": "Up, up, up we go!"
+        },
+        "clay_stairs_spiral_tight_ccw": {
+          "recipe_name": "Clay Stairs - Tight Spiral (CCW)",
+          "description": "A tight spiral staircase the ascends counter-clockwise.",
+          "flavor": "Up, up, up we go!"
+        },
+        "clay_stairs_spiral_tight_cw": {
+          "recipe_name": "Clay Stairs - Tight Spiral (CW)",
+          "description": "A tight spiral staircase the ascends clockwise.",
+          "flavor": "Up, up, up we go!"
+        }
+      }
+    }
+  }
+}

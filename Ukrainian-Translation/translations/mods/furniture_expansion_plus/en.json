@@ -1,0 +1,388 @@
+{
+  "data": {
+    "gm": {
+      "campaigns": {
+        "trader": {
+          "arcs": {
+            "encounters": {
+              "rare_item_shop": {
+                "display_name": "The Shiny Things Trader",
+                "title": "A blue eyed, skeleton trader approaches. . ."
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "entities": {
+    "decorations": {
+      "blue_awning": {
+        "blue_awning_ghost": {
+          "display_name": "Blue Awning",
+          "description": "For those who don't like sun in their eyes."
+        }
+      },
+      "red_awning": {
+        "red_awning_ghost": {
+          "display_name": "Red Awning",
+          "description": "For those who don't like the blue one."
+        }
+      },
+      "red_curtains": {
+        "red_curtains_ghost": {
+          "display_name": "Red Curtains",
+          "description": "Like the Blue one..but Red."
+        }
+      },
+      "trapdoor": {
+        "trapdoor_ghost": {
+          "display_name": "Trapdoor",
+          "description": "I wonder what's down there....it doesn't open."
+        }
+      }
+    },
+    "furniture": {
+      "bar_corner": {
+        "bar_corner_ghost": {
+          "display_name": "Bar Corner",
+          "description": "Cause who doesn't like the corner bar seats."
+        }
+      },
+      "bar_section": {
+        "bar_section_ghost": {
+          "display_name": "Bar Section",
+          "description": "Drunken Villagers are much funnier then sober ones."
+        }
+      },
+      "barrel_chair": {
+        "barrel_chair_ghost": {
+          "display_name": "Simple Wooden Stool",
+          "description": "Simple way to waste half of a barrel."
+        }
+      },
+      "barrel_for_one": {
+        "barrel_for_one_ghost": {
+          "display_name": "Barrel for One",
+          "description": "Because Sharing sucks."
+        }
+      },
+      "barrel_table": {
+        "barrel_table_ghost": {
+          "display_name": "Barrel Table",
+          "description": "For when you hate tables."
+        }
+      },
+      "bluecloth_wood_table": {
+        "bluecloth_wood_table_ghost": {
+          "display_name": "Blue clothed Table",
+          "description": "Tables, Now with Color!"
+        }
+      },
+      "boiling_cabinet": {
+        "boiling_cabinet_ghost": {
+          "display_name": "Boiling cabinet",
+          "description": "For those days when you need to eat."
+        }
+      },
+      "bookcase_large": {
+        "bookcase_large_ghost": {
+          "display_name": "Large Bookcase",
+          "description": "There's a slice of ham in one of these books."
+        }
+      },
+      "bookcase_small": {
+        "bookcase_small_ghost": {
+          "display_name": "Small Bookcase",
+          "description": "There's bacon in these ones."
+        }
+      },
+      "burning_logs": {
+        "burning_logs_ghost": {
+          "display_name": "Burning Logs",
+          "description": "Decorative logs to make you think you can have a fire."
+        }
+      },
+      "cart": {
+        "cart_ghost": {
+          "display_name": "Cart",
+          "description": "The most frustrating thing you wish had function."
+        }
+      },
+      "crate_chair": {
+        "crate_chair_ghost": {
+          "display_name": "Crate Chair",
+          "description": "Using valubable packages as seating proves your a good worker."
+        }
+      },
+      "linked_chest": {
+        "linked_chest_ghost": {
+          "display_name": "Linked Chest",
+          "description": "So glad this mod didn't take anything from other games."
+        }
+      },
+      "piano": {
+        "piano_ghost": {
+          "display_name": "Piano",
+          "description": "Staying Classy."
+        }
+      },
+      "redcloth_wooden_table": {
+        "redcloth_wooden_table_ghost": {
+          "display_name": "Red clothed Table",
+          "description": "Tables, Now with a different color."
+        }
+      },
+      "scarecrow": {
+        "scarecrow_ghost": {
+          "display_name": "Scarecrow",
+          "description": "If he only had a brain."
+        }
+      },
+      "shelf": {
+        "shelf_ghost": {
+          "display_name": "Shelf",
+          "description": "If only we could put things on it."
+        }
+      },
+      "shopping_stall_blue": {
+        "shopping_stall_blue_ghost": {
+          "display_name": "Blue Shopping Stall",
+          "description": "How else will you break for fall when jumping off roofs."
+        }
+      },
+      "shopping_stall_green": {
+        "shopping_stall_green_ghost": {
+          "display_name": "Green Shopping Stall",
+          "description": "How else will you break for fall when jumping off roofs."
+        }
+      },
+      "shopping_stall_pink": {
+        "shopping_stall_pink_ghost": {
+          "display_name": "Pink Shopping Stall",
+          "description": "How else will you break for fall when jumping off roofs."
+        }
+      },
+      "shopping_stall_purple": {
+        "shopping_stall_purple_ghost": {
+          "display_name": "Purple Shopping Stall",
+          "description": "How else will you break for fall when jumping off roofs."
+        }
+      },
+      "simple_wooden_stool": {
+        "simple_wooden_stool_ghost": {
+          "display_name": "Simple Wooden Stool",
+          "description": "Watch for Spiders."
+        }
+      },
+      "training_dummy": {
+        "training_dummy_ghost": {
+          "display_name": "Training Dummy",
+          "description": "Decorative in the absence of belongings."
+        }
+      },
+      "washing_cabinet": {
+        "washing_cabinet_ghost": {
+          "display_name": "Washing Cabinet",
+          "description": "Washing your hands is important."
+        }
+      },
+      "wooden_chest": {
+        "wooden_chest_ghost": {
+          "display_name": "Wooden Chest",
+          "description": "Decorative in the absence of belongings."
+        }
+      }
+    },
+    "toys": {
+      "plushie_toy_mudkip": {
+        "plushie_toy_mudkip_ghost": {
+          "display_name": "Plushie Toy Mudkip",
+          "description": "Here's a toy since you like them so much."
+        }
+      },
+      "plushie_toy_snorlax": {
+        "plushie_toy_snorlax_ghost": {
+          "display_name": "Plushie Toy Snorlax",
+          "description": "Pokeflute Required."
+        }
+      },
+      "plushie_toy_meowth": {
+        "plushie_toy_meowth_ghost": {
+          "display_name": "Plushie Toy Meowth",
+          "description": "We made it double."
+        }
+      }
+    }
+  },
+  "jobs": {
+    "weaver": {
+      "recipes": {
+        "plushie_toy_meowth_recipe": {
+          "recipe_name": "Plushie Toy Meowth",
+          "description": "A toy...for children of course.",
+          "flavor": "We made it double"
+        },
+        "blue_awning_recipe": {
+          "recipe_name": "Blue Awning",
+          "description": "Dresses up an otherwise ordinary window.",
+          "flavor": "Light-blocking technology encourages sleeping-in."
+        },
+        "plushie_toy_mudkip_recipe": {
+          "recipe_name": "Plushie Toy Mudkip",
+          "description": "A toy...for children of course.",
+          "flavor": "Here's a toy since you like them so much"
+        },
+        "plushie_toy_snorlax_recipe": {
+          "recipe_name": "Plushie Toy Snorlax",
+          "description": "A toy...for children of course.",
+          "flavor": "Pokeflute Required"
+        },
+        "red_awning_recipe": {
+          "recipe_name": "Red Awning",
+          "description": "Dresses up an otherwise ordinary window.",
+          "flavor": "Light-blocking technology encourages sleeping-in."
+        },
+        "red_curtains_recipe": {
+          "recipe_name": "Pretty Red Curtains",
+          "description": "Dresses up an otherwise ordinary window.",
+          "flavor": "Light-blocking technology encourages sleeping-in."
+        }
+      }
+    },
+    "carpenter": {
+      "recipes": {
+        "barrel_for_one_recipe": {
+          "recipe_name": "Barrel for One",
+          "description": "Better than eating standing up. Unless you're watching your weight.",
+          "flavor": "Because sharing sucks."
+        },
+        "bookcase_small_recipe": {
+          "recipe_name": "Small Bookcase",
+          "description": "There's bacon in these ones.",
+          "flavor": "I smell something..."
+        },
+        "boiling_cabinet_recipe": {
+          "recipe_name": "Boiling Cabinet",
+          "description": "Allows a group of people to all eat together. Like grown ups.",
+          "flavor": "For those days when you need to eat."
+        },
+        "bar_corner_recipe": {
+          "recipe_name": "Bar Corner",
+          "description": "Corner section for when you need to turn.",
+          "flavor": "Warning: Don't drink and fall."
+        },
+        "barrel_chair_recipe": {
+          "recipe_name": "Barrel Chair",
+          "description": "When sitting, food is 20% more satisfying.",
+          "flavor": "For when the Hobbits are done with them."
+        },
+        "barrel_table_recipe": {
+          "recipe_name": "Barrel Table",
+          "description": "Allows a group of people to all eat together. Like grown ups.",
+          "flavor": "For when you hate tables."
+        },
+        "bar_section_recipe": {
+          "recipe_name": "Bar Section",
+          "description": "Strait section for all your baring needs",
+          "flavor": "Warning: Don't drink and fall."
+        },
+        "burning_logs_recipe": {
+          "recipe_name": "Burning Logs",
+          "description": "Decorative logs to make you think you can have a fire.",
+          "flavor": ""
+        },
+        "cart_recipe": {
+          "recipe_name": "Cart",
+          "description": "The most frustrating thing you wish had function.",
+          "flavor": "Pandemics bad joke..."
+        },
+        "bluecloth_wood_table_recipe": {
+          "recipe_name": "Blue clothed Table",
+          "description": "Tables, Now with Color!",
+          "flavor": ""
+        },
+        "bookcase_large_recipe": {
+          "recipe_name": "Large Bookcase",
+          "description": "There's a slice of ham in one of these books.",
+          "flavor": ""
+        },
+        "linked_chest_recipe": {
+          "recipe_name": "Linked Chest",
+          "description": "So glad this mod didn't take anything from other games.",
+          "flavor": ""
+        },
+        "crate_chair_recipe": {
+          "recipe_name": "Crate Chair",
+          "description": "Allows a group of people to all eat together. Like grown ups.",
+          "flavor": "Sitting on cargo isn't bad, just resourceful."
+        },
+        "piano_recipe": {
+          "recipe_name": "Piano",
+          "description": "Staying Classy.",
+          "flavor": ""
+        },
+        "redcloth_wooden_table_recipe": {
+          "recipe_name": "Red clothed Table",
+          "description": "Tables, Now with a different color.",
+          "flavor": ""
+        },
+        "scarecrow_recipe": {
+          "recipe_name": "Scarecrow",
+          "description": "Scarecrow for your garden",
+          "flavor": "If he only had a brain."
+        },
+        "shelf_recipe": {
+          "recipe_name": "Shelf",
+          "description": "If only we could put things on it.",
+          "flavor": ""
+        },
+        "shopping_stall_blue_recipe": {
+          "recipe_name": "Blue Shopping Stall",
+          "description": "Open for business",
+          "flavor": "How else will you break for fall when jumping off roofs."
+        },
+        "shopping_stall_green_recipe": {
+          "recipe_name": "Green Shopping Stall",
+          "description": "Open for business",
+          "flavor": "How else will you break for fall when jumping off roofs."
+        },
+        "shopping_stall_pink_recipe": {
+          "recipe_name": "Pink Shopping Stall",
+          "description": "Open for business",
+          "flavor": "How else will you break for fall when jumping off roofs."
+        },
+        "shopping_stall_purple_recipe": {
+          "recipe_name": "Purple Shopping Stall",
+          "description": "Open for business",
+          "flavor": "How else will you break for fall when jumping off roofs."
+        },
+        "simple_wooden_stool_recipe": {
+          "recipe_name": "Simple Wooden Stool",
+          "description": "When sitting, food is 20% more satisfying.",
+          "flavor": "Watch for Spiders."
+        },
+        "training_dummy_recipe": {
+          "recipe_name": "Training Dummy",
+          "description": "Decorative in the absence of belongings.",
+          "flavor": ""
+        },
+        "trapdoor_recipe": {
+          "recipe_name": "Trapdoor",
+          "description": "I wonder what's down there....it doesn't open.",
+          "flavor": ""
+        },
+        "washing_cabinet_recipe": {
+          "recipe_name": "Washing Cabinet",
+          "description": "Washing your hands is important.",
+          "flavor": ""
+        },
+        "wooden_chest_recipe": {
+          "recipe_name": "Wooden Chest",
+          "description": "Decorative in the absence of belongings.",
+          "flavor": ""
+        }
+      }
+    }
+  }
+}

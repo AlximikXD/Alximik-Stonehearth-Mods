@@ -1,0 +1,1239 @@
+{
+	"entities": {
+		"armor": {
+			"church_padded_hood": {
+				"display_name": "Padded Hood",
+				"description": "A simple headcover of the church",
+				"church_padded_iconic": {
+					"display_name": "Padded Hood",
+					"description": "A simple headcover for Battle Priests."
+				}
+			},
+			"church_padded_vest": {
+				"display_name": "Padded Vest",
+				"description": "A padded vest, over the church robe.",
+				"church_padded_vest": {
+					"display_name": "Padded Vest",
+					"description": "A padded vest, over the church robe."
+				}
+			},
+			"church_leather_hood": {
+				"display_name": "Leather Hood",
+				"description": "A stronger headcover of the church",
+				"church_padded_iconic": {
+					"display_name": "Padded Hood",
+					"description": "A stronger headcover for Battle Priests."
+				}
+			},
+			"church_leather_vest": {
+				"display_name": "Leather Vest",
+				"description": "A leather vest, over the church robe.",
+				"church_padded_vest": {
+					"display_name": "Leather Vest",
+					"description": "A leather vest, over the church robe."
+				}
+			},
+			"silver_mail_paladin": {
+				"display_name": "Gilded Silver Armor",
+				"description": "Improved armor granted to paladins of exceptional devotion",
+				"silver_mail_paladin_iconic": {
+					"display_name": "Gilded Silver Armor",
+					"description": "Improved armor granted to paladins of exceptional devotion"
+				}
+			},
+			"holy_shield": {
+				"display_name": "Holy Bulwark",
+				"description": "A mighty shield protecting the Church from the forces of darkness",
+				"holy_shield_iconic": {
+					"display_name": "Holy Bulwark",
+					"description": "A mighty shield protecting the Church from the forces of darkness"
+				}
+			},
+			"legendary_cleric_robe": {
+				"display_name": "Holy Robe",
+				"description": "A legendary robe infused by holy magic.",
+				"legendary_cleric_robe_iconic": {
+					"display_name": "Holy Robe",
+					"description": "A legendary robe infused by holy magic."
+				}
+			},
+			"heraldic_silver_armor": {
+				"display_name": "Heraldic Silver Armor",
+				"description": "A great display of faith, not just in the Church, but in the people.",
+				"heraldic_silver_armor_iconic": {
+					"display_name": "Heraldic Silver Armor",
+					"description": "A great display of faith, not just in the Church, but in the people."
+				}
+			}
+		},
+		"consumables": {
+			"holy_water": {
+				"display_name": "Holy Water",
+				"description": "Imbued with spiritual essence"
+			}
+		},
+		"construction": {
+			"iron_fence": {
+				"iron_fence_ghost": {
+					"display_name": "Iron Fence",
+					"description": "A normal piece of wrought iron fence."
+				}
+			},
+			"iron_fence_pillar": {
+				"iron_fence_pillar_ghost": {
+					"display_name": "Iron wrapped Stone Post",
+					"description": "A pillar for joining pieces of fence."
+				}
+			},
+			"iron_fence_small": {
+				"iron_fence_small_ghost": {
+					"display_name": "Short Iron Fence",
+					"description": "A short piece of wrought iron fence."
+				}
+			},
+			"iron_fence_corner": {
+				"iron_fence_corner_ghost": {
+					"display_name": "Iron Fence Corner",
+					"description": "A corner pillar of wrought iron fence."
+				}
+			}
+		},
+		"decoration": {
+			"valor_shrine": {
+				"cids_keeper": {
+					"cids_keeper_ghost": {
+						"display_name": "Cids Keeper",
+						"description": "A monument to Cids unnamed protector."
+					}
+				}
+			},
+			"deity_shrine": {
+				"cornucopia": {
+					"cornucopia_ghost": {
+						"display_name": "Cornucopia of Life",
+						"description": "A great horn of good foods."
+					},
+					"cornucopia_blessed": {
+						"description": "Harvestable for a bounty of foods to sustain (Does not destroy the shrine).",
+						"unripe_description": "The bounty is yet to be delivered."
+					}
+				}
+			},
+			"makers_shrine": {
+				"font_of_knowledge": {
+					"font_of_knowledge_ghost": {
+						"display_name": "Font of Knowledge",
+						"description": "Well it's almost what he asked for..."
+					}
+				}
+			},
+			"hearth_fountain": {
+				"hearth_fountain_ghost": {
+					"display_name": "Hearth of Faith",
+					"description": "A warm hearth for the faithful to shelter around."
+				}
+			}
+		},
+		"furniture": {
+			"church_bench": {
+				"church_bench_ghost": {
+					"display_name": "Arch Backed Bench",
+					"description": "The perfect seat for daily mass."
+				}
+			},
+			"comfy_church_bench": {
+				"comfy_church_bench_ghost": {
+					"display_name": "Comfy Arch Backed Bench",
+					"description": "A more padded version of the perfect seat for daily mass."
+				}
+			}
+		},
+		"gizmos": {
+			"camp_standard": {
+				"camp_standard_ghost": {
+					"display_name": "Chicken of Plenty",
+					"description": "The holy symbol of the Church of Plenty"
+				}
+			},
+			"camp_standard_care": {
+				"camp_standard_care_ghost": {
+					"display_name": "Mark of Care",
+					"description": "One of the prime tenets of the Church of Plenty",
+					"town_bonus_description": "<i>This settlement shall be at one with the environment.</i><ul><li>Trees produce 25% more Wood</li><li>Both Plants and Crops grow 25% faster</li><li>Plants have 2x their normal Appeal</li></ul>"
+				}
+			},
+			"camp_standard_might": {
+				"camp_standard_might_ghost": {
+					"display_name": "Mark of Strength",
+					"description": "One of the prime tenets of the Church of Plenty",
+					"town_bonus_description": "<i>This settlement will grow strong through earth and steel.</i><ul><li>Mining gives 50% more Ore, Stone, and Clay</li><li>Hearthlings no longer mind cramped spaces</li></ul>"
+				}
+			},
+			"camp_standard_prosperity": {
+				"camp_standard_prosperity_ghost": {
+					"display_name": "Mark of Prosperity",
+					"description": "One of the prime tenets of the Church of Plenty",
+					"town_bonus_description": "<i>This settlement will be a bustling hub of trade.</i><ul><li>Roads give 3x their normal speed boost</li><li>Your items sell for 50% more</li><li>Traders will bring 2x the goods and Gold</li></ul>"
+				}
+			}
+		},
+		"npc": {
+			"herald": {
+				"female": {
+					"herald_orianna": {
+						"display_name": "Priestess Orianna",
+						"description": "A tiefling ranked in the all-embracing ranks of the Church of Plenty."
+					}
+				},
+				"male": {
+					"herald_trissk": {
+						"display_name": "Trissk Mudwallow",
+						"description": "A disciple of the Church of Plenty."
+					}
+				}
+			}
+		},
+		"weapons": {
+			"gold_mace": {
+				"display_name": "Gold Mace",
+				"description": "Not a particularly strong mace, it is more decorative than anything else...",
+				"steel_mace_iconic": {
+					"display_name": "Gold Mace",
+					"description": "Not a particularly strong mace, it is more decorative than anything else..."
+				}
+			},
+			"stone_hammer": {
+				"display_name": "Stone Hammer",
+				"description": "A strong wooden shaft with a thick stone head."
+			},
+			"bronze_hammer": {
+				"display_name": "Bronze Hammer",
+				"description": "Not much of a weapon, but still bigger than yours."
+			},
+			"iron_hammer": {
+				"display_name": "Iron Hammer",
+				"description": "THIS IS NOT FOR BUILDING."
+			},
+			"steel_hammer": {
+				"display_name": "Steel Hammer",
+				"description": "A strong steel hammer, very heavy."
+			},
+			"wooden_club": {
+				"display_name": "Wooden Club",
+				"description": "A basic wooden club.",
+				"wooden_club_talisman": {
+					"display_name": "Wooden Club",
+					"description": "For promoting a hearthling to a Battle Priest."
+				}
+			},
+			"silver_mace": {
+				"display_name": "Silver Mace",
+				"description": "While made of silver, this mace still seems to be quite strong",
+				"steel_mace_iconic": {
+					"display_name": "Silver Mace",
+					"description": "While made of silver, this mace still seems to be quite strong"
+				}
+			},
+			"silver_paladin_hammer": {
+				"display_name": "Silver Hammer",
+				"description": "A mighty hammer for your paladin to wield against your foes."
+			},
+			"steel_mace": {
+				"display_name": "Steel Mace",
+				"description": "a strong mace for bonking",
+				"steel_mace_iconic": {
+					"display_name": "Steel Mace",
+					"description": "A strong mace for bonking"
+				}
+			},
+			"stone_mace": {
+				"display_name": "Stone Mace",
+				"description": "Like being hit with a brick.",
+				"stone_mace_talisman": {
+					"display_name": "Stone Mace",
+					"description": "For promoting a brother or sister to a Knight of Plenty."
+				}
+			},
+			"ruler_staff": {
+				"display_name": "Abbott's Staff",
+				"description": "An improved staff granted to senior members of the Church."
+			},
+			"holy_rod": {
+				"display_name": "Cleric's Holy Rod",
+				"description": "A staff of great divinity",
+				"holy_rod_iconic": {
+					"display_name": "Cleric's Holy Rod",
+					"description": "A staff of great divinity"
+				}
+			},
+			"holy_sword": {
+				"display_name": "Sword of the Devout",
+				"description": "A blade wielded only by the most devout of Paladins",
+				"holy_sword_iconic": {
+					"display_name": "Sword of the Devout",
+					"description": "A blade wielded only by the most devout of Paladins"
+				}
+			}
+		}
+	},
+	"cp": {
+		"data": {
+			"buffs": {
+				"faith_town_bonus": {
+					"stat_buff": {
+						"display_name": "Faith",
+						"description": "Believers gain +1 Spirit, and gain wisdom faster."
+					}
+				},
+				"defense_aura_bonus": {
+					"display_name": "Defensive Aura",
+					"description": "A strong aura from being near a Paladin. Defense is increased."
+				}
+			},
+			"loadouts": {
+				"clerical_entourage": {
+					"display_name": "Clerical Entourage",
+					"description": "Setting out from the Church of Plenty, you strive for a better future for you, as well as the grup of disciples who followed.",
+					"tooltip": "A collection of items to give your cleric the most comfortable start, while leading a fledgling congregation.",
+					"roast": "Roast Venison"
+				}
+			},
+			"population": {
+				"church_of_plenty": {
+					"display_name": "The Church of Plenty",
+					"quote": "Glory be to those who share with those who cannot.",
+					"description": "A religious party of the Ascendancy, the Church of Plenty is dedicated to the people, the land, and a simplistic lifestyle.",
+					"initial_town_name": "Congregation [str(town_number)]",
+					"post_selection_description": ", ascetics and spiritual leaders."
+				}
+			},
+			"gm": {
+				"campaigns": {
+					"town_progression": {
+						"town_founding_explanation": {
+							"dialog_tree_info": {
+								"dialog_nodes": {
+									"open_letter": {
+										"bulletin_message": {
+											"00": "\"I think it is time we spoke about the \"tiefling in the room\", so to speak...\"<br><br><p align='right'><font size=-2 color='#cccccc'>The horned red lady looks uncomfortable.</font></p>"
+										},
+										"bulletin_title": "Your guide looks uneasily at you all",
+										"dialog_title": "She begins...",
+										"choice_000": "I... Yes, we must discuss this.",
+										"choice_001": "[skip] Can we talk about it later?"
+									},
+									"read_letter": {
+										"bulletin_message": {
+											"00": "\"Yes it is true I am a tiefling. A being of supposedly demonic blood. But still the church allowed me entry. The Church of Plenty, your patrons in this expedition, allow all creeds and all races to serve and be served by the church. I have taken the clerical oaths and risen to 'priestess'. Now it is my job to accompany beginning congregations on their journey into the world.\"</p>"
+										},
+										"bulletin_title": "Let me explain myself...",
+										"dialog_title": "Priestess Orianna",
+										"choice_000": "We all serve the church how we can, we understand."
+									},
+									"read_letter2": {
+										"bulletin_message": {
+											"00": "\"Like yourselves, I once set out to found a town with another congregation, but as a settler. The monks I accompanied shunned and tormented me, but I stayed true to the teachings of the church. It is not in my nature to find anger toward others. The Elders heard of my mistreatment and sent a group of Knights of Plenty to escort me safely back to the monastery. It was then I decided I wouldn't let anyone else be treated like that, and dove deeper into my studies.\"</p>"
+										},
+										"bulletin_title": "She continues",
+										"dialog_title": "Her face looks sad",
+										"choice_000": "How terrible! Our town will not be like that!"
+									},
+									"read_letter3": {
+										"bulletin_message": {
+											"00": "\"I am glad to hear that. But first before you can properly set up, you need to decide which of the tenets of the church you will most closely follow, and I will make the changes to your holy reliquary to represent those.\" she gestures at the large chicken statue a few of you had taken it in turns to carry, before beginning again.\"</p> "
+										},
+										"bulletin_title": "Orianna smiles warmy",
+										"dialog_title": "A mark of the tenets?",
+										"choice_000": "Okay, tell us more!"
+									},
+									"read_letter4": {
+										"bulletin_message": {
+											"00": "\"You have the Mark of Care. A dedication to everything around you, man and nature. Next is the Mark of Might. Strength and the earth is your magnificent bountiful resource. Lastly, the Mark of Prosperity. No congregation can survive without growth. Prosperity is a sure way to achieve that.\"</p> "
+										},
+										"bulletin_title": "She explains...",
+										"dialog_title": "A mark of the tenets?",
+										"choice_000": "We shall choose..."
+									}
+								}
+							}
+						},
+						"bird_departs": {
+							"dialog_tree_info": {
+								"dialog_nodes": {
+									"msg1": {
+										"bulletin_message": {
+											"00": "\"You will make a fine congregation and church outpost\" Orianna says.<p>\"[str(i18n_data.town_name)]\" will prosper if you all work hard and look after one another. \"Do not forget the tenets of the church and show respect to all things. Be pleased, young outpost\" </p>"
+										},
+										"bulletin_title": "Orianna hugs each of you",
+										"dialog_title": "Orianna's Departure",
+										"choice_000": "Be pleased, Orianna."
+									},
+									"msg2": {
+										"bulletin_message": {
+											"00": "\"Now I must return to the capitol, I have other duties the church requires of me. Look for me in the coming weeks, for I will return to praise the church with you once more.\" "
+										},
+										"bulletin_title": "Back to the Capitol",
+										"dialog_title": "Orianna prepares to leave",
+										"choice_000": "Good Luck!"
+									}
+								}
+							}
+						},
+						"town_founding_food_donation": {
+							"donation_dialog_info": {
+								"dialog_nodes": {
+									"simple_message": {
+										"bulletin_message": {
+											"00": "\"This food shall sustain you for a time. But please don't forget you will need to look after yourselves still.\" Orianna smiles at the group she has accompanied. \"Take this and prosper, for the church.\" <p>The bag contains:</p>"
+										},
+										"bulletin_title": "Tasty Treats",
+										"dialog_title": "Orianna takes Baked Goods",
+										"choice_000": "Glory to the church!"
+									}
+								}
+							}
+						},
+						"hearth_foreshadow_dialog": {
+							"dialog_tree_info": {
+								"dialog_nodes": {
+									"msg1": {
+										"bulletin_message": {
+											"00": "I'm back! Oh my, look at this place! Well then, I think you are definitely ready... But that can wait. First, catch me up on what has been going on!</p>"
+										},
+										"bulletin_title": "A rider approaches!",
+										"dialog_title": "Orianna beams with delight",
+										"choice_000": "Welcome back! So here's the story..."
+									},
+									"msg2": {
+										"bulletin_message": {
+											"00": "Orianna hangs on every word, only speaking when you are finished. \"Wow that sure sounds like an adventure of ups and downs! I'm glad you're all okay!\" She gives you all a reassuring smile \"Anyway, as I was saying before, it seems your little community is ready for the next step.\"."
+										},
+										"bulletin_title": "Tall Tales",
+										"dialog_title": "Tall Tales",
+										"choice_000": "Tell us more"
+									},
+									"msg3": {
+										"bulletin_message": {
+											"00": "...and begins. \"This place you have settled, it is just one of many across Hearth where fledgling communities like your own are beginning, and unfortunately, some ending. I was talking to my friend and nephew, Trissk, the other day and he told me about how the civilizations all around us, even our own Ascendancy, make changes to their community hearths to mark a \"specialty\"  or unique..ity..? nes..? well, you get the idea...\" She grins at you in such a childish way, you forget she is a fully grown adult for a second."
+										},
+										"bulletin_title": "Well, it's like this",
+										"dialog_title": "She takes a deep breath...",
+										"choice_000": "What must we do?"
+									},
+									"msg4": {
+										"bulletin_message": {
+											"00": "\"I think, if you can manage to upgrade your hearth like those others, then you'll stand a better chance of surviving whatever unholy abominations\" she shivers at the mention\"may come to harm you. Oh, however I am sorry, friends. I must go, I hear the cries of wounded nearby.\" Orianna bolts from the fireside, accidentally losing a few vials of a clear liquid from a belt pouch."
+										},
+										"bulletin_title": "I have an idea",
+										"dialog_title": "It might just work",
+										"choice_000": "Oh, Holy Water!"
+									}
+								}
+							}
+						},
+						"hearth_choice_explanation": {
+							"dialog_tree_info": {
+								"dialog_nodes": {
+									"makers": {
+										"bulletin_message": {
+											"00": "Or, our minds can envision a <i>Hearth of Makers</i>, while not particularly suited to our own ascetic lifestyle, our crafters would be able to create pieces that would make the Ascendancy thrive."
+										},
+										"bulletin_title": "A Maker's Mind",
+										"dialog_title": "A Maker's Mind",
+										"choice_000": "A crafty existence..."
+									},
+									"final": {
+										"bulletin_message": {
+											"00": "Now that my little friend has helped you discover the wonders of hearth magic, it is time you made a decision. Which hearth would you like to work towards?</p>"
+										},
+										"bulletin_title": "Orianna steps forth again",
+										"dialog_title": "She grins at Trissk",
+										"choice_000": "We will choose..."
+									},
+									"intro2": {
+										"bulletin_message": {
+											"00": "\"Uh, yes. Hello, I am Trissk. It is a pleasure to meet you all. And no, I am not a kobold, I am a lizardfolk. We are always mistaken for those monsters\" <p> He takes a moment to recompose himself before he continues.</p> <p> \"Now, about the hearths. From my travels I have devised plans for three different choices.\"</p>"
+										},
+										"bulletin_title": "A shy... Lizard..?",
+										"dialog_title": "Trissk Begins",
+										"choice_000": "Okay, three. Hmm..."
+									},
+									"cheer": {
+										"bulletin_message": {
+											"00": "\"The <i>Hearth of Cheer</i> is a unique monument erected by only the happiest and most.. well.. cheerful of congregations. It is, however, well within reach for almost everyone!\""
+										},
+										"bulletin_title": "Cheer and Bounty",
+										"dialog_title": "Cheer and Bounty",
+										"choice_000": "A happy existence..."
+									},
+									"intro3": {
+										"bulletin_message": {
+											"00": "The three choices I managed to plan out are as follows. The hearth of Cheer, The Hearth of Faith, and the Hearth of Makers.</p>"
+										},
+										"bulletin_title": "Trissk pulls out some Plans",
+										"dialog_title": "He pulls out some plans",
+										"choice_000": "Okay, three. Hmm..."
+									},
+									"faith": {
+										"bulletin_message": {
+											"00": "Lastly, a <i>Hearth of Faith</i> can be realized when our dreams of protection and dedication to the church are  realized. This one is my own design, and I am yet to see anything like it in all my travels. I believe this is the one that most distinctly and faithfully represents the church. "
+										},
+										"bulletin_title": "The Righteous Path",
+										"dialog_title": "The Righteous Path",
+										"choice_000": "Glory to the church..."
+									},
+									"intro": {
+										"bulletin_message": {
+											"00": "\"Greetings friends! I would like to introduce the fine congregation of \"[str(i18n_data.town_name)]\" to a friend of mine. I have metioned him before but this time he decided to travel with me to meet you all. Everyone, meet Trissk. Being the more learned one, he will explain the magics of hearths to you.\""
+										},
+										"bulletin_title": "Orianna returns...",
+										"dialog_title": "With a new friend",
+										"choice_000": "Pleased to meet you!",
+										"choice_001": "[skip] We already know about Hearths"
+									}
+								}
+							}
+						},
+						"hearth_quest_faith": {
+							"title": "Hearth Upgrade: Faith",
+							"dialog_title": "Hearth Upgrade: Faith"
+						},
+						"hearth_choice": {
+							"faith": {
+								"name": "Hearth of Faith",
+								"description": "<i>You have proven your faith, and continue to do so. The church looks upon you warmly.</i><ul><li>Your hearthlings will benefit from an increased spirit stat.</li><li>Knowledge and wisdom come easier to the members of your congregation.</li></ul>"
+							}
+						},
+						"shrine_foreshadow_dialog": {
+							"dialog_tree_info": {
+								"dialog_nodes": {
+									"msg1": {
+										"bulletin_message": {
+											"00": "Orianna returns once more to shepherd your congregation, this time without Trissk in tow. \"You have grown again, I can feel your strong spirits. This is good.\""
+										},
+										"bulletin_title": "The Priestess is spotted!",
+										"dialog_title": "She beams at you all.",
+										"choice_000": "Thank you"
+									},
+									"msg2": {
+										"bulletin_message": {
+											"00": "She looks distracted by something. \"It pains me to bring you this news, but our congregations across the land are dwindling. Some have succumb to the dangers of settling, some have found their way back to the capitol to tell tales of large monsters and a flying squid-like thing. That is why I am here. I wanted to make sure you were all okay. I'm on my way back to the capitol now, but in the meantime, I think it is almost time you erect a grand monument to commemorate your successful township. \""
+										},
+										"bulletin_title": "Travels...",
+										"dialog_title": "And Findings...",
+										"choice_000": "That we shall!"
+									},
+									"msg3": {
+										"bulletin_message": {
+											"00": "\"I would suggest the shrine represent one of the core virtues of the church. Protection, care and life, or the wealth many leave untapped, knowledge.\""
+										},
+										"bulletin_title": "A Town!",
+										"dialog_title": "Prepare for Construction",
+										"choice_000": "But how do we do this?"
+									},
+									"msg4": {
+										"bulletin_message": {
+											"00": "\"Well, you will have to wait for me to return with some special guests, who can teach you of the Shrine making ways.\"<p>Orianna rises, thanking you for just being, before setting out again, toward the capitol...</p>"
+										},
+										"bulletin_title": "Patience",
+										"dialog_title": "Patience",
+										"choice_000": "We'll be ready"
+									}
+								}
+							}
+						},
+						"shrine_choice_explanation": {
+							"dialog_tree_info": {
+								"dialog_nodes": {
+									"intro": {
+										"bulletin_message": {
+											"00": "Orianna arrives with a group of Knights of Plenty and a few clerics. Beside her walks the small lizard, Trissk, and on the other side, a man you all recognize as the Ascendancy embarkment liason, Mer Burlyhands. \"Congregation of [str(i18n_data.town_name)], I bring to you Mer Burlyhands, chied liason to newly embarking towns of the Ascendancy.\""
+										},
+										"bulletin_title": "Orianna returns with a crowd",
+										"dialog_title": "They come to the Hearth",
+										"choice_000": "Welcome, ser!"
+									},
+									"intro2": {
+										"bulletin_title": "Listen Closely",
+										"dialog_title": "Listen Closely",
+										"choice_000": "Learn from the guests",
+										"choice_001": "[skip] We've already decided",
+										"bulletin_message": {
+											"00": "\"Hello all! My, it's not often I get out into the field, and even more rare still that I am granted a church escort! <i> He looks behind himself at the squad of knights and clerics</i>\" <p>Now, I hope you don't mind but I brought some friends of mine alone who have been crucial in Ascendancy settlement shrines right across the land. They'll take turns explaining how to construct a Shrine.</p>"
+										}
+									},
+									"clergy": {
+										"bulletin_message": {
+											"00": "Ember of the Church steps forward, her eyes gleaming as she stands by Orianna.<br>\"It is with great joy that I am granted leave of the monastery to travel the land to a settlement of our own. The church rejoices in your success. I wish to propose we build a Cornucopia of Life. To help keep you all in the long journey ahead. \" <br><i>(Building a Cornucopia of Life will grant all your townsfolk a +1 boost to the mind, body, and spirit attributes.)</i>"
+										},
+										"bulletin_title": "The Cornucopia",
+										"dialog_title": "The Cornucopia",
+										"choice_000": "mmmmmm foood..."
+									},
+									"clergy_cont": {
+										"bulletin_message": {
+											"00": "\"The Cornucopia would be a beautiful monument!\""
+										},
+										"bulletin_title": "Great Horn of Food",
+										"dialog_title": "Great Horn of Food",
+										"choice_000": "Okay..."
+									},
+									"makers": {
+										"bulletin_message": {
+											"00": "\"Ahem, I do believe\" begins Marak, guildmaster of the Ascendancy. \"That your resources would be best suited for the Font of Knowledge. Just imagine, a bookshelf <i>in</i> a fountain, so engineered that the books never get wet!\" <br><i>(Building a Font of Knowledge will grant lost wisdom, allowing the creation of Masterwork quality crafted goods.)</i>"
+										},
+										"bulletin_title": "The Font",
+										"dialog_title": "The Font",
+										"choice_000": "Sounds like a Wisdom Wash-out"
+									},
+									"makers_cont": {
+										"bulletin_message": {
+											"00": "\"Ah, yes, about him... Why don't we move on?\""
+										},
+										"bulletin_title": "Soggy Books",
+										"dialog_title": "Soggy Books",
+										"choice_000": "Yes, lets..."
+									},
+									"military": {
+										"bulletin_message": {
+											"00": "\"Greetings, I am Anwyn Toressi, of the royal guard. When I set out to accompany Mer Burlyhands here, it was not my intention to discuss shrines with you fine church-faring folk, but after watching the church's Knights and clerics on the way here, I can tell there may be some fight in you, after all!\" "
+										},
+										"bulletin_title": "Compliment or Insult?",
+										"dialog_title": "Compliment or Insult?",
+										"choice_000": "Thank you, I think?"
+									},
+									"military_cont": {
+										"bulletin_message": {
+											"00": "\"Yes after seeing them in action I can only be reminded of the fabled Keeper of Cid. Few know of the existence of the keeper, although they are said to have been a Paladin, if you can believe it. The guard and I actually confiscated some stolen plans for some mighty powerful weapons and armor said to have been worn by Cid's Keeper, perhaps if you memorialized the unknown individual in some way, the city and church would allow me to share such plans with you!\" <br> <i> (Building a Shrine to Cids Keeper will grant you knowledge of exceptionally powerful equipment.) </i> "
+										},
+										"bulletin_title": "Cids Keeper",
+										"dialog_title": "Cids Keeper",
+										"choice_000": "A Paladin!?"
+									},
+									"summary": {
+										"bulletin_message": {
+											"00": "\"May this congregation forever survive the annuls of time, and transcend to greater heights in the heirachy of the church. I consider you all to be my greatest of friends, and I wish you all the best! I must be getting Lord Burlyhands back to the capitol now, however I think a few of us are planning to stay and see your shrine come to fruition. Be well, friends!\" <p>The people gather together to choose their Destiny...</p>"
+										},
+										"bulletin_title": "Orianna jumps up",
+										"dialog_title": "Orianna jumps up",
+										"choice_000": "Goodbye friends!"
+									}
+								}
+							}
+						},
+						"unlock_shrine_recipes": {
+							"bulletin_title": "Mason unlocked Font of Knowledge recipe!"
+						},
+						"unlock_shrine_recipes2": {
+							"bulletin_title": "Blacksmith unlocked Cids Keeper recipe!"
+						},
+						"unlock_shrine_recipes3": {
+							"bulletin_title": "Cook unlocked Cornucopia of Life recipe!"
+						},
+						"shrine_choice": {
+							"valor": {
+								"name": "Cids Keeper",
+								"description": "<i>This Township shall be dedicated to Cid's valorous example, when he protected pilgrims on the road to found the Ascendant Empire.</i><ul><li>Unlocks Legendary weapon recipes</li><li>Unlocks castle decoration recipes</li></ul>"
+							},
+							"guildmaster": {
+								"name": "Font of Knowledge",
+								"description": "<i>This Township shall be known for its artisans' pursuit of wisdom and magical crafting.</i><ul><li>Allows crafting Masterwork quality items</li><li>Unlocks artisan-themed decoration recipes</li></ul>"
+							},
+							"deity": {
+								"name": "Cornucopia of Life",
+								"description": "<i>This Township emulates kindness and love, and a respect for all nature like no other.</i><ul><li>Blesses all citizens with +1 to Mind, Body, and Spirit</li><li>Unlocks nature-themed decoration recipes</li></ul>"
+							}
+						},
+						"shrine_quest_guildmaster": {
+							"title": "Township Quest: Font of Knowledge",
+							"dialog_title": "Township Quest: Font of Knowledge"
+						},
+						"shrine_quest_valor": {
+							"title": "Township Quest: Cids Keeper",
+							"dialog_title": "Township Quest: Cids Keeper"
+						},
+						"shrine_quest_deity": {
+							"title": "Township Quest: Cornucopia of Life",
+							"dialog_title": "Township Quest: Cornucopia of Life"
+						},
+						"shrine_upgrade": {
+							"title": "Township Established",
+							"dialog_title": "Township Achieved!",
+							"tier_title": "Township",
+							"reward_message": "By the will of the church, we recognize:",
+							"reward_message_ctd": "For harnessing the powers of the faith. The congregation is hereby eligible for:"
+						},
+						"deity_dialog_1": {
+							"dialog_tree_info": {
+								"dialog_nodes": {
+									"msg1": {
+										"bulletin_message": {
+											"00": "Ember stands, with a big warm grin you have become accustomed to seeing on visitors faces. "
+										},
+										"bulletin_title": "Missionary Ember marvels",
+										"dialog_title": "She grins",
+										"choice_000": "Is everything okay?"
+									},
+									"msg2": {
+										"bulletin_message": {
+											"00": "\"The Cornucopia looks magnificent!\" Ember muses. \"This is a fine monument,indeed! but I could never expect anything less from a congregation of the Plenty."
+										},
+										"bulletin_title": "Ember Relieved",
+										"dialog_title": "Recognized Bounty",
+										"choice_000": "We do our best"
+									},
+									"msg3": {
+										"bulletin_message": {
+											"00": "\"May the bounty of this horn never run dry! However, it is with great regret that I fear I must leave you now. The work of a missionary is never done and I hear there is an Ascendancy town near here that is also looking to take the next step! Be pleased, young flock. Be pleased.\" <i>She turns and signals to three of the knights to accompany her as she rides off in a direction you could swear you had seen smoke coming from just days before...</i>"
+										},
+										"bulletin_title": "Plentiful Blessings",
+										"dialog_title": "Plentiful Blessings",
+										"choice_000": "Be Pleased, Ember!"
+									}
+								}
+							}
+						},
+						"guild_dialog_1": {
+							"dialog_tree_info": {
+								"dialog_nodes": {
+									"msg1": {
+										"bulletin_message": {
+											"00": "Marak looks disappointed by your shrine, \"I said a waterfall cascading over a bookshelf... That was going to be spectacular... Instead all I got was... well, this...\" "
+										},
+										"bulletin_title": "Guildmaster Marak",
+										"dialog_title": "Guildmaster Marak",
+										"choice_000": "We're sorry?"
+									},
+									"msg2": {
+										"bulletin_message": {
+											"00": "\"Sorry? Is that all? My crow- <i>our</i> crowning achievement of a lifetime... missed by inches... Oh well. Perhaps the Nordlings will be able to do this!\" "
+										},
+										"bulletin_title": "Is he sane?",
+										"dialog_title": "Is he sane?",
+										"choice_000": "If you'll let us explain..."
+									},
+									"msg3": {
+										"bulletin_message": {
+											"00": "Marak leaves without another word, leaving you all confused and a little startled at his reaction as some of you tried explaining the mechanics of water and wood around paper..."
+										},
+										"bulletin_title": "He's definitely not",
+										"dialog_title": "He's definitely not",
+										"choice_000": "Well then..."
+									}
+								}
+							}
+						},
+						"valor_dialog_1": {
+							"dialog_tree_info": {
+								"dialog_nodes": {
+									"msg1": {
+										"bulletin_message": {
+											"00": "Anwyn stares at the statue commemorating the unnamed guardian of hearths prophet. \"The stones on this Shrine are glowing bright, another guardian recognises you and will no doubt seek to protect you.\" "
+										},
+										"bulletin_title": "Anwyn is Breathless",
+										"dialog_title": "Anwyn is Breathless",
+										"choice_000": "May they protect us"
+									},
+									"msg2": {
+										"bulletin_message": {
+											"00": "Anwyn looks toward the blacksmith and grins. \"I am sorry for the small deception, I have been trying to get them to commemorate this fine warrior int he capitol for years but noone ever listened. The plans aren't really a secret, standard church requisition... You could have jsut asked them.\" <i>she looks at you all sheepishly</i> "
+										},
+										"bulletin_title": "Anwyn White-lie",
+										"dialog_title": "Anwyn White-lie",
+										"choice_000": "You could have just asked, too"
+									},
+									"msg3": {
+										"bulletin_message": {
+											"00": "Anwyn looks even more sheepish than before. \" Yes I do apologize. This is something I am quite passionate about, and I knew I could only rely on people of the church to bring it to life. Once more, I am very sorry for the deception, and here are the plans. I will leave you now to return to the capitol, I fear I have been gone too long.\" "
+										},
+										"bulletin_title": "Forgive and Depart",
+										"dialog_title": "Forgive and Depart",
+										"choice_000": "Be pleased, Anwyn!"
+									}
+								}
+							}
+						},
+						"post_shrine_dialog": {
+							"dialog_tree_info": {
+								"dialog_nodes": {
+									"msg1": {
+										"bulletin_message": {
+											"00": "Orianna jumps around and hugs you all \"Well done children of the church! Well done flock of [str(i18n_data.town_name)], You have achieved so much! The church thanks you a million times over and I am glad I have made so many new friends!\" "
+										},
+										"bulletin_title": "Orianna Beams again",
+										"dialog_title": "Exploding with Joy",
+										"choice_000": "We are glad to know you"
+									},
+									"msg2": {
+										"bulletin_message": {
+											"00": "\"Perhaps the church will allow me leave to come visit every now and then still, I know you don't exactly need the help anymore, now that you are a fully fledged congregation in your own right, but it would still be nice to see my friends.\" "
+										},
+										"bulletin_title": "Excited Orianna",
+										"dialog_title": "Excited Orianna",
+										"choice_000": "This is our home, and yours any time!"
+									},
+									"msg3": {
+										"bulletin_message": {
+											"00": "\" Oh this has been such a pleasant experience and I have loved spending all this time with you all! Unfortunately I must go, I am needed elsewhere... I will miss you all dearly, Be pleased, everyone.\" "
+										},
+										"bulletin_title": "Saying Goodbye",
+										"dialog_title": "Saying Goodbye",
+										"choice_000": "Be Pleased, Orianna!"
+									}
+								}
+							}
+						},
+						"reembark_dialog": {
+							"dialog_tree_info": {
+								"dialog_nodes": {
+									"msg1": {
+										"bulletin_message": {
+											"00": "\"You know... The church is always looking to expand their horizons and the horizons of the Ascendancy. If there were some of you wishing to start out fresh, perhaps you would have a better chance of making it big again...\" </p><p><font size=-1><i>Re-embarking allows you to carry over up to 3 citizens, 10 items, and all your unlocked recipes when starting a new town.</i></font></p>"
+										},
+										"bulletin_title": "Orianna has an Idea!",
+										"dialog_title": "A New Saga",
+										"choice_000": "Great!"
+									}
+								}
+							}
+						},
+						"hearth_upgrade_faith": {
+							"title": "Settlement Established",
+							"dialog_title": "Settlement Established!",
+							"tier_title": "Settlement",
+							"reward_message": "By unanimous agreement of the citizens, we declare:",
+							"reward_message_ctd": "To be a settlement out to prove that it has unrivaled faith in the church of plenty.",
+							"achievements": {
+								"000": "Hearthlings gain a +1 to Spirit",
+								"001": "Hearthlings gain experience faster"
+							}
+						}
+					}
+				}
+			}
+		},
+		"jobs": {
+			"blacksmith": {
+				"recipes": {
+					"church_bronze_coif_recipe": {
+						"recipe_name": "Bronze Coif",
+						"description": "Headgear is important, and this one is relatively simplistic."
+					},
+					"church_bronze_breastplate_recipe": {
+						"recipe_name": "Bronze Breastplate",
+						"description": "A bronzed chestpiece over the standard issue robe. All those layers make for a tight fit."
+					},
+					"church_iron_coif_recipe": {
+						"recipe_name": "Iron Coif",
+						"description": "A lightly hanging iron coif with a solid helm."
+					},
+					"church_iron_halfplate_recipe": {
+						"recipe_name": "Iron Halfplate",
+						"description": "An iron chestpiece and a fresh robe. All those layers make for a tight fit."
+					},
+					"iron_cross_recipe": {
+						"recipe_name": "Iron Cross",
+						"description": "A symbol of the church, forged for the use of Clerics."
+					},
+					"cook_cleaver_recipe": {
+						"recipe_name": "Cook Cleaver",
+						"description": "A cleaver is the tool of a chef.",
+						"flavor": "Required to promote a monk to a Cook."
+					},
+					"iron_fence_recipe": {
+						"recipe_name": "Iron Fence",
+						"description": "A piece of wrought iron fencing."
+					},
+					"iron_fence_small_recipe": {
+						"recipe_name": "Iron Fence Small (x2)",
+						"description": "Two smaller pieces of iron fencing."
+					},
+					"iron_fence_pillar_recipe": {
+						"recipe_name": "Iron Fence Pillar",
+						"description": "A stone pillar, reinforced with iron."
+					},
+					"iron_fence_corner_recipe": {
+						"recipe_name": "Iron Fence Corner",
+						"description": "A stone pillar with fence already cemented in, to make corners easier."
+					},
+					"paladin_talisman_recipe": {
+						"recipe_name": "Paladin Signet Ring",
+						"description": "A uniquely designed ring, set with a blessed gem",
+						"flavor": "Required to promote a Battle Priest to a Paladin."
+					},
+					"silver_hammer_recipe": {
+						"recipe_name": "Silver Holy Hammer",
+						"description": "A silvered iron warhammer imbued with the holy blessings of the church."
+					},
+					"silver_armor_recipe": {
+						"recipe_name": "Gilded Silver Armor",
+						"description": "Armor meticulously crafted for the most devout of paladins"
+					},
+					"steel_mace_recipe": {
+						"recipe_name": "Steel Mace",
+						"description": "A mace made of strong steel"
+					},
+					"silver_mace_recipe": {
+						"recipe_name": "Silver Mace",
+						"description": "A mace made of pure silver.",
+						"flavor": "Some say Silver is a better conductor of divine fury."
+					},
+					"gold_mace_recipe": {
+						"recipe_name": "Gold Mace",
+						"description": "A soft mace, more decorative than practical.",
+						"flavor": "\"CHEESE! CHEESE FOR EVERYONE!\" ~ The Mad King"
+					},
+					"bronze_hammer_recipe": {
+						"recipe_name": "Bronze Hammer",
+						"description": "A strong bronze hammer."
+					},
+					"iron_hammer_recipe": {
+						"recipe_name": "Iron Hammer",
+						"description": "A strong iron hammer."
+					},
+					"steel_hammer_recipe": {
+						"recipe_name": "Steel Hammer",
+						"description": "A strong steel paperweight... Just kidding, it's a hammer."
+					},
+					"holy_shield_recipe": {
+						"recipe_name": "Holy Bulwark",
+						"description": "A powerful shield made of strong materials",
+						"flavor": "\"The power of the guardian. Kindness to aid friends. A shield to repel all.\" —Dive to the Heart"
+					},
+					"holy_sword_recipe": {
+						"recipe_name": "Sword of the Devout",
+						"description": "A sword wielded only by the most devout of Paladins, those who take life in the name of the Church",
+						"flavor": "\"The power of the warrior. Invincible courage. A sword of terrible destruction.\" —Dive to the Heart"
+					},
+					"holy_rod_recipe": {
+						"recipe_name": "Imbued Holy Rod",
+						"description": "The divinity and power of the Church of Plenty flows through this rod",
+						"flavor": "\"The power of the mystic. Inner strength. A staff of wonder and ruin.\" —Dive to the Heart"
+					},
+					"cids_keeper_recipe": {
+						"recipe_name": "Cids Keeper",
+						"description": "A silver and gold statue, depicting the unknown paladin who protected the prophet, Cid",
+						"flavor": "Silver and gold? pretty wealthy stuff for us..."
+					}
+				}
+			},
+			"carpenter": {
+				"recipes": {
+					"wooden_club_recipe": {
+						"recipe_name": "Simple Wooden Mace",
+						"description": "A basic bludgeoning weapon.",
+						"flavor": "Required to promote a monk to a battle priest."
+					},
+					"cleric_amulet_recipe": {
+						"recipe_name": "Cleric's Amulet",
+						"description": "A clerical symbol of the church.",
+						"flavor": "Required to promote a monk to a cleric."
+					},
+					"trapper_cage_recipe": {
+						"recipe_name": "Trapper Cage",
+						"description": "A cage used by trappers to catch and humanely remove critters and small creatures."
+					},
+					"brightbell_long_recipe": {
+						"recipe_name": "Long Brightbell Box",
+						"flavor": "bigger is brighter!"
+					},
+					"frostsnap_long_recipe": {
+						"recipe_name": "Long Frostsnap Box",
+						"flavor": "more frost is cool!"
+					},
+					"church_bench_recipe": {
+						"recipe_name": "Arch Backed Bench",
+						"description": "The perfect seat for daily mass."
+					},
+					"comfy_church_bench": {
+						"red_recipe": {
+							"recipe_name": "Comfy Arch Backed Bench - Red",
+							"description": "A more padded version of the perfect seat for daily mass."
+						},
+						"blue_recipe": {
+							"recipe_name": "Comfy Arch Backed Bench - Blue",
+							"description": "A more padded version of the perfect seat for daily mass."
+						},
+						"green_recipe": {
+							"recipe_name": "Comfy Arch Backed Bench - Green",
+							"description": "A more padded version of the perfect seat for daily mass."
+						}
+					}
+				}
+			},
+			"cleric": {
+				"cleric_description": {
+					"requirements": "Crafted by Carpenter"
+				},
+				"cleric_talisman": {
+					"display_name": "Blessed Amulet",
+					"description": "A symbol of the church for promoting a hearthling to a cleric."
+				},
+				"cleric_staff": {
+					"display_name": "Cleric Staff",
+					"description": "A long wooden walking staff, typical for clerics of the Church."
+				}
+			},
+			"cook": {
+				"cook_description": {
+					"requirements": "Crafted by Blacksmith"
+				},
+				"cook_cleaver": {
+					"display_name": "Cook Cleaver",
+					"description": "The tool of chefs.",
+					"cook_cleaver_talisman": {
+						"display_name": "Cook Cleaver",
+						"description": "For promoting a hearthling to a cook."
+					}
+				},
+				"recipes": {
+					"cornucopia_of_life_recipe": {
+						"recipe_name": "Cornucopia of Life",
+						"description": "A veritable banquet.",
+						"flavor": "Where did they find a horn this big...?"
+					}
+				}
+			},
+			"footman": {
+				"footman_description": {
+					"display_name": "Battle Priest",
+					"description": "The battle priest is a brother or sister, training in combat. A good choice for the backbone of your abbey's defense.",
+					"requirements": "Crafted by Carpenter",
+					"level_1_data": {
+						"perk_000_name": "Damage Up 20%",
+						"perk_000_description": "The Battle Priest knows that all battles may have mortal consequences, and attacks with renewed determination."
+					},
+					"level_2_data": {
+						"perk_000_name": "First Responder",
+						"perk_000_description": "The Battle Priest charges into battle with speed"
+					},
+					"level_3_data": {
+						"perk_000_name": "Power Spike",
+						"perk_000_description": "This powerful, overhead swing deals double damage."
+					},
+					"level_4_data": {
+						"perk_000_name": "Damage Up 40%",
+						"perk_000_description": "The Battle Priest is now practiced at optimizing the effect of each blow."
+					},
+					"level_6_data": {
+						"perk_000_name": "Damage Up 60%",
+						"perk_000_description": "Maxiumum damage!"
+					},
+					"level_5_data": {
+						"perk_000_name": "Cleave",
+						"perk_000_description": "A slashing strike that deals damage to up to 4 enemies around the Battle Priest's target"
+					}
+				},
+				"footman_buffs": {
+					"damage_1_buff": {
+						"description": "At Level 1, the Battle Priest attacks with increased ferocity",
+						"display_name": "Damage +20%"
+					},
+					"damage_2_buff": {
+						"description": "The Battle Priest attacks with increased ferocity",
+						"display_name": "Damage +40%"
+					},
+					"damage_3_buff": {
+						"description": "At Level 6, the Battle Priest's attacks are unstoppable!",
+						"display_name": "Damage +60%"
+					},
+					"speed_buff": {
+						"display_name": "First Responder",
+						"description": "The Battle Priest moves faster"
+					}
+				}
+			},
+			"knight": {
+				"knight_outfit": {
+					"display_name": "Knight of Plenty's Robe",
+					"description": "Metal armor worn over a monks robe by a Knight of Plenty."
+				},
+				"knight_helm": {
+					"display_name": "Knight of Plenty's Helm",
+					"description": "A metal helmet worn by a Knight of Plenty."
+				},
+				"knight_description": {
+					"display_name": "Knight of Plenty",
+					"description": "A strong follower of the tenets of giving.",
+					"requirements": "Crafted by mason"
+				}
+			},
+			"mason": {
+				"brick_oven": {
+					"brick_oven_ghost": {
+						"display_name": "Brick Oven",
+						"description": "An oven for making bricks from clay."
+					}
+				},
+				"recipes": {
+					"stone_mace_recipe": {
+						"recipe_name": "Knights Mace",
+						"description": "The favored weapon of the Knight of Plenty."
+					},
+					"tombstone_recipe": {
+						"recipe_name": "Tombstone",
+						"description": "Ooh, spooky."
+					},
+					"brick_oven_recipe": {
+						"recipe_name": "Brick Oven",
+						"description": "For the Mason to use to make bricks."
+					},
+					"violet_long_stone_recipe": {
+						"recipe_name": "Long Violet Stone Box",
+						"flavor": "You're turnin' violet, violet!"
+					},
+					"stone_hammer_recipe": {
+						"recipe_name": "Stone Hammer",
+						"description": " It's a stone hammer... What more do you want!?",
+						"flavor": "IT'S HAMMER TIME!"
+					},
+					"font_of_knowledge_recipe": {
+						"recipe_name": "Font of Knowledge",
+						"description": "How are these books going to help us if they all get wet??",
+						"flavor": "Well it's kind of close to his idea..."
+					}
+				}
+			},
+			"paladin": {
+				"paladin_description": {
+					"display_name": "Paladin",
+					"description": "A holy knight of the Church of Plenty, following the laws of the Church even when on pilgrimages to other kingdoms",
+					"requirements": "Crafted by a Blacksmith",
+					"level_1_data": {
+						"perk_000_description": "Increases Stamina, Courage, and draws attention from monsters.",
+						"perk_001_description": "The paladin gains an additional 10% defense from equipment."
+					},
+					"level_2_data": {
+						"perk_000_description": "The paladin's presence heals everyone around them periodically.",
+						"perk_001_name": "Compelled Duel",
+						"perk_001_description": "The paladin taunts their targets, forcing them to move slower when running away."
+					},
+					"level_3_data": {
+						"perk_000_name": "Holy Shield",
+						"perk_000_description": "The paladin exudes an aura of unmistakable defence."
+					},
+					"level_4_data": {
+						"perk_000_description": "This powerful, overhead swing deals double damage."
+					},
+					"level_5_data": {
+						"perk_000_name": "Inspiring Presence",
+						"perk_000_description": "The paladin boosts courage of everyone around."
+					},
+					"level_6_data": {
+						"perk_000_name": "Hero's Horn",
+						"perk_000_description": "The paladin sounds a horn of combat, drawing the attention enemies both near and far."
+					}
+				},
+				"paladin_talisman": {
+					"display_name": "Signet Ring",
+					"description": "A ring signing the mark of a paladin. Each ring is designed unique."
+				},
+				"paladin_outfit": {
+					"display_name": "Paladin Armor",
+					"description": "Fine armor for a paladin initiate."
+				},
+				"paladin_buffs": {
+					"defense_aura_buff": {
+						"display_name": "Defensive Aura",
+						"description": "A defensive aura from a Paladin"
+					}
+				},
+				"paladin_mallet": {
+					"display_name": "Wooden Mallet",
+					"description": "A strong wooden mallet wielded by initiate paladins of the Church of Plenty"
+				}
+			},
+			"ruler": {
+				"ruler_description": {
+					"display_name": "Abbott",
+					"description": "The abbott is the head of the Church of Plenty. Ruling over the Ascendant Church of Plenty, holding seremons and protecting, The Abundant is the highest rank in the church.",
+					"level_1_data": {
+						"perk_000_description": "The abbott's presence heals everyone around them periodically"
+					},
+					"level_3_data": {
+						"perk_000_description": "The abbott boosts courage of everyone around"
+					},
+					"level_4_data": {
+						"perk_000_description": "Healing aura power and radius increased"
+					},
+					"level_5_data": {
+						"perk_000_name": "Wide Swing",
+						"perk_000_description": "The abott swings their staff in a wide arc, hitting nearby enemies"
+					},
+					"level_6_data": {
+						"perk_000_description": "The abbott has mastered the art of healing. Compassion greatly increased."
+					}
+				}
+			},
+			"trapper": {
+				"trapper_description": {
+					"requirements": "Crafted by Carpenter"
+				},
+				"trapper_cage": {
+					"display_name": "Trapper Cage",
+					"description": "A cage made to trap and transport small animals.",
+					"trapper_cage_talisman": {
+						"display_name": "Trapper Cage",
+						"description": "For promoting a brother or sister to a Trapper."
+					}
+				}
+			},
+			"weaver": {
+				"recipes": {
+					"church_padded_vest_recipe": {
+						"recipe_name": "Padded Cloth Vest",
+						"description": "A light cloth vest with extra padding, donned over the standard issue robe."
+					},
+					"church_padded_hood_recipe": {
+						"recipe_name": "Padded Cloth Hood",
+						"description": "A very simple hood made with basic cloth, padded for some protection."
+					},
+					"church_leather_hood_recipe": {
+						"recipe_name": "Leather Hood",
+						"description": "A simple hood, made of standard leather."
+					},
+					"church_leather_vest_recipe": {
+						"recipe_name": "Leather Vest",
+						"description": "A leather vest over top of the standard issue robe of the Church of Plenty."
+					},
+					"heraldic_silver_armor_recipe": {
+						"recipe_name": "Heraldic Silver Armor",
+						"description": "Elite armor only granted to the most devout of Paladins."
+					},
+					"legendary_robe_recipe": {
+						"recipe_name": "Holy Cleric Robe",
+						"description": "A great gilded robe."
+					}
+				}
+			},
+			"worker": {
+				"worker_description": {
+					"display_name": "Monk",
+					"description": "The heart of any monastery. The faithful believers."
+				},
+				"recipes": {
+					"holy_water_recipe": {
+						"recipe_name": "Holy Water",
+						"description": "Imbued with spiritual essence"
+					}
+				}
+			}
+		}
+	},
+	"ui": {
+		"data": {
+			"constants": {
+				"healing_resource_name": "healing"
+			}
+		},
+		"game": {
+			"zones_mode": {
+				"stockpile": {
+					"filters": {
+						"tooltip_healing_items": "Healing Items"
+					}
+				}
+			}
+		}
+	}
+}

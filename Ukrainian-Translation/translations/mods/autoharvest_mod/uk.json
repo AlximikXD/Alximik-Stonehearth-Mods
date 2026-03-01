@@ -1,0 +1,42 @@
+{
+  "data": {
+    "commands": {
+      "autoharvest_on": {
+        "display_name": "Режим автозбирання ввімкнено",
+        "description": "Натисніть, щоб вимкнути його.",
+        "disabled_description": "Неможливо вимкнути зараз, спробуйте пізніше."
+      },
+      "autoharvest_off": {
+        "display_name": "Режим автозбирання ВИМКНЕНО",
+        "description": "Натисніть, щоб увімкнути його.",
+        "disabled_description": "Неможливо ввімкнути зараз, спробуйте пізніше."
+      }
+    }
+  },
+  "ui": {
+    "game": {
+      "menu": {
+        "harvest_menu": {
+          "items": {
+            "box_autoharvest": {
+              "display_name": "Autoharvest",
+              "description": "Виберіть вузли поновлюваних ресурсів, які збиратимуться автоматично.",
+              "tip_title": "Натисніть і перетягніть, щоб позначити ресурси для автоматичного збору",
+              "tip_description": "Клацніть правою кнопкою миші, щоб вийти з цього режиму"
+            }
+          }
+        }
+      }
+    },
+    "shell": {
+      "settings": {
+        "controls_tab": {
+          "key_binding_names": {
+            "harvest_autoharvest": "Перемкнути Autoharvest",
+            "harvest_box_autoharvest": "Box-Select для Autoharvest"
+          }
+        }
+      }
+    }
+  }
+}

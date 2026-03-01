@@ -1,0 +1,601 @@
+{
+  "entities": {
+    "decoration": {
+      "clay_column": {
+        "display_name": "Глиняна колона",
+        "description": "Декоративна глиняна колона."
+      },
+      "clay_column_half": {
+        "display_name": "Глиняна колона - пол",
+        "description": "Половина декоративної глиняної колони."
+      },
+      "clay_column_small": {
+        "display_name": "Глиняна колона – мала",
+        "description": "Невелика декоративна глиняна колона."
+      },
+      "clay_column_quarter": {
+        "display_name": "Глиняна колона – квартал",
+        "description": "Одна чверть декоративної глиняної колони."
+      },
+      "clay_floor_tile_large": {
+        "display_name": "Глиняна плитка для підлоги - велика",
+        "description": "Велика декоративна плитка для підлоги."
+      },
+      "clay_floor_tile_med": {
+        "display_name": "Глиняна плитка для підлоги - середня",
+        "description": "Декоративна плитка для підлоги середнього розміру."
+      },
+      "clay_floor_tile_small": {
+        "display_name": "Глиняна плитка для підлоги - мала (x4)",
+        "description": "Маленька декоративна плитка для підлоги."
+      },
+      "clay_floor_tile_wide": {
+        "display_name": "Глиняна плитка для підлоги - довга",
+        "description": "Довга декоративна плитка для підлоги."
+      },
+      "clay_floor_tile_short": {
+        "display_name": "Глиняна плитка для підлоги - довга (x2)",
+        "description": "Більш коротка, довга декоративна плитка для підлоги."
+      },
+      "stone_column": {
+        "display_name": "Кам'яна колона",
+        "description": "Декоративна кам'яна колона."
+      },
+      "stone_column_half": {
+        "display_name": "Кам'яна колона - пол",
+        "description": "Половина декоративної кам'яної колони."
+      },
+      "stone_column_small": {
+        "display_name": "Кам'яна колона - Мала",
+        "description": "Невелика декоративна кам'яна колона."
+      },
+      "stone_column_quarter": {
+        "display_name": "Кам'яна колона - кв",
+        "description": "Одна чверть декоративної кам'яної колони."
+      }
+    },
+    "stairs": {
+      "clay_stair_cap": {
+        "display_name": "Clay Capstone (x4)",
+        "description": "Глиняний замковий камінь."
+      },
+      "clay_stair_cap_long": {
+        "display_name": "Clay Capstone - Long (x2)",
+        "description": "Довгий глиняний камінь."
+      },
+      "clay_stair_corner_inside": {
+        "display_name": "Глиняні сходи - кут, всередині (x2)",
+        "description": "Внутрішній куточок для сходів."
+      },
+      "clay_stair_corner_outside": {
+        "display_name": "Глиняні сходи - кут, ззовні (x2)",
+        "description": "Зовнішній куточок для сходів."
+      },
+      "clay_stair_corner_inside_long": {
+        "display_name": "Глиняні сходи - довгий кут, всередині",
+        "description": "Довгий внутрішній куточок для сходів"
+      },
+      "clay_stair_corner_outside_long": {
+        "display_name": "Глиняні сходи - довгий кут, ззовні",
+        "description": "Довгий зовнішній куточок для сходів"
+      },
+      "clay_stair_end": {
+        "display_name": "Глиняні сходи - Кінець (x2)",
+        "description": "Наконечник для сходового маршу."
+      },
+      "clay_stair_end_long": {
+        "display_name": "Глиняні сходи - довгий кінець",
+        "description": "Довга кінцева частина для сходів"
+      },
+      "clay_stair_middle": {
+        "display_name": "Глиняні сходи - середина (x2)",
+        "description": "Середня частина для сходового ходу."
+      },
+      "clay_stair_middle_long": {
+        "display_name": "Глиняні сходи - довга середина",
+        "description": "Довга середня деталь для ряду сходів."
+      },
+      "clay_stair_middle_wide": {
+        "display_name": "Глиняні Сходи - Середня, Широка",
+        "description": "Широка середня деталь для сходового ходу."
+      },
+      "clay_stair_middle_long_wide": {
+        "display_name": "Глиняна Сходи - Довга Середня, Широка",
+        "description": "Довга, широка, середня деталь для ряду сходів."
+      },
+      "clay_stairs_spiral_ccw": {
+        "display_name": "Глиняні сходи - спіральні (CCW)",
+        "description": "Гвинтові сходи піднімаються проти годинникової стрілки."
+      },
+      "clay_stairs_spiral_cw": {
+        "display_name": "Глиняні сходи - спіральні (CW)",
+        "description": "Гвинтові сходи піднімаються за годинниковою стрілкою."
+      },
+      "clay_stairs_spiral_tight_ccw": {
+        "display_name": "Глиняні сходи - щільна спіраль (CCW)",
+        "description": "Туга гвинтові сходи піднімаються проти годинникової стрілки."
+      },
+      "clay_stairs_spiral_tight_cw": {
+        "display_name": "Глиняні сходи - туга спіраль (CW)",
+        "description": "Туга гвинтові сходи піднімаються за годинниковою стрілкою."
+      },
+      "stone_stair_cap": {
+        "display_name": "Stone Capstone (x4)",
+        "description": "Кам'яний замковий камінь."
+      },
+      "stone_stair_cap_long": {
+        "display_name": "Stone Capstone - Long (x2)",
+        "description": "Довгий камінь."
+      },
+      "stone_stair_corner_inside": {
+        "display_name": "Кам'яні сходи - кут, всередині (x2)",
+        "description": "Внутрішній куточок для сходів."
+      },
+      "stone_stair_corner_outside": {
+        "display_name": "Кам'яні сходи - кут, ззовні (x2)",
+        "description": "Зовнішній куточок для сходів."
+      },
+      "stone_stair_corner_inside_long": {
+        "display_name": "Кам'яні сходи - довгий кут, всередині",
+        "description": "Довгий кутовий елемент для сходів"
+      },
+      "stone_stair_corner_outside_long": {
+        "display_name": "Кам'яні сходи - довгий кут, ззовні",
+        "description": "Довгий кутовий елемент для сходів"
+      },
+      "stone_stair_end": {
+        "display_name": "Кам'яні сходи - Кінець (x2)",
+        "description": "Наконечник для сходового маршу."
+      },
+      "stone_stair_end_long": {
+        "display_name": "Кам'яні сходи - довгий кінець",
+        "description": "Довга кінцева частина для сходів"
+      },
+      "stone_stair_middle": {
+        "display_name": "Кам'яні сходи - середина (x2)",
+        "description": "Середня частина для сходового ходу."
+      },
+      "stone_stair_middle_long": {
+        "display_name": "Кам'яні сходи - довга середина",
+        "description": "Довга середня деталь для ряду сходів."
+      },
+      "stone_stair_middle_wide": {
+        "display_name": "Кам'яні Сходи - Середня, Широка",
+        "description": "Широка середня деталь для сходового ходу."
+      },
+      "stone_stair_middle_long_wide": {
+        "display_name": "Кам'яні Сходи - Довга Середня, Широка",
+        "description": "Довга, широка, середня деталь для ряду сходів."
+      },
+      "stone_stairs_spiral_ccw": {
+        "display_name": "Кам'яні сходи - спіральні (CCW)",
+        "description": "Гвинтові сходи піднімаються проти годинникової стрілки."
+      },
+      "stone_stairs_spiral_cw": {
+        "display_name": "Кам'яні сходи - спіральні (CW)",
+        "description": "Гвинтові сходи піднімаються за годинниковою стрілкою."
+      },
+      "stone_stairs_spiral_tight_ccw": {
+        "display_name": "Кам'яні сходи - туга спіраль (CCW)",
+        "description": "Туга гвинтові сходи піднімаються проти годинникової стрілки."
+      },
+      "stone_stairs_spiral_tight_cw": {
+        "display_name": "Кам'яні сходи - туга спіраль (CW)",
+        "description": "Туга гвинтові сходи піднімаються за годинниковою стрілкою."
+      },
+      "wood_landing_corner_inside": {
+        "display_name": "Дерев'яна площадка - Кутова, Внутрішня",
+        "description": "Внутрішня кутова частина посадкової площадки."
+      },
+      "wood_landing_corner_outside": {
+        "display_name": "Дерев'яна Посадка - Кутова, Зовні",
+        "description": "Зовнішня кутова ділянка сходової площадки."
+      },
+      "wood_landing_single_end": {
+        "display_name": "Дерев'яна посадка - кінець",
+        "description": "Єдина секція сходової площадки з поручнем, що її розділяє."
+      },
+      "wood_landing_single_post": {
+        "display_name": "Дерев'яна посадка - стовп",
+        "description": "Одиночна секція сходового майданчика з поручнями."
+      },
+      "wood_landing_single_rail": {
+        "display_name": "Дерев'яна посадка - Рейка",
+        "description": "Одиночна секція сходового майданчика з поручнем."
+      },
+      "wood_post_large": {
+        "display_name": "Дерев'яний опорний стовп - великий",
+        "description": "Велика дерев'яна опора."
+      },
+      "wood_post_small": {
+        "display_name": "Дерев'яний опорний стовп - маленький",
+        "description": "Невелика дерев'яна опора."
+      },
+      "wood_stair_cap": {
+        "display_name": "Дерев'яний ковпак для сходів - середній (x2)",
+        "description": "Середня частина для сходового ходу."
+      },
+      "wood_stair_cap_wide": {
+        "display_name": "Дерев'яний ковпак для сходів - широкий",
+        "description": "Широкий шматок для сходового ходу."
+      },
+      "wood_stair_cap_corner_inside": {
+        "display_name": "Дерев'яний ковпак для сходів - кут, всередині (x2)",
+        "description": "Внутрішній кут для одинарних сходів."
+      },
+      "wood_stair_cap_corner_outside": {
+        "display_name": "Дерев'яний ковпак для сходів - кутовий, зовнішній (x2)",
+        "description": "Зовнішній кут для одинарних сходів."
+      },
+      "wood_stair_cap_post": {
+        "display_name": "Дерев'яний ковпак для сходів",
+        "description": "Одинарна сходи зі стійкою для поручнів."
+      },
+      "wood_stair_cap_rail": {
+        "display_name": "Дерев'яний ковпак для сходів - рейка",
+        "description": "Одинарні сходи з поручнями."
+      },
+      "wood_stair_post": {
+        "display_name": "Дерев'яні сходи - стовп",
+        "description": "Одинарна сходи зі стійкою для поручнів."
+      },
+      "wood_stair_rail_left": {
+        "display_name": "Дерев'яні сходи - поруччя ліворуч",
+        "description": "Одні сходи з поручнем з лівого боку."
+      },
+      "wood_stair_rail_right": {
+        "display_name": "Дерев'яні сходи - поруччя справа",
+        "description": "Одинарні сходи з поручнями з правого боку."
+      },
+      "wood_stair_support": {
+        "display_name": "Дерев'яна опорна скоба",
+        "description": "Дерев'яна опора для сходів і майданчиків."
+      },
+      "wood_stairs_spiral_ccw": {
+        "display_name": "Дерев'яні сходи - спіральні (CCW)",
+        "description": "Гвинтові сходи піднімаються проти годинникової стрілки."
+      },
+      "wood_stairs_spiral_cw": {
+        "display_name": "Дерев'яні сходи - спіральні (CW)",
+        "description": "Гвинтові сходи піднімаються за годинниковою стрілкою."
+      }
+    }
+  },
+  "jobs": {
+    "carpenter": {
+      "recipes": {
+        "stairs_name": "Stairs",
+        "wood_landing_corner_inside": {
+          "recipe_name": "Дерев'яна посадка - внутрішній кут",
+          "description": "Внутрішня кутова частина посадкової площадки.",
+          "flavor": "За рогом заходимо."
+        },
+        "wood_landing_corner_outside": {
+          "recipe_name": "Дерев'яна площадка - зовнішній кут",
+          "description": "Зовнішня кутова ділянка сходової площадки.",
+          "flavor": "За рогом заходимо."
+        },
+        "wood_landing_single_end": {
+          "recipe_name": "Дерев'яна посадка - кінець",
+          "description": "Єдина секція сходової площадки з поручнем, що її розділяє.",
+          "flavor": "Дай мені перевести подих."
+        },
+        "wood_landing_single_post": {
+          "recipe_name": "Дерев'яна посадка - стовп",
+          "description": "Одиночна секція сходового майданчика з поручнями.",
+          "flavor": "Дай мені перевести подих."
+        },
+        "wood_landing_single_rail": {
+          "recipe_name": "Дерев'яна посадка - Рейка",
+          "description": "Одиночна секція сходового майданчика з поручнем.",
+          "flavor": "Дай мені перевести подих."
+        },
+        "wood_post_large": {
+          "recipe_name": "Дерев'яний опорний стовп - великий",
+          "description": "Велика дерев'яна опора.",
+          "flavor": "Стійко... Стійко!"
+        },
+        "wood_post_small": {
+          "recipe_name": "Дерев'яний опорний стовп - маленький",
+          "description": "Невелика дерев'яна опора.",
+          "flavor": "Стійко... Стійко!"
+        },
+        "wood_stair_cap": {
+          "recipe_name": "Дерев'яна кришка сходів (x2)",
+          "description": "Середня частина для сходового ходу.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "wood_stair_cap_corner_inside": {
+          "recipe_name": "Дерев'яний ковпак для сходів - кут, всередині (x2)",
+          "description": "Внутрішній кут для одинарних сходів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "wood_stair_cap_corner_outside": {
+          "recipe_name": "Дерев'яний ковпак для сходів - кутовий, зовнішній (x2)",
+          "description": "Зовнішній кут для одинарних сходів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "wood_stair_cap_post": {
+          "recipe_name": "Дерев'яний ковпак для сходів",
+          "description": "Одинарна сходи зі стійкою для поручнів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "wood_stair_cap_rail": {
+          "recipe_name": "Дерев'яний ковпак для сходів - рейка",
+          "description": "Одинарні сходи з поручнями.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "wood_stair_cap_wide": {
+          "recipe_name": "Дерев'яний ковпак для сходів - широкий",
+          "description": "Широкий шматок для сходового ходу.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "wood_stair_post": {
+          "recipe_name": "Дерев'яні сходи - стовп",
+          "description": "Одинарна сходи зі стійкою для поручнів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "wood_stair_rail_left": {
+          "recipe_name": "Дерев'яні сходи - поруччя ліворуч",
+          "description": "Одні сходи з поручнем з лівого боку.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "wood_stair_rail_right": {
+          "recipe_name": "Дерев'яні сходи - поруччя справа",
+          "description": "Одинарні сходи з поручнями з правого боку.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "wood_stair_support": {
+          "recipe_name": "Дерев'яна опорна скоба",
+          "description": "Дерев'яна опора для сходів і майданчиків.",
+          "flavor": "Стійко... Стійко!"
+        },
+        "wood_stairs_spiral_ccw": {
+          "recipe_name": "Дерев'яні сходи - спіральні (CCW)",
+          "description": "Гвинтові сходи піднімаються проти годинникової стрілки.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "wood_stairs_spiral_cw": {
+          "recipe_name": "Дерев'яні сходи - спіральні (CW)",
+          "description": "Гвинтові сходи піднімаються за годинниковою стрілкою.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        }
+      }
+    },
+    "mason": {
+      "recipes": {
+        "stairs_name": "Stairs",
+        "stone_column": {
+          "recipe_name": "Кам'яна колона",
+          "description": "Декоративна кам'яна колона.",
+          "flavor": "Тримає дах над головою."
+        },
+        "stone_column_half": {
+          "recipe_name": "Кам'яна колона - пол",
+          "description": "Половина декоративної кам'яної колони.",
+          "flavor": "Тримає дах над головою."
+        },
+        "stone_column_small": {
+          "recipe_name": "Кам'яна колона - Мала",
+          "description": "Невелика декоративна кам'яна колона.",
+          "flavor": "Тримає дах над головою."
+        },
+        "stone_column_quarter": {
+          "recipe_name": "Кам'яна колона - кв",
+          "description": "Одна чверть декоративної кам'яної колони.",
+          "flavor": "Тримає дах над головою."
+        },
+        "stone_stair_cap": {
+          "recipe_name": "Stone Capstone (x4)",
+          "description": "Кам'яний замковий камінь.",
+          "flavor": "Давайте зупинимося на цьому."
+        },
+        "stone_stair_cap_long": {
+          "recipe_name": "Stone Capstone - Long (x2)",
+          "description": "Довгий камінь.",
+          "flavor": "Давайте покладемо на це... більший ліміт."
+        },
+        "stone_stair_corner_inside": {
+          "recipe_name": "Кам'яні сходи - кут, всередині (x2)",
+          "description": "Внутрішній куточок для сходів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "stone_stair_corner_outside": {
+          "recipe_name": "Кам'яні сходи - кут, ззовні (x2)",
+          "description": "Зовнішній куточок для сходів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "stone_stair_corner_inside_long": {
+          "recipe_name": "Кам'яні сходи - довгий кут, всередині",
+          "description": "Довгий внутрішній куточок для сходів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "stone_stair_corner_outside_long": {
+          "recipe_name": "Кам'яні сходи - довгий кут, ззовні",
+          "description": "Довгий зовнішній куточок для сходів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "stone_stair_end": {
+          "recipe_name": "Кам'яні сходи - Кінець (x2)",
+          "description": "Наконечник для сходового маршу.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "stone_stair_end_long": {
+          "recipe_name": "Кам'яні сходи - довгий кінець",
+          "description": "Довга кінцева частина для сходів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "stone_stair_middle": {
+          "recipe_name": "Кам'яні сходи - середина (x2)",
+          "description": "Середня частина для сходового ходу.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "stone_stair_middle_long": {
+          "recipe_name": "Кам'яні сходи - довга середина",
+          "description": "Довга середня деталь для ряду сходів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "stone_stair_middle_wide": {
+          "recipe_name": "Кам'яні Сходи - Середня, Широка",
+          "description": "Широка середня деталь для сходового ходу.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "stone_stair_middle_long_wide": {
+          "recipe_name": "Кам'яні Сходи - Довга Середня, Широка",
+          "description": "Широка, довга, середня частина для сходів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "stone_stairs_spiral_ccw": {
+          "recipe_name": "Кам'яні сходи - спіральні (CCW)",
+          "description": "Гвинтові сходи піднімаються проти годинникової стрілки.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "stone_stairs_spiral_cw": {
+          "recipe_name": "Кам'яні сходи - спіральні (CW)",
+          "description": "Гвинтові сходи піднімаються за годинниковою стрілкою.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "stone_stairs_spiral_tight_ccw": {
+          "recipe_name": "Кам'яні сходи - туга спіраль (CCW)",
+          "description": "Туга гвинтові сходи піднімаються проти годинникової стрілки.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "stone_stairs_spiral_tight_cw": {
+          "recipe_name": "Кам'яні сходи - туга спіраль (CW)",
+          "description": "Туга гвинтові сходи піднімаються за годинниковою стрілкою.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        }
+      }
+    },
+    "potter": {
+      "recipes": {
+        "stairs_name": "Stairs",
+        "clay_column": {
+          "recipe_name": "Глиняна колона",
+          "description": "Декоративна глиняна колона.",
+          "flavor": "Тримає дах над головою."
+        },
+        "clay_column_half": {
+          "recipe_name": "Глиняна колона - пол",
+          "description": "Половина декоративної глиняної колони.",
+          "flavor": "Тримає дах над головою."
+        },
+        "clay_column_small": {
+          "recipe_name": "Глиняна колона – мала",
+          "description": "Невелика декоративна глиняна колона.",
+          "flavor": "Тримає дах над головою."
+        },
+        "clay_column_quarter": {
+          "recipe_name": "Глиняна колона – квартал",
+          "description": "Одна чверть декоративної глиняної колони.",
+          "flavor": "Тримає дах над головою."
+        },
+        "clay_floor_tile_large": {
+          "recipe_name": "Глиняна плитка для підлоги - велика",
+          "description": "Велика, декоративна плитка для підлоги.",
+          "flavor": "Охолодити на босу ногу."
+        },
+        "clay_floor_tile_med": {
+          "recipe_name": "Глиняна плитка для підлоги - середня",
+          "description": "Декоративна плитка для підлоги середнього розміру.",
+          "flavor": "Охолодити на босу ногу."
+        },
+        "clay_floor_tile_small": {
+          "recipe_name": "Глиняна плитка для підлоги - мала (x4)",
+          "description": "Маленька, декоративна плитка для підлоги.",
+          "flavor": "Охолодити на босу ногу."
+        },
+        "clay_floor_tile_wide": {
+          "recipe_name": "Глиняна плитка для підлоги - довга",
+          "description": "Довга декоративна плитка для підлоги.",
+          "flavor": "Охолодити на босу ногу."
+        },
+        "clay_floor_tile_short": {
+          "recipe_name": "Глиняна плитка для підлоги - коротка (x2)",
+          "description": "Більш коротка, довга декоративна плитка для підлоги.",
+          "flavor": "Охолодити на босу ногу."
+        },
+        "clay_stair_cap": {
+          "recipe_name": "Clay Capstone (x4)",
+          "description": "Глиняний замковий камінь.",
+          "flavor": "Давайте зупинимося на цьому."
+        },
+        "clay_stair_cap_long": {
+          "recipe_name": "Clay Capstone - Long (x2)",
+          "description": "Довгий глиняний камінь.",
+          "flavor": "Давайте покладемо на це... більший ліміт."
+        },
+        "clay_stair_corner_inside": {
+          "recipe_name": "Глиняні сходи - кут, всередині (x2)",
+          "description": "Внутрішній куточок для сходів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "clay_stair_corner_outside": {
+          "recipe_name": "Глиняні сходи - кут, ззовні (x2)",
+          "description": "Зовнішній куточок для сходів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "clay_stair_corner_inside_long": {
+          "recipe_name": "Глиняні сходи - довгий кут, всередині",
+          "description": "Довгий внутрішній куточок для сходів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "clay_stair_corner_outside_long": {
+          "recipe_name": "Глиняні сходи - довгий кут, ззовні",
+          "description": "Довгий зовнішній куточок для сходів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "clay_stair_end": {
+          "recipe_name": "Глиняні сходи - Кінець (x2)",
+          "description": "Наконечник для сходового маршу.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "clay_stair_end_long": {
+          "recipe_name": "Глиняні сходи - довгий кінець",
+          "description": "Довга кінцева частина для сходів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "clay_stair_middle": {
+          "recipe_name": "Глиняні сходи - середина (x2)",
+          "description": "Середня частина для сходового ходу.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "clay_stair_middle_long": {
+          "recipe_name": "Глиняні сходи - довга середина",
+          "description": "Довга середня деталь для ряду сходів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "clay_stair_middle_wide": {
+          "recipe_name": "Глиняні Сходи - Середня, Широка",
+          "description": "Середня частина для сходового ходу.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "clay_stair_middle_long_wide": {
+          "recipe_name": "Глиняна Сходи - Довга Середня, Широка",
+          "description": "Довга середня деталь для ряду сходів.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "clay_stairs_spiral_ccw": {
+          "recipe_name": "Глиняні сходи - спіральні (CCW)",
+          "description": "Гвинтові сходи піднімаються проти годинникової стрілки.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "clay_stairs_spiral_cw": {
+          "recipe_name": "Глиняні сходи - спіральні (CW)",
+          "description": "Гвинтові сходи піднімаються за годинниковою стрілкою.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "clay_stairs_spiral_tight_ccw": {
+          "recipe_name": "Глиняні сходи - щільна спіраль (CCW)",
+          "description": "Туга гвинтові сходи піднімаються проти годинникової стрілки.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        },
+        "clay_stairs_spiral_tight_cw": {
+          "recipe_name": "Глиняні сходи - туга спіраль (CW)",
+          "description": "Туга гвинтові сходи піднімаються за годинниковою стрілкою.",
+          "flavor": "Вгору, вгору, вгору ми йдемо!"
+        }
+      }
+    }
+  }
+}

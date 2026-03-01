@@ -1,0 +1,57 @@
+{
+  "entities": {
+    "critters": {
+      "deer": {
+        "display_name": "i18n(cm:entities.critters.deer.display_name_yamato)"
+      },
+      "deer_horned": {
+        "display_name": "i18n(cm:entities.critters.deer_horned.display_name_yamato)"
+      },
+      "squirrel": {
+        "display_name": "i18n(cm:entities.critters.squirrel.display_name_yamato)"
+      },
+      "red_fox_wolf": {
+        "display_name": "i18n(cm:entities.critters.red_fox_wolf.display_name_yamato)"
+      },
+      "rabbit": {
+        "display_name": "i18n(cm:entities.critters.rabbit.display_name_yamato)"
+      },
+      "racoon": {
+        "display_name": "i18n(cm:entities.critters.racoon.display_name_yamato)"
+      },
+      "sheep": {
+        "display_name": "i18n(cm:entities.critters.sheep.display_name_yamato)"
+      },
+      "moomoo": {
+        "display_name": "i18n(cm:entities.critters.moomoo.display_name_yamato)"
+      },
+      "wild_moomoo": {
+        "display_name": "i18n(cm:entities.critters.wild_moomoo.display_name_yamato)"
+      }
+    },
+    "monsters": {
+      "forest": {
+        "bear": {
+          "display_name": "i18n(cm:entities.monsters.forest.bear.display_name_yamato)"
+        },
+        "cougar": {
+          "display_name": "i18n(cm:entities.monsters.forest.cougar.display_name_yamato)"
+        },
+        "wolf": {
+          "display_name": "i18n(cm:entities.monsters.forest.wolf.display_name_yamato)"
+        },
+        "entling": {
+          "display_name": "i18n(cm:entities.monsters.forest.entling.display_name_yamato)"
+        }
+      },
+      "avian": {
+        "duckduck": {
+          "display_name": "i18n(cm:entities.monsters.avian.duckduck.display_name_yamato)"
+        },
+        "ostrich": {
+          "display_name": "i18n(cm:entities.monsters.avian.ostrich.display_name_yamato)"
+        }
+      }
+    }
+  }
+}
